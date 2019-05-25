@@ -1,0 +1,936 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  Basic1:
+    name: First Lore of Survive
+    ask-message: There is some basic work to do. Could you make that?
+    finish-message: Okay! It's enough for now. Come later...
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Cow
+          - Pig
+          mob-amounts:
+          - 2
+          - 4
+          start-message: First, find something to eat.
+          complete-message: Okay, it's enough.
+        '2':
+          break-block-names:
+          - LOG
+          break-block-amounts:
+          - 5
+          break-block-durability:
+          - 0
+          objective-override: Gather some Oak Logs.
+          start-message: It's time to get some necessary materials.
+          complete-message: Well done!
+        '3':
+          break-block-names:
+          - STONE
+          break-block-amounts:
+          - 28
+          break-block-durability:
+          - 0
+          start-message: Now try to get some Stone...
+          complete-message: Well done!
+        '4':
+          place-block-names:
+          - SAPLING
+          place-block-amounts:
+          - 6
+          place-block-durability:
+          - 0
+          delay: 50
+          delay-message: That's great, isn't it? Watching way it grows...
+          objective-override: Plant the trees and wait until they grow up.
+          start-message: When you take something from nature, you must also give something
+            away.
+          complete-message: Isn't beautiful? The nature...
+    rewards:
+      money: 75
+      quest-points: 1
+      exp: 450
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '450'
+    planner:
+      repeat: 21600
+      cooldown: 21600
+  Basic2:
+    name: Second Lore of Survive
+    ask-message: Do you like water? It's sloshy work to do.
+    finish-message: Good catch!
+    requirements:
+      quests:
+      - First Lore of Survive
+      fail-requirement-message: §cYou can not start this quest until the §6First Lore
+        of Survive §cfinished.
+    stages:
+      ordered:
+        '1':
+          fish-to-catch: 14
+          start-message: Catch some juicy fish.
+          complete-message: Big one!
+    rewards:
+      money: 75
+      quest-points: 1
+      exp: 450
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '450'
+    planner:
+      repeat: 21600
+      cooldown: 21600
+  Basic3:
+    name: Third Lore of Survive
+    ask-message: It's something farm related to do. Wanna make it?
+    finish-message: Work is over. That wasn't simple job, was it? You are so patient,
+      I'm really surprised!
+    requirements:
+      quests:
+      - Second Lore of Survive
+      fail-requirement-message: §cYou can not start this quest until the §6Second
+        Lore of Survive §cfinished.
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - '59'
+          place-block-amounts:
+          - 6
+          place-block-durability:
+          - 7
+          delay: 38
+          delay-message: These crops will grow up. Just wait!
+          objective-override: Plant some crops and wait until it grows.
+          start-message: Let's start with something basic. Plant some crops and wait
+            until it grows. Now the patient is the recipe for success.
+          complete-message: There's some nice golden wheat.
+        '2':
+          break-block-names:
+          - '59'
+          break-block-amounts:
+          - 6
+          break-block-durability:
+          - 7
+          objective-override: Gather wheat.
+          start-message: Let's gather them now.
+          complete-message: Yeah there they are.
+        '3':
+          place-block-names:
+          - '104'
+          place-block-amounts:
+          - 1
+          place-block-durability:
+          - 7
+          delay: 90
+          delay-message: These seeds will grow up. Just wait!
+          objective-override: Plant pumpkin seeds and wait until they grow.
+          start-message: Now something harder. Plant a pumpkin and wait until it grows.
+            These seeds are more uncommon.
+          complete-message: That pumpkin is perfect for pie!
+        '4':
+          break-block-names:
+          - pumpkin
+          break-block-amounts:
+          - 1
+          break-block-durability:
+          - 0
+          objective-override: Gather the pumpkin.
+          start-message: Let's gather it now.
+          complete-message: Yeah there it is.
+        '5':
+          place-block-names:
+          - '105'
+          place-block-amounts:
+          - 1
+          place-block-durability:
+          - 7
+          delay: 90
+          delay-message: These seeds will grow up. Just wait!
+          objective-override: Plant melon seeds and wait until they grow.
+          start-message: Now get a something more sweeter! Plant a melon and wait
+            until it grows.
+          complete-message: That melon gonna be so tasty!
+        '6':
+          break-block-names:
+          - '103'
+          break-block-amounts:
+          - 1
+          break-block-durability:
+          - 0
+          objective-override: Gather the melon.
+          start-message: Let's gather it now.
+          complete-message: Yeah there it is but work is not over yet!
+        '7':
+          place-block-names:
+          - '141'
+          place-block-amounts:
+          - 2
+          place-block-durability:
+          - 7
+          delay: 50
+          delay-message: These carrots will grow up. Just wait!
+          objective-override: Plant carrots and wait until they grow.
+          start-message: And again something more basic. Plant carrots and wait until
+            they grow.
+          complete-message: And there they are, carrots.
+        '8':
+          break-block-names:
+          - '141'
+          break-block-amounts:
+          - 2
+          break-block-durability:
+          - 7
+          objective-override: Gather carrots.
+          start-message: Let's gather them now.
+          complete-message: Have you even heard rumor about the golden carrot? No?
+            Nevermind...
+        '9':
+          place-block-names:
+          - '142'
+          place-block-amounts:
+          - 2
+          place-block-durability:
+          - 7
+          delay: 50
+          delay-message: These potatos will grow up. Just wait!
+          objective-override: Plant potatos and wait until they grow.
+          start-message: Now plant some potatos. Obviously wait until they grow.
+          complete-message: Okay...
+        '10':
+          break-block-names:
+          - '142'
+          break-block-amounts:
+          - 2
+          break-block-durability:
+          - 7
+          objective-override: Gather potatos.
+          start-message: Let's gather them now.
+          complete-message: Well done but that's not over. Last one thing!
+        '11':
+          place-block-names:
+          - '207'
+          place-block-amounts:
+          - 2
+          place-block-durability:
+          - 3
+          delay: 40
+          delay-message: These beetroots will grow up. I've told you that's work for
+            patient person!
+          objective-override: Plant beetroot seeds and wait until they grow.
+          start-message: Now plant some beetroots and again wait until they grow up.
+          complete-message: Almost done!
+        '12':
+          break-block-names:
+          - '207'
+          break-block-amounts:
+          - 2
+          break-block-durability:
+          - 3
+          objective-override: Gather beetroots.
+          start-message: Let's gather them now.
+          complete-message: Well done!
+    rewards:
+      money: 75
+      quest-points: 1
+      exp: 450
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '450'
+    planner:
+      repeat: 21600
+      cooldown: 21600
+  Basic4:
+    name: Fourth Lore of Survive
+    ask-message: That's time to take care of animals. Are you ready?
+    finish-message: Watch! They are happy now... mostly.
+    requirements:
+      quests:
+      - Third Lore of Survive
+      fail-requirement-message: §cYou can not start this quest until the §6Third Lore
+        of Survive §cfinished.
+    stages:
+      ordered:
+        '1':
+          sheep-to-shear:
+          - Black
+          - White
+          sheep-amounts:
+          - 1
+          - 4
+          start-message: Let's start with something simple. Let's shear these sheeps!
+          complete-message: Good job. Now we have necessary wool!
+        '2':
+          mobs-to-tame:
+          - Wolf
+          - Horse
+          - Llama
+          mob-tame-amounts:
+          - 2
+          - 1
+          - 2
+          start-message: We need these animals. Could you catch them?
+          complete-message: Good job!
+    rewards:
+      money: 450
+      quest-points: 1
+      exp: 450
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '450'
+    planner:
+      repeat: 21600
+      cooldown: 21600
+  Basic5:
+    name: Fifth Lore of Survive
+    ask-message: It's time to go hunting. Are you ready?
+    finish-message: Well done. These leathers will help in the cold nights.
+    requirements:
+      quests:
+      - Fourth Lore of Survive
+      fail-requirement-message: §cYou can not start this quest until the §6Fourth
+        Lore of Survive §cfinished.
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Rabbit
+          - Chicken
+          - Wolf
+          - Spider
+          mob-amounts:
+          - 4
+          - 5
+          - 6
+          - 6
+          start-message: Good luck!
+          complete-message: That's all!
+    rewards:
+      money: 75
+      quest-points: 1
+      exp: 450
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '450'
+    planner:
+      repeat: 21600
+      cooldown: 21600
+  custom1:
+    name: <green>Nightly Hunting
+    ask-message: <green>In the night there is a lot of scary monsters around. Would
+      you make a favor and kill them for me?
+    finish-message: <green>I'm glad for your help with these monsters. Thank you!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Cave Spider
+          - Creeper
+          - Skeleton
+          - Spider
+          - Zombie
+          mob-amounts:
+          - 5
+          - 10
+          - 12
+          - 14
+          - 25
+    rewards:
+      money: 150
+      quest-points: 3
+      exp: 3000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '3000'
+    planner:
+      repeat: 86400
+      cooldown: 86400
+  custom2:
+    name: <red>Walking through the Hell
+    ask-message: §cThis is a real challenge. Our scouts discovered dark portal to
+      diffrent dimension. Could you investigate that place?
+    finish-message: §cGood work. Thanks to you we have learned a lot about this place.
+    requirements:
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '28'
+      fail-requirement-message: §cYou are too weak to take this job now. Come back
+        when have at least §6§l28lvl§r§c!
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - Netherrack
+          - Quartz_ore
+          - soul_sand
+          - glowstone
+          break-block-amounts:
+          - 30
+          - 12
+          - 28
+          - 2
+          break-block-durability:
+          - 0
+          - 0
+          - 0
+          - 0
+    rewards:
+      money: 500
+      quest-points: 5
+      exp: 7500
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '7500'
+    planner:
+      repeat: 86400
+      cooldown: 86400
+  custom3:
+    name: <red>Hell's Army
+    ask-message: §cOur scouts inform about dangerous minions deriving from nether.
+      Could you hunt them down?
+    finish-message: §cWell done! We all breathed a sigh of relief. For this time!
+    requirements:
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '30'
+      fail-requirement-message: §cYou are too weak to take this job now. Come back
+        when have at least §6§l30lvl§r§c!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - PigZombie
+          - Ghast
+          - Enderman
+          mob-amounts:
+          - 30
+          - 7
+          - 8
+    rewards:
+      money: 650
+      quest-points: 6
+      exp: 9000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '9000'
+    planner:
+      repeat: 86400
+      cooldown: 86400
+  custom4:
+    name: <red>Hell's Fortress
+    ask-message: <red>We've found a fortress in the nether which I want to investigate.
+      But there is a one little complication. A lot of dangerous monsters walking
+      around so could you solve this problem right now?
+    finish-message: <red>Just as I thought, well done. Now I'm able to do my work.
+    requirements:
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '36'
+      fail-requirement-message: §cYou are too weak to take this job now. Come back
+        when have at least §6§l36lvl§r§c!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Ghast
+          - PigZombie
+          - Blaze
+          - Skeleton
+          - WitherSkeleton
+          mob-amounts:
+          - 4
+          - 36
+          - 8
+          - 18
+          - 18
+    rewards:
+      money: 780
+      quest-points: 8
+      exp: 12500
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '12500'
+    planner:
+      repeat: 86400
+      cooldown: 86400
+  custom5:
+    name: §5At the Edge of the World
+    ask-message: §5Have you ever heard about a myth concering creation of this world?
+      Seven powerful dragons ruled the universe. Something gone wrong then they started
+      fight for the death. Three of them decided to recede and created three diffrent
+      worlds. One of them is where we are living now. Second is already discovered.
+      Did you wonder to investigate last of them?
+    finish-message: §5That will improve my research about acquiring mana from the
+      environment. Thank you for your efforts!
+    requirements:
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '58'
+      fail-requirement-message: §cYou are too weak to take this job now. Come back
+        when have at least §6§l58lvl§r§c!
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - ENDER_STONE
+          - CHORUS_FLOWER
+          break-block-amounts:
+          - 3
+          - 3
+          break-block-durability:
+          - 0
+          - 0
+        '2':
+          place-block-names:
+          - CHORUS_FLOWER
+          place-block-amounts:
+          - 3
+          place-block-durability:
+          - 0
+          delay: 60
+          delay-message: That's great, isn't it? Watching way it grows...
+          objective-override: §5Place chorus flowers on the end stones and check what
+            gonna happen. Wait and observe the flowers.
+          start-message: §5What would happen with these flowers if placed on the stones?
+            Let's wait a minute. That's really... striking.
+          complete-message: §5That's unbelievable! That flower just became a tree.
+        '3':
+          break-block-names:
+          - ENDER_STONE
+          - CHORUS_FLOWER
+          break-block-amounts:
+          - 30
+          - 30
+          break-block-durability:
+          - 0
+          - 0
+          objective-override: §5Collect more ender stones and chorus flowers.
+          start-message: §5I have one more favor to ask... Could you collect some
+            necessary samples?
+          complete-message: §5That's enough.
+    rewards:
+      money: 1350
+      quest-points: 8
+      exp: 25000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '25000'
+  custom6:
+    name: §5Mythic City
+    ask-message: §5Let me tell a story but not about golden cities and diamond rivers.
+      It's dark legend. The peaceful land with a forgotten name, full of magical unusual
+      beings. Time was passing slowly there, focused on pleasures. They were sinking
+      in own thoughts. Making dreams a reality. Obviously, paradise couldn't last
+      forever. Wonderland was invaded by odd unidentified power which was distorting
+      everything what came into contact with. The truth is that it's not just a ordinary
+      rumor. That place really exist... and I want you to investigate it. Would you
+      tackle this work?
+    finish-message: §5Well done. These samples will be useful.
+    requirements:
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '60'
+      fail-requirement-message: §cYou are too weak to take this job now. Come back
+        when have at least §6§l60lvl§r§c!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - Shulker
+          mob-amounts:
+          - 3
+          start-message: §7I've heard about odd monsters living in this area. That
+            could be a good trace to start with.
+          complete-message: §7Okay here it is...
+        '2':
+          break-block-names:
+          - '201'
+          - '202'
+          - '206'
+          - '198'
+          break-block-amounts:
+          - 8
+          - 5
+          - 5
+          - 2
+          break-block-durability:
+          - 0
+          - 0
+          - 0
+          - 0
+          start-message: §7I could take some samples with me...
+          complete-message: §7That's it!
+    planner:
+      repeat: 86400
+      cooldown: 86400
+    rewards:
+      money: 1500
+      quest-points: 10
+      exp: 36000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '36000'
+  custom6:
+    name: §5The Dragon §c[BOSS]
+    ask-message: §5Aforetime dragons ruled the universe.
+      No one is able to remember these distant times...
+      I've found trace of something special. A lot of mythical energy is coming from the edge. 
+      That work might not be proper for only one person. It's better to prepare a team.
+      Are you ready for the adventure?
+    finish-message: §5Well done, the dragon is dead! I'll use parts of it for something special...
+    requirements:
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '80'
+      fail-requirement-message: §cYou are too weak to take this job now. Come back
+        when have at least §6§l80lvl§r§c!
+    stages:
+      ordered:
+        '1':
+          mobs-to-kill:
+          - ENDER DRAGON
+          mob-amounts:
+          - 1
+          start-message: §7The dragon's nest isn't in our dimension. You must find it! Good luck...
+    planner:
+      repeat: 86400
+      cooldown: 86400
+    rewards:
+      money: 2750
+      quest-points: 10
+      exp: 70000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '70000'
+  Altar1:
+    name: §6Obsydian Altar
+    ask-message: §6I've heard a rumors about Ancient Altar. Particular compass is
+      necessary to find that place out. Well, as a matter of fact I own it. But of
+      course I won't hand it over for free. §l250§r§6 golden coins will be enough. Also
+      I have to warn you... don't die durning this mission. So, deal?
+    finish-message: §6So the rumors were true...
+    requirements:
+      money: 250
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '80'
+      fail-requirement-message: §cYou don't have at least §6§l80lvl§r§c or enough
+        money to start this quest now.
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - world -13.0 129.0 1142.0
+          reach-location-radii:
+          - 7
+          reach-location-names:
+          - Obsydian Altar
+          start-event: GiveCompass
+          finish-event: ObsydianAltarSPAWN
+          delay: 30
+          delay-message: §cStrange energy spreads over this place. Something dangerous
+            approaching...
+          start-message: §6Good deal... Just follow the compass indication.
+          complete-message: §6Woah, that's odd! Wait a minute...
+        '2':
+          mobs-to-kill:
+          - Stray
+          - Wither Skeleton
+          mob-amounts:
+          - 6
+          - 4
+          locations-to-kill:
+          - world -13.0 129.0 1142.0
+          - world -13.0 129.0 1142.0
+          kill-location-radii:
+          - 50
+          - 50
+          kill-location-names:
+          - Obsydian Altar
+          - Obsydian Altar
+          finish-event: ObsydianAltarSPAWN
+          death-event: DeathFail
+          disconnect-event: DeathFail
+          delay: 60
+          delay-message: §cSurvive a little longer...
+          start-message: §6Ghosts, fight with them! You mustn't die now.
+          complete-message: §6Woah, that's dangerous!
+    rewards:
+      money: 2550
+      quest-points: 10
+      exp: 50000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '50000'
+    planner:
+      repeat: 86400
+      cooldown: 86400
+  Altar2BOSS:
+    name: §6Wither's Altar §c[BOSS]
+    ask-message: §6I've heard a rumors about Ancient Altar. Particular compass is
+      necessary to find that place out. Well, as a matter of fact I own it. But of
+      course I won't hand it over for free. §l500§r§6 golden coins will be enough. Also
+      I have to warn you... It's not safe to make that job alone. So, deal?
+    finish-message: §6So the rumors were true...
+    requirements:
+      money: 500
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '130'
+      fail-requirement-message: §cYou don't have at least §6§l130lvl§r§c or enough
+        money to start this quest now.
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - world 875.0 64.0 487.5
+          reach-location-radii:
+          - 6
+          reach-location-names:
+          - Desert Altar
+          start-event: GiveCompass
+          finish-event: WitherAltarSPAWN
+          delay: 30
+          delay-message: §cStrange energy spreads over this place. Something dangerous
+            approaching...
+          start-message: §6Good deal... Just follow the compass indication.
+          complete-message: §6Woah, that's odd! Wait a minute...
+        '2':
+          mobs-to-kill:
+          - Wither Skeleton
+          mob-amounts:
+          - 6
+          locations-to-kill:
+          - world 875.0 64.0 487.5
+          kill-location-radii:
+          - 50
+          kill-location-names:
+          - Wither Altar
+          finish-event: WitherAltarSPAWNBOSS
+          death-event: DeathFail
+          disconnect-event: DeathFail
+          start-message: §6Ghosts, fight with them! You mustn't die now.
+          complete-message: §6It's not over!
+        '3':
+          mobs-to-kill:
+          - Wither
+          mob-amounts:
+          - 1
+          locations-to-kill:
+          - world 875.0 64.0 487.5
+          kill-location-radii:
+          - 50
+          kill-location-names:
+          - Wither Altar
+          death-event: DeathFail
+          disconnect-event: DeathFail
+          start-message: §6Ancient Wither! You mustn't die now.
+          complete-message: §6Woah, that was dangerous!
+    rewards:
+      money: 5000
+      quest-points: 10
+      exp: 100000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '100000'
+    planner:
+      repeat: 259200
+      cooldown: 259200
+  Altar3:
+    name: §6Desert Altar
+    ask-message: §6I've heard a rumors about Ancient Altar. Particular compass is
+      necessary to find that place out. Well, as a matter of fact I own it. But of
+      course I won't hand it over for free. §l250§r§6 golden coins will be enough. Also
+      I have to warn you... don't die durning this mission. So, deal?
+    finish-message: §6So the rumors were true...
+    requirements:
+      money: 250
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '150'
+      fail-requirement-message: §cYou don't have at least §6§l150lvl§r§c or enough
+        money to start this quest now.
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - world 1635.0 81.0 329.0
+          reach-location-radii:
+          - 7
+          reach-location-names:
+          - Desert Altar
+          start-event: GiveCompass
+          finish-event: DesertAltarSPAWN
+          delay: 30
+          delay-message: §cStrange energy spreads over this place. Something dangerous
+            approaching...
+          start-message: §6Good deal... Just follow the compass indication.
+          complete-message: §6Woah, that's odd! Wait a minute...
+        '2':
+          mobs-to-kill:
+          - Husk
+          - Wither Skeleton
+          mob-amounts:
+          - 6
+          - 4
+          locations-to-kill:
+          - world 1635.0 81.0 329.0
+          - world 1635.0 81.0 329.0
+          kill-location-radii:
+          - 50
+          - 50
+          kill-location-names:
+          - Desert Altar
+          - Desert Altar
+          finish-event: DesertAltarSPAWN
+          death-event: DeathFail
+          disconnect-event: DeathFail
+          delay: 60
+          delay-message: §cSurvive a little longer...
+          start-message: §6Ghosts, fight with them! You mustn't die now.
+          complete-message: §6Woah, that's dangerous!
+    rewards:
+      money: 3500
+      quest-points: 10
+      exp: 89000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '89000'
+    planner:
+      repeat: 86400
+      cooldown: 86400
+  Altar4BOSS:
+    name: §6Dragon's Altar §c[BOSS]
+    ask-message: §6I've heard a rumors about Ancient Altar. Particular compass is
+      necessary to find that place out. Well, as a matter of fact I own it. But of
+      course I won't hand it over for free. §l500§r§6 golden coins will be enough. Also
+      I have to warn you... It's not safe to make that job alone. So, deal?
+    finish-message: §6So the rumors were true...
+    requirements:
+      money: 500
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '170'
+      fail-requirement-message: §cYou don't have at least §6§l170lvl§r§c or enough
+        money to start this quest now.
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - world 1059.5 34.0 1272.3
+          reach-location-radii:
+          - 6
+          reach-location-names:
+          - Dragon's Nest
+          start-event: GiveCompass
+          finish-event: DragonAltarSPAWN
+          delay: 30
+          delay-message: §cStrange energy spreads over this place. Something dangerous
+            approaching...
+          start-message: §6Good deal... Just follow the compass indication.
+          complete-message: §6Woah, that's odd! Wait a minute...
+        '2':
+          mobs-to-kill:
+          - Enderman
+          mob-amounts:
+          - 4
+          locations-to-kill:
+          - world 1059.5 34.0 1272.3
+          kill-location-radii:
+          - 50
+          kill-location-names:
+          - Dragon's Nest
+          finish-event: DragonAltarSPAWNBOSS
+          death-event: DeathFail
+          disconnect-event: DeathFail
+          start-message: §6Guardians, fight with them! You mustn't die now.
+          complete-message: §6It's not over!
+        '3':
+          mobs-to-kill:
+          - Wither 
+          mob-amounts:
+          - 1
+          locations-to-kill:
+          - world 1059.5 34.0 1272.3
+          kill-location-radii:
+          - 50
+          kill-location-names:
+          - Dragon's Nest
+          death-event: DeathFail
+          disconnect-event: DeathFail
+          start-message: §6It's not a dragon... but a Wither!  You mustn't die now.
+          complete-message: §6Woah, that was dangerous!
+    rewards:
+      money: 7500
+      quest-points: 10
+      exp: 200000
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '200000'
+    planner:
+      repeat: 259200
+      cooldown: 259200
