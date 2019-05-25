@@ -25,4 +25,4 @@
 
 **Note: It may require MMOItems premium version for some features.**
 
-**All extern features by iomatix (C) 2019.**
+**All new extern features designed by iomatix (C) 2019.**
