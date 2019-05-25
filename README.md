@@ -8,7 +8,7 @@
 - Exp tables designed for [Conquestiamobs](https://www.spigotmc.org/resources/conquestia-mobs.21307/).
 - One special class "Adventurer" with access for all skills - It allows players to make their own dream builds.
 
-**Note: It may require SkillAPI premium version for some features.**
+**Note: It requires SkillAPI premium version for some features.**
 
 **[Quests](https://www.spigotmc.org/resources/quests.3711/)**
 - Bundle of unique multi-stage quests with custom events with short storylines for each core bioms. 
@@ -23,6 +23,6 @@
 - Unique crafting recipes, all of the items are craftable.
 - Connected with SkillApi. Provides items related for SkillApi, for example: attributes reset scroll.
 
-**Note: It may require MMOItems premium version for some features.**
+**Note: It requires MMOItems premium version for some features.**
 
 **All new extern features designed by iomatix (C) 2019.**
