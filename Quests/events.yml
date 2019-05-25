@@ -1,0 +1,167 @@
+events:
+  ApplyPotion:
+    message: <blue>You received potion effects!
+    potion-effect-types:
+    - Speed
+    - Jump
+    potion-effect-durations:
+    - 100
+    - 25
+    potion-effect-amplifiers:
+    - 3
+    - 2
+  NiceFinish:
+    message: <green>Nice work!
+  DeathFail:
+    fail-quest: true
+  RodStart:
+    message: <yellow>Type 'rod' in chat to get a fishing rod!
+  GiveCompass:
+    message: <red>You would need that!
+    items:
+    - name-compass:amount-1
+  GiveRod:
+    message: <green>Here you go!
+    items:
+    - name-fishing_rod:amount-1
+  TimerStart40:
+    timer: 40
+  TimerStart60:
+    timer: 60
+  TimerStart25:
+    timer: 25
+  CancelTimer:
+    cancel-timer: true
+  RunCommand:
+    message: <red>Did you mean 'help'?
+    commands:
+    - help
+  ObsydianAltarSPAWN:
+    message: <red>Lost souls have returned!
+    effects:
+    - CLICK2
+    effect-locations:
+    - world -12.0 130.0 1142.0
+    mob-spawns:
+      '0':
+        spawn-location: world -13.0 126.0 1137.0
+        mob-type: VEX
+        spawn-amounts: 4
+      '1':
+        spawn-location: world -13.0 127.0 1147.0
+        mob-type: STRAY
+        spawn-amounts: 8
+      '2':
+        spawn-location: world -20.0 128.0 1141.0
+        mob-type: WITHER_SKELETON
+        spawn-amounts: 6
+    lightning-strikes:
+    - world -12.0 131.0 1142.0
+    - world -24.0 128.0 1150.0
+    - world -9.0 130.0 1146.0
+    - world -16.0 130.0 1146.0
+    - world -16.0 130.0 1138.0
+    - world -9.0 130.0 1138.0
+  DesertAltarSPAWN:
+    message: <red>Desert wraiths have returned!
+    effects:
+    - CLICK2
+    effect-locations:
+    - world 1635.0 81.0 329.0
+    mob-spawns:
+      '0':
+        spawn-location: world 1630.0 82.0 325.0
+        mob-type: HUSK
+        spawn-amounts: 4
+      '1':
+        spawn-location: world 1639.0 82.0 329.0
+        mob-type: WITHER_SKELETON
+        spawn-amounts: 6
+      '2':
+        spawn-location: world 1630.0 82.0 333.0
+        mob-type: HUSK
+        spawn-amounts: 4
+    lightning-strikes:
+    - world 1640.0 85.0 333.0
+    - world 1640.0 85.0 325.0
+    - world 1642.0 80.0 329.5
+    - world 1627.0 83.0 321.5
+    - world 1627.0 83.0 337.5
+  WitherAltarSPAWN:
+    message: <red>Wither's wraiths have returned!
+    effects:
+    - CLICK2
+    effect-locations:
+    - world 877.0 64.0 488.0
+    mob-spawns:
+      '0':
+        spawn-location: world 872.0 65.0 488.0
+        mob-type: WITHER_SKELETON
+        spawn-amounts: 3
+      '1':
+        spawn-location: world 876.0 65.0 485.0
+        mob-type: WITHER_SKELETON
+        spawn-amounts: 3
+      '2':
+        spawn-location: world 877.0 64.0 491.0
+        mob-type: WITHER_SKELETON
+        spawn-amounts: 3
+      '3':
+        spawn-location: world 879.0 65.0 488.0
+        mob-type: WITHER_SKELETON
+        spawn-amounts: 3
+    lightning-strikes:
+    - world 880.5 67.5 491.3
+    - world 880.5 67.5 484.6
+    - world 874.3 67.5 484.6
+    - world 874.3 67.5 491.7
+    - world 866.5 64.0 488.5
+  WitherAltarSPAWNBOSS:
+    message: §cWither has returned!
+    effects:
+    - CLICK2
+    effect-locations:
+    - world 877.0 64.0 488.0
+    mob-spawns:
+      '0':
+        name: Ancient Wither
+        spawn-location: world 878.0 64.0 487.8
+        mob-type: WITHER
+        spawn-amounts: 1
+    lightning-strikes:
+    - world 866.5 64.0 488.5
+  DragonAltarSPAWN:
+    message: <red>Dragon's guardians have awaked!
+    effects:
+    - CLICK2
+    effect-locations:
+    - world 1059.5 34.0 1272.3
+    mob-spawns:
+      '0':
+        spawn-location: world 1059.2 36.0 1270.0
+        mob-type: ENDERMAN
+        spawn-amounts: 2
+      '1':
+        spawn-location: world 1047.5 35.0 1273.3
+        mob-type: ENDERMAN
+        spawn-amounts: 2
+      '2':
+        spawn-location: world 1072.5 35.0 1273.3
+        mob-type: ENDERMAN
+        spawn-amounts: 2
+    lightning-strikes:
+    - world 1059.6 72.0 1280.3
+  DragonAltarSPAWNBOSS:
+    message: §cSomething has awaked...
+    effects:
+    - CLICK2
+    effect-locations:
+    - world 1059.5 34.0 1272.3
+    mob-spawns:
+      '0':
+        name: Dragon's Shadow
+        spawn-location: world 1059.6 41.5 1269.3
+        mob-type: Wither
+        spawn-amounts: 1
+    lightning-strikes:
+    - world 1059.6 72.0 1280.3

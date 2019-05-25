@@ -1,0 +1,30 @@
+currentQuests:
+- Third Lore of Survive
+currentStages:
+- 3
+quest-points: 2
+questData:
+  Third Lore of Survive:
+    blocks-placed-names:
+    - CROPS
+    blocks-placed-amounts:
+    - 0
+    blocks-placed-durability:
+    - 7
+completed-Quests:
+- First Lore of Survive
+- Second Lore of Survive
+completedRedoableQuests:
+- Second Lore of Survive
+- First Lore of Survive
+completedQuestTimes:
+- 1548460369753
+- 1548456211321
+amountsCompletedQuests:
+- Second Lore of Survive
+- First Lore of Survive
+amountsCompleted:
+- 1
+- 1
+hasJournal: false
+lastKnownName: Koyeg

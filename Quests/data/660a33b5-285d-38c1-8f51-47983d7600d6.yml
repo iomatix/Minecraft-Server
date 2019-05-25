@@ -1,0 +1,30 @@
+currentQuests:
+- Third Lore of Survive
+currentStages:
+- 1
+quest-points: 2
+questData:
+  Third Lore of Survive:
+    blocks-broken-names:
+    - CROPS
+    blocks-broken-amounts:
+    - 5
+    blocks-broken-durability:
+    - 7
+completed-Quests:
+- First Lore of Survive
+- Second Lore of Survive
+completedRedoableQuests:
+- Second Lore of Survive
+- First Lore of Survive
+completedQuestTimes:
+- 1545870505067
+- 1545860819058
+amountsCompletedQuests:
+- Second Lore of Survive
+- First Lore of Survive
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: _Jess_

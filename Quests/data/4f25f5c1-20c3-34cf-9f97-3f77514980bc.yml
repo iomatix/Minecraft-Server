@@ -1,0 +1,16 @@
+currentQuests:
+- First Lore of Survive
+currentStages:
+- 1
+quest-points: 0
+questData:
+  First Lore of Survive:
+    mobs-killed:
+    - Cow
+    - Pig
+    mobs-killed-amounts:
+    - 0
+    - 0
+completed-Quests: none
+hasJournal: true
+lastKnownName: xTabi

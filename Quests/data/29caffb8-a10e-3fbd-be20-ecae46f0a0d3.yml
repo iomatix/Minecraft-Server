@@ -1,0 +1,87 @@
+currentQuests:
+- First Lore of Survive
+- §aNightly Hunting
+- Fifth Lore of Survive
+currentStages:
+- 2
+- 0
+- 0
+quest-points: 73
+questData:
+  First Lore of Survive:
+    mobs-killed:
+    - Cow
+    - Pig
+    mobs-killed-amounts:
+    - 0
+    - 0
+  §aNightly Hunting:
+    mobs-killed:
+    - Cave Spider
+    - Creeper
+    - Skeleton
+    - Spider
+    - Zombie
+    mobs-killed-amounts:
+    - 0
+    - 10
+    - 12
+    - 14
+    - 25
+  Fifth Lore of Survive:
+    mobs-killed:
+    - Rabbit
+    - Chicken
+    - Wolf
+    - Spider
+    mobs-killed-amounts:
+    - 0
+    - 5
+    - 4
+    - 6
+completed-Quests:
+- First Lore of Survive
+- Second Lore of Survive
+- Third Lore of Survive
+- Fourth Lore of Survive
+- §6Obsydian Altar
+- §6Desert Altar
+- §6Dragon's Altar §c[BOSS]
+completedRedoableQuests:
+- Third Lore of Survive
+- §6Obsydian Altar
+- Second Lore of Survive
+- §6Desert Altar
+- First Lore of Survive
+- Fourth Lore of Survive
+- §6Dragon's Altar §c[BOSS]
+completedQuestTimes:
+- 1545398597951
+- 1545234378880
+- 1545397615403
+- 1545237536827
+- 1545854658196
+- 1545399743829
+- 1545250073930
+amountsCompletedQuests:
+- Third Lore of Survive
+- §6Obsydian Altar
+- Daily Hunting
+- Second Lore of Survive
+- §6Wither Altar [BOSS]
+- §6Desert Altar
+- First Lore of Survive
+- Fourth Lore of Survive
+- §6Dragon's Altar §c[BOSS]
+amountsCompleted:
+- 3
+- 2
+- 1
+- 2
+- 1
+- 1
+- 13
+- 2
+- 1
+hasJournal: false
+lastKnownName: iomatix

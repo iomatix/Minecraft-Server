@@ -1,0 +1,223 @@
+# Whether or not to enable controlling experience from broken/placed blocks or crafted items
+enabled: 'true'
+# Experience yields for anything except combat. Combat experience is either controlled
+# via vanilla experience dropped or the yields defined in config.yml.
+
+# These are experience values provided when a player breaks a block.
+break: 
+
+  # Whether or not to allow players to place a block back down and break it again
+  # to get additional experience. Note that disabling this will cause all block
+  # changes to be tracked in order to remember what was placed or not. Blocks
+  # existing before this is disabled will not be protected from experience yields.
+  allow-replace: 'false'
+
+  # The yields per block type. You can add any block types not in this list by simply
+  # appending the bukkit name of the block type. See
+  # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  # for valid types. This list is not case-sensitive.
+  types: 
+
+    # You can add classes as well that allow certain blocks only to benefit
+    # that class. For example, if you want a miner to benefit from ore but
+    # a farmer to benefit from crops, you can add a "miner" section containing
+    # the ore and a "farmer" section containing the crops. This would look something
+    # like:
+
+    # # Blocks only for miners
+    # miner:
+    #   COAL: 1
+    #   IRON_ORE: 10
+    # # Blocks only for farmers
+    # farmer:
+    #   CROPS: 5
+    default: 
+      hardened_clay: '2.2'
+      prismarine: '2'
+      NETHER_BRICK: '3'
+      NETHER_BRICK_FENCE: '2'
+      NETHER_BRICK_STAIRS: '2'
+      MYCELIUM: '0.3'
+      MONSTER_EGG: '2.5'
+      STONE: '1.5'
+      GRASS: '.5'
+      DIRT: '.3'
+      COBBLESTONE: '.7'
+      SAND: '.5'
+      GRAVEL: '.2'
+      GOLD_ORE: '15'
+      IRON_ORE: '10'
+      COAL_ORE: '5'
+      LOG: '4'
+      LOG2: '5'
+      SPONGE: '3'
+      LAPIS_ORE: '12'
+      SANDSTONE: '1.5'
+      red_sandstone: '1.9'
+      BROWN_MUSHROOM: '0.3'
+      obsidian: '50'
+      COAL: '1'
+      QUARTZ_ORE: '1'
+      REDSTONE_ORE: '25'
+      lit_redstone_ore: '25'
+      DIAMOND_ORE: '50'
+      EMERALD_ORE: '100'
+      WHEAT: '3'
+      SNOW: '.3'
+      SNOW_LAYER: '.1'
+      CACTUS: '1.2'
+      clay: '2.5'
+      reeds: '.2'
+      pumpkin: '.2'
+      melon_block: '.2'
+      cocoa: '1'
+      beetroots: '2.5'
+      carrot: '2.5'
+      potato: '1.5'
+
+# Experience yields when a player places a block. There's not a built-in way to check
+# for players repeatedly placing down the same block, so use this type of experience
+# with caution. Works similar to break, just without the replace option.
+place: 
+  default: 
+    sapling: '.5'
+    beetroots: '.2'
+    wheat: '.3'
+    cocoa: '3.5'
+    yellow_flower: '.2'
+    red_flower: '.2'
+    double_plant: '.2'
+    vine: '.2'
+    carrot: '.2'
+    potato: '.2'
+    nether_wart: '.2'
+    DIAMOND_BLOCK: '1'
+
+# Experience yields when a player crafts items.
+craft: 
+
+  # Similar to above, you can specify classes to get
+  # experience from different crafts.
+  default: 
+    baked_potato: '4'
+    beetroot_soup: '8'
+    map: '3'
+    golden_carrot: '5'
+    pumpkin_pie: '10'
+    nether_star: '5'
+    fireworks: '5'
+    firework_charge: '4'
+    cooked_rabbit: '6'
+    armor_stand: '2'
+    compass: '5.5'
+    fishing_rod: '5'
+    clock: '5.5'
+    cooked_fish: '10'
+    dye: '1'
+    sugar: '0.5'
+    cookie: '8'
+    repeater: '5'
+    shears: '5'
+    pumpkin_seeds: '3'
+    melon_seeds: '3'
+    cooked_beef: '5'
+    cooked_chicken: '4'
+    blaze_powder: '2.5'
+    magma_cream: '8'
+    cauldron: '6'
+    ender_eye: '8'
+    speckled_melon: '5'
+    fire_charge: '8'
+    white_glazed_terracotta: '3.5'
+    observer: '2'
+    carpet: '1.7'
+    slime: '1.5'
+    IRON_TRAPDOOR: '2.5'
+    activator_rail: '2'
+    dropper: '1.2'
+    dispenser: '1.2'
+    heavy_weighted_pressure_plate: '3'
+    light_weighted_pressure_plate: '2'
+    daylight_detector: '7'
+    anvil: '10'
+    chest: '3'
+    tripwire_hook: '1.1'
+    beacon: '5'
+    cobblestone_wall: '1.3'
+    flower_pot: '0.5'
+    enchanting_table: '20'
+    brewing_stand: '15'
+    redstone_lamp: '3'
+    fence_gate: '1'
+    brick_stairs: '1'
+    stone_brick_stairs: '1.1'
+    JUKEBOX: '20'
+    NOTEBLOCK: '15'
+    BED: '5'
+    GOLDEN_RAIL: '3'
+    DETECTOR_RAIL: '3'
+    sticky_piston: '5'
+    brick_block: '3'
+    bookshelf: '5'
+    torch: '0.2'
+    crafting_table: '1'
+    furnace: '1.2'
+    wooden_door: '3'
+    spruce_door: '4'
+    birch_door: '4'
+    jungle_door: '4.2'
+    acacia_door: '4.5'
+    dark_oak_door: '4.3'
+    ladder: '.7'
+    rail: '.8'
+    lever: '.2'
+    iron_door: '3'
+    stone_pressure_plate: '.2'
+    wooden_pressure_plate: '.2'
+    redstone_torch: '2'
+    fence: '1'
+    cake: '10'
+    glass: '3'
+    stained_glass: '1'
+    wooden_trapdoor: '1'
+    BOW: '5'
+    arrow: '.3'
+    coal: '.7'
+    bowl: '.2'
+    mushroom_stew: '5'
+    bread: '6'
+    cooked_porkchop: '4'
+    painting: '5'
+    golden_apple: '5'
+    sign: '3.5'
+    bucket: '1.5'
+    minecart: '2.3'
+    saddle: '3.5'
+    book: '1.2'
+    paper: '.3'
+    lead: '.3'
+    name_tag: '.3'
+    cooked_mutton: '5'
+    banner: '5'
+    shield: '5'
+    Iron_horse_armor: '10'
+    Golden_horse_armor: '15'
+    Diamond_horse_armor: '25'
+    IRON_CHESTPLATE: '20'
+    IRON_LEGGINGS: '18'
+    IRON_HELMET: '16'
+    IRON_BOOTS: '13'
+    IRON_SWORD: '10'
+    IRON_AXE: '11'
+    GOLD_CHESTPLATE: '25'
+    GOLD_LEGGINGS: '23'
+    GOLD_HELMET: '22'
+    GOLD_BOOTS: '18'
+    GOLD_SWORD: '15'
+    GOLD_AXE: '17'
+    DIAMOND_CHESTPLATE: '30'
+    DIAMOND_LEGGINGS: '28'
+    DIAMOND_HELMET: '25'
+    DIAMOND_BOOTS: '23'
+    DIAMOND_SWORD: '20'
+    DIAMOND_AXE: '22'

@@ -1,0 +1,69 @@
+ATTRIBUTES: 
+  rows: 1
+  pages: 1
+  slots: 
+    1: 
+      dexterity: 3
+      strength: 4
+      vitality: 0
+      spirit: 1
+      intelligence: 2
+CLASS_SELECTION: 
+  rows: 1
+  pages: 1
+  slots: 
+    1: 
+      adventurer: 0
+stAdventurer: 
+  rows: 5
+  pages: 6
+  slots: 
+    1: 
+      mystic spirit: 3
+      shadow: 12
+      magic swap: 11
+      regeneration: 20
+      fire rain: 23
+      arcane rain: 6
+      blink: 9
+      thunder: 34
+      magic shield: 1
+      tsunami: 32
+      rebound: 14
+      earthsledge: 24
+      magic absolution: 4
+      silence: 2
+      burnout: 43
+      fireball: 18
+      lightning: 30
+      summon wolf: 26
+      magic missile: 0
+      windblast: 21
+      blizzard: 41
+      earthshock: 19
+      teleportation: 10
+      earthquake: 33
+      roots: 25
+      dark vortex: 5
+      meteorain: 36
+      push: 13
+      meteor strike: 27
+      fly: 15
+      iceile: 38
+      splash: 29
+    2: 
+      lethal tempo: 1
+      fleetwork: 3
+      unexpected strike: 0
+      conqueror: 2
+    3: 
+      ambush: 0
+      dark harvest: 2
+      predator: 1
+    4: 
+      arcane comet: 1
+      summon aery: 0
+    5: 
+      grasp of the undying: 0
+      aftershock: 1
+    6:  {}
