@@ -1,0 +1,35 @@
+sword: Sword
+greatsword: Greatsword
+katana: Katana
+axe: Axe
+greataxe: Greataxe
+halberd: Halberd
+thrusting-sword: Thrusting Sword
+dagger: Dagger
+spear: Spear
+lance: Lance
+hammer: Hammer
+greathammer: Greathammer
+gauntlet: Gauntlet
+lute: Lute
+stave: Stave
+greatstaff: Greatstaff
+tome: Tome
+catalyst: Catalyst
+talisman: Talisman
+shield: Shield
+greatshield: Greatshield
+whip: Whip
+wand: Wand
+staff: Staff
+bow: Bow
+greatbow: Greatbow
+crossbow: Crossbow
+musket: Musket
+armor: Armor
+tool: Tool
+consumable: Consumable
+miscellaneous: Miscellaneous
+material: Material
+accessory: Accessory
+gem-stone: Gem Stone

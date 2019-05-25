@@ -1,0 +1,1054 @@
+#  element:
+#    damage:
+#      fire: 14.0
+#  ability:
+#    right-click:
+#      type: FIREBOLT
+#      cooldown: 20.0
+#      damage: 4.0
+#      ignite: 6.0
+# 
+#      type: arcane_hail
+
+LVL_12_BOW:
+  material: Bow
+  name: '&fShort Bow'
+  tier: COMMON
+  lore:
+  - '&fShort Bow.'
+  gem-sockets: 0.0
+  required-level: 12.0
+  attack-damage: 56
+  critical-strike-chance: 10.0
+  critical-strike-power: 125.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+LVL_24_BOW:
+  material: Bow
+  name: '&fCommon Bow'
+  tier: COMMON
+  lore:
+  - '&7Common Bow.'
+  unbreakable: false
+  gem-sockets: 0.0
+  required-level: 24.0
+  attack-damage: 70
+  critical-strike-chance: 15.0
+  critical-strike-power: 135.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: iron_ingot
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+LVL_36_BOW:
+  material: Bow
+  name: '&fLong Bow'
+  tier: UNCOMMON
+  lore:
+  - '&8Long Bow.'
+  unbreakable: false
+  gem-sockets: 1.0
+  required-level: 36.0
+  attack-damage: 80.0
+  critical-strike-chance: 20.0
+  critical-strike-power: 145.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: gold_ingot
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+LVL_48_BOW:
+  material: BOW
+  name: '&6Composite Bow'
+  tier: RARE
+  lore:
+  - '&6Composite Bow.'
+  unbreakable: false
+  gem-sockets: 2.0
+  required-level: 48.0
+  attack-damage: 90.0
+  critical-strike-chance: 30.0
+  critical-strike-power: 155.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: Diamond
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+UP_LVL_48_BOW:
+  material: BOW
+  name: '&eUpgraded Composite Bow'
+  tier: VERY_RARE
+  lore:
+  - '&eUpgraded Composite Bow.'
+  unbreakable: false
+  gem-sockets: 3.0
+  required-level: 48.0
+  attack-damage: 100.0
+  critical-strike-chance: 35.0
+  critical-strike-power: 165.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: BOW
+      id: LVL_48_BOW
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+REDWOOD_BOW:
+  material: BOW
+  name: '&eUltimate Redwood Bow'
+  tier: VERY_RARE
+  lore:
+  - '&eBow made by elves.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 5
+  element:
+    damage:
+      Light: 26.0
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 3.0
+  required-level: 50.0
+  attack-damage: 120.0
+  critical-strike-chance: 38.0
+  critical-strike-power: 168.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+WINDBLOW:
+  material: BOW
+  name: '&bWindblow'
+  tier: LEGENDARY
+  lore:
+  - '&bBow found in ancient temple.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 6
+  element:
+    damage:
+      Wind: 33.0
+  ability:
+    right-click:
+      type: SWIFTNESS
+      duration: 4.5
+      cooldown: 18
+      jump-amplifier: 2
+      speed-amplifier: 1
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 4.0
+  required-level: 52.0
+  attack-damage: 135
+  critical-strike-chance: 41.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+DARKBLESS:
+  material: BOW
+  name: '&5Darkbless'
+  tier: MYTHICAL
+  lore:
+  - '&5That bow belonged to'
+  - '&5ancient archer. He blinded when used it.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Darkness: 50.0
+  ability:
+    right-click:
+      type: CORRUPT
+      damage: 5.0
+      cooldown: 15
+      duration: 2
+      amplifier: 2
+    on-hit:
+      type: BLIND
+      cooldown: 12
+      duration: 6
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 4.0
+  required-level: 54.0
+  attack-damage: 150
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+DRAGONFIRE:
+  material: BOW
+  name: '&4Dragonfire'
+  tier: EPIC
+  lore:
+  - '&4Bow blessed by ancient dragons.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Fire: 70.0
+  ability:
+    right-click:
+      type: firefly
+      damage: 60.0
+      duration: 2
+      knockback: 2
+      cooldown: 15
+    on-hit:
+      type: LIFE_ENDER
+      cooldown: 12
+      damage: 50.0
+      radius: 3
+      knockback: 1
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 5.0
+  required-level: 56.0
+  attack-damage: 160
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+DEATHWING:
+  material: BOW
+  name: '&cDeathwing'
+  tier: UNIQUE
+  lore:
+  - '&eNo one knows origin of this bow.'
+  - '&eIt was used to slay one of the ancient gods.'
+  - '&eUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Fire: 80.0
+  ability:
+    right-click:
+      type: arcane_hail
+      damage: 43.3
+      duration: 6
+      cooldown: 9.3
+      radius: 5
+    on-hit:
+      type: STUN
+      cooldown: 9
+      duration: 2
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 180
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''
+ULT_DRAGONFIRE:
+  material: BOW
+  name: '&cUltimate Dragonfire'
+  tier: UNIQUE
+  lore:
+  - '&cBow blessed by ancient dragons.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Fire: 80.0
+  ability:
+    right-click:
+      type: firefly
+      damage: 130.0
+      duration: 3
+      knockback: 3
+      cooldown: 11
+    on-hit:
+      type: LIFE_ENDER
+      cooldown: 6.4
+      damage: 160.0
+      radius: 5
+      knockback: 2
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 180
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: BOW
+      id: DRAGONFIRE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+ULT_DARKBLESS:
+  material: BOW
+  name: '&cUltimate Darkbless'
+  tier: UNIQUE
+  lore:
+  - '&cThat bow belonged to'
+  - '&cancient archer. He blinded when used it.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Darkness: 80.0
+  ability:
+    right-click:
+      type: CORRUPT
+      damage: 77.3
+      cooldown: 12
+      duration: 5
+      amplifier: 2
+    on-hit:
+      type: BLIND
+      cooldown: 9
+      duration: 4.5
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 180
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: BOW
+      id: DARKBLESS
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+ULT_WINDBLOW:
+  material: BOW
+  name: '&cUltimate Windblow'
+  tier: UNIQUE
+  lore:
+  - '&cBow found in ancient temple.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Wind: 80.0
+  ability:
+    right-click:
+      type: SWIFTNESS
+      duration: 10
+      cooldown: 17
+      jump-amplifier: 3
+      speed-amplifier: 2
+    on-hit:
+      type: SHOCK
+      cooldown: 7.5
+      duration: 3
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 180
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: BOW
+      id: WINDBLOW
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+ULT_REDWOOD_BOW:
+  material: BOW
+  name: '&cUltimate Redwood Bow'
+  tier: UNIQUE
+  lore:
+  - '&cBow made by elves.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Light: 80.0
+  ability:
+    right-click:
+      type: HOLY_MISSILE
+      damage: 135.0
+      cooldown: 9
+    on-hit:
+      type: STARFALL
+      cooldown: 3.3
+      damage: 120.0
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 180
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: BOW
+      id: REDWOOD_BOW
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+VOID_BOW:
+  material: BOW
+  name: '&cVoid Bow'
+  tier: UNIQUE
+  lore:
+  - '&cForgotten bow comming from void.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    durability: 10
+  element:
+    damage:
+      Darkness: 80.0
+  ability:
+    right-click:
+      type: BLACK_HOLE
+      duration: 6
+      cooldown: 11.3
+      radius: 6
+    on-hit:
+      type: DEATH_MARK
+      cooldown: 10.3
+      damage: 80.0
+      duration: 5
+      slow-amplifier: 2
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 62.0
+  attack-damage: 200
+  critical-strike-chance: 50.0
+  critical-strike-power: 170.0
+  movement-speed: 0.006
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 3
+    '4':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 8
+    '5':
+      material: String
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: String
+      durability: 0
+      amount: 1
+      name: ''

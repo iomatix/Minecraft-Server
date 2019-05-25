@@ -1,0 +1,20 @@
+UNIDENTIFIED_ITEM:
+  name: '&kSin Identificar'
+  lore:
+  - '&e&oEste objeto está &c&o&nsin &c&o&nidentificar&e&o.'
+  - '&e&oTendré que encontrar alguna manera para identificarlo.'
+BACK:
+  name: Atrás
+  lore: []
+NEXT_PAGE:
+  name: Siguiente Página
+  lore: []
+PREVIOUS_PAGE:
+  name: Página Previa
+  lore: []
+NO_ITEM:
+  name: '- No hay objeto -'
+  lore: []
+NO_GEM_STONE:
+  name: '- Zócalo de gemas vacio -'
+  lore: []

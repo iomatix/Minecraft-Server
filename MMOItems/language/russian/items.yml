@@ -1,0 +1,23 @@
+UNIDENTIFIED_ITEM:
+  name: '&kНеидентифицированный предмет'
+  lore:
+  - '&e&oЭтот предмет &c&o&неидентифицирован&e&o.'
+  - '&e&oВам нужно найти способ, чтобы идентифицировать его.'
+BACK:
+  name: Назад
+  lore: []
+NEXT_PAGE:
+  name: Следующая Страница
+  lore: []
+PREVIOUS_PAGE:
+  name: Предыдущая Страница
+  lore: []
+NO_ITEM:
+  name: '- Не Предмета -'
+  lore: []
+NO_GEM_STONE_STAT:
+  name: '- Нет Статистики Самоцвета -'
+  lore: []
+NO_GEM_STONE:
+  name: '- Свободный Слот для Самоцвета -'
+  lore: []

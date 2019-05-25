@@ -1,0 +1,34 @@
+hands-too-charged: You can't do anything, your hands are too charged.
+spell-on-cooldown: '#progress# &eYou must wait #left# second#s# before casting this
+  spell.'
+item-on-cooldown: This item is on cooldown!
+item-command-on-cooldown: This item command is on cooldown!
+not-enough-perms-command: You don't have enough permissions.
+attack-blocked: 'You just blocked #percent#% of the attack damage!'
+attack-dodged: You just dodged an attack!
+not-enough-levels: You don't have enough levels to use this item!
+not-enough-perms: You don't have enough permissions to use this.
+not-enough-mana: You don't have enough mana!
+not-enough-stamina: You don't have enough stamina!
+not-identified: You can't use an unidentified item.
+wrong-class: You don't have the right class!
+successfully-identified: 'You successfully identified #item#&e.'
+successfully-deconstructed: 'You successfully deconstructed #item#&e.'
+gem-stone-applied: You successfully applied &f#gem#&e to your &f#item#&e.
+repaired-item: You successfully repaired &f#item#&e for &f#amount# &edurability.
+gave-item: '&eGave &f#item#&e#amount# to &f#player#&e.'
+received-item: '&eYou received &f#item#&e#amount#.'
+cant-update-item: Couldn't update your item.
+update-item: Successfuly updated your item.
+empty-workbench-first: Please empty the workbench first.
+not-enough-perms-craft: You don't have enough permissions to craft this item.
+miss-spell: You missed &c#spell#&e.
+advanced-workbench: Advanced Workbench
+advanced-recipes: Advanced Recipes
+gem-stats: Gem Stone Stats
+click-advanced-recipe: Click to see its recipe.
+attack-parried: You just parried an attack!
+gem-stone-broke: Your gem stone &f#gem#&c broke while trying to apply it onto &f#item#&c.
+broken-item: This item is broken, you first need to repair it.
+item-broke: 'Your #item#&c broke.'
+zero-durability: Your item has no durability left. Repair it in order to use it again.

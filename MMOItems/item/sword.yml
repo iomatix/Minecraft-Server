@@ -1,0 +1,1148 @@
+# 
+#  element:
+#    damage:
+#      darkness: 3.2
+# 
+# 
+#  perm-effects:
+#    SPEED: 1
+LVL_7_SWORD:
+  material: wood_Sword
+  name: '&fWooden Sword'
+  tier: COMMON
+  lore:
+  - '&7Wooden Sword.'
+  unbreakable: false
+  two-handed: false
+  gem-sockets: 0.0
+  required-level: 7.0
+  attack-damage: 9
+  attack-speed: 0.91
+  blunt-power: 1.2
+  blunt-rating: 5
+  critical-strike-chance: 10.0
+  critical-strike-power: 120.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+LVL_16_SWORD:
+  material: iron_Sword
+  name: '&fIron Sword'
+  tier: COMMON
+  lore:
+  - '&7Common iron Sword.'
+  unbreakable: false
+  two-handed: false
+  gem-sockets: 0.0
+  required-level: 16.0
+  attack-damage: 18
+  attack-speed: 0.95
+  blunt-power: 1.3
+  blunt-rating: 8
+  critical-strike-chance: 13.0
+  critical-strike-power: 130.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+LVL_25_SWORD:
+  material: iron_Sword
+  name: '&fHeavy Iron Sword'
+  tier: COMMON
+  lore:
+  - '&7Common heavy iron Sword.'
+  unbreakable: false
+  two-handed: false
+  gem-sockets: 0.0
+  required-level: 25.0
+  attack-damage: 34
+  attack-speed: 0.82
+  blunt-power: 1.45
+  blunt-rating: 12
+  critical-strike-chance: 15.0
+  critical-strike-power: 135.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: iron_block
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+LVL_34_SWORD:
+  material: gold_Sword
+  name: '&fGolden Sword'
+  tier: UNCOMMON
+  lore:
+  - '&8Golden Sword.'
+  unbreakable: false
+  two-handed: false
+  gem-sockets: 1.0
+  required-level: 34.0
+  attack-damage: 46
+  attack-speed: 1.1
+  blunt-power: 1.55
+  blunt-rating: 15
+  critical-strike-chance: 22.0
+  critical-strike-power: 140.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: gold_ingot
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: gold_ingot
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+LVL_48_SWORD:
+  material: diamond_Sword
+  name: '&6Diamond Sword'
+  tier: RARE
+  lore:
+  - '&6Diamond Sword.'
+  unbreakable: false
+  two-handed: false
+  gem-sockets: 2.0
+  required-level: 55.0
+  attack-damage: 56
+  attack-speed: 1.2
+  blunt-power: 1.65
+  blunt-rating: 22
+  critical-strike-chance: 25.0
+  critical-strike-power: 150.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Diamond
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: Diamond
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+UP_LVL_48_SWORD:
+  material: diamond_Sword
+  name: '&eUpgraded Diamond Sword'
+  tier: VERY_RARE
+  lore:
+  - '&eUpgraded Diamond Sword.'
+  unbreakable: false
+  two-handed: false
+  gem-sockets: 3.0
+  required-level: 48.0
+  attack-damage: 61
+  attack-speed: 1.35
+  blunt-power: 1.7
+  blunt-rating: 25
+  critical-strike-chance: 30.0
+  critical-strike-power: 160.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: SWORD
+      id: LVL_48_SWORD
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+MOONBLADE:
+  material: iron_Sword
+  name: '&eMoonblade'
+  tier: VERY_RARE
+  lore:
+  - '&eSword made by smiths of ancient.'
+  - '&eShines bright in the moonlight.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 3
+  element:
+    damage:
+      Ice: 26.0
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 3.0
+  required-level: 50.0
+  attack-damage: 66
+  attack-speed: 1.4
+  blunt-power: 1.7
+  blunt-rating: 28
+  critical-strike-chance: 33.0
+  critical-strike-power: 163.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+FLAMETONGUE:
+  material: gold_Sword
+  name: '&bFlame Tongue'
+  tier: LEGENDARY
+  lore:
+  - '&bAncient mages blessed that sword'
+  - '&bwith powerful fire magic.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 5
+  element:
+    damage:
+      Fire: 33.0
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 4.0
+  required-level: 52.0
+  attack-damage: 71
+  attack-speed: 1.43
+  blunt-power: 1.7
+  blunt-rating: 30
+  critical-strike-chance: 35.0
+  critical-strike-power: 165.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+SEETHE:
+  material: diamond_Sword
+  name: '&5Seethe'
+  tier: MYTHICAL
+  lore:
+  - '&5That sword belonged to'
+  - '&5ancient god called Devourer of Souls.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 7
+  element:
+    damage:
+      Darkness: 50.0
+  ability:
+    on-hit:
+      type: DEATH_MARK
+      cooldown: 20
+      damage: 20
+      duration: 5
+      slow-amplifier: 2
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 4.0
+  required-level: 54.0
+  attack-damage: 75
+  attack-speed: 1.46
+  blunt-power: 1.7
+  blunt-rating: 32
+  critical-strike-chance: 36.5
+  critical-strike-power: 166.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+OATHBREAKER:
+  material: iron_Sword
+  name: '&4Oath Breaker'
+  tier: EPIC
+  lore:
+  - '&4That silver blade belonged to'
+  - '&4Giovanni - most powerful vampire.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 8
+  element:
+    damage:
+      Darkness: 70.0
+  ability:
+    right-click:
+      type: THRUST
+      damage: 75.0
+      cooldown: 8
+    on-hit:
+      type: VAMPIRISM
+      cooldown: 8
+      drain: 45
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 5.0
+  required-level: 56.0
+  attack-damage: 80
+  attack-speed: 1.5
+  blunt-power: 1.7
+  blunt-rating: 33
+  critical-strike-chance: 38
+  critical-strike-power: 168
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+DIVINEDIVIDER:
+  material: gold_Sword
+  name: '&cDivine Divider'
+  tier: UNIQUE
+  lore:
+  - '&cNo one knows origin of this sword.'
+  - '&cWas used to separate mortals from gods.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 10
+  element:
+    damage:
+      Fire: 80.0
+  ability:
+    right-click:
+      type: FIRE_METEOR
+      damage: 93.0
+      knockback: 2
+      radius: 5
+      cooldown: 15
+    on-hit:
+      type: LIFE_ENDER
+      cooldown: 6
+      damage: 63.0
+      radius: 4
+      knockback: 1
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 86
+  attack-speed: 1.55
+  blunt-power: 1.7
+  blunt-rating: 35
+  critical-strike-chance: 45
+  critical-strike-power: 170
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+ULT_OATHBREAKER:
+  material: iron_Sword
+  name: '&cUltimate Oath Breaker'
+  tier: UNIQUE
+  lore:
+  - '&cThat silver blade belonged to'
+  - '&cGiovanni - most powerful vampire.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 8
+  element:
+    damage:
+      Darkness: 80.0
+  ability:
+    right-click:
+      type: THRUST
+      damage: 90.0
+      cooldown: 5
+    on-hit:
+      type: VAMPIRISM
+      cooldown: 4
+      drain: 60
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 86
+  attack-speed: 1.55
+  blunt-power: 1.7
+  blunt-rating: 35
+  critical-strike-chance: 45
+  critical-strike-power: 170
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: SWORD
+      id: OATHBREAKER
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+ULT_SEETHE:
+  material: diamond_Sword
+  name: '&cUltimate Seethe'
+  tier: UNIQUE
+  lore:
+  - '&cThat sword belonged to'
+  - '&cancient god called Devourer of Souls.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 8
+  element:
+    damage:
+      Darkness: 80.0
+  ability:
+    right-click:
+      type: CURSED_BEAM
+      damage: 80
+      cooldown: 13
+      duration: 6
+    on-hit:
+      type: DEATH_MARK
+      cooldown: 9.7
+      damage: 33.3
+      duration: 5
+      slow-amplifier: 2
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 86
+  attack-speed: 1.55
+  blunt-power: 1.7
+  blunt-rating: 35
+  critical-strike-chance: 45
+  critical-strike-power: 170
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: SWORD
+      id: SEETHE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+ULT_MOONBLADE:
+  material: iron_Sword
+  name: '&cUltimate Moonblade'
+  tier: UNIQUE
+  lore:
+  - '&cSword made by smiths of ancient.'
+  - '&cShines bright in the moonlight.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 2
+    durability: 6
+  element:
+    damage:
+      Ice: 80.0
+  ability:
+    right-click:
+      type: ICE_CRYSTAL
+      damage: 80.0
+      duration: 6
+      amplifier: 5
+      cooldown: 13
+    on-hit:
+      type: FREEZING_CURSE
+      cooldown: 9.3
+      duration: 5
+      amplifier: 3
+      length: 6
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 86
+  attack-speed: 1.55
+  blunt-power: 1.7
+  blunt-rating: 35
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: SWORD
+      id: MOONBLADE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+ULT_FLAMETONGUE:
+  material: gold_Sword
+  name: '&cUltimate Fire Tongue'
+  tier: UNIQUE
+  lore:
+  - '&cArchmages blessed that sword'
+  - '&cwith powerful fire magic.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 2
+    durability: 9
+  element:
+    damage:
+      Fire: 80.0
+  ability:
+    right-click:
+      type: FIREBOLT
+      damage: 80
+      ignite: 3
+      cooldown: 10
+    on-hit:
+      type: BLIND
+      cooldown: 12.3
+      duration: 4
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 86
+  attack-speed: 1.55
+  blunt-power: 1.7
+  blunt-rating: 35
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: SWORD
+      id: FLAMETONGUE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+VALERIANSWORD:
+  material: iron_Sword
+  name: '&cValerian Sword'
+  tier: UNIQUE
+  lore:
+  - '&cSword made with best components'
+  - '&cValerian Steel and special Magic Ore.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    knockback: 1
+    durability: 11
+  ability:
+    on-hit:
+      type: DEATH_MARK
+      cooldown: 8
+      damage: 37.3
+      duration: 3.3
+      slow-amplifier: 2
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 62.0
+  attack-damage: 95
+  attack-speed: 1.57
+  blunt-power: 1.7
+  blunt-rating: 35
+  critical-strike-chance: 45
+  critical-strike-power: 170
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 2
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 3
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 2
+    '5':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 3
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''

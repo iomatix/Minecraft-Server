@@ -1,0 +1,77 @@
+ability:
+  overload: Overload
+  shulker-missile: Shulker Missile
+  magical-shield: Magical Shield
+  heal: Heal
+  fire-meteor: Fire Meteor
+  leap: Leap
+  light-dash: Light Dash
+  burn: Burn
+  starfall: Starfall
+  wither: Wither
+  vampirism: Vampirism
+  shockwave: Shockwave
+  smite: Smite
+  sparkle: Sparkle
+  corrupt: Corrupt
+  tnt-throw: TNT Throw
+  firebolt: Firebolt
+  earthquake: Earthquake
+  stun: Stun
+  swiftness: Swiftness
+  holy-missile: Holy Missile
+  black-hole: Black Hole
+  slow: Slow
+  cursed-beam: Cursed Beam
+  circular-slash: Circular Slash
+  heavy-charge: Heavy Charge
+  thrust: Thrust
+  item-throw: Item Throw
+  corrupted-fangs: Corrupted Fangs
+  ice-crystal: Ice Crystal
+  blind: Blind
+  shock: Shock
+  shadow-veil: Shadow Veil
+  poison: Poison
+  blink: Blink
+  sky-smash: Sky Smash
+  bloodbath: Bloodbath
+  confuse: Confuse
+  bouncy-fireball: Bouncy Fireball
+  burning-hands: Burning Hands
+  throw-up: Throw Up
+  frog-mode: Frog Mode
+  lightning-beam: Lightning Beam
+  death-mark: Death Mark
+  arcane-hail: Arcane Hail
+  grand-heal: Grand Heal
+  magical-path: Magical Path
+  life-ender: Life Ender
+  freezing-curse: Freezing Curse
+  firefly: Firefly
+  bunny-mode: Bunny Mode
+  item-bomb: Item Bomb
+modifier:
+  damage: Damage
+  mana: Mana
+  stamina: Stamina
+  cooldown: Cooldown
+  radius: Radius
+  duration: Duration
+  effect-duration: Effect Duration
+  power: Power
+  heal: Heal
+  knockback: Knockback
+  force: Force
+  length: Length
+  amplifier: Amplifier
+  drain: Drain
+  knock-up: Knock Up
+  limit: Limit
+  ignite: Ignite
+  range: Range
+  amount: Amount
+  speed: Speed
+  jump-force: Jump Force
+  slow-amplifier: Slow Amplifier
+  slow-duration: Slow Duration

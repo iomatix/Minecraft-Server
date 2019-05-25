@@ -1,0 +1,1108 @@
+LVL_7_LEATHER_HELMET:
+  name: '&fLeather Helmet'
+  material: leather_helmet
+  block-power: 1.0=1.4
+  block-rating: 1.0=1.4
+  required-level: 7.0
+  armor: 4=5
+  armor-toughness: 1
+  lore:
+  - '&7Common Leather helmet.'
+  tier: COMMON
+  knockback-resistance: 0.01=0.02
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '0':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '5':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+LVL_7_LEATHER_CHESTPLATE:
+  name: '&fLeather Chestplate'
+  material: Leather_CHESTPLATE
+  block-power: 1.0=1.7
+  block-rating: 1.0=1.7
+  required-level: 7.0
+  armor: 5=7
+  armor-toughness: 1
+  lore:
+  - '&7Common Leather chestplate.'
+  tier: COMMON
+  knockback-resistance: 0.01=0.02
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '5':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '0':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+LVL_7_LEATHER_BOOTS:
+  name: '&fLeather Boots'
+  material: Leather_BOOTS
+  block-power: 1.0=1.3
+  block-rating: 1.0=1.3
+  required-level: 7.0
+  armor: 3=5
+  armor-toughness: 1
+  lore:
+  - '&7Common Leather boots.'
+  tier: COMMON
+  knockback-resistance: 0.01=0.03
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '5':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+LVL_7_LEATHER_LEGGINGS:
+  name: '&fLeather Leggings'
+  material: Leather_LEGGINGS
+  block-power: 1.0=1.6
+  block-rating: 1.0=1.6
+  required-level: 7.0
+  armor: 4=7
+  armor-toughness: 1
+  lore:
+  - '&7Common Leather leggings.'
+  tier: COMMON
+  knockback-resistance: 0.01=0.02
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '0':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '5':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+LVL_16_IRON_HELMET:
+  name: '&fIron Helmet'
+  material: Iron_helmet
+  block-power: 1.4=2
+  block-rating: 1.4=2
+  required-level: 16.0
+  armor: 5=6
+  armor-toughness: 1
+  lore:
+  - '&7Common Iron helmet.'
+  tier: COMMON
+  knockback-resistance: 0.01=0.03
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '1':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_16_IRON_CHESTPLATE:
+  name: '&fIron Chestplate'
+  material: Iron_CHESTPLATE
+  block-power: 1.7=2.5
+  block-rating: 1.7=2.5
+  required-level: 16.0
+  armor: 8=10
+  armor-toughness: 1=2
+  lore:
+  - '&7Common Iron chestplate.'
+  tier: COMMON
+  knockback-resistance: 0.02=0.04
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '7':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '6':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '8':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '4':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_16_IRON_LEGGINGS:
+  name: '&fIron Leggings'
+  material: Iron_LEGGINGS
+  block-power: 1.6=2.25
+  block-rating: 1.6=2.25
+  required-level: 16.0
+  armor: 5=10
+  armor-toughness: 1
+  lore:
+  - '&7Common Iron leggings.'
+  tier: COMMON
+  knockback-resistance: 0.02=0.04
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '6':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '1':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_16_IRON_BOOTS:
+  name: '&fIron Boots'
+  material: Iron_BOOTS
+  block-power: 1.3=1.9
+  block-rating: 1.3=1.9
+  required-level: 16.0
+  armor: 4=6
+  armor-toughness: 1
+  lore:
+  - '&7Common Iron boots.'
+  tier: COMMON
+  knockback-resistance: 0.01=0.03
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '8':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_25_IRON_HELMET:
+  name: '&fHeavy Iron Helmet'
+  material: Iron_helmet
+  block-power: 2
+  block-rating: 2
+  required-level: 25.0
+  armor: 9
+  armor-toughness: 1=2
+  lore:
+  - '&7Heavy Iron helmet.'
+  tier: COMMON
+  knockback-resistance: 0.02=0.05
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '1':
+      material: iron_block
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_25_IRON_CHESTPLATE:
+  name: '&fHeavy Iron Chestplate'
+  material: Iron_CHESTPLATE
+  block-power: 3
+  block-rating: 3
+  required-level: 25.0
+  armor: 12
+  armor-toughness: 2
+  lore:
+  - '&7Heavy Iron chestplate.'
+  tier: COMMON
+  knockback-resistance: 0.03=0.1
+  gem-sockets: 1.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '7':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '6':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '8':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '4':
+      material: iron_block
+      amount: 1
+      name: ''
+    '0':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_25_IRON_LEGGINGS:
+  name: '&fHeavy Iron Leggings'
+  material: Iron_LEGGINGS
+  block-power: 2.5
+  block-rating: 2.5
+  required-level: 25.0
+  armor: 11
+  armor-toughness: 1=2
+  lore:
+  - '&7Heavy Iron leggings.'
+  tier: COMMON
+  knockback-resistance: 0.03=0.08
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '6':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '1':
+      material: iron_block
+      amount: 1
+      name: ''
+    '2':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_25_IRON_BOOTS:
+  name: '&fHeavy Iron Boots'
+  material: Iron_BOOTS
+  block-power: 2
+  block-rating: 2
+  required-level: 25.0
+  armor: 8
+  armor-toughness: 1
+  lore:
+  - '&7Heavy Iron boots.'
+  tier: COMMON
+  knockback-resistance: 0.02=0.04
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: iron_block
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '3':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '8':
+      material: iron_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: iron_ingot
+      amount: 1
+      name: ''
+LVL_34_GOLD_HELMET:
+  name: '&fGolden Helmet'
+  material: gold_helmet
+  block-power: 3
+  block-rating: 3
+  required-level: 34.0
+  armor: 11
+  armor-toughness: 2
+  lore:
+  - '&8Golden helmet.'
+  tier: UNCOMMON
+  knockback-resistance: 0.05
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '1':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: gold_ingot
+      amount: 1
+      name: ''
+LVL_34_GOLD_CHESTPLATE:
+  name: '&fGolden Chestplate'
+  material: GOLD_CHESTPLATE
+  block-power: 4
+  block-rating: 4
+  required-level: 34.0
+  armor: 16
+  armor-toughness: 2.2
+  lore:
+  - '&8Golden chestplate.'
+  tier: UNCOMMON
+  knockback-resistance: 0.1
+  gem-sockets: 1.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '7':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '6':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '8':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '4':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: gold_ingot
+      amount: 1
+      name: ''
+LVL_34_GOLD_LEGGINGS:
+  name: '&fGolden Leggings'
+  material: Gold_LEGGINGS
+  block-power: 3
+  block-rating: 3
+  required-level: 34.0
+  armor: 14
+  armor-toughness: 2
+  lore:
+  - '&8Golden leggings.'
+  tier: UNCOMMON
+  knockback-resistance: 0.08
+  gem-sockets: 1.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '6':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '3':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '0':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '1':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '2':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: gold_ingot
+      amount: 1
+      name: ''
+LVL_34_GOLD_BOOTS:
+  name: '&fGolden Boots'
+  material: Gold_BOOTS
+  block-power: 3
+  block-rating: 3
+  required-level: 34.0
+  armor: 12
+  armor-toughness: 2
+  lore:
+  - '&8Golden boots.'
+  tier: UNCOMMON
+  knockback-resistance: 0.04
+  gem-sockets: 0.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '3':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '8':
+      material: gold_ingot
+      amount: 1
+      name: ''
+    '5':
+      material: gold_ingot
+      amount: 1
+      name: ''
+LVL_48_DIAMOND_HELMET:
+  name: '&6Diamond Helmet'
+  material: diamond_helmet
+  unbreakable: false
+  block-power: 5
+  block-rating: 5
+  required-level: 48.0
+  armor: 17
+  armor-toughness: 2.5
+  lore:
+  - '&6Diamond helmet.'
+  tier: RARE
+  knockback-resistance: 0.1
+  gem-sockets: 1.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: Diamond
+      amount: 1
+      name: ''
+    '0':
+      material: Diamond
+      amount: 1
+      name: ''
+    '1':
+      material: Diamond
+      amount: 1
+      name: ''
+    '5':
+      material: Diamond
+      amount: 1
+      name: ''
+    '2':
+      material: Diamond
+      amount: 1
+      name: ''
+LVL_48_DIAMOND_CHESTPLATE:
+  name: '&6Diamond Chestplate'
+  material: diamond_CHESTPLATE
+  unbreakable: false
+  block-power: 7.5
+  block-rating: 7.5
+  required-level: 48.0
+  armor: 22
+  armor-toughness: 4
+  lore:
+  - '&6Diamond chestplate.'
+  tier: RARE
+  knockback-resistance: 0.2
+  gem-sockets: 1.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: Diamond
+      amount: 1
+      name: ''
+    '7':
+      material: Diamond
+      amount: 1
+      name: ''
+    '6':
+      material: Diamond
+      amount: 1
+      name: ''
+    '8':
+      material: Diamond
+      amount: 1
+      name: ''
+    '5':
+      material: Diamond
+      amount: 1
+      name: ''
+    '4':
+      material: Diamond
+      amount: 1
+      name: ''
+    '0':
+      material: Diamond
+      amount: 1
+      name: ''
+    '2':
+      material: Diamond
+      amount: 1
+      name: ''
+LVL_48_DIAMOND_LEGGINGS:
+  name: '&6Diamond Leggings'
+  material: diamond_LEGGINGS
+  unbreakable: false
+  block-power: 7
+  block-rating: 7
+  required-level: 48.0
+  armor: 20
+  armor-toughness: 3
+  lore:
+  - '&6Diamond leggings.'
+  tier: RARE
+  knockback-resistance: 0.2
+  gem-sockets: 1.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: Diamond
+      amount: 1
+      name: ''
+    '6':
+      material: Diamond
+      amount: 1
+      name: ''
+    '3':
+      material: Diamond
+      amount: 1
+      name: ''
+    '0':
+      material: Diamond
+      amount: 1
+      name: ''
+    '1':
+      material: Diamond
+      amount: 1
+      name: ''
+    '2':
+      material: Diamond
+      amount: 1
+      name: ''
+    '5':
+      material: Diamond
+      amount: 1
+      name: ''
+LVL_48_DIAMOND_BOOTS:
+  name: '&6Diamond Boots'
+  material: Diamond_BOOTS
+  unbreakable: false
+  block-power: 5
+  block-rating: 5
+  required-level: 48.0
+  armor: 16
+  armor-toughness: 2
+  lore:
+  - '&6Diamond boots.'
+  tier: RARE
+  knockback-resistance: 0.1
+  gem-sockets: 1.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: Diamond
+      amount: 1
+      name: ''
+    '3':
+      material: Diamond
+      amount: 1
+      name: ''
+    '8':
+      material: Diamond
+      amount: 1
+      name: ''
+    '5':
+      material: Diamond
+      amount: 1
+      name: ''
+

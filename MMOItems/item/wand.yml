@@ -1,0 +1,26 @@
+#BLAZE_WAND:
+#  material: BLAZE_ROD
+#  hide-enchants: true
+#  enchants:
+#    unbreaking: 1
+#  required-level: 45.0
+#  attack-damage: 10.0=20.0
+#  attack-speed: 1.0=1.4
+#  critical-strike-chance: 20.0
+#  range: 20.0=25.0
+#  tier: VERY_RARE
+#  perm-effects:
+#    FIRE_RESISTANCE: 1
+#  ability:
+#    on-hit:
+#      type: BURN
+#      cooldown: 40.0
+#      duration: 5.0
+#    right-click:
+#      type: FIREBOLT
+#      damage: 5.0
+#      ignite: 3.0
+#      cooldown: 20.0
+#  gem-sockets: 3.0
+#  name: '&c&l&m****[ &c&l Blaze Wand &c&l&m ]****'
+#  disable-crafting: true

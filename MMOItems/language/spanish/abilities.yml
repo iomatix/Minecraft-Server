@@ -1,0 +1,73 @@
+ability:
+  shulker-missile: Misil de Shulker
+  overload: Sobrecarga
+  magical-shield: Escudo Mágico
+  burning-hands: Manos Abrasadoras
+   heal: Curación
+  fire-meteor: Meteorito de Fuego
+  leap: Salto
+  light-dash: Embestida de Luz
+  burn: Quemar
+  starfall: Lluvia de Estrellas
+  wither: Wither
+  vampirism: Vampirismo
+  shockwave: Onda de Choque
+  sparkle: Destellar
+  smite: Herir
+  corrupt: Corromper
+  tnt-throw: Lanzar TNT
+  arcane-hail: Saludo Arcano
+  grand-heal: Gran Curación
+  firebolt: Rayo de Fuego
+  magical-path: Cámino Mágico
+  earthquake: Terremoto
+  stun: Aturdir
+  swiftness: Rapidez
+  holy-missile: Misil Sagrado
+  black-hole: Agujero Negro
+  slow: Ralentizar
+  circular-slash: Slash Circular
+  cursed-beam: Rayo Maldito
+  throw-up: Lanzar Arriba
+  thrust: Empuje
+  heavy-charge: Carga Pesada
+  item-throw: Lanzar Objeto
+  corrupted-fangs: Colmillos Corruptos
+  ice-crystal: Cristal de Hielo
+  blind: Cegar
+  shock: Electrocutar
+  shadow-veil: Velo de las Sombras
+  firefly: Luciérnaga
+  frog-mode: Modo Rana
+  poison: Veneno
+  lightning-beam: Rayo de Luz
+  blink: Teletransporte
+  sky-smash: Aplaste Aéreo
+  bloodbath: Baño de Sangre
+  bunny-mode: Modo Conejo
+  boom-o-lantern: Linterna o' Boom
+  confuse: Confusión
+modifier:
+  duration: Duración
+  damage: Daño
+  mana: Mana
+  stamina: Estamina
+  cooldown: Recarga
+  effect-duration: Duración de Efecto
+  radius: Radio
+  power: Poder
+  heal: Curación
+  knockback: Empuje
+  force: Fuerza
+  length: Longitud
+  amplifier: Amplificador
+  drain: Drenar
+  knock-up: Llamar
+  limit: Limitar
+  ignite: Incendiar
+  jump-force: Fuerza de Salto
+  speed: Velocidad
+  range: Rango
+  amount: Cantidad
+  slow-duration: Duración de Lentitud
+  slow-amplifier: Amplificador de Lentitud

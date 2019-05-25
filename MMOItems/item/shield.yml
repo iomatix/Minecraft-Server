@@ -1,0 +1,355 @@
+LVL_7_SHIELD:
+  material: SHIELD
+  name: '&fSmall Shield'
+  tier: COMMON
+  lore:
+  - '&7Common small shield.'
+  armor: 4.0
+  armor-thoughness: 1.0
+  unbreakable: false
+  block-power: 10.0
+  block-rating: 10.0
+  gem-sockets: 0.0
+  required-level: 7.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+LVL_16_SHIELD:
+  material: SHIELD
+  name: '&fShield'
+  tier: COMMON
+  lore:
+  - '&7Common shield.'
+  armor: 8.0
+  armor-thoughness: 2.0
+  unbreakable: false
+  block-power: 20.0
+  block-rating: 15.0
+  gem-sockets: 0.0
+  required-level: 16.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: LOG
+      amount: 1
+      durability: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: LOG
+      amount: 1
+      durability: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: LOG
+      amount: 1
+      durability: 1
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+LVL_25_SHIELD:
+  material: SHIELD
+  name: '&fIron Shield'
+  tier: COMMON
+  lore:
+  - '&7Common iron shield.'
+  armor: 12.0
+  armor-thoughness: 3.5
+  unbreakable: false
+  block-power: 25.0
+  block-rating: 35.0
+  gem-sockets: 0.0
+  required-level: 25.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+LVL_34_SHIELD:
+  material: SHIELD
+  name: '&fTough Iron Shield'
+  tier: UNCOMMON
+  lore:
+  - '&7Tough iron shield.'
+  armor: 15.0
+  armor-thoughness: 4
+  unbreakable: false
+  block-power: 27.5
+  block-rating: 45.0
+  gem-sockets: 1.0
+  required-level: 34.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: LOG
+      amount: 1
+      durability: 1
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: LOG
+      amount: 1
+      durability: 1
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: LOG
+      amount: 1
+      durability: 1
+      name: ''
+    '8':
+      material: IRON_INGOT
+      durability: 0
+      amount: 1
+      name: ''
+LVL_48_SHIELD:
+  material: SHIELD
+  name: '&6Diamond Shield'
+  tier: RARE
+  lore:
+  - '&6Diamond shield.'
+  armor: 17.0
+  armor-thoughness: 5
+  unbreakable: false
+  block-power: 35.0
+  block-rating: 55.0
+  gem-sockets: 2.0
+  required-level: 48.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: LOG
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: DIAMOND
+      durability: 0
+      amount: 1
+      name: ''
+UP_LVL_48_SHIELD:
+  material: SHIELD
+  name: '&eUpgraded Diamond Shield'
+  tier: VERY_RARE
+  lore:
+  - '&eUpgraded Diamond shield.'
+  armor: 21.0
+  armor-thoughness: 5
+  unbreakable: false
+  block-power: 39.0
+  block-rating: 59.0
+  gem-sockets: 3.0
+  required-level: 48.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: SHIELD
+      id: LVL_48_SHIELD
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''

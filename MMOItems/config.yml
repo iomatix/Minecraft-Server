@@ -1,0 +1,202 @@
+# --------------------------------------------------------------
+#
+#
+# Thanks for using MMOItems ;)
+# Join my Discord here for fast support! https://discordapp.com/invite/7Pc8ZHh
+#
+#
+# --------------------------------------------------------------
+
+# Notifies players with the 'mmoitems.update-notify' perm node when
+# they join the server if a new update is available for download.
+# Requires /reload when changed.
+update-notify: true
+
+# Default: 2.5 ; critical strikes deal 2.5x damage.
+# Can be increased by 'Critical Strike Power'
+#1.5x
+crit-coefficient: 1.5
+
+# Changes the default value for some stats.
+default:
+  attack-speed: 0.87
+  range: 32
+  blunt-rating: 33
+  recoil: 0.1
+  max-recoil: 3
+  fire-rate: 7
+  bullet-spread: 0.1
+  max-spread: 3
+
+# Enable, disable and customize the weapon abilities here.
+item-ability:
+  staff:
+    enabled: true
+    cooldown: 30
+    power: 1
+  gauntlet:
+    enabled: true
+    cooldown: 60
+    power: 1
+  blunt:
+    aoe:
+      enabled: true
+      cooldown: 2
+    stun:
+      enabled: true
+      chance: 5
+      cooldown: 30
+      power: 1
+  slashing:
+    enabled: true
+    cooldown: 2
+  piercing:
+    enabled: true
+    cooldown: 3
+  crossbow:
+    sound: true
+
+# Default and max. values of armor stats.
+armor-value:
+  block-power:
+    default: 25.0
+    max: 75.0
+  max-block-rating: 85.0
+  max-dodge-rating: 75.0
+
+# Enchantments are always hidden on items.
+always-hide-enchants: false
+
+# Displays on screen the spell when cast.
+display-cast-spell: false
+
+# When enabled, right-clicking a workbench will always open the advanced workbench.
+only-advanced-craftings: false
+
+# Players can click the anvil in the advanced workbench
+# to see all the available advanced crafting recipes.
+advanced-recipes-list: true
+
+# Permanent effects only apply when players move.
+# Requires /reload when changed
+perm-effects-apply-on-move: false
+
+# Players can't do anything when holding 1 Two Handed item and 1 other item simultaneously.
+# When toggled off, players are still highly slowed down.
+two-handed-item-restriction: true
+
+# If set to true, right-click commands will execute the command as if the player was OP.
+unsafe-op-commands: false
+
+# Use another style for the ability cooldown progress bar.
+thin-cooldown-progress-bar: true
+
+# Prevents players from damaging other players using abilities when set to false.
+ability-player-damage: true
+
+# The plugin prefix shown when executing a command.
+plugin-prefix: "&eMI&8> &7"
+
+# If set to true, no message will be displayed if an item command is still on cooldown.
+disable-cmd-cooldown-message: false
+
+item-particles:
+  # Toggles on/off particles displayed around the player when wearing/holding an item.
+  enabled: true
+  # The delay between each particle display.
+  # A low delay may cause performance leaks.
+  delay: 5
+  # The amount of particles displayed in each set
+  # Too many particles may cause performance leaks.
+  particles-displayed: 5
+
+# Displays a message on the action bar instead of on the chat.
+# Can be used to reduce chat spam.
+# Might interfere with other action bar plugins.
+cooldown-progress-bar-char: █
+
+
+action-bar-display:
+  ability-cooldown: true
+  not-enough-mana: true
+  not-enough-stamina: true
+  two-handed: true
+  cant-use-item: true
+  mitigation: true
+  item-break: true
+inventory-update-delay: 10
+mitigation:
+  block:
+    power:
+      default: 25.0
+      max: 75.0
+    rating-max: 80.0
+    cooldown:
+      base: 5.0
+      max-reduction: 80.0
+  dodge:
+    rating-max: 80.0
+    cooldown:
+      base: 5.0
+      max-reduction: 80.0
+  parry:
+    knockback-force: 1.0
+    rating-max: 80.0
+    cooldown:
+      base: 8.0
+      max-reduction: 80.0
+# Displays in-game damage indicators.
+damage-indicators:
+  abilities: true
+
+# Unregisters all crafting recipes. Requires /reload.
+# Also disables the advanced workbench when disabling advanced craftings.
+disable-craftings:
+  vanilla: false
+  advanced: false
+
+# "repair" disables the use of mmoitems in anvils.
+# "smelt" disables the use of mmoitems in furnaces.
+# 'enchant" disables the enchanting of mmoitems.
+# "craft" disables the use of mmoitems as craft ingredients.
+disable-interactions:
+  repair: false
+  enchant: false
+  smelt: false
+  craft: false
+  crazy-enchants: false
+  arrow-shooting: false
+
+# These item types can't attack via melee.
+non-melee-types:
+- BOW
+- GREATBOW
+- STAFF
+- WAND
+- CROSSBOW
+- MUSKET
+- WHIP
+
+# Left-click these items instead of right-click to use an ability.
+left-click-ability-types:
+- BOW
+- GREATBOW
+
+# Block types that can't be broken by an ability/item effect
+block-blacklist:
+- OBSIDIAN
+- BEDROCK
+
+# Allows/disables the permissions needed in order to use items/abilities.
+# General permission node for abilities: mmoitems.ability.ability-id
+# Ex: - mmoitems.ability.fire-meteor
+#     - mmoitems.ability.slow
+#     - mmoitems.ability.cursed-fangs
+#     etc.
+permissions:
+  abilities: false
+  items: false
+advanced-workbench:
+  replace-normal: false
+  shift-click: true
+  recipe-list: true
