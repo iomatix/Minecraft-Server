@@ -1,0 +1,133 @@
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 11
+settings:
+  debug: false
+  save-user-cache-on-stop-only: false
+  bungeecord: false
+  netty-threads: 4
+  late-bind: false
+  sample-count: 12
+  int-cache-limit: 1024
+  player-shuffle: 0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  user-cache-size: 1000
+  item-dirty-ticks: 20
+  attribute:
+    maxHealth:
+      max: 4194304.0
+    movementSpeed:
+      max: 4194304.0
+    attackDamage:
+      max: 4194304.0
+  moved-too-quickly-multiplier: 1024.0
+  filter-creative-items: true
+  moved-wrongly-threshold: 1.5625
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
+commands:
+  tab-complete: 0
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  spam-exclusions:
+  - /skill
+  log: true
+  silent-commandblock-console: false
+  send-namespaced: true
+stats:
+  disable-saving: false
+  forced-stats: {}
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
+world-settings:
+  default:
+    verbose: true
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 1.5
+      exp: 2.5
+    enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
+    view-distance: 10
+    zombie-aggressive-towards-villager: true
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
+    nerf-spawner-mobs: false
+    growth:
+      cactus-modifier: 170
+      cane-modifier: 165
+      melon-modifier: 220
+      mushroom-modifier: 175
+      pumpkin-modifier: 220
+      sapling-modifier: 200
+      wheat-modifier: 250
+      netherwart-modifier: 180
+      vine-modifier: 165
+      cocoa-modifier: 160
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    seed-monument: 10387313
+    seed-slime: 987234911
+    ticks-per:
+      hopper-transfer: 24
+      hopper-check: 24
+    hopper-amount: 3
+    entity-activation-range:
+      animals: 28
+      monsters: 26
+      misc: 4
+      tick-inactive-villagers: true
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+    random-light-updates: false
+    save-structure-info: true
+    max-tnt-per-tick: 100
+    max-tick-time:
+      tile: 17
+      entity: 23
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    mob-spawn-range: 8
+    max-entity-collissions: 2
+    chunks-per-tick: 80
+    seed-desert: 14357617
+    seed-igloo: 14357618
+    seed-jungle: 14357619
+    seed-swamp: 14357620
+    seed-shipwreck: 165745295
+    seed-ocean: 14357621
+    squid-spawn-range:
+      min: 45.0
