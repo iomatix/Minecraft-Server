@@ -38,7 +38,7 @@ class:
   # You can use decimal values for one point every few levels.
   # 0.2, for instance, would give one point every 5 levels.
   # If use-custom-points is enabled, this is ignored
-  points-per-level: 3.45
+  points-per-level: 4.45
 
   # Number of attribute points players start with
   starting-attribs: 5

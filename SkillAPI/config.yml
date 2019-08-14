@@ -63,7 +63,7 @@ Targeting:
   player-ally: 'false'
 
   # Whether or not to check for player allies via Parties
-  parties-ally: 'false'
+  parties-ally: 'true'
 
   # Whether or not for skills to affect NPCs
   affect-npcs: 'false'
@@ -239,7 +239,7 @@ GUI:
   #   {attr}        - the player's attribute points
   #   {sp}          - the player's main class skill points
   #   {value:<key>} - a skill value
-  action-bar-text: '&6&lEXP: &b&l{exp}&6&l\&a&l{expReq}&6 &c&lHP: {health}&l\{maxHealth} &9&lMP: {mana}&l\{maxMana}'
+  action-bar-text: '&6&lEXP: &b&l{exp}&6&l\&a&l{expReq}&6 &c&lHP: {health}&l\{maxHealth} &9&lMP: {mana}&l\{maxMana} &2&lSP: {sp}'
 
   # Whether or not to use title messages
   title-enabled: 'false'

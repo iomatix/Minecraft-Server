@@ -280,6 +280,7 @@ acc:
   cooldown: 0
   messages: 
     account-changed: '&2Your account has been changed'
+    not-account: '&cThat is not a valid account ID'
 ap: 
   name: 'ap'
   description: 'Gives attrib points'

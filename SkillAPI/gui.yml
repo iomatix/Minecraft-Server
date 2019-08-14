@@ -4,66 +4,97 @@ ATTRIBUTES:
   slots: 
     1: 
       dexterity: 3
+      eternity: 7
+      arcan: 6
       strength: 4
       vitality: 0
       spirit: 1
+      nobleness: 8
       intelligence: 2
+      holiness: 5
+CLASS_DETAILS: 
+  rows: 3
+  pages: 1
+  slots: 
+    1: 
+      class: 0
 CLASS_SELECTION: 
-  rows: 1
+  rows: 3
   pages: 1
   slots: 
     1: 
       adventurer: 0
 stAdventurer: 
-  rows: 5
-  pages: 6
+  rows: 6
+  pages: 5
   slots: 
     1: 
       mystic spirit: 3
       shadow: 12
       magic swap: 11
-      regeneration: 20
-      fire rain: 23
-      arcane rain: 6
+      regeneration: 21
+      purity: 33
+      fire rain: 27
+      arcane rain: 7
       blink: 9
-      thunder: 34
+      thunder: 38
       magic shield: 1
-      tsunami: 32
+      tsunami: 48
       rebound: 14
-      earthsledge: 24
+      magic bread: 25
+      earthsledge: 28
       magic absolution: 4
+      heal: 24
+      area heal: 42
       silence: 2
-      burnout: 43
+      burnout: 45
       fireball: 18
-      lightning: 30
-      summon wolf: 26
+      magic arrow: 34
+      lightning: 29
+      summon wolf: 32
       magic missile: 0
-      windblast: 21
-      blizzard: 41
+      windblast: 20
+      blizzard: 47
       earthshock: 19
       teleportation: 10
-      earthquake: 33
-      roots: 25
-      dark vortex: 5
-      meteorain: 36
+      earthquake: 37
+      roots: 31
+      dark vortex: 6
+      meteorain: 46
+      overload: 5
       push: 13
-      meteor strike: 27
+      meteor strike: 36
       fly: 15
-      iceile: 38
-      splash: 29
+      iceile: 39
+      splash: 30
+      magic weapon: 43
     2: 
       lethal tempo: 1
       fleetwork: 3
+      implacability: 9
+      pression: 36
       unexpected strike: 0
+      ray: 45
       conqueror: 2
+      haste: 18
     3: 
       ambush: 0
       dark harvest: 2
+      void: 45
       predator: 1
+      shrewdness: 18
+      permeability: 36
+      perforation: 9
     4: 
+      powerness: 18
       arcane comet: 1
+      arcanum: 9
       summon aery: 0
+      sapphire: 45
     5: 
       grasp of the undying: 0
       aftershock: 1
-    6:  {}
+      thornmail: 18
+      titan: 36
+      rubin: 45
+      rigidity: 9
