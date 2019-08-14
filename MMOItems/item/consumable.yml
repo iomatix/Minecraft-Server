@@ -1,15 +1,354 @@
-SANDWITCH:
-  material: BREAD
-  name: '&cSand&6witch'
+POTION_SMALL:
+  material: POTION
+  name: '&cHealth Potion'
   restore:
-    health: 1
+    health: 100
     food: 5
-    saturation: 0
-  effects:
-    POISON: 10,2
+    saturation: 10
   lore:
-  - '&7Are you really that hungry?!'
-  consume-cooldown: 15
+  - '&cSmall health potion'
+  consume-cooldown: 1.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: WHEAT
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: WHEAT
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+POTION:
+  material: POTION
+  name: '&cPotion'
+  restore:
+    health: 500
+    food: 5
+    saturation: 10
+  lore:
+  - '&cCommon health potion'
+  consume-cooldown: 1.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: WHEAT
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: APPLE
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+POTION:
+  material: POTION
+  name: '&cMedium Health Potion'
+  restore:
+    health: 750
+    food: 5
+    saturation: 10
+  lore:
+  - '&cMedium health potion'
+  consume-cooldown: 1.5
+  material: POTION
+  name: '&cPotion'
+  restore:
+    health: 500
+    food: 5
+    saturation: 10
+  lore:
+  - '&cCommon health potion'
+  consume-cooldown: 1.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: APPLE
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: APPLE
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+POTION:
+  material: POTION
+  name: '&cLarge Health Potion'
+  restore:
+    health: 1750
+    food: 5
+    saturation: 10
+  lore:
+  - '&cLarge health potion'
+  consume-cooldown: 1.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: sugar_cane
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: APPLE
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+POTION:
+  material: POTION
+  name: '&cMystic Health Potion'
+  restore:
+    health: 3250
+    food: 5
+    saturation: 10
+  lore:
+  - '&cMystic health potion'
+  consume-cooldown: 1.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: MAGMA_CREAM
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: sugar_cane
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: MELON
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+POTION:
+  material: POTION
+  name: '&cEpic Health Potion'
+  restore:
+    health: 7500
+    food: 15
+    saturation: 15
+  lore:
+  - '&cEpic health potion'
+  consume-cooldown: 2.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: MAGMA_CREAM
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: sugar_cane
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: SPECKLED_MELON
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
 ROCK:
   material: COBBLESTONE
   name: '&fRock'

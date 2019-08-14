@@ -12,7 +12,6 @@ LVL_7_SWORD:
   tier: COMMON
   lore:
   - '&7Stone Sword.'
-  unbreakable: true
   two-handed: false
   gem-sockets: 0.0
   required-level: 7.0
@@ -78,7 +77,6 @@ LVL_16_SWORD:
   tier: COMMON
   lore:
   - '&7Common iron Sword.'
-  unbreakable: true
   two-handed: false
   gem-sockets: 0.0
   required-level: 16.0
@@ -144,7 +142,6 @@ LVL_25_SWORD:
   tier: COMMON
   lore:
   - '&7Common heavy iron Sword.'
-  unbreakable: true
   two-handed: false
   gem-sockets: 0.0
   required-level: 25.0
@@ -210,7 +207,6 @@ LVL_34_SWORD:
   tier: UNCOMMON
   lore:
   - '&8Golden Sword.'
-  unbreakable: true
   two-handed: false
   gem-sockets: 1.0
   required-level: 34.0
@@ -276,7 +272,6 @@ LVL_48_SWORD:
   tier: RARE
   lore:
   - '&6Diamond Sword.'
-  unbreakable: true
   two-handed: false
   gem-sockets: 2.0
   required-level: 55.0
@@ -342,7 +337,6 @@ UP_LVL_48_SWORD:
   tier: VERY_RARE
   lore:
   - '&eUpgraded Diamond Sword.'
-  unbreakable: true
   two-handed: false
   gem-sockets: 3.0
   required-level: 48.0
@@ -412,7 +406,6 @@ MOONBLADE:
   element:
     damage:
       Ice: 26.0
-  unbreakable: true
   two-handed: false
   gem-sockets: 3.0
   required-level: 50.0
@@ -485,7 +478,6 @@ FLAMETONGUE:
   element:
     damage:
       Fire: 33.0
-  unbreakable: true
   two-handed: false
   gem-sockets: 4.0
   required-level: 52.0
@@ -565,7 +557,6 @@ SEETHE:
       damage: 20
       duration: 5
       slow-amplifier: 2
-  unbreakable: true
   two-handed: false
   gem-sockets: 4.0
   required-level: 54.0
@@ -647,7 +638,6 @@ OATHBREAKER:
       type: VAMPIRISM
       cooldown: 8
       drain: 45
-  unbreakable: true
   two-handed: false
   gem-sockets: 5.0
   required-level: 56.0
@@ -734,7 +724,6 @@ DIVINEDIVIDER:
       damage: 63.0
       radius: 4
       knockback: 1
-  unbreakable: true
   two-handed: false
   gem-sockets: 6.0
   required-level: 58.0
@@ -815,7 +804,6 @@ ULT_OATHBREAKER:
       type: VAMPIRISM
       cooldown: 4
       drain: 60
-  unbreakable: true
   two-handed: false
   gem-sockets: 6.0
   required-level: 58.0
@@ -898,7 +886,6 @@ ULT_SEETHE:
       damage: 33.3
       duration: 5
       slow-amplifier: 2
-  unbreakable: true
   two-handed: false
   gem-sockets: 6.0
   required-level: 58.0
@@ -982,7 +969,6 @@ ULT_MOONBLADE:
       duration: 5
       amplifier: 3
       length: 6
-  unbreakable: true
   two-handed: false
   gem-sockets: 6.0
   required-level: 58.0
@@ -1063,7 +1049,6 @@ ULT_FLAMETONGUE:
       type: BLIND
       cooldown: 12.3
       duration: 4
-  unbreakable: true
   two-handed: false
   gem-sockets: 6.0
   required-level: 58.0
@@ -1138,7 +1123,6 @@ VALERIANSWORD:
       damage: 37.3
       duration: 3.3
       slow-amplifier: 2
-  unbreakable: true
   two-handed: false
   gem-sockets: 6.0
   required-level: 62.0
