@@ -2,7 +2,7 @@
 **Configured API and config files for minecraft server.**
 
 **[SkillApi](https://www.spigotmc.org/resources/skillapi.4824/):**
-- **45** new unique skills for SkillAPI in the RPG style. Includes Active, passive, magic and weapons skills and even more.
+- **Over 60** new unique skills for SkillAPI in the RPG style. Includes Active, passive, magic and weapons skills and even more.
 - Prepared for long term RPG.
 - Attributes re-created.
 - Exp tables designed for [Conquestiamobs](https://www.spigotmc.org/resources/conquestia-mobs.21307/).
