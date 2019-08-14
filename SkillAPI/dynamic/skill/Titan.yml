@@ -32,7 +32,7 @@ Titan:
   - ''
   - '&2When receiving &6physical damage slows attacker for &6{attr:SlowSeconds.seconds}&6s.'
   - '&6{attr:HealChance.chance}&6% chance &2to &6heal &2by &6{attr:HealValue.value}&6HP.'
-  - '&6Melee attacks have &6{attr:DisarmChance.chance}&6% chance &2to &6disarm and'
+  - '&6Melee attacks have &6{attr:DisarmChance.chance}&6% chance &2to &6disarm &2and'
   - '&6{attr:StunChance.chance}&6% &2to &6stun &2for &6{attr:Duration.duration}&6s.'
   - '&6Reduces all taken damage by &610%.'
   - '&2Once per &6{attr:StunCDLore.seconds}&6s melee attack stuns &2the target for &6{attr:StunCrouchDur.duration}&6s.'
@@ -108,8 +108,8 @@ Titan:
                     icon-key: 'HealValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '75'
-                    value-scale: '50'
+                    value-base: '80'
+                    value-scale: '47'
                     indicator: '2D'
                   children:  {}
                 Sound-g: 
@@ -593,7 +593,7 @@ Titan:
           data: 
             icon-key: ''
             counts: 'True'
-            seconds-base: '241'
+            seconds-base: '240'
             seconds-scale: '0'
             indicator: '2D'
           children: 
@@ -607,7 +607,7 @@ Titan:
                 skill: 'False'
                 value-base: '0.9'
                 value-scale: '0'
-                seconds-base: '240'
+                seconds-base: '241'
                 seconds-scale: '0'
                 indicator: '2D'
               children:  {}
@@ -621,7 +621,7 @@ Titan:
                 skill: 'True'
                 value-base: '0.9'
                 value-scale: '0'
-                seconds-base: '240'
+                seconds-base: '241'
                 seconds-scale: '0'
                 indicator: '2D'
               children:  {}

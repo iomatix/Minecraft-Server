@@ -2,7 +2,6 @@ Rigidity:
   name: 'Rigidity'
   type: 'Passive'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -31,7 +30,8 @@ Rigidity:
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
   - ''
-  - '&61s &2after receiving damage gains additional &6{attr:Resist.value}&6% &2of total resistance.'
+  - '&61s &2after receiving damage gains additional &6{attr:Resist.value}&6% &2of total resistance for &6{attr:BuffSeconds.seconds}&6s.'
+  - '&2Cooldown: &60.75s.'
   - ''
   - '&2Determination tree passive.'
   desc:  []
@@ -49,30 +49,30 @@ Rigidity:
         dmg-max: '999999'
         indicator: '2D'
       children: 
-        Delay-b: 
-          type: 'mechanic'
+        Flag-b: 
+          type: 'condition'
           indicator: '3D'
           data: 
             icon-key: ''
-            counts: 'True'
-            delay-base: '1.2'
-            delay-scale: '0'
+            type: 'Not Set'
+            key: 'RigFlag'
             indicator: '2D'
           children: 
-            Flag-c: 
-              type: 'condition'
+            Delay-c: 
+              type: 'mechanic'
               indicator: '3D'
               data: 
                 icon-key: ''
-                type: 'Not Set'
-                key: 'RigFlag'
+                counts: 'True'
+                delay-base: '1.2'
+                delay-scale: '0'
                 indicator: '2D'
               children: 
                 Defense Buff-d: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: 'Constant'
+                    icon-key: 'BuffSeconds'
                     counts: 'True'
                     type: 'Multiplier'
                     skill: 'True'
@@ -82,18 +82,7 @@ Rigidity:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Flag-e: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    key: 'RigFlag'
-                    seconds-base: '4'
-                    seconds-scale: '2'
-                    indicator: '2D'
-                  children:  {}
-                Defense Buff-f: 
+                Defense Buff-e: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -101,9 +90,20 @@ Rigidity:
                     counts: 'True'
                     type: 'Multiplier'
                     skill: 'False'
-                    value-base: '1.04'
-                    value-scale: '0.04'
+                    value-base: '0.96'
+                    value-scale: '-0.04'
                     seconds-base: '4'
+                    seconds-scale: '2'
+                    indicator: '2D'
+                  children:  {}
+                Flag-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'RigFlag'
+                    seconds-base: '4.78'
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
@@ -121,23 +121,23 @@ Rigidity:
         - ''
         indicator: '2D'
       children: 
-        Delay-h: 
-          type: 'mechanic'
+        Flag-h: 
+          type: 'condition'
           indicator: '3D'
           data: 
             icon-key: ''
-            counts: 'True'
-            delay-base: '1.2'
-            delay-scale: '0'
+            type: 'Not Set'
+            key: 'RigFlag'
             indicator: '2D'
           children: 
-            Flag-i: 
-              type: 'condition'
+            Delay-i: 
+              type: 'mechanic'
               indicator: '3D'
               data: 
                 icon-key: ''
-                type: 'Not Set'
-                key: 'RigFlag'
+                counts: 'True'
+                delay-base: '1.2'
+                delay-scale: '0'
                 indicator: '2D'
               children: 
                 Defense Buff-j: 
@@ -154,18 +154,7 @@ Rigidity:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Flag-k: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    key: 'RigFlag'
-                    seconds-base: '4'
-                    seconds-scale: '2'
-                    indicator: '2D'
-                  children:  {}
-                Defense Buff-l: 
+                Defense Buff-k: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -173,9 +162,20 @@ Rigidity:
                     counts: 'True'
                     type: 'Multiplier'
                     skill: 'False'
-                    value-base: '1.04'
-                    value-scale: '0.04'
+                    value-base: '0.96'
+                    value-scale: '-0.04'
                     seconds-base: '4'
+                    seconds-scale: '2'
+                    indicator: '2D'
+                  children:  {}
+                Flag-l: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'RigFlag'
+                    seconds-base: '4.75'
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}

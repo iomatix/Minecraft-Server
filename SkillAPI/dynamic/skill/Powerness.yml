@@ -56,8 +56,8 @@ Powerness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.05'
-            multiplier-scale: '0.05'
+            multiplier-base: '0.04'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -93,15 +93,15 @@ Powerness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.05'
-            multiplier-scale: '0.05'
+            multiplier-base: '0.04'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Damage-f: 
           type: 'mechanic'
           indicator: '3D'
           data: 
-            icon-key: 'Constant'
+            icon-key: ''
             counts: 'True'
             type: 'Damage'
             value-base: 'api-dealt'
@@ -124,7 +124,7 @@ Powerness:
             icon-key: 'Damage'
             counts: 'True'
             key: 'ShrewLore'
-            value-base: '5'
-            value-scale: '5'
+            value-base: '4'
+            value-scale: '4'
             indicator: '2D'
           children:  {}

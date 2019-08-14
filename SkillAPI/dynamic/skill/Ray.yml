@@ -64,7 +64,48 @@ Ray:
         dmg-max: '999999'
         indicator: '2D'
       children: 
-        Flag-b: 
+        Fire-b: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'On Fire'
+            indicator: '2D'
+          children: 
+            Flag-c: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'FireRayCD'
+                indicator: '2D'
+              children: 
+                Flag-d: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FireRayCD'
+                    seconds-base: '0.15'
+                    seconds-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Damage-e: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'DamageFire'
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '9'
+                    value-scale: '5'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+        Flag-f: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -73,7 +114,7 @@ Ray:
             key: 'Flag1'
             indicator: '2D'
           children: 
-            Flag-c: 
+            Flag-g: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -82,17 +123,7 @@ Ray:
                 key: 'Flag2'
                 indicator: '2D'
               children: 
-                Fire-d: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    seconds-base: '4'
-                    seconds-scale: '1'
-                    indicator: '2D'
-                  children:  {}
-                Damage-e: 
+                Damage-h: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -105,7 +136,7 @@ Ray:
                     classifier: 'Physical'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-f: 
+                Particle Animation-i: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -141,7 +172,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-g: 
+                Particle Animation-j: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -177,7 +208,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-h: 
+                Particle Animation-k: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -208,7 +239,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-i: 
+                Sound-l: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -221,7 +252,7 @@ Ray:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-j: 
+                Particle Animation-m: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -257,7 +288,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-k: 
+                Particle Animation-n: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -293,7 +324,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Self-l: 
+                Self-o: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -303,7 +334,7 @@ Ray:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Heal-m: 
+                    Heal-p: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -314,7 +345,7 @@ Ray:
                         value-scale: '3'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-n: 
+                    Particle Animation-q: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -350,7 +381,7 @@ Ray:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-o: 
+                    Particle Animation-r: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -382,7 +413,7 @@ Ray:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-p: 
+                    Sound-s: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -395,7 +426,7 @@ Ray:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-q: 
+                    Particle Animation-t: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -431,7 +462,7 @@ Ray:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                Flag Clear-r: 
+                Flag Clear-u: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -440,7 +471,7 @@ Ray:
                     key: 'Flag2'
                     indicator: '2D'
                   children:  {}
-                Flag Clear-s: 
+                Flag Clear-v: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -449,7 +480,7 @@ Ray:
                     key: 'Flag1'
                     indicator: '2D'
                   children:  {}
-                Flag Clear-t: 
+                Flag Clear-w: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -458,7 +489,7 @@ Ray:
                     key: 'reload1'
                     indicator: '2D'
                   children:  {}
-                Flag Clear-u: 
+                Flag Clear-x: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -467,7 +498,7 @@ Ray:
                     key: 'reload2'
                     indicator: '2D'
                   children:  {}
-                Flag-v: 
+                Flag-y: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -478,7 +509,7 @@ Ray:
                     seconds-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Flag-w: 
+                Flag-z: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -489,7 +520,7 @@ Ray:
                     seconds-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-x: 
+                Defense Buff-ab: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -503,7 +534,17 @@ Ray:
                     seconds-scale: '1.2'
                     indicator: '2D'
                   children:  {}
-            Flag-y: 
+                Fire-bb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    seconds-base: '4'
+                    seconds-scale: '1'
+                    indicator: '2D'
+                  children:  {}
+            Flag-cb: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -512,7 +553,7 @@ Ray:
                 key: 'reload2'
                 indicator: '2D'
               children: 
-                Flag-z: 
+                Flag-db: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -523,7 +564,7 @@ Ray:
                     seconds-scale: '1'
                     indicator: '2D'
                   children:  {}
-                Flag-ab: 
+                Flag-eb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -534,7 +575,7 @@ Ray:
                     seconds-scale: '1'
                     indicator: '2D'
                   children:  {}
-                Sound-bb: 
+                Sound-fb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -547,7 +588,7 @@ Ray:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-cb: 
+                Particle Animation-gb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -583,7 +624,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Flag-db: 
+                Flag-hb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -594,7 +635,7 @@ Ray:
                     seconds-scale: '1'
                     indicator: '2D'
                   children:  {}
-                Flag-eb: 
+                Flag-ib: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -605,7 +646,7 @@ Ray:
                     seconds-scale: '1'
                     indicator: '2D'
                   children:  {}
-        Flag-fb: 
+        Flag-jb: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -614,7 +655,7 @@ Ray:
             key: 'reload1'
             indicator: '2D'
           children: 
-            Flag-gb: 
+            Flag-kb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -625,7 +666,7 @@ Ray:
                 seconds-scale: '1'
                 indicator: '2D'
               children:  {}
-            Flag-hb: 
+            Flag-lb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -636,7 +677,7 @@ Ray:
                 seconds-scale: '1'
                 indicator: '2D'
               children:  {}
-            Particle Animation-ib: 
+            Particle Animation-mb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -672,28 +713,7 @@ Ray:
                 right: '0'
                 indicator: '2D'
               children:  {}
-        Fire-jb: 
-          type: 'condition'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            type: 'On Fire'
-            indicator: '2D'
-          children: 
-            Damage-kb: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: 'DamageFire'
-                counts: 'True'
-                type: 'Damage'
-                value-base: '9'
-                value-scale: '5'
-                true: 'True'
-                classifier: 'True'
-                indicator: '2D'
-              children:  {}
-    Launch-lb: 
+    Launch-nb: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -703,7 +723,7 @@ Ray:
         type: 'Arrow'
         indicator: '2D'
       children: 
-        Particle Animation-mb: 
+        Particle Animation-ob: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -739,7 +759,7 @@ Ray:
             right: '0'
             indicator: '2D'
           children:  {}
-        Particle Animation-nb: 
+        Particle Animation-pb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -782,7 +802,7 @@ Ray:
         icon-key: ''
         indicator: '2D'
       children: 
-        Crouch-pb: 
+        Crouch-rb: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -790,7 +810,7 @@ Ray:
             crouch: 'False'
             indicator: '2D'
           children: 
-            Particle Projectile-qb: 
+            Particle Projectile-sb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -830,7 +850,7 @@ Ray:
                 use-effect: 'False'
                 indicator: '2D'
               children: 
-                Particle Animation-rb: 
+                Particle Animation-tb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -866,7 +886,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-sb: 
+                Sound-ub: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -879,7 +899,7 @@ Ray:
                     pitch-scale: '-0.03'
                     indicator: '2D'
                   children:  {}
-                Area-tb: 
+                Area-vb: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -894,7 +914,7 @@ Ray:
                     random: 'False'
                     indicator: '2D'
                   children: 
-                    Damage-ub: 
+                    Damage-wb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -907,7 +927,7 @@ Ray:
                         classifier: 'Physical'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-vb: 
+                    Particle Animation-xb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -943,7 +963,7 @@ Ray:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Fire-wb: 
+                    Fire-yb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -953,7 +973,7 @@ Ray:
                         seconds-scale: '1'
                         indicator: '2D'
                       children:  {}
-                    Status-xb: 
+                    Status-zb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -964,7 +984,7 @@ Ray:
                         duration-scale: '0.5'
                         indicator: '2D'
                       children:  {}
-                    Sound-yb: 
+                    Sound-ac: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -977,7 +997,7 @@ Ray:
                         pitch-scale: '-0.03'
                         indicator: '2D'
                       children:  {}
-                    Launch-zb: 
+                    Launch-bc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -992,7 +1012,7 @@ Ray:
                         right-scale: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-ac: 
+                    Particle Animation-cc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1028,7 +1048,7 @@ Ray:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-            Particle Animation-bc: 
+            Particle Animation-dc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1064,7 +1084,7 @@ Ray:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-cc: 
+            Sound-ec: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1077,7 +1097,7 @@ Ray:
                 pitch-scale: '-0.03'
                 indicator: '2D'
               children:  {}
-            Particle Animation-dc: 
+            Particle Animation-fc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1113,7 +1133,7 @@ Ray:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Particle Animation-ec: 
+            Particle Animation-gc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1149,7 +1169,7 @@ Ray:
                 right: '0'
                 indicator: '2D'
               children:  {}
-        Crouch-fc: 
+        Crouch-hc: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -1157,7 +1177,7 @@ Ray:
             crouch: 'True'
             indicator: '2D'
           children: 
-            Area-gc: 
+            Area-ic: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -1172,7 +1192,7 @@ Ray:
                 random: 'False'
                 indicator: '2D'
               children: 
-                Damage-hc: 
+                Damage-jc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1185,7 +1205,7 @@ Ray:
                     classifier: 'Physical'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ic: 
+                Particle Animation-kc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1221,7 +1241,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Fire-jc: 
+                Fire-lc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1231,7 +1251,7 @@ Ray:
                     seconds-scale: '1'
                     indicator: '2D'
                   children:  {}
-                Status-kc: 
+                Status-mc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1242,7 +1262,7 @@ Ray:
                     duration-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Sound-lc: 
+                Sound-nc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1255,7 +1275,7 @@ Ray:
                     pitch-scale: '-0.03'
                     indicator: '2D'
                   children:  {}
-                Launch-mc: 
+                Launch-oc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1270,7 +1290,7 @@ Ray:
                     right-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-nc: 
+                Particle Animation-pc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1306,7 +1326,7 @@ Ray:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-            Sound-oc: 
+            Sound-qc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1319,7 +1339,7 @@ Ray:
                 pitch-scale: '-0.03'
                 indicator: '2D'
               children:  {}
-            Particle Animation-pc: 
+            Particle Animation-rc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1355,7 +1375,7 @@ Ray:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Particle Animation-qc: 
+            Particle Animation-sc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1391,7 +1411,7 @@ Ray:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Particle Animation-rc: 
+            Particle Animation-tc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1434,7 +1454,7 @@ Ray:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-tc: 
+        Value Set-vc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1445,7 +1465,7 @@ Ray:
             value-scale: '-5'
             indicator: '2D'
           children:  {}
-        Passive-uc: 
+        Passive-wc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1455,7 +1475,7 @@ Ray:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-vc: 
+            Potion-xc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
