@@ -152,7 +152,7 @@ ITEM_BREAKER:
   material: STONE_AXE
   required-level: 3.0
   can-deconstruct: true
-  name: '&6&lItem Breaker'
+  name: '&6Item Breaker'
   lore:
   - '&6Drag and drop on item to destroy it.'
   disable-repairing: true
@@ -216,12 +216,58 @@ RECALL_POTION:
   commands:
     '1':
       command: spawn
-      cooldown: 10.0
-  consume-cooldown: 60.0
+      cooldown: 36000.0
+  consume-cooldown: 36000.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: FEATHER
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
 FIREBALL_SCROLL:
   material: PAPER
   consume-cooldown: 30.0
-  required-level: 15.0
   tier: MAGICAL
   ability:
     right-click:
@@ -233,7 +279,6 @@ FIREBALL_SCROLL:
 FIREBALL_SCROLL_II:
   material: PAPER
   consume-cooldown: 25.0
-  required-level: 17
   tier: MAGICAL
   ability:
     right-click:
@@ -245,7 +290,6 @@ FIREBALL_SCROLL_II:
 FIREBALL_SCROLL_III:
   material: PAPER
   consume-cooldown: 20.0
-  required-level: 20.0
   tier: MAGICAL
   ability:
     right-click:
@@ -254,3 +298,108 @@ FIREBALL_SCROLL_III:
       cooldown: 0.0
       ignite: 7.0
   name: '&cFireball Scroll III'
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: BLAZE_POWDER
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+REPAIR_KIT_LEGENDARY:
+  material: ANVIL
+  name: '&6Advanced Repair Kit'
+  lore:
+  - '&7Use it to repair your gear.'
+  tier: '&bLegendary'
+  consume-cooldown: 2
+  repair: 35000.0
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''

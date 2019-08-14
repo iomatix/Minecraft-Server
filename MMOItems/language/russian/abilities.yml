@@ -47,10 +47,31 @@ ability:
   firefly: Светлячок
   bunny-mode: Режим Кролика
   item-bomb: Бомба
-  bouncy-fireball: Боевой Огненный Шар
+  bouncy-fireball: Боевой огненный Шар
   death-mark: Метка Смерти
   life-ender: Месть Эндера
-  freezing-curse: Замораживающее Проклятие
+  freezing-curse: Проклятие Заморозки 
+  item-bomb: Предметная Бомба
+  freeze: Заморозка
+  blizzard: Снежная Буря
+  tactical-grenade: Тактическая Граната
+  ignite: Поджог
+  rain-of-arrows: Дождь из Стрел
+  eggpocalypse: Яичный Апокалипсис
+  minor-explosion: Небольшой Взрыв
+  regen-ally: Исцеление Союзника
+  contamination: Заражение 
+  corrosion: Коррозия
+  weaken-target: Ослабление Противника
+  chicken-wraith: Куриный Призрак
+  targeted-fireball: Нацеленный огненный Шар
+  magma-fissure: Трещина Магмы  
+  present-throw: Бросание Подарка
+  explosive-turkey: Взрывной Турк
+  frozen-aura: Аура Обморожения
+  snowman-turret: Турель - Снеговик
+  hoearthquake: Глобальная Вскопка
+  arcane-rift: Чародейский Разлом
 modifier:
   cooldown: Перезарядка
   mana: Маны
@@ -75,3 +96,13 @@ modifier:
   speed: Скорость
   slow-duration: Длительность замедления
   slow-amplifier: Усиление замедления
+  inaccuracy: Неточность
+  max-ignite: Максимальная длительность горения
+  extra-damage: Дополнительный урон
+cast-mode:
+  on-hit: При попадании
+  when-hit: При атаке
+  left-click: Левый клик
+  right-click: Правый клик
+  shift-left-click: Шифт + Левый клик
+  shift-right-click: Шифт + Правый клик 

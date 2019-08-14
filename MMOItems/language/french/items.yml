@@ -2,7 +2,7 @@ UNIDENTIFIED_ITEM:
   name: '&kNon identifié'
   lore:
   - '&e&oCet objet est &c&o&ninutilisable&e&o.'
-  - '&e&oJe dois trouver un moyen de l''identifier...'
+  - '&e&oJe vais devoir trouver un moyen de l''identifier...'
 BACK:
   name: Précedent
   lore: []
@@ -15,6 +15,6 @@ PREVIOUS_PAGE:
 NO_ITEM:
   name: '- Aucun objet -'
   lore: []
-NO_GEM_STONE_STAT:
-  name: '- Aucune stat -'
+NO_GEM_STONE:
+  name: '- Aucune gemme -'
   lore: []

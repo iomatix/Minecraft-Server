@@ -51,7 +51,7 @@ modifier:
   knockback: Recul
   force: Force
   length: Longueur
-  amplifier: 'Puissance d'effet'
+  amplifier: 'Puissance d''effet'
   drain: Drain
   knock-up: Recul
   limit: Limite

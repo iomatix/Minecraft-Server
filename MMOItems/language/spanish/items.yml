@@ -1,20 +1,21 @@
 UNIDENTIFIED_ITEM:
-  name: '&kSin Identificar'
+  name: '&kSin identificar'
   lore:
-  - '&e&oEste objeto está &c&o&nsin &c&o&nidentificar&e&o.'
-  - '&e&oTendré que encontrar alguna manera para identificarlo.'
+  - '&e&oEste ítem esta &c&o&nsin identificar&e&o.'
+  - '&e&oBusca una manera de identificarlo.'
+  - '&e&oPodría ser un objeto raro o común.'
 BACK:
-  name: Atrás
+  name: Volver
   lore: []
 NEXT_PAGE:
-  name: Siguiente Página
+  name: Página siguiente
   lore: []
 PREVIOUS_PAGE:
-  name: Página Previa
+  name: Página anterior
   lore: []
 NO_ITEM:
-  name: '- No hay objeto -'
+  name: '- Sin ítem -'
   lore: []
 NO_GEM_STONE:
-  name: '- Zócalo de gemas vacio -'
+  name: '- Espacio para gema vacío -'
   lore: []

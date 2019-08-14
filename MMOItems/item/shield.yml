@@ -6,7 +6,6 @@ LVL_7_SHIELD:
   - '&7Common small shield.'
   armor: 4.0
   armor-thoughness: 1.0
-  unbreakable: false
   block-power: 10.0
   block-rating: 10.0
   gem-sockets: 0.0
@@ -58,6 +57,9 @@ LVL_7_SHIELD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 95.0=180.0
+  will-break: false
+  unbreakable: true
 LVL_16_SHIELD:
   material: SHIELD
   name: '&fShield'
@@ -66,7 +68,6 @@ LVL_16_SHIELD:
   - '&7Common shield.'
   armor: 8.0
   armor-thoughness: 2.0
-  unbreakable: false
   block-power: 20.0
   block-rating: 15.0
   gem-sockets: 0.0
@@ -118,6 +119,9 @@ LVL_16_SHIELD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 105.0=200.0
+  will-break: false
+  unbreakable: true
 LVL_25_SHIELD:
   material: SHIELD
   name: '&fIron Shield'
@@ -126,7 +130,6 @@ LVL_25_SHIELD:
   - '&7Common iron shield.'
   armor: 12.0
   armor-thoughness: 3.5
-  unbreakable: false
   block-power: 25.0
   block-rating: 35.0
   gem-sockets: 0.0
@@ -178,6 +181,11 @@ LVL_25_SHIELD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 165.0=240.0
+  will-break: false
+  unbreakable: true
+  shield-pattern:
+    color: GRAY
 LVL_34_SHIELD:
   material: SHIELD
   name: '&fTough Iron Shield'
@@ -186,7 +194,6 @@ LVL_34_SHIELD:
   - '&7Tough iron shield.'
   armor: 15.0
   armor-thoughness: 4
-  unbreakable: false
   block-power: 27.5
   block-rating: 45.0
   gem-sockets: 1.0
@@ -238,6 +245,11 @@ LVL_34_SHIELD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 225.0=400.0
+  will-break: false
+  unbreakable: true
+  shield-pattern:
+    color: WHITE
 LVL_48_SHIELD:
   material: SHIELD
   name: '&6Diamond Shield'
@@ -246,7 +258,6 @@ LVL_48_SHIELD:
   - '&6Diamond shield.'
   armor: 17.0
   armor-thoughness: 5
-  unbreakable: false
   block-power: 35.0
   block-rating: 55.0
   gem-sockets: 2.0
@@ -298,6 +309,11 @@ LVL_48_SHIELD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 500.0=1000.0
+  will-break: false
+  unbreakable: true
+  shield-pattern:
+    color: LIGHT_BLUE
 UP_LVL_48_SHIELD:
   material: SHIELD
   name: '&eUpgraded Diamond Shield'
@@ -306,7 +322,6 @@ UP_LVL_48_SHIELD:
   - '&eUpgraded Diamond shield.'
   armor: 21.0
   armor-thoughness: 5
-  unbreakable: false
   block-power: 39.0
   block-rating: 59.0
   gem-sockets: 3.0
@@ -353,3 +368,6 @@ UP_LVL_48_SHIELD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 900.0=1300.0
+  will-break: false
+  unbreakable: true

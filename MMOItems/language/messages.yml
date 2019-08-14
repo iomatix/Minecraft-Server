@@ -2,33 +2,45 @@ hands-too-charged: You can't do anything, your hands are too charged.
 spell-on-cooldown: '#progress# &eYou must wait #left# second#s# before casting this
   spell.'
 item-on-cooldown: This item is on cooldown!
-item-command-on-cooldown: This item command is on cooldown!
 not-enough-perms-command: You don't have enough permissions.
 attack-blocked: 'You just blocked #percent#% of the attack damage!'
 attack-dodged: You just dodged an attack!
-not-enough-levels: You don't have enough levels to use this item!
-not-enough-perms: You don't have enough permissions to use this.
-not-enough-mana: You don't have enough mana!
-not-enough-stamina: You don't have enough stamina!
-not-identified: You can't use an unidentified item.
-wrong-class: You don't have the right class!
-successfully-identified: 'You successfully identified #item#&e.'
-successfully-deconstructed: 'You successfully deconstructed #item#&e.'
-gem-stone-applied: You successfully applied &f#gem#&e to your &f#item#&e.
-repaired-item: You successfully repaired &f#item#&e for &f#amount# &edurability.
-gave-item: '&eGave &f#item#&e#amount# to &f#player#&e.'
-received-item: '&eYou received &f#item#&e#amount#.'
-cant-update-item: Couldn't update your item.
-update-item: Successfuly updated your item.
-empty-workbench-first: Please empty the workbench first.
-not-enough-perms-craft: You don't have enough permissions to craft this item.
-miss-spell: You missed &c#spell#&e.
-advanced-workbench: Advanced Workbench
-advanced-recipes: Advanced Recipes
-gem-stats: Gem Stone Stats
-click-advanced-recipe: Click to see its recipe.
 attack-parried: You just parried an attack!
-gem-stone-broke: Your gem stone &f#gem#&c broke while trying to apply it onto &f#item#&c.
+not-enough-levels: You don't have enough levels to use this item!
+soulbound-restriction: This item is linked to another player, you can't use it!
+not-enough-perms: You don't have enough permissions to use this.
 broken-item: This item is broken, you first need to repair it.
 item-broke: 'Your #item#&c broke.'
 zero-durability: Your item has no durability left. Repair it in order to use it again.
+not-enough-mana: You don't have enough mana!
+not-enough-stamina: You don't have enough stamina!
+wrong-class: You don't have the right class!
+successfully-identified: 'You successfully identified #item#&e.'
+successfully-deconstructed: 'You successfully deconstructed #item#&e.'
+gem-stone-applied: You successfully applied &f#gem#&e onto your &f#item#&e.
+gem-stone-broke: Your gem stone &f#gem#&c broke while trying to apply it onto &f#item#&c.
+repaired-item: You successfully repaired &f#item#&e for &f#amount# &euses.
+gave-item: '&eGave &f#item#&e#amount# to &f#player#&e.'
+received-item: '&eYou received &f#item#&e#amount#.'
+cant-update-item: Couldn't update your item.
+update-item: Successfully updated your item.
+empty-workbench-first: Please empty the workbench first.
+not-enough-perms-craft: You don't have enough permissions to craft this item.
+cant-bind-item: 'This item is currently linked to #player# by a Lvl #level# soulbound.
+  You will have to break this soulbound first.'
+no-soulbound: This item is not bound to anyone.
+cant-bind-stacked: You can't bind stacked items.
+unsuccessful-soulbound: Your soulbound failed.
+unsuccessful-soulbound-break: You couldn't break the soulbound.
+low-soulbound-level: 'This item soulbound is Lvl #level#. You will need a higher soulbound
+  level on your consumable to break this soulbound.'
+successfully-bind-item: You successfully applied a Lvl &6#level# &esoulbound to your
+  &6#item#&e.
+successfully-break-bind: You successfully broke the Lvl &6#level# &eitem soulbound!
+soulbound-item-lore: '&7//&4Linked to #player#//&4Lvl #level# Soulbound'
+soulbound-command-no: This item is not bound to anyone.
+soulbound-command-info: Your item is bound to &6#player# &eby a Lvl &6#level# &esoulbound.
+advanced-workbench: Advanced Workbench
+advanced-recipes: Advanced Recipes
+gem-stats: Gem Stones
+click-advanced-recipe: '#d Click to see its recipe.'

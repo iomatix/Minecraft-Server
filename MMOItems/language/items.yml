@@ -3,6 +3,13 @@ UNIDENTIFIED_ITEM:
   lore:
   - '&e&oThis item is &c&o&nunidentified&e&o.'
   - '&e&oI''ll have to find a way to identify this.'
+TYPE_DISPLAY:
+  name: '#type# &8(Click to browse)'
+  lore:
+  - '&7There are &6#recipes#&7 available recipes.'
+RECIPE_LIST:
+  name: Advanced Recipes
+  lore: []
 BACK:
   name: Back
   lore: []
@@ -15,8 +22,8 @@ PREVIOUS_PAGE:
 NO_ITEM:
   name: '- No Item -'
   lore: []
-NO_GEM_STONE_STAT:
-  name: '- No Gem Stone Stat -'
+NO_TYPE:
+  name: '- No Type -'
   lore: []
 NO_GEM_STONE:
   name: '- Empty Gem Socket -'

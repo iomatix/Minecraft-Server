@@ -21,3 +21,13 @@ NO_GEM_STONE_STAT:
 NO_GEM_STONE:
   name: '- Свободный Слот для Самоцвета -'
   lore: []
+NO_TYPE:
+  name: '- Не Типа -'
+  lore: []
+TYPE_DISPLAY:
+  name: '#type# &8(Нажмите для просмотра)'
+  lore:
+  - '&7Существует &6#recipes#&7 доступных рецептов.'
+RECIPE_LIST:
+  name: Улучшенные Рецепты
+  lore: []

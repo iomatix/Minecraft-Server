@@ -1,3 +1,39 @@
+# Item sets let you create links betweens the different items you create.
+# By wearing multiple items from the same set, the player will benefit from
+# set bonuses which incites him to use items from the same type.
+# This is a very powerful system for RPG items.
+#
+# Possible stats:
+# - max-mana
+# - magic-damage
+# - weapon-damage
+# - pvp-damage
+# - pve-damage
+# - critical-strike-chance
+# - critical-strike-power
+# - blunt-power
+# - blunt-rating
+# - block-power
+# - block-rating
+# - block-cooldown-reduction
+# - parry-rating
+# - parry-cooldown-reduction
+# - dodge-rating
+# - dodge-cooldown-reduction
+# - damage-reduction
+# - fire-damage-reduction
+# - fall-damage-reduction
+# - magic-damage-reduction
+#
+# You can also use potion effects as set bonuses, e.g
+# speed: 2 gives permanent Speed II
+# damage_increase: 3 gives permanent Strength III
+#
+# You may also add abilities as full set bonuses. The ability ID
+# must start with 'ability-' but it is only used as reference.
+# You can configure the ability cast mode, type & modifiers as usual.
+
+
 # Item sets allow to link items by giving bonuses to the player
 # if he wears enough items from the same set. It also incites
 # players to overall use the same type of items.
@@ -29,27 +65,77 @@
 # - fall-damage-reduction
 # - magic-damage-reduction
 
-
-ARCANE:
-    name: '&2Arcane Set'
+LEATHER:
+    name: '&2Leather Set'
     bonuses:
         '3':
-            magic-damage: 20
+            dodge-rating: 20
         '4':
-            max-mana: 30
+            dodge-cooldown-reduction: 5
+            speed: 2
     lore-tag:
-    - '&2&nArcane Set Bonus:'
-    - '  &7[3] +20% Magic Damage'
-    - '  &7[4] 30 Max Mana'
-
-STEEL:
-    name: '&8Steel Set'
+    - '&2&nLeather Set Bonus:'
+    - '  &7[3] +20% Dodge Rating'
+    - '  &7[4] Speed II'
+IRON:
+    name: '&2Iron Set'
     bonuses:
         '3':
-            damage-reduction: 5
+            block-rating: 20
+            block-power: 5
         '4':
+            block-cooldown-reduction: 5
+            damage-reduction: 3
+    lore-tag:
+    - '&2&nIron Set Bonus:'
+    - '  &7[3] +20% Block Rating'
+    - '  &7[3] +5% Block Power'
+    - '  &7[4] +3% Damage Reduction'
+HEAVY_IRON:
+    name: '&2Heavy Iron'
+    bonuses:
+        '3':
+            block-rating: 25
+            block-power: 9
+        '4':
+            block-cooldown-reduction: 12
+            damage-reduction: 4
+    lore-tag:
+    - '&2&nHeavy Iron Set Bonus:'
+    - '  &7[3] +25% Block Rating'
+    - '  &7[3] +9% Block Power'
+    - '  &7[4] +4% Damage Reduction'
+GOLD:
+    name: '&2Gold Set'
+    bonuses:
+        '3':
+            block-rating: 25
+            parry-rating: 20
+            block-power: 6
+        '4':
+            block-cooldown-reduction: 5
+            parry-cooldown-reduction: 12
+            damage-reduction: 3
+    lore-tag:
+    - '&2&nGold Set Bonus:'
+    - '  &7[3] +25% Block Rating'
+    - '  &7[3] +20% Parry Rating'
+    - '  &7[3] +6% Block Power'
+    - '  &7[4] +3% Damage Reduction'
+DIAMOND:
+    name: '&2Diamond Set'
+    bonuses:
+        '3':
+            block-rating: 30
+            parry-rating: 25
+            block-power: 10
+        '4':
+            block-cooldown-reduction: 12
+            parry-cooldown-reduction: 10
             damage-reduction: 5
     lore-tag:
-    - '&8&nSteel Set Bonus:'
-    - '  &7[3] +5% Damage Reduction'
+    - '&2&nDiamond Set Bonus:'
+    - '  &7[3] +30% Block Rating'
+    - '  &7[3] +25% Parry Rating'
+    - '  &7[3] +10% Block Power'
     - '  &7[4] +5% Damage Reduction'

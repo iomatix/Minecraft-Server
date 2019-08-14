@@ -7,12 +7,12 @@
 #  perm-effects:
 #    SPEED: 1
 LVL_7_SWORD:
-  material: wood_Sword
-  name: '&fWooden Sword'
+  material: stone_Sword
+  name: '&fStone Sword'
   tier: COMMON
   lore:
-  - '&7Wooden Sword.'
-  unbreakable: false
+  - '&7Stone Sword.'
+  unbreakable: true
   two-handed: false
   gem-sockets: 0.0
   required-level: 7.0
@@ -30,7 +30,7 @@ LVL_7_SWORD:
       durability: 0
       name: ''
     '1':
-      material: STICK
+      material: COBBLESTONE
       amount: 1
       durability: 0
       name: ''
@@ -45,7 +45,7 @@ LVL_7_SWORD:
       durability: 0
       name: ''
     '4':
-      material: STICK
+      material: COBBLESTONE
       amount: 1
       durability: 0
       name: ''
@@ -60,7 +60,7 @@ LVL_7_SWORD:
       durability: 0
       name: ''
     '7':
-      material: LOG
+      material: STICK
       amount: 1
       durability: 0
       name: ''
@@ -69,13 +69,16 @@ LVL_7_SWORD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 95.0=180.0
+  will-break: false
+  unbreakable: true
 LVL_16_SWORD:
   material: iron_Sword
   name: '&fIron Sword'
   tier: COMMON
   lore:
   - '&7Common iron Sword.'
-  unbreakable: false
+  unbreakable: true
   two-handed: false
   gem-sockets: 0.0
   required-level: 16.0
@@ -132,13 +135,16 @@ LVL_16_SWORD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 180.0=230.0
+  will-break: false
+  unbreakable: true
 LVL_25_SWORD:
   material: iron_Sword
   name: '&fHeavy Iron Sword'
   tier: COMMON
   lore:
   - '&7Common heavy iron Sword.'
-  unbreakable: false
+  unbreakable: true
   two-handed: false
   gem-sockets: 0.0
   required-level: 25.0
@@ -195,13 +201,16 @@ LVL_25_SWORD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 280.0=330.0
+  will-break: false
+  unbreakable: true
 LVL_34_SWORD:
   material: gold_Sword
   name: '&fGolden Sword'
   tier: UNCOMMON
   lore:
   - '&8Golden Sword.'
-  unbreakable: false
+  unbreakable: true
   two-handed: false
   gem-sockets: 1.0
   required-level: 34.0
@@ -258,13 +267,16 @@ LVL_34_SWORD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 320.0=380.0
+  will-break: false
+  unbreakable: true
 LVL_48_SWORD:
   material: diamond_Sword
   name: '&6Diamond Sword'
   tier: RARE
   lore:
   - '&6Diamond Sword.'
-  unbreakable: false
+  unbreakable: true
   two-handed: false
   gem-sockets: 2.0
   required-level: 55.0
@@ -321,13 +333,16 @@ LVL_48_SWORD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 1000.0=2000.0
+  will-break: false
+  unbreakable: true
 UP_LVL_48_SWORD:
   material: diamond_Sword
   name: '&eUpgraded Diamond Sword'
   tier: VERY_RARE
   lore:
   - '&eUpgraded Diamond Sword.'
-  unbreakable: false
+  unbreakable: true
   two-handed: false
   gem-sockets: 3.0
   required-level: 48.0
@@ -379,6 +394,9 @@ UP_LVL_48_SWORD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 1500.0=2500.0
+  will-break: false
+  unbreakable: true
 MOONBLADE:
   material: iron_Sword
   name: '&eMoonblade'
@@ -449,6 +467,9 @@ MOONBLADE:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 FLAMETONGUE:
   material: gold_Sword
   name: '&bFlame Tongue'
@@ -519,6 +540,9 @@ FLAMETONGUE:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 SEETHE:
   material: diamond_Sword
   name: '&5Seethe'
@@ -596,6 +620,9 @@ SEETHE:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 OATHBREAKER:
   material: iron_Sword
   name: '&4Oath Breaker'
@@ -675,6 +702,9 @@ OATHBREAKER:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 DIVINEDIVIDER:
   material: gold_Sword
   name: '&cDivine Divider'
@@ -757,6 +787,9 @@ DIVINEDIVIDER:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 ULT_OATHBREAKER:
   material: iron_Sword
   name: '&cUltimate Oath Breaker'
@@ -834,6 +867,9 @@ ULT_OATHBREAKER:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 ULT_SEETHE:
   material: diamond_Sword
   name: '&cUltimate Seethe'
@@ -914,6 +950,9 @@ ULT_SEETHE:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 ULT_MOONBLADE:
   material: iron_Sword
   name: '&cUltimate Moonblade'
@@ -995,6 +1034,9 @@ ULT_MOONBLADE:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 ULT_FLAMETONGUE:
   material: gold_Sword
   name: '&cUltimate Fire Tongue'
@@ -1073,6 +1115,9 @@ ULT_FLAMETONGUE:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true
 VALERIANSWORD:
   material: iron_Sword
   name: '&cValerian Sword'
@@ -1146,3 +1191,6 @@ VALERIANSWORD:
       durability: 0
       amount: 1
       name: ''
+  max-durability: 7500.0
+  will-break: false
+  unbreakable: true

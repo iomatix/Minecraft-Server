@@ -1,73 +1,76 @@
 ability:
-  shulker-missile: Misil de Shulker
   overload: Sobrecarga
   magical-shield: Escudo Mágico
-  burning-hands: Manos Abrasadoras
-   heal: Curación
-  fire-meteor: Meteorito de Fuego
-  leap: Salto
+  bouncy-fireball: Bouncy Fireball
+  burning-hands: Arma flameante
+  fire-meteor: Meteorito
   light-dash: Embestida de Luz
+  sparkle: Destellos
+  tnt-throw: TNT
+  earthquake: Terremoto
+  stun: Aturdir
+  holy-missile: Misil sagrado
+  black-hole: Agujero negro
+  slow: Relentizar
+  throw-up: Maldición Podrida
+  circular-slash: Circulo mortal
+  cursed-beam: Viga maldita
+  thrust: Thrust
+  heavy-charge: Super carga
+  item-throw: Lanzar
+  shock: Electrocutar
+  shadow-veil: Velo de Sombras
+  frog-mode: Modo rana
+  lightning-beam: Rayo de luz
+  death-mark: Marca mortal
+  confuse: Confusión
+  shulker-missile: Misil Shulker
+  heal: Cura
+  leap: Salto
   burn: Quemar
   starfall: Lluvia de Estrellas
   wither: Wither
-  vampirism: Vampirismo
   shockwave: Onda de Choque
-  sparkle: Destellar
-  smite: Herir
-  corrupt: Corromper
-  tnt-throw: Lanzar TNT
-  arcane-hail: Saludo Arcano
-  grand-heal: Gran Curación
+  vampirism: Vampirismo
+  smite: Herida profunda
+  corrupt: Corrupción
+  arcane-hail: Maldición del protector
+  grand-heal: Gran meditación
   firebolt: Rayo de Fuego
-  magical-path: Cámino Mágico
-  earthquake: Terremoto
-  stun: Aturdir
+  magical-path: Botas mágicas
+  life-ender: Diluvio Letal
   swiftness: Rapidez
-  holy-missile: Misil Sagrado
-  black-hole: Agujero Negro
-  slow: Ralentizar
-  circular-slash: Slash Circular
-  cursed-beam: Rayo Maldito
-  throw-up: Lanzar Arriba
-  thrust: Empuje
-  heavy-charge: Carga Pesada
-  item-throw: Lanzar Objeto
-  corrupted-fangs: Colmillos Corruptos
-  ice-crystal: Cristal de Hielo
+  freezing-curse: Congelar
+  ice-crystal: Cristal de hielo
   blind: Cegar
-  shock: Electrocutar
-  shadow-veil: Velo de las Sombras
-  firefly: Luciérnaga
-  frog-mode: Modo Rana
+  firefly: Mariposa
   poison: Veneno
-  lightning-beam: Rayo de Luz
   blink: Teletransporte
   sky-smash: Aplaste Aéreo
-  bloodbath: Baño de Sangre
-  bunny-mode: Modo Conejo
-  boom-o-lantern: Linterna o' Boom
-  confuse: Confusión
+  bloodbath: Baño de sangre
+  bunny-mode: Modo conejo
+  item-bomb: Bomba
 modifier:
-  duration: Duración
-  damage: Daño
+  damage: '&7Daño'
   mana: Mana
-  stamina: Estamina
-  cooldown: Recarga
-  effect-duration: Duración de Efecto
-  radius: Radio
-  power: Poder
-  heal: Curación
-  knockback: Empuje
-  force: Fuerza
-  length: Longitud
-  amplifier: Amplificador
-  drain: Drenar
-  knock-up: Llamar
-  limit: Limitar
-  ignite: Incendiar
-  jump-force: Fuerza de Salto
-  speed: Velocidad
-  range: Rango
-  amount: Cantidad
-  slow-duration: Duración de Lentitud
-  slow-amplifier: Amplificador de Lentitud
+  stamina: '&7Stamina'
+  cooldown: '&7Enfriamiento'
+  radius: '&7Radio'
+  duration: '&7Duración'
+  power: '&7Poder'
+  ignite: '&7Ignición'
+  speed: '&7Velocidad'
+  knockback: '&7Empuje'
+  length: '&7Longitud'
+  limit: '&7Límite'
+  force: '&7Fuerza'
+  amplifier: '&7Mejora'
+  jump-force: '&7Fuerza de salto'
+  slow-amplifier: '&7Mejora de relentización'
+  effect-duration: '&7Duración del efecto'
+  heal: '&7Curación'
+  knock-up: '&7Aturdir'
+  drain: '&7Drenar'
+  range: '&7Rango'
+  amount: '&7Cantidad'
+  slow-duration: '&7Tiempo de relentización'

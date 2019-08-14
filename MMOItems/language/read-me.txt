@@ -4,5 +4,7 @@ Make sure you have all the files at the end, and restart your server.
 
 !! Some item stats use lore to store their data and thus will NO LONGER work on older items if
 you change their corresponding translation in the /MMOItems/language/stats.yml file, including:
-- custom durability
 - gem stones
+- custom durability
+
+So make sure you translate them before creating items with these options!

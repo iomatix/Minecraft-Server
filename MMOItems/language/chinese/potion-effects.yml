@@ -1,26 +1,30 @@
 # Translation by tucaoever
-# Date: 08-13-2018
+# Date: 10-13-2018
 
-speed: 速度
-slow: 减慢
-fast-digging: 快速挖掘
+speed: 速度提升
+slow: 缓慢
+fast-digging: 急迫
 slow-digging: 挖掘疲劳
-increase-damage: 伤害提高
-heal: 治疗
-harm: 损耗
-jump: 跳跃
+increase-damage: 力量
+heal: 生命恢复
+harm: 伤害
+jump: 跳跃提升
 confusion: 眩晕
-regeneration: 再生
-damage-resistance: 伤害保护
+regeneration: 生命恢复
+damage-resistance: 抗性提升
 fire-resistance: 火焰保护
 water-breathing: 水下呼吸
-invisibility: 隐形
+invisibility: 隐身
 blindness: 失明
 night-vision: 夜视
 hunger: 饥饿
 weakness: 虚弱
 poison: 中毒
 wither: 凋零
-health-boost: 生命提高
-absorption: 吸收
+health-boost: 生命提升
+absorption: 伤害吸收
 saturation: 饱和
+glowing: 发光
+levitation: 悬浮
+luck: 幸运
+unluck: 不幸

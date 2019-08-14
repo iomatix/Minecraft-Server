@@ -1,30 +1,33 @@
-hands-too-charged: No puedes hacer nada, tus manos están sobrecargadas.
-spell-on-cooldown: '#progress# &eDebes esperar #left# segundo#s# antes de lanzar ese hechizo.'
-item-on-cooldown: Este objeto se está recargando!
-item-command-on-cooldown: El comando de este objeto se está recargando!
-no-perm: No tienes suficientes permisos.
-attack-blocked: 'Acabas de bloquear un #percent#% del daño de ataque!'
-attack-dodged: Acabas de esquivar el ataque!
-attack-parried: Acabas de desviar el ataque!
-not-enough-levels: No tienes suficiente nivel para usar este objeto!
-not-enough-perms: No tienes suficientes permisos para usar eso.
-not-enough-mana: No tienes suficiente mana!
-not-enough-stamina: No tienes suficiente estamina!
-not-identified: No puedes usar un objeto sin identificar.
-wrong-class: No tienes la clase adecuada!
-successfully-identified: 'Has identificado exitosamente #item#&e.'
-successfully-deconstructed: 'You successfully deconstructed #item#&e.'
-gem-stone-applied: Has aplicado exitosamente &f#gem#&e a tu &f#item#&e.
-gem-stone-broke: Tu gema &f#gem#&c se ha roto cuando la intentabas aplicar a tu &f#item#&c.
-repaired-item: Has reparado exitosamente tu &f#item#&e por &f#amount# &edurabilidad.
+hands-too-charged: Estás usando un ítem a dos manos, no puedes hacer eso.
+spell-on-cooldown: '#progress# &e#left# Segundo#s#'
+item-on-cooldown: Aún no esta listo!
+item-command-on-cooldown: Aún no esta listo!
+not-enough-perms-command: '&fComando desconocido usa "/ayuda" para mas info'
+attack-blocked: 'Has bloqueado #percent#% de daño recibido!'
+attack-dodged: Has esquivado un ataque!
+not-enough-levels: '&e&lNo tienes nivel suficiente para usar este ítem'
+not-enough-perms: '&c&lNo puedes hacer eso.'
+not-enough-mana: No tienes mana suficiente!
+not-enough-stamina: No tienes suficiente resistencia!
+not-identified: No puedes usar un ítem sin identificar.
+wrong-class: You don't have the right class!
+successfully-identified: 'Ítem identificado: #item#&e.'
+successfully-deconstructed: 'Has destruido: #item#&e.'
+gem-stone-applied: Has aplicado &f#gem#&e a &f#item#&e.
+repaired-item: Has reparado &f#item#&e por &f#amount# &ede durabilidad.
 gave-item: '&eHas dado &f#item#&e#amount# a &f#player#&e.'
-received-item: '&eAcabas de recibir &e#amount# &f#item#.'
-cant-update-item: No se pudo mejorar tu objeto.
-update-item: Has mejorado exitosamente tu objeto.
-empty-workbench-first: Vacio primero el espacio de trabajo por favor.
-not-enough-perms-craft: No tienes suficientes permisos para craftear este objeto.
-miss-spell: Has fallado &c#spell#&e.
-advanced-workbench: Trabajo de espacio avanzado
-advanced-recipes: Crafteos avanzados
-gem-stats: estadísticas de la gema
-click-advanced-recipe: '#d Click para ver el crafteo.'
+received-item: '&a&l➱ &eHas recibido &f#item#&e#amount#.'
+cant-update-item: El ítem no se puede actualizar.
+update-item: Ítem actualizado.
+empty-workbench-first: Primero vacía la mesa de creación.
+not-enough-perms-craft: '&fComando desconocido usa "/ayuda" para mas info'
+miss-spell: Fallaste &c#spell#&e.
+advanced-workbench: Mesa de creación avanzada
+advanced-recipes: Recetas avanzadas
+gem-stats: Estadísticas de gemas
+click-advanced-recipe: Clic para ver la receta.
+attack-parried: Has reflejado un ataque!
+gem-stone-broke: La gema &f#gem#&c se ha roto al intentar aplicarse a &f#item#&c.
+broken-item: This item is broken, you first need to repair it.
+item-broke: 'Your #item#&c broke.'
+zero-durability: Your item has no durability left. Repair it in order to use it again.

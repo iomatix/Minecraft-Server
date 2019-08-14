@@ -58,6 +58,12 @@ LVL_7_LEATHER_HELMET:
       durability: 0
       amount: 1
       name: ''
+  dye-color: 80 60 50
+  set: LEATHER
+  max-durability: 95.0=180.0
+  dodge-cooldown-reduction: 1.0
+  dodge-rating: 0.01
+  unbreakable: true
 LVL_7_LEATHER_CHESTPLATE:
   name: '&fLeather Chestplate'
   material: Leather_CHESTPLATE
@@ -118,6 +124,12 @@ LVL_7_LEATHER_CHESTPLATE:
       durability: 0
       amount: 1
       name: ''
+  dye-color: 80 60 50
+  set: LEATHER
+  max-durability: 115.0=180.0
+  dodge-cooldown-reduction: 2.0
+  dodge-rating: 0.01
+  unbreakable: true
 LVL_7_LEATHER_BOOTS:
   name: '&fLeather Boots'
   material: Leather_BOOTS
@@ -178,6 +190,13 @@ LVL_7_LEATHER_BOOTS:
       durability: 0
       amount: 1
       name: ''
+  dye-color: 80 60 50
+  dodge-cooldown-reduction: 3.0
+  dodge-rating: 0.04
+  set: LEATHER
+  max-durability: 95.0=180.0
+  will-break: false
+  unbreakable: true
 LVL_7_LEATHER_LEGGINGS:
   name: '&fLeather Leggings'
   material: Leather_LEGGINGS
@@ -238,6 +257,12 @@ LVL_7_LEATHER_LEGGINGS:
       durability: 0
       amount: 1
       name: ''
+  dye-color: 80 60 50
+  set: LEATHER
+  max-durability: 110.0=180.0
+  dodge-cooldown-reduction: 1.0
+  dodge-rating: 0.03
+  unbreakable: true
 LVL_16_IRON_HELMET:
   name: '&fIron Helmet'
   material: Iron_helmet
@@ -293,6 +318,10 @@ LVL_16_IRON_HELMET:
       material: iron_ingot
       amount: 1
       name: ''
+  set: IRON
+  max-durability: 195.0=280.0
+  will-break: false
+  unbreakable: true
 LVL_16_IRON_CHESTPLATE:
   name: '&fIron Chestplate'
   material: Iron_CHESTPLATE
@@ -345,6 +374,10 @@ LVL_16_IRON_CHESTPLATE:
       material: iron_ingot
       amount: 1
       name: ''
+  set: IRON
+  max-durability: 205.0=280.0
+  will-break: false
+  unbreakable: true
 LVL_16_IRON_LEGGINGS:
   name: '&fIron Leggings'
   material: Iron_LEGGINGS
@@ -398,6 +431,10 @@ LVL_16_IRON_LEGGINGS:
       material: iron_ingot
       amount: 1
       name: ''
+  set: IRON
+  max-durability: 200.0=280.0
+  will-break: false
+  unbreakable: true
 LVL_16_IRON_BOOTS:
   name: '&fIron Boots'
   material: Iron_BOOTS
@@ -454,6 +491,10 @@ LVL_16_IRON_BOOTS:
       material: iron_ingot
       amount: 1
       name: ''
+  set: IRON
+  max-durability: 180.0=280.0
+  will-break: false
+  unbreakable: true
 LVL_25_IRON_HELMET:
   name: '&fHeavy Iron Helmet'
   material: Iron_helmet
@@ -509,6 +550,10 @@ LVL_25_IRON_HELMET:
       material: iron_ingot
       amount: 1
       name: ''
+  set: HEAVY_IRON
+  max-durability: 280.0=350.0
+  will-break: false
+  unbreakable: true
 LVL_25_IRON_CHESTPLATE:
   name: '&fHeavy Iron Chestplate'
   material: Iron_CHESTPLATE
@@ -561,6 +606,10 @@ LVL_25_IRON_CHESTPLATE:
       material: iron_ingot
       amount: 1
       name: ''
+  set: HEAVY_IRON
+  max-durability: 280.0=350.0
+  will-break: false
+  unbreakable: true
 LVL_25_IRON_LEGGINGS:
   name: '&fHeavy Iron Leggings'
   material: Iron_LEGGINGS
@@ -614,6 +663,10 @@ LVL_25_IRON_LEGGINGS:
       material: iron_ingot
       amount: 1
       name: ''
+  set: HEAVY_IRON
+  max-durability: 280.0=350.0
+  will-break: false
+  unbreakable: true
 LVL_25_IRON_BOOTS:
   name: '&fHeavy Iron Boots'
   material: Iron_BOOTS
@@ -669,6 +722,10 @@ LVL_25_IRON_BOOTS:
       material: iron_ingot
       amount: 1
       name: ''
+  set: HEAVY_IRON
+  max-durability: 280.0=350.0
+  will-break: false
+  unbreakable: true
 LVL_34_GOLD_HELMET:
   name: '&fGolden Helmet'
   material: gold_helmet
@@ -724,6 +781,10 @@ LVL_34_GOLD_HELMET:
       material: gold_ingot
       amount: 1
       name: ''
+  set: GOLD
+  max-durability: 320.0=380.0
+  will-break: false
+  unbreakable: true
 LVL_34_GOLD_CHESTPLATE:
   name: '&fGolden Chestplate'
   material: GOLD_CHESTPLATE
@@ -776,6 +837,10 @@ LVL_34_GOLD_CHESTPLATE:
       material: gold_ingot
       amount: 1
       name: ''
+  set: GOLD
+  max-durability: 320.0=380.0
+  will-break: false
+  unbreakable: true
 LVL_34_GOLD_LEGGINGS:
   name: '&fGolden Leggings'
   material: Gold_LEGGINGS
@@ -829,6 +894,10 @@ LVL_34_GOLD_LEGGINGS:
       material: gold_ingot
       amount: 1
       name: ''
+  set: GOLD
+  max-durability: 320.0=380.0
+  will-break: false
+  unbreakable: true
 LVL_34_GOLD_BOOTS:
   name: '&fGolden Boots'
   material: Gold_BOOTS
@@ -885,10 +954,18 @@ LVL_34_GOLD_BOOTS:
       material: gold_ingot
       amount: 1
       name: ''
+  set: GOLD
+  max-durability: 320.0=380.0
+  will-break: false
+  craft:
+  - AIR AIR AIR
+  - AIR AIR AIR
+  - AIR AIR AIR
+  unbreakable: true
 LVL_48_DIAMOND_HELMET:
   name: '&6Diamond Helmet'
   material: diamond_helmet
-  unbreakable: false
+  unbreakable: true
   block-power: 5
   block-rating: 5
   required-level: 48.0
@@ -941,10 +1018,13 @@ LVL_48_DIAMOND_HELMET:
       material: Diamond
       amount: 1
       name: ''
+  set: DIAMOND
+  max-durability: 900.0=1300.0
+  will-break: false
 LVL_48_DIAMOND_CHESTPLATE:
   name: '&6Diamond Chestplate'
   material: diamond_CHESTPLATE
-  unbreakable: false
+  unbreakable: true
   block-power: 7.5
   block-rating: 7.5
   required-level: 48.0
@@ -994,10 +1074,13 @@ LVL_48_DIAMOND_CHESTPLATE:
       material: Diamond
       amount: 1
       name: ''
+  set: DIAMOND
+  max-durability: 900.0=1300.0
+  will-break: false
 LVL_48_DIAMOND_LEGGINGS:
   name: '&6Diamond Leggings'
   material: diamond_LEGGINGS
-  unbreakable: false
+  unbreakable: true
   block-power: 7
   block-rating: 7
   required-level: 48.0
@@ -1048,10 +1131,13 @@ LVL_48_DIAMOND_LEGGINGS:
       material: Diamond
       amount: 1
       name: ''
+  set: DIAMOND
+  max-durability: 900.0=1300.0
+  will-break: false
 LVL_48_DIAMOND_BOOTS:
   name: '&6Diamond Boots'
   material: Diamond_BOOTS
-  unbreakable: false
+  unbreakable: true
   block-power: 5
   block-rating: 5
   required-level: 48.0
@@ -1105,4 +1191,6 @@ LVL_48_DIAMOND_BOOTS:
       material: Diamond
       amount: 1
       name: ''
-
+  set: DIAMOND
+  max-durability: 900.0=1300.0
+  will-break: false
