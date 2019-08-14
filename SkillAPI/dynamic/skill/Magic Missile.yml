@@ -305,7 +305,7 @@ Magic Missile:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '12'
+                        value-base: '10'
                         value-scale: '3'
                         true: 'False'
                         classifier: 'Arcane'

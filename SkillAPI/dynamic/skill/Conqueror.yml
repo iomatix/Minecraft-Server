@@ -40,7 +40,8 @@ Conqueror:
   - '&eEntering combat generates one stack every second.'
   - '&eAfter reaching &64 &estacks, next attack grants'
   - '&6{attr:Damage.value} &6true damage. '
-  - '&efor &63s 20% &eof damage is added as a &6skill damage&e.  '
+  - '&efor &63s 20% &eof damage is added as a &6skill damage&e.'
+  - ''
   - '&ePrecision tree passive.'
   desc:  []
   components: 

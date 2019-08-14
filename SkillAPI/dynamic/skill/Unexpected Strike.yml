@@ -39,10 +39,10 @@ Unexpected Strike:
   - ''
   - '&eEvery third &6ranged attack &edealt to the same enemy'
   - '&ein &6{attr:FlagUS1.seconds}&6s &eis'
-  - '&eincreases by &6{attr:Damage.value} &6true damage&e.'
+  - '&eincreased by &6{attr:Damage.value} &6true damage&e.'
   - '&eMarks target as exposed for &6{attr:Debuff.seconds}&6s&e.'
-  - '&ePrecision tree passive.'
   - ''
+  - '&ePrecision tree passive.'
   desc:  []
   components: 
     Physical Damage-a: 
@@ -177,7 +177,71 @@ Unexpected Strike:
                 pitch-scale: '-0.02'
                 indicator: '2D'
               children:  {}
-            Offset-h: 
+            Flag Clear-h: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'FlagUS1'
+                indicator: '2D'
+              children:  {}
+            Flag Clear-i: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'FlagUS2'
+                indicator: '2D'
+              children:  {}
+            Flag-j: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'FlagUSReload'
+                seconds-base: '6'
+                seconds-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-k: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '0.45'
+                duration-scale: '0'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '1'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '1'
+                particle: 'End Rod'
+                arrangement: 'Hemisphere'
+                radius-base: '0.5'
+                radius-scale: '0'
+                particles-base: '2'
+                particles-scale: '0'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0.85'
+                dz: '0'
+                speed: '1'
+                amount: '0'
+                forward: '0'
+                upward: '0.15'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Offset-l: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -193,7 +257,7 @@ Unexpected Strike:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Explosion-i: 
+                Explosion-m: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -205,36 +269,7 @@ Unexpected Strike:
                     fire: 'False'
                     indicator: '2D'
                   children:  {}
-            Flag Clear-j: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: ''
-                counts: 'True'
-                key: 'FlagUS1'
-                indicator: '2D'
-              children:  {}
-            Flag Clear-k: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: ''
-                counts: 'True'
-                key: 'FlagUS2'
-                indicator: '2D'
-              children:  {}
-            Flag-l: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: ''
-                counts: 'True'
-                key: 'FlagUSReload'
-                seconds-base: '6'
-                seconds-scale: '0'
-                indicator: '2D'
-              children:  {}
-        Flag-m: 
+        Flag-n: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -243,7 +278,7 @@ Unexpected Strike:
             key: 'FlagUS1'
             indicator: '2D'
           children: 
-            Flag-n: 
+            Flag-o: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -252,7 +287,7 @@ Unexpected Strike:
                 key: 'FlagUS2'
                 indicator: '2D'
               children: 
-                Flag-o: 
+                Flag-p: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -263,7 +298,7 @@ Unexpected Strike:
                     seconds-scale: '1'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-p: 
+                Particle Animation-q: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -299,7 +334,7 @@ Unexpected Strike:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-q: 
+                Sound-r: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -312,7 +347,7 @@ Unexpected Strike:
                     pitch-scale: '-0.02'
                     indicator: '2D'
                   children:  {}
-        Flag-r: 
+        Flag-s: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -321,7 +356,7 @@ Unexpected Strike:
             key: 'FlagUSReload'
             indicator: '2D'
           children: 
-            Flag-s: 
+            Flag-t: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -330,7 +365,7 @@ Unexpected Strike:
                 key: 'FlagUS1'
                 indicator: '2D'
               children: 
-                Flag-t: 
+                Flag-u: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -341,7 +376,7 @@ Unexpected Strike:
                     seconds-scale: '1'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-u: 
+                Particle Animation-v: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -377,7 +412,7 @@ Unexpected Strike:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-v: 
+                Sound-w: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -390,7 +425,7 @@ Unexpected Strike:
                     pitch-scale: '-0.02'
                     indicator: '2D'
                   children:  {}
-        Flag-w: 
+        Flag-x: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -399,7 +434,7 @@ Unexpected Strike:
             key: 'FlagUSReload'
             indicator: '2D'
           children: 
-            Flag Clear-x: 
+            Flag Clear-y: 
               type: 'mechanic'
               indicator: '3D'
               data: 

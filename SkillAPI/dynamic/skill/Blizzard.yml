@@ -591,7 +591,7 @@ Blizzard:
                                                     value-base: '72'
                                                     value-scale: '24'
                                                     true: 'False'
-                                                    classifier: 'Earth'
+                                                    classifier: 'Ice'
                                                     indicator: '2D'
                                                   children:  {}
                                                 Status-eb: 

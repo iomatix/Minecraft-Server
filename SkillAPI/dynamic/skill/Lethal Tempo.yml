@@ -41,8 +41,8 @@ Lethal Tempo:
   - '&eadditional speed and &6{attr:Dex.amount} &6dexterity'
   - '&efor &6{attr:Speed.duration}&6s&e.'
   - '&eStacking max &6{attr:stacks.max-value} &6times&e.'
-  - '&ePrecision tree passive.'
   - ''
+  - '&ePrecision tree passive.'
   desc:  []
   components: 
     Physical Damage-a: 
@@ -194,7 +194,43 @@ Lethal Tempo:
                     duration-scale: '1'
                     indicator: '2D'
                   children:  {}
-                Delay-k: 
+                Particle Animation-k: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.2'
+                    duration-scale: '0.1'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '0.8'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '8'
+                    particle: 'End Rod'
+                    arrangement: 'Circle'
+                    radius-base: '1.2'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '45'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '1'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Delay-l: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -204,7 +240,7 @@ Lethal Tempo:
                     delay-scale: '1'
                     indicator: '2D'
                   children: 
-                    Sound-l: 
+                    Sound-m: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -217,7 +253,7 @@ Lethal Tempo:
                         pitch-scale: '0'
                         indicator: '2D'
                       children:  {}
-                    Value Add-m: 
+                    Value Add-n: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -235,7 +271,7 @@ Lethal Tempo:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-o: 
+        Value Set-p: 
           type: 'mechanic'
           indicator: '3D'
           data: 

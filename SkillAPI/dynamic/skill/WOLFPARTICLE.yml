@@ -2,6 +2,7 @@ WOLFPARTICLE:
   name: 'WOLFPARTICLE'
   type: 'ONLYWOLVES'
   max-level: 8
+  skill-req: 'None'
   skill-req-lvl: 0
   needs-permission: 'false'
   attributes: 

@@ -1,0 +1,166 @@
+Haste: 
+  name: 'Haste'
+  type: 'Passive'
+  max-level: 3
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '13'
+    level-scale: '13'
+    cost-base: '2'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '3'
+    points-spent-req-scale: '2'
+    incompatible: 
+    - 'Shrewdness'
+    - 'Powerness'
+    - 'Thornmail'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'FEATHER'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&eOn hit additional &6{attr:dex.amount} &6dexterity'
+  - '&eand &6{attr:MvS.value}&6% movement speed &efor &6{attr:dur.duration}&6s.'
+  - '&eGains also agility which allows to jump higher.'
+  - ''
+  - '&ePrecision tree passive.'
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Both'
+        dmg-min: '1'
+        dmg-max: '999999'
+        indicator: '2D'
+      children: 
+        Flag-b: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Not Set'
+            key: 'hasteflag'
+            indicator: '2D'
+          children: 
+            Speed-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'dur'
+                counts: 'True'
+                multiplier-base: '1.04'
+                multiplier-scale: '0.03'
+                duration-base: '6'
+                duration-scale: '2'
+                indicator: '2D'
+              children:  {}
+            Attribute-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'dex'
+                counts: 'True'
+                key: 'dexterity'
+                amount-base: '8'
+                amount-scale: '7'
+                seconds-base: '6'
+                seconds-scale: '2'
+                stackable: 'False'
+                indicator: '2D'
+              children:  {}
+            Flag-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'hasteflag'
+                seconds-base: '6'
+                seconds-scale: '2'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-f: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '0.25'
+                duration-scale: '0'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '2'
+                v-translation-scale: '0.15'
+                h-cycles: '1'
+                v-cycles: '1'
+                particle: 'Crit'
+                arrangement: 'Circle'
+                radius-base: '1.2'
+                radius-scale: '0.1'
+                particles-base: '4'
+                particles-scale: '0'
+                direction: 'XZ'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '1'
+                amount: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Potion-g: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                potion: 'Jump'
+                ambient: 'False'
+                tier-base: '1'
+                tier-scale: '1'
+                seconds-base: '30'
+                seconds-scale: '0'
+                indicator: '2D'
+              children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-i: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'MvS'
+            counts: 'True'
+            key: 'HasteLore'
+            value-base: '4'
+            value-scale: '3'
+            indicator: '2D'
+          children:  {}

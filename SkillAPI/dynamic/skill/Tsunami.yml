@@ -26,7 +26,7 @@ Tsunami:
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
   - ''
-  - '&cRequires: &3Splash &6lv1'
+  - '&cRequires: &3Splash'
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'

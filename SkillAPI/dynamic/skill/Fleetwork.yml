@@ -42,6 +42,7 @@ Fleetwork:
   - '&6{attr:Damage.value} &6true damage'
   - '&eto &6{attr:AREA.max} &6nearest &eenemies.'
   - '&eRestores &6{attr:Heal.value}&6HP&e.'
+  - ''
   - '&ePrecision tree passive.'
   desc:  []
   components: 
@@ -213,7 +214,43 @@ Fleetwork:
                     classifier: 'True'
                     indicator: '2D'
                   children:  {}
-            Offset-m: 
+                Particle Animation-m: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '1'
+                    duration-scale: '0'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '4'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'End Rod'
+                    arrangement: 'Circle'
+                    radius-base: '1.7'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '45'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '1'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+            Offset-n: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -229,7 +266,7 @@ Fleetwork:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Explosion-n: 
+                Explosion-o: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -241,7 +278,7 @@ Fleetwork:
                     fire: 'False'
                     indicator: '2D'
                   children:  {}
-                Sound-o: 
+                Sound-p: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -254,7 +291,7 @@ Fleetwork:
                     pitch-scale: '-0.2'
                     indicator: '2D'
                   children:  {}
-            Self-p: 
+            Self-q: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -264,7 +301,7 @@ Fleetwork:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Heal-q: 
+                Heal-r: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -275,7 +312,7 @@ Fleetwork:
                     value-scale: '20'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-r: 
+                Particle Animation-s: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -311,7 +348,7 @@ Fleetwork:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-s: 
+                Sound-t: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -324,13 +361,49 @@ Fleetwork:
                     pitch-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Message-t: 
+                Message-u: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
                     icon-key: ''
                     counts: 'True'
                     message: '&eFleetwork activated!'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-v: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.4'
+                    duration-scale: '0'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '-3.5'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'End Rod'
+                    arrangement: 'Circle'
+                    radius-base: '0.6'
+                    radius-scale: '0'
+                    particles-base: '3'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '45'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.6'
+                    amount: '1'
+                    forward: '0'
+                    upward: '3.2'
+                    right: '0'
                     indicator: '2D'
                   children:  {}
     Initialize: 
@@ -340,7 +413,7 @@ Fleetwork:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-v: 
+        Value Set-x: 
           type: 'mechanic'
           indicator: '3D'
           data: 

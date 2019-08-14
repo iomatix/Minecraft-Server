@@ -42,8 +42,8 @@ Grasp of the Undying:
   - '&2once per &62 seconds&2.'
   - '&2At 4 stacks, next physical attack within 6 seconds deals '
   - '&6{attr:LOREDMGPERCENTGOTU.value}&6% maximum health &2and heals &6{attr:Heal.value}&6% &6maximum health&2.'
-  - '&2Determination tree passive.'
   - ''
+  - '&2Determination tree passive.'
   desc:  []
   components: 
     Took Physical Damage-a: 

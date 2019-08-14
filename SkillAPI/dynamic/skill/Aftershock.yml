@@ -43,8 +43,8 @@ Aftershock:
   - '&2a shockwave that deals &6{attr:Damage.value} &6magic damage&2'
   - '&2and buffs attacker with additional '
   - '&6armor &2and &6magic resists &2for &62.5 seconds&2.'
-  - '&2Determination tree passive.'
   - ''
+  - '&2Determination tree passive.'
   desc:  []
   components: 
     Physical Damage-a: 

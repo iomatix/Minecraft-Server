@@ -26,7 +26,7 @@ Burnout:
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
   - ''
-  - '&cRequires: &3Firerain &6lv2'
+  - '&cRequires: &3Fire Rain &6lv2'
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'

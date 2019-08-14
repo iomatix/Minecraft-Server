@@ -37,13 +37,13 @@ Ambush:
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
   - ''
-  - '&cOcne per &6{attr:FlagAMBcd.seconds}&6s'
-  - '&cbasic attacks and abilities generate stacks on enemy. '
+  - '&cOnce per &6{attr:FlagAMBcd.seconds}&6s &cbasic attacks and abilities '
+  - '&cgenerate stacks on enemy. '
   - '&cAppyling 3 stacks to the taget within &6{attr:FlagAMB1.seconds} &6second period '
   - '&ccauses additional &6{attr:Damage.value}&6 true damage&c.'
-  - '&cSilence for &6{attr:SilenceAMB.duration}&6s&c.'
-  - '&cDomination tree passive.'
+  - '&cSilences target for &6{attr:SilenceAMB.duration}&6s&c.'
   - ''
+  - '&cDomination tree passive.'
   desc:  []
   components: 
     Physical Damage-a: 
@@ -169,7 +169,7 @@ Ambush:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: 'Silence'
+                    icon-key: 'SilenceAMB'
                     counts: 'True'
                     status: 'Silence'
                     duration-base: '1.5'

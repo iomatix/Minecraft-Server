@@ -44,8 +44,8 @@ Dark Harvest:
   - '&cEach essence grants &6{attr:DamageADD.value}&6% &6 skill damage'
   - '&cof current &6Health &cof the target if'
   - '&cit is below &6{attr:HPperc.max-value}&6% HP&c.'
-  - '&cDomination tree passive.'
   - ''
+  - '&cDomination tree passive.'
   desc:  []
   components: 
     Kill-a: 

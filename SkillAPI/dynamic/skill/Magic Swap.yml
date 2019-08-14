@@ -142,7 +142,43 @@ Magic Swap:
                         pitch-scale: '-0.1'
                         indicator: '2D'
                       children:  {}
-                    Self-h: 
+                    Particle Animation-h: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '0.4'
+                        duration-scale: '0'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '-4'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '1'
+                        particle: 'End Rod'
+                        arrangement: 'Circle'
+                        radius-base: '0.45'
+                        radius-scale: '0.1'
+                        particles-base: '2'
+                        particles-scale: '0'
+                        direction: 'XZ'
+                        visible-radius: '120'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.35'
+                        amount: '1'
+                        forward: '0'
+                        upward: '4'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Self-i: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -152,7 +188,7 @@ Magic Swap:
                         wall: 'false'
                         caster: 'false'
                       children: 
-                        Particle Animation-i: 
+                        Particle Animation-j: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -188,7 +224,7 @@ Magic Swap:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Sound-j: 
+                        Sound-k: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -201,7 +237,7 @@ Magic Swap:
                             pitch-scale: '-0.1'
                             indicator: '2D'
                           children:  {}
-                Self-k: 
+                Self-l: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -211,7 +247,7 @@ Magic Swap:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Particle Animation-l: 
+                    Particle Animation-m: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -247,7 +283,7 @@ Magic Swap:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-m: 
+                    Particle Animation-n: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -283,7 +319,7 @@ Magic Swap:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-n: 
+                    Sound-o: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -294,5 +330,41 @@ Magic Swap:
                         volume-scale: '0'
                         pitch-base: '1'
                         pitch-scale: '-0.1'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-p: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '0.4'
+                        duration-scale: '0'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '-4'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '1'
+                        particle: 'End Rod'
+                        arrangement: 'Circle'
+                        radius-base: '0.3'
+                        radius-scale: '0.1'
+                        particles-base: '2'
+                        particles-scale: '0'
+                        direction: 'XZ'
+                        visible-radius: '120'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.35'
+                        amount: '1'
+                        forward: '0'
+                        upward: '4'
+                        right: '0'
                         indicator: '2D'
                       children:  {}

@@ -1,0 +1,2636 @@
+Void: 
+  name: 'Void'
+  type: 'Ultimate'
+  max-level: 4
+  skill-req: 'Shrewdness'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '38'
+    level-scale: '28'
+    cost-base: '3'
+    cost-scale: '3'
+    cooldown-base: '30'
+    cooldown-scale: '10'
+    mana-base: '15'
+    mana-scale: '15'
+    points-spent-req-base: '4'
+    points-spent-req-scale: '2'
+    incompatible: 
+    - 'Sapphire'
+    - 'Ray'
+    - 'Rubin'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'PURPLE_GLAZED_TERRACOTTA'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&cRequires: &3Shrewdness'
+  - ''
+  - '&6Passive:'
+  - '&cFirst attack marks the target for &6{attr:mark.seconds}&6s.'
+  - '&cSecond attack on the marked target spreads a &6void element.'
+  - '&cThird attack on the marked target &6detonates the element &cand deals &6{attr:TrueDamage.value}&c,'
+  - '&6{attr:MissHP.value}&6% &6missing health &cand &6{attr:TotalHP.value}&6% &6total health &cof the &6true damage.'
+  - '&cOnly &6one target &ccan be marked at the same time.'
+  - '&cEvery attack stacks additional &6{attr:DamageVoid.value} &6void damage.'
+  - '&cThe stack is detonated after &6{attr:Delay.delay}&6s &con the &6marked &ctarget.'
+  - '&cGains &6Night Vision.'
+  - ''
+  - '&6Active:'
+  - '&cConnects to the &6Void Dimension &cand turns into the &6Shadow Form &cfor &6{attr:ShadowForm.seconds}&6s.'
+  - '&6Shadow Form marks every target &cand &6doubles void essences gain.'
+  - '&cGains immunity to &6projectiles, starvation, drowning &cand &6falling.'
+  - '&cJump to the target dealing &6{attr:DamageJump.value}&6 void damage.'
+  - '&6Stuns &cfor {attr:Stunz.duration}&6s, Disarms&c for &6{attr:Disarmz.duration}&6s &cand silences for &6{attr:Silencez.duration}&6s&c the target.'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  - ''
+  - '&cDomination tree ultimate.'
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Both'
+        dmg-min: '1'
+        dmg-max: '999999'
+        indicator: '2D'
+      children: 
+        Remember Targets-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'TheTarget'
+            indicator: '2D'
+          children:  {}
+        Flag-c: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'FlagInitialTarg'
+            indicator: '2D'
+          children: 
+            Flag-d: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Set'
+                key: 'SecondAttack'
+                indicator: '2D'
+              children: 
+                Flag Clear-e: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagInitialTarg'
+                    indicator: '2D'
+                  children:  {}
+                Flag Clear-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttack'
+                    indicator: '2D'
+                  children:  {}
+                Flag-g: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttackReload'
+                    seconds-base: '0.15'
+                    seconds-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Self-h: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag Clear-i: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'FlagInitial'
+                        indicator: '2D'
+                      children:  {}
+                    Flag-j: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'MarkSelfReload'
+                        seconds-base: '0.15'
+                        seconds-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-k: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '0.7'
+                        duration-scale: '0.15'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '3'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '1'
+                        particle: 'Dragon Breath'
+                        arrangement: 'Circle'
+                        radius-base: '0.5'
+                        radius-scale: '0'
+                        particles-base: '4'
+                        particles-scale: '0'
+                        direction: 'XZ'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.1'
+                        amount: '1'
+                        forward: '0'
+                        upward: '0'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-l: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Vex Ambient'
+                        volume-base: '100'
+                        volume-scale: '0'
+                        pitch-base: '1.5'
+                        pitch-scale: '-0.03'
+                        indicator: '2D'
+                      children:  {}
+                Damage-m: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Multiplier'
+                    value-base: '2'
+                    value-scale: '1.5'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Damage-n: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Percent Missing'
+                    value-base: '3'
+                    value-scale: '3'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Damage-o: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'TrueDamage'
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '7'
+                    value-scale: '6'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-p: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.7'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '3'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '12'
+                    particle: 'Dragon Breath'
+                    arrangement: 'Circle'
+                    radius-base: '0.3'
+                    radius-scale: '0'
+                    particles-base: '4'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.03'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Sound-q: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Skeleton Death'
+                    volume-base: '70'
+                    volume-scale: '0'
+                    pitch-base: '0.5'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+            Flag-r: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'SecondAttackReload'
+                indicator: '2D'
+              children: 
+                Flag-s: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttack'
+                    seconds-base: '2.15'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+                Flag-t: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagInitialTarg'
+                    seconds-base: '2.15'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+                Flag-u: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttackReload'
+                    seconds-base: '2.3'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+                Self-v: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-w: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'FlagInitial'
+                        seconds-base: '2.15'
+                        seconds-scale: '0.15'
+                        indicator: '2D'
+                      children:  {}
+                    Flag-x: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'MarkSelfReload'
+                        seconds-base: '2.3'
+                        seconds-scale: '0.15'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-y: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '2.15'
+                        duration-scale: '0.15'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '4'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '12'
+                        particle: 'Large Smoke'
+                        arrangement: 'Circle'
+                        radius-base: '0.5'
+                        radius-scale: '0'
+                        particles-base: '2'
+                        particles-scale: '0'
+                        direction: 'XZ'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.05'
+                        amount: '1'
+                        forward: '-0.6'
+                        upward: '0'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-z: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Illusion Illager Mirror Move'
+                        volume-base: '60'
+                        volume-scale: '0'
+                        pitch-base: '0.6'
+                        pitch-scale: '0.02'
+                        indicator: '2D'
+                      children:  {}
+                Sound-ab: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Illusion Illager Mirror Move'
+                    volume-base: '60'
+                    volume-scale: '0'
+                    pitch-base: '0.6'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-bb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '2.15'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '3'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '12'
+                    particle: 'Block Crack'
+                    material: 'Obsidian'
+                    type: '0'
+                    arrangement: 'Circle'
+                    radius-base: '0.4'
+                    radius-scale: '0'
+                    particles-base: '4'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+        Self-cb: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Flag-db: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'FlagInitial'
+                indicator: '2D'
+              children: 
+                Remember-eb: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    key: 'TheTarget'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-fb: 
+                      type: 'condition'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        type: 'Not Set'
+                        key: 'FlagInitialTarg'
+                        indicator: '2D'
+                      children: 
+                        Flag-gb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'FlagInitialTarg'
+                            seconds-base: '2.15'
+                            seconds-scale: '0.15'
+                            indicator: '2D'
+                          children:  {}
+                        Flag-hb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'MarkSelfReload'
+                            seconds-base: '2.3'
+                            seconds-scale: '0.15'
+                            indicator: '2D'
+                          children:  {}
+                        Sound-ib: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            volume-base: '50'
+                            volume-scale: '0'
+                            pitch-base: '0.6'
+                            pitch-scale: '0.02'
+                            indicator: '2D'
+                          children:  {}
+                        Particle Animation-jb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            steps: '1'
+                            frequency: '0.05'
+                            angle: '0'
+                            start: '0'
+                            duration-base: '1.8'
+                            duration-scale: '0.15'
+                            h-translation-base: '0'
+                            h-translation-scale: '0'
+                            v-translation-base: '1.5'
+                            v-translation-scale: '0'
+                            h-cycles: '1'
+                            v-cycles: '3'
+                            particle: 'Ender Signal'
+                            arrangement: 'Sphere'
+                            radius-base: '0.65'
+                            radius-scale: '0'
+                            particles-base: '1'
+                            particles-scale: '0'
+                            data: '0'
+                            forward: '0'
+                            upward: '0'
+                            right: '0'
+                            indicator: '2D'
+                          children:  {}
+        Self-kb: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Flag-lb: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'MarkSelfReload'
+                indicator: '2D'
+              children: 
+                Flag-mb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'mark'
+                    counts: 'True'
+                    key: 'FlagInitial'
+                    seconds-base: '2.15'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+        Flag-nb: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'Stacking'
+            indicator: '2D'
+          children: 
+            Value Add-ob: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'VoidStacks'
+                amount-base: '1'
+                amount-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-pb: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Enderdragon Flap'
+                volume-base: '35'
+                volume-scale: '0'
+                pitch-base: '0.7'
+                pitch-scale: '-0.02'
+                indicator: '2D'
+              children:  {}
+            Self-qb: 
+              type: 'target'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                indicator: '2D'
+                group: 'enemy'
+                wall: 'false'
+                caster: 'false'
+              children: 
+                Flag-rb: 
+                  type: 'condition'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    type: 'Set'
+                    key: 'ShadowForm'
+                    indicator: '2D'
+                  children: 
+                    Remember-sb: 
+                      type: 'target'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        key: 'TheTarget'
+                        indicator: '2D'
+                        group: 'enemy'
+                        wall: 'false'
+                        caster: 'false'
+                      children: 
+                        Value Add-tb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'VoidStacks'
+                            amount-base: '1'
+                            amount-scale: '0'
+                            indicator: '2D'
+                          children:  {}
+        Flag-ub: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Not Set'
+            key: 'Stacking'
+            indicator: '2D'
+          children: 
+            Flag-vb: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'Stacking'
+                seconds-base: '3.2'
+                seconds-scale: '0.15'
+                indicator: '2D'
+              children:  {}
+            Value Set-wb: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'VoidStacks'
+                value-base: '1'
+                value-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-xb: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Illusion Illager Mirror Move'
+                volume-base: '44'
+                volume-scale: '0'
+                pitch-base: '1.2'
+                pitch-scale: '-0.02'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-yb: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '3.15'
+                duration-scale: '0.15'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '2'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '3'
+                particle: 'Large Smoke'
+                arrangement: 'Circle'
+                radius-base: '0.35'
+                radius-scale: '0'
+                particles-base: '1'
+                particles-scale: '0'
+                direction: 'XZ'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '0.03'
+                amount: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Delay-zb: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'Delay'
+                counts: 'True'
+                delay-base: '3.15'
+                delay-scale: '0.15'
+                indicator: '2D'
+              children: 
+                Value Multiply-ac: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'VoidStacks'
+                    multiplier-base: '22'
+                    multiplier-scale: '15'
+                    indicator: '2D'
+                  children:  {}
+                Damage-bc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: 'VoidStacks'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'Void'
+                    indicator: '2D'
+                  children:  {}
+                Value Set-cc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'VoidStacks'
+                    value-base: '1'
+                    value-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Sound-dc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Hurt'
+                    volume-base: '67'
+                    volume-scale: '0'
+                    pitch-base: '0.6'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-ec: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.45'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '6'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '8'
+                    particle: 'Portal'
+                    arrangement: 'Sphere'
+                    radius-base: '0.5'
+                    radius-scale: '0'
+                    particles-base: '3'
+                    particles-scale: '0'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.03'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-fc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.5'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '6'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '2'
+                    particle: 'Icon Crack'
+                    material: 'Obsidian'
+                    type: '0'
+                    arrangement: 'Sphere'
+                    radius-base: '0.35'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+    Launch-gc: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        type: 'Arrow'
+        indicator: '2D'
+      children: 
+        Particle Animation-hc: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            steps: '1'
+            frequency: '0.05'
+            angle: '0'
+            start: '0'
+            duration-base: '0.35'
+            duration-scale: '0.15'
+            h-translation-base: '0'
+            h-translation-scale: '0'
+            v-translation-base: '4'
+            v-translation-scale: '0'
+            h-cycles: '1'
+            v-cycles: '1'
+            particle: 'Large Smoke'
+            arrangement: 'Sphere'
+            radius-base: '0.4'
+            radius-scale: '0'
+            particles-base: '1'
+            particles-scale: '0'
+            visible-radius: '80'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            speed: '0.03'
+            amount: '1'
+            forward: '0'
+            upward: '0'
+            right: '0'
+            indicator: '2D'
+          children:  {}
+    Skill Damage-ic: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - ''
+        indicator: '2D'
+      children: 
+        Remember Targets-jc: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'TheTarget'
+            indicator: '2D'
+          children:  {}
+        Flag-kc: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'FlagInitialTarg'
+            indicator: '2D'
+          children: 
+            Flag-lc: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Set'
+                key: 'SecondAttack'
+                indicator: '2D'
+              children: 
+                Flag Clear-mc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagInitialTarg'
+                    indicator: '2D'
+                  children:  {}
+                Flag Clear-nc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttack'
+                    indicator: '2D'
+                  children:  {}
+                Flag-oc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttackReload'
+                    seconds-base: '0.15'
+                    seconds-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Self-pc: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag Clear-qc: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'FlagInitial'
+                        indicator: '2D'
+                      children:  {}
+                    Flag-rc: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'MarkSelfReload'
+                        seconds-base: '0.15'
+                        seconds-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-sc: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '0.7'
+                        duration-scale: '0.15'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '3'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '1'
+                        particle: 'Dragon Breath'
+                        arrangement: 'Circle'
+                        radius-base: '0.5'
+                        radius-scale: '0'
+                        particles-base: '4'
+                        particles-scale: '0'
+                        direction: 'XZ'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.1'
+                        amount: '1'
+                        forward: '0'
+                        upward: '0'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-tc: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Vex Ambient'
+                        volume-base: '100'
+                        volume-scale: '0'
+                        pitch-base: '1.5'
+                        pitch-scale: '-0.03'
+                        indicator: '2D'
+                      children:  {}
+                Damage-uc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Multiplier'
+                    value-base: '2'
+                    value-scale: '1.5'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Damage-vc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Percent Missing'
+                    value-base: '3'
+                    value-scale: '3'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Damage-wc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '7'
+                    value-scale: '6'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-xc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.7'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '3'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '12'
+                    particle: 'Dragon Breath'
+                    arrangement: 'Circle'
+                    radius-base: '0.3'
+                    radius-scale: '0'
+                    particles-base: '4'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.03'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Sound-yc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Skeleton Death'
+                    volume-base: '70'
+                    volume-scale: '0'
+                    pitch-base: '0.5'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+            Flag-zc: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'SecondAttackReload'
+                indicator: '2D'
+              children: 
+                Flag-ad: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttack'
+                    seconds-base: '2.15'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+                Flag-bd: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagInitialTarg'
+                    seconds-base: '2.15'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+                Flag-cd: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SecondAttackReload'
+                    seconds-base: '2.3'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+                Self-dd: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-ed: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'FlagInitial'
+                        seconds-base: '2.15'
+                        seconds-scale: '0.15'
+                        indicator: '2D'
+                      children:  {}
+                    Flag-fd: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'MarkSelfReload'
+                        seconds-base: '2.3'
+                        seconds-scale: '0.15'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-gd: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '2.15'
+                        duration-scale: '0.15'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '4'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '12'
+                        particle: 'Large Smoke'
+                        arrangement: 'Circle'
+                        radius-base: '0.5'
+                        radius-scale: '0'
+                        particles-base: '2'
+                        particles-scale: '0'
+                        direction: 'XZ'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.05'
+                        amount: '1'
+                        forward: '-0.6'
+                        upward: '0'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-hd: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Illusion Illager Mirror Move'
+                        volume-base: '60'
+                        volume-scale: '0'
+                        pitch-base: '0.6'
+                        pitch-scale: '0.02'
+                        indicator: '2D'
+                      children:  {}
+                Sound-id: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Illusion Illager Mirror Move'
+                    volume-base: '60'
+                    volume-scale: '0'
+                    pitch-base: '0.6'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-jd: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '2.15'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '3'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '12'
+                    particle: 'Block Crack'
+                    material: 'Obsidian'
+                    type: '0'
+                    arrangement: 'Circle'
+                    radius-base: '0.4'
+                    radius-scale: '0'
+                    particles-base: '4'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+        Self-kd: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Flag-ld: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'FlagInitial'
+                indicator: '2D'
+              children: 
+                Remember-md: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    key: 'TheTarget'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-nd: 
+                      type: 'condition'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        type: 'Not Set'
+                        key: 'FlagInitialTarg'
+                        indicator: '2D'
+                      children: 
+                        Flag-od: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'FlagInitialTarg'
+                            seconds-base: '2.15'
+                            seconds-scale: '0.15'
+                            indicator: '2D'
+                          children:  {}
+                        Flag-pd: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'MarkSelfReload'
+                            seconds-base: '2.3'
+                            seconds-scale: '0.15'
+                            indicator: '2D'
+                          children:  {}
+                        Sound-qd: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            volume-base: '50'
+                            volume-scale: '0'
+                            pitch-base: '0.6'
+                            pitch-scale: '0.02'
+                            indicator: '2D'
+                          children:  {}
+                        Particle Animation-rd: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            steps: '1'
+                            frequency: '0.05'
+                            angle: '0'
+                            start: '0'
+                            duration-base: '1.8'
+                            duration-scale: '0.15'
+                            h-translation-base: '0'
+                            h-translation-scale: '0'
+                            v-translation-base: '1.5'
+                            v-translation-scale: '0'
+                            h-cycles: '1'
+                            v-cycles: '3'
+                            particle: 'Ender Signal'
+                            arrangement: 'Sphere'
+                            radius-base: '0.65'
+                            radius-scale: '0'
+                            particles-base: '1'
+                            particles-scale: '0'
+                            data: '0'
+                            forward: '0'
+                            upward: '0'
+                            right: '0'
+                            indicator: '2D'
+                          children:  {}
+        Self-sd: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Flag-td: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'MarkSelfReload'
+                indicator: '2D'
+              children: 
+                Flag-ud: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagInitial'
+                    seconds-base: '2.15'
+                    seconds-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+        Flag-vd: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'Stacking'
+            indicator: '2D'
+          children: 
+            Value Add-wd: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'VoidStacks'
+                amount-base: '1'
+                amount-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-xd: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Enderdragon Flap'
+                volume-base: '35'
+                volume-scale: '0'
+                pitch-base: '0.7'
+                pitch-scale: '-0.02'
+                indicator: '2D'
+              children:  {}
+            Self-yd: 
+              type: 'target'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                indicator: '2D'
+                group: 'enemy'
+                wall: 'false'
+                caster: 'false'
+              children: 
+                Flag-zd: 
+                  type: 'condition'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    type: 'Set'
+                    key: 'ShadowForm'
+                    indicator: '2D'
+                  children: 
+                    Remember-ae: 
+                      type: 'target'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        key: 'TheTarget'
+                        indicator: '2D'
+                        group: 'enemy'
+                        wall: 'false'
+                        caster: 'false'
+                      children: 
+                        Value Add-be: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'VoidStacks'
+                            amount-base: '1'
+                            amount-scale: '0'
+                            indicator: '2D'
+                          children:  {}
+        Flag-ce: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Not Set'
+            key: 'Stacking'
+            indicator: '2D'
+          children: 
+            Flag-de: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'Stacking'
+                seconds-base: '3.2'
+                seconds-scale: '0.15'
+                indicator: '2D'
+              children:  {}
+            Value Set-ee: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'VoidStacks'
+                value-base: '1'
+                value-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-fe: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Illusion Illager Mirror Move'
+                volume-base: '44'
+                volume-scale: '0'
+                pitch-base: '1.2'
+                pitch-scale: '-0.02'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-ge: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '3.15'
+                duration-scale: '0.15'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '2'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '3'
+                particle: 'Large Smoke'
+                arrangement: 'Circle'
+                radius-base: '0.35'
+                radius-scale: '0'
+                particles-base: '1'
+                particles-scale: '0'
+                direction: 'XZ'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '0.03'
+                amount: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Delay-he: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                delay-base: '3.15'
+                delay-scale: '0.15'
+                indicator: '2D'
+              children: 
+                Value Multiply-ie: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'VoidStacks'
+                    multiplier-base: '22'
+                    multiplier-scale: '15'
+                    indicator: '2D'
+                  children:  {}
+                Damage-je: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: 'VoidStacks'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'Void'
+                    indicator: '2D'
+                  children:  {}
+                Value Set-ke: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'VoidStacks'
+                    value-base: '1'
+                    value-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Sound-le: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Hurt'
+                    volume-base: '67'
+                    volume-scale: '0'
+                    pitch-base: '0.6'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-me: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.45'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '6'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '8'
+                    particle: 'Portal'
+                    arrangement: 'Sphere'
+                    radius-base: '0.5'
+                    radius-scale: '0'
+                    particles-base: '3'
+                    particles-scale: '0'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.03'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-ne: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.5'
+                    duration-scale: '0.15'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '6'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '2'
+                    particle: 'Icon Crack'
+                    material: 'Obsidian'
+                    type: '0'
+                    arrangement: 'Sphere'
+                    radius-base: '0.35'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Crouch-pe: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            crouch: 'False'
+            indicator: '2D'
+          children: 
+            Potion-qe: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'Invis'
+                counts: 'True'
+                potion: 'Invisibility'
+                ambient: 'False'
+                tier-base: '2'
+                tier-scale: '0'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                indicator: '2D'
+              children:  {}
+            Potion-re: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                potion: 'Speed'
+                ambient: 'False'
+                tier-base: '5'
+                tier-scale: '1'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                indicator: '2D'
+              children:  {}
+            Potion-se: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                potion: 'Jump'
+                ambient: 'False'
+                tier-base: '5'
+                tier-scale: '1'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                indicator: '2D'
+              children:  {}
+            Immunity-te: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Fall'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                multiplier-base: '0'
+                multiplier-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Immunity-ue: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Drowning'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                multiplier-base: '0'
+                multiplier-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Immunity-ve: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Projectile'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                multiplier-base: '0'
+                multiplier-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Immunity-we: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Starvation'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                multiplier-base: '0'
+                multiplier-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-xe: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Vex Ambient'
+                volume-base: '90'
+                volume-scale: '0'
+                pitch-base: '0.5'
+                pitch-scale: '0.02'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-ye: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '6.5'
+                duration-scale: '1.5'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '2.3'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '8'
+                particle: 'Large Smoke'
+                arrangement: 'Sphere'
+                radius-base: '3'
+                radius-scale: '0'
+                particles-base: '8'
+                particles-scale: '0'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '0.03'
+                amount: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-ze: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '6.2'
+                duration-scale: '1.5'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '-3'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '46'
+                particle: 'Large Smoke'
+                arrangement: 'Sphere'
+                radius-base: '0.6'
+                radius-scale: '0'
+                particles-base: '5'
+                particles-scale: '0'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '0.02'
+                amount: '1'
+                forward: '-0.35'
+                upward: '3'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Flag-af: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'ShadowForm'
+                counts: 'True'
+                key: 'ShadowForm'
+                seconds-base: '6'
+                seconds-scale: '1.5'
+                indicator: '2D'
+              children:  {}
+            Offset-bf: 
+              type: 'target'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                forward-base: '0'
+                forward-scale: '0'
+                upward-base: '0'
+                upward-scale: '0'
+                right-base: '0'
+                right-scale: '0'
+                indicator: '2D'
+                group: 'enemy'
+                wall: 'false'
+                caster: 'false'
+              children: 
+                Particle Animation-cf: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '6.2'
+                    duration-scale: '1.5'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '-3'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '46'
+                    particle: 'Large Smoke'
+                    arrangement: 'Sphere'
+                    radius-base: '0.5'
+                    radius-scale: '0'
+                    particles-base: '3'
+                    particles-scale: '0'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.02'
+                    amount: '1'
+                    forward: '-0.35'
+                    upward: '3'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Remember Targets-df: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'theOffset'
+                    indicator: '2D'
+                  children:  {}
+                Delay-ef: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    delay-base: '6'
+                    delay-scale: '1.5'
+                    indicator: '2D'
+                  children: 
+                    Sound-ff: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Illusion Illager Mirror Move'
+                        volume-base: '80'
+                        volume-scale: '0'
+                        pitch-base: '0.7'
+                        pitch-scale: '0.03'
+                        indicator: '2D'
+                      children:  {}
+                    Self-gf: 
+                      type: 'target'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        indicator: '2D'
+                        group: 'enemy'
+                        wall: 'false'
+                        caster: 'false'
+                      children: 
+                        Crouch-hf: 
+                          type: 'condition'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            crouch: 'True'
+                            indicator: '2D'
+                          children: 
+                            Remember-if: 
+                              type: 'target'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                key: 'theOffset'
+                                indicator: '2D'
+                                group: 'enemy'
+                                wall: 'false'
+                                caster: 'false'
+                              children: 
+                                Warp Target-jf: 
+                                  type: 'mechanic'
+                                  indicator: '3D'
+                                  data: 
+                                    icon-key: ''
+                                    counts: 'True'
+                                    type: 'Caster to Target'
+                                    indicator: '2D'
+                                  children:  {}
+        Crouch-kf: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            crouch: 'True'
+            indicator: '2D'
+          children: 
+            Single-lf: 
+              type: 'target'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                range-base: '8'
+                range-scale: '0.5'
+                tolerance-base: '3'
+                tolerance-scale: '0.2'
+                group: 'Enemy'
+                wall: 'False'
+                indicator: '2D'
+                caster: 'false'
+              children: 
+                Status-mf: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Stunz'
+                    counts: 'True'
+                    status: 'Stun'
+                    duration-base: '0.5'
+                    duration-scale: '0.15'
+                    indicator: '2D'
+                  children:  {}
+                Status-nf: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Silencez'
+                    counts: 'True'
+                    status: 'Silence'
+                    duration-base: '3.5'
+                    duration-scale: '0.5'
+                    indicator: '2D'
+                  children:  {}
+                Status-of: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Disarmz'
+                    counts: 'True'
+                    status: 'Disarm'
+                    duration-base: '1.5'
+                    duration-scale: '0.5'
+                    indicator: '2D'
+                  children:  {}
+                Potion-pf: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    potion: 'Poison'
+                    ambient: 'True'
+                    tier-base: '1'
+                    tier-scale: '0'
+                    seconds-base: '3'
+                    seconds-scale: '1'
+                    indicator: '2D'
+                  children:  {}
+                Damage-qf: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'DamageJump'
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '32'
+                    value-scale: '15'
+                    true: 'False'
+                    classifier: 'Void'
+                    indicator: '2D'
+                  children:  {}
+                Sound-rf: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Enderdragon Flap'
+                    volume-base: '58'
+                    volume-scale: '0'
+                    pitch-base: '0.6'
+                    pitch-scale: '0.03'
+                    indicator: '2D'
+                  children:  {}
+                Self-sf: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Potion-tf: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        potion: 'Invisibility'
+                        ambient: 'False'
+                        tier-base: '2'
+                        tier-scale: '0'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        indicator: '2D'
+                      children:  {}
+                    Potion-uf: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        potion: 'Speed'
+                        ambient: 'False'
+                        tier-base: '5'
+                        tier-scale: '1'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        indicator: '2D'
+                      children:  {}
+                    Potion-vf: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        potion: 'Jump'
+                        ambient: 'False'
+                        tier-base: '5'
+                        tier-scale: '1'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        indicator: '2D'
+                      children:  {}
+                    Immunity-wf: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Fall'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        multiplier-base: '0'
+                        multiplier-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Immunity-xf: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Drowning'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        multiplier-base: '0'
+                        multiplier-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Immunity-yf: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Starvation'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        multiplier-base: '0'
+                        multiplier-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Immunity-zf: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Projectile'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        multiplier-base: '0'
+                        multiplier-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-ag: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Vex Ambient'
+                        volume-base: '90'
+                        volume-scale: '0'
+                        pitch-base: '0.5'
+                        pitch-scale: '0.02'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-bg: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '6.5'
+                        duration-scale: '1.5'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '2.3'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '8'
+                        particle: 'Large Smoke'
+                        arrangement: 'Sphere'
+                        radius-base: '3'
+                        radius-scale: '0'
+                        particles-base: '8'
+                        particles-scale: '0'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.03'
+                        amount: '1'
+                        forward: '0'
+                        upward: '0'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-cg: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '6.2'
+                        duration-scale: '1.5'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '-3'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '46'
+                        particle: 'Large Smoke'
+                        arrangement: 'Sphere'
+                        radius-base: '0.6'
+                        radius-scale: '0'
+                        particles-base: '5'
+                        particles-scale: '0'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.02'
+                        amount: '1'
+                        forward: '-0.35'
+                        upward: '3'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Flag-dg: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'ShadowForm'
+                        seconds-base: '6'
+                        seconds-scale: '1.5'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-eg: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Illusion Illager Mirror Move'
+                        volume-base: '80'
+                        volume-scale: '0'
+                        pitch-base: '0.7'
+                        pitch-scale: '0.03'
+                        indicator: '2D'
+                      children:  {}
+                    Offset-fg: 
+                      type: 'target'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        forward-base: '0'
+                        forward-scale: '0'
+                        upward-base: '0'
+                        upward-scale: '0'
+                        right-base: '0'
+                        right-scale: '0'
+                        indicator: '2D'
+                        group: 'enemy'
+                        wall: 'false'
+                        caster: 'false'
+                      children: 
+                        Particle Animation-gg: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            steps: '1'
+                            frequency: '0.05'
+                            angle: '0'
+                            start: '0'
+                            duration-base: '6.2'
+                            duration-scale: '1.5'
+                            h-translation-base: '0'
+                            h-translation-scale: '0'
+                            v-translation-base: '-3'
+                            v-translation-scale: '0'
+                            h-cycles: '1'
+                            v-cycles: '46'
+                            particle: 'Large Smoke'
+                            arrangement: 'Sphere'
+                            radius-base: '0.5'
+                            radius-scale: '0'
+                            particles-base: '3'
+                            particles-scale: '0'
+                            visible-radius: '80'
+                            dx: '0'
+                            dy: '0'
+                            dz: '0'
+                            speed: '0.02'
+                            amount: '1'
+                            forward: '-0.35'
+                            upward: '3'
+                            right: '0'
+                            indicator: '2D'
+                          children:  {}
+                        Remember Targets-hg: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'theOffset'
+                            indicator: '2D'
+                          children:  {}
+                        Delay-ig: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            delay-base: '6'
+                            delay-scale: '1.5'
+                            indicator: '2D'
+                          children: 
+                            Sound-jg: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                sound: 'Entity Illusion Illager Mirror Move'
+                                volume-base: '80'
+                                volume-scale: '0'
+                                pitch-base: '0.7'
+                                pitch-scale: '0.03'
+                                indicator: '2D'
+                              children:  {}
+                            Self-kg: 
+                              type: 'target'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                indicator: '2D'
+                                group: 'enemy'
+                                wall: 'false'
+                                caster: 'false'
+                              children: 
+                                Crouch-lg: 
+                                  type: 'condition'
+                                  indicator: '3D'
+                                  data: 
+                                    icon-key: ''
+                                    crouch: 'True'
+                                    indicator: '2D'
+                                  children: 
+                                    Remember-mg: 
+                                      type: 'target'
+                                      indicator: '3D'
+                                      data: 
+                                        icon-key: ''
+                                        key: 'theOffset'
+                                        indicator: '2D'
+                                        group: 'enemy'
+                                        wall: 'false'
+                                        caster: 'false'
+                                      children: 
+                                        Warp Target-ng: 
+                                          type: 'mechanic'
+                                          indicator: '3D'
+                                          data: 
+                                            icon-key: ''
+                                            counts: 'True'
+                                            type: 'Caster to Target'
+                                            indicator: '2D'
+                                          children:  {}
+                Offset-og: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    forward-base: '-1.1'
+                    forward-scale: '0'
+                    upward-base: '2'
+                    upward-scale: '0'
+                    right-base: '0'
+                    right-scale: '0'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Warp Target-pg: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        type: 'Caster to Target'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-qg: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Illusion Illager Mirror Move'
+                        volume-base: '80'
+                        volume-scale: '0'
+                        pitch-base: '0.7'
+                        pitch-scale: '0.03'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-rg: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '0.6'
+                        duration-scale: '0'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '-3'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '3'
+                        particle: 'Dragon Breath'
+                        arrangement: 'Circle'
+                        radius-base: '4'
+                        radius-scale: '0'
+                        particles-base: '3'
+                        particles-scale: '0'
+                        direction: 'XZ'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.02'
+                        amount: '1'
+                        forward: '0'
+                        upward: '3'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-tg: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'TotalHP'
+            counts: 'True'
+            key: 'VoidLore'
+            value-base: '2'
+            value-scale: '1.5'
+            indicator: '2D'
+          children:  {}
+        Value Set-ug: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'MissHP'
+            counts: 'True'
+            key: 'VoidLore'
+            value-base: '3'
+            value-scale: '3'
+            indicator: '2D'
+          children:  {}
+        Passive-vg: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'NV'
+            counts: 'True'
+            seconds-base: '180'
+            seconds-scale: '0'
+            indicator: '2D'
+          children: 
+            Potion-wg: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                potion: 'Night Vision'
+                ambient: 'False'
+                tier-base: '1'
+                tier-scale: '0'
+                seconds-base: '181'
+                seconds-scale: '0'
+                indicator: '2D'
+              children:  {}
+        Class Level-xg: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            min-level: '0'
+            max-level: '0'
+            indicator: '2D'
+          children: 
+            Damage-yg: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'DamageVoid'
+                counts: 'True'
+                type: 'Damage'
+                value-base: '22'
+                value-scale: '15'
+                true: 'False'
+                classifier: 'Void'
+                indicator: '2D'
+              children:  {}

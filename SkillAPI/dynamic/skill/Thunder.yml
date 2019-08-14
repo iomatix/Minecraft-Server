@@ -26,7 +26,7 @@ Thunder:
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
   - ''
-  - '&cRequires: &3Lightning '
+  - '&cRequires: &3Lightning'
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'

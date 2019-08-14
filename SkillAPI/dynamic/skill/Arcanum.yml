@@ -1,0 +1,93 @@
+Arcanum: 
+  name: 'Arcanum'
+  type: 'Passive'
+  max-level: 3
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '9'
+    level-scale: '13'
+    cost-base: '1'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - 'Implacability'
+    - 'Perforation'
+    - 'Rigidity'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'INK_SACK'
+  icon-durability: 4
+  icon-data: 4
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&3Additional &6{attr:Damage.value}&6% &3of total magic damage. '
+  - ''
+  - '&3Sorcery tree passive.'
+  desc:  []
+  components: 
+    Skill Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - ''
+        indicator: '2D'
+      children: 
+        Value Multiply-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'api-dealt'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
+            indicator: '2D'
+          children:  {}
+        Damage-c: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            type: 'Damage'
+            value-base: 'api-dealt'
+            value-scale: '0'
+            true: 'False'
+            classifier: 'Arcane'
+            indicator: '2D'
+          children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-e: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'Damage'
+            counts: 'False'
+            key: 'LoreArcanum'
+            value-base: '5'
+            value-scale: '5'
+            indicator: '2D'
+          children:  {}

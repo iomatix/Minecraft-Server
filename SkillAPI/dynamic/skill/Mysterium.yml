@@ -1,0 +1,56 @@
+Mysterium: 
+  name: 'Mysterium'
+  type: 'Passive'
+  max-level: 3
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '22'
+    level-scale: '13'
+    cost-base: '2'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '3'
+    points-spent-req-scale: '2'
+    incompatible: 
+    - 'Pression'
+    - 'Permeability'
+    - 'Titan'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'DIAMOND_PICKAXE'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&3Taken damage convert to mana'
+  - '&3Arcane burn (ticks) repeat.'
+  - '&3Spells destroys mana on targets.'
+  - '&targets chance to root on magic attack.'
+  - '&3Magic attack on crouching roots and disarm/silence??'
+  - '&3Movement speed on magic damage and jumps'
+  - ''
+  - '&3Sorcery tree passive.'
+  desc:  []
+  components: 
+    Skill Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - ''
+        indicator: '2D'
+      children:  {}

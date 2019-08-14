@@ -38,10 +38,10 @@ Arcane Comet:
   - '{req:cost}Cost: {attr:cost}'
   - ''
   - '&3Once per &6{attr:AComCD.seconds}&6s &3damaging an ememy with ability '
-  - '&3summons Arcane Comet which deals &6{attr:Damage.value} &6magical damage'
-  - '&3at target area. '
-  - '&3Sorcery tree passive.'
+  - '&3summons Arcane Comet which deals &6{attr:Damage.value} &6arcane damage'
+  - '&3at target area.'
   - ''
+  - '&3Sorcery tree passive.'
   desc:  []
   components: 
     Skill Damage-a: 

@@ -1,0 +1,183 @@
+Thornmail: 
+  name: 'Thornmail'
+  type: 'Passive'
+  max-level: 3
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '13'
+    level-scale: '13'
+    cost-base: '2'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '3'
+    points-spent-req-scale: '2'
+    incompatible: 
+    - 'Haste'
+    - 'Shrewdness'
+    - 'Powerness'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'IRON_CHESTPLATE'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Reflects &6{attr:Damage2.value}&6% &6physical melee damage.'
+  - '&6{attr:Chance.chance}&6% chance &2to &6stun &2the attacker &2when receiving &6physical melee damage. '
+  - '&2The stun &6duration &2is &6{attr:DurationS.duration}&6s.'
+  - ''
+  - '&2Determination tree passive.'
+  desc:  []
+  components: 
+    Took Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Melee'
+        dmg-min: '1'
+        dmg-max: '999999'
+        indicator: '2D'
+      children: 
+        Value Multiply-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'api-taken'
+            multiplier-base: '0.09'
+            multiplier-scale: '0.09'
+            indicator: '2D'
+          children:  {}
+        Damage-c: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'Constant'
+            counts: 'True'
+            type: 'Damage'
+            value-base: 'api-taken'
+            value-scale: '0'
+            true: 'False'
+            classifier: 'Reflected'
+            indicator: '2D'
+          children:  {}
+        Chance-d: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: 'Chance'
+            chance-base: '6'
+            chance-scale: '3'
+            indicator: '2D'
+          children: 
+            Status-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'DurationS'
+                counts: 'True'
+                status: 'Stun'
+                duration-base: '1.2'
+                duration-scale: '0.25'
+                indicator: '2D'
+              children:  {}
+    Skill Damage-i: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - 'Physical'
+        indicator: '2D'
+      children: 
+        Value Multiply-j: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'api-taken'
+            multiplier-base: '0.09'
+            multiplier-scale: '0.09'
+            indicator: '2D'
+          children:  {}
+        Damage-k: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            type: 'Damage'
+            value-base: 'api-taken'
+            value-scale: '0'
+            true: 'False'
+            classifier: 'Reflected'
+            indicator: '2D'
+          children:  {}
+        Chance-l: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            chance-base: '6'
+            chance-scale: '3'
+            indicator: '2D'
+          children: 
+            Status-m: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                status: 'Stun'
+                duration-base: '1.2'
+                duration-scale: '0.25'
+                indicator: '2D'
+              children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-g: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'Damage'
+            counts: 'True'
+            key: 'LoreThornmail'
+            value-base: '4'
+            value-scale: '4'
+            indicator: '2D'
+          children:  {}
+        Value Set-h: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'Damage2'
+            counts: 'True'
+            key: 'LoreThornmail'
+            value-base: '9'
+            value-scale: '9'
+            indicator: '2D'
+          children:  {}
