@@ -34,10 +34,10 @@ vitality:
   icon-lore: 
   - '&6Vitality &7(&2{amount}&7)'
   - ''
-  - '&2Grants 11 health,'
-  - '&20.3% physical defense,'
+  - '&2Grants 10 health,'
+  - '&20.2% physical defense,'
   - '&20.1% magic defense,'
-  - '&212% hunger lasts longer,'
+  - '&220% hunger lasts longer,'
   - '&20.2% more effective heals'
   - '&223% health regeneration'
   - '&2per point invested.'
@@ -47,11 +47,11 @@ vitality:
       Heal-value: 'a*0+1*v:icon-key=Constant|a*0.002+1*v:type=Health'
     target:  {}
   stats: 
-    health: '(a*0.1+1*v)+(a*11+v)'
-    hunger-heal: 'a*0.23+1*v'
-    hunger: 'a*0.12+1*v'
-    skill-defense: 'a*0.001+1*v'
-    physical-defense: 'a*0.003+1*v'
+    health: '(a*0.1+1*v)+(a*10+v)'
+    hunger-heal: 'a*1.35+1*v'
+    hunger: 'a*0.2+1*v'
+    skill-defense: '-a*0.001+1*v'
+    physical-defense: '-a*0.002+1*v'
 spirit: 
   display: 'Spirit'
   max: '200'
@@ -61,7 +61,7 @@ spirit:
   - '&6Spirit &7(&2{amount}&7)'
   - ''
   - '&2Grants 8 mana,'
-  - '&20.7% mana regeneration,'
+  - '&20.5% mana regeneration,'
   - '&20.1% physical defense and'
   - '&20.3% magic defense'
   - '&2per point invested.'
@@ -71,9 +71,9 @@ spirit:
     target:  {}
   stats: 
     mana: '(a*0.025+1*v)+(a*8+v)'
-    mana-regen: 'a*0.007+1*v'
-    skill-defense: 'a*0.003+1*v'
-    physical-defense: 'a*0.001+1*v'
+    mana-regen: 'a*0.005+1*v'
+    skill-defense: '-a*0.003+1*v'
+    physical-defense: '-a*0.001+1*v'
 intelligence: 
   display: 'Intelligence'
   max: '200'
@@ -84,22 +84,23 @@ intelligence:
   - ''
   - '&2Grants 2.5% ability power,'
   - '&20.5% true damage,'
-  - '&22.2% mana regeneration,'
+  - '&21.5% mana regeneration,'
   - '&20.15% cooldown reduction and'
   - '&20.16% exp gain'
   - '&2per point invested.'
   global: 
     condition:  {}
     mechanic: 
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.025+1*v:type=Damage'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.025+1*v:classifier=default|a*0.025+1*v:classifier=Arcane|a*0.025+1*v:classifier=Fire|a*0.025+1*v:classifier=Ice|a*0.025+1*v:classifier=Earth|a*0.025+1*v:classifier=Water|a*0.025+1*v:classifier=Wind|a*0.025+1*v:classifier=Arcane|a*0.025+1*v:classifier=Dark|a*0.025+1*v:classifier=Void'
       Wolf-damage: 'a*0.02+1*v'
       Wolf-health: 'a*0.025+1*v'
       Heal-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Health'
       Mana-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Mana'
+      #NONPREMIUM:Damage-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Damage
     target:  {}
   stats: 
     exp: 'a*0.0016+1*v'
-    mana-regen: 'a*0.022+1*v'
+    mana-regen: 'a*0.015+1*v'
     cooldown: 'a*(-0.0015)+1*v'
 dexterity: 
   display: 'Dexterity'
@@ -140,6 +141,7 @@ strength:
   - '&6Strength &7(&2{amount}&7)'
   - ''
   - '&2Grants 3.5% increased physical damage,'
+  - '&22.5% reflected damage,'
   - '&20.23% knockback resist,'
   - '&20.3% armor and'
   - '&20.2% armor toughness'
@@ -147,7 +149,7 @@ strength:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.035+1*v:classifier=Physical'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.035+1*v:classifier=Physical|a*0.035+1*v:classifier=Reflected'
     target:  {}
   stats: 
     #projectile-damage: 'a*0.03+1*v'
@@ -208,7 +210,7 @@ arcan:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.025+1*v:type=Damage|a*0.05+1*v:classifier=Arcane'    
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.05+1*v:classifier=Arcane|a*0.025+1*v:classifier=Fire|a*0.025+1*v:classifier=Ice|a*0.025+1*v:classifier=Earth|a*0.025+1*v:classifier=Water|a*0.025+1*v:classifier=Wind|a*0.025+1*v:classifier=Arcane|a*0.025+1*v:classifier=Dark|a*0.025+1*v:classifier=Void'    
     target:  {}
   stats: 
     exp: 'a*0.01+1*v'
@@ -229,5 +231,5 @@ nobleness:
     target:  {}
   stats: 
     health: 'a*0.025+1*v'
-    skill-defense: 'a*0.015+1*v'
-    physical-defense: 'a*0.015+1*v'
+    skill-defense: '-a*0.015+1*v'
+    physical-defense: '-a*0.015+1*v'
