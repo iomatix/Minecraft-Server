@@ -1,0 +1,235 @@
+# Attributes.yml
+
+# For full details, visit
+# http://dev.bukkit.org/bukkit-plugins/skillapi/pages/attributes/
+
+# List of available stats to modify:
+#   armor            | [PREM, 1.9+] Vanilla damage mitigation
+#   armor-toughness  | [PREM, 1.9+] Secondary vanilla damage mitigation
+#   attack-speed	 | [PREM, 1.9+] Weapon recharge time
+#   cooldown         | [PREM] Modifies skill cooldowns
+#   defense-<type>   | [PREM] Reduces damage taken from various damage sources.
+#                    |     See the DamageCause docs to see supported types.
+#                    |     Use lower-case versions of it, such as "defense-block_explosion".
+#   exp              | [PREM] increases all class experience gained
+#   health           | The max health of the player
+#   hunger           | [PREM] Increases how long hunger lasts. This attribute is always based off of a base value of 1. A resulting value of 2 would double how long the hunger bar lasts, for example.
+#   hunger-heal      | [PREM] Increases how much you heal while satiated
+#   knockback-resist | [PREM, 1.9+] Probability of resisting knockback as a decimal (1.0 is 100% change to resist)
+#   luck	         | [PREM, 1.9+] loot table chances
+#   mana	         | The max mana of the player
+#   mana-regen       | The amount of mana regeneration the player has
+#   move-speed       | The movement speed of the player
+#   physical-damage  | The amount of damage done by physical (basic or projectile) attacks
+#   physical-defense | The amount of damage taken by physical (basic or projectile) attacks
+#   skill-damage	 | The amount of damage done by skills
+#   skill-defense    | The amount of damage taken by skills
+#   skill-damage-<classification>  | [PREM] The amount of damage done by skills with the specified classification
+#   skill-defense-<classification> | [PREM] The amount of damage taken by skills with the specified classification
+vitality: 
+  display: 'Vitality'
+  max: '200'
+  icon: 'ink sack'
+  icon-data: '1'
+  icon-lore: 
+  - '&6Vitality &7(&2{amount}&7)'
+  - ''
+  - '&2Grants 10 health,'
+  - '&20.2% physical defense,'
+  - '&20.1% magic defense,'
+  - '&220% hunger lasts longer,'
+  - '&20.2% more effective heals'
+  - '&223% health regeneration'
+  - '&2per point invested.'
+  global: 
+    condition:  {}
+    mechanic:
+      Heal-value: 'a*0+1*v:icon-key=Constant|a*0.002+1*v:type=Health'
+    target:  {}
+  stats: 
+    health: '(a*0.1+1*v)+(a*10+v)'
+    hunger-heal: 'a*1.35+1*v'
+    hunger: 'a*0.2+1*v'
+    skill-defense: '-a*0.001+1*v'
+    physical-defense: '-a*0.002+1*v'
+spirit: 
+  display: 'Spirit'
+  max: '200'
+  icon: 'ink sack'
+  icon-data: '6'
+  icon-lore: 
+  - '&6Spirit &7(&2{amount}&7)'
+  - ''
+  - '&2Grants 8 mana,'
+  - '&20.5% mana regeneration,'
+  - '&20.1% physical defense and'
+  - '&20.3% magic defense'
+  - '&2per point invested.'
+  global: 
+    condition:  {}
+    mechanic:  {}
+    target:  {}
+  stats: 
+    mana: '(a*0.025+1*v)+(a*8+v)'
+    mana-regen: 'a*0.005+1*v'
+    skill-defense: '-a*0.003+1*v'
+    physical-defense: '-a*0.001+1*v'
+intelligence: 
+  display: 'Intelligence'
+  max: '200'
+  icon: 'ink sack'
+  icon-data: '4'
+  icon-lore: 
+  - '&6Intelligence &7(&2{amount}&7)'
+  - ''
+  - '&2Grants 2.5% ability power,'
+  - '&20.5% true damage,'
+  - '&21.5% mana regeneration,'
+  - '&20.15% cooldown reduction and'
+  - '&20.16% exp gain'
+  - '&2per point invested.'
+  global: 
+    condition:  {}
+    mechanic: 
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.025+1*v:classifier=default|a*0.025+1*v:classifier=Arcane|a*0.025+1*v:classifier=Fire|a*0.025+1*v:classifier=Ice|a*0.025+1*v:classifier=Earth|a*0.025+1*v:classifier=Water|a*0.025+1*v:classifier=Wind|a*0.025+1*v:classifier=Arcane|a*0.025+1*v:classifier=Dark|a*0.025+1*v:classifier=Void'
+      Wolf-damage: 'a*0.02+1*v'
+      Wolf-health: 'a*0.025+1*v'
+      Heal-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Health'
+      Mana-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Mana'
+      #NONPREMIUM:Damage-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Damage
+    target:  {}
+  stats: 
+    exp: 'a*0.0016+1*v'
+    mana-regen: 'a*0.015+1*v'
+    cooldown: 'a*(-0.0015)+1*v'
+dexterity: 
+  display: 'Dexterity'
+  max: '200'
+  icon: 'ink sack'
+  icon-data: '11'
+  icon-lore: 
+  - '&6Dexterity &7(&2{amount}&7)'
+  - ''
+  - '&2Grants 0.25% increased range,'
+  - '&20.5% ranged damage,'
+  - '&22% physical damage,'
+  - '&21.5% true damage,'
+  - '&20.11% movement speed and'
+  - '&20.13% attack speed'
+  - '&2per point invested.'
+  global: 
+    condition:  {}
+    mechanic:
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.02+1*v:classifier=Physical|a*0.015+1*v:classifier=True'
+    target: 
+      Cone-range: 'a*0.0025+1*v'
+      Linear-range: 'a*0.0025+1*v'
+      Location-range: 'a*0.0025+1*v'
+      Nearest-radius: 'a*0.0025+1*v'
+      Single-range: 'a*0.0027+1*v'
+  stats:
+    projectile-damage: 'a*0.005+1*v'
+    physical-damage: 'a*0.028+1*v'
+    move-speed: 'a*0.0011+1*v'
+    attack-speed: 'a*0.0013+1*v'
+strength: 
+  display: 'Strength'
+  max: '200'
+  icon: 'ink sack'
+  icon-data: '2'
+  icon-lore: 
+  - '&6Strength &7(&2{amount}&7)'
+  - ''
+  - '&2Grants 3.5% increased physical damage,'
+  - '&22.5% reflected damage,'
+  - '&20.23% knockback resist,'
+  - '&20.3% armor and'
+  - '&20.2% armor toughness'
+  - '&2per point invested.'
+  global: 
+    condition:  {}
+    mechanic:
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.035+1*v:classifier=Physical|a*0.035+1*v:classifier=Reflected'
+    target:  {}
+  stats: 
+    #projectile-damage: 'a*0.03+1*v'
+    physical-damage: 'a*0.03+1*v'
+    knockback-resist: 'a*0.0023+1*v'
+    armor-toughness: 'a*0.002+1*v'
+    armor: 'a*0.003+1*v'
+eternity: 
+  display: 'Eternity'
+  max: '10'
+  icon: 'ink sack'
+  icon-data: '15'
+  icon-lore: 
+  - '&5Eternity &7(&2{amount}&7)'
+  - ''
+  - '&6Grants 2.5% increased true damage,'
+  - '&63% void damage and'
+  - '&62% mana regeneration'
+  - '&6per point invested.'
+  global: 
+    condition:  {}
+    mechanic:
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.03+1*v:classifier=Void|a*0.025+1*v:classifier=True'
+    target:  {}
+  stats:
+    mana-regen: 'a*0.02+1*v'
+holiness: 
+  display: 'Holiness'
+  max: '10'
+  icon: 'ink sack'
+  icon-data: '14'
+  icon-lore: 
+  - '&eHoliness &7(&2{amount}&7)'
+  - ''
+  - '&6Grants 5% increased healing and'
+  - '&65% physical damage'
+  - '&6per point invested.'
+  global: 
+    condition:  {}
+    mechanic:
+      Heal-value: 'a*0+1*v:icon-key=Constant|a*0.05+1*v:type=Health'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.05+1*v:classifier=Physical|a*0.01+1*v:classifier=True'
+    target:  {}
+  stats: 
+    physical-damage: 'a*0.05+1*v'
+arcan: 
+  display: 'Arcan'
+  max: '10'
+  icon: 'ink sack'
+  icon-data: '12'
+  icon-lore: 
+  - '&3Arcan &7(&2{amount}&7)'
+  - ''
+  - '&6Grants 5% increased arcane damage,'
+  - '&62.5% offensive spell power and'
+  - '&61% exp gain'
+  - '&6per point invested.'
+  global: 
+    condition:  {}
+    mechanic:
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.05+1*v:classifier=Arcane|a*0.025+1*v:classifier=Fire|a*0.025+1*v:classifier=Ice|a*0.025+1*v:classifier=Earth|a*0.025+1*v:classifier=Water|a*0.025+1*v:classifier=Wind|a*0.025+1*v:classifier=Arcane|a*0.025+1*v:classifier=Dark|a*0.025+1*v:classifier=Void'    
+    target:  {}
+  stats: 
+    exp: 'a*0.01+1*v'
+nobleness: 
+  display: 'Nobleness'
+  max: '10'
+  icon: 'ink sack'
+  icon-data: '10'
+  icon-lore: 
+  - '&2Nobleness &7(&2{amount}&7)'
+  - ''
+  - '&6Grants 1.5% increased all defense and'
+  - '&62.5% health'
+  - '&6per point invested.'
+  global: 
+    condition:  {}
+    mechanic:  {}
+    target:  {}
+  stats: 
+    health: 'a*0.025+1*v'
+    skill-defense: '-a*0.015+1*v'
+    physical-defense: '-a*0.015+1*v'
