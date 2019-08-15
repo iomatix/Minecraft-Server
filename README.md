@@ -1,6 +1,6 @@
 # Minecraft-Server 1.8 - 1.12.2 Legacy
 
-- [Minecraft-Server 1.14.4+ files](1.14.4 +)
+- [Minecraft-Server 1.14.4+ files]('1.14.4 +')
 
 **Configured API and config files for minecraft server.**
 
