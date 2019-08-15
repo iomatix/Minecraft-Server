@@ -20,7 +20,7 @@ Titan:
     - 'Permeability'
     - 'Mysterium'
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'DIAMOND_CHESTPLATE'
+  icon: 'IRON_CHESTPLATE'
   icon-durability: 0
   icon-data: 0
   icon-lore: 

@@ -20,9 +20,9 @@ Powerness:
     - 'Shrewdness'
     - 'Thornmail'
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'NETHER_STAR'
-  icon-durability: 0
-  icon-data: 0
+  icon: 'INK_SACK'
+  icon-durability: 6
+  icon-data: 6
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -30,7 +30,7 @@ Powerness:
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
   - ''
-  - '&3Deal additional &6{attr:Damage.value}&6% &3arcane damage from &6all &3damage sources. '
+  - '&3Deals additional &6{attr:Damage.value}&6% &3arcane damage from &6all &3damage sources. '
   - ''
   - '&3Sorcery tree passive.'
   desc:  []
@@ -56,8 +56,8 @@ Powerness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -93,8 +93,8 @@ Powerness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-f: 
@@ -124,7 +124,7 @@ Powerness:
             icon-key: 'Damage'
             counts: 'True'
             key: 'ShrewLore'
-            value-base: '4'
-            value-scale: '4'
+            value-base: '5'
+            value-scale: '5'
             indicator: '2D'
           children:  {}

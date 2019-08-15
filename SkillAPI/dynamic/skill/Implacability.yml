@@ -56,8 +56,8 @@ Implacability:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -94,8 +94,8 @@ Implacability:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-f: 
@@ -125,7 +125,7 @@ Implacability:
             icon-key: 'Damage'
             counts: 'False'
             key: 'LoreImplacability'
-            value-base: '4'
-            value-scale: '4'
+            value-base: '5'
+            value-scale: '5'
             indicator: '2D'
           children:  {}

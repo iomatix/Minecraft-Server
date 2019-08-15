@@ -56,7 +56,7 @@ Perforation:
             counts: 'True'
             key: 'api-dealt'
             multiplier-base: '0.03'
-            multiplier-scale: '0.03'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -94,7 +94,7 @@ Perforation:
             counts: 'True'
             key: 'api-dealt'
             multiplier-base: '0.03'
-            multiplier-scale: '0.03'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Damage-f: 
@@ -125,6 +125,6 @@ Perforation:
             counts: 'True'
             key: 'LorePerforation'
             value-base: '3'
-            value-scale: '3'
+            value-scale: '4'
             indicator: '2D'
           children:  {}

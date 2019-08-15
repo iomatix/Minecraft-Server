@@ -2,6 +2,7 @@ Summon Aery:
   name: 'Summon Aery'
   type: 'Sorcery'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -149,7 +150,7 @@ Summon Aery:
                             icon-key: ''
                             counts: 'True'
                             key: 'CastingSA'
-                            seconds-base: '0.6'
+                            seconds-base: '3'
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
@@ -800,7 +801,18 @@ Summon Aery:
                         message: '&5Aeries summoned!'
                         indicator: '2D'
                       children:  {}
-                    Repeat-wb: 
+                    Value Set-wb: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'Aeries'
+                        value-base: '0'
+                        value-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Repeat-xb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -813,7 +825,7 @@ Summon Aery:
                         stop-on-fail: 'False'
                         indicator: '2D'
                       children: 
-                        Flag-xb: 
+                        Flag-yb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -824,7 +836,7 @@ Summon Aery:
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Flag-yb: 
+                        Flag-zb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -833,17 +845,6 @@ Summon Aery:
                             key: 'CastingSA'
                             seconds-base: '3'
                             seconds-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Value Add-zb: 
-                          type: 'mechanic'
-                          indicator: '3D'
-                          data: 
-                            icon-key: ''
-                            counts: 'True'
-                            key: 'Aeries'
-                            amount-base: '-1'
-                            amount-scale: '0'
                             indicator: '2D'
                           children:  {}
                         Remember-ac: 

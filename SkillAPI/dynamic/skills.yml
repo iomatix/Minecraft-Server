@@ -2501,7 +2501,6 @@ Arcanum:
   name: 'Arcanum'
   type: 'Passive'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -2556,8 +2555,8 @@ Arcanum:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.03'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -2587,8 +2586,8 @@ Arcanum:
             icon-key: 'Damage'
             counts: 'False'
             key: 'LoreArcanum'
-            value-base: '4'
-            value-scale: '3'
+            value-base: '5'
+            value-scale: '4'
             indicator: '2D'
           children:  {}
 Area Heal: 
@@ -16149,8 +16148,8 @@ Implacability:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -16187,8 +16186,8 @@ Implacability:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-f: 
@@ -16218,8 +16217,8 @@ Implacability:
             icon-key: 'Damage'
             counts: 'False'
             key: 'LoreImplacability'
-            value-base: '4'
-            value-scale: '4'
+            value-base: '5'
+            value-scale: '5'
             indicator: '2D'
           children:  {}
 Lethal Tempo: 
@@ -20613,8 +20612,8 @@ Overload:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'INK_SACK'
-  icon-durability: 4
-  icon-data: 4
+  icon-durability: 12
+  icon-data: 12
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -20973,7 +20972,7 @@ Perforation:
             counts: 'True'
             key: 'api-dealt'
             multiplier-base: '0.03'
-            multiplier-scale: '0.03'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -21011,7 +21010,7 @@ Perforation:
             counts: 'True'
             key: 'api-dealt'
             multiplier-base: '0.03'
-            multiplier-scale: '0.03'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Damage-f: 
@@ -21042,7 +21041,7 @@ Perforation:
             counts: 'True'
             key: 'LorePerforation'
             value-base: '3'
-            value-scale: '3'
+            value-scale: '4'
             indicator: '2D'
           children:  {}
 Predator: 
@@ -24958,6 +24957,7 @@ Summon Aery:
   name: 'Summon Aery'
   type: 'Sorcery'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -25105,7 +25105,7 @@ Summon Aery:
                             icon-key: ''
                             counts: 'True'
                             key: 'CastingSA'
-                            seconds-base: '0.6'
+                            seconds-base: '3'
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
@@ -25756,7 +25756,18 @@ Summon Aery:
                         message: '&5Aeries summoned!'
                         indicator: '2D'
                       children:  {}
-                    Repeat-wb: 
+                    Value Set-wb: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'Aeries'
+                        value-base: '0'
+                        value-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Repeat-xb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -25769,7 +25780,7 @@ Summon Aery:
                         stop-on-fail: 'False'
                         indicator: '2D'
                       children: 
-                        Flag-xb: 
+                        Flag-yb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -25780,7 +25791,7 @@ Summon Aery:
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Flag-yb: 
+                        Flag-zb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -25789,17 +25800,6 @@ Summon Aery:
                             key: 'CastingSA'
                             seconds-base: '3'
                             seconds-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Value Add-zb: 
-                          type: 'mechanic'
-                          indicator: '3D'
-                          data: 
-                            icon-key: ''
-                            counts: 'True'
-                            key: 'Aeries'
-                            amount-base: '-1'
-                            amount-scale: '0'
                             indicator: '2D'
                           children:  {}
                         Remember-ac: 
@@ -31046,8 +31046,8 @@ Shrewdness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -31083,8 +31083,8 @@ Shrewdness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-f: 
@@ -31114,8 +31114,8 @@ Shrewdness:
             icon-key: 'Damage'
             counts: 'True'
             key: 'ShrewLore'
-            value-base: '4'
-            value-scale: '4'
+            value-base: '5'
+            value-scale: '5'
             indicator: '2D'
           children:  {}
 Powerness: 
@@ -31140,9 +31140,9 @@ Powerness:
     - 'Shrewdness'
     - 'Thornmail'
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'NETHER_STAR'
-  icon-durability: 0
-  icon-data: 0
+  icon: 'INK_SACK'
+  icon-durability: 6
+  icon-data: 6
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -31150,7 +31150,7 @@ Powerness:
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
   - ''
-  - '&3Deal additional &6{attr:Damage.value}&6% &3arcane damage from &6all &3damage sources. '
+  - '&3Deals additional &6{attr:Damage.value}&6% &3arcane damage from &6all &3damage sources. '
   - ''
   - '&3Sorcery tree passive.'
   desc:  []
@@ -31176,8 +31176,8 @@ Powerness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-c: 
@@ -31213,8 +31213,8 @@ Powerness:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.04'
-            multiplier-scale: '0.04'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Damage-f: 
@@ -31244,8 +31244,8 @@ Powerness:
             icon-key: 'Damage'
             counts: 'True'
             key: 'ShrewLore'
-            value-base: '4'
-            value-scale: '4'
+            value-base: '5'
+            value-scale: '5'
             indicator: '2D'
           children:  {}
 Thornmail: 
@@ -31270,7 +31270,7 @@ Thornmail:
     - 'Shrewdness'
     - 'Powerness'
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'IRON_CHESTPLATE'
+  icon: 'CHAINMAIL_CHESTPLATE'
   icon-durability: 0
   icon-data: 0
   icon-lore: 
@@ -31344,7 +31344,7 @@ Thornmail:
                 duration-scale: '0.25'
                 indicator: '2D'
               children:  {}
-    Skill Damage-i: 
+    Skill Damage-f: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -31358,7 +31358,7 @@ Thornmail:
         - 'Physical'
         indicator: '2D'
       children: 
-        Value Multiply-j: 
+        Value Multiply-g: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -31369,7 +31369,7 @@ Thornmail:
             multiplier-scale: '0.09'
             indicator: '2D'
           children:  {}
-        Damage-k: 
+        Damage-h: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -31382,7 +31382,7 @@ Thornmail:
             classifier: 'Reflected'
             indicator: '2D'
           children:  {}
-        Chance-l: 
+        Chance-i: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -31391,7 +31391,7 @@ Thornmail:
             chance-scale: '3'
             indicator: '2D'
           children: 
-            Status-m: 
+            Status-j: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -31409,7 +31409,7 @@ Thornmail:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-g: 
+        Value Set-l: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -31420,7 +31420,7 @@ Thornmail:
             value-scale: '4'
             indicator: '2D'
           children:  {}
-        Value Set-h: 
+        Value Set-m: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -34014,8 +34014,8 @@ Sapphire:
   - '&6Passive:'
   - '&3Magic attacks deals additional &6{attr:DamageArea.value}&6 arcane damage.'
   - '&3The &6{attr:ExplodeLore.value}&6% of the magical damage explodes.'
-  - '&3Converts &6{attr:HealLore.value}&6% magical damage &3dealt to &6health.'
-  - '&3Converts &6{attr:ManaLore.value}&6% magical damage &3dealt to &6mana.'
+  - '&3Converts &6{attr:HealLore.value}&6% magical damage dealt &3to &6health.'
+  - '&3Converts &6{attr:ManaLore.value}&6% magical damage taken &3to &6mana.'
   - '&3Allows to breath underwater.'
   - ''
   - '&6Active:'
@@ -34054,8 +34054,8 @@ Sapphire:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.05'
-            multiplier-scale: '0.03'
+            multiplier-base: '0.06'
+            multiplier-scale: '0.04'
             indicator: '2D'
           children:  {}
         Self-c: 
@@ -34089,7 +34089,7 @@ Sapphire:
                 frequency: '0.05'
                 angle: '0'
                 start: '0'
-                duration-base: '1.1'
+                duration-base: '0.2'
                 duration-scale: '0'
                 h-translation-base: '0'
                 h-translation-scale: '0'
@@ -34099,7 +34099,7 @@ Sapphire:
                 v-cycles: '1'
                 particle: 'End Rod'
                 arrangement: 'Circle'
-                radius-base: '0.8'
+                radius-base: '0.25'
                 radius-scale: '0'
                 particles-base: '1'
                 particles-scale: '0'
@@ -34138,7 +34138,7 @@ Sapphire:
                 frequency: '0.05'
                 angle: '0'
                 start: '0'
-                duration-base: '0.3'
+                duration-base: '0.35'
                 duration-scale: '0'
                 h-translation-base: '0'
                 h-translation-scale: '0'
@@ -34164,84 +34164,7 @@ Sapphire:
                 right: '0'
                 indicator: '2D'
               children:  {}
-        Area-h: 
-          type: 'target'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            radius-base: '2'
-            radius-scale: '0.3'
-            group: 'Enemy'
-            wall: 'False'
-            caster: 'False'
-            max-base: '12'
-            max-scale: '12'
-            random: 'False'
-            indicator: '2D'
-          children: 
-            Damage-i: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: ''
-                counts: 'True'
-                type: 'Damage'
-                value-base: 'api-dealt'
-                value-scale: '0'
-                true: 'False'
-                classifier: 'Arcane'
-                indicator: '2D'
-              children:  {}
-            Particle Animation-j: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: ''
-                counts: 'True'
-                steps: '1'
-                frequency: '0.05'
-                angle: '0'
-                start: '0'
-                duration-base: '0.4'
-                duration-scale: '0'
-                h-translation-base: '0'
-                h-translation-scale: '0'
-                v-translation-base: '6'
-                v-translation-scale: '0'
-                h-cycles: '1'
-                v-cycles: '1'
-                particle: 'Red Dust'
-                arrangement: 'Circle'
-                radius-base: '0.45'
-                radius-scale: '0.1'
-                particles-base: '3'
-                particles-scale: '0'
-                direction: 'XZ'
-                visible-radius: '80'
-                dx: '0.01'
-                dy: '1'
-                dz: '1'
-                speed: '1'
-                amount: '0'
-                forward: '0'
-                upward: '0'
-                right: '0'
-                indicator: '2D'
-              children:  {}
-            Sound-k: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: ''
-                counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
-                volume-base: '65'
-                volume-scale: '0'
-                pitch-base: '0.8'
-                pitch-scale: '0.02'
-                indicator: '2D'
-              children:  {}
-        Damage-l: 
+        Damage-h: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -34254,7 +34177,7 @@ Sapphire:
             classifier: 'Arcane'
             indicator: '2D'
           children:  {}
-        Sound-m: 
+        Sound-i: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -34267,7 +34190,7 @@ Sapphire:
             pitch-scale: '0.02'
             indicator: '2D'
           children:  {}
-        Particle Animation-n: 
+        Particle Animation-j: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -34303,7 +34226,104 @@ Sapphire:
             right: '0'
             indicator: '2D'
           children:  {}
-    Physical Damage-o: 
+        Flag-k: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Not Set'
+            key: 'SappReload'
+            indicator: '2D'
+          children: 
+            Area-l: 
+              type: 'target'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                radius-base: '2'
+                radius-scale: '0.3'
+                group: 'Enemy'
+                wall: 'False'
+                caster: 'False'
+                max-base: '3'
+                max-scale: '2'
+                random: 'False'
+                indicator: '2D'
+              children: 
+                Damage-m: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: 'api-dealt'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'Arcane'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-n: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.25'
+                    duration-scale: '0'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '3.5'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'Red Dust'
+                    arrangement: 'Circle'
+                    radius-base: '0.45'
+                    radius-scale: '0.1'
+                    particles-base: '3'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '80'
+                    dx: '0.01'
+                    dy: '1'
+                    dz: '1'
+                    speed: '1'
+                    amount: '0'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Sound-o: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Illusion Illager Mirror Move'
+                    volume-base: '65'
+                    volume-scale: '0'
+                    pitch-base: '0.8'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Flag-p: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'SappReload'
+                    seconds-base: '0.35'
+                    seconds-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+    Took Skill Damage-wc: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -34311,12 +34331,13 @@ Sapphire:
         mana: 'False'
         cooldown: 'False'
         target: 'True'
-        type: 'Both'
         dmg-min: '1'
         dmg-max: '999999'
+        category: 
+        - ''
         indicator: '2D'
       children: 
-        Self-p: 
+        Self-xc: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -34326,18 +34347,18 @@ Sapphire:
             wall: 'false'
             caster: 'false'
           children: 
-            Value Multiply-q: 
+            Value Multiply-yc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
                 icon-key: ''
                 counts: 'True'
-                key: 'api-dealt'
-                multiplier-base: '0.03'
+                key: 'api-taken'
+                multiplier-base: '0.04'
                 multiplier-scale: '0.03'
                 indicator: '2D'
               children:  {}
-            Mana-r: 
+            Mana-zc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -34348,7 +34369,7 @@ Sapphire:
                 value-scale: '0'
                 indicator: '2D'
               children:  {}
-            Particle Animation-s: 
+            Particle Animation-ad: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -34384,7 +34405,7 @@ Sapphire:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-t: 
+            Sound-bd: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -34404,7 +34425,7 @@ Sapphire:
         icon-key: ''
         indicator: '2D'
       children: 
-        Crouch-v: 
+        Crouch-r: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -34412,7 +34433,7 @@ Sapphire:
             crouch: 'False'
             indicator: '2D'
           children: 
-            Single-w: 
+            Single-s: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -34426,7 +34447,7 @@ Sapphire:
                 indicator: '2D'
                 caster: 'false'
               children: 
-                Value Mana-x: 
+                Value Mana-t: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34436,7 +34457,7 @@ Sapphire:
                     type: 'Current'
                     indicator: '2D'
                   children:  {}
-                Value Multiply-y: 
+                Value Multiply-u: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34447,7 +34468,7 @@ Sapphire:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Mana-z: 
+                Mana-v: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34458,7 +34479,7 @@ Sapphire:
                     value-scale: '-180'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ab: 
+                Particle Animation-w: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34494,7 +34515,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-bb: 
+                Sound-x: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34507,7 +34528,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Damage-cb: 
+                Damage-y: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34520,7 +34541,7 @@ Sapphire:
                     classifier: 'Arcane'
                     indicator: '2D'
                   children:  {}
-                Status-db: 
+                Status-z: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34531,7 +34552,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Status-eb: 
+                Status-ab: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34542,7 +34563,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-fb: 
+                Defense Buff-bb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34556,7 +34577,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-gb: 
+                Defense Buff-cb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34570,7 +34591,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-hb: 
+                Particle Animation-db: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34606,7 +34627,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ib: 
+                Particle Animation-eb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34642,7 +34663,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-jb: 
+                Particle Animation-fb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34678,7 +34699,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-kb: 
+                Particle Animation-gb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34714,7 +34735,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-lb: 
+                Sound-hb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34727,7 +34748,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Sound-mb: 
+                Sound-ib: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34740,7 +34761,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Self-nb: 
+                Self-jb: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -34750,7 +34771,7 @@ Sapphire:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Mana-ob: 
+                    Mana-kb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -34761,7 +34782,7 @@ Sapphire:
                         value-scale: '180'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-pb: 
+                    Particle Animation-lb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -34797,7 +34818,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-qb: 
+                    Sound-mb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -34810,7 +34831,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-rb: 
+                    Particle Animation-nb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -34846,7 +34867,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-sb: 
+                    Sound-ob: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -34859,7 +34880,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-        Crouch-tb: 
+        Crouch-pb: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -34867,7 +34888,7 @@ Sapphire:
             crouch: 'True'
             indicator: '2D'
           children: 
-            Single-ub: 
+            Single-qb: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -34881,7 +34902,7 @@ Sapphire:
                 indicator: '2D'
                 caster: 'false'
               children: 
-                Value Mana-vb: 
+                Value Mana-rb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34891,7 +34912,7 @@ Sapphire:
                     type: 'Current'
                     indicator: '2D'
                   children:  {}
-                Value Multiply-wb: 
+                Value Multiply-sb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34902,7 +34923,7 @@ Sapphire:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Mana-xb: 
+                Mana-tb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34913,7 +34934,7 @@ Sapphire:
                     value-scale: '-180'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-yb: 
+                Particle Animation-ub: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34949,7 +34970,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-zb: 
+                Sound-vb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34962,7 +34983,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ac: 
+                Particle Animation-wb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -34998,7 +35019,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-bc: 
+                Particle Animation-xb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -35034,7 +35055,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-cc: 
+                Particle Animation-yb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -35070,7 +35091,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-dc: 
+                Particle Animation-zb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -35106,7 +35127,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Area-ec: 
+                Area-ac: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -35121,7 +35142,7 @@ Sapphire:
                     random: 'False'
                     indicator: '2D'
                   children: 
-                    Particle Animation-fc: 
+                    Particle Animation-bc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35157,7 +35178,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-gc: 
+                    Sound-cc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35170,7 +35191,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-                    Damage-hc: 
+                    Damage-dc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35183,7 +35204,7 @@ Sapphire:
                         classifier: 'Arcane'
                         indicator: '2D'
                       children:  {}
-                    Status-ic: 
+                    Status-ec: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35194,7 +35215,7 @@ Sapphire:
                         duration-scale: '0.7'
                         indicator: '2D'
                       children:  {}
-                    Status-jc: 
+                    Status-fc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35205,7 +35226,7 @@ Sapphire:
                         duration-scale: '0.7'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-kc: 
+                    Particle Animation-gc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35241,7 +35262,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-lc: 
+                    Particle Animation-hc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35277,7 +35298,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Value Multiply-mc: 
+                    Value Multiply-ic: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35288,7 +35309,7 @@ Sapphire:
                         multiplier-scale: '0'
                         indicator: '2D'
                       children:  {}
-                    Damage-nc: 
+                    Damage-jc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -35301,7 +35322,7 @@ Sapphire:
                         classifier: 'Arcane'
                         indicator: '2D'
                       children:  {}
-                Defense Buff-oc: 
+                Defense Buff-kc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -35315,7 +35336,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-pc: 
+                Defense Buff-lc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -35336,7 +35357,7 @@ Sapphire:
         icon-key: ''
         indicator: '2D'
       children: 
-        Passive-rc: 
+        Passive-nc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -35346,7 +35367,7 @@ Sapphire:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-sc: 
+            Potion-oc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -35360,29 +35381,29 @@ Sapphire:
                 seconds-scale: '1'
                 indicator: '2D'
               children:  {}
-        Value Set-tc: 
+        Value Set-pc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
             icon-key: 'HealLore'
             counts: 'True'
             key: 'SapphireLore'
-            value-base: '5'
-            value-scale: '3'
+            value-base: '6'
+            value-scale: '4'
             indicator: '2D'
           children:  {}
-        Value Set-uc: 
+        Value Set-qc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
             icon-key: 'ManaLore'
             counts: 'True'
             key: 'SapphireLore'
-            value-base: '3'
+            value-base: '4'
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-vc: 
+        Value Set-rc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -35393,7 +35414,7 @@ Sapphire:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-wc: 
+        Value Set-sc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -35404,7 +35425,7 @@ Sapphire:
             value-scale: '8'
             indicator: '2D'
           children:  {}
-        Value Set-xc: 
+        Value Set-tc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -35415,7 +35436,7 @@ Sapphire:
             value-scale: '5'
             indicator: '2D'
           children:  {}
-        Class Level-yc: 
+        Class Level-uc: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -35424,7 +35445,7 @@ Sapphire:
             max-level: '0'
             indicator: '2D'
           children: 
-            Mana-zc: 
+            Mana-vc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -38490,9 +38511,9 @@ Purity:
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'INK_SACK'
-  icon-durability: 12
-  icon-data: 12
+  icon: 'SUGAR'
+  icon-durability: 0
+  icon-data: 0
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -41350,8 +41371,8 @@ Pression:
                     icon-key: 'ArrDMG'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '7.7'
-                    value-scale: '2.85'
+                    value-base: '8.3'
+                    value-scale: '4.5'
                     true: 'False'
                     classifier: 'Physical'
                     indicator: '2D'
@@ -41378,6 +41399,7 @@ Permeability:
   name: 'Permeability'
   type: 'Passive'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -41661,8 +41683,8 @@ Permeability:
                 icon-key: ''
                 counts: 'True'
                 key: 'api-dealt'
-                multiplier-base: '0.08'
-                multiplier-scale: '0.05'
+                multiplier-base: '0.1'
+                multiplier-scale: '0.08'
                 indicator: '2D'
               children:  {}
             Heal-q: 
@@ -41903,7 +41925,7 @@ Permeability:
                                 pitch-scale: '0'
                                 indicator: '2D'
                               children:  {}
-    Skill Damage-gb: 
+    Skill Damage-eb: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -41917,18 +41939,18 @@ Permeability:
         - ''
         indicator: '2D'
       children: 
-        Value Multiply-hb: 
+        Value Multiply-fb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.08'
-            multiplier-scale: '0.05'
+            multiplier-base: '0.1'
+            multiplier-scale: '0.08'
             indicator: '2D'
           children:  {}
-        Heal-ib: 
+        Heal-gb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -41946,15 +41968,15 @@ Permeability:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-fb: 
+        Value Set-ib: 
           type: 'mechanic'
           indicator: '3D'
           data: 
             icon-key: 'LorVampirPercent'
             counts: 'True'
             key: 'LorePermeability'
-            value-base: '8'
-            value-scale: '5'
+            value-base: '10'
+            value-scale: '8'
             indicator: '2D'
           children:  {}
 Titan: 
@@ -41979,7 +42001,7 @@ Titan:
     - 'Permeability'
     - 'Mysterium'
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'DIAMOND_CHESTPLATE'
+  icon: 'IRON_CHESTPLATE'
   icon-durability: 0
   icon-data: 0
   icon-lore: 
@@ -42606,7 +42628,7 @@ Mysterium:
     - 'Permeability'
     - 'Titan'
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'DIAMOND_PICKAXE'
+  icon: 'DIAMOND_HOE'
   icon-durability: 0
   icon-data: 0
   icon-lore: 
@@ -42616,12 +42638,12 @@ Mysterium:
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
   - ''
-  - '&3Taken damage convert to mana'
-  - '&3Arcane burn (ticks) repeat.'
-  - '&3Spells destroys mana on targets.'
-  - '&targets chance to root on magic attack.'
-  - '&3Magic attack on crouching roots and disarm/silence??'
-  - '&3Movement speed on magic damage and jumps'
+  - '&3Magic damage &6burns &3targets '
+  - '&3dealing &6{attr:BurnDamage.value}&6 x&6{attr:ABurnRepetitions.repetitions} &6arcane damage in &6{attr:ArcaneBurnSeconds.seconds}&6s.'
+  - "&3The burn destroys &6{attr:ManaBurn.value}&6 target's mana."
+  - '&6{attr:RootChance.chance}&6% chance &3to &6root &3targets for &6{attr:RootDuration.duration}&6s.'
+  - '&6Silence &3and &6disarm target &3for &6{attr:SilDisDuration.duration}&6s &3during &6crouching.'
+  - '&3Gains &6movement speed &3and &6agility &3for &6{attr:AgilitySec.seconds}&6s &3on &6magic damage.'
   - ''
   - '&3Sorcery tree passive.'
   desc:  []
@@ -42639,4 +42661,391 @@ Mysterium:
         category: 
         - ''
         indicator: '2D'
-      children:  {}
+      children: 
+        Remember Targets-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'TheTarget'
+            indicator: '2D'
+          children:  {}
+        Flag-c: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Not Set'
+            key: 'ArcaneBurn'
+            indicator: '2D'
+          children: 
+            Flag-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'ArcaneBurnSeconds'
+                counts: 'True'
+                key: 'ArcaneBurn'
+                seconds-base: '5.2'
+                seconds-scale: '0.8'
+                indicator: '2D'
+              children:  {}
+            Repeat-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'ABurnRepetitions'
+                counts: 'True'
+                repetitions-base: '3'
+                repetitions-scale: '1'
+                period: '1.1'
+                delay: '0.6'
+                stop-on-fail: 'False'
+                indicator: '2D'
+              children: 
+                Damage-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'BurnDamage'
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '14'
+                    value-scale: '8'
+                    true: 'False'
+                    classifier: 'Arcane'
+                    indicator: '2D'
+                  children:  {}
+                Mana-g: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Mana'
+                    value-base: '-55'
+                    value-scale: '-95'
+                    indicator: '2D'
+                  children:  {}
+                Sound-h: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Hurt'
+                    volume-base: '55'
+                    volume-scale: '0'
+                    pitch-base: '0.65'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-i: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.32'
+                    duration-scale: '0'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '2.6'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'Lava'
+                    arrangement: 'Sphere'
+                    radius-base: '0.25'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.02'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0.5'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Defense Buff-j: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Multiplier'
+                    skill: 'False'
+                    value-base: '1.02'
+                    value-scale: '0.01'
+                    seconds-base: '0.45'
+                    seconds-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+            Particle Animation-k: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '3'
+                duration-scale: '0.8'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '1.5'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '4'
+                particle: 'Red Dust'
+                arrangement: 'Sphere'
+                radius-base: '0.4'
+                radius-scale: '0'
+                particles-base: '2'
+                particles-scale: '0'
+                visible-radius: '80'
+                dx: '0.6'
+                dy: '0.15'
+                dz: '0.8'
+                speed: '1'
+                amount: '0'
+                forward: '0'
+                upward: '0.5'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+        Chance-l: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: 'RootChance'
+            chance-base: '12'
+            chance-scale: '6'
+            indicator: '2D'
+          children: 
+            Status-m: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'RootDuration'
+                counts: 'True'
+                status: 'Root'
+                duration-base: '1.5'
+                duration-scale: '0.5'
+                indicator: '2D'
+              children:  {}
+            Sound-n: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Illusion Illager Mirror Move'
+                volume-base: '35'
+                volume-scale: '0'
+                pitch-base: '0.8'
+                pitch-scale: '0.05'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-o: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '1.5'
+                duration-scale: '0.5'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '1.7'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '5'
+                particle: 'Large Smoke'
+                arrangement: 'Sphere'
+                radius-base: '0.35'
+                radius-scale: '0'
+                particles-base: '2'
+                particles-scale: '0'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '0.02'
+                amount: '1'
+                forward: '0'
+                upward: '0.9'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+        Self-p: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Potion-q: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'AgilitySec'
+                counts: 'True'
+                potion: 'Speed'
+                ambient: 'True'
+                tier-base: '2'
+                tier-scale: '0'
+                seconds-base: '1.5'
+                seconds-scale: '0.25'
+                indicator: '2D'
+              children:  {}
+            Potion-r: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                potion: 'Jump'
+                ambient: 'True'
+                tier-base: '2'
+                tier-scale: '0'
+                seconds-base: '1.5'
+                seconds-scale: '0.25'
+                indicator: '2D'
+              children:  {}
+            Crouch-s: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                crouch: 'True'
+                indicator: '2D'
+              children: 
+                Remember-t: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    key: 'TheTarget'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Status-u: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        status: 'Root'
+                        duration-base: '0.75'
+                        duration-scale: '0.25'
+                        indicator: '2D'
+                      children:  {}
+                    Status-v: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: 'SilDisDuration'
+                        counts: 'True'
+                        status: 'Disarm'
+                        duration-base: '1.45'
+                        duration-scale: '0.5'
+                        indicator: '2D'
+                      children:  {}
+                    Status-w: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        status: 'Silence'
+                        duration-base: '1.45'
+                        duration-scale: '0.5'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-x: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Illusion Illager Mirror Move'
+                        volume-base: '35'
+                        volume-scale: '0'
+                        pitch-base: '0.8'
+                        pitch-scale: '0.05'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-y: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '1.45'
+                        duration-scale: '0.5'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '1.7'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '5'
+                        particle: 'Large Smoke'
+                        arrangement: 'Sphere'
+                        radius-base: '0.35'
+                        radius-scale: '0'
+                        particles-base: '2'
+                        particles-scale: '0'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.02'
+                        amount: '1'
+                        forward: '0'
+                        upward: '0.9'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-ab: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'ManaBurn'
+            counts: 'True'
+            key: 'LoreMysterium'
+            value-base: '110'
+            value-scale: '130'
+            indicator: '2D'
+          children:  {}
