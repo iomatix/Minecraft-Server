@@ -1,0 +1,362 @@
+LVL_7_SHIELD:
+  material: SHIELD
+  name: '&fSmall Shield'
+  tier: COMMON
+  lore:
+  - '&7Common small shield.'
+  armor: 4.0
+  armor-thoughness: 1.0
+  block-power: 10.0
+  block-rating: 10.0
+  gem-sockets: 0.0
+  required-level: 7.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: OAK_LOG
+      amount: 1
+      name: ''
+    '4':
+      material: OAK_LOG
+      amount: 1
+      name: ''
+  max-durability: 95.0=180.0
+  will-break: false
+  unbreakable: true
+LVL_16_SHIELD:
+  material: SHIELD
+  name: '&fShield'
+  tier: COMMON
+  lore:
+  - '&7Common shield.'
+  armor: 8.0
+  armor-thoughness: 2.0
+  block-power: 20.0
+  block-rating: 15.0
+  gem-sockets: 0.0
+  required-level: 16.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: OAK_LOG
+      amount: 1
+      name: ''
+    '4':
+      material: OAK_LOG
+      amount: 1
+      name: ''
+    '1':
+      material: OAK_LOG
+      amount: 1
+      name: ''
+  max-durability: 105.0=200.0
+  will-break: false
+  unbreakable: true
+  shield-pattern:
+    color: RED
+LVL_25_SHIELD:
+  material: SHIELD
+  name: '&fIron Shield'
+  tier: COMMON
+  lore:
+  - '&7Common iron shield.'
+  armor: 12.0
+  armor-thoughness: 3.5
+  block-power: 25.0
+  block-rating: 35.0
+  gem-sockets: 0.0
+  required-level: 25.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: OAK_LOG
+      amount: 1
+      name: ''
+    '4':
+      material: OAK_LOG
+      amount: 1
+      name: ''
+  max-durability: 165.0=240.0
+  will-break: false
+  unbreakable: true
+  shield-pattern:
+    color: GRAY
+LVL_34_SHIELD:
+  material: SHIELD
+  name: '&fTough Iron Shield'
+  tier: UNCOMMON
+  lore:
+  - '&7Tough iron shield.'
+  armor: 15.0
+  armor-thoughness: 4
+  block-power: 27.5
+  block-rating: 45.0
+  gem-sockets: 1.0
+  required-level: 34.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: IRON_INGOT
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: DARK_OAK_LOG
+      amount: 1
+      name: ''
+    '4':
+      material: DARK_OAK_LOG
+      amount: 1
+      name: ''
+    '1':
+      material: DARK_OAK_LOG
+      amount: 1
+      name: ''
+  max-durability: 225.0=400.0
+  will-break: false
+  unbreakable: true
+  shield-pattern:
+    color: WHITE
+LVL_48_SHIELD:
+  material: SHIELD
+  name: '&6Diamond Shield'
+  tier: RARE
+  lore:
+  - '&6Diamond shield.'
+  armor: 17.0
+  armor-thoughness: 5
+  block-power: 35.0
+  block-rating: 55.0
+  gem-sockets: 2.0
+  required-level: 48.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: DIAMOND
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: DARK_OAK_LOG
+      amount: 1
+      name: ''
+    '4':
+      material: DARK_OAK_LOG
+      amount: 1
+      name: ''
+    '7':
+      material: DARK_OAK_LOG
+      amount: 1
+      name: ''
+  max-durability: 500.0=1000.0
+  will-break: false
+  unbreakable: true
+  shield-pattern:
+    color: LIGHT_BLUE
+UP_LVL_48_SHIELD:
+  material: SHIELD
+  name: '&eUpgraded Diamond Shield'
+  tier: VERY_RARE
+  lore:
+  - '&eUpgraded Diamond shield.'
+  armor: 21.0
+  armor-thoughness: 5
+  block-power: 39.0
+  block-rating: 59.0
+  gem-sockets: 3.0
+  required-level: 48.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: SHIELD
+      id: LVL_48_SHIELD
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 900.0=1300.0
+  will-break: false
+  unbreakable: true

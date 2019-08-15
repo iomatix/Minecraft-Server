@@ -1,0 +1,429 @@
+UNCOMMON_WEAPON_ESSENCE:
+  material: sugar
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft uncommon items.'
+  - '&7Can be used to craft Magical Essence.'
+  name: '&eUncommon Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: WEAPON_POWDER
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: WEAPON_POWDER
+      amount: 1
+    '4':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      type: MATERIAL
+      id: WEAPON_POWDER
+      amount: 1
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: WEAPON_POWDER
+      amount: 1
+    '8':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+RARE_WEAPON_ESSENCE:
+  material: prismarine_shard
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft rare items.'
+  - '&7Can be used to craft Very Rare Essence.'
+  name: '&eRare Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: MISCELLANEOUS
+      id: GOLD_COIN
+      amount: 6
+    '5':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+VERY_RARE_WEAPON_ESSENCE:
+  material: nether_star
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft very rare items.'
+  name: '&eVery rare Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+LEGENDARY_WEAPON_ESSENCE:
+  material: BLAZE_POWDER
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft legendary items.'
+  - '&7Can be used to craft Mythical Essence.'
+  name: '&eLegendary Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: MISCELLANEOUS
+      id: GOLD_COIN
+      amount: 20
+    '5':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+MYTHICAL_WEAPON_ESSENCE:
+  material: blaze_rod
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft mythical items.'
+  - '&7Can be used to craft Epic Essence.'
+  name: '&eMythical Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+EPIC_WEAPON_ESSENCE:
+  material: magma_cream
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft epic items.'
+  name: '&eEpic Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+MAGICAL_WEAPON_ESSENCE:
+  material: prismarine_crystals
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft magical items.'
+  name: '&eMagical Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: MISCELLANEOUS
+      id: MAGIC_TEAR
+      amount: 12
+    '5':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+UNIQUE_WEAPON_ESSENCE:
+  material: end_crystal
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft unique items.'
+  name: '&eUnique Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+WEAPON_POWDER:
+  material: sugar
+  tier: TRASH
+  name: '&7Broken Powder'
+  disable-crafting: true
+  disable-smelting: true
+  lore:
+  - '&7Can be used to craft Uncommon Essence.'
+  - '&7Obtained when deconstructing an item.'

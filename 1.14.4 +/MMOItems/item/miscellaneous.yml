@@ -1,0 +1,72 @@
+GOLD_COIN:
+  material: GOLD_NUGGET
+  name: '&fGold Coin'
+  lore:
+  - '&7A very shiny gold coin.'
+  - '&7Crafting material.'
+  - '&7Used to grade up Essences.'
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '1':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '2':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '3':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '4':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '6':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '7':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+    '8':
+      type: MISCELLANEOUS
+      id: SILVER_COIN
+      amount: 1
+  enchants:
+    fire_protection: 1
+SILVER_COIN:
+  material: IRON_NUGGET
+  name: '&fSilver Coin'
+  lore:
+  - '&7A very shiny silver coin.'
+  - '&7Crafting material.'
+  enchants:
+    PROTECTION_FIRE: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+MAGIC_TEAR:
+  material: GHAST_TEAR
+  name: '&fMagic Tear'
+  lore:
+  - '&7A tear with magical powers.'
+  - '&7Crafting material.'
+  enchants:
+    PROTECTION_FIRE: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true

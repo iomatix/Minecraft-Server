@@ -1,0 +1,574 @@
+# 
+#  element:
+#    damage:
+#      darkness: 3.2
+# 
+# 
+#  perm-effects:
+#    SPEED: 1
+LVL_9_DAGGER:
+  material: stone_Sword
+  name: '&fStone Dagger'
+  tier: COMMON
+  lore:
+  - '&7Stone Dagger.'
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 0.0
+  required-level: 9.0
+  attack-damage: 7
+  attack-speed: 1.8
+  blunt-power: 0.2
+  blunt-rating: 1
+  critical-strike-chance: 30.0
+  critical-strike-power: 130.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: COBBLESTONE
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 120.0=185.0
+  will-break: false
+LVL_25_DAGGER:
+  material: iron_Sword
+  name: '&fIron Dagger'
+  tier: COMMON
+  lore:
+  - '&7Common iron Dagger.'
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 0.0
+  required-level: 25.0
+  attack-damage: 11
+  attack-speed: 1.82
+  blunt-power: 0.45
+  blunt-rating: 2
+  critical-strike-chance: 35.0
+  critical-strike-power: 145.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 270.0=315.0
+  will-break: false
+LVL_34_DAGGER:
+  material: golden_Sword
+  name: '&fGolden Dagger'
+  tier: UNCOMMON
+  lore:
+  - '&8Golden Dagger.'
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 1.0
+  required-level: 34.0
+  attack-damage: 19
+  attack-speed: 2.0
+  blunt-power: 0.55
+  blunt-rating: 5
+  critical-strike-chance: 38.0
+  critical-strike-power: 155.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: gold_ingot
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 300.0=380.0
+  will-break: false
+LVL_48_DAGGER:
+  material: diamond_Sword
+  name: '&6Diamond Dagger'
+  tier: RARE
+  lore:
+  - '&6Diamond Dagger.'
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 2.0
+  required-level: 55.0
+  attack-damage: 23
+  attack-speed: 2.2
+  blunt-power: 0.65
+  blunt-rating: 12
+  critical-strike-chance: 40.0
+  critical-strike-power: 165.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Diamond
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 800.0=1200.0
+  will-break: false
+UP_LVL_48_DAGGER:
+  material: diamond_Sword
+  name: '&eUpgraded Diamond Dagger'
+  tier: VERY_RARE
+  lore:
+  - '&eUpgraded Diamond Dagger.'
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 3.0
+  required-level: 48.0
+  attack-damage: 28
+  attack-speed: 2.35
+  blunt-power: 0.7
+  blunt-rating: 15
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: DAGGER
+      id: LVL_48_DAGGER
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 1000.0=1500.0
+  will-break: false
+MOONSHIVER:
+  material: iron_Sword
+  name: '&eMoonshiver'
+  tier: VERY_RARE
+  lore:
+  - '&eDagger made by smiths of ancient.'
+  - '&eShines bright in the moonlight.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    sweeping: 1
+  element:
+    damage:
+      Ice: 10.0
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 3.0
+  required-level: 50.0
+  attack-damage: 30
+  attack-speed: 2.6
+  blunt-power: 0.7
+  blunt-rating: 20
+  critical-strike-chance: 53.0
+  critical-strike-power: 183.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 75000.0
+  will-break: false
+  ability:
+    ability1:
+      type: BOUNCY_FIREBALL
+      mode: SHIFT_RIGHT_CLICK
+      damage: 35.0
+      cooldown: 14.5
+      radius: 4.25
+      speed: 1.0
+      ignite: 35.0
+ULT_MOONSHIVER:
+  material: iron_Sword
+  name: '&cUltimate Moonshiver'
+  tier: UNIQUE
+  lore:
+  - '&cDagger made by smiths of ancient.'
+  - '&cShines bright in the moonlight.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    sweeping: 2
+  element:
+    damage:
+      Ice: 40.0
+  ability:
+    right-click:
+      type: ICE_CRYSTAL
+      damage: 65.0
+      duration: 6
+      amplifier: 5
+      cooldown: 13
+      mode: ON_HIT
+    on-hit:
+      type: FREEZING_CURSE
+      cooldown: 8.3
+      duration: 4
+      amplifier: 3
+      length: 4
+      mode: WHEN_HIT
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 58.0
+  attack-damage: 42
+  attack-speed: 2.65
+  blunt-power: 0.7
+  blunt-rating: 25
+  critical-strike-chance: 65.0
+  critical-strike-power: 190.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: DAGGER
+      id: MOONSHIVER
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 75000.0
+  will-break: false
+VALERIANDAGGER:
+  material: iron_Sword
+  name: '&cValerian Dagger'
+  tier: UNIQUE
+  lore:
+  - '&cDagger made with best components'
+  - '&cValerian Steel and special Magic Ore.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    smite: 5
+  ability:
+    on-hit:
+      type: DEATH_MARK
+      cooldown: 6.5
+      damage: 14.3
+      duration: 3.8
+      slow-amplifier: 3
+      mode: ON_HIT
+      amplifier: 2.0
+    ability1:
+      type: CONFUSE
+      cooldown: 6.45
+      mode: ON_HIT
+  unbreakable: true
+  two-handed: false
+  gem-sockets: 6.0
+  required-level: 62.0
+  attack-damage: 45
+  attack-speed: 2.77
+  blunt-power: 0.7
+  blunt-rating: 25
+  critical-strike-chance: 65
+  critical-strike-power: 190
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 4
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 3
+    '4':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 3
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 75000.0
+  will-break: false
