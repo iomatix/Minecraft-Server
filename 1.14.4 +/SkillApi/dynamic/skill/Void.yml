@@ -237,7 +237,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '35'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -512,7 +512,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '60'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -525,7 +525,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '60'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -631,7 +631,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '50'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -724,7 +724,7 @@ Void:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Enderdragon Flap'
+                sound: 'Entity Ender Dragon Flap'
                 volume-base: '35'
                 volume-scale: '0'
                 pitch-base: '0.7'
@@ -818,7 +818,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '44'
                     volume-scale: '0'
                     pitch-base: '1.2'
@@ -1025,7 +1025,7 @@ Void:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Prepare Blindness'
+                                sound: 'Entity Illusioner Prepare Blindness'
                                 volume-base: '35'
                                 volume-scale: '0'
                                 pitch-base: '0.6'
@@ -1308,7 +1308,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '35'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -1583,7 +1583,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '60'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -1596,7 +1596,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '60'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -1702,7 +1702,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '50'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -1795,7 +1795,7 @@ Void:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Enderdragon Flap'
+                sound: 'Entity Ender Dragon Flap'
                 volume-base: '35'
                 volume-scale: '0'
                 pitch-base: '0.7'
@@ -1889,7 +1889,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '44'
                     volume-scale: '0'
                     pitch-base: '1.2'
@@ -2096,7 +2096,7 @@ Void:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Prepare Blindness'
+                                sound: 'Entity Illusioner Prepare Blindness'
                                 volume-base: '35'
                                 volume-scale: '0'
                                 pitch-base: '0.6'
@@ -2433,7 +2433,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '80'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -2566,7 +2566,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '58'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -2777,7 +2777,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '80'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -2860,7 +2860,7 @@ Void:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Mirror Move'
+                                sound: 'Entity Illusioner Mirror Move'
                                 volume-base: '80'
                                 volume-scale: '0'
                                 pitch-base: '0.7'
@@ -2936,7 +2936,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '80'
                         volume-scale: '0'
                         pitch-base: '0.7'

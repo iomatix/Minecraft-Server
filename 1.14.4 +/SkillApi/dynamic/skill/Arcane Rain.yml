@@ -82,7 +82,7 @@ Arcane Rain:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Evocation Illager Prepare Summon'
+                    sound: 'Entity Evoker Prepare Summon'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '0.75'
@@ -194,7 +194,7 @@ Arcane Rain:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '95'
                         volume-scale: '0'
                         pitch-base: '0.75'
@@ -281,7 +281,7 @@ Arcane Rain:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '95'
                             volume-scale: '0'
                             pitch-base: '0.75'
@@ -477,7 +477,7 @@ Arcane Rain:
                                         h-cycles: '1'
                                         v-cycles: '2'
                                         particle: 'Block Crack'
-                                        material: 'Portal'
+                                        material: 'PURPLE_GLAZED_TERRACOTTA'
                                         type: '0'
                                         arrangement: 'Circle'
                                         radius-base: '4'
@@ -599,7 +599,7 @@ Arcane Rain:
                                       data: 
                                         icon-key: ''
                                         counts: 'True'
-                                        sound: 'Entity Evocation Fangs Attack'
+                                        sound: 'Entity Evoker Fangs Attack'
                                         volume-base: '100'
                                         volume-scale: '0'
                                         pitch-base: '0.65'
@@ -705,7 +705,7 @@ Arcane Rain:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Evocation Illager Cast Spell'
+                                sound: 'Entity Evoker Cast Spell'
                                 volume-base: '95'
                                 volume-scale: '0'
                                 pitch-base: '0.75'

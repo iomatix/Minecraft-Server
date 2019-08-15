@@ -79,7 +79,7 @@ Rubin:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '65'
                 volume-scale: '0'
                 pitch-base: '0.6'
@@ -181,7 +181,7 @@ Rubin:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '65'
                 volume-scale: '0'
                 pitch-base: '0.6'
@@ -913,7 +913,7 @@ Rubin:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '85'
                 volume-scale: '0'
                 pitch-base: '0.5'

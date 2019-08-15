@@ -113,7 +113,7 @@ Shadow:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Prepare Mirror'
+                    sound: 'Entity Illusioner Prepare Mirror'
                     volume-base: '40'
                     volume-scale: '0'
                     pitch-base: '0.92'
@@ -299,7 +299,7 @@ Shadow:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '80'
                             volume-scale: '0'
                             pitch-base: '0.92'

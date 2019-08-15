@@ -110,7 +110,7 @@ Blizzard:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '83'
                             volume-scale: '0'
                             pitch-base: '0.7'
@@ -195,7 +195,7 @@ Blizzard:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '30'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -388,7 +388,7 @@ Blizzard:
                                       data: 
                                         icon-key: ''
                                         counts: 'True'
-                                        sound: 'Entity Illusion Illager Cast Spell'
+                                        sound: 'Entity Illusioner Cast Spell'
                                         volume-base: '100'
                                         volume-scale: '0'
                                         pitch-base: '0.7'
@@ -424,7 +424,7 @@ Blizzard:
                                           data: 
                                             icon-key: ''
                                             counts: 'True'
-                                            sound: 'Entity Evocation Illager Cast Spell'
+                                            sound: 'Entity Evoker Cast Spell'
                                             volume-base: '35'
                                             volume-scale: '0'
                                             pitch-base: '0.6'
@@ -710,7 +710,7 @@ Blizzard:
                                                   data: 
                                                     icon-key: ''
                                                     counts: 'True'
-                                                    sound: 'Entity Illusion Illager Prepare Mirror'
+                                                    sound: 'Entity Illusioner Prepare Mirror'
                                                     volume-base: '80'
                                                     volume-scale: '0'
                                                     pitch-base: '0.6'
@@ -825,7 +825,7 @@ Blizzard:
                                               data: 
                                                 icon-key: ''
                                                 counts: 'True'
-                                                sound: 'Entity Snowman Hurt'
+                                                sound: 'Entity Snow Golem Hurt'
                                                 volume-base: '100'
                                                 volume-scale: '0'
                                                 pitch-base: '0.6'

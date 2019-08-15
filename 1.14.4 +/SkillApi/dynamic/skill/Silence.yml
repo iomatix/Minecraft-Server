@@ -95,7 +95,7 @@ Silence:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '95'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -356,7 +356,7 @@ Silence:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Mirror'
+                            sound: 'Entity Illusioner Prepare Mirror'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '0.8'

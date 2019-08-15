@@ -129,7 +129,7 @@ Windblast:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Illusion Illager Cast Spell'
+            sound: 'Entity Illusioner Cast Spell'
             volume-base: '85'
             volume-scale: '0'
             pitch-base: '1.3'
@@ -286,7 +286,7 @@ Windblast:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Evocation Fangs Attack'
+                                sound: 'Entity Evoker Fangs Attack'
                                 volume-base: '100'
                                 volume-scale: '0'
                                 pitch-base: '1.3'
@@ -307,7 +307,7 @@ Windblast:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Cast Spell'
+                    sound: 'Entity Evoker Cast Spell'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '1'

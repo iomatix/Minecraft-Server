@@ -161,7 +161,7 @@ Burnout:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Shoot'
+                    sound: 'Entity Ender Dragon Shoot'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '0.8'
@@ -284,19 +284,6 @@ Burnout:
                         forward: '0'
                         upward: '0'
                         right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Sound-l: 
-                      type: 'mechanic'
-                      indicator: '3D'
-                      data: 
-                        icon-key: ''
-                        counts: 'True'
-                        sound: 'Entity Enderdragon Fireball Explode'
-                        volume-base: '100'
-                        volume-scale: '0'
-                        pitch-base: '0.8'
-                        pitch-scale: '-0.07'
                         indicator: '2D'
                       children:  {}
                     Area-m: 
@@ -459,7 +446,7 @@ Burnout:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1.1'
@@ -554,7 +541,7 @@ Burnout:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Prepare Summon'
+                    sound: 'Entity Evoker Prepare Summon'
                     volume-base: '86'
                     volume-scale: '0'
                     pitch-base: '0.9'

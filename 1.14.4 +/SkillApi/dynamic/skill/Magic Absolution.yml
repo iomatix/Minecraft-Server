@@ -122,7 +122,7 @@ Magic Absolution:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -207,7 +207,7 @@ Magic Absolution:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Illusion Illager Prepare Blindness'
+            sound: 'Entity Illusioner Prepare Blindness'
             volume-base: '95'
             volume-scale: '0'
             pitch-base: '1.4'

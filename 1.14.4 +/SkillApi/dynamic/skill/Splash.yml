@@ -298,7 +298,7 @@ Splash:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '75'
                         volume-scale: '0'
                         pitch-base: '1.2'
@@ -435,7 +435,7 @@ Splash:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Evocation Illager Prepare Summon'
+                sound: 'Entity Evoker Prepare Summon'
                 volume-base: '80'
                 volume-scale: '0'
                 pitch-base: '1.3'

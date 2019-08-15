@@ -56,7 +56,7 @@ Fire Rain:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Illusion Illager Cast Spell'
+            sound: 'Entity Illusioner Cast Spell'
             volume-base: '85'
             volume-scale: '5'
             pitch-base: '0.8'
@@ -162,7 +162,7 @@ Fire Rain:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Shoot'
+                    sound: 'Entity Ender Dragon Shoot'
                     volume-base: '85'
                     volume-scale: '5'
                     pitch-base: '1'
@@ -309,19 +309,6 @@ Fire Rain:
                         forward: '-0.5'
                         upward: '-1'
                         right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Sound-l: 
-                      type: 'mechanic'
-                      indicator: '3D'
-                      data: 
-                        icon-key: ''
-                        counts: 'True'
-                        sound: 'Entity Enderdragon Fireball Explode'
-                        volume-base: '100'
-                        volume-scale: '0'
-                        pitch-base: '0.8'
-                        pitch-scale: '-0.1'
                         indicator: '2D'
                       children:  {}
                     Area-m: 

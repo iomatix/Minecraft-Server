@@ -274,7 +274,7 @@ Roots:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -359,7 +359,7 @@ Roots:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '1'

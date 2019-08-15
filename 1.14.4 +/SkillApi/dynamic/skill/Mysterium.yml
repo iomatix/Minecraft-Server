@@ -244,7 +244,7 @@ Mysterium:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '35'
                 volume-scale: '0'
                 pitch-base: '0.8'
@@ -382,7 +382,7 @@ Mysterium:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: '0.8'

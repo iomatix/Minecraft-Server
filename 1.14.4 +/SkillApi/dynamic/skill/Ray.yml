@@ -419,7 +419,7 @@ Ray:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '45'
                         volume-scale: '0'
                         pitch-base: '0.5'
@@ -581,7 +581,7 @@ Ray:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Prepare Attack'
+                    sound: 'Entity Evoker Prepare Attack'
                     volume-base: '45'
                     volume-scale: '0'
                     pitch-base: '0.5'
@@ -1090,7 +1090,7 @@ Ray:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Evocation Illager Cast Spell'
+                sound: 'Entity Evoker Cast Spell'
                 volume-base: '82'
                 volume-scale: '0'
                 pitch-base: '0.7'

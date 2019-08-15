@@ -207,7 +207,7 @@ Blink:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1'
@@ -266,7 +266,7 @@ Blink:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '0.9'

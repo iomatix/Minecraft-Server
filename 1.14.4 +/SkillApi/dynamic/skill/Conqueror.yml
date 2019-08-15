@@ -252,7 +252,7 @@ Conqueror:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Enderdragon Flap'
+                sound: 'Entity Ender Dragon Flap'
                 volume-base: '95'
                 volume-scale: '0'
                 pitch-base: '0.9'

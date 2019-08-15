@@ -270,7 +270,7 @@ Magic Shield:
                                 h-cycles: '1'
                                 v-cycles: '1'
                                 particle: 'Block Crack'
-                                material: 'Portal'
+                                material: 'PURPLE_GLAZED_TERRACOTTA'
                                 type: '0'
                                 arrangement: 'Circle'
                                 radius-base: '3'

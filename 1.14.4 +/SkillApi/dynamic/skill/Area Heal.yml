@@ -133,7 +133,7 @@ Area Heal:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Prepare Blindness'
+                sound: 'Entity Illusioner Prepare Blindness'
                 volume-base: '65'
                 volume-scale: '0'
                 pitch-base: '0.9'
@@ -319,7 +319,7 @@ Area Heal:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '45'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -499,7 +499,7 @@ Area Heal:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '45'
                     volume-scale: '0'
                     pitch-base: '0.6'

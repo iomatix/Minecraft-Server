@@ -91,7 +91,7 @@ Fireball:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Evocation Illager Cast Spell'
+            sound: 'Entity Evoker Cast Spell'
             volume-base: '100'
             volume-scale: '0'
             pitch-base: '1.2'

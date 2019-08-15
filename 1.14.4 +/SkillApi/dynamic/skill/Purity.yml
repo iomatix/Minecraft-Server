@@ -52,7 +52,7 @@ Purity:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Evocation Illager Prepare Summon'
+            sound: 'Entity Evoker Prepare Summon'
             volume-base: '55'
             volume-scale: '0'
             pitch-base: '0.8'
@@ -338,7 +338,7 @@ Purity:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '1.3'
@@ -530,7 +530,7 @@ Purity:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -714,7 +714,7 @@ Purity:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '0.6'

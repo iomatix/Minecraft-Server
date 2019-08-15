@@ -70,7 +70,7 @@ Lightning:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Lightning Thunder'
+                sound: 'Entity Lightning Bolt Thunder'
                 volume-base: '100'
                 volume-scale: '0'
                 pitch-base: '1.1'
@@ -226,7 +226,7 @@ Lightning:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Lightning Impact'
+                        sound: 'Entity Lightning Bolt Impact'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1.1'
@@ -492,7 +492,7 @@ Lightning:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Impact'
+                            sound: 'Entity Lightning Bolt Impact'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1.1'
@@ -706,7 +706,7 @@ Lightning:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Prepare Blindness'
+                    sound: 'Entity Illusioner Prepare Blindness'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '1.3'

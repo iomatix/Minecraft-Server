@@ -179,7 +179,7 @@ Permeability:
                   data: 
                     icon-key: 'SoundRand'
                     counts: 'True'
-                    sound: 'Entity Irongolem Step'
+                    sound: 'Entity Iron Golem Step'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -248,7 +248,7 @@ Permeability:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Irongolem Step'
+                sound: 'Entity Iron Golem Step'
                 volume-base: '100'
                 volume-scale: '0'
                 pitch-base: '1'
@@ -436,7 +436,7 @@ Permeability:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '70'
                             volume-scale: '0'
                             pitch-base: 'SoundRand'
@@ -521,7 +521,7 @@ Permeability:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Mirror Move'
+                                sound: 'Entity Illusioner Mirror Move'
                                 volume-base: '55'
                                 volume-scale: '0'
                                 pitch-base: 'SoundRand'

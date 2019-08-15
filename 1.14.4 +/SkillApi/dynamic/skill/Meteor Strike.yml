@@ -120,7 +120,7 @@ Meteor Strike:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '35'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -246,19 +246,6 @@ Meteor Strike:
                                 volume-base: '85'
                                 volume-scale: '0'
                                 pitch-base: '0.5'
-                                pitch-scale: '0'
-                                indicator: '2D'
-                              children:  {}
-                            Sound-l: 
-                              type: 'mechanic'
-                              indicator: '3D'
-                              data: 
-                                icon-key: ''
-                                counts: 'True'
-                                sound: 'Entity Enderdragon Fireball Explode'
-                                volume-base: '85'
-                                volume-scale: '0'
-                                pitch-base: '0.6'
                                 pitch-scale: '0'
                                 indicator: '2D'
                               children:  {}
@@ -528,7 +515,7 @@ Meteor Strike:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Illusion Illager Prepare Mirror'
+                                    sound: 'Entity Illusioner Prepare Mirror'
                                     volume-base: '80'
                                     volume-scale: '0'
                                     pitch-base: '0.6'
@@ -613,7 +600,7 @@ Meteor Strike:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Enderdragon Shoot'
+                        sound: 'Entity Ender Dragon Shoot'
                         volume-base: '83'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -780,7 +767,7 @@ Meteor Strike:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '65'
                     volume-scale: '0'
                     pitch-base: '0.6'

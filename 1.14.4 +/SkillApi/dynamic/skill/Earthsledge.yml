@@ -144,7 +144,7 @@ Earthsledge:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Evocation Illager Prepare Summon'
+                sound: 'Entity Evoker Prepare Summon'
                 volume-base: '89'
                 volume-scale: '0'
                 pitch-base: '0.9'
@@ -333,7 +333,7 @@ Earthsledge:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Lightning Impact'
+                                sound: 'Entity Lightning Bolt Impact'
                                 volume-base: '100'
                                 volume-scale: '0'
                                 pitch-base: '0.9'
@@ -439,7 +439,7 @@ Earthsledge:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Lightning Impact'
+                                    sound: 'Entity Lightning Bolt Impact'
                                     volume-base: '86'
                                     volume-scale: '0'
                                     pitch-base: '0.5'
@@ -810,7 +810,7 @@ Earthsledge:
                                       data: 
                                         icon-key: ''
                                         counts: 'True'
-                                        sound: 'Entity Lightning Thunder'
+                                        sound: 'Entity Lightning Bolt Thunder'
                                         volume-base: '65'
                                         volume-scale: '0'
                                         pitch-base: '0.5'

@@ -481,7 +481,7 @@ Thunder:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Prepare Summon'
+                    sound: 'Entity Evoker Prepare Summon'
                     volume-base: '90'
                     volume-scale: '0'
                     pitch-base: '0.8'

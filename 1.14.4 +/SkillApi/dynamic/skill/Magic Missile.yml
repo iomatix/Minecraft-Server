@@ -123,7 +123,7 @@ Magic Missile:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Illusion Illager Cast Spell'
+            sound: 'Entity Illusioner Cast Spell'
             volume-base: '78'
             volume-scale: '5'
             pitch-base: '0.8'

@@ -134,7 +134,7 @@ Magic Swap:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -229,7 +229,7 @@ Magic Swap:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1'
@@ -324,7 +324,7 @@ Magic Swap:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Prepare Mirror'
+                        sound: 'Entity Illusioner Prepare Mirror'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1'

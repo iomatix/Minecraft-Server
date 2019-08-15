@@ -195,7 +195,7 @@ Fleetwork:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '90'
                     volume-scale: '0'
                     pitch-base: '0.62'
@@ -285,7 +285,7 @@ Fleetwork:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '95'
                     volume-scale: '0'
                     pitch-base: '0.75'

@@ -119,7 +119,7 @@ Magic Weapon:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Cast Spell'
+                sound: 'Entity Illusioner Cast Spell'
                 volume-base: '55'
                 volume-scale: '0'
                 pitch-base: 'soundR'
@@ -252,7 +252,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -339,7 +339,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -426,7 +426,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -513,7 +513,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -600,7 +600,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -656,7 +656,7 @@ Magic Weapon:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Evocation Illager Cast Spell'
+            sound: 'Entity Evoker Cast Spell'
             volume-base: '60'
             volume-scale: '0'
             pitch-base: '1.1'
@@ -680,7 +680,7 @@ Magic Weapon:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '60'
                 volume-scale: '0'
                 pitch-base: '1.1'

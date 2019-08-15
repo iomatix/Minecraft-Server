@@ -252,7 +252,7 @@ Pression:
                   data: 
                     icon-key: 'SoundRand'
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '65'
                     volume-scale: '0'
                     pitch-base: 'SoundRand'
@@ -317,7 +317,7 @@ Pression:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Irongolem Step'
+                sound: 'Entity Iron Golem Step'
                 volume-base: '100'
                 volume-scale: '0'
                 pitch-base: 'SoundRand'

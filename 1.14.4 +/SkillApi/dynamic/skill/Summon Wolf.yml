@@ -107,7 +107,7 @@ Summon Wolf:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Evocation Illager Prepare Wololo'
+                sound: 'Entity Evoker Prepare Wololo'
                 volume-base: '78'
                 volume-scale: '0'
                 pitch-base: '1.4'
@@ -202,7 +202,7 @@ Summon Wolf:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '90'
                             volume-scale: '0'
                             pitch-base: '1'

@@ -1847,7 +1847,7 @@ Arcane Rain:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Evocation Illager Prepare Summon'
+                    sound: 'Entity Evoker Prepare Summon'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '0.75'
@@ -1959,7 +1959,7 @@ Arcane Rain:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '95'
                         volume-scale: '0'
                         pitch-base: '0.75'
@@ -2046,7 +2046,7 @@ Arcane Rain:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '95'
                             volume-scale: '0'
                             pitch-base: '0.75'
@@ -2242,7 +2242,7 @@ Arcane Rain:
                                         h-cycles: '1'
                                         v-cycles: '2'
                                         particle: 'Block Crack'
-                                        material: 'Portal'
+                                        material: 'PURPLE_GLAZED_TERRACOTTA'
                                         type: '0'
                                         arrangement: 'Circle'
                                         radius-base: '4'
@@ -2364,7 +2364,7 @@ Arcane Rain:
                                       data: 
                                         icon-key: ''
                                         counts: 'True'
-                                        sound: 'Entity Evocation Fangs Attack'
+                                        sound: 'Entity Evoker Fangs Attack'
                                         volume-base: '100'
                                         volume-scale: '0'
                                         pitch-base: '0.65'
@@ -2470,7 +2470,7 @@ Arcane Rain:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Evocation Illager Cast Spell'
+                                sound: 'Entity Evoker Cast Spell'
                                 volume-base: '95'
                                 volume-scale: '0'
                                 pitch-base: '0.75'
@@ -2728,7 +2728,7 @@ Area Heal:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Prepare Blindness'
+                sound: 'Entity Illusioner Prepare Blindness'
                 volume-base: '65'
                 volume-scale: '0'
                 pitch-base: '0.9'
@@ -2914,7 +2914,7 @@ Area Heal:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '45'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -3094,7 +3094,7 @@ Area Heal:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '45'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -3388,7 +3388,7 @@ Blink:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1'
@@ -3447,7 +3447,7 @@ Blink:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '0.9'
@@ -3602,7 +3602,7 @@ Blizzard:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '83'
                             volume-scale: '0'
                             pitch-base: '0.7'
@@ -3687,7 +3687,7 @@ Blizzard:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '30'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -3880,7 +3880,7 @@ Blizzard:
                                       data: 
                                         icon-key: ''
                                         counts: 'True'
-                                        sound: 'Entity Illusion Illager Cast Spell'
+                                        sound: 'Entity Illusioner Cast Spell'
                                         volume-base: '100'
                                         volume-scale: '0'
                                         pitch-base: '0.7'
@@ -3916,7 +3916,7 @@ Blizzard:
                                           data: 
                                             icon-key: ''
                                             counts: 'True'
-                                            sound: 'Entity Evocation Illager Cast Spell'
+                                            sound: 'Entity Evoker Cast Spell'
                                             volume-base: '35'
                                             volume-scale: '0'
                                             pitch-base: '0.6'
@@ -4202,7 +4202,7 @@ Blizzard:
                                                   data: 
                                                     icon-key: ''
                                                     counts: 'True'
-                                                    sound: 'Entity Illusion Illager Prepare Mirror'
+                                                    sound: 'Entity Illusioner Prepare Mirror'
                                                     volume-base: '80'
                                                     volume-scale: '0'
                                                     pitch-base: '0.6'
@@ -4317,7 +4317,7 @@ Blizzard:
                                               data: 
                                                 icon-key: ''
                                                 counts: 'True'
-                                                sound: 'Entity Snowman Hurt'
+                                                sound: 'Entity Snow Golem Hurt'
                                                 volume-base: '100'
                                                 volume-scale: '0'
                                                 pitch-base: '0.6'
@@ -4651,7 +4651,7 @@ Burnout:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Shoot'
+                    sound: 'Entity Ender Dragon Shoot'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '0.8'
@@ -4774,19 +4774,6 @@ Burnout:
                         forward: '0'
                         upward: '0'
                         right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Sound-l: 
-                      type: 'mechanic'
-                      indicator: '3D'
-                      data: 
-                        icon-key: ''
-                        counts: 'True'
-                        sound: 'Entity Enderdragon Fireball Explode'
-                        volume-base: '100'
-                        volume-scale: '0'
-                        pitch-base: '0.8'
-                        pitch-scale: '-0.07'
                         indicator: '2D'
                       children:  {}
                     Area-m: 
@@ -4949,7 +4936,7 @@ Burnout:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1.1'
@@ -5044,7 +5031,7 @@ Burnout:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Prepare Summon'
+                    sound: 'Entity Evoker Prepare Summon'
                     volume-base: '86'
                     volume-scale: '0'
                     pitch-base: '0.9'
@@ -5305,7 +5292,7 @@ Conqueror:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Enderdragon Flap'
+                sound: 'Entity Ender Dragon Flap'
                 volume-base: '95'
                 volume-scale: '0'
                 pitch-base: '0.9'
@@ -6611,7 +6598,7 @@ Dark Vortex:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: 'rand'
@@ -7198,7 +7185,7 @@ Dark Vortex:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Prepare Mirror'
+                        sound: 'Entity Illusioner Prepare Mirror'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '0.9'
@@ -7491,7 +7478,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Impact'
+                            sound: 'Entity Lightning Bolt Impact'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '0.9'
@@ -7597,7 +7584,7 @@ Earthquake:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Lightning Impact'
+                                sound: 'Entity Lightning Bolt Impact'
                                 volume-base: '86'
                                 volume-scale: '0'
                                 pitch-base: '0.5'
@@ -7979,7 +7966,7 @@ Earthquake:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Lightning Thunder'
+                                    sound: 'Entity Lightning Bolt Thunder'
                                     volume-base: '65'
                                     volume-scale: '0'
                                     pitch-base: '0.5'
@@ -8015,7 +8002,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Thunder'
+                            sound: 'Entity Lightning Bolt Thunder'
                             volume-base: '33'
                             volume-scale: '0'
                             pitch-base: '0.5'
@@ -8107,7 +8094,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Impact'
+                            sound: 'Entity Lightning Bolt Impact'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '0.9'
@@ -8213,7 +8200,7 @@ Earthquake:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Lightning Impact'
+                                sound: 'Entity Lightning Bolt Impact'
                                 volume-base: '86'
                                 volume-scale: '0'
                                 pitch-base: '0.5'
@@ -8595,7 +8582,7 @@ Earthquake:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Lightning Thunder'
+                                    sound: 'Entity Lightning Bolt Thunder'
                                     volume-base: '65'
                                     volume-scale: '0'
                                     pitch-base: '0.5'
@@ -8631,7 +8618,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Thunder'
+                            sound: 'Entity Lightning Bolt Thunder'
                             volume-base: '33'
                             volume-scale: '0'
                             pitch-base: '0.5'
@@ -8723,7 +8710,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Impact'
+                            sound: 'Entity Lightning Bolt Impact'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '0.9'
@@ -8829,7 +8816,7 @@ Earthquake:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Lightning Impact'
+                                sound: 'Entity Lightning Bolt Impact'
                                 volume-base: '86'
                                 volume-scale: '0'
                                 pitch-base: '0.5'
@@ -9211,7 +9198,7 @@ Earthquake:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Lightning Thunder'
+                                    sound: 'Entity Lightning Bolt Thunder'
                                     volume-base: '65'
                                     volume-scale: '0'
                                     pitch-base: '0.5'
@@ -9247,7 +9234,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Thunder'
+                            sound: 'Entity Lightning Bolt Thunder'
                             volume-base: '33'
                             volume-scale: '0'
                             pitch-base: '0.5'
@@ -9339,7 +9326,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Impact'
+                            sound: 'Entity Lightning Bolt Impact'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '0.9'
@@ -9445,7 +9432,7 @@ Earthquake:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Lightning Impact'
+                                sound: 'Entity Lightning Bolt Impact'
                                 volume-base: '86'
                                 volume-scale: '0'
                                 pitch-base: '0.5'
@@ -9827,7 +9814,7 @@ Earthquake:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Lightning Thunder'
+                                    sound: 'Entity Lightning Bolt Thunder'
                                     volume-base: '65'
                                     volume-scale: '0'
                                     pitch-base: '0.5'
@@ -9863,7 +9850,7 @@ Earthquake:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Thunder'
+                            sound: 'Entity Lightning Bolt Thunder'
                             volume-base: '33'
                             volume-scale: '0'
                             pitch-base: '0.5'
@@ -9876,7 +9863,7 @@ Earthquake:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Evocation Illager Prepare Summon'
+            sound: 'Entity Evoker Prepare Summon'
             volume-base: '85'
             volume-scale: '0'
             pitch-base: '0.6'
@@ -10091,7 +10078,7 @@ Earthshock:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Evocation Illager Cast Spell'
+                sound: 'Entity Evoker Cast Spell'
                 volume-base: '100'
                 volume-scale: '0'
                 pitch-base: '1.3'
@@ -10496,7 +10483,7 @@ Earthshock:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Lightning Impact'
+                        sound: 'Entity Lightning Bolt Impact'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -10509,7 +10496,7 @@ Earthshock:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Lightning Impact'
+                    sound: 'Entity Lightning Bolt Impact'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '1.3'
@@ -10764,7 +10751,7 @@ Earthsledge:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Evocation Illager Prepare Summon'
+                sound: 'Entity Evoker Prepare Summon'
                 volume-base: '89'
                 volume-scale: '0'
                 pitch-base: '0.9'
@@ -10953,7 +10940,7 @@ Earthsledge:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Lightning Impact'
+                                sound: 'Entity Lightning Bolt Impact'
                                 volume-base: '100'
                                 volume-scale: '0'
                                 pitch-base: '0.9'
@@ -11059,7 +11046,7 @@ Earthsledge:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Lightning Impact'
+                                    sound: 'Entity Lightning Bolt Impact'
                                     volume-base: '86'
                                     volume-scale: '0'
                                     pitch-base: '0.5'
@@ -11430,7 +11417,7 @@ Earthsledge:
                                       data: 
                                         icon-key: ''
                                         counts: 'True'
-                                        sound: 'Entity Lightning Thunder'
+                                        sound: 'Entity Lightning Bolt Thunder'
                                         volume-base: '65'
                                         volume-scale: '0'
                                         pitch-base: '0.5'
@@ -11573,7 +11560,7 @@ Fire Rain:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Illusion Illager Cast Spell'
+            sound: 'Entity Illusioner Cast Spell'
             volume-base: '85'
             volume-scale: '5'
             pitch-base: '0.8'
@@ -11679,7 +11666,7 @@ Fire Rain:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Shoot'
+                    sound: 'Entity Ender Dragon Shoot'
                     volume-base: '85'
                     volume-scale: '5'
                     pitch-base: '1'
@@ -11826,19 +11813,6 @@ Fire Rain:
                         forward: '-0.5'
                         upward: '-1'
                         right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Sound-l: 
-                      type: 'mechanic'
-                      indicator: '3D'
-                      data: 
-                        icon-key: ''
-                        counts: 'True'
-                        sound: 'Entity Enderdragon Fireball Explode'
-                        volume-base: '100'
-                        volume-scale: '0'
-                        pitch-base: '0.8'
-                        pitch-scale: '-0.1'
                         indicator: '2D'
                       children:  {}
                     Area-m: 
@@ -12146,7 +12120,7 @@ Fireball:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Evocation Illager Cast Spell'
+            sound: 'Entity Evoker Cast Spell'
             volume-base: '100'
             volume-scale: '0'
             pitch-base: '1.2'
@@ -12827,7 +12801,7 @@ Fleetwork:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '90'
                     volume-scale: '0'
                     pitch-base: '0.62'
@@ -12917,7 +12891,7 @@ Fleetwork:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '95'
                     volume-scale: '0'
                     pitch-base: '0.75'
@@ -13173,7 +13147,7 @@ Fly:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Evocation Illager Cast Spell'
+                sound: 'Entity Evoker Cast Spell'
                 volume-base: '65'
                 volume-scale: '0'
                 pitch-base: '0.9'
@@ -14906,7 +14880,7 @@ Heal:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Evocation Illager Prepare Summon'
+            sound: 'Entity Evoker Prepare Summon'
             volume-base: '55'
             volume-scale: '0'
             pitch-base: '0.8'
@@ -15199,7 +15173,7 @@ Heal:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -15402,7 +15376,7 @@ Heal:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -15650,7 +15624,7 @@ Iceile:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Illusion Illager Prepare Mirror'
+            sound: 'Entity Illusioner Prepare Mirror'
             volume-base: '100'
             volume-scale: '0'
             pitch-base: '1.2'
@@ -15709,7 +15683,7 @@ Iceile:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Cast Spell'
+                sound: 'Entity Illusioner Cast Spell'
                 volume-base: '80'
                 volume-scale: '2.857'
                 pitch-base: '1.45'
@@ -15722,7 +15696,7 @@ Iceile:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Snowman Shoot'
+                sound: 'Entity Snow Golem Shoot'
                 volume-base: '80'
                 volume-scale: '2.857'
                 pitch-base: '1.45'
@@ -16096,7 +16070,7 @@ Iceile:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1.2'
@@ -16492,7 +16466,7 @@ Lethal Tempo:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Hurt'
+                    sound: 'Entity Ender Dragon Hurt'
                     volume-base: '30'
                     volume-scale: '0'
                     pitch-base: 'randomLT'
@@ -16599,26 +16573,26 @@ Lethal Tempo:
                     frequency: '0.05'
                     angle: '0'
                     start: '0'
-                    duration-base: '0.2'
+                    duration-base: '0.3'
                     duration-scale: '0.1'
                     h-translation-base: '0'
                     h-translation-scale: '0'
                     v-translation-base: '0.8'
                     v-translation-scale: '0'
                     h-cycles: '1'
-                    v-cycles: '8'
+                    v-cycles: '1'
                     particle: 'End Rod'
                     arrangement: 'Circle'
-                    radius-base: '1.2'
+                    radius-base: '0.25'
                     radius-scale: '0'
                     particles-base: '2'
                     particles-scale: '0'
                     direction: 'XZ'
-                    visible-radius: '45'
+                    visible-radius: '80'
                     dx: '0'
                     dy: '0'
                     dz: '0'
-                    speed: '1'
+                    speed: '0.01'
                     amount: '1'
                     forward: '0'
                     upward: '0'
@@ -16749,7 +16723,7 @@ Lightning:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Lightning Thunder'
+                sound: 'Entity Lightning Bolt Thunder'
                 volume-base: '100'
                 volume-scale: '0'
                 pitch-base: '1.1'
@@ -16905,7 +16879,7 @@ Lightning:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Lightning Impact'
+                        sound: 'Entity Lightning Bolt Impact'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1.1'
@@ -17171,7 +17145,7 @@ Lightning:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Lightning Impact'
+                            sound: 'Entity Lightning Bolt Impact'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1.1'
@@ -17385,7 +17359,7 @@ Lightning:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Prepare Blindness'
+                    sound: 'Entity Illusioner Prepare Blindness'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '1.3'
@@ -17552,7 +17526,7 @@ Magic Absolution:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -17637,7 +17611,7 @@ Magic Absolution:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Illusion Illager Prepare Blindness'
+            sound: 'Entity Illusioner Prepare Blindness'
             volume-base: '95'
             volume-scale: '0'
             pitch-base: '1.4'
@@ -17735,7 +17709,7 @@ Magic Arrow:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Evocation Illager Cast Spell'
+            sound: 'Entity Evoker Cast Spell'
             volume-base: '60'
             volume-scale: '0'
             pitch-base: '1.1'
@@ -17775,7 +17749,7 @@ Magic Arrow:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '60'
                 volume-scale: '0'
                 pitch-base: '1.1'
@@ -18056,7 +18030,7 @@ Magic Bread:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Evocation Illager Cast Spell'
+            sound: 'Entity Evoker Cast Spell'
             volume-base: '60'
             volume-scale: '0'
             pitch-base: '1.1'
@@ -18096,7 +18070,7 @@ Magic Bread:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '60'
                 volume-scale: '0'
                 pitch-base: '1.1'
@@ -18438,7 +18412,7 @@ Magic Missile:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Illusion Illager Cast Spell'
+            sound: 'Entity Illusioner Cast Spell'
             volume-base: '78'
             volume-scale: '5'
             pitch-base: '0.8'
@@ -18936,7 +18910,7 @@ Magic Shield:
                                 h-cycles: '1'
                                 v-cycles: '1'
                                 particle: 'Block Crack'
-                                material: 'Portal'
+                                material: 'PURPLE_GLAZED_TERRACOTTA'
                                 type: '0'
                                 arrangement: 'Circle'
                                 radius-base: '3'
@@ -19135,7 +19109,7 @@ Magic Swap:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -19230,7 +19204,7 @@ Magic Swap:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1'
@@ -19325,7 +19299,7 @@ Magic Swap:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Prepare Mirror'
+                        sound: 'Entity Illusioner Prepare Mirror'
                         volume-base: '100'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -19489,7 +19463,7 @@ Magic Weapon:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Cast Spell'
+                sound: 'Entity Illusioner Cast Spell'
                 volume-base: '55'
                 volume-scale: '0'
                 pitch-base: 'soundR'
@@ -19622,7 +19596,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -19709,7 +19683,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -19796,7 +19770,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -19883,7 +19857,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -19970,7 +19944,7 @@ Magic Weapon:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: 'soundR2'
@@ -20026,7 +20000,7 @@ Magic Weapon:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Evocation Illager Cast Spell'
+            sound: 'Entity Evoker Cast Spell'
             volume-base: '60'
             volume-scale: '0'
             pitch-base: '1.1'
@@ -20050,7 +20024,7 @@ Magic Weapon:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '60'
                 volume-scale: '0'
                 pitch-base: '1.1'
@@ -20425,7 +20399,7 @@ Meteor Strike:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '35'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -20551,19 +20525,6 @@ Meteor Strike:
                                 volume-base: '85'
                                 volume-scale: '0'
                                 pitch-base: '0.5'
-                                pitch-scale: '0'
-                                indicator: '2D'
-                              children:  {}
-                            Sound-l: 
-                              type: 'mechanic'
-                              indicator: '3D'
-                              data: 
-                                icon-key: ''
-                                counts: 'True'
-                                sound: 'Entity Enderdragon Fireball Explode'
-                                volume-base: '85'
-                                volume-scale: '0'
-                                pitch-base: '0.6'
                                 pitch-scale: '0'
                                 indicator: '2D'
                               children:  {}
@@ -20833,7 +20794,7 @@ Meteor Strike:
                                   data: 
                                     icon-key: ''
                                     counts: 'True'
-                                    sound: 'Entity Illusion Illager Prepare Mirror'
+                                    sound: 'Entity Illusioner Prepare Mirror'
                                     volume-base: '80'
                                     volume-scale: '0'
                                     pitch-base: '0.6'
@@ -20918,7 +20879,7 @@ Meteor Strike:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Enderdragon Shoot'
+                        sound: 'Entity Ender Dragon Shoot'
                         volume-base: '83'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -21085,7 +21046,7 @@ Meteor Strike:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '65'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -21403,7 +21364,7 @@ Meteorain:
                                           data: 
                                             icon-key: ''
                                             counts: 'True'
-                                            sound: 'Entity Evocation Illager Cast Spell'
+                                            sound: 'Entity Evoker Cast Spell'
                                             volume-base: '35'
                                             volume-scale: '0'
                                             pitch-base: '0.6'
@@ -21529,19 +21490,6 @@ Meteorain:
                                                 volume-base: '85'
                                                 volume-scale: '0'
                                                 pitch-base: '0.5'
-                                                pitch-scale: '0'
-                                                indicator: '2D'
-                                              children:  {}
-                                            Sound-v: 
-                                              type: 'mechanic'
-                                              indicator: '3D'
-                                              data: 
-                                                icon-key: ''
-                                                counts: 'True'
-                                                sound: 'Entity Enderdragon Fireball Explode'
-                                                volume-base: '85'
-                                                volume-scale: '0'
-                                                pitch-base: '0.6'
                                                 pitch-scale: '0'
                                                 indicator: '2D'
                                               children:  {}
@@ -21811,7 +21759,7 @@ Meteorain:
                                                   data: 
                                                     icon-key: ''
                                                     counts: 'True'
-                                                    sound: 'Entity Illusion Illager Prepare Mirror'
+                                                    sound: 'Entity Illusioner Prepare Mirror'
                                                     volume-base: '80'
                                                     volume-scale: '0'
                                                     pitch-base: '0.6'
@@ -21834,7 +21782,7 @@ Meteorain:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Enderdragon Shoot'
+                            sound: 'Entity Ender Dragon Shoot'
                             volume-base: '83'
                             volume-scale: '0'
                             pitch-base: '0.7'
@@ -21919,7 +21867,7 @@ Meteorain:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '30'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -22334,7 +22282,7 @@ Mysterium:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '35'
                 volume-scale: '0'
                 pitch-base: '0.8'
@@ -22472,7 +22420,7 @@ Mysterium:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '35'
                         volume-scale: '0'
                         pitch-base: '0.8'
@@ -22940,7 +22888,7 @@ Overload:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Evocation Illager Cast Spell'
+                sound: 'Entity Evoker Cast Spell'
                 volume-base: '50'
                 volume-scale: '0'
                 pitch-base: '1'
@@ -23089,7 +23037,7 @@ Overload:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '60'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -23444,7 +23392,7 @@ Permeability:
                   data: 
                     icon-key: 'SoundRand'
                     counts: 'True'
-                    sound: 'Entity Irongolem Step'
+                    sound: 'Entity Iron Golem Step'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -23513,7 +23461,7 @@ Permeability:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Irongolem Step'
+                sound: 'Entity Iron Golem Step'
                 volume-base: '100'
                 volume-scale: '0'
                 pitch-base: '1'
@@ -23701,7 +23649,7 @@ Permeability:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '70'
                             volume-scale: '0'
                             pitch-base: 'SoundRand'
@@ -23786,7 +23734,7 @@ Permeability:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Mirror Move'
+                                sound: 'Entity Illusioner Mirror Move'
                                 volume-base: '55'
                                 volume-scale: '0'
                                 pitch-base: 'SoundRand'
@@ -24818,7 +24766,7 @@ Pression:
                   data: 
                     icon-key: 'SoundRand'
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '65'
                     volume-scale: '0'
                     pitch-base: 'SoundRand'
@@ -24883,7 +24831,7 @@ Pression:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Irongolem Step'
+                sound: 'Entity Iron Golem Step'
                 volume-base: '100'
                 volume-scale: '0'
                 pitch-base: 'SoundRand'
@@ -25050,7 +24998,7 @@ Purity:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Evocation Illager Prepare Summon'
+            sound: 'Entity Evoker Prepare Summon'
             volume-base: '55'
             volume-scale: '0'
             pitch-base: '0.8'
@@ -25336,7 +25284,7 @@ Purity:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '1.3'
@@ -25528,7 +25476,7 @@ Purity:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -25712,7 +25660,7 @@ Purity:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -25975,7 +25923,7 @@ Push:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Prepare Mirror'
+                    sound: 'Entity Illusioner Prepare Mirror'
                     volume-base: '40'
                     volume-scale: '0'
                     pitch-base: '0.92'
@@ -26115,7 +26063,7 @@ Push:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '80'
                             volume-scale: '0'
                             pitch-base: '0.92'
@@ -26138,7 +26086,7 @@ Push:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Cast Spell'
+                                sound: 'Entity Illusioner Cast Spell'
                                 volume-base: '80'
                                 volume-scale: '0'
                                 pitch-base: '0.92'
@@ -26209,7 +26157,7 @@ Push:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Prepare Mirror'
+                    sound: 'Entity Illusioner Prepare Mirror'
                     volume-base: '40'
                     volume-scale: '0'
                     pitch-base: '0.92'
@@ -26349,7 +26297,7 @@ Push:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '80'
                             volume-scale: '0'
                             pitch-base: '0.92'
@@ -26800,7 +26748,7 @@ Ray:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '45'
                         volume-scale: '0'
                         pitch-base: '0.5'
@@ -26962,7 +26910,7 @@ Ray:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Prepare Attack'
+                    sound: 'Entity Evoker Prepare Attack'
                     volume-base: '45'
                     volume-scale: '0'
                     pitch-base: '0.5'
@@ -27471,7 +27419,7 @@ Ray:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Evocation Illager Cast Spell'
+                sound: 'Entity Evoker Cast Spell'
                 volume-base: '82'
                 volume-scale: '0'
                 pitch-base: '0.7'
@@ -27966,7 +27914,7 @@ Rebound:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Illusion Illager Prepare Mirror'
+                sound: 'Entity Illusioner Prepare Mirror'
                 volume-base: '40'
                 volume-scale: '0'
                 pitch-base: '0.92'
@@ -27990,7 +27938,7 @@ Rebound:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '0.92'
@@ -28161,7 +28109,7 @@ Rebound:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Illusion Illager Prepare Mirror'
+                sound: 'Entity Illusioner Prepare Mirror'
                 volume-base: '40'
                 volume-scale: '0'
                 pitch-base: '0.92'
@@ -28311,7 +28259,7 @@ Rebound:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Cast Spell'
+                        sound: 'Entity Illusioner Cast Spell'
                         volume-base: '80'
                         volume-scale: '0'
                         pitch-base: '0.92'
@@ -28707,7 +28655,7 @@ Regeneration:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1.3'
@@ -29310,7 +29258,7 @@ Roots:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Cast Spell'
+                    sound: 'Entity Illusioner Cast Spell'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -29395,7 +29343,7 @@ Roots:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '80'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -29483,7 +29431,7 @@ Rubin:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '65'
                 volume-scale: '0'
                 pitch-base: '0.6'
@@ -29585,7 +29533,7 @@ Rubin:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '65'
                 volume-scale: '0'
                 pitch-base: '0.6'
@@ -30317,7 +30265,7 @@ Rubin:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Mirror Move'
+                sound: 'Entity Illusioner Mirror Move'
                 volume-base: '85'
                 volume-scale: '0'
                 pitch-base: '0.5'
@@ -30601,7 +30549,7 @@ Sapphire:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Cast Spell'
+                sound: 'Entity Illusioner Cast Spell'
                 volume-base: '45'
                 volume-scale: '0'
                 pitch-base: '0.6'
@@ -30663,7 +30611,7 @@ Sapphire:
           data: 
             icon-key: ''
             counts: 'True'
-            sound: 'Entity Enderdragon Flap'
+            sound: 'Entity Ender Dragon Flap'
             volume-base: '75'
             volume-scale: '0'
             pitch-base: '0.6'
@@ -30785,7 +30733,7 @@ Sapphire:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '65'
                     volume-scale: '0'
                     pitch-base: '0.8'
@@ -30891,7 +30839,7 @@ Sapphire:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Illusion Illager Cast Spell'
+                sound: 'Entity Illusioner Cast Spell'
                 volume-base: '45'
                 volume-scale: '0'
                 pitch-base: '0.6'
@@ -31221,7 +31169,7 @@ Sapphire:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '65'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -31234,7 +31182,7 @@ Sapphire:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '70'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -31353,7 +31301,7 @@ Sapphire:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '65'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -32051,7 +31999,7 @@ Shadow:
                   data: 
                     icon-key: ''
                     counts: 'False'
-                    sound: 'Entity Illusion Illager Prepare Mirror'
+                    sound: 'Entity Illusioner Prepare Mirror'
                     volume-base: '40'
                     volume-scale: '0'
                     pitch-base: '0.92'
@@ -32237,7 +32185,7 @@ Shadow:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Cast Spell'
+                            sound: 'Entity Illusioner Cast Spell'
                             volume-base: '80'
                             volume-scale: '0'
                             pitch-base: '0.92'
@@ -32508,7 +32456,7 @@ Silence:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Evocation Illager Cast Spell'
+                        sound: 'Entity Evoker Cast Spell'
                         volume-base: '95'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -32769,7 +32717,7 @@ Silence:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Mirror'
+                            sound: 'Entity Illusioner Prepare Mirror'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '0.8'
@@ -33122,7 +33070,7 @@ Splash:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '75'
                         volume-scale: '0'
                         pitch-base: '1.2'
@@ -33259,7 +33207,7 @@ Splash:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Evocation Illager Prepare Summon'
+                sound: 'Entity Evoker Prepare Summon'
                 volume-base: '80'
                 volume-scale: '0'
                 pitch-base: '1.3'
@@ -35121,7 +35069,7 @@ Summon Wolf:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Evocation Illager Prepare Wololo'
+                sound: 'Entity Evoker Prepare Wololo'
                 volume-base: '78'
                 volume-scale: '0'
                 pitch-base: '1.4'
@@ -35216,7 +35164,7 @@ Summon Wolf:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '90'
                             volume-scale: '0'
                             pitch-base: '1'
@@ -35369,7 +35317,7 @@ Teleportation:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Evocation Illager Cast Spell'
+                            sound: 'Entity Evoker Cast Spell'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1'
@@ -35382,7 +35330,7 @@ Teleportation:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Mirror Move'
+                            sound: 'Entity Illusioner Mirror Move'
                             volume-base: '100'
                             volume-scale: '0'
                             pitch-base: '1'
@@ -35446,7 +35394,7 @@ Teleportation:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '55'
                         volume-scale: '0'
                         pitch-base: '1'
@@ -35577,7 +35525,7 @@ Teleportation:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Prepare Mirror'
+                    sound: 'Entity Illusioner Prepare Mirror'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '1'
@@ -36251,7 +36199,7 @@ Thunder:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Prepare Summon'
+                    sound: 'Entity Evoker Prepare Summon'
                     volume-base: '90'
                     volume-scale: '0'
                     pitch-base: '0.8'
@@ -37289,7 +37237,7 @@ Tsunami:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '75'
                         volume-scale: '0'
                         pitch-base: '1.2'
@@ -37642,7 +37590,7 @@ Tsunami:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '75'
                         volume-scale: '0'
                         pitch-base: '1.2'
@@ -37987,7 +37935,7 @@ Tsunami:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '75'
                         volume-scale: '0'
                         pitch-base: '1.2'
@@ -38332,7 +38280,7 @@ Tsunami:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '75'
                         volume-scale: '0'
                         pitch-base: '1.2'
@@ -38461,7 +38409,7 @@ Tsunami:
               data: 
                 icon-key: ''
                 counts: 'False'
-                sound: 'Entity Evocation Illager Prepare Summon'
+                sound: 'Entity Evoker Prepare Summon'
                 volume-base: '95'
                 volume-scale: '0'
                 pitch-base: '0.85'
@@ -39273,7 +39221,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '35'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -39548,7 +39496,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '60'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -39561,7 +39509,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '60'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -39667,7 +39615,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '50'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -39760,7 +39708,7 @@ Void:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Enderdragon Flap'
+                sound: 'Entity Ender Dragon Flap'
                 volume-base: '35'
                 volume-scale: '0'
                 pitch-base: '0.7'
@@ -39854,7 +39802,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '44'
                     volume-scale: '0'
                     pitch-base: '1.2'
@@ -40061,7 +40009,7 @@ Void:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Prepare Blindness'
+                                sound: 'Entity Illusioner Prepare Blindness'
                                 volume-base: '35'
                                 volume-scale: '0'
                                 pitch-base: '0.6'
@@ -40344,7 +40292,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '35'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -40619,7 +40567,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '60'
                         volume-scale: '0'
                         pitch-base: '0.6'
@@ -40632,7 +40580,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '60'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -40738,7 +40686,7 @@ Void:
                           data: 
                             icon-key: ''
                             counts: 'True'
-                            sound: 'Entity Illusion Illager Prepare Blindness'
+                            sound: 'Entity Illusioner Prepare Blindness'
                             volume-base: '50'
                             volume-scale: '0'
                             pitch-base: '0.6'
@@ -40831,7 +40779,7 @@ Void:
               data: 
                 icon-key: ''
                 counts: 'True'
-                sound: 'Entity Enderdragon Flap'
+                sound: 'Entity Ender Dragon Flap'
                 volume-base: '35'
                 volume-scale: '0'
                 pitch-base: '0.7'
@@ -40925,7 +40873,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Illusion Illager Mirror Move'
+                    sound: 'Entity Illusioner Mirror Move'
                     volume-base: '44'
                     volume-scale: '0'
                     pitch-base: '1.2'
@@ -41132,7 +41080,7 @@ Void:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Prepare Blindness'
+                                sound: 'Entity Illusioner Prepare Blindness'
                                 volume-base: '35'
                                 volume-scale: '0'
                                 pitch-base: '0.6'
@@ -41469,7 +41417,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '80'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -41602,7 +41550,7 @@ Void:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Enderdragon Flap'
+                    sound: 'Entity Ender Dragon Flap'
                     volume-base: '58'
                     volume-scale: '0'
                     pitch-base: '0.6'
@@ -41813,7 +41761,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '80'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -41896,7 +41844,7 @@ Void:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Illusion Illager Mirror Move'
+                                sound: 'Entity Illusioner Mirror Move'
                                 volume-base: '80'
                                 volume-scale: '0'
                                 pitch-base: '0.7'
@@ -41972,7 +41920,7 @@ Void:
                       data: 
                         icon-key: ''
                         counts: 'True'
-                        sound: 'Entity Illusion Illager Mirror Move'
+                        sound: 'Entity Illusioner Mirror Move'
                         volume-base: '80'
                         volume-scale: '0'
                         pitch-base: '0.7'
@@ -42574,7 +42522,7 @@ Windblast:
           data: 
             icon-key: ''
             counts: 'False'
-            sound: 'Entity Illusion Illager Cast Spell'
+            sound: 'Entity Illusioner Cast Spell'
             volume-base: '85'
             volume-scale: '0'
             pitch-base: '1.3'
@@ -42731,7 +42679,7 @@ Windblast:
                               data: 
                                 icon-key: ''
                                 counts: 'True'
-                                sound: 'Entity Evocation Fangs Attack'
+                                sound: 'Entity Evoker Fangs Attack'
                                 volume-base: '100'
                                 volume-scale: '0'
                                 pitch-base: '1.3'
@@ -42752,7 +42700,7 @@ Windblast:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    sound: 'Entity Evocation Illager Cast Spell'
+                    sound: 'Entity Evoker Cast Spell'
                     volume-base: '100'
                     volume-scale: '0'
                     pitch-base: '1'
