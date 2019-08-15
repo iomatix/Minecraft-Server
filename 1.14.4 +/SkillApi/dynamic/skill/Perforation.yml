@@ -1,0 +1,131 @@
+Perforation: 
+  name: 'Perforation'
+  type: 'Passive'
+  max-level: 3
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '9'
+    level-scale: '13'
+    cost-base: '1'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - 'Implacability'
+    - 'Arcanum'
+    - 'Rigidity'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'STONE_SWORD'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&cDeals additional &6{attr:Damage.value}&6% &cof the total damage as a &6true damage. '
+  - ''
+  - '&cDomination tree passive.'
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Both'
+        dmg-min: '1'
+        dmg-max: '999999'
+        indicator: '2D'
+      children: 
+        Value Multiply-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'api-dealt'
+            multiplier-base: '0.03'
+            multiplier-scale: '0.04'
+            indicator: '2D'
+          children:  {}
+        Damage-c: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            type: 'Damage'
+            value-base: 'api-dealt'
+            value-scale: '0'
+            true: 'True'
+            classifier: 'True'
+            indicator: '2D'
+          children:  {}
+    Skill Damage-d: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - ''
+        indicator: '2D'
+      children: 
+        Value Multiply-e: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'api-dealt'
+            multiplier-base: '0.03'
+            multiplier-scale: '0.04'
+            indicator: '2D'
+          children:  {}
+        Damage-f: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            type: 'Damage'
+            value-base: 'api-dealt'
+            value-scale: '0'
+            true: 'True'
+            classifier: 'True'
+            indicator: '2D'
+          children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-h: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'Damage'
+            counts: 'True'
+            key: 'LorePerforation'
+            value-base: '3'
+            value-scale: '4'
+            indicator: '2D'
+          children:  {}

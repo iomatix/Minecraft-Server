@@ -1,0 +1,130 @@
+Powerness: 
+  name: 'Powerness'
+  type: 'Passive'
+  max-level: 3
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '13'
+    level-scale: '13'
+    cost-base: '2'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '3'
+    points-spent-req-scale: '2'
+    incompatible: 
+    - 'Haste'
+    - 'Shrewdness'
+    - 'Thornmail'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'CYAN_DYE'
+  icon-durability: 0
+  icon-data: 6
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&3Deals additional &6{attr:Damage.value}&6% &3arcane damage from &6all &3damage sources. '
+  - ''
+  - '&3Sorcery tree passive.'
+  desc:  []
+  components: 
+    Skill Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - ''
+        indicator: '2D'
+      children: 
+        Value Multiply-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'api-dealt'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
+            indicator: '2D'
+          children:  {}
+        Damage-c: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'Constant'
+            counts: 'True'
+            type: 'Damage'
+            value-base: 'api-dealt'
+            value-scale: '0'
+            true: 'False'
+            classifier: 'Arcane'
+            indicator: '2D'
+          children:  {}
+    Physical Damage-d: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Both'
+        dmg-min: '1'
+        dmg-max: '999999'
+        indicator: '2D'
+      children: 
+        Value Multiply-e: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'api-dealt'
+            multiplier-base: '0.05'
+            multiplier-scale: '0.05'
+            indicator: '2D'
+          children:  {}
+        Damage-f: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            type: 'Damage'
+            value-base: 'api-dealt'
+            value-scale: '0'
+            true: 'False'
+            classifier: 'Arcane'
+            indicator: '2D'
+          children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-h: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'Damage'
+            counts: 'True'
+            key: 'ShrewLore'
+            value-base: '5'
+            value-scale: '5'
+            indicator: '2D'
+          children:  {}

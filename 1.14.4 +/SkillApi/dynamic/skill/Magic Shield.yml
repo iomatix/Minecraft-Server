@@ -1,0 +1,335 @@
+Magic Shield: 
+  name: 'Magic Shield'
+  type: 'Active'
+  max-level: 2
+  skill-req: 'Magic Missile'
+  skill-req-lvl: 2
+  needs-permission: 'false'
+  attributes: 
+    level-base: '8'
+    level-scale: '14'
+    cost-base: '2'
+    cost-scale: '0'
+    cooldown-base: '6'
+    cooldown-scale: '1'
+    mana-base: '16'
+    mana-scale: '11'
+    points-spent-req-base: '2'
+    points-spent-req-scale: '1'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'PURPLE_STAINED_GLASS'
+  icon-durability: 10
+  icon-data: 10
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '&cRequires: &3Magic Missile &6lv2'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&3Summons a shield created with magic'
+  - '&3in front of the caster.'
+  - '&3Caster defense is buffed awhile.'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  - ''
+  - '&cBuff time: &6{attr:Buff.seconds}&6s'
+  - '&cSize: &6{attr:Repeat.repetitions}'
+  - '&cTime: &6{attr:Shield.seconds}'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Location-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            range-base: '2'
+            range-scale: '0'
+            ground: 'False'
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Value Set-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'v_as'
+                value-base: '-1'
+                value-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Value Set-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'v_bs'
+                value-base: '-2'
+                value-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Offset-e: 
+              type: 'target'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                forward-base: '0'
+                forward-scale: '0'
+                upward-base: '0'
+                upward-scale: '0'
+                right-base: '0'
+                right-scale: '0'
+                indicator: '2D'
+                group: 'enemy'
+                wall: 'false'
+                caster: 'false'
+              children: 
+                Repeat-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Repeat'
+                    counts: 'True'
+                    repetitions-base: '2'
+                    repetitions-scale: '2'
+                    period: '0.15'
+                    delay: '0'
+                    stop-on-fail: 'True'
+                    indicator: '2D'
+                  children: 
+                    Value Add-g: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'v_as'
+                        amount-base: '1'
+                        amount-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Value Add-h: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'v_bs'
+                        amount-base: '1'
+                        amount-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Offset-i: 
+                      type: 'target'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        forward-base: 'v_as'
+                        forward-scale: '0'
+                        upward-base: 'v_bs'
+                        upward-scale: '0'
+                        right-base: '0'
+                        right-scale: '0'
+                        indicator: '2D'
+                        group: 'enemy'
+                        wall: 'false'
+                        caster: 'false'
+                      children: 
+                        Block-j: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'Shield'
+                            counts: 'True'
+                            shape: 'Cuboid'
+                            type: 'Any'
+                            block: 'Stained Glass'
+                            data: '14'
+                            seconds-base: '3'
+                            seconds-scale: '4'
+                            forward-base: '0'
+                            forward-scale: '0'
+                            upward-base: '0'
+                            upward-scale: '0'
+                            right-base: '0'
+                            right-scale: '0'
+                            width-base: '3'
+                            width-scale: '0'
+                            height-base: '2'
+                            height-scale: '0'
+                            depth-base: '3'
+                            depth-scale: '0'
+                            indicator: '2D'
+                          children:  {}
+                        Particle Animation-k: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            steps: '1'
+                            frequency: '0.05'
+                            angle: '0'
+                            start: '0'
+                            duration-base: '9'
+                            duration-scale: '0'
+                            h-translation-base: '0'
+                            h-translation-scale: '0'
+                            v-translation-base: '4'
+                            v-translation-scale: '4'
+                            h-cycles: '1'
+                            v-cycles: '1'
+                            particle: 'Witch Magic'
+                            arrangement: 'Circle'
+                            radius-base: '3'
+                            radius-scale: '1'
+                            particles-base: '10'
+                            particles-scale: '10'
+                            direction: 'XZ'
+                            visible-radius: '40'
+                            dx: '0'
+                            dy: '0'
+                            dz: '0'
+                            speed: '0.35'
+                            amount: '1'
+                            forward: '0'
+                            upward: '2'
+                            right: '0'
+                            indicator: '2D'
+                          children:  {}
+                        Area-l: 
+                          type: 'target'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            radius-base: '3'
+                            radius-scale: '0'
+                            group: 'Enemy'
+                            wall: 'True'
+                            caster: 'False'
+                            max-base: '50'
+                            max-scale: '50'
+                            random: 'False'
+                            indicator: '2D'
+                          children: 
+                            Push-m: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                type: 'Fixed'
+                                speed-base: '1'
+                                speed-scale: '1'
+                                source: 'none'
+                                indicator: '2D'
+                              children:  {}
+                        Delay-n: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            delay-base: '3'
+                            delay-scale: '4'
+                            indicator: '2D'
+                          children: 
+                            Particle Animation-o: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                steps: '1'
+                                frequency: '0.05'
+                                angle: '0'
+                                start: '0'
+                                duration-base: '2'
+                                duration-scale: '0'
+                                h-translation-base: '0'
+                                h-translation-scale: '0'
+                                v-translation-base: '-3'
+                                v-translation-scale: '-2'
+                                h-cycles: '1'
+                                v-cycles: '1'
+                                particle: 'Block Crack'
+                                material: 'Portal'
+                                type: '0'
+                                arrangement: 'Circle'
+                                radius-base: '3'
+                                radius-scale: '1'
+                                particles-base: '5'
+                                particles-scale: '2'
+                                direction: 'XZ'
+                                forward: '0'
+                                upward: '5'
+                                right: '0'
+                                indicator: '2D'
+                              children:  {}
+                            Sound-p: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                sound: 'Block Grass Break'
+                                volume-base: '90'
+                                volume-scale: '10'
+                                pitch-base: '0.85'
+                                pitch-scale: '-0.35'
+                                indicator: '2D'
+                              children:  {}
+        Self-q: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Defense Buff-r: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'Buff'
+                counts: 'True'
+                type: 'Multiplier'
+                skill: 'True'
+                value-base: '0.95'
+                value-scale: '-0.06'
+                seconds-base: '2'
+                seconds-scale: '0.5'
+                indicator: '2D'
+              children:  {}
+            Sound-s: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Ambient Cave'
+                volume-base: '90'
+                volume-scale: '10'
+                pitch-base: '1.1'
+                pitch-scale: '-0.25'
+                indicator: '2D'
+              children:  {}
