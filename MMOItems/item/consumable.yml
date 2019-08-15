@@ -1,8 +1,64 @@
+POTION_TINY:
+  material: POTION
+  name: '&cTiny Health Potion'
+  restore:
+    health: 75
+    saturation: 5
+  lore:
+  - '&cTiny health potion'
+  consume-cooldown: 1.5
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: APPLE
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
 POTION_SMALL:
   material: POTION
-  name: '&cHealth Potion'
+  name: '&cSmall Health Potion'
   restore:
-    health: 100
+    health: 250
     food: 5
     saturation: 10
   lore:
@@ -55,11 +111,11 @@ POTION_SMALL:
       durability: 0
       amount: 1
       name: ''
-POTION:
+POTION_COMMON:
   material: POTION
-  name: '&cPotion'
+  name: '&cCommon Potion'
   restore:
-    health: 500
+    health: 650
     food: 5
     saturation: 10
   lore:
@@ -114,22 +170,13 @@ POTION:
       name: ''
 POTION:
   material: POTION
-  name: '&cMedium Health Potion'
+  name: '&cHealth Potion'
   restore:
-    health: 750
+    health: 1275
     food: 5
-    saturation: 10
+    saturation: 12
   lore:
-  - '&cMedium health potion'
-  consume-cooldown: 1.5
-  material: POTION
-  name: '&cPotion'
-  restore:
-    health: 500
-    food: 5
-    saturation: 10
-  lore:
-  - '&cCommon health potion'
+  - '&cHealth potion'
   consume-cooldown: 1.5
   advanced-craft-enabled: true
   advanced-craft:
@@ -178,16 +225,16 @@ POTION:
       durability: 0
       amount: 1
       name: ''
-POTION:
+POTION_MEDIUM:
   material: POTION
-  name: '&cLarge Health Potion'
+  name: '&cMedium Health Potion'
   restore:
-    health: 1750
+    health: 2750
     food: 5
-    saturation: 10
+    saturation: 15
   lore:
-  - '&cLarge health potion'
-  consume-cooldown: 1.5
+  - '&cMedium health potion'
+  consume-cooldown: 2.5
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -216,7 +263,7 @@ POTION:
       durability: 0
       name: ''
     '5':
-      material: APPLE
+      material: sugar_cane
       amount: 1
       durability: 0
       name: ''
@@ -235,16 +282,16 @@ POTION:
       durability: 0
       amount: 1
       name: ''
-POTION:
+POTION_LARGE:
   material: POTION
-  name: '&cMystic Health Potion'
+  name: '&cLarge Health Potion'
   restore:
-    health: 3250
+    health: 3580
     food: 5
-    saturation: 10
+    saturation: 20
   lore:
-  - '&cMystic health potion'
-  consume-cooldown: 1.5
+  - '&cLarge health potion'
+  consume-cooldown: 2.5
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -292,13 +339,13 @@ POTION:
       durability: 0
       amount: 1
       name: ''
-POTION:
+POTION_EPIC:
   material: POTION
   name: '&cEpic Health Potion'
   restore:
     health: 7500
     food: 15
-    saturation: 15
+    saturation: 25
   lore:
   - '&cEpic health potion'
   consume-cooldown: 2.5
@@ -363,11 +410,103 @@ ROCK:
       type: ITEM_THROW
       damage: 2.0
       cooldown: 3
+RECALL_POTION:
+  material: POTION
+  hide-potion-effects: true
+  name: '&9Recall Potion'
+  lore:
+  - '&7Brings you back home.'
+  potion-color: 100 100 255
+  commands:
+    '1':
+      command: spawn
+      cooldown: 36000.0
+  consume-cooldown: 36000.0
+FIREBALL_SCROLL:
+  material: PAPER
+  consume-cooldown: 30.0
+  tier: MAGICAL
+  ability:
+    right-click:
+      type: FIREBOLT
+      damage: 5.0
+      cooldown: 0.0
+      ignite: 3.0
+  name: '&cFireball Scroll I'
+FIREBALL_SCROLL_II:
+  material: PAPER
+  consume-cooldown: 25.0
+  tier: MAGICAL
+  ability:
+    right-click:
+      type: FIREBOLT
+      damage: 10.0
+      cooldown: 0.0
+      ignite: 5.0
+  name: '&cFireball Scroll II'
+FIREBALL_SCROLL_III:
+  material: PAPER
+  consume-cooldown: 20.0
+  tier: MAGICAL
+  ability:
+    right-click:
+      type: FIREBOLT
+      damage: 38.0
+      cooldown: 0.0
+      ignite: 7.5
+  name: '&cFireball Scroll III'
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: BLAZE_POWDER
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
 REPAIR_KIT:
   material: ANVIL
   name: '&6Repair Kit'
   lore:
-  - '&7Use it to repair your gear.'
+  - '&6Drag and drop on item to repair it.'
   tier: '&8Uncommon'
   consume-cooldown: 2
   repair: 120.0
@@ -399,6 +538,122 @@ REPAIR_KIT:
       name: ''
     '4':
       material: iron_ingot
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+REPAIR_KIT_LEGENDARY:
+  material: ANVIL
+  name: '&6Advanced Repair Kit'
+  lore:
+  - '&6Drag and drop on item to repair it.'
+  tier: '&bLegendary'
+  consume-cooldown: 2
+  repair: 35000.0
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+ITEM_BREAKER:
+  material: STONE_AXE
+  required-level: 3.0
+  can-deconstruct: true
+  name: '&6Item Breaker'
+  lore:
+  - '&6Drag and drop on item to destroy it.'
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: Cobblestone
       amount: 1
       durability: 0
       name: ''
@@ -474,261 +729,6 @@ IDENT_SCROLL:
       name: ''
     '6':
       material: AIR
-      amount: 1
-      durability: 0
-      name: ''
-    '7':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '8':
-      material: Air
-      durability: 0
-      amount: 1
-      name: ''
-ITEM_BREAKER:
-  material: STONE_AXE
-  required-level: 3.0
-  can-deconstruct: true
-  name: '&6Item Breaker'
-  lore:
-  - '&6Drag and drop on item to destroy it.'
-  disable-repairing: true
-  disable-enchanting: true
-  disable-smelting: true
-  disable-crafting: true
-  advanced-craft-enabled: true
-  advanced-craft:
-    '0':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '1':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '2':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '3':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '4':
-      material: Cobblestone
-      amount: 1
-      durability: 0
-      name: ''
-    '5':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '6':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '7':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '8':
-      material: Air
-      durability: 0
-      amount: 1
-      name: ''
-RECALL_POTION:
-  material: POTION
-  hide-potion-effects: true
-  name: '&9Recall Potion'
-  lore:
-  - '&7Brings you back home.'
-  potion-color: 100 100 255
-  commands:
-    '1':
-      command: spawn
-      cooldown: 36000.0
-  consume-cooldown: 36000.0
-  advanced-craft-enabled: true
-  advanced-craft:
-    '0':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '1':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '2':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '3':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '4':
-      material: FEATHER
-      amount: 1
-      durability: 0
-      name: ''
-    '5':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '6':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '7':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '8':
-      material: Air
-      durability: 0
-      amount: 1
-      name: ''
-FIREBALL_SCROLL:
-  material: PAPER
-  consume-cooldown: 30.0
-  tier: MAGICAL
-  ability:
-    right-click:
-      type: FIREBOLT
-      damage: 5.0
-      cooldown: 0.0
-      ignite: 3.0
-  name: '&cFireball Scroll I'
-FIREBALL_SCROLL_II:
-  material: PAPER
-  consume-cooldown: 25.0
-  tier: MAGICAL
-  ability:
-    right-click:
-      type: FIREBOLT
-      damage: 10.0
-      cooldown: 0.0
-      ignite: 5.0
-  name: '&cFireball Scroll II'
-FIREBALL_SCROLL_III:
-  material: PAPER
-  consume-cooldown: 20.0
-  tier: MAGICAL
-  ability:
-    right-click:
-      type: FIREBOLT
-      damage: 15.0
-      cooldown: 0.0
-      ignite: 7.0
-  name: '&cFireball Scroll III'
-  advanced-craft-enabled: true
-  advanced-craft:
-    '0':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '1':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '2':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '3':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '4':
-      material: BLAZE_POWDER
-      amount: 1
-      durability: 0
-      name: ''
-    '5':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '6':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '7':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '8':
-      material: Air
-      durability: 0
-      amount: 1
-      name: ''
-REPAIR_KIT_LEGENDARY:
-  material: ANVIL
-  name: '&6Advanced Repair Kit'
-  lore:
-  - '&7Use it to repair your gear.'
-  tier: '&bLegendary'
-  consume-cooldown: 2
-  repair: 35000.0
-  disable-repairing: true
-  disable-enchanting: true
-  disable-smelting: true
-  disable-crafting: true
-  advanced-craft-enabled: true
-  advanced-craft:
-    '0':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '1':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '2':
-      material: Air
-      amount: 1
-      durability: 0
-      name: ''
-    '3':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '4':
-      type: MATERIAL
-      id: LEGENDARY_WEAPON_ESSENCE
-      amount: 1
-    '5':
-      material: PAPER
-      amount: 1
-      durability: 0
-      name: ''
-    '6':
-      material: Air
       amount: 1
       durability: 0
       name: ''

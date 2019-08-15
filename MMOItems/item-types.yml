@@ -76,7 +76,7 @@ CONSUMABLE:
     name: 'Consumable'
 
 MISCELLANEOUS:
-    display: RED_DUST
+    display: GOLD_NUGGET
     name: 'Miscellaneous'
 
 GEM_STONE:
