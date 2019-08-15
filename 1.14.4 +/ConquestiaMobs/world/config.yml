@@ -1,0 +1,16 @@
+Enabled: true
+Spawning:
+  BlockedMobs:
+  - ENDER_DRAGON
+  - GHAST
+  - MAGMA_CUBE
+  - PIG_ZOMBIE
+  - SHULKER
+Naming:
+  AlwaysShowName:
+    Enabled: false
+Stats:
+  Damage:
+    Multiplier: 1.22
+Leveling:
+  DistancePerLevel: 21.9
