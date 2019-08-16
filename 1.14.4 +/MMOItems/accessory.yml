@@ -1,0 +1,67 @@
+# 
+#  attack-damage: 5.0=9.0
+#  attack-speed: 1.3=1.6
+#  element:
+#    damage:
+#      fire: 5.0
+#  ability:
+#    right-click:
+#      type: firebolt
+#      cooldown: 5.0
+#      damage: 10.0
+#      ignite: 6.0
+#      mana: 25.0
+CHARM_FIRE:
+  name: '&6Charm of <Charm-kind> Fire'
+  material: PAPER
+  required-level: 10.0
+  item-particles: FLAME:0.07
+  enchants:
+    FIRE_ASPECT: 1
+    FIRE_PROTECTION: 3
+  unbreakable: true
+  hide-enchants: true
+  tier: '&6Rare'
+  lore:
+  - '&cThat Accessory was combined with'
+  - '&cthe element of fire'
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+CHARM_WATER:
+  name: '&6Charm of <Charm-kind> Water'
+  material: PAPER
+  required-level: 10.0
+  item-particles: WATER_SPLASH:0.07
+  enchants:
+    WATER_WORKER: 1
+    OXYGEN: 1
+    DEPTH_STRIDER: 1
+  unbreakable: true
+  hide-enchants: true
+  tier: '&6Rare'
+  lore:
+  - '&1That Accessory was combined with'
+  - '&1the element of water'
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+CHARM_ICE:
+  name: '&6Charm of <Charm-kind> Ice'
+  material: PAPER
+  required-level: 10.0
+  item-particles: WATER_SPLASH:0.07
+  enchants:
+    FROST_WALKER: 1
+  unbreakable: true
+  hide-enchants: true
+  tier: '&6Rare'
+  lore:
+  - '&bThat Accessory was combined with'
+  - '&bthe element of Ice'
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
