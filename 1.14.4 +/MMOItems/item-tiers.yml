@@ -77,10 +77,16 @@ RARE:
                 MATERIAL:
                     RARE_WEAPON_ESSENCE: 100,1-1,0
         lose:
-            coef: 3
+            coef: 1
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,2-4,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,1-3,0
+                    UNCOMMON_WEAPON_ESSENCE: 100,1-2,0
 VERY_RARE:
     name: '&e&lVERY RARE'
     unidentification:
@@ -97,10 +103,16 @@ VERY_RARE:
                 MATERIAL:
                     VERY_RARE_WEAPON_ESSENCE: 100,1-1,0
         lose:
-            coef: 2
+            coef: 1
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,3-7,0
+        lose2:
+            coef: 1
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,2-4,0
+                    RARE_WEAPON_ESSENCE: 100,1-2,0
 LEGENDARY:
     name: '&b&lLEGENDARY'
     unidentification:
@@ -117,10 +129,16 @@ LEGENDARY:
                 MATERIAL:
                     LEGENDARY_WEAPON_ESSENCE: 100,1-1,0
         lose:
-            coef: 3
+            coef: 1
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,6-9,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,5-7,0
+                    VERY_RARE_WEAPON_ESSENCE: 100,1-2,0
 MYTHICAL:
     name: '&5&lMYTHICAL'
     unidentification:
@@ -137,10 +155,16 @@ MYTHICAL:
                 MATERIAL:
                     MYTHICAL_WEAPON_ESSENCE: 100,1-1,0
         lose:
-            coef: 4
+            coef: 2
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,9-13,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,7-10,0
+                    LEGENDARY_WEAPON_ESSENCE: 100,1-2,0
 EPIC:
     name: '&4&lEPIC'
     unidentification:
@@ -157,10 +181,16 @@ EPIC:
                 MATERIAL:
                     EPIC_WEAPON_ESSENCE: 100,1-1,0
         lose:
-            coef: 5
+            coef: 3
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,13-20,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,14-18,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,1-2,0
 
 MAGICAL:
     name: '&2&lMAGICAL'
@@ -202,16 +232,16 @@ UNIQUE:
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,30-60,0
-                    LEGENDARY: 100,2-2,0
+                    LEGENDARY_WEAPON_ESSENCE: 100,2-2,0
         lose2:
             coef: 2
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,25-55,0
-                    MYTHICAL: 100,2-2,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,2-2,0
         lose3:
             coef: 2
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,20-45,0
-                    EPIC_WEAPON_ESSENCE: 100,2-2,0
+                    EPIC_WEAPON_ESSENCE_WEAPON_ESSENCE: 100,2-2,0
