@@ -244,4 +244,4 @@ UNIQUE:
             items:
                 MATERIAL:
                     WEAPON_POWDER: 100,20-45,0
-                    EPIC_WEAPON_ESSENCE_WEAPON_ESSENCE: 100,2-2,0
+                    EPIC_WEAPON_ESSENCE: 100,2-2,0
