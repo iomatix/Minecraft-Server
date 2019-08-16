@@ -678,6 +678,8 @@ ITEM_BREAKER:
       durability: 0
       amount: 1
       name: ''
+  disable-interaction: true
+  disable-right-click-consume: true
 IDENT_SCROLL:
   material: PAPER
   name: '&6Scroll of Identification'
@@ -743,3 +745,5 @@ IDENT_SCROLL:
       durability: 0
       amount: 1
       name: ''
+  disable-right-click-consume: true
+  disable-interaction: true
