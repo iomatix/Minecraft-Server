@@ -38,6 +38,25 @@
             });
         });
 
+
+function checkPasswordMatch() {
+
+    var password = $("#password").val();
+    var confirmPassword = $("#passwordconfirm").val();
+
+	if(confirmPassword && password != confirmPassword)$("#status_message_register").html("Passwords do not match!");
+	if(password == confirmPassword)$("#status_message_register").html("");
+}
+function TryPasswordMatch(){
+   var node = document.getElementById('status_message_register');
+   var TheStr = node.textContent;
+   TheStr = (TheStr.trim) ? TheStr.trim() : TheStr.replace(/^\s+/,'');   
+   if(TheStr)checkPasswordMatch();
+}
+$(document).ready(function () {
+   $("#passwordconfirm, #password").focusout(checkPasswordMatch);
+   $("#passwordconfirm, #password").keyup(TryPasswordMatch);
+});
 	</script>
 	<style>
 		a{
@@ -57,7 +76,7 @@
     </style>
 </head>
 <body>
-<form class="form-signin" METHOD=POST name=register ACTION="up/register" >
+<form id="tehform" class="form-signin" METHOD=POST name=register ACTION="up/register" >
   <div class="text-center mb-4">
     <h1 class="h3 mb-3 font-weight-bold">Register</h1>
     <p>To get the Registration Code type 
@@ -66,22 +85,22 @@
   </div>
 <p>
   <div class="form-label-group">
-    <input type="text" name="j_username" class="form-control" placeholder="User ID" required="" autofocus="">
+    <input id="username" type="text" name="j_username" class="form-control" placeholder="User ID" required="" autofocus="">
   </div>
 </p>
 <p>
   <div class="form-label-group">
-    <input type="password" size="20" name="j_password" class="form-control" placeholder="Password" required="">
+    <input id="password" type="password" size="20" name="j_password" class="form-control" placeholder="Password" required="">
   </div>
   </p>
   <p>
   <div class="form-label-group">
-    <input type="password" size="20" name="j_verify_password" class="form-control" placeholder="Verify Password" required="">
+    <input id="passwordconfirm" type="password" size="20" name="j_verify_password" class="form-control" placeholder="Verify Password" required="">
   </div>
   </p>
   <p>
 <div class="form-label-group">
-<input type="text" name="j_passcode" class="form-control" placeholder="Registration Code" required="" autofocus="">
+<input id="passcode" type="text" name="j_passcode" class="form-control" placeholder="Registration Code" required="" autofocus="">
 </div>
 </p>
 <div id="status_message_register" class="statusmessage"><p></p></div>
