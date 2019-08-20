@@ -4,7 +4,7 @@
 - **Over 60** new unique skills for SkillAPI in the RPG style. Includes Active, passive, magic and weapons skills and even more.
 - Prepared for long term RPG.
 - Attributes re-created.
-- Exp tables designed for [Conquestiamobs](https://www.spigotmc.org/resources/conquestia-mobs.21307/).
+- Exp tables designed for [RPGLeveledMobs](https://github.com/iomatix/RPGLeveledMobs-Spigot).
 - One special class "Adventurer" with access for all skills - It allows players to make their own dream builds.
 - 4 Unique passive's trees for tank, assasin, archer and mage.
 
