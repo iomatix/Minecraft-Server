@@ -1,9 +1,6 @@
 # --------------------------------------------------------------
 #
-#
-# Thanks for using MMOItems ;)
-# Join my Discord here for fast support! https://discordapp.com/invite/7Pc8ZHh
-#
+# Thanks for using MMOItems!
 #
 # --------------------------------------------------------------
 
@@ -12,9 +9,19 @@
 # Requires /reload when changed.
 update-notify: true
 
+# The plugin takes a few milliseconds to read the item data from the item
+# config and a few hundred MICROseconds to actually generate it. Caching the
+# item allows to skip the first step which reduces ~6 times the delay needed
+# to generate any mmoitem.
+#
+# However, it does take up much more RAM space. Toggle it on if you have
+# too many items which makes item generation time consuming. Toggle it off
+# to get some spare memory.
+use-item-caching: true
+
 # Default: 2.5 ; critical strikes deal 2.5x damage.
 # Can be increased by 'Critical Strike Power'
-crit-coefficient: 1.5
+crit-coefficient: 2.5
 
 # By default, all player inventories will be updated every
 # 10 ticks which corresponds to 2 inventory updates a second.
@@ -22,14 +29,31 @@ inventory-update-delay: 10
 
 # Changes the default value for some stats.
 default:
-    attack-speed: 0.69
-    range: 32
+    attack-speed: 0.67
+    range: 16
     blunt-rating: 33
     recoil: 0.1
 
-# Default and max. values of armor stats.
-# These systems all have a cooldown for each player.
-# This cooldown can be reduced using the '---- Cooldown Reduction' item stat.
+# Enable/disable the item glow feature. Make sure you
+# reload your server when changing this option. This
+# option might take extra performance so consider toggling
+# it off if you have players or mobs dropping many items.
+item-glow: true
+
+item-upgrading:
+    # Display name suffix for upgraded items.
+    name-suffix: '&f &a+#lvl#'
+
+soulbound:
+    # Edit soulbound damage when players try to use
+    # items which are not bound to themselves.
+    damage:
+        base: 2
+        per-lvl: 2
+
+# Default and max. values of armor stats. These systems
+# all have a cooldown which can be reduced using the
+# '*** Cooldown Reduction' item stat.
 mitigation:
     block:
         power:
@@ -40,12 +64,15 @@ mitigation:
             base: 5.0
             max-reduction: 80.0
     dodge:
+        knockback:
+            enabled: true
+            force: 1
         rating-max: 80.0
         cooldown:
             base: 5.0
             max-reduction: 80.0
     parry:
-        knockback-force: 0.5
+        knockback-force: 1.0
         rating-max: 80.0
         cooldown:
             base: 8.0
@@ -78,6 +105,12 @@ item-ability:
         enabled: true
         cooldown: 4
 
+gem-sockets:
+    # Define the text you need to enter in the
+    # item gem sockets if you want to create an
+    # uncolored gem socket i.e a socket for any type of gem.
+    uncolored: 'Uncolored'
+
 advanced-workbench:
     # Define on what actions the adv workbench will open.
     open-when:
@@ -102,10 +135,6 @@ anvil-text-input: false
 # When toggled off, players still receive slow 4.
 two-handed-item-restriction: true
 
-# If set to true, right-click commands will make
-# the player OP for a fraction of a second.
-unsafe-op-commands: false
-
 # You can select what char will be used to create
 # the item ability cooldown progress bar.
 cooldown-progress-bar-char: █
@@ -124,17 +153,7 @@ action-bar-display:
     cant-use-item: true
     mitigation: true
     item-break: false
-    soulbound: false
 
-# Change soulbound options here.
-soulbound:
-
-    # Change the damage dealt to a player when he
-    # tries to use an item which is not bound to him.
-    damage:
-        base: 1
-        per-level: 2.5
-    
 # Displays in-game damage indicators.
 # Requires HolographicDisplays/Holograms to work.
 # Requires /reload when enabled/disabled.
@@ -160,6 +179,7 @@ disable-craftings:
 # "craft" prevents players from using MMOItems as ingredients.
 # "arrow-shooting" prevents players from shooting any MMOItem that is an arrow.
 disable-interactions:
+    interact: false
     repair: false
     enchant: false
     smelt: false
@@ -182,7 +202,6 @@ permissions:
     items: true
 
 # Disables non MMOItems from being crafted in the vanilla workbench.
-# This system supports item durability, just use <MATERIAL>:<durability>
 # Add [] if the list is empty.
 disable-vanilla-recipes: []
 # - DIAMOND_PICKAXE

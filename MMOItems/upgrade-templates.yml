@@ -1,0 +1,35 @@
+
+# Template ID, only used as reference. This is the
+# text you need to enter in the edition GUI in order
+# to setup item upgrading for a specific item.
+sword-default:
+
+    # Every time the item is upgraded, its attack damage
+    # is increased by 3% (relative to the current value)
+    attack-damage: 4%
+    
+    # Every time it is upgraded, it gets +1% aboslute 
+    # critical strike chance (independant of current val.)
+    critical-strike-chance: 2%
+    attack-speed: 3%
+    blunt-power: 1%
+    blunt-rating: 1%
+    
+    #pve-damage: 1%
+axe-default:
+    attack-damage: 4%
+    critical-strike-chance: 1%
+    blunt-power: 2%
+    blunt-rating: 2%
+
+staff-whip-default:
+    attack-damage: 4%
+    range: 3%
+    attack-speed: 2%
+
+armor-default:
+    armor: 3%
+    armor-toughness: 2%
+    block-rating: 4%
+    dodge-rating: 4%
+    parry-rating: 4%
