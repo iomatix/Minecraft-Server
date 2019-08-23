@@ -68,6 +68,10 @@ LVL_7_AXE:
   max-durability: 95.0=180.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 LVL_16_AXE:
   material: iron_axe
   name: '&fIron Axe'
@@ -134,6 +138,10 @@ LVL_16_AXE:
   max-durability: 180.0=230.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 LVL_25_AXE:
   material: iron_axe
   name: '&fHeavy Iron Axe'
@@ -200,6 +208,12 @@ LVL_25_AXE:
   max-durability: 280.0=330.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 LVL_34_AXE:
   material: GOLDEN_AXE
   name: '&fGolden Axe'
@@ -266,6 +280,12 @@ LVL_34_AXE:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 LVL_48_AXE:
   material: diamond_axe
   name: '&6Diamond Axe'
@@ -332,6 +352,13 @@ LVL_48_AXE:
   max-durability: 1000.0=2000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 UP_LVL_48_AXE:
   material: diamond_axe
   name: '&eUpgraded Diamond Axe'
@@ -393,6 +420,14 @@ UP_LVL_48_AXE:
   max-durability: 1500.0=2500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 SKULLCRUSHER:
   material: iron_axe
   name: '&eSkullcrusher'
@@ -464,6 +499,14 @@ SKULLCRUSHER:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 RAVAGER:
   material: GOLDEN_AXE
   name: '&bRavager'
@@ -541,6 +584,14 @@ RAVAGER:
       duration: 1.75
       cooldown: 7.75
       mode: ON_HIT
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 THUNDER_AXE:
   material: diamond_axe
   name: '&5Thunder Axe'
@@ -619,6 +670,14 @@ THUNDER_AXE:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 DARKREVENGE:
   material: iron_axe
   name: '&4Dark Revenge'
@@ -707,6 +766,14 @@ DARKREVENGE:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 DECAPITATOR:
   material: golden_axe
   name: '&cDecapitator'
@@ -790,6 +857,14 @@ DECAPITATOR:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 ULT_DARKREVENGE:
   material: iron_axe
   name: '&cUltimate Dark Revenge'
@@ -876,6 +951,14 @@ ULT_DARKREVENGE:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 ULT_THUNDER_AXE:
   material: diamond_axe
   name: '&cUltimate Thunder Axe'
@@ -959,6 +1042,14 @@ ULT_THUNDER_AXE:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 ULT_SKULLCRUSHER:
   material: iron_axe
   name: '&cUltimate Skullcrusher'
@@ -1042,6 +1133,14 @@ ULT_SKULLCRUSHER:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 ULT_RAVAGER:
   material: GOLDEN_AXE
   name: '&cUltimate Ravager'
@@ -1125,6 +1224,14 @@ ULT_RAVAGER:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28
 VALERIANAXE:
   material: iron_AXE
   name: '&cValerian Axe'
@@ -1207,3 +1314,11 @@ VALERIANAXE:
   max-durability: 75000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: axe-default
+    max: 28

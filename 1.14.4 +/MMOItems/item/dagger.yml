@@ -71,6 +71,10 @@ LVL_9_DAGGER:
       name: ''
   max-durability: 120.0=185.0
   will-break: false
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 LVL_25_DAGGER:
   material: iron_Sword
   name: '&fIron Dagger'
@@ -136,6 +140,10 @@ LVL_25_DAGGER:
       name: ''
   max-durability: 270.0=315.0
   will-break: false
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 LVL_34_DAGGER:
   material: golden_Sword
   name: '&fGolden Dagger'
@@ -201,6 +209,12 @@ LVL_34_DAGGER:
       name: ''
   max-durability: 300.0=380.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 LVL_48_DAGGER:
   material: diamond_Sword
   name: '&6Diamond Dagger'
@@ -266,6 +280,13 @@ LVL_48_DAGGER:
       name: ''
   max-durability: 800.0=1200.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 UP_LVL_48_DAGGER:
   material: diamond_Sword
   name: '&eUpgraded Diamond Dagger'
@@ -326,6 +347,14 @@ UP_LVL_48_DAGGER:
       name: ''
   max-durability: 1000.0=1500.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 MOONSHIVER:
   material: iron_Sword
   name: '&eMoonshiver'
@@ -407,6 +436,14 @@ MOONSHIVER:
       radius: 4.25
       speed: 1.0
       ignite: 35.0
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 ULT_MOONSHIVER:
   material: iron_Sword
   name: '&cUltimate Moonshiver'
@@ -491,6 +528,14 @@ ULT_MOONSHIVER:
       name: ''
   max-durability: 75000.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 VALERIANDAGGER:
   material: iron_Sword
   name: '&cValerian Dagger'
@@ -572,3 +617,11 @@ VALERIANDAGGER:
       name: ''
   max-durability: 75000.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28

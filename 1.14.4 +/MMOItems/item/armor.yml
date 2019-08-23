@@ -64,6 +64,9 @@ LVL_7_LEATHER_HELMET:
   dodge-cooldown-reduction: 1.0
   dodge-rating: 0.01
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
 LVL_7_LEATHER_CHESTPLATE:
   name: '&fLeather Chestplate'
   material: Leather_CHESTPLATE
@@ -130,6 +133,9 @@ LVL_7_LEATHER_CHESTPLATE:
   dodge-cooldown-reduction: 2.0
   dodge-rating: 0.01
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
 LVL_7_LEATHER_BOOTS:
   name: '&fLeather Boots'
   material: Leather_BOOTS
@@ -197,6 +203,10 @@ LVL_7_LEATHER_BOOTS:
   max-durability: 95.0=180.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_7_LEATHER_LEGGINGS:
   name: '&fLeather Leggings'
   material: Leather_LEGGINGS
@@ -263,6 +273,10 @@ LVL_7_LEATHER_LEGGINGS:
   dodge-cooldown-reduction: 1.0
   dodge-rating: 0.03
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_16_IRON_HELMET:
   name: '&fIron Helmet'
   material: Iron_helmet
@@ -322,6 +336,10 @@ LVL_16_IRON_HELMET:
   max-durability: 195.0=280.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_16_IRON_CHESTPLATE:
   name: '&fIron Chestplate'
   material: Iron_CHESTPLATE
@@ -378,6 +396,10 @@ LVL_16_IRON_CHESTPLATE:
   max-durability: 205.0=280.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_16_IRON_LEGGINGS:
   name: '&fIron Leggings'
   material: Iron_LEGGINGS
@@ -435,6 +457,10 @@ LVL_16_IRON_LEGGINGS:
   max-durability: 200.0=280.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_16_IRON_BOOTS:
   name: '&fIron Boots'
   material: Iron_BOOTS
@@ -495,6 +521,10 @@ LVL_16_IRON_BOOTS:
   max-durability: 180.0=280.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_25_IRON_HELMET:
   name: '&fHeavy Iron Helmet'
   material: Iron_helmet
@@ -507,7 +537,6 @@ LVL_25_IRON_HELMET:
   - '&7Heavy Iron helmet.'
   tier: COMMON
   knockback-resistance: 0.02=0.05
-  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -554,6 +583,11 @@ LVL_25_IRON_HELMET:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
 LVL_25_IRON_CHESTPLATE:
   name: '&fHeavy Iron Chestplate'
   material: Iron_CHESTPLATE
@@ -566,7 +600,6 @@ LVL_25_IRON_CHESTPLATE:
   - '&7Heavy Iron chestplate.'
   tier: COMMON
   knockback-resistance: 0.03=0.1
-  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -610,6 +643,12 @@ LVL_25_IRON_CHESTPLATE:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_25_IRON_LEGGINGS:
   name: '&fHeavy Iron Leggings'
   material: Iron_LEGGINGS
@@ -622,7 +661,6 @@ LVL_25_IRON_LEGGINGS:
   - '&7Heavy Iron leggings.'
   tier: COMMON
   knockback-resistance: 0.03=0.08
-  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -667,6 +705,12 @@ LVL_25_IRON_LEGGINGS:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_25_IRON_BOOTS:
   name: '&fHeavy Iron Boots'
   material: Iron_BOOTS
@@ -679,7 +723,6 @@ LVL_25_IRON_BOOTS:
   - '&7Heavy Iron boots.'
   tier: COMMON
   knockback-resistance: 0.02=0.04
-  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -726,6 +769,12 @@ LVL_25_IRON_BOOTS:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_34_GOLD_HELMET:
   name: '&fGolden Helmet'
   material: golden_helmet
@@ -738,7 +787,6 @@ LVL_34_GOLD_HELMET:
   - '&8Golden helmet.'
   tier: UNCOMMON
   knockback-resistance: 0.05
-  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -785,6 +833,12 @@ LVL_34_GOLD_HELMET:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_34_GOLD_CHESTPLATE:
   name: '&fGolden Chestplate'
   material: GOLDen_CHESTPLATE
@@ -797,7 +851,6 @@ LVL_34_GOLD_CHESTPLATE:
   - '&8Golden chestplate.'
   tier: UNCOMMON
   knockback-resistance: 0.1
-  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -841,6 +894,12 @@ LVL_34_GOLD_CHESTPLATE:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_34_GOLD_LEGGINGS:
   name: '&fGolden Leggings'
   material: Golden_LEGGINGS
@@ -853,7 +912,6 @@ LVL_34_GOLD_LEGGINGS:
   - '&8Golden leggings.'
   tier: UNCOMMON
   knockback-resistance: 0.08
-  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -898,6 +956,12 @@ LVL_34_GOLD_LEGGINGS:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_34_GOLD_BOOTS:
   name: '&fGolden Boots'
   material: Golden_BOOTS
@@ -910,7 +974,6 @@ LVL_34_GOLD_BOOTS:
   - '&8Golden boots.'
   tier: UNCOMMON
   knockback-resistance: 0.04
-  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -958,6 +1021,12 @@ LVL_34_GOLD_BOOTS:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_48_DIAMOND_HELMET:
   name: '&6Diamond Helmet'
   material: diamond_helmet
@@ -971,7 +1040,6 @@ LVL_48_DIAMOND_HELMET:
   - '&6Diamond helmet.'
   tier: RARE
   knockback-resistance: 0.1
-  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -1017,6 +1085,13 @@ LVL_48_DIAMOND_HELMET:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_48_DIAMOND_CHESTPLATE:
   name: '&6Diamond Chestplate'
   material: diamond_CHESTPLATE
@@ -1030,7 +1105,6 @@ LVL_48_DIAMOND_CHESTPLATE:
   - '&6Diamond chestplate.'
   tier: RARE
   knockback-resistance: 0.2
-  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -1073,6 +1147,13 @@ LVL_48_DIAMOND_CHESTPLATE:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
+  gem-sockets:
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28  
 LVL_48_DIAMOND_LEGGINGS:
   name: '&6Diamond Leggings'
   material: diamond_LEGGINGS
@@ -1086,7 +1167,6 @@ LVL_48_DIAMOND_LEGGINGS:
   - '&6Diamond leggings.'
   tier: RARE
   knockback-resistance: 0.2
-  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -1130,6 +1210,13 @@ LVL_48_DIAMOND_LEGGINGS:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_48_DIAMOND_BOOTS:
   name: '&6Diamond Boots'
   material: Diamond_BOOTS
@@ -1143,7 +1230,6 @@ LVL_48_DIAMOND_BOOTS:
   - '&6Diamond boots.'
   tier: RARE
   knockback-resistance: 0.1
-  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -1190,3 +1276,10 @@ LVL_48_DIAMOND_BOOTS:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
+  gem-sockets:
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28

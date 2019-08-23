@@ -71,6 +71,10 @@ LVL_7_SWORD:
   max-durability: 95.0=180.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 LVL_16_SWORD:
   material: iron_Sword
   name: '&fIron Sword'
@@ -136,6 +140,10 @@ LVL_16_SWORD:
   max-durability: 180.0=230.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 LVL_25_SWORD:
   material: iron_Sword
   name: '&fHeavy Iron Sword'
@@ -201,6 +209,12 @@ LVL_25_SWORD:
   max-durability: 280.0=330.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 LVL_34_SWORD:
   material: GOLDEN_SWORD
   name: '&fGolden Sword'
@@ -266,6 +280,12 @@ LVL_34_SWORD:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 LVL_48_SWORD:
   material: diamond_Sword
   name: '&6Diamond Sword'
@@ -331,6 +351,13 @@ LVL_48_SWORD:
   max-durability: 1000.0=2000.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 UP_LVL_48_SWORD:
   material: diamond_Sword
   name: '&eUpgraded Diamond Sword'
@@ -391,6 +418,14 @@ UP_LVL_48_SWORD:
   max-durability: 1500.0=2500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 MOONBLADE:
   material: iron_Sword
   name: '&eMoonblade'
@@ -463,6 +498,14 @@ MOONBLADE:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 FLAMETONGUE:
   material: golden_Sword
   name: '&bFlame Tongue'
@@ -535,6 +578,14 @@ FLAMETONGUE:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 SEETHE:
   material: diamond_Sword
   name: '&5Seethe'
@@ -615,6 +666,14 @@ SEETHE:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 OATHBREAKER:
   material: iron_Sword
   name: '&4Oath Breaker'
@@ -698,6 +757,14 @@ OATHBREAKER:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 DIVINEDIVIDER:
   material: GOLDEN_SWORD
   name: '&cDivine Divider'
@@ -730,7 +797,7 @@ DIVINEDIVIDER:
       knockback: 1
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
+  gem-sockets: []
   required-level: 58.0
   attack-damage: 86
   attack-speed: 1.55
@@ -784,6 +851,14 @@ DIVINEDIVIDER:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 ULT_OATHBREAKER:
   material: iron_Sword
   name: '&cUltimate Oath Breaker'
@@ -865,6 +940,14 @@ ULT_OATHBREAKER:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 ULT_SEETHE:
   material: diamond_Sword
   name: '&cUltimate Seethe'
@@ -950,6 +1033,14 @@ ULT_SEETHE:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 ULT_MOONBLADE:
   material: iron_Sword
   name: '&cUltimate Moonblade'
@@ -1036,6 +1127,14 @@ ULT_MOONBLADE:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 ULT_FLAMETONGUE:
   material: GOLDEN_SWORD
   name: '&cUltimate Fire Tongue'
@@ -1118,6 +1217,14 @@ ULT_FLAMETONGUE:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28
 VALERIANSWORD:
   material: iron_Sword
   name: '&cValerian Sword'
@@ -1200,3 +1307,11 @@ VALERIANSWORD:
   max-durability: 7500.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    destroy: true
+    template: sword-default
+    max: 28

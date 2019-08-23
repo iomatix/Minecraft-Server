@@ -58,6 +58,10 @@ LVL_7_SHIELD:
   max-durability: 95.0=180.0
   will-break: false
   unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_16_SHIELD:
   material: SHIELD
   name: '&fShield'
@@ -119,6 +123,10 @@ LVL_16_SHIELD:
   unbreakable: true
   shield-pattern:
     color: RED
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_25_SHIELD:
   material: SHIELD
   name: '&fIron Shield'
@@ -181,6 +189,12 @@ LVL_25_SHIELD:
   unbreakable: true
   shield-pattern:
     color: GRAY
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_34_SHIELD:
   material: SHIELD
   name: '&fTough Iron Shield'
@@ -242,6 +256,12 @@ LVL_34_SHIELD:
   unbreakable: true
   shield-pattern:
     color: WHITE
+  gem-sockets:
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 LVL_48_SHIELD:
   material: SHIELD
   name: '&6Diamond Shield'
@@ -303,6 +323,13 @@ LVL_48_SHIELD:
   unbreakable: true
   shield-pattern:
     color: LIGHT_BLUE
+  gem-sockets:
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
 UP_LVL_48_SHIELD:
   material: SHIELD
   name: '&eUpgraded Diamond Shield'
@@ -360,3 +387,11 @@ UP_LVL_48_SHIELD:
   max-durability: 900.0=1300.0
   will-break: false
   unbreakable: true
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 28
