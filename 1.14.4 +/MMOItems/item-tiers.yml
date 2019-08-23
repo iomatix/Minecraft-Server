@@ -245,3 +245,249 @@ UNIQUE:
                 MATERIAL:
                     WEAPON_POWDER: 100,20-45,0
                     EPIC_WEAPON_ESSENCE: 100,2-2,0
+DEMONIC:
+    name: '&4&lDEMONIC'
+    unidentification:
+        name: 'Demonic'
+        prefix: '&4'
+        range: 6
+    item-glow:
+        hint: true
+        color: 'BLACK'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    DEMON_ESSENCE: 100,1-2,0
+                MISCELLANEOUS:
+                    DEMONIC_ELEMENT: 100,2-4,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,30-60,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    DEMONIC_ELEMENT: 100,3-6,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,25-55,0
+                    EPIC_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    DEMONIC_ELEMENT: 100,2-6,0
+        lose3:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,20-45,0
+                    UNIQUE_WEAPON_ESSENCE: 100,2-2,0
+                MISCELLANEOUS:
+                    DEMONIC_ELEMENT: 100,2-6,0
+ETHERNAL:
+    name: '&1&lETHERNAL'
+    unidentification:
+        name: 'Ethernal'
+        prefix: '&1'
+        range: 6
+    item-glow:
+        hint: true
+        color: 'BLACK'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    ETHERNAL_ESSENCE: 100,1-2,0
+                MISCELLANEOUS:
+                    SOUL_ELEMENT: 100,2-4,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,30-60,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    SOUL_ELEMENT: 100,3-6,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,25-55,0
+                    EPIC_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    SOUL_ELEMENT: 100,2-6,0
+        lose3:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,20-45,0
+                    UNIQUE_WEAPON_ESSENCE: 100,2-2,0
+                MISCELLANEOUS:
+                    SOUL_ELEMENT: 100,2-6,0
+ANCIENT:
+    name: '&6&lANCIENT'
+    unidentification:
+        name: 'Ancient'
+        prefix: '&6'
+        range: 6
+    item-glow:
+        hint: true
+        color: 'BLACK'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    ANCIENT_ESSENCE: 100,1-2,0
+                MISCELLANEOUS:
+                    ANCIENT_ELEMENT: 100,2-4,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,30-60,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    ANCIENT_ELEMENT: 100,3-6,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,25-55,0
+                    EPIC_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    ANCIENT_ELEMENT: 100,2-6,0
+        lose3:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,20-45,0
+                    UNIQUE_WEAPON_ESSENCE: 100,2-2,0
+                MISCELLANEOUS:
+                    ANCIENT_ELEMENT: 100,2-6,0
+CURSED:
+    name: '&5&lCURSED'
+    unidentification:
+        name: 'Cursed'
+        prefix: '&5'
+        range: 6
+    item-glow:
+        hint: true
+        color: 'BLACK'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    CURSED_ESSENCE: 100,1-2,0
+                MISCELLANEOUS:
+                    CURSED_ELEMENT: 100,2-4,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,30-60,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    CURSED_ELEMENT: 100,3-6,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,25-55,0
+                    EPIC_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    CURSED_ELEMENT: 100,2-6,0
+        lose3:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,20-45,0
+                    UNIQUE_WEAPON_ESSENCE: 100,2-2,0
+                MISCELLANEOUS:
+                    CURSED_ELEMENT: 100,2-6,0
+OCEANIC:
+    name: '&b&lOCEANIC'
+    unidentification:
+        name: 'Oceanic'
+        prefix: '&b'
+        range: 6
+    item-glow:
+        hint: true
+        color: 'BLACK'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    OCEANIC_ESSENCE: 100,1-2,0
+                MISCELLANEOUS:
+                    OCEANIC_ELEMENT: 100,2-4,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,30-60,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    OCEANIC_ELEMENT: 100,3-6,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,25-55,0
+                    EPIC_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    OCEANIC_ELEMENT: 100,2-6,0
+        lose3:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,20-45,0
+                    UNIQUE_WEAPON_ESSENCE: 100,2-2,0
+                MISCELLANEOUS:
+                    OCEANIC_ELEMENT: 100,2-6,0
+DIVINE:
+    name: '&e&lDIVINE'
+    unidentification:
+        name: 'Divine'
+        prefix: '&e'
+        range: 6
+    item-glow:
+        hint: true
+        color: 'BLACK'
+    deconstruct-item:
+        sucess:
+            coef: 1
+            items:
+                MATERIAL:
+                    DIVINE_ESSENCE: 100,1-2,0
+                MISCELLANEOUS:
+                    DIVINE_ELEMENT: 100,2-4,0
+        lose:
+            coef: 3
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,30-60,0
+                    MYTHICAL_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    DIVINE_ELEMENT: 100,3-6,0
+        lose2:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,25-55,0
+                    EPIC_WEAPON_ESSENCE: 100,2-3,0
+                MISCELLANEOUS:
+                    DIVINE_ELEMENT: 100,2-6,0
+        lose3:
+            coef: 2
+            items:
+                MATERIAL:
+                    WEAPON_POWDER: 100,20-45,0
+                    UNIQUE_WEAPON_ESSENCE: 100,2-2,0
+                MISCELLANEOUS:
+                    DIVINE_ELEMENT: 100,2-6,0

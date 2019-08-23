@@ -518,6 +518,9 @@ FIREBALL_SCROLL_III:
       amount: 1
       name: ''
   item-cooldown: 1.5
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
 REPAIR_KIT:
   material: ANVIL
   name: '&6Repair Kit'
@@ -635,8 +638,11 @@ REPAIR_KIT_LEGENDARY:
       durability: 0
       amount: 1
       name: ''
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
 ITEM_BREAKER:
-  material: STONE_AXE
+  material: WHITE_DYE
   required-level: 3.0
   can-deconstruct: true
   name: '&6Item Breaker'
@@ -695,8 +701,11 @@ ITEM_BREAKER:
       name: ''
   disable-interaction: true
   disable-right-click-consume: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
 IDENT_SCROLL:
-  material: PAPER
+  material: MOJANG_BANNER_PATTERN
   name: '&6Scroll of Identification'
   tier: '&8Uncommon'
   can-identify: true
@@ -735,11 +744,6 @@ IDENT_SCROLL:
       amount: 1
       durability: 0
       name: ''
-    '4':
-      material: Diamond
-      amount: 1
-      durability: 0
-      name: ''
     '5':
       material: PAPER
       amount: 1
@@ -760,8 +764,15 @@ IDENT_SCROLL:
       durability: 0
       amount: 1
       name: ''
+    '4':
+      material: EMERALD
+      amount: 1
+      name: ''
   disable-right-click-consume: true
   disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
 SMALL_UPGRADE_ESSENCE:
   material: IRON_NUGGET
   name: '&6Small Upgrading Essence'
@@ -819,7 +830,7 @@ SMALL_UPGRADE_ESSENCE:
   inedible: true
   disable-right-click-consume: true
 UPGRADE_ESSENCE:
-  material: GOLD_NUGGET
+  material: GHAST_TEAR
   name: '&6Upgrading Essence'
   lore:
   - '&6Drag and drop on item to upgrade it with 40% chance.'
@@ -987,7 +998,7 @@ LEGENDARY_UPGRADE_ESSENCE:
   inedible: true
   disable-right-click-consume: true
 MYTHIC_UPGRADE_ESSENCE:
-  material: HEART_OF_THE_SEA 
+  material: FIRE_CHARGE
   name: '&6Mythic Upgrading Essence'
   lore:
   - '&6Drag and drop on item to upgrade it with 90% chance.'
@@ -1043,7 +1054,7 @@ MYTHIC_UPGRADE_ESSENCE:
   inedible: true
   disable-right-click-consume: true
 UNIQUE_UPGRADE_ESSENCE:
-  material: end_crystal 
+  material: end_crystal
   name: '&6Unique Upgrading Essence'
   lore:
   - '&6Drag and drop on item to upgrade it with 99% chance.'
@@ -1098,3 +1109,115 @@ UNIQUE_UPGRADE_ESSENCE:
       name: ''
   inedible: true
   disable-right-click-consume: true
+SOULCONNECTOR:
+  material: WITHER_ROSE
+  name: '&6Souls Connector'
+  lore:
+  - '&6Drag and drop on item to bind it to your soul.'
+  soulbound-level: 1.0
+  soulbinding-chance: 75.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 28.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      type: MISCELLANEOUS
+      id: GOLD_COIN
+      amount: 1
+    '3':
+      material: PAPER
+      amount: 1
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      name: ''
+    '1':
+      material: PAPER
+      amount: 1
+      name: ''
+    '7':
+      material: PAPER
+      amount: 1
+      name: ''
+  upgrade: {}
+SOULBREAKER:
+  material: LANTERN
+  name: '&6Souls Breaker'
+  lore:
+  - '&6Drag and drop on item to unbind it from the soul.'
+  soulbound-level: 1.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 28.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      name: ''
+    '1':
+      material: PAPER
+      amount: 1
+      name: ''
+    '7':
+      material: PAPER
+      amount: 1
+      name: ''
+    '4':
+      type: CONSUMABLE
+      id: SOULCONNECTOR
+      amount: 1
+  upgrade: {}
+  soulbound-break-chance: 45.0

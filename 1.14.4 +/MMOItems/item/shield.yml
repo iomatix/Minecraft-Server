@@ -137,7 +137,6 @@ LVL_25_SHIELD:
   armor-thoughness: 3.5
   block-power: 25.0
   block-rating: 35.0
-  gem-sockets: 0.0
   required-level: 25.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -205,7 +204,6 @@ LVL_34_SHIELD:
   armor-thoughness: 4
   block-power: 27.5
   block-rating: 45.0
-  gem-sockets: 1.0
   required-level: 34.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -272,7 +270,6 @@ LVL_48_SHIELD:
   armor-thoughness: 5
   block-power: 35.0
   block-rating: 55.0
-  gem-sockets: 2.0
   required-level: 48.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -340,7 +337,6 @@ UP_LVL_48_SHIELD:
   armor-thoughness: 5
   block-power: 39.0
   block-rating: 59.0
-  gem-sockets: 3.0
   required-level: 48.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -395,3 +391,5 @@ UP_LVL_48_SHIELD:
     destroy: true
     template: armor-default
     max: 28
+  shield-pattern:
+    color: LIGHT_BLUE

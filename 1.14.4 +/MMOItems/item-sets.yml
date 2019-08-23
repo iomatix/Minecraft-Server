@@ -139,3 +139,15 @@ DIAMOND:
     - '  &7[3] +25% Parry Rating'
     - '  &7[3] +10% Block Power'
     - '  &7[4] +5% Damage Reduction'
+DEMONIC:
+    name: '&4Demonic Set'
+ETHERNAL:
+    name: '&1Ethernal Set'
+ANCIENT:
+    name: '&6Ancient Set'
+CURSE:
+    name: '&5Cursed Set'
+OCEANIC:
+    name: '&bOceanic Set'
+DIVINE:
+    name: '&eDivine Set'
