@@ -1,0 +1,175 @@
+ANCIENT_GAXE:
+  material: GOLDEN_AXE
+  enchants:
+    fortune: 2
+  hide-enchants: true
+  name: '&6Ancient Greataxe'
+  max-durability: 75000.0
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 136.0
+  attack-damage: 265.0
+  attack-speed: 0.89
+  two-handed: true
+  critical-strike-chance: 60.0
+  critical-strike-power: 190.0
+  unbreakable: true
+  tier: ANCIENT
+  set: ANCIENT
+  movement-speed: -0.01
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+  element:
+    thunder:
+      damage: 40.0
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - BLUE
+  - BLUE
+  upgrade:
+    template: axe-default
+    max: 12
+    destroy: true
+  ability:
+    ability1:
+      type: SHOCK
+      mode: ON_HIT
+      duration: 1.5
+      cooldown: 5.5
+    ability2:
+      type: LIGHTNING_BEAM
+      damage: 48.0
+      radius: 4.5
+      cooldown: 16.5
+      mode: ON_HIT
+    ability3:
+      type: CONFUSE
+      mode: ON_HIT
+      cooldown: 5.5
+  custom-model-data: 6.0
+OCEANIC_GAXE:
+  material: DIAMOND_AXE
+  max-durability: 75000.0
+  name: '&bOceanic Axe'
+  enchants:
+    depth_strider: 3
+  hide-enchants: true
+  disable-interaction: false
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  attack-damage: 240.0
+  attack-speed: 0.94
+  critical-strike-chance: 45.0
+  critical-strike-power: 172.0
+  block-power: 5.0
+  block-rating: 5.0
+  parry-rating: 5.0
+  regeneration: 10.0
+  unbreakable: true
+  tier: OCEANIC
+  set: OCEANIC
+  knockback-resistance: 0.1
+  two-handed: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+  element:
+    water:
+      damage: 35.0
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    template: axe-default
+    max: 12
+    destroy: true
+  ability:
+    ability1:
+      type: SKY_SMASH
+      mode: ON_HIT
+      damage: 35.0
+      cooldown: 12.0
+      knock-up: 3.5
+    ability2:
+      type: HEAL
+      mode: ON_HIT
+      cooldown: 3.5
+      heal: 68.0
+  custom-model-data: 3.0

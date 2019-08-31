@@ -4,7 +4,7 @@ LVL_7_SHIELD:
   tier: COMMON
   lore:
   - '&7Common small shield.'
-  armor: 4.0
+  armor: 10.0=15.0
   armor-thoughness: 1.0
   block-power: 10.0
   block-rating: 10.0
@@ -61,16 +61,16 @@ LVL_7_SHIELD:
   upgrade:
     destroy: true
     template: armor-default
-    max: 28
+    max: 12
 LVL_16_SHIELD:
   material: SHIELD
   name: '&fShield'
   tier: COMMON
   lore:
   - '&7Common shield.'
-  armor: 8.0
+  armor: 15.0=22.0
   armor-thoughness: 2.0
-  block-power: 20.0
+  block-power: 10.0
   block-rating: 15.0
   gem-sockets: 0.0
   required-level: 16.0
@@ -126,14 +126,14 @@ LVL_16_SHIELD:
   upgrade:
     destroy: true
     template: armor-default
-    max: 28
+    max: 12
 LVL_25_SHIELD:
   material: SHIELD
   name: '&fIron Shield'
   tier: COMMON
   lore:
   - '&7Common iron shield.'
-  armor: 12.0
+  armor: 23.0=26.0
   armor-thoughness: 3.5
   block-power: 25.0
   block-rating: 35.0
@@ -193,14 +193,14 @@ LVL_25_SHIELD:
   upgrade:
     destroy: true
     template: armor-default
-    max: 28
+    max: 12
 LVL_34_SHIELD:
   material: SHIELD
   name: '&fTough Iron Shield'
   tier: UNCOMMON
   lore:
   - '&7Tough iron shield.'
-  armor: 15.0
+  armor: 36.0
   armor-thoughness: 4
   block-power: 27.5
   block-rating: 45.0
@@ -259,14 +259,14 @@ LVL_34_SHIELD:
   upgrade:
     destroy: true
     template: armor-default
-    max: 28
+    max: 12
 LVL_48_SHIELD:
   material: SHIELD
   name: '&6Diamond Shield'
   tier: RARE
   lore:
   - '&6Diamond shield.'
-  armor: 17.0
+  armor: 48.0
   armor-thoughness: 5
   block-power: 35.0
   block-rating: 55.0
@@ -326,14 +326,14 @@ LVL_48_SHIELD:
   upgrade:
     destroy: true
     template: armor-default
-    max: 28
+    max: 12
 UP_LVL_48_SHIELD:
   material: SHIELD
   name: '&eUpgraded Diamond Shield'
   tier: VERY_RARE
   lore:
   - '&eUpgraded Diamond shield.'
-  armor: 21.0
+  armor: 58.0
   armor-thoughness: 5
   block-power: 39.0
   block-rating: 59.0
@@ -390,6 +390,262 @@ UP_LVL_48_SHIELD:
   upgrade:
     destroy: true
     template: armor-default
-    max: 28
+    max: 12
   shield-pattern:
     color: LIGHT_BLUE
+ANCIENT_GREATSHIELD:
+  material: SHIELD
+  movement-speed: -0.02
+  max-durability: 75000.0
+  name: '&6Ancient Greatshield'
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 136.0
+  block-power: 75.0
+  block-rating: 65.0
+  block-cooldown-reduction: 15.0
+  parry-rating: 15.0
+  damage-reduction: 3.0
+  unbreakable: true
+  regeneration: 10.0
+  tier: ANCIENT
+  set: ANCIENT
+  element:
+    thunder:
+      defense: 35.0
+  max-health: 225.0
+  knockback-resistance: 0.75
+  armor: 85.0
+  armor-toughness: 3.0
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - GREEN
+  - GREEN
+  shield-pattern:
+    color: YELLOW
+  ability:
+    ability1:
+      type: HEAL
+      mode: WHEN_HIT
+      cooldown: 15.0
+      heal: 185.0
+  upgrade:
+    template: armor-default
+    max: 12
+    destroy: true
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '6':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '8':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+  displayed-type: Greatshield
+OCEANIC_GREATSHIELD:
+  material: SHIELD
+  max-durability: 75000.0
+  name: '&bOceanic Greatshield'
+  shield-pattern:
+    color: BLUE
+  displayed-type: Greatshield
+  enchants:
+    depth_strider: 2
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 136.0
+  block-power: 65.0
+  block-rating: 80.0
+  block-cooldown-reduction: 35.0
+  damage-reduction: 1.5
+  unbreakable: true
+  regeneration: 15.0
+  tier: OCEANIC
+  set: OCEANIC
+  movement-speed: -0.01
+  knockback-resistance: 0.45
+  armor-toughness: 2.0
+  armor: 80.0
+  element:
+    ice:
+      defense: 60.0
+    water:
+      defense: 95.0
+  max-health: 220.0
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  - GREEN
+  advanced-craft:
+    '7':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '6':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '8':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 12
+  ability:
+    ability1:
+      type: HEAL
+      mode: WHEN_HIT
+      heal: 45.0
+      cooldown: 5.5
+DIVINE_GSHIELD:
+  material: SHIELD
+  max-durability: 75000.0
+  unbreakable: true
+  enchants:
+    fire_protection: 3
+  hide-enchants: true
+  shield-pattern:
+    color: YELLOW
+  upgrade:
+    template: armor-default
+    max: 12
+    destroy: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  name: '&eDivine Greatshield'
+  displayed-type: Greatshield
+  disable-crafting: true
+  block-power: 70.0
+  block-rating: 70.0
+  block-cooldown-reduction: 15.0
+  damage-reduction: 1.0
+  regeneration: 10.0
+  tier: DIVINE
+  set: DIVINE
+  armor: 78.0
+  armor-toughness: 1.5
+  max-health: 150.0
+  knockback-resistance: 0.5
+  advanced-craft:
+    '7':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '6':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '8':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+  element:
+    fire:
+      defense: 65.0
+    earth:
+      defense: 55.0
+    thunder:
+      defense: 55.0
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  - GREEN
+  ability:
+    ability1:
+      type: HEAVY_CHARGE
+      mode: SHIFT_LEFT_CLICK
+      damage: 38.0
+      cooldown: 15.0
+      knockback: 3.35

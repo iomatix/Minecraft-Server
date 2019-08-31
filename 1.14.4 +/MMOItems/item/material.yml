@@ -428,7 +428,7 @@ WEAPON_POWDER:
   - '&7Can be used to craft Uncommon Essence.'
   - '&7Obtained when deconstructing an item.'
 DEMON_ESSENCE:
-  material: QUARTZ
+  material: nether_brick
   enchants:
     FIRE_PROTECTION: 1
   hide-enchants: true
@@ -476,7 +476,7 @@ DEMON_ESSENCE:
       id: DEMONIC_ELEMENT
       amount: 1
 ETHERNAL_ESSENCE:
-  material: QUARTZ
+  material: popped_chorus_fruit
   enchants:
     FIRE_PROTECTION: 1
   hide-enchants: true
@@ -524,7 +524,7 @@ ETHERNAL_ESSENCE:
       id: SOUL_ELEMENT
       amount: 1
 ANCIENT_ESSENCE:
-  material: QUARTZ
+  material: gold_ingot
   enchants:
     FIRE_PROTECTION: 1
   hide-enchants: true
@@ -572,7 +572,7 @@ ANCIENT_ESSENCE:
       id: ANCIENT_ELEMENT
       amount: 1
 CURSED_ESSENCE:
-  material: QUARTZ
+  material: chorus_fruit
   enchants:
     FIRE_PROTECTION: 1
   hide-enchants: true
@@ -620,7 +620,7 @@ CURSED_ESSENCE:
       id: CURSED_ELEMENT
       amount: 1
 OCEANIC_ESSENCE:
-  material: QUARTZ
+  material: heart_of_the_sea
   enchants:
     FIRE_PROTECTION: 1
   hide-enchants: true
@@ -668,7 +668,7 @@ OCEANIC_ESSENCE:
       id: OCEANIC_ELEMENT
       amount: 1
 DIVINE_ESSENCE:
-  material: QUARTZ
+  material: yellow_dye
   enchants:
     FIRE_PROTECTION: 1
   hide-enchants: true

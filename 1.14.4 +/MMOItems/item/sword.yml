@@ -74,7 +74,7 @@ LVL_7_SWORD:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
 LVL_16_SWORD:
   material: iron_Sword
   name: '&fIron Sword'
@@ -143,7 +143,7 @@ LVL_16_SWORD:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
 LVL_25_SWORD:
   material: iron_Sword
   name: '&fHeavy Iron Sword'
@@ -151,7 +151,6 @@ LVL_25_SWORD:
   lore:
   - '&7Common heavy iron Sword.'
   two-handed: false
-  gem-sockets: 0.0
   required-level: 25.0
   attack-damage: 34
   attack-speed: 0.82
@@ -214,7 +213,7 @@ LVL_25_SWORD:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
 LVL_34_SWORD:
   material: GOLDEN_SWORD
   name: '&fGolden Sword'
@@ -222,7 +221,6 @@ LVL_34_SWORD:
   lore:
   - '&8Golden Sword.'
   two-handed: false
-  gem-sockets: 1.0
   required-level: 34.0
   attack-damage: 46
   attack-speed: 1.1
@@ -285,7 +283,7 @@ LVL_34_SWORD:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
 LVL_48_SWORD:
   material: diamond_Sword
   name: '&6Diamond Sword'
@@ -293,8 +291,7 @@ LVL_48_SWORD:
   lore:
   - '&6Diamond Sword.'
   two-handed: false
-  gem-sockets: 2.0
-  required-level: 55.0
+  required-level: 48.0
   attack-damage: 56
   attack-speed: 1.2
   blunt-power: 1.65
@@ -357,7 +354,7 @@ LVL_48_SWORD:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
 UP_LVL_48_SWORD:
   material: diamond_Sword
   name: '&eUpgraded Diamond Sword'
@@ -365,7 +362,6 @@ UP_LVL_48_SWORD:
   lore:
   - '&eUpgraded Diamond Sword.'
   two-handed: false
-  gem-sockets: 3.0
   required-level: 48.0
   attack-damage: 61
   attack-speed: 1.35
@@ -425,7 +421,7 @@ UP_LVL_48_SWORD:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
 MOONBLADE:
   material: iron_Sword
   name: '&eMoonblade'
@@ -440,9 +436,8 @@ MOONBLADE:
     sharpness: 1
   element:
     damage:
-      Ice: 26.0
+      Ice: 13.0
   two-handed: false
-  gem-sockets: 3.0
   required-level: 50.0
   attack-damage: 66
   attack-speed: 1.4
@@ -505,10 +500,11 @@ MOONBLADE:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 12.0
 FLAMETONGUE:
   material: golden_Sword
-  name: '&bFlame Tongue'
+  name: '&eFlame Tongue'
   tier: LEGENDARY
   lore:
   - '&bAncient mages blessed that sword'
@@ -520,9 +516,8 @@ FLAMETONGUE:
     sharpness: 1
   element:
     damage:
-      Fire: 33.0
+      Fire: 16.0
   two-handed: false
-  gem-sockets: 4.0
   required-level: 52.0
   attack-damage: 71
   attack-speed: 1.43
@@ -585,7 +580,8 @@ FLAMETONGUE:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 4.0
 SEETHE:
   material: diamond_Sword
   name: '&5Seethe'
@@ -600,17 +596,16 @@ SEETHE:
     sharpness: 1
   element:
     damage:
-      Darkness: 50.0
+      Darkness: 19.0
   ability:
     on-hit:
       type: DEATH_MARK
       cooldown: 20
-      damage: 20
+      damage: 7.9
       duration: 5
       slow-amplifier: 2
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 4.0
   required-level: 54.0
   attack-damage: 75
   attack-speed: 1.46
@@ -673,7 +668,8 @@ SEETHE:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 9.0
 OATHBREAKER:
   material: iron_Sword
   name: '&4Oath Breaker'
@@ -688,20 +684,19 @@ OATHBREAKER:
     sharpness: 1
   element:
     damage:
-      Darkness: 70.0
+      Darkness: 26.0
   ability:
     right-click:
       type: THRUST
-      damage: 75.0
+      damage: 25.0
       cooldown: 8
       mode: ON_HIT
     on-hit:
       type: VAMPIRISM
       cooldown: 3.5
-      drain: 42.0
+      drain: 27.0
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 5.0
   required-level: 56.0
   attack-damage: 80
   attack-speed: 1.5
@@ -764,7 +759,8 @@ OATHBREAKER:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 11.0
 DIVINEDIVIDER:
   material: GOLDEN_SWORD
   name: '&cDivine Divider'
@@ -780,11 +776,11 @@ DIVINEDIVIDER:
     sharpness: 1
   element:
     damage:
-      Fire: 80.0
+      Fire: 40.0
   ability:
     right-click:
       type: FIRE_METEOR
-      damage: 87.0
+      damage: 35.0
       knockback: 2.25
       radius: 4.75
       cooldown: 15
@@ -792,12 +788,11 @@ DIVINEDIVIDER:
     on-hit:
       type: LIFE_ENDER
       cooldown: 6.5
-      damage: 57.0
+      damage: 18.0
       radius: 4
       knockback: 1
       mode: ON_HIT
   two-handed: false
-  gem-sockets: []
   required-level: 58.0
   attack-damage: 86
   attack-speed: 1.55
@@ -858,7 +853,8 @@ DIVINEDIVIDER:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 13.0
 ULT_OATHBREAKER:
   material: iron_Sword
   name: '&cUltimate Oath Breaker'
@@ -874,20 +870,19 @@ ULT_OATHBREAKER:
     sharpness: 2
   element:
     damage:
-      Darkness: 80.0
+      Darkness: 40.0
   ability:
     right-click:
       type: THRUST
-      damage: 85.0
+      damage: 33.0
       cooldown: 5
       mode: ON_HIT
     on-hit:
       type: VAMPIRISM
       cooldown: 0.78
-      drain: 63.0
+      drain: 51.0
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 86
   attack-speed: 1.55
@@ -947,7 +942,8 @@ ULT_OATHBREAKER:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 11.0
 ULT_SEETHE:
   material: diamond_Sword
   name: '&cUltimate Seethe'
@@ -963,24 +959,23 @@ ULT_SEETHE:
     sharpness: 2
   element:
     damage:
-      Darkness: 80.0
+      Darkness: 40.0
   ability:
     right-click:
       type: CURSED_BEAM
-      damage: 72.0
+      damage: 34.5
       cooldown: 13
       duration: 6
       mode: SHIFT_LEFT_CLICK
     on-hit:
       type: DEATH_MARK
       cooldown: 9.7
-      damage: 33.3
+      damage: 9.3
       duration: 5
       slow-amplifier: 2
       amplifier: 1.0
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 86
   attack-speed: 1.55
@@ -1040,7 +1035,8 @@ ULT_SEETHE:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 9.0
 ULT_MOONBLADE:
   material: iron_Sword
   name: '&cUltimate Moonblade'
@@ -1056,11 +1052,11 @@ ULT_MOONBLADE:
     sharpness: 2
   element:
     damage:
-      Ice: 80.0
+      Ice: 40.0
   ability:
     right-click:
       type: ICE_CRYSTAL
-      damage: 37.5
+      damage: 16.5
       duration: 2.25
       amplifier: 3.0
       cooldown: 12.5
@@ -1068,13 +1064,12 @@ ULT_MOONBLADE:
     on-hit:
       type: FREEZING_CURSE
       cooldown: 9.76
-      duration: 3.75
+      duration: 3.45
       amplifier: 5.0
       length: 6
       mode: WHEN_HIT
-      damage: 15.0
+      damage: 7.8
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 86
   attack-speed: 1.55
@@ -1134,10 +1129,11 @@ ULT_MOONBLADE:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 12.0
 ULT_FLAMETONGUE:
   material: GOLDEN_SWORD
-  name: '&cUltimate Fire Tongue'
+  name: '&cUltimate Flame Tongue'
   tier: UNIQUE
   lore:
   - '&cArchmages blessed that sword'
@@ -1150,11 +1146,11 @@ ULT_FLAMETONGUE:
     sharpness: 2
   element:
     damage:
-      Fire: 80.0
+      Fire: 40.0
   ability:
     right-click:
       type: FIREBOLT
-      damage: 80
+      damage: 37
       ignite: 3
       cooldown: 10
       mode: SHIFT_LEFT_CLICK
@@ -1164,7 +1160,6 @@ ULT_FLAMETONGUE:
       duration: 1.35
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 86
   attack-speed: 1.55
@@ -1224,7 +1219,8 @@ ULT_FLAMETONGUE:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 4.0
 VALERIANSWORD:
   material: iron_Sword
   name: '&cValerian Sword'
@@ -1242,7 +1238,7 @@ VALERIANSWORD:
     on-hit:
       type: DEATH_MARK
       cooldown: 8
-      damage: 45.0
+      damage: 38.0
       duration: 3.3
       slow-amplifier: 2
       mode: ON_HIT
@@ -1253,7 +1249,6 @@ VALERIANSWORD:
       duration: 3.35
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 62.0
   attack-damage: 95
   attack-speed: 1.57
@@ -1314,4 +1309,5 @@ VALERIANSWORD:
   upgrade:
     destroy: true
     template: sword-default
-    max: 28
+    max: 12
+  custom-model-data: 14.0

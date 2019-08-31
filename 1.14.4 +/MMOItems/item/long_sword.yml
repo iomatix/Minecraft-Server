@@ -1,0 +1,177 @@
+CURSE_LSWORD:
+  material: IRON_SWORD
+  enchants:
+    thorns: 1
+  hide-enchants: true
+  will-break: false
+  max-durability: 75000.0
+  name: '&5Cursed Longsword'
+  disable-interaction: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 136.0
+  attack-damage: 256.0
+  attack-speed: 1.39
+  critical-strike-chance: 50.0
+  critical-strike-power: 185.0
+  parry-rating: 30.0
+  block-power: 15.0
+  block-rating: 25.0
+  unbreakable: true
+  tier: CURSED
+  set: CURSE
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '3':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  - BLUE
+  ability:
+    ability1:
+      type: VAMPIRISM
+      drain: 125.0
+      cooldown: 0.35
+      mode: ON_HIT
+    ability2:
+      type: CONTAMINATION
+      mode: SHIFT_LEFT_CLICK
+      cooldown: 19.0
+      duration: 7.5
+      damage: 29.0
+    ability3:
+      type: BLIND
+      mode: ON_HIT
+      duration: 0.65
+      cooldown: 1.45
+  upgrade:
+    max: 12
+    template: sword-default
+    destroy: true
+  custom-model-data: 10.0
+DIVINE_LSWORD:
+  material: GOLDEN_SWORD
+  max-durability: 75000.0
+  name: '&eDivine Longsword'
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  attack-damage: 242.0
+  attack-speed: 1.27
+  critical-strike-chance: 52.0
+  critical-strike-power: 170.0
+  dodge-rating: 5.0
+  parry-rating: 20.0
+  parry-cooldown-reduction: 20.0
+  unbreakable: true
+  tier: DIVINE
+  set: DIVINE
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+  element:
+    earth:
+      damage: 15.0
+    thunder:
+      damage: 5.0
+    fire:
+      damage: 5.0
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  - GREEN
+  upgrade:
+    max: 12
+    template: sword-default
+    destroy: true
+  ability:
+    ability1:
+      type: HOLY_MISSILE
+      mode: SHIFT_LEFT_CLICK
+      damage: 45.0
+      cooldown: 8.5
+    ability2:
+      type: OVERLOAD
+      mode: ON_HIT
+      cooldown: 13.0
+      radius: 4.5
+      damage: 26.0
+  undead-damage: 25.0
+  custom-model-data: 13.0

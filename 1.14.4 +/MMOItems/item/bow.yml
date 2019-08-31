@@ -18,7 +18,7 @@ LVL_12_BOW:
   - '&fShort Bow.'
   gem-sockets: 0.0
   required-level: 12.0
-  attack-damage: 56
+  attack-damage: 29.0
   critical-strike-chance: 10.0
   critical-strike-power: 125.0
   two-handed: true
@@ -75,16 +75,16 @@ LVL_12_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 11.0
 LVL_24_BOW:
   material: Bow
   name: '&fCommon Bow'
   tier: COMMON
   lore:
   - '&7Common Bow.'
-  gem-sockets: 0.0
   required-level: 24.0
-  attack-damage: 70
+  attack-damage: 51.0
   critical-strike-chance: 15.0
   critical-strike-power: 135.0
   two-handed: true
@@ -143,16 +143,16 @@ LVL_24_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 9.0
 LVL_36_BOW:
   material: Bow
   name: '&fLong Bow'
   tier: UNCOMMON
   lore:
   - '&8Long Bow.'
-  gem-sockets: 1.0
   required-level: 36.0
-  attack-damage: 80.0
+  attack-damage: 77.0
   critical-strike-chance: 20.0
   critical-strike-power: 145.0
   two-handed: true
@@ -211,16 +211,16 @@ LVL_36_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 6.0
 LVL_48_BOW:
   material: BOW
   name: '&6Composite Bow'
   tier: RARE
   lore:
   - '&6Composite Bow.'
-  gem-sockets: 2.0
   required-level: 48.0
-  attack-damage: 90.0
+  attack-damage: 87.0
   critical-strike-chance: 30.0
   critical-strike-power: 155.0
   two-handed: true
@@ -280,16 +280,16 @@ LVL_48_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 1.0
 UP_LVL_48_BOW:
   material: BOW
   name: '&eUpgraded Composite Bow'
   tier: VERY_RARE
   lore:
   - '&eUpgraded Composite Bow.'
-  gem-sockets: 3.0
   required-level: 48.0
-  attack-damage: 100.0
+  attack-damage: 96.0
   critical-strike-chance: 35.0
   critical-strike-power: 165.0
   two-handed: true
@@ -345,7 +345,8 @@ UP_LVL_48_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 1.0
 REDWOOD_BOW:
   material: BOW
   name: '&eRedwood Bow'
@@ -358,11 +359,12 @@ REDWOOD_BOW:
     power: 1
   element:
     damage:
-      Light: 26.0
+      Light: 13.0
+    earth:
+      damage: 15.0
   two-handed: false
-  gem-sockets: 3.0
   required-level: 50.0
-  attack-damage: 116.0
+  attack-damage: 112.0
   critical-strike-chance: 38.0
   critical-strike-power: 168.0
   movement-speed: 0.005
@@ -416,12 +418,12 @@ REDWOOD_BOW:
   arrow-particles:
     particle: END_ROD
     amount: 1
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   ability:
     ability1:
       type: STARFALL
-      damage: 9.5
+      damage: 7.5
       cooldown: 12.0
       mode: ON_HIT
   gem-sockets:
@@ -431,7 +433,8 @@ REDWOOD_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 4.0
 WINDBLOW:
   material: BOW
   name: '&bWindblow'
@@ -444,11 +447,12 @@ WINDBLOW:
     punch: 1
   element:
     damage:
-      Wind: 29.0
+      Wind: 14.0
+    wind:
+      damage: 10.0
   two-handed: false
-  gem-sockets: 4.0
   required-level: 52.0
-  attack-damage: 135
+  attack-damage: 123.0
   critical-strike-chance: 41.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -502,12 +506,12 @@ WINDBLOW:
   arrow-particles:
     particle: CLOUD
     amount: 1
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   ability:
     ability-1:
       type: SPARKLE
-      damage: 12
+      damage: 7.5
       radius: 3
       limit: 3
       cooldown: 11
@@ -519,7 +523,8 @@ WINDBLOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 5.0
 DARKBLESS:
   material: BOW
   name: '&5Darkbless'
@@ -533,11 +538,15 @@ DARKBLESS:
     power: 2
   element:
     damage:
-      Darkness: 50.0
+      Darkness: 24.0
+    ice:
+      damage: 5.0
+    wind:
+      damage: 8.0
   ability:
     right-click:
       type: CORRUPT
-      damage: 12.0
+      damage: 8.0
       cooldown: 9.3
       duration: 3.0
       amplifier: 2
@@ -548,9 +557,8 @@ DARKBLESS:
       duration: 0.65
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 4.0
   required-level: 54.0
-  attack-damage: 150
+  attack-damage: 136.5
   critical-strike-chance: 45.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -604,7 +612,7 @@ DARKBLESS:
   arrow-particles:
     particle: SMOKE_NORMAL
     amount: 1
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   gem-sockets:
   - BLUE
@@ -613,7 +621,8 @@ DARKBLESS:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 10.0
 DRAGONFIRE:
   material: BOW
   name: '&4Dragonfire'
@@ -626,11 +635,13 @@ DRAGONFIRE:
     flame: 1
   element:
     damage:
-      Fire: 70.0
+      Fire: 33.0
+    fire:
+      damage: 15.0
   ability:
     right-click:
       type: firefly
-      damage: 60.0
+      damage: 28.0
       duration: 0.75
       knockback: 2
       cooldown: 22.0
@@ -638,14 +649,13 @@ DRAGONFIRE:
     on-hit:
       type: LIFE_ENDER
       cooldown: 11.0
-      damage: 51.0
+      damage: 25.0
       radius: 3
       knockback: 1
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 5.0
   required-level: 56.0
-  attack-damage: 160
+  attack-damage: 146.0
   critical-strike-chance: 45.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -699,7 +709,7 @@ DRAGONFIRE:
   arrow-particles:
     particle: FLAME
     amount: 1
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   gem-sockets:
   - BLUE
@@ -708,7 +718,8 @@ DRAGONFIRE:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 2.0
 DEATHWING:
   material: BOW
   name: '&cDeathwing'
@@ -723,11 +734,13 @@ DEATHWING:
     power: 3
   element:
     damage:
-      Fire: 80.0
+      Fire: 40.0
+    fire:
+      damage: 20.0
   ability:
     right-click:
       type: arcane_hail
-      damage: 26.8
+      damage: 13.8
       duration: 6
       cooldown: 14.7
       radius: 5.3
@@ -738,9 +751,8 @@ DEATHWING:
       cooldown: 7.0
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
-  attack-damage: 180
+  attack-damage: 160.0
   critical-strike-chance: 45.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -794,7 +806,7 @@ DEATHWING:
   arrow-particles:
     particle: DRAGON_BREATH
     amount: 2
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   gem-sockets:
   - BLUE
@@ -803,7 +815,103 @@ DEATHWING:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 12.0
+ULT_DEATHWING:
+  material: BOW
+  name: '&cUltimate Deathwing'
+  tier: UNIQUE
+  lore:
+  - '&eNo one knows origin of this bow.'
+  - '&eIt was used to slay one of the ancient gods.'
+  - '&eUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    power: 3
+  element:
+    damage:
+      Fire: 40.0
+    fire:
+      damage: 25.0
+  ability:
+    right-click:
+      type: arcane_hail
+      damage: 16.8
+      duration: 6
+      cooldown: 13.7
+      radius: 5.5
+      mode: SHIFT_LEFT_CLICK
+    on-hit:
+      type: STUN
+      duration: 0.85
+      cooldown: 6.75
+      mode: ON_HIT
+  two-handed: false
+  required-level: 58.0
+  attack-damage: 178.0
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  movement-speed: 0.005
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: BOW
+      id: DEATHWING
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 75000.0
+  will-break: false
+  unbreakable: true
+  arrow-particles:
+    particle: DRAGON_BREATH
+    amount: 2
+    speed: 0.07
+    offset: -0.25
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  custom-model-data: 13.0
 ULT_DRAGONFIRE:
   material: BOW
   name: '&cUltimate Dragonfire'
@@ -817,11 +925,13 @@ ULT_DRAGONFIRE:
     flame: 1
   element:
     damage:
-      Fire: 80.0
+      Fire: 40.0
+    fire:
+      damage: 25.0
   ability:
     right-click:
       type: firefly
-      damage: 110.0
+      damage: 37.0
       duration: 1.85
       knockback: 3
       cooldown: 10.0
@@ -829,14 +939,13 @@ ULT_DRAGONFIRE:
     on-hit:
       type: LIFE_ENDER
       cooldown: 8.7
-      damage: 155.0
+      damage: 32.0
       radius: 5
       knockback: 2
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
-  attack-damage: 180
+  attack-damage: 177.0
   critical-strike-chance: 45.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -888,7 +997,7 @@ ULT_DRAGONFIRE:
   arrow-particles:
     particle: FLAME
     amount: 2
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   gem-sockets:
   - BLUE
@@ -897,7 +1006,8 @@ ULT_DRAGONFIRE:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 2.0
 ULT_DARKBLESS:
   material: BOW
   name: '&cUltimate Darkbless'
@@ -910,11 +1020,15 @@ ULT_DARKBLESS:
   disable-enchanting: true
   element:
     damage:
-      Darkness: 80.0
+      Darkness: 40.0
+    ice:
+      damage: 10.0
+    wind:
+      damage: 15.0
   ability:
     right-click:
       type: CORRUPT
-      damage: 72.0
+      damage: 35.0
       cooldown: 7.5
       duration: 3.75
       amplifier: 2
@@ -925,9 +1039,8 @@ ULT_DARKBLESS:
       duration: 0.85
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
-  attack-damage: 180
+  attack-damage: 177.0
   critical-strike-chance: 45.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -979,7 +1092,7 @@ ULT_DARKBLESS:
   arrow-particles:
     particle: SMOKE_NORMAL
     amount: 2
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   enchants:
     power: 3
@@ -990,7 +1103,8 @@ ULT_DARKBLESS:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 10.0
 ULT_WINDBLOW:
   material: BOW
   name: '&cUltimate Windblow'
@@ -1002,7 +1116,9 @@ ULT_WINDBLOW:
   disable-enchanting: true
   element:
     damage:
-      Wind: 80.0
+      Wind: 40.0
+    wind:
+      damage: 35.0
   ability:
     right-click:
       type: SWIFTNESS
@@ -1015,13 +1131,12 @@ ULT_WINDBLOW:
     on-hit:
       type: SPARKLE
       mode: ON_HIT
-      damage: 55.0
+      damage: 27.0
       cooldown: 7.5
       radius: 4.5
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
-  attack-damage: 180
+  attack-damage: 177.0
   critical-strike-chance: 45.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -1073,7 +1188,7 @@ ULT_WINDBLOW:
   arrow-particles:
     particle: CLOUD
     amount: 2
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   enchants:
     punch: 2
@@ -1084,7 +1199,8 @@ ULT_WINDBLOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 5.0
 ULT_REDWOOD_BOW:
   material: BOW
   name: '&cUltimate Redwood Bow'
@@ -1096,17 +1212,19 @@ ULT_REDWOOD_BOW:
   disable-enchanting: true
   element:
     damage:
-      Light: 80.0
+      Light: 40.0
+    earth:
+      damage: 20.0
   ability:
     right-click:
       type: HOLY_MISSILE
-      damage: 125.0
+      damage: 55.0
       cooldown: 7.85
       mode: SHIFT_LEFT_CLICK
     on-hit:
       type: STARFALL
       cooldown: 6.25
-      damage: 85.0
+      damage: 42.0
       mode: ON_HIT
     ability1:
       type: FREEZE
@@ -1115,9 +1233,8 @@ ULT_REDWOOD_BOW:
       radius: 3.75
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
-  attack-damage: 180
+  attack-damage: 177.0
   critical-strike-chance: 45.0
   critical-strike-power: 170.0
   movement-speed: 0.005
@@ -1169,7 +1286,7 @@ ULT_REDWOOD_BOW:
   arrow-particles:
     particle: END_ROD
     amount: 2
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   enchants:
     power: 3
@@ -1180,7 +1297,8 @@ ULT_REDWOOD_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 4.0
 VOID_BOW:
   material: BOW
   name: '&cVoid Bow'
@@ -1194,7 +1312,7 @@ VOID_BOW:
     power: 3
   element:
     damage:
-      Darkness: 80.0
+      Darkness: 40.0
   ability:
     right-click:
       type: BLACK_HOLE
@@ -1212,12 +1330,11 @@ VOID_BOW:
       amplifier: 1.45
       cooldown: 6.5
       duration: 1.2
-      damage: 22.0
+      damage: 13.0
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 62.0
-  attack-damage: 200
+  attack-damage: 195.5
   critical-strike-chance: 50.0
   critical-strike-power: 170.0
   movement-speed: 0.006
@@ -1270,7 +1387,7 @@ VOID_BOW:
   arrow-particles:
     particle: SMOKE_LARGE
     amount: 2
-    speed: 0.01
+    speed: 0.07
     offset: -0.25
   gem-sockets:
   - BLUE
@@ -1279,4 +1396,5 @@ VOID_BOW:
   upgrade:
     destroy: true
     template: bow-default
-    max: 28
+    max: 12
+  custom-model-data: 7.0

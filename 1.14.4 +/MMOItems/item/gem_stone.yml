@@ -232,7 +232,7 @@ BLUE_IH:
   disable-enchanting: true
   disable-repairing: true
   gem-color: BLUE
-  movement-speed: 0.5
+  movement-speed: 0.001
   dodge-cooldown-reduction: 1.0
   dodge-rating: 1.0
   advanced-craft:
@@ -565,7 +565,7 @@ BLUE_IIH:
   disable-enchanting: true
   disable-repairing: true
   gem-color: BLUE
-  movement-speed: 1.0
+  movement-speed: 0.003
   dodge-cooldown-reduction: 3.0
   dodge-rating: 3.0
   critical-strike-chance: 1.5
@@ -899,7 +899,7 @@ BLUE_IIIH:
   disable-enchanting: true
   disable-repairing: true
   gem-color: BLUE
-  movement-speed: 1.35
+  movement-speed: 0.006
   dodge-cooldown-reduction: 5.0
   dodge-rating: 4.5
   critical-strike-chance: 3.5

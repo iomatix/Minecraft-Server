@@ -1,0 +1,547 @@
+LVL_12_SPEAR:
+  material: TRIDENT
+  custom-model-data: 8.0
+  max-durability: 130.0=170.0
+  unbreakable: true
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      name: ''
+    '1':
+      material: STICK
+      amount: 1
+      name: ''
+  attack-damage: 11.0=13.0
+  attack-speed: 1.15
+  critical-strike-chance: 10.0=12.0
+  critical-strike-power: 115.0=117.0
+  dodge-rating: 3.0=3.5
+  tier: COMMON
+  parry-rating: 4.5=5.5
+  name: Wooden Spear
+  disable-crafting: true
+  disable-smelting: true
+  disable-repairing: true
+  required-level: 12.0
+LVL_18_SPEAR:
+  material: TRIDENT
+  custom-model-data: 9.0
+  unbreakable: true
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  max-durability: 220.0=280.0
+  name: Stone Spear
+  tier: COMMON
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: false
+  disable-repairing: true
+  required-level: 18.0
+  attack-damage: 16.0=22.0
+  attack-speed: 1.17
+  critical-strike-chance: 14.0=17.0
+  critical-strike-power: 120.0=124.0
+  dodge-rating: 4.0=5.0
+  parry-rating: 6.0=7.0
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: COBBLESTONE
+      amount: 1
+      name: ''
+    '4':
+      material: COBBLESTONE
+      amount: 1
+      name: ''
+    '1':
+      material: COBBLESTONE
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+LVL_26_SPEAR:
+  material: TRIDENT
+  custom-model-data: 10.0
+  name: Iron Spear
+  tier: COMMON
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  required-level: 26.0
+  disable-crafting: true
+  disable-repairing: true
+  disable-enchanting: false
+  disable-smelting: true
+  max-durability: 290.0=320.0
+  attack-damage: 32.0=34.0
+  attack-speed: 1.24
+  dodge-rating: 7.5
+  parry-rating: 9.0
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '4':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '1':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+  unbreakable: true
+  critical-strike-chance: 25.0
+  critical-strike-power: 125.0
+  gem-sockets:
+  - BLUE
+LVL_34_SPEAR:
+  material: TRIDENT
+  custom-model-data: 11.0
+  name: '&6Golden Spear'
+  tier: RARE
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+    '4':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+    '1':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+  unbreakable: true
+  required-level: 34.0
+  disable-repairing: true
+  disable-smelting: true
+  disable-crafting: true
+  max-durability: 330.0=380.0
+  attack-damage: 44.0
+  attack-speed: 1.29
+  critical-strike-chance: 28.0
+  critical-strike-power: 130.0
+  dodge-rating: 10.0
+  parry-rating: 12.0
+  gem-sockets:
+  - BLUE
+LVL_48_SPEAR:
+  material: TRIDENT
+  custom-model-data: 12.0
+  max-durability: 800.0=2000.0
+  name: '&6Diamond Spear'
+  tier: RARE
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '4':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '1':
+      material: DIAMOND
+      amount: 1
+      name: ''
+  unbreakable: true
+  disable-repairing: true
+  disable-smelting: true
+  disable-crafting: true
+  disable-interaction: false
+  attack-damage: 52.5
+  attack-speed: 1.35
+  critical-strike-chance: 33.0
+  critical-strike-power: 133.0
+  dodge-rating: 11.0
+  parry-rating: 13.0
+  required-level: 48.0
+UP_LVL_48_SPEAR:
+  material: TRIDENT
+  custom-model-data: 12.0
+  max-durability: 1000.0=2500.0
+  name: '&eUpgraded Diamond Spear'
+  tier: VERY_RARE
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      type: SPEAR
+      id: LVL_48_SPEAR
+      amount: 1
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+  unbreakable: true
+  disable-repairing: true
+  disable-smelting: true
+  disable-crafting: true
+  disable-interaction: false
+  attack-damage: 58.5
+  attack-speed: 1.49
+  critical-strike-chance: 40.0
+  critical-strike-power: 145.0
+  dodge-rating: 13.0
+  parry-rating: 16.0
+  required-level: 48.0
+DEMONIC_SPEAR:
+  material: TRIDENT
+  enchants:
+    loyalty: 1
+  hide-enchants: true
+  name: '&4Demonic Spear'
+  upgrade:
+    template: halberd-default
+    max: 12
+    destroy: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  - GREEN
+  unbreakable: true
+  max-durability: 75000.0
+  disable-interaction: false
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 136.0
+  attack-damage: 255.0
+  attack-speed: 1.5
+  critical-strike-chance: 50.0
+  critical-strike-power: 185.0
+  dodge-rating: 10.0
+  dodge-cooldown-reduction: 10.0
+  tier: DEMONIC
+  set: DEMONIC
+  knockback-resistance: 0.05
+  two-handed: false
+  element:
+    fire:
+      damage: 45.0
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+  ability:
+    ability1:
+      type: BURN
+      cooldown: 3.0
+      duration: 2.3
+      mode: ON_HIT
+    ability2:
+      type: FIREFLY
+      mode: SHIFT_LEFT_CLICK
+      duration: 4.25
+      cooldown: 12.0
+      knockback: 0.25
+      damage: 42.0
+    ability3:
+      type: CONFUSE
+      cooldown: 12.0
+      mode: ON_HIT
+  custom-model-data: 1.0
+OCEANIC_TRIDENT:
+  material: TRIDENT
+  max-durability: 75000.0
+  name: '&bOceanic Trident'
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    depth_strider: 4
+    loyalty: 1
+    respiration: 5
+    riptide: 3
+  hide-enchants: true
+  disable-interaction: false
+  required-level: 136.0
+  attack-damage: 255.0
+  attack-speed: 1.34
+  critical-strike-chance: 51.0
+  critical-strike-power: 185.0
+  dodge-rating: 15.0
+  dodge-cooldown-reduction: 15.0
+  regeneration: 20.0
+  unbreakable: true
+  tier: OCEANIC
+  set: OCEANIC
+  two-handed: true
+  advanced-craft:
+    '1':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      name: ''
+    '3':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '0':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+  element:
+    water:
+      damage: 45.0
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    template: halberd-default
+    max: 12
+    destroy: true
+  ability:
+    ability1:
+      type: ICE_CRYSTAL
+      mode: SHIFT_LEFT_CLICK
+      duration: 3.5
+      cooldown: 8.0
+      damage: 40.0
+      amplifier: 3.0
+    ability2:
+      type: HEAL
+      heal: 95.0
+      cooldown: 1.75
+      mode: ON_HIT
+    ability3:
+      type: CONFUSE
+      mode: ON_HIT
+      cooldown: 7.0

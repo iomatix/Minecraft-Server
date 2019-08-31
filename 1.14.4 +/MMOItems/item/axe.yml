@@ -71,7 +71,7 @@ LVL_7_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
 LVL_16_AXE:
   material: iron_axe
   name: '&fIron Axe'
@@ -141,7 +141,7 @@ LVL_16_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
 LVL_25_AXE:
   material: iron_axe
   name: '&fHeavy Iron Axe'
@@ -149,7 +149,6 @@ LVL_25_AXE:
   lore:
   - '&7Common two handed iron axe.'
   two-handed: true
-  gem-sockets: 0.0
   required-level: 25.0
   attack-damage: 37
   attack-speed: 0.77
@@ -213,7 +212,7 @@ LVL_25_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
 LVL_34_AXE:
   material: GOLDEN_AXE
   name: '&fGolden Axe'
@@ -221,7 +220,6 @@ LVL_34_AXE:
   lore:
   - '&8Golden Axe.'
   two-handed: true
-  gem-sockets: 1.0
   required-level: 34.0
   attack-damage: 50
   attack-speed: 0.75
@@ -285,7 +283,7 @@ LVL_34_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
 LVL_48_AXE:
   material: diamond_axe
   name: '&6Diamond Axe'
@@ -293,7 +291,6 @@ LVL_48_AXE:
   lore:
   - '&6Diamond Axe.'
   two-handed: true
-  gem-sockets: 2.0
   required-level: 48.0
   attack-damage: 60
   attack-speed: 0.73
@@ -358,7 +355,7 @@ LVL_48_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
 UP_LVL_48_AXE:
   material: diamond_axe
   name: '&eUpgraded Diamond Axe'
@@ -366,7 +363,6 @@ UP_LVL_48_AXE:
   lore:
   - '&eUpgraded Diamond Axe.'
   two-handed: true
-  gem-sockets: 3.0
   required-level: 48.0
   attack-damage: 65
   attack-speed: 0.73
@@ -427,7 +423,7 @@ UP_LVL_48_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
 SKULLCRUSHER:
   material: iron_axe
   name: '&eSkullcrusher'
@@ -441,9 +437,8 @@ SKULLCRUSHER:
     sharpness: 1
   element:
     damage:
-      Earth: 25.0
+      Earth: 12.0
   two-handed: false
-  gem-sockets: 3.0
   required-level: 50.0
   attack-damage: 70
   attack-speed: 0.73
@@ -506,7 +501,8 @@ SKULLCRUSHER:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 4.0
 RAVAGER:
   material: GOLDEN_AXE
   name: '&bRavager'
@@ -520,9 +516,8 @@ RAVAGER:
     sharpness: 1
   element:
     damage:
-      Earth: 35.0
+      Earth: 17.0
   two-handed: false
-  gem-sockets: 4.0
   required-level: 52.0
   attack-damage: 75
   attack-speed: 0.75
@@ -591,7 +586,8 @@ RAVAGER:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 5.0
 THUNDER_AXE:
   material: diamond_axe
   name: '&5Thunder Axe'
@@ -606,7 +602,7 @@ THUNDER_AXE:
     sharpness: 2
   element:
     damage:
-      Thunder: 50.0
+      Thunder: 23.0
   ability:
     on-hit:
       type: STUN
@@ -614,7 +610,6 @@ THUNDER_AXE:
       duration: 1.75
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 4.0
   required-level: 54.0
   attack-damage: 80
   attack-speed: 0.75
@@ -677,7 +672,8 @@ THUNDER_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 2.0
 DARKREVENGE:
   material: iron_axe
   name: '&4Dark Revenge'
@@ -693,11 +689,11 @@ DARKREVENGE:
     sharpness: 2
   element:
     damage:
-      Darkness: 70.0
+      Darkness: 30.0
   ability:
     right-click:
       type: CIRCULAR_SLASH
-      damage: 30.0
+      damage: 15.0
       cooldown: 8.95
       radius: 3
       knockback: 1.25
@@ -705,12 +701,11 @@ DARKREVENGE:
     on-hit:
       type: DEATH_MARK
       cooldown: 18
-      damage: 14.0
+      damage: 6.5
       duration: 5
       slow-amplifier: 2
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 5.0
   required-level: 56.0
   attack-damage: 85
   attack-speed: 0.75
@@ -773,7 +768,8 @@ DARKREVENGE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 7.0
 DECAPITATOR:
   material: golden_axe
   name: '&cDecapitator'
@@ -787,11 +783,11 @@ DECAPITATOR:
     knockback: 3
   element:
     damage:
-      Earth: 80.0
+      Earth: 31.0
   ability:
     right-click:
       type: SKY_SMASH
-      damage: 40.0
+      damage: 19.0
       cooldown: 11.3
       knock_up: 2
       knock-up: 1.5
@@ -801,7 +797,6 @@ DECAPITATOR:
       cooldown: 7.6
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 93
   attack-speed: 0.75
@@ -864,7 +859,8 @@ DECAPITATOR:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 1.0
 ULT_DARKREVENGE:
   material: iron_axe
   name: '&cUltimate Dark Revenge'
@@ -880,24 +876,23 @@ ULT_DARKREVENGE:
     sharpness: 1
   element:
     damage:
-      Darkness: 80.0
+      Darkness: 38.0
   ability:
     right-click:
       type: CIRCULAR_SLASH
-      damage: 70.0
+      damage: 28.0
       cooldown: 8
       radius: 4.5
       knockback: 2.5
       mode: LEFT_CLICK
     on-hit:
       type: DEATH_MARK
-      cooldown: 11.3
-      damage: 29.8
+      cooldown: 10.3
+      damage: 11.8
       duration: 4.3
       slow-amplifier: 2
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 93
   attack-speed: 0.75
@@ -958,7 +953,8 @@ ULT_DARKREVENGE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 7.0
 ULT_THUNDER_AXE:
   material: diamond_axe
   name: '&cUltimate Thunder Axe'
@@ -974,11 +970,11 @@ ULT_THUNDER_AXE:
     Sharpness: 1
   element:
     damage:
-      Thunder: 80.0
+      Thunder: 35.0
   ability:
     right-click:
       type: SMITE
-      damage: 85.0
+      damage: 41.0
       length: 35
       cooldown: 11.3
       mode: ON_HIT
@@ -988,7 +984,6 @@ ULT_THUNDER_AXE:
       duration: 1.85
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 93
   attack-speed: 0.75
@@ -1049,7 +1044,8 @@ ULT_THUNDER_AXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 2.0
 ULT_SKULLCRUSHER:
   material: iron_axe
   name: '&cUltimate Skullcrusher'
@@ -1064,11 +1060,11 @@ ULT_SKULLCRUSHER:
     sharpness: 1
   element:
     damage:
-      Earth: 80.0
+      Earth: 40.0
   ability:
     right-click:
       type: HEAVY_CHARGE
-      damage: 83.0
+      damage: 42.0
       cooldown: 17.0
       knockback: 3.5
       mode: SHIFT_RIGHT_CLICK
@@ -1079,7 +1075,6 @@ ULT_SKULLCRUSHER:
       length: 8
       mode: SHIFT_LEFT_CLICK
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 93
   attack-speed: 0.75
@@ -1140,7 +1135,8 @@ ULT_SKULLCRUSHER:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 4.0
 ULT_RAVAGER:
   material: GOLDEN_AXE
   name: '&cUltimate Ravager'
@@ -1155,11 +1151,11 @@ ULT_RAVAGER:
     sharpness: 1
   element:
     damage:
-      Earth: 80.0
+      Earth: 40.0
   ability:
     right-click:
       type: EARTHQUAKE
-      damage: 63.0
+      damage: 31.0
       duration: 5
       amplifier: 2.0
       cooldown: 14.5
@@ -1170,7 +1166,6 @@ ULT_RAVAGER:
       duration: 2.65
       mode: ON_HIT
   two-handed: false
-  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 93
   attack-speed: 0.75
@@ -1231,7 +1226,8 @@ ULT_RAVAGER:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 5.0
 VALERIANAXE:
   material: iron_AXE
   name: '&cValerian Axe'
@@ -1249,18 +1245,17 @@ VALERIANAXE:
     on-hit:
       type: DEATH_MARK
       cooldown: 9.3
-      damage: 42.0
+      damage: 13.5
       duration: 3.3
       slow-amplifier: 2
       mode: ON_HIT
     ability1:
       type: SKY_SMASH
       mode: SHIFT_LEFT_CLICK
-      damage: 32.0
+      damage: 30.0
       knock-up: 2.75
       cooldown: 11.2
   two-handed: false
-  gem-sockets: 6.0
   required-level: 62.0
   attack-damage: 100
   attack-speed: 0.75
@@ -1321,4 +1316,5 @@ VALERIANAXE:
   upgrade:
     destroy: true
     template: axe-default
-    max: 28
+    max: 12
+  custom-model-data: 8.0

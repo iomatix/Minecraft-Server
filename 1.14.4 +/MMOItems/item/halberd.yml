@@ -1,0 +1,181 @@
+ETHERNAL_SCYTHE:
+  material: STONE_HOE
+  max-durability: 75000.0
+  disable-interaction: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    thorns: 1
+  hide-enchants: true
+  lore: []
+  name: '&5Ethernal Scythe'
+  required-level: 136.0
+  attack-damage: 248.0
+  attack-speed: 1.31
+  critical-strike-chance: 53.0
+  critical-strike-power: 190.0
+  magic-damage: 45.0
+  unbreakable: true
+  two-handed: true
+  tier: ETHERNAL
+  set: ETHERNAL
+  upgrade:
+    template: halberd-default
+    destroy: true
+    max: 12
+  dodge-rating: 15.0
+  dodge-cooldown-reduction: 15.0
+  advanced-craft:
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '0':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  - GREEN
+  ability:
+    ability1:
+      type: WITHER
+      amplifier: 3.0
+      mode: ON_HIT
+      duration: 2.75
+      cooldown: 0.3
+    ability4:
+      type: SHADOW_VEIL
+      mode: WHEN_HIT
+      cooldown: 18.0
+      duration: 3.5
+    ability3:
+      type: LEAP
+      mode: SHIFT_LEFT_CLICK
+      force: 2.1
+      cooldown: 6.35
+  perm-effects:
+    SLOW_FALLING: 1
+    JUMP: 1
+  element:
+    ice:
+      damage: 15.0
+    wind:
+      damage: 20.0
+  custom-model-data: 2.0
+  displayed-type: Scythe
+CURSE_SCYTHE:
+  material: STONE_HOE
+  max-durability: 75000.0
+  name: '&5Cursed Scythe'
+  enchants:
+    thorns: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  attack-damage: 239.0
+  attack-speed: 1.15
+  critical-strike-chance: 55.0
+  critical-strike-power: 170.0
+  dodge-rating: 12.0
+  parry-rating: 12.0
+  unbreakable: true
+  tier: CURSED
+  set: CURSE
+  two-handed: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      material: STICK
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  ability:
+    ability1:
+      type: VAMPIRISM
+      drain: 75.0
+      cooldown: 0.35
+      mode: ON_HIT
+    ability2:
+      type: SLOW
+      amplifier: 2.0
+      cooldown: 2.0
+      duration: 1.5
+      mode: ON_HIT
+  displayed-type: Scythe
+  custom-model-data: 3.0

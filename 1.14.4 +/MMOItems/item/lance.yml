@@ -1,0 +1,186 @@
+DIVINE_LANCE:
+  material: TRIDENT
+  max-durability: 75000.0
+  unbreakable: true
+  name: '&eDivine Lance'
+  enchants:
+    fire_protection: 1
+    loyalty: 3
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 136.0
+  attack-damage: 256.0
+  attack-speed: 1.45
+  critical-strike-chance: 60.0
+  critical-strike-power: 185.0
+  dodge-rating: 10.0
+  parry-rating: 15.0
+  parry-cooldown-reduction: 15.0
+  undead-damage: 30.0
+  regeneration: 15.0
+  tier: DIVINE
+  set: DIVINE
+  knockback-resistance: 0.25
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+  element:
+    earth:
+      damage: 15.0
+    fire:
+      damage: 10.0
+    thunder:
+      damage: 10.0
+  gem-sockets:
+  - BLUE
+  - GREEN
+  - GREEN
+  - GREEN
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  ability:
+    ability1:
+      type: OVERLOAD
+      mode: ON_HIT
+      damage: 40.0
+      radius: 5.35
+      cooldown: 12.5
+    ability2:
+      type: CIRCULAR_SLASH
+      mode: SHIFT_LEFT_CLICK
+      cooldown: 13.5
+      knockback: 2.55
+      radius: 3.15
+      damage: 40.0
+    ability3:
+      type: CONFUSE
+      cooldown: 7.5
+      mode: ON_HIT
+  custom-model-data: 2.0
+
+
+
+ANCIENT_LANCE:
+  material: TRIDENT
+  enchants:
+    loyalty: 1
+    channeling: 1
+  hide-enchants: true
+  required-level: 120.0
+  name: '&6Ancient Lance'
+  max-durability: 75000.0
+  disable-interaction: false
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  attack-damage: 235.0
+  attack-speed: 1.45
+  critical-strike-chance: 45.0
+  critical-strike-power: 160.0
+  parry-rating: 5.0
+  parry-cooldown-reduction: 5.0
+  unbreakable: true
+  tier: ANCIENT
+  set: ANCIENT
+  knockback-resistance: 0.03
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+  element:
+    thunder:
+      damage: 20.0
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - BLUE
+  upgrade:
+    max: 12
+    template: halberd-default
+    destroy: true
+  ability:
+    ability1:
+      type: LIGHTNING_BEAM
+      mode: ON_HIT
+      radius: 3.5
+      damage: 32.0
+      cooldown: 13.0
+    ability2:
+      type: SHOCK
+      mode: ON_HIT
+      cooldown: 12.0
+      duration: 1.3
+  custom-model-data: 7.0

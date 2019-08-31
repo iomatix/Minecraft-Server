@@ -71,7 +71,7 @@ MAGIC_TEAR:
   disable-crafting: true
   disable-smelting: true
 DEMONIC_ELEMENT:
-  material: IRON_NUGGET
+  material: NETHER_WART
   name: '&4Demon Element'
   lore:
   - '&7The item emits terryfiying aura.'
@@ -81,7 +81,7 @@ DEMONIC_ELEMENT:
   disable-crafting: true
   disable-smelting: true
 SOUL_ELEMENT:
-  material: IRON_NUGGET
+  material: phantom_membrane
   name: '&1Soul Element'
   lore:
   - '&7The item seems alive.'
@@ -91,17 +91,17 @@ SOUL_ELEMENT:
   disable-crafting: true
   disable-smelting: true
 ANCIENT_ELEMENT:
-  material: IRON_NUGGET
+  material: firework_star
   name: '&6Ancient Element'
   lore:
-  - '&7The item shines with golden light.'
+  - '&7The item shines with weak golden light.'
   enchants:
     fire_protection: 1
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true
 CURSED_ELEMENT:
-  material: IRON_NUGGET
+  material: coal
   name: '&5Cursed Element'
   lore:
   - '&7The item is full of dark energy.'
@@ -111,7 +111,7 @@ CURSED_ELEMENT:
   disable-crafting: true
   disable-smelting: true
 OCEANIC_ELEMENT:
-  material: IRON_NUGGET
+  material: nautilus_shell
   name: '&bOceanic Element'
   lore:
   - '&7The item is still wet.'
@@ -121,7 +121,7 @@ OCEANIC_ELEMENT:
   disable-crafting: true
   disable-smelting: true
 DIVINE_ELEMENT:
-  material: IRON_NUGGET
+  material: glowstone_dust
   name: '&eDivine Element'
   lore:
   - '&7The item emits seraphic aura.'
