@@ -10,7 +10,7 @@ Heal:
     level-scale: '8'
     cost-base: '2'
     cost-scale: '2'
-    cooldown-base: '6'
+    cooldown-base: '11'
     cooldown-scale: '3'
     mana-base: '16'
     mana-scale: '3'

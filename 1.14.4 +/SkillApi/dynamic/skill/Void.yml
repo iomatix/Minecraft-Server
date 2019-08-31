@@ -38,7 +38,7 @@ Void:
   - '&cSecond attack on the marked target spreads a &6void element.'
   - '&cThird attack on the marked target &6detonates the element &cand deals &6{attr:TrueDamage.value}&c,'
   - '&6{attr:MissHP.value}&6% &6missing health &cand &6{attr:TotalHP.value}&6% &6total health &cof the &6true damage.'
-  - '&6Marks  &6{attr:AreaMAX2.max} &6targets nearest to caster.'
+  - '&6Marks &6{attr:AreaMAX2.max} &6targets nearest to caster.'
   - '&cOnly &6one target &ccan be marked at the same time.'
   - '&cEvery attack stacks additional &6{attr:DamageVoid.value} &6void damage.'
   - '&cThe stack is detonated after &6{attr:Delay.delay}&6s.'
@@ -865,7 +865,7 @@ Void:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Delay'
                     counts: 'True'
                     delay-base: '3.25'
                     delay-scale: '0.15'
@@ -989,7 +989,7 @@ Void:
                       type: 'target'
                       indicator: '3D'
                       data: 
-                        icon-key: ''
+                        icon-key: 'AreaMAX2'
                         radius-base: '4'
                         radius-scale: '2'
                         group: 'Enemy'
@@ -2508,7 +2508,7 @@ Void:
                     counts: 'True'
                     status: 'Stun'
                     duration-base: '0.5'
-                    duration-scale: '0.15'
+                    duration-scale: '0.33'
                     indicator: '2D'
                   children:  {}
                 Status-rg: 
