@@ -67,7 +67,7 @@ GREEN_IH:
   gem-color: GREEN
   max-health: 45.0
   regeneration: 1.0
-  knockback-resistance: 1.0
+  knockback-resistance: 0.05
   advanced-craft:
     '0':
       material: AIR
@@ -232,7 +232,7 @@ BLUE_IH:
   disable-enchanting: true
   disable-repairing: true
   gem-color: BLUE
-  movement-speed: 0.5
+  movement-speed: 0.001
   dodge-cooldown-reduction: 1.0
   dodge-rating: 1.0
   advanced-craft:
@@ -333,7 +333,7 @@ BLUE_ID:
   name: '&bSmall Blue Gem of Damage'
   lore:
   - '&7Tier I'
-  displayed-type: 'Tier I'
+  displayed-type: Tier I
   enchants:
     fire_protection: 1
   hide-enchants: true
@@ -400,7 +400,7 @@ GREEN_IIH:
   gem-color: GREEN
   max-health: 125
   regeneration: 3
-  knockback-resistance: 3
+  knockback-resistance: 0.1
   advanced-craft:
     '0':
       material: AIR
@@ -565,7 +565,7 @@ BLUE_IIH:
   disable-enchanting: true
   disable-repairing: true
   gem-color: BLUE
-  movement-speed: 1.0
+  movement-speed: 0.003
   dodge-cooldown-reduction: 3.0
   dodge-rating: 3.0
   critical-strike-chance: 1.5
@@ -734,7 +734,7 @@ GREEN_IIIH:
   gem-color: GREEN
   max-health: 245
   regeneration: 6
-  knockback-resistance: 6
+  knockback-resistance: 0.2
   advanced-craft:
     '0':
       material: AIR
@@ -899,7 +899,7 @@ BLUE_IIIH:
   disable-enchanting: true
   disable-repairing: true
   gem-color: BLUE
-  movement-speed: 1.35
+  movement-speed: 0.006
   dodge-cooldown-reduction: 5.0
   dodge-rating: 4.5
   critical-strike-chance: 3.5

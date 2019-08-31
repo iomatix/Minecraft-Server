@@ -11,14 +11,13 @@ ability:
   ignite: Ignite
   sparkle: Sparkle
   tnt-throw: TNT Throw
-  rain-of-arrows: Rain of Arrows
   earthquake: Earthquake
   stun: Stun
   holy-missile: Holy Missile
   black-hole: Black Hole
-  throw-up: Throw Up
-  circular-slash: Circular Slash
   cursed-beam: Cursed Beam
+  circular-slash: Circular Slash
+  throw-up: Throw Up
   slow: Slow
   thrust: Thrust
   heavy-charge: Heavy Charge
@@ -29,15 +28,14 @@ ability:
   frog-mode: Frog Mode
   regen-ally: Regen Ally
   lightning-beam: Lightning Beam
-  death-mark: Death Mark
   confuse: Confuse
+  death-mark: Death Mark
   shulker-missile: Shulker Missile
   contamination: Contamination
   heal: Heal
   corrosion: Corrosion
   leap: Leap
   explosive-turkey: Explosive Turkey
-  hoearthquake: Hoearthquake
   burn: Burn
   starfall: Starfall
   wither: Wither
@@ -47,8 +45,8 @@ ability:
   snowman-turret: Snowman Turret
   corrupt: Corrupt
   arcane-hail: Arcane Hail
-  firebolt: Firebolt
   grand-heal: Grand Heal
+  firebolt: Firebolt
   magical-path: Magical Path
   life-ender: Life Ender
   swiftness: Swiftness

@@ -139,3 +139,176 @@ DIAMOND:
     - '  &7[3] +25% Parry Rating'
     - '  &7[3] +10% Block Power'
     - '  &7[4] +5% Damage Reduction'
+DEMONIC:
+    name: '&4Demonic Set'
+    bonuses:
+        '4':
+            speed: 1
+            block-rating: 10
+            block-power: 10
+            parry-rating: 20
+            dodge-rating: 30
+            dodge-cooldown-reduction: 10
+            block-cooldown-reduction: 10
+            parry-cooldown-reduction: 15
+            damage-reduction: 2
+            max-health: 260.0
+            regeneration: 10.0
+            critical-strike-chance: 12.0
+            critical-strike-power: 10.0
+            
+    lore-tag:
+    - '&4&nDemonic Set Bonus:'
+    - '  &7[4] Speed I'
+    - '  &7[4] +10% Block Rating'
+    - '  &7[4] +10% Block Power'
+    - '  &7[4] +20% Parry Rating'
+    - '  &7[4] +30% Dodge Rating'
+    - '  &7[4] +2% Damage Reduction'
+    - '  &7[4] +260 Max Health'
+    - '  &7[4] +10% Health Regeneration'
+    - '  &7[4] +12% Critical Strike Chance'
+    - '  &7[4] +10% Critical Strike Power'
+ETHERNAL:
+    name: '&1Ethernal Set'
+    bonuses:
+        '4':
+            speed: 0.003
+            block-rating: 5
+            block-power: 5
+            parry-rating: 5
+            dodge-rating: 65
+            dodge-cooldown-reduction: 25
+            block-cooldown-reduction: 5
+            parry-cooldown-reduction: 5
+            damage-reduction: 4
+            max-health: 130.0
+            regeneration: 6.0
+            critical-strike-chance: 12.0
+            critical-strike-power: 15.0
+            
+    lore-tag:
+    - '&1&nEthernal Set Bonus:'
+    - '  &7[4] +3% Speed'
+    - '  &7[4] +5% Block Rating'
+    - '  &7[4] +5% Block Power'
+    - '  &7[4] +5% Parry Rating'
+    - '  &7[4] +65% Dodge Rating'
+    - '  &7[4] +4% Damage Reduction'
+    - '  &7[4] +130 Max Health'
+    - '  &7[4] +6% Health Regeneration'
+    - '  &7[4] +12% Critical Strike Chance'
+    - '  &7[4] +15% Critical Strike Power'
+ANCIENT:
+    name: '&6Ancient Set'
+    bonuses:
+        '4':
+            block-rating: 35
+            block-power: 35
+            parry-rating: 10
+            dodge-rating: 3
+            dodge-cooldown-reduction: 3
+            block-cooldown-reduction: 25
+            parry-cooldown-reduction: 15
+            damage-reduction: 9
+            max-health: 480.0
+            regeneration: 20.0
+            critical-strike-chance: 3.0
+            critical-strike-power: 3.0
+            
+    lore-tag:
+    - '&6&nAncient Set Bonus:'
+    - '  &7[4] +35% Block Rating'
+    - '  &7[4] +35% Block Power'
+    - '  &7[4] +10% Parry Rating'
+    - '  &7[4] +3% Dodge Rating'
+    - '  &7[4] +9% Damage Reduction'
+    - '  &7[4] +480 Max Health'
+    - '  &7[4] +20% Health Regeneration'
+    - '  &7[4] +3% Critical Strike Chance'
+    - '  &7[4] +3% Critical Strike Power'
+CURSE:
+    name: '&5Cursed Set'
+    bonuses:
+        '1':
+            damage-reduction: -10
+        '4':
+            speed: 3
+            block-rating: 25
+            block-power: 20
+            parry-rating: 25
+            dodge-rating: 45
+            dodge-cooldown-reduction: 45
+            block-cooldown-reduction: 20
+            parry-cooldown-reduction: 35
+            critical-strike-chance: 33.0
+            critical-strike-power: 30.0
+    lore-tag:
+    - '&5&nCursed Set Penalty:'
+    - '  &7[1] +10% Damage Taken'
+    - '&5&nCursed Set Bonus:'
+    - '  &7[4] Speed III'
+    - '  &7[4] +25% Block Rating'
+    - '  &7[4] +20% Block Power'
+    - '  &7[4] +25% Parry Rating'
+    - '  &7[4] +45% Dodge Rating'
+    - '  &7[4] +33% Critical Strike Chance'
+    - '  &7[4] +30% Critical Strike Power'
+OCEANIC:
+    name: '&bOceanic Set'
+    bonuses:
+        '4':
+            block-rating: 25
+            block-power: 15
+            parry-rating: 25
+            dodge-rating: 10
+            dodge-cooldown-reduction: 10
+            block-cooldown-reduction: 10
+            parry-cooldown-reduction: 10
+            damage-reduction: 4
+            max-health: 550.0
+            regeneration: 20.0
+            critical-strike-chance: 5.0
+            critical-strike-power: 5.0
+            
+    lore-tag:
+    - '&b&nOceanic Set Bonus:'
+    - '  &7[4] +25% Block Rating'
+    - '  &7[4] +15% Block Power'
+    - '  &7[4] +25% Parry Rating'
+    - '  &7[4] +10% Dodge Rating'
+    - '  &7[4] +4% Damage Reduction'
+    - '  &7[4] +550 Max Health'
+    - '  &7[4] +20% Health Regeneration'
+    - '  &7[4] +5% Critical Strike Chance'
+    - '  &7[4] +5% Critical Strike Power'
+DIVINE:
+    name: '&eDivine Set'
+    bonuses:
+        '4':
+            speed: 2
+            block-rating: 13
+            block-power: 13
+            parry-rating: 30
+            dodge-rating: 8
+            dodge-cooldown-reduction: 10
+            block-cooldown-reduction: 10
+            parry-cooldown-reduction: 25
+            damage-reduction: 3
+            max-health: 280.0
+            regeneration: 12.0
+            critical-strike-chance: 10.0
+            critical-strike-power: 5.0
+            
+    lore-tag:
+    - '&e&nDivine Set Bonus:'
+    - '  &7[4] Speed II'
+    - '  &7[4] +13% Block Rating'
+    - '  &7[4] +13% Block Power'
+    - '  &7[4] +30% Parry Rating'
+    - '  &7[4] +8% Dodge Rating'
+    - '  &7[4] +3% Damage Reduction'
+    - '  &7[4] +280 Max Health'
+    - '  &7[4] +12% Health Regeneration'
+    - '  &7[4] +10% Critical Strike Chance'
+    - '  &7[4] +5% Critical Strike Power'

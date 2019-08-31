@@ -1,0 +1,86 @@
+ETHERNAL_TOME:
+  material: BOOK
+  max-durability: 75000.0
+  name: '&1Ethernal Tome'
+  enchants:
+    thorns: 1
+  hide-enchants: true
+  disable-interaction: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  magic-damage: 20.0
+  weapon-damage: 15.0
+  unbreakable: true
+  magic-damage-reduction: 10.0
+  damage-reduction: 2.5
+  physical-damage-reduction: 10.0
+  regeneration: 10.0
+  upgrade:
+    template: offhand-default
+    destroy: true
+    max: 12
+  block-rating: 10.0
+  block-cooldown-reduction: 10.0
+  block-power: 10.0
+  tier: ETHERNAL
+  set: ETHERNAL
+  armor: 33.0
+  max-health: 80.0
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - BLUE
+  - BLUE
+  knockback-resistance: 0.2
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      material: BOOK
+      amount: 1
+      name: ''
+    '3':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+  ability:
+    ability1:
+      type: BLIND
+      mode: WHEN_HIT
+      duration: 1.3
+      cooldown: 4.7
+    ability2:
+      type: CORRUPT
+      mode: WHEN_HIT
+      duration: 3.0
+      cooldown: 13.0
+      damage: 35.0

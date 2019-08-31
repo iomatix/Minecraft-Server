@@ -54,6 +54,9 @@ POTION_TINY:
       durability: 0
       amount: 1
       name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
 POTION_SMALL:
   material: POTION
   name: '&cSmall Health Potion'
@@ -111,6 +114,9 @@ POTION_SMALL:
       durability: 0
       amount: 1
       name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
 POTION_COMMON:
   material: POTION
   name: '&cCommon Potion'
@@ -168,6 +174,9 @@ POTION_COMMON:
       durability: 0
       amount: 1
       name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
 POTION:
   material: POTION
   name: '&cHealth Potion'
@@ -200,11 +209,6 @@ POTION:
       amount: 1
       durability: 0
       name: ''
-    '4':
-      material: POTION
-      amount: 1
-      durability: 0
-      name: ''
     '5':
       material: APPLE
       amount: 1
@@ -225,6 +229,13 @@ POTION:
       durability: 0
       amount: 1
       name: ''
+    '4':
+      material: POTION
+      amount: 1
+      name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
 POTION_MEDIUM:
   material: POTION
   name: '&cMedium Health Potion'
@@ -282,6 +293,9 @@ POTION_MEDIUM:
       durability: 0
       amount: 1
       name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
 POTION_LARGE:
   material: POTION
   name: '&cLarge Health Potion'
@@ -339,6 +353,9 @@ POTION_LARGE:
       durability: 0
       amount: 1
       name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
 POTION_EPIC:
   material: POTION
   name: '&cEpic Health Potion'
@@ -377,7 +394,7 @@ POTION_EPIC:
       durability: 0
       name: ''
     '5':
-      material: SPECKLED_MELON
+      material: GLISTERING_MELON_SLICE
       amount: 1
       durability: 0
       name: ''
@@ -396,6 +413,9 @@ POTION_EPIC:
       durability: 0
       amount: 1
       name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
 ROCK:
   material: COBBLESTONE
   name: '&fRock'
@@ -451,9 +471,10 @@ FIREBALL_SCROLL_III:
   ability:
     right-click:
       type: FIREBOLT
-      damage: 38.0
-      cooldown: 0.0
-      ignite: 7.5
+      damage: 38.5
+      cooldown: 1.75
+      ignite: 8.5
+      mode: RIGHT_CLICK
   name: '&cFireball Scroll III'
   advanced-craft-enabled: true
   advanced-craft:
@@ -502,6 +523,10 @@ FIREBALL_SCROLL_III:
       durability: 0
       amount: 1
       name: ''
+  item-cooldown: 1.5
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
 REPAIR_KIT:
   material: ANVIL
   name: '&6Repair Kit'
@@ -619,8 +644,11 @@ REPAIR_KIT_LEGENDARY:
       durability: 0
       amount: 1
       name: ''
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
 ITEM_BREAKER:
-  material: STONE_AXE
+  material: WHITE_DYE
   required-level: 3.0
   can-deconstruct: true
   name: '&6Item Breaker'
@@ -677,8 +705,13 @@ ITEM_BREAKER:
       durability: 0
       amount: 1
       name: ''
+  disable-interaction: true
+  disable-right-click-consume: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
 IDENT_SCROLL:
-  material: PAPER
+  material: MOJANG_BANNER_PATTERN
   name: '&6Scroll of Identification'
   tier: '&8Uncommon'
   can-identify: true
@@ -717,11 +750,6 @@ IDENT_SCROLL:
       amount: 1
       durability: 0
       name: ''
-    '4':
-      material: Diamond
-      amount: 1
-      durability: 0
-      name: ''
     '5':
       material: PAPER
       amount: 1
@@ -742,3 +770,516 @@ IDENT_SCROLL:
       durability: 0
       amount: 1
       name: ''
+    '4':
+      material: EMERALD
+      amount: 1
+      name: ''
+  disable-right-click-consume: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+SMALL_UPGRADE_ESSENCE:
+  material: IRON_NUGGET
+  name: '&6Small Upgrading Essence'
+  lore:
+  - '&6Drag and drop on item to upgrade it with 35% chance.'
+  - '&cIf upgrade fails item will be destroyed.'
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  upgrade:
+    success: 35.0
+  repair: 30000.0
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: UNCOMMON_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '5':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '1':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '7':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '6':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '0':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '8':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '2':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+  inedible: true
+  disable-right-click-consume: true
+UPGRADE_ESSENCE:
+  material: GHAST_TEAR
+  name: '&6Upgrading Essence'
+  lore:
+  - '&6Drag and drop on item to upgrade it with 45% chance.'
+  - '&cIf upgrade fails item will be destroyed.'
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  upgrade:
+    success: 45.0
+  repair: 30000.0
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '5':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '1':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '7':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '6':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '0':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '8':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '2':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+  inedible: true
+  disable-right-click-consume: true
+BETTER_UPGRADE_ESSENCE:
+  material: GOLD_NUGGET
+  name: '&6Better Upgrading Essence'
+  lore:
+  - '&6Drag and drop on item to upgrade it with 60% chance.'
+  - '&cIf upgrade fails item will be destroyed.'
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  upgrade:
+    success: 60.0
+  repair: 30000.0
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '5':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '1':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '7':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '6':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '0':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '8':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+    '2':
+      material: IRON_NUGGET
+      amount: 1
+      name: ''
+  inedible: true
+  disable-right-click-consume: true
+LEGENDARY_UPGRADE_ESSENCE:
+  material: GOLD_INGOT
+  name: '&6Legendary Upgrading Essence'
+  lore:
+  - '&6Drag and drop on item to upgrade it with 75% chance.'
+  - '&cIf upgrade fails item will be destroyed.'
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  upgrade:
+    success: 75.0
+  repair: 30000.0
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '5':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '1':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '7':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '6':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '0':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '8':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '2':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+  inedible: true
+  disable-right-click-consume: true
+MYTHIC_UPGRADE_ESSENCE:
+  material: FIRE_CHARGE
+  name: '&6Mythic Upgrading Essence'
+  lore:
+  - '&6Drag and drop on item to upgrade it with 85% chance.'
+  - '&cIf upgrade fails item will be destroyed.'
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  upgrade:
+    success: 85.0
+  repair: 30000.0
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '5':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '1':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '7':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '6':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '0':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '8':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+    '2':
+      material: GOLD_NUGGET
+      amount: 1
+      name: ''
+  inedible: true
+  disable-right-click-consume: true
+UNIQUE_UPGRADE_ESSENCE:
+  material: end_crystal
+  name: '&6Unique Upgrading Essence'
+  lore:
+  - '&6Drag and drop on item to upgrade it with 90% chance.'
+  - '&cIf upgrade fails item will be destroyed.'
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  upgrade:
+    success: 90.0
+  repair: 30000.0
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '5':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '1':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '7':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '6':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '0':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '8':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '2':
+      material: DIAMOND
+      amount: 1
+      name: ''
+  inedible: true
+  disable-right-click-consume: true
+BEST_UPGRADE_ESSENCE:
+  material: QUARTZ
+  name: '&6Mysterious Upgrading Essence'
+  lore:
+  - '&6Drag and drop on item to upgrade it with 97% chance.'
+  - '&cIf upgrade fails item will be destroyed.'
+  disable-crafting: true
+  disable-interaction: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  upgrade:
+    success: 97
+  repair: 30000.0
+  advanced-craft:
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '0':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+    '8':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+  inedible: true
+  disable-right-click-consume: true
+SOULCONNECTOR:
+  material: WITHER_ROSE
+  name: '&6Souls Connector'
+  lore:
+  - '&6Drag and drop on item to bind it to your soul.'
+  soulbound-level: 1.0
+  soulbinding-chance: 75.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 28.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      type: MISCELLANEOUS
+      id: GOLD_COIN
+      amount: 1
+    '3':
+      material: PAPER
+      amount: 1
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      name: ''
+    '1':
+      material: PAPER
+      amount: 1
+      name: ''
+    '7':
+      material: PAPER
+      amount: 1
+      name: ''
+  upgrade: {}
+SOULBREAKER:
+  material: LANTERN
+  name: '&6Souls Breaker'
+  lore:
+  - '&6Drag and drop on item to unbind it from the soul.'
+  soulbound-level: 1.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 28.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      name: ''
+    '1':
+      material: PAPER
+      amount: 1
+      name: ''
+    '7':
+      material: PAPER
+      amount: 1
+      name: ''
+    '4':
+      type: CONSUMABLE
+      id: SOULCONNECTOR
+      amount: 1
+  upgrade: {}
+  soulbound-break-chance: 45.0

@@ -1,0 +1,83 @@
+DEMONIC_TSWORD:
+  material: STONE_SWORD
+  upgrade:
+    template: sword-default
+    destroy: true
+    max: 12
+  max-durability: 75000.0
+  name: '&4Demonic Sword'
+  enchants:
+    fire_aspect: 3
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  attack-damage: 242.0
+  attack-speed: 1.39
+  critical-strike-chance: 55.0
+  critical-strike-power: 180.0
+  parry-rating: 10.0
+  parry-cooldown-reduction: 10.0
+  unbreakable: true
+  tier: DEMONIC
+  set: DEMONIC
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: AIR
+      amount: 1
+      name: ''
+    '5':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      name: ''
+    '4':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+  element:
+    fire:
+      damage: 40.0
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  - GREEN
+  ability:
+    ability1:
+      type: THRUST
+      mode: ON_HIT
+      damage: 35.0
+      cooldown: 12.0
+    ability2:
+      type: FIREBOLT
+      mode: SHIFT_LEFT_CLICK
+      damage: 40.0
+      ignite: 4.5
+      cooldown: 9.5
+  custom-model-data: 8.0

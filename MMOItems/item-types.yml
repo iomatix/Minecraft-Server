@@ -32,7 +32,7 @@ SWORD:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 DAGGER:
-    display: IRON_SWORD
+    display: STONE_SWORD:102
     name: 'Dagger'
     unident-item:
         name: '&f#prefix#Unidentified Dagger'
@@ -45,7 +45,7 @@ DAGGER:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 SPEAR:
-    display: STICK
+    display: TRIDENT:1
     name: 'Spear'
     unident-item:
         name: '&f#prefix#Unidentified Spear'
@@ -58,7 +58,7 @@ SPEAR:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 HAMMER:
-    display: IRON_SHOVEL
+    display: IRON_SHOVEL:0
     name: 'Hammer'
     unident-item:
         name: '&f#prefix#Unidentified Hammer'
@@ -97,7 +97,7 @@ WHIP:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 STAFF:
-    display: STICK
+    display: STICK:1
     name: 'Staff'
     unident-item:
         name: '&f#prefix#Unidentified Staff'
@@ -110,7 +110,7 @@ STAFF:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 BOW:
-    display: BOW
+    display: BOW:11
     name: 'Bow'
     unident-item:
         name: '&f#prefix#Unidentified Bow'
@@ -123,7 +123,7 @@ BOW:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 CROSSBOW:
-    display: WOODEN_PICKAXE
+    display: CROSSBOW
     name: 'Crossbow'
     unident-item:
         name: '&f#prefix#Unidentified Crossbow'
@@ -162,7 +162,7 @@ LUTE:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 CATALYST:
-    display: DIAMOND
+    display: WHITE_DYE:0
     name: 'Catalyst'
     unident-item:
         name: '&f#prefix#Unidentified Catalyst'
@@ -175,7 +175,7 @@ CATALYST:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 OFF_CATALYST:
-    display: DIAMOND
+    display: WHITE_DYE:0
     name: 'Catalyst'
     unident-item:
         name: '&f#prefix#Unidentified Catalyst'
@@ -201,7 +201,7 @@ ACCESSORY:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 ARMOR:
-    display: GOLDEN_CHESTPLATE
+    display: IRON_CHESTPLATE:0
     name: 'Armor'
     unident-item:
         name: '&f#prefix#Unidentified Armor'
@@ -214,7 +214,7 @@ ARMOR:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 TOOL:
-    display: IRON_PICKAXE
+    display: IRON_PICKAXE:0
     name: 'Tool'
     unident-item:
         name: '&f#prefix#Unidentified Tool'
@@ -227,7 +227,7 @@ TOOL:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 CONSUMABLE:
-    display: POTION
+    display: POTION:0
     name: 'Consumable'
     unident-item:
         name: '&f#prefix#Unidentified Consumable'
@@ -240,7 +240,7 @@ CONSUMABLE:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 MISCELLANEOUS:
-    display: GOLD_NUGGET
+    display: GOLD_NUGGET:0
     name: 'Miscellaneous'
     unident-item:
         name: '&f#prefix#Unidentified Misc Item'
@@ -253,7 +253,7 @@ MISCELLANEOUS:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 GEM_STONE:
-    display: EMERALD
+    display: EMERALD:0
     name: 'Gem Stone'
     unident-item:
         name: '&f#prefix#Unidentified Gem'
@@ -267,7 +267,7 @@ GEM_STONE:
 
 # Default subtypes
 GREATSWORD:
-    display: IRON_SWORD
+    display: IRON_SWORD:3
     name: 'Greatsword'
     parent: 'SWORD'
     unident-item:
@@ -281,7 +281,7 @@ GREATSWORD:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 LONG_SWORD:
-    display: IRON_SWORD:0
+    display: IRON_SWORD:10
     name: 'Long Sword'
     parent: 'SWORD'
     unident-item:
@@ -309,7 +309,7 @@ KATANA:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 THRUSTING_SWORD:
-    display: IRON_SWORD
+    display: STONE_SWORD:8
     name: 'Thrusting Sword'
     parent: 'DAGGER'
     unident-item:
@@ -323,7 +323,7 @@ THRUSTING_SWORD:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 AXE:
-    display: IRON_AXE
+    display: IRON_AXE:0
     name: 'Axe'
     parent: 'SWORD'
     unident-item:
@@ -337,7 +337,7 @@ AXE:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 GREATAXE:
-    display: IRON_AXE
+    display: IRON_AXE:3
     name: 'Greataxe'
     parent: 'SWORD'
     unident-item:
@@ -351,7 +351,7 @@ GREATAXE:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 HALBERD:
-    display: IRON_AXE
+    display: IRON_HOE:1
     name: 'Halberd'
     parent: 'SWORD'
     unident-item:
@@ -365,7 +365,7 @@ HALBERD:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 LANCE:
-    display: STICK
+    display: TRIDENT:6
     name: 'Lance'
     parent: 'SPEAR'
     unident-item:
@@ -379,7 +379,7 @@ LANCE:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 GREATHAMMER:
-    display: IRON_AXE
+    display: IRON_AXE:0
     name: 'Greathammer'
     parent: 'HAMMER'
     unident-item:
@@ -393,7 +393,7 @@ GREATHAMMER:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 GREATSTAFF:
-    display: STICK
+    display: STICK:2
     name: 'Greatstaff'
     parent: 'HAMMER'
     unident-item:
@@ -421,7 +421,7 @@ STAVE:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 TOME:
-    display: BOOK
+    display: BOOK:0
     name: 'Tome'
     parent: 'CATALYST'
     unident-item:
@@ -463,7 +463,7 @@ WAND:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
 
 GREATBOW:
-    display: BOW
+    display: BOW:1
     name: 'Greatbow'
     parent: 'BOW'
     unident-item:
@@ -477,7 +477,7 @@ GREATBOW:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 SHIELD:
-    display: SHIELD
+    display: SHIELD:0
     name: 'Shield'
     parent: CATALYST
     unident-item:
@@ -491,7 +491,7 @@ SHIELD:
         - '{tier}&8- &7Item Tier: #prefix##tier#'
     
 MATERIAL:
-    display: PAPER
+    display: PAPER:0
     name: 'Material'
     parent: 'MISCELLANEOUS'
     unident-item:

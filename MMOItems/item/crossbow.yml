@@ -1,0 +1,901 @@
+LVL_16_CROSSBOW:
+  material: Crossbow
+  name: '&fShort Crossbow'
+  tier: COMMON
+  lore:
+  - '&fShort Crossbow.'
+  gem-sockets: 0.0
+  required-level: 16.0
+  attack-damage: 40.0
+  critical-strike-chance: 10.0
+  critical-strike-power: 125.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: COBBLESTONE
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 185.0=350.0
+  will-break: false
+  unbreakable: true
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  arrow-velocity: 0.65
+  attack-speed: 0.1
+  custom-model-data: 1.0
+LVL_24_CROSSBOW:
+  material: Crossbow
+  name: '&fCommon Crossbow'
+  tier: COMMON
+  lore:
+  - '&7Common Crossbow.'
+  required-level: 24.0
+  attack-damage: 60.0
+  critical-strike-chance: 15.0
+  critical-strike-power: 135.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: IRON_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 355.0=500.0
+  will-break: false
+  unbreakable: true
+  gem-sockets:
+  - BLUE
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  arrow-velocity: 0.85
+  attack-speed: 0.1
+  custom-model-data: 2.0
+LVL_36_CROSSBOW:
+  material: Crossbow
+  name: '&fLong Crossbow'
+  tier: UNCOMMON
+  lore:
+  - '&8Golden Crossbow.'
+  required-level: 36.0
+  attack-damage: 85.0
+  critical-strike-chance: 20.0
+  critical-strike-power: 145.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: GOLD_INGOT
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 555.0=780.0
+  will-break: false
+  unbreakable: true
+  gem-sockets:
+  - BLUE
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  arrow-velocity: 1.25
+  attack-speed: 0.1
+  custom-model-data: 3.0
+LVL_48_CROSSBOW:
+  material: CROSSBOW
+  name: '&6Composite Crossbow'
+  tier: RARE
+  lore:
+  - '&6Composite Crossbow.'
+  required-level: 48.0
+  attack-damage: 100.0
+  critical-strike-chance: 30.0
+  critical-strike-power: 155.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: DIAMOND
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 900.0=1500.0
+  will-break: false
+  unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  arrow-velocity: 1.45
+  attack-speed: 0.1
+  custom-model-data: 4.0
+UP_LVL_48_CROSSBOW:
+  material: CROSSBOW
+  name: '&eUpgraded Composite Crossbow'
+  tier: VERY_RARE
+  lore:
+  - '&eUpgraded Composite Crossbow.'
+  required-level: 48.0
+  attack-damage: 115.0
+  critical-strike-chance: 35.0
+  critical-strike-power: 165.0
+  two-handed: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: CROSSBOW
+      id: LVL_48_CROSSBOW
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 1300.0=2200.0
+  will-break: false
+  unbreakable: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  arrow-velocity: 1.5
+  attack-speed: 0.1
+  custom-model-data: 4.0
+DRAGONFIRE_CROSSBOW:
+  material: CROSSBOW
+  name: '&4Dragonfire'
+  tier: EPIC
+  lore:
+  - '&4Crossbow blessed by ancient dragons.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    flame: 1
+    multishot: 1
+  element:
+    damage:
+      Fire: 33.0
+    fire:
+      damage: 25.0
+  ability:
+    on-hit:
+      type: LIFE_ENDER
+      cooldown: 11.0
+      damage: 25.0
+      radius: 3
+      knockback: 1
+      mode: ON_HIT
+    right-click:
+      type: BURN
+      mode: ON_HIT
+      cooldown: 6.0
+  two-handed: true
+  required-level: 56.0
+  attack-damage: 152.0
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: EPIC_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    template: bow-default
+    max: 12
+    destroy: true
+  arrow-velocity: 1.65
+  attack-speed: 0.1
+  custom-model-data: 7.0
+ULT_DRAGONFIRE_CROSSBOW:
+  material: CROSSBOW
+  name: '&cUltimate Dragonfire'
+  tier: UNIQUE
+  lore:
+  - '&cCrossbow blessed by ancient dragons.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    flame: 1
+    multishot: 1
+  element:
+    damage:
+      Fire: 40.0
+    fire:
+      damage: 30.0
+  ability:
+    on-hit:
+      type: LIFE_ENDER
+      cooldown: 8.7
+      damage: 32.0
+      radius: 5
+      knockback: 2
+      mode: ON_HIT
+    ability1:
+      type: IGNITE
+      duration: 3.0
+      cooldown: 8.0
+      radius: 2.35
+      mode: ON_HIT
+  two-handed: true
+  required-level: 58.0
+  attack-damage: 180.0
+  critical-strike-chance: 45.0
+  critical-strike-power: 170.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: STICK
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 75000.0
+  will-break: false
+  unbreakable: true
+  arrow-particles:
+    particle: FLAME
+    amount: 2
+    speed: 0.07
+    offset: -0.25
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  arrow-velocity: 1.76
+  attack-speed: 0.1
+  custom-model-data: 5.0
+DWARF_CROSSBOW:
+  material: CROSSBOW
+  name: '&cDwarfen Crossbow'
+  tier: UNIQUE
+  lore:
+  - '&cCrossbow owned by ancient Dwarfen King.'
+  - '&cUltimate weapon.'
+  hide-enchants: true
+  disable-enchanting: true
+  enchants:
+    piercing: 3
+    quick_charge: 2
+  two-handed: true
+  required-level: 62.0
+  attack-damage: 210.5
+  critical-strike-chance: 50.0
+  critical-strike-power: 170.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '3':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '8':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+  max-durability: 75000.0
+  will-break: false
+  unbreakable: true
+  arrow-particles:
+    particle: SMOKE_LARGE
+    amount: 1
+    speed: 0.07
+    offset: -0.25
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    destroy: true
+    template: bow-default
+    max: 12
+  arrow-velocity: 1.8
+  attack-speed: 0.1
+  custom-model-data: 6.0
+ANCIENT_CROSSBOW:
+  material: CROSSBOW
+  max-durability: 75000.0
+  name: '&6Ancient Crossbow'
+  enchants:
+    piercing: 4
+    quick_charge: 2
+  hide-enchants: true
+  arrow-particles:
+    particle: DRIP_LAVA
+    offset: -0.25
+    amount: 2
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  attack-damage: 240.0
+  critical-strike-chance: 50.0
+  critical-strike-power: 175.0
+  movement-speed: -0.025
+  arrow-velocity: 2.0
+  two-handed: true
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      name: ''
+    '0':
+      material: STICK
+      amount: 1
+      name: ''
+    '2':
+      material: STICK
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: ANCIENT_ESSENCE
+      amount: 1
+    '3':
+      material: STRING
+      amount: 1
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      name: ''
+  element:
+    thunder:
+      damage: 25.0
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - BLUE
+  - BLUE
+  upgrade:
+    max: 12
+    template: bow-default
+    destroy: true
+  ability:
+    ability1:
+      type: SHOCK
+      mode: ON_HIT
+      duration: 8.5
+      cooldown: 8.5
+    ability2:
+      type: LIGHTNING_BEAM
+      mode: ON_HIT
+      damage: 30.0
+      cooldown: 12.0
+      radius: 1.7
+  attack-speed: 0.1
+  unbreakable: true
+  set: ANCIENT
+  tier: ANCIENT
+  custom-model-data: 13.0
+OCEANIC_CROSSBOW:
+  material: CROSSBOW
+  name: '&bOceanic Crossbow'
+  element:
+    water:
+      damage: 35.0
+    ice:
+      damage: 5.0
+  arrow-particles:
+    particle: CLOUD
+    speed: 0.03
+    offset: -0.25
+    amount: 2
+  max-durability: 75000.0
+  enchants:
+    depth_strider: 3
+    quick_charge: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  attack-damage: 247.0
+  attack-speed: 0.1
+  critical-strike-chance: 55.0
+  critical-strike-power: 170.0
+  arrow-velocity: 1.9
+  unbreakable: true
+  tier: OCEANIC
+  set: OCEANIC
+  movement-speed: -0.01
+  two-handed: true
+  upgrade:
+    max: 12
+    template: bow-default
+    destroy: true
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  - GREEN
+  ability:
+    ability1:
+      type: SLOW
+      mode: ON_HIT
+      cooldown: 4.5
+      duration: 3.5
+      amplifier: 3.0
+    ability2:
+      type: FREEZE
+      mode: ON_HIT
+      duration: 0.65
+      cooldown: 5.5
+      radius: 3.5
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      name: ''
+    '0':
+      material: STICK
+      amount: 1
+      name: ''
+    '2':
+      material: STICK
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: OCEANIC_ESSENCE
+      amount: 1
+  custom-model-data: 8.0
+DIVINE_CROSSBOW:
+  material: CROSSBOW
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: DIVINE_ESSENCE
+      amount: 1
+    '0':
+      material: STICK
+      amount: 1
+      name: ''
+    '2':
+      material: STICK
+      amount: 1
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      name: ''
+    '5':
+      material: STRING
+      amount: 1
+      name: ''
+    '4':
+      material: TRIPWIRE_HOOK
+      amount: 1
+      name: ''
+  max-durability: 75000.0
+  unbreakable: true
+  name: '&eDivine Crossbow'
+  enchants:
+    fire_protection: 1
+    quick_charge: 3
+    multishot: 4
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+  arrow-particles:
+    particle: END_ROD
+    amount: 2
+    speed: 0.05
+    offset: -0.25
+  hide-enchants: true
+  attack-speed: 0.11
+  attack-damage: 263.0
+  required-level: 136.0
+  critical-strike-chance: 55.0
+  critical-strike-power: 172.0
+  arrow-velocity: 1.87
+  undead-damage: 30.0
+  tier: DIVINE
+  set: DIVINE
+  regeneration: 5.0
+  two-handed: true
+  element:
+    earth:
+      damage: 10.0
+    fire:
+      damage: 15.0
+    thunder:
+      damage: 10.0
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - GREEN
+  - GREEN
+  upgrade:
+    max: 12
+    template: bow-default
+    destroy: true
+  ability:
+    ability1:
+      type: CONFUSE
+      mode: ON_HIT
+      cooldown: 7.5
+    ability2:
+      type: IGNITE
+      cooldown: 15.0
+      duration: 8.5
+      radius: 4.75
+      mode: ON_HIT
+    ability3:
+      type: BOUNCY_FIREBALL
+      mode: SHIFT_LEFT_CLICK
+      damage: 60.0
+      radius: 4.2
+      cooldown: 15.7
+      ignite: 5.5
+      speed: 1.0
+  custom-model-data: 12.0

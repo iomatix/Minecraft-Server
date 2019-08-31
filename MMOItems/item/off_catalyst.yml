@@ -1,0 +1,87 @@
+CURSE_CATALYST:
+  material: TOTEM_OF_UNDYING
+  disable-interaction: true
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  enchants:
+    thorns: 1
+  hide-enchants: true
+  name: '&5Cursed Catalyst'
+  max-durability: 75000.0
+  critical-strike-chance: 15.0
+  critical-strike-power: 15.0
+  dodge-rating: 15.0
+  parry-rating: 15.0
+  weapon-damage: 20.0
+  magic-damage: 25.0
+  regeneration: 25.0
+  unbreakable: true
+  tier: CURSED
+  set: CURSE
+  max-health: 38.0
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '3':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: CURSED_ESSENCE
+      amount: 1
+    '4':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+  element:
+    earth:
+      damage: 25.0
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - GREEN
+  - BLUE
+  ability:
+    ability1:
+      type: VAMPIRISM
+      mode: ON_HIT
+      cooldown: 0.3
+      drain: 45.0
+    ability2:
+      type: CORRUPT
+      duration: 3.5
+      cooldown: 15.0
+      amplifier: 4.0
+      damage: 30.0
+      mode: WHEN_HIT
+  upgrade:
+    max: 12
+    template: offhand-default
+    destroy: true
+  magic-damage-reduction: 30.0

@@ -1,0 +1,1679 @@
+ARMOR:
+  ETHERNAL_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 18b8318a-de6f-4dce-bc67-b7fec0fb7877
+  LVL_7_LEATHER_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 9a0c2e80-c58e-4417-aa8f-14552680e7e7
+  LVL_34_GOLD_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 0dcb3c4f-e77a-481c-98ef-4acb4bcd3b36
+  OCEANIC_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 5b92f232-c7e3-4cbd-893c-21e2c54c08e0
+  ANCIENT_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e76c078d-e311-4353-896a-b24f82791e68
+  CURSE_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c78e6214-1f61-4865-a549-fc994adfe47d
+  LVL_48_DIAMOND_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 4b018073-6c8a-4b06-a169-d0645c14ea60
+  LVL_34_GOLD_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 65e6890a-20af-4f9f-b37e-05634b21f92f
+  LVL_34_GOLD_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 9c160360-ce80-4aa8-b4a0-ca0d0e673215
+  LVL_7_LEATHER_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 597bfa3c-9df2-4664-84c5-eebeb09022f2
+  LVL_25_IRON_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 13174ce3-f2ec-4f37-a90f-e24b9532ed8f
+  ETHERNAL_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: ba2520b5-4277-4947-a31f-bc951c95d6b0
+  LVL_48_DIAMOND_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 5752adc7-3db3-4ace-a382-4e4d80a18471
+  OCEANIC_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 5360c288-0cec-49a5-a3e0-a30a81c891a8
+  LVL_7_LEATHER_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6910207f-17c5-486a-93fd-4af7ddf9978f
+  LVL_16_IRON_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 330e5355-b123-4c71-a784-809e71ceb8fa
+  DEMONIC_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 11c8692e-42c4-4bd3-9d4a-be194c8c4b6a
+  LVL_25_IRON_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3c92ed1f-f0a7-46e7-82fa-744e92537cec
+  DIVINE_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d57cd77e-27ba-4d4c-ba16-ea560eedd081
+  LVL_25_IRON_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: fac8c528-a2fd-4695-a981-6a304e227c4e
+  CURSE_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: ba0ba573-d9f4-4b4d-8135-c0932b6b8d1a
+  DEMONIC_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: fb5a8647-019a-40db-ae92-11224b422dba
+  OCEANIC_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 13bf5c3b-d5dd-4553-9c76-8f2454066a16
+  ETHERNAL_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: cca795c6-ec0f-4363-beb9-7a589cfdd81f
+  OCEANIC_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: fce7c616-3776-47e4-ab97-3a89259f86b0
+  DIVINE_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: fadf214c-e968-46bb-ba70-86c148ad92fe
+  ETHERNAL_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 9f0bacbd-7ccf-4e8a-9525-ca807ceda6c4
+  LVL_16_IRON_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d1f0bda9-8e81-44ef-97e6-051907d57380
+  LVL_48_DIAMOND_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d0dd63db-0faf-4dbc-b01f-aaf949354cab
+  DIVINE_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: be573e52-6e2d-4ad8-a168-7e478afdc29e
+  LVL_25_IRON_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: a7aba65b-1c87-4665-87d7-36df4ae684a9
+  ANCIENT_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 66f1c33a-adc0-4240-9576-d937f8325181
+  DEMONIC_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 0eb35694-0b85-4fc8-802f-31a77ee03f14
+  LVL_34_GOLD_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 01bf9ac3-fc7c-44d6-9c40-9f4e9ccfea8e
+  DIVINE_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 223e7001-053a-465f-967a-91a677e412c7
+  LVL_7_LEATHER_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: a913bd43-b6d7-4358-919c-f8c36d84bee0
+  DEMONIC_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e2417b38-7acb-4aad-b42f-ab2616b519eb
+  ANCIENT_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 88e1f9d9-3da9-4550-908b-c005ee93798a
+  LVL_16_IRON_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 0dbdfc3b-7488-4527-9f16-cbff39eb5179
+  ANCIENT_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 92c3ad34-47a2-49b0-b662-7579bd621295
+  LVL_48_DIAMOND_BOOTS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 14285c49-478f-4087-8d12-fac0c488c616
+  CURSE_CHESTPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 8c76ce55-23a7-4fe3-a4de-f5eb7be1c473
+  LVL_16_IRON_LEGGINGS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 5453d3cc-d6c9-49fa-b063-9e8ff2b0aa0c
+  CURSE_HELMET:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 347eefb9-4b34-40e6-af48-17fad760816e
+THRUSTING_SWORD:
+  DEMONIC_TSWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 64c76f33-7092-4bf5-8a47-6cf24fa59fdc
+MISCELLANEOUS:
+  DIVINE_ELEMENT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 29226d71-f31d-4064-aa61-2b67c83ff999
+  DEMONIC_ELEMENT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7e3266ed-3af7-4678-b7a7-ae23ef39bcdb
+  CURSED_ELEMENT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 09aaf640-b167-4a41-b09d-0254bd7dbb89
+  SOUL_ELEMENT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 799ea007-a020-419b-ad71-f91bd053e42a
+  MAGIC_TEAR:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c2c601bc-4f0f-4bd3-a561-b2bdd82f6f3f
+  SILVER_COIN:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c822c4ff-03c6-4f2a-899f-76ddf6e31659
+  ANCIENT_ELEMENT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3685b7c7-b58a-4644-8cd2-8aef6675c2ae
+  OCEANIC_ELEMENT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b9f6f2f8-d89f-4964-8d27-a2541a5fae85
+  GOLD_COIN:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 2dff52b3-fc0b-4b58-926a-ea25c8001b51
+SWORD:
+  MOONBLADE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 8330824a-9d5e-4bf1-a934-61f0c15adfcf
+  ULT_FLAMETONGUE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 365f0d4d-aeb7-4e19-afb1-8a049402acfe
+  DIVINEDIVIDER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 9e23e29f-6a6a-444c-a37c-0c60fd14c8f6
+  ULT_MOONBLADE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 974dc333-92b2-42ea-9626-f6272eb17b2c
+  LVL_34_SWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 39f507c1-c3e5-4760-a167-efc3d92e8822
+  VALERIANSWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 13fc0e16-4e93-47d7-90dc-098b868bb71d
+  OATHBREAKER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 71ca0a1f-bacf-48e7-9689-421ff93a17a5
+  ULT_SEETHE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 8bb87557-c583-42da-8496-45dc6d7c0eba
+  LVL_48_SWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 34665ad8-c052-4327-ba71-2134893cfd3c
+  FLAMETONGUE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6af42826-a04c-4b36-8df7-bd6cf0bb7bf9
+  LVL_16_SWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6a5e1ad0-e7c7-446f-9431-bebad0e2e36c
+  ULT_OATHBREAKER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d66d2840-ba02-4bf7-9372-0426a751a181
+  UP_LVL_48_SWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 72d137b3-7b89-442f-a0c6-b0a7a3e6d03c
+  SEETHE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: fee6aa18-7e8e-4828-b707-7e362913c52c
+  LVL_7_SWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 23a2d084-9f4a-4512-acfe-b7e43ba2e8e0
+  LVL_25_SWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 2851477e-5e5d-4279-b9be-6937987eea22
+GEM_STONE:
+  BLUE_IIP:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e5ff4cbf-2df0-4f5e-afd1-28d1e4605485
+  BLUE_IIH:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3f7f46c7-2a31-4696-a2a4-a2b2f10e0845
+  BLUE_IID:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 29e864a3-7f59-4aac-9579-a1d1b2375380
+  GREEN_IIR:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: ea6aece4-3829-4c88-9947-82adc01e0e6f
+  GREEN_IIH:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b4932546-0ea2-4cbe-a4e0-a1d27ed37aca
+  GREEN_IIA:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 271edc4d-2239-46c7-a1d8-ad7c8030a6d7
+  BLUE_IP:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 8d8f08b7-b0d5-49d5-9ccd-c60fbbdbbb31
+  BLUE_ID:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: dd2cb325-bf4b-4855-80fb-725948fb4047
+  BLUE_IH:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 24f6b9b6-6bfe-4c1f-a88c-7955771857c3
+  GREEN_IA:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 0d402a25-565e-4479-8767-075230f12c55
+  GREEN_IR:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 8384f11f-0f1c-4ae2-a807-1e3a7a33fed8
+  GREEN_IH:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: ae2c6671-233e-4b54-9983-e6d3ccbd5a30
+  BLUE_IIID:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d90c4883-15bd-4efa-8c98-9287fac9a0d3
+  GREEN_IIIR:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 1ba50601-fabf-4a76-b06c-270d16c2665c
+  GREEN_IIIH:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 06dfb1d7-660b-4afb-8bf3-52f61b6f6a8a
+  BLUE_IIIH:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f5f40e15-7b89-460a-a231-34c12bc0f8b1
+  GREEN_IIIA:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: cce915a1-5a35-4d9e-b25a-5d1285fe0f26
+  BLUE_IIIP:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 5350b07d-f981-4591-82eb-33a2100848b2
+  TEMPLATE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: a6166a71-14d5-40f8-8732-a18f20be7c71
+DAGGER:
+  UP_LVL_48_DAGGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f5b01824-c29e-4829-8173-3ce7246eb945
+  CURSE_DAGGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b360ad90-238f-4444-bae3-11a992cc1bbc
+  LVL_34_DAGGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: bb7cb974-e60a-46a5-8b1e-7fb508ddfb8b
+  LVL_25_DAGGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: bc3946c2-af20-4094-a7ce-095994cabec0
+  VALERIANDAGGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e0d0a5e5-5fb7-4a38-83a2-b02865adadc5
+  LVL_48_DAGGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 1f5a49e2-c496-47e8-9cc4-ae49441b1821
+  LVL_9_DAGGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3c6f2834-07a8-454b-9a66-f3ad8d29f9cc
+  ULT_MOONSHIVER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 47795213-ed18-4214-a8a5-71dd1523bc76
+  MOONSHIVER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3576c7f2-e74a-484c-96ac-fd26451049bf
+CONSUMABLE:
+  RECALL_POTION:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: a6fa15f4-dbda-4d8a-854c-8ba0daaef271
+  IDENT_SCROLL:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 9fdaf677-1014-4127-9485-da3b6f446126
+  POTION_COMMON:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b06a66cb-4da5-4cf1-b7e2-85c4d3d2b137
+  LEGENDARY_UPGRADE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b224e6ee-1203-4163-a408-381cdf06550d
+  FIREBALL_SCROLL:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 14c588f2-11d0-46f4-ae08-04ac2be02aa8
+  ROCK:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b3a53248-7f34-468f-90b8-71ca871b3b6f
+  UPGRADE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f8010353-98a7-4044-b663-88e0c94f6a99
+  ITEM_BREAKER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7b3dad56-626c-43d7-bbb5-9a16bd9ee4d9
+  SMALL_UPGRADE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 2cf9dcbc-cec2-4feb-b69a-70ec84e12648
+  POTION:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f67590e7-aca7-4f4c-928d-ff0eeab133c0
+  BEST_UPGRADE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 2e0560da-a0c0-4486-920f-d5509eec7b59
+  FIREBALL_SCROLL_III:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7b7cda01-0b6b-4b36-820f-4de5c839ad62
+  REPAIR_KIT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 20b619d0-718f-4d0a-b8ee-7b4016d3c090
+  POTION_MEDIUM:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 09faab3d-c677-499c-8102-4d0914b4f600
+  UNIQUE_UPGRADE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: dbce2f4b-db8b-4b1f-87d4-44e33034bf6e
+  POTION_EPIC:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 4560283b-4086-4d98-828e-b6d679c67eb4
+  POTION_TINY:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 9ce6ad27-57c4-45ff-8683-f3c1b831a6f0
+  SOULCONNECTOR:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d5478981-dfd1-4111-9226-59fdcaaaee15
+  POTION_LARGE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: bb315103-e176-4fbb-9d04-e5f98798e188
+  MYTHIC_UPGRADE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7e7ee0da-0788-4a0f-b6f5-ad681d7b167b
+  POTION_SMALL:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 496322bf-2c84-42ca-beab-acf884f2e9d0
+  REPAIR_KIT_LEGENDARY:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: eb082708-3ae0-4766-96ee-465373c45ee6
+  FIREBALL_SCROLL_II:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 67c137a3-3002-48a4-8fb9-5cae89bba43a
+  SOULBREAKER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 478a4fd6-0727-42c7-920a-113d0e7478b8
+  BETTER_UPGRADE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7444ee9d-5077-4ed7-b3c2-2b8278e07a65
+MATERIAL:
+  CURSED_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b13e190c-08cf-4ceb-8231-c990490a403e
+  LEGENDARY_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e81b47b4-b48e-49f0-9147-32676b1c80d4
+  MYTHICAL_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 543034eb-957a-4074-822c-0d6875c830d9
+  WEAPON_POWDER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b9d4dec7-22a8-46be-a654-22c5519e6828
+  VERY_RARE_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f521cd80-a7ae-4f9d-92e9-e7667ae01057
+  DIVINE_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 692bb186-7150-4d27-be6a-20a7a4956311
+  UNCOMMON_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: cd252c30-7cdf-4d5e-a1f3-49f3d345105b
+  ANCIENT_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c3a6bf6a-5837-4a77-b93b-0f18aad51979
+  UNIQUE_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6f5627d2-5f58-4dec-9642-3ae4706c9d15
+  RARE_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: da121ce3-877c-4995-a459-880e92fc0afc
+  ETHERNAL_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7110ad81-5db4-47cd-b1f3-8befe3b4ed77
+  DEMON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: fd38c409-ceaa-492e-b2df-90ea1e0ac60d
+  MAGICAL_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 0a2f4067-2cf3-44f3-a411-fa126d09780f
+  OCEANIC_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 1dc27c72-f607-4623-9b5f-63c2e1238a45
+  EPIC_WEAPON_ESSENCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3c3543bf-43a2-45d9-a03d-13259732b34c
+HALBERD:
+  CURSE_SCYTHE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f96a3ace-5d89-4330-8ba6-136f009c092b
+  ETHERNAL_SCYTHE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 92dcae55-6ce9-4515-92f0-3fa60ff877da
+BOW:
+  LVL_48_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6216aee3-d83c-43da-8cf4-69f6d9d35835
+  LVL_36_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b05f402c-2102-44d9-96b3-8f20818f3a4f
+  LVL_24_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 51fed8d6-4a0f-4bdb-8393-184f5020dff4
+  ULT_DEATHWING:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d6a4c27a-b832-4f45-b47d-f91a4c962b78
+  VOID_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6c378549-daad-4fca-8586-01cb5cdaf070
+  ULT_REDWOOD_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c9792ec9-8576-45ee-91be-3106c9606ef2
+  WINDBLOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: df39537b-0c86-4754-addc-cf4a9509c908
+  REDWOOD_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b315dd99-bb12-4094-8330-063aea45a43e
+  UP_LVL_48_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 2c94123e-84c7-4010-a04e-9bffcfeeb27f
+  ULT_DRAGONFIRE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7d8b220c-c696-4913-8620-87d80987264c
+  ULT_DARKBLESS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 9985dfec-6e45-4b14-bd7f-0b60ad96e248
+  DRAGONFIRE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: af4d0afb-a63e-4973-99e9-c34e470dfda4
+  DEATHWING:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 09caa0a3-0580-4d45-acc6-91184f4823fc
+  ULT_WINDBLOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: af8283a1-fc82-4049-aed2-6f14f1c60bba
+  LVL_12_BOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 95a6c58a-ec4a-458d-86f8-7563fd48431b
+  DARKBLESS:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c751d4b9-0656-4067-aa29-052bdc98fce4
+ACCESSORY:
+  CHARM_FIRE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6c9ea01f-72ff-4578-bb2a-454c6657a8a2
+  CHARM_WATER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: fef9841a-a30c-4bf3-af39-ba69924527c1
+  CHARM_ICE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 950a7ea8-4f04-4418-a7b1-f88c12e69d46
+AXE:
+  SKULLCRUSHER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 291cec2e-04d1-4fde-8631-8da716e5bd6b
+  UP_LVL_48_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b1d892ff-4700-48dd-9269-611bf481e9df
+  LVL_34_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 09f1a885-5c2f-431a-9076-8330c550d8f5
+  ULT_SKULLCRUSHER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f8d9cf33-f762-412e-873b-6b3132ccaca0
+  DECAPITATOR:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 4c94d1f3-d204-4cb1-b388-14933636391b
+  ULT_DARKREVENGE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 542315ee-d3b7-4261-a989-9155963a4816
+  LVL_25_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 286ba063-17fa-4449-ba79-18ff44748fa6
+  THUNDER_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 39494b7e-d34b-42e4-9d58-5da3422ccf9b
+  ULT_RAVAGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 56e64262-65d1-4d7f-8965-f932b17451d6
+  VALERIANAXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 34da47d3-5ff9-47d7-a20a-e1249603af97
+  RAVAGER:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 33c42da1-792c-41bb-98af-93818d9e7525
+  LVL_16_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e224ca29-f7c6-43dc-b76a-b21524b73ccc
+  LVL_7_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f02a7709-a049-47da-91e3-1900c61ceea9
+  DARKREVENGE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 7eb51c8b-0a19-49b2-8853-d27e301c4c08
+  ULT_THUNDER_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e9f2d497-3504-46d1-86c7-e906289bcb8f
+  LVL_48_AXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: ab6f8db6-91b1-4a45-8e98-64b6047637ad
+CROSSBOW:
+  LVL_36_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c1d4011d-4d75-4865-b729-3ae461e21563
+  ANCIENT_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c010fc43-fda7-4a68-afdf-dac217ec99a4
+  LVL_24_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 4b17f5eb-a753-48a8-97bf-3a9636999a69
+  ULT_DRAGONFIRE_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f125fda3-5864-4d3e-bdd5-dea99055f13a
+  OCEANIC_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 35fe6fcf-6f57-46d3-bbc9-e3c01376f34e
+  DWARF_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: ab20a26e-ad00-4c43-9525-14b4d305c063
+  LVL_16_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: aeb99d63-5eae-4f20-b380-f320489e5670
+  UP_LVL_48_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: bfd1c0c2-c0ea-4e9d-a35b-9cfd66ec7486
+  LVL_48_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 1afc1286-05ac-48f8-b532-2cf87bc2fac4
+  DRAGONFIRE_CROSSBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3ea2759a-0bd6-4688-9631-80d72368c5c7
+SHIELD:
+  ANCIENT_GREATSHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: ff6a57a3-e735-42df-a71d-461da30c7943
+  LVL_7_SHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 1799ee1e-3884-4b51-b6ff-ea319f5dbbee
+  LVL_16_SHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c8a643c7-92f4-4942-91ad-b3e95f75ccb2
+  LVL_25_SHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 76b80c48-99cc-44d9-a421-f236f1db76ff
+  LVL_34_SHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 4ccc43ae-1693-4089-a959-69003dc3b172
+  LVL_48_SHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 3ee44a89-08d8-4e3f-ab21-9099f12f0a4d
+  DIVINE_GSHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: d5393535-f2b0-42a7-bbeb-9843a5acb105
+  OCEANIC_GREATSHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: c732cc0f-8e07-430f-8e5e-f883b31d18ed
+  UP_LVL_48_SHIELD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 2fab4907-6cc3-48a8-a5a6-cbff394fb4d3
+LANCE:
+  DEMONIC_LANCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 6817f680-8022-4f65-9806-30e68940761b
+  ANCIENT_LANCE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: f5255efc-4a34-4115-8527-2e5d36074574
+STAFF:
+  ETHERNAL_STAFF:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 67390fd8-02c5-4899-a141-f40d02ec6ca8
+GREATBOW:
+  ETHERNAL_GBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 92ab12a0-587b-4fee-93ff-755aa919a057
+  DEMONIC_GBOW:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 923324b2-d5fd-452a-9949-6b8d4d3060cc
+GREATAXE:
+  OCEANIC_GAXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 8eb1cb8e-c554-4bbc-8285-15690cb377e3
+  ANCIENT_GAXE:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 95ea5899-8e73-4420-8948-149273291ca0
+OFF_CATALYST:
+  CURSE_CATALYST:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: b03ae3ee-0cbc-4b07-9744-09d443dd5996
+LONG_SWORD:
+  DIVINE_LSWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: e30b2561-6afa-4068-bee2-b0d1d9ffb5da
+  CURSE_LSWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 360d62b1-c127-4e76-b64a-21a666dca6cd
+TOME:
+  ETHERNAL_TOME:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 8920f230-e69e-4fdd-998d-d6bd73d108b0
+GREATSWORD:
+  DEMONIC_GSWORD:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: 647e86b4-507a-46bf-a8cd-183bdecf14e9
+SPEAR:
+  OCEANIC_TRIDENT:
+    lore: true
+    enchants: true
+    durability: true
+    name: true
+    gems: true
+    soulbound: true
+    uuid: a664e4c3-e33e-4a4e-b0c8-9aec92d7077c

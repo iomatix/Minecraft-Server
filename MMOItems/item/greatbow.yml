@@ -1,0 +1,192 @@
+DEMONIC_GBOW:
+  material: BOW
+  max-durability: 75000.0
+  name: '&4Demonic Greatbow'
+  enchants:
+    fire_aspect: 3
+    flame: 3
+  hide-enchants: true
+  arrow-particles:
+    offset: -0.25
+    amount: 2
+    particle: FLAME
+    speed: 0.01
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 120.0
+  attack-damage: 245.0
+  critical-strike-chance: 50.0
+  critical-strike-power: 176.0
+  unbreakable: true
+  tier: DEMONIC
+  set: DEMONIC
+  movement-speed: -0.04
+  two-handed: true
+  craft:
+  - AIR AIR AIR
+  - AIR AIR AIR
+  - AIR AIR AIR
+  element:
+    fire:
+      damage: 45.0
+  upgrade:
+    template: bow-default
+    destroy: true
+    max: 12
+  gem-sockets:
+  - GREEN
+  - GREEN
+  - BLUE
+  - BLUE
+  advanced-craft:
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: DEMON_ESSENCE
+      amount: 1
+    '6':
+      material: STRING
+      amount: 1
+      name: ''
+    '0':
+      material: STRING
+      amount: 1
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      name: ''
+  ability:
+    ability1:
+      type: DEATH_MARK
+      mode: ON_HIT
+      duration: 5.0
+      damage: 15.0
+      cooldown: 8.5
+      amplifier: 1.1
+    ability2:
+      type: IGNITE
+      mode: ON_HIT
+      duration: 5.0
+      cooldown: 12.0
+  custom-model-data: 2.0
+ETHERNAL_GBOW:
+  material: BOW
+  enchants:
+    thorns: 1
+  hide-enchants: true
+  lore: []
+  name: '&1Ethernal Longbow'
+  max-durability: 75000.0
+  disable-interaction: false
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  arrow-particles:
+    particle: SMOKE_LARGE
+    speed: 0.04
+    offset: -0.25
+    amount: 2
+  element:
+    ice:
+      damage: 10.0
+    wind:
+      damage: 20.0
+  required-level: 136.0
+  attack-damage: 265.0
+  critical-strike-chance: 53.0
+  critical-strike-power: 188.0
+  dodge-rating: 10.0
+  dodge-cooldown-reduction: 10.0
+  perm-effects:
+    JUMP: 1
+    SLOW_FALLING: 1
+  two-handed: true
+  tier: ETHERNAL
+  set: ETHERNAL
+  advanced-craft:
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: STRING
+      amount: 1
+      name: ''
+    '3':
+      material: STRING
+      amount: 1
+      name: ''
+    '0':
+      material: STRING
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: ETHERNAL_ESSENCE
+      amount: 1
+  gem-sockets:
+  - BLUE
+  - BLUE
+  - BLUE
+  - GREEN
+  upgrade:
+    template: bow-default
+    destroy: true
+    max: 12
+  ability:
+    ability1:
+      type: LEAP
+      mode: SHIFT_LEFT_CLICK
+      cooldown: 12.0
+      force: 1.45
+    ability2:
+      type: DEATH_MARK
+      duration: 2.0
+      damage: 11.0
+      cooldown: 5.0
+      mode: ON_HIT
+    ability3:
+      type: BLIND
+      cooldown: 5.5
+      duration: 1.35
+      mode: ON_HIT
+  custom-model-data: 13.0

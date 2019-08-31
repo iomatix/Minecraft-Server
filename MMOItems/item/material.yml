@@ -1,7 +1,7 @@
 UNCOMMON_WEAPON_ESSENCE:
   material: sugar
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft uncommon items.'
@@ -55,7 +55,7 @@ UNCOMMON_WEAPON_ESSENCE:
 RARE_WEAPON_ESSENCE:
   material: prismarine_shard
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft rare items.'
@@ -108,7 +108,7 @@ RARE_WEAPON_ESSENCE:
 VERY_RARE_WEAPON_ESSENCE:
   material: nether_star
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft very rare items.'
@@ -161,7 +161,7 @@ VERY_RARE_WEAPON_ESSENCE:
 LEGENDARY_WEAPON_ESSENCE:
   material: BLAZE_POWDER
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft legendary items.'
@@ -214,7 +214,7 @@ LEGENDARY_WEAPON_ESSENCE:
 MYTHICAL_WEAPON_ESSENCE:
   material: blaze_rod
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft mythical items.'
@@ -268,7 +268,7 @@ MYTHICAL_WEAPON_ESSENCE:
 EPIC_WEAPON_ESSENCE:
   material: magma_cream
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft epic items.'
@@ -321,7 +321,7 @@ EPIC_WEAPON_ESSENCE:
 MAGICAL_WEAPON_ESSENCE:
   material: prismarine_crystals
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft magical items.'
@@ -371,9 +371,9 @@ MAGICAL_WEAPON_ESSENCE:
       durability: 0
       name: ''
 UNIQUE_WEAPON_ESSENCE:
-  material: end_crystal
+  material: QUARTZ
   enchants:
-    PROTECTION_FIRE: 1
+    FIRE_PROTECTION: 1
   hide-enchants: true
   lore:
   - '&7Can be used to craft unique items.'
@@ -427,3 +427,291 @@ WEAPON_POWDER:
   lore:
   - '&7Can be used to craft Uncommon Essence.'
   - '&7Obtained when deconstructing an item.'
+DEMON_ESSENCE:
+  material: nether_brick
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft demonic items.'
+  name: '&4Demon Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+    '1':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+    '2':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+    '3':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+    '6':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+    '7':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+    '8':
+      type: MISCELLANEOUS
+      id: DEMONIC_ELEMENT
+      amount: 1
+ETHERNAL_ESSENCE:
+  material: popped_chorus_fruit
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft ethernal items.'
+  name: '&1Ethernal Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+    '1':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+    '2':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+    '3':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+    '6':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+    '7':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+    '8':
+      type: MISCELLANEOUS
+      id: SOUL_ELEMENT
+      amount: 1
+ANCIENT_ESSENCE:
+  material: gold_ingot
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft ancient items.'
+  name: '&6Ancient Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+    '1':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+    '2':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+    '3':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+    '6':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+    '7':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+    '8':
+      type: MISCELLANEOUS
+      id: ANCIENT_ELEMENT
+      amount: 1
+CURSED_ESSENCE:
+  material: chorus_fruit
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft cursed items.'
+  name: '&5Cursed Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+    '1':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+    '2':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+    '3':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+    '6':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+    '7':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+    '8':
+      type: MISCELLANEOUS
+      id: CURSED_ELEMENT
+      amount: 1
+OCEANIC_ESSENCE:
+  material: heart_of_the_sea
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft oceanic items.'
+  name: '&bOceanic Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+    '1':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+    '2':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+    '3':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+    '6':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+    '7':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+    '8':
+      type: MISCELLANEOUS
+      id: OCEANIC_ELEMENT
+      amount: 1
+DIVINE_ESSENCE:
+  material: yellow_dye
+  enchants:
+    FIRE_PROTECTION: 1
+  hide-enchants: true
+  lore:
+  - '&7Can be used to craft divine items.'
+  name: '&eDivine Essence'
+  disable-crafting: true
+  disable-smelting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
+    '1':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
+    '2':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
+    '3':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
+    '4':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
+    '6':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
+    '7':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
+    '8':
+      type: MISCELLANEOUS
+      id: DIVINE_ELEMENT
+      amount: 1
