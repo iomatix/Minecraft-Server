@@ -475,7 +475,19 @@ GREATBOW:
         - '{tier}&8Item Info:'
         - '{range}&8- &7Lvl Range: &e#range#'
         - '{tier}&8- &7Item Tier: #prefix##tier#'
-    
+GREATCROSSBOW:
+    display: CROSSBOW:7
+    name: 'Crossbow'
+    parent: 'BOW'
+    unident-item:
+        name: '&f#prefix#Unidentified Crossbow'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'  
 SHIELD:
     display: SHIELD:0
     name: 'Shield'
