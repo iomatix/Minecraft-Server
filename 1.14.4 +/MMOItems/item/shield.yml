@@ -121,12 +121,11 @@ LVL_16_SHIELD:
   max-durability: 105.0=200.0
   will-break: false
   unbreakable: true
-  shield-pattern:
-    color: RED
   upgrade:
     destroy: true
     template: armor-default
     max: 12
+  disable-crafting: true
 LVL_25_SHIELD:
   material: SHIELD
   name: '&fIron Shield'
@@ -186,8 +185,6 @@ LVL_25_SHIELD:
   max-durability: 165.0=240.0
   will-break: false
   unbreakable: true
-  shield-pattern:
-    color: GRAY
   gem-sockets:
   - GREEN
   upgrade:
@@ -252,8 +249,6 @@ LVL_34_SHIELD:
   max-durability: 225.0=400.0
   will-break: false
   unbreakable: true
-  shield-pattern:
-    color: WHITE
   gem-sockets:
   - GREEN
   upgrade:
@@ -318,8 +313,6 @@ LVL_48_SHIELD:
   max-durability: 500.0=1000.0
   will-break: false
   unbreakable: true
-  shield-pattern:
-    color: LIGHT_BLUE
   gem-sockets:
   - GREEN
   - GREEN
@@ -391,8 +384,6 @@ UP_LVL_48_SHIELD:
     destroy: true
     template: armor-default
     max: 12
-  shield-pattern:
-    color: LIGHT_BLUE
 ANCIENT_GREATSHIELD:
   material: SHIELD
   movement-speed: -0.02
@@ -401,7 +392,7 @@ ANCIENT_GREATSHIELD:
   enchants:
     fire_protection: 1
   hide-enchants: true
-  disable-crafting: true
+  disable-crafting: false
   disable-smelting: true
   disable-enchanting: true
   disable-repairing: true
@@ -427,8 +418,6 @@ ANCIENT_GREATSHIELD:
   - GREEN
   - GREEN
   - GREEN
-  shield-pattern:
-    color: YELLOW
   ability:
     ability1:
       type: HEAL
@@ -481,13 +470,11 @@ OCEANIC_GREATSHIELD:
   material: SHIELD
   max-durability: 75000.0
   name: '&bOceanic Greatshield'
-  shield-pattern:
-    color: BLUE
   displayed-type: Greatshield
   enchants:
     depth_strider: 2
   hide-enchants: true
-  disable-crafting: true
+  disable-crafting: false
   disable-smelting: true
   disable-enchanting: true
   disable-repairing: true
@@ -569,8 +556,6 @@ DIVINE_GSHIELD:
   enchants:
     fire_protection: 3
   hide-enchants: true
-  shield-pattern:
-    color: YELLOW
   upgrade:
     template: armor-default
     max: 12
@@ -581,7 +566,7 @@ DIVINE_GSHIELD:
   required-level: 120.0
   name: '&eDivine Greatshield'
   displayed-type: Greatshield
-  disable-crafting: true
+  disable-crafting: false
   block-power: 70.0
   block-rating: 70.0
   block-cooldown-reduction: 15.0
