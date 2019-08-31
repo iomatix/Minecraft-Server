@@ -5,6 +5,8 @@ GOLD_COIN:
   - '&7A very shiny gold coin.'
   - '&7Crafting material.'
   - '&7Used to grade up Essences.'
+  enchants:
+    PROTECTION_FIRE: 1
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true
@@ -46,8 +48,6 @@ GOLD_COIN:
       type: MISCELLANEOUS
       id: SILVER_COIN
       amount: 1
-  enchants:
-    fire_protection: 1
 SILVER_COIN:
   material: IRON_NUGGET
   name: '&fSilver Coin'
@@ -55,7 +55,7 @@ SILVER_COIN:
   - '&7A very shiny silver coin.'
   - '&7Crafting material.'
   enchants:
-    fire_protection: 1
+    PROTECTION_FIRE: 1
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true
@@ -66,67 +66,7 @@ MAGIC_TEAR:
   - '&7A tear with magical powers.'
   - '&7Crafting material.'
   enchants:
-    fire_protection: 1
-  hide-enchants: true
-  disable-crafting: true
-  disable-smelting: true
-DEMONIC_ELEMENT:
-  material: NETHER_WART
-  name: '&4Demon Element'
-  lore:
-  - '&7The item emits terryfiying aura.'
-  enchants:
-    fire_protection: 1
-  hide-enchants: true
-  disable-crafting: true
-  disable-smelting: true
-SOUL_ELEMENT:
-  material: phantom_membrane
-  name: '&1Soul Element'
-  lore:
-  - '&7The item seems alive.'
-  enchants:
-    fire_protection: 1
-  hide-enchants: true
-  disable-crafting: true
-  disable-smelting: true
-ANCIENT_ELEMENT:
-  material: firework_star
-  name: '&6Ancient Element'
-  lore:
-  - '&7The item shines with weak golden light.'
-  enchants:
-    fire_protection: 1
-  hide-enchants: true
-  disable-crafting: true
-  disable-smelting: true
-CURSED_ELEMENT:
-  material: coal
-  name: '&5Cursed Element'
-  lore:
-  - '&7The item is full of dark energy.'
-  enchants:
-    fire_protection: 1
-  hide-enchants: true
-  disable-crafting: true
-  disable-smelting: true
-OCEANIC_ELEMENT:
-  material: nautilus_shell
-  name: '&bOceanic Element'
-  lore:
-  - '&7The item is still wet.'
-  enchants:
-    fire_protection: 1
-  hide-enchants: true
-  disable-crafting: true
-  disable-smelting: true
-DIVINE_ELEMENT:
-  material: glowstone_dust
-  name: '&eDivine Element'
-  lore:
-  - '&7The item emits seraphic aura.'
-  enchants:
-    fire_protection: 1
+    PROTECTION_FIRE: 1
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true

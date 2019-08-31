@@ -4,7 +4,7 @@ LVL_7_LEATHER_HELMET:
   block-power: 1.0=1.4
   block-rating: 1.0=1.4
   required-level: 7.0
-  armor: 9=12
+  armor: 4=5
   armor-toughness: 1
   lore:
   - '&7Common Leather helmet.'
@@ -64,18 +64,13 @@ LVL_7_LEATHER_HELMET:
   dodge-cooldown-reduction: 1.0
   dodge-rating: 0.01
   unbreakable: true
-  max-health: 10.0
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_7_LEATHER_CHESTPLATE:
   name: '&fLeather Chestplate'
   material: Leather_CHESTPLATE
   block-power: 1.0=1.7
   block-rating: 1.0=1.7
   required-level: 7.0
-  armor: 10=15
+  armor: 5=7
   armor-toughness: 1
   lore:
   - '&7Common Leather chestplate.'
@@ -135,18 +130,13 @@ LVL_7_LEATHER_CHESTPLATE:
   dodge-cooldown-reduction: 2.0
   dodge-rating: 0.01
   unbreakable: true
-  max-health: 10.0
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_7_LEATHER_BOOTS:
   name: '&fLeather Boots'
   material: Leather_BOOTS
   block-power: 1.0=1.3
   block-rating: 1.0=1.3
   required-level: 7.0
-  armor: 8=10
+  armor: 3=5
   armor-toughness: 1
   lore:
   - '&7Common Leather boots.'
@@ -207,25 +197,19 @@ LVL_7_LEATHER_BOOTS:
   max-durability: 95.0=180.0
   will-break: false
   unbreakable: true
-  max-health: 10.0
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_7_LEATHER_LEGGINGS:
   name: '&fLeather Leggings'
   material: Leather_LEGGINGS
   block-power: 1.0=1.6
   block-rating: 1.0=1.6
   required-level: 7.0
-  armor: 9=13
+  armor: 4=7
   armor-toughness: 1
   lore:
   - '&7Common Leather leggings.'
   tier: COMMON
   knockback-resistance: 0.01=0.02
   gem-sockets: 0.0
-  max-health: 10.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -279,24 +263,19 @@ LVL_7_LEATHER_LEGGINGS:
   dodge-cooldown-reduction: 1.0
   dodge-rating: 0.03
   unbreakable: true
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_16_IRON_HELMET:
   name: '&fIron Helmet'
   material: Iron_helmet
   block-power: 1.4=2
   block-rating: 1.4=2
   required-level: 16.0
-  armor: 15=16
+  armor: 5=6
   armor-toughness: 1
   lore:
   - '&7Common Iron helmet.'
   tier: COMMON
   knockback-resistance: 0.01=0.03
   gem-sockets: 0.0
-  max-health: 16.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -343,24 +322,19 @@ LVL_16_IRON_HELMET:
   max-durability: 195.0=280.0
   will-break: false
   unbreakable: true
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_16_IRON_CHESTPLATE:
   name: '&fIron Chestplate'
   material: Iron_CHESTPLATE
   block-power: 1.7=2.5
   block-rating: 1.7=2.5
   required-level: 16.0
-  armor: 16=18
+  armor: 8=10
   armor-toughness: 1=2
   lore:
   - '&7Common Iron chestplate.'
   tier: COMMON
   knockback-resistance: 0.02=0.04
   gem-sockets: 0.0
-  max-health: 16.0
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -404,24 +378,19 @@ LVL_16_IRON_CHESTPLATE:
   max-durability: 205.0=280.0
   will-break: false
   unbreakable: true
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_16_IRON_LEGGINGS:
   name: '&fIron Leggings'
   material: Iron_LEGGINGS
   block-power: 1.6=2.25
   block-rating: 1.6=2.25
   required-level: 16.0
-  armor: 16=17
+  armor: 5=10
   armor-toughness: 1
   lore:
   - '&7Common Iron leggings.'
   tier: COMMON
   knockback-resistance: 0.02=0.04
   gem-sockets: 0.0
-  max-health: 16.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -466,18 +435,13 @@ LVL_16_IRON_LEGGINGS:
   max-durability: 200.0=280.0
   will-break: false
   unbreakable: true
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_16_IRON_BOOTS:
   name: '&fIron Boots'
   material: Iron_BOOTS
   block-power: 1.3=1.9
   block-rating: 1.3=1.9
   required-level: 16.0
-  armor: 14=15
-  max-health: 16.0
+  armor: 4=6
   armor-toughness: 1
   lore:
   - '&7Common Iron boots.'
@@ -531,23 +495,19 @@ LVL_16_IRON_BOOTS:
   max-durability: 180.0=280.0
   will-break: false
   unbreakable: true
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_25_IRON_HELMET:
   name: '&fHeavy Iron Helmet'
   material: Iron_helmet
   block-power: 2
   block-rating: 2
-  max-health: 24.0
   required-level: 25.0
-  armor: 19
+  armor: 9
   armor-toughness: 1=2
   lore:
   - '&7Heavy Iron helmet.'
   tier: COMMON
   knockback-resistance: 0.02=0.05
+  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -594,25 +554,19 @@ LVL_25_IRON_HELMET:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
-  gem-sockets:
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_25_IRON_CHESTPLATE:
   name: '&fHeavy Iron Chestplate'
   material: Iron_CHESTPLATE
   block-power: 3
   block-rating: 3
   required-level: 25.0
-  armor: 22
-  max-health: 24.0
+  armor: 12
   armor-toughness: 2
   lore:
   - '&7Heavy Iron chestplate.'
   tier: COMMON
   knockback-resistance: 0.03=0.1
+  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -656,25 +610,19 @@ LVL_25_IRON_CHESTPLATE:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
-  gem-sockets:
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_25_IRON_LEGGINGS:
   name: '&fHeavy Iron Leggings'
   material: Iron_LEGGINGS
   block-power: 2.5
   block-rating: 2.5
   required-level: 25.0
-  armor: 21
-  max-health: 24.0
+  armor: 11
   armor-toughness: 1=2
   lore:
   - '&7Heavy Iron leggings.'
   tier: COMMON
   knockback-resistance: 0.03=0.08
+  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -719,25 +667,19 @@ LVL_25_IRON_LEGGINGS:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
-  gem-sockets:
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_25_IRON_BOOTS:
   name: '&fHeavy Iron Boots'
   material: Iron_BOOTS
   block-power: 2
   block-rating: 2
   required-level: 25.0
-  armor: 18
-  max-health: 24.0
+  armor: 8
   armor-toughness: 1
   lore:
   - '&7Heavy Iron boots.'
   tier: COMMON
   knockback-resistance: 0.02=0.04
+  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -784,25 +726,19 @@ LVL_25_IRON_BOOTS:
   max-durability: 280.0=350.0
   will-break: false
   unbreakable: true
-  gem-sockets:
-  - BLUE
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_34_GOLD_HELMET:
   name: '&fGolden Helmet'
-  material: golden_helmet
+  material: gold_helmet
   block-power: 3
   block-rating: 3
   required-level: 34.0
-  armor: 23
-  max-health: 33.0
+  armor: 11
   armor-toughness: 2
   lore:
   - '&8Golden helmet.'
   tier: UNCOMMON
   knockback-resistance: 0.05
+  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -849,25 +785,19 @@ LVL_34_GOLD_HELMET:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
-  gem-sockets:
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_34_GOLD_CHESTPLATE:
   name: '&fGolden Chestplate'
-  material: GOLDen_CHESTPLATE
+  material: GOLD_CHESTPLATE
   block-power: 4
   block-rating: 4
   required-level: 34.0
-  armor: 29
+  armor: 16
   armor-toughness: 2.2
-  max-health: 33.0
   lore:
   - '&8Golden chestplate.'
   tier: UNCOMMON
   knockback-resistance: 0.1
+  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -911,25 +841,19 @@ LVL_34_GOLD_CHESTPLATE:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
-  gem-sockets:
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_34_GOLD_LEGGINGS:
   name: '&fGolden Leggings'
-  material: Golden_LEGGINGS
+  material: Gold_LEGGINGS
   block-power: 3
   block-rating: 3
   required-level: 34.0
-  armor: 27
+  armor: 14
   armor-toughness: 2
-  max-health: 33.0
   lore:
   - '&8Golden leggings.'
   tier: UNCOMMON
   knockback-resistance: 0.08
+  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -974,25 +898,19 @@ LVL_34_GOLD_LEGGINGS:
   max-durability: 320.0=380.0
   will-break: false
   unbreakable: true
-  gem-sockets:
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_34_GOLD_BOOTS:
   name: '&fGolden Boots'
-  material: Golden_BOOTS
+  material: Gold_BOOTS
   block-power: 3
   block-rating: 3
   required-level: 34.0
-  armor: 24
+  armor: 12
   armor-toughness: 2
-  max-health: 33.0
   lore:
   - '&8Golden boots.'
   tier: UNCOMMON
   knockback-resistance: 0.04
+  gem-sockets: 0.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -1039,13 +957,11 @@ LVL_34_GOLD_BOOTS:
   set: GOLD
   max-durability: 320.0=380.0
   will-break: false
+  craft:
+  - AIR AIR AIR
+  - AIR AIR AIR
+  - AIR AIR AIR
   unbreakable: true
-  gem-sockets:
-  - BLUE
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_48_DIAMOND_HELMET:
   name: '&6Diamond Helmet'
   material: diamond_helmet
@@ -1053,13 +969,13 @@ LVL_48_DIAMOND_HELMET:
   block-power: 5
   block-rating: 5
   required-level: 48.0
-  armor: 33
+  armor: 17
   armor-toughness: 2.5
-  max-health: 42.0
   lore:
   - '&6Diamond helmet.'
   tier: RARE
   knockback-resistance: 0.1
+  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -1105,13 +1021,6 @@ LVL_48_DIAMOND_HELMET:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_48_DIAMOND_CHESTPLATE:
   name: '&6Diamond Chestplate'
   material: diamond_CHESTPLATE
@@ -1119,13 +1028,13 @@ LVL_48_DIAMOND_CHESTPLATE:
   block-power: 7.5
   block-rating: 7.5
   required-level: 48.0
-  armor: 36
+  armor: 22
   armor-toughness: 4
-  max-health: 45.0
   lore:
   - '&6Diamond chestplate.'
   tier: RARE
   knockback-resistance: 0.2
+  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -1168,13 +1077,6 @@ LVL_48_DIAMOND_CHESTPLATE:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
-  gem-sockets:
-  - GREEN
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_48_DIAMOND_LEGGINGS:
   name: '&6Diamond Leggings'
   material: diamond_LEGGINGS
@@ -1182,13 +1084,13 @@ LVL_48_DIAMOND_LEGGINGS:
   block-power: 7
   block-rating: 7
   required-level: 48.0
-  armor: 35
+  armor: 20
   armor-toughness: 3
-  max-health: 44.0
   lore:
   - '&6Diamond leggings.'
   tier: RARE
   knockback-resistance: 0.2
+  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -1232,13 +1134,6 @@ LVL_48_DIAMOND_LEGGINGS:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  - GREEN
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
 LVL_48_DIAMOND_BOOTS:
   name: '&6Diamond Boots'
   material: Diamond_BOOTS
@@ -1246,13 +1141,13 @@ LVL_48_DIAMOND_BOOTS:
   block-power: 5
   block-rating: 5
   required-level: 48.0
-  armor: 31
+  armor: 16
   armor-toughness: 2
-  max-health: 40.0
   lore:
   - '&6Diamond boots.'
   tier: RARE
   knockback-resistance: 0.1
+  gem-sockets: 1.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -1299,1914 +1194,3 @@ LVL_48_DIAMOND_BOOTS:
   set: DIAMOND
   max-durability: 900.0=1300.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  - BLUE
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
-DEMONIC_HELMET:
-  material: LEATHER_HELMET
-  dye-color: 160 0 0
-  upgrade:
-    template: armor-default
-    max: 12
-    destroy: true
-  max-durability: 75000.0
-  name: '&4Demonic Helmet'
-  hide-enchants: true
-  enchants:
-    fire_protection: 3
-  lore:
-  - '&4The part of the Demonic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 4.0
-  critical-strike-power: 4.0
-  block-power: 4.0
-  block-rating: 4.0
-  block-cooldown-reduction: 2.0
-  fire-damage-reduction: 15.0
-  dodge-rating: 4.0
-  dodge-cooldown-reduction: 4.0
-  parry-rating: 4.0
-  parry-cooldown-reduction: 2.0
-  unbreakable: true
-  tier: DEMONIC
-  set: DEMONIC
-  knockback-resistance: 0.1
-  max-health: 45.0
-  armor: 76.0
-  armor-toughness: 3.0
-  element:
-    fire:
-      defense: 10.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - GREEN
-  regeneration: 3.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '0':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-DEMONIC_CHESTPLATE:
-  material: leather_chestplate
-  dye-color: 160 0 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&4Demonic Tunic'
-  hide-enchants: true
-  enchants:
-    fire_protection: 3
-  lore:
-  - '&4The part of the Demonic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 6.0
-  critical-strike-power: 6.0
-  block-power: 6.0
-  block-rating: 6.0
-  block-cooldown-reduction: 5.0
-  fire-damage-reduction: 25.0
-  dodge-rating: 6.0
-  dodge-cooldown-reduction: 5.0
-  parry-rating: 5.0
-  parry-cooldown-reduction: 3.0
-  unbreakable: true
-  tier: DEMONIC
-  set: DEMONIC
-  knockback-resistance: 0.2
-  max-health: 100.0
-  armor: 81.0
-  armor-toughness: 4.0
-  element:
-    fire:
-      defense: 20.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - GREEN
-  regeneration: 5.0
-  advanced-craft:
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '7':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '4':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-DEMONIC_LEGGINGS:
-  material: leather_leggings
-  dye-color: 160 0 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&4Demonic Pants'
-  hide-enchants: true
-  enchants:
-    fire_protection: 3
-  lore:
-  - '&4The part of the Demonic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 5.0
-  critical-strike-power: 5.0
-  block-power: 5.0
-  block-rating: 5.0
-  block-cooldown-reduction: 5.0
-  fire-damage-reduction: 20.0
-  dodge-rating: 6.0
-  dodge-cooldown-reduction: 5.0
-  parry-rating: 5.0
-  parry-cooldown-reduction: 3.0
-  unbreakable: true
-  tier: DEMONIC
-  set: DEMONIC
-  knockback-resistance: 0.2
-  max-health: 80.0
-  armor: 78.0
-  armor-toughness: 4
-  element:
-    fire:
-      defense: 15.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - GREEN
-  regeneration: 4.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-DEMONIC_BOOTS:
-  material: leather_boots
-  dye-color: 160 0 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&4Demonic Greaves'
-  hide-enchants: true
-  enchants:
-    fire_protection: 3
-  lore:
-  - '&4The part of the Demonic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 3.0
-  critical-strike-power: 3.0
-  block-power: 3.0
-  block-rating: 3.0
-  block-cooldown-reduction: 1.0
-  fire-damage-reduction: 9.0
-  dodge-rating: 5.0
-  dodge-cooldown-reduction: 5.0
-  parry-rating: 3.0
-  parry-cooldown-reduction: 1.0
-  unbreakable: true
-  tier: DEMONIC
-  set: DEMONIC
-  knockback-resistance: 0.2
-  max-health: 40.0
-  armor: 69.0
-  armor-toughness: 3.0
-  element:
-    fire:
-      defense: 10.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - GREEN
-  regeneration: 3.0
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DEMON_ESSENCE
-      amount: 1
-ETHERNAL_HELMET:
-  material: LEATHER_HELMET
-  dye-color: 230 230 230
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&1Ethernal Helmet'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&1The part of the Ethernal Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 5.0
-  critical-strike-power: 5.0
-  block-power: 1.0
-  block-rating: 1.0
-  block-cooldown-reduction: 1.0
-  dodge-rating: 6.0
-  dodge-cooldown-reduction: 6.0
-  parry-rating: 3.0
-  parry-cooldown-reduction: 2.0
-  physical-damage-reduction: 3.0
-  unbreakable: true
-  tier: ETHERNAL
-  set: ETHERNAL
-  knockback-resistance: 0.1
-  max-health: 50.0
-  armor: 73.0
-  armor-toughness: 3.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 3.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '0':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-ETHERNAL_CHESTPLATE:
-  material: leather_chestplate
-  dye-color: 230 230 230
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&1Ethernal Tunic'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&1The part of the Ethernal Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 7.0
-  critical-strike-power: 7.0
-  block-power: 1.0
-  block-rating: 1.0
-  block-cooldown-reduction: 4.0
-  dodge-rating: 7.0
-  dodge-cooldown-reduction: 7.0
-  parry-rating: 5.0
-  parry-cooldown-reduction: 3.0
-  physical-damage-reduction: 5.0
-  unbreakable: true
-  tier: ETHERNAL
-  set: ETHERNAL
-  knockback-resistance: 0.2
-  max-health: 140.0
-  armor: 78.0
-  armor-toughness: 3.5
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 5.0
-  advanced-craft:
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '7':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '4':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-ETHERNAL_LEGGINGS:
-  material: leather_leggings
-  dye-color: 230 230 230
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&1Ethernal Pants'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&1The part of the Ethernal Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 6.0
-  critical-strike-power: 6.0
-  block-power: 1.0
-  block-rating: 1.0
-  block-cooldown-reduction: 3.0
-  dodge-rating: 7.0
-  dodge-cooldown-reduction: 6.0
-  parry-rating: 5.0
-  parry-cooldown-reduction: 5.0
-  physical-damage-reduction: 4.0
-  unbreakable: true
-  tier: ETHERNAL
-  set: ETHERNAL
-  knockback-resistance: 0.2
-  max-health: 120.0
-  armor: 73.0
-  armor-toughness: 3.5
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 4.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-ETHERNAL_BOOTS:
-  material: leather_boots
-  dye-color: 230 230 230
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&1Ethernal Greaves'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&1The part of the Ethernal Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 4.0
-  critical-strike-power: 4.0
-  block-power: 1.0
-  block-rating: 1.0
-  block-cooldown-reduction: 1.0
-  dodge-rating: 8.0
-  dodge-cooldown-reduction: 8.0
-  parry-rating: 3.0
-  parry-cooldown-reduction: 4.0
-  physical-damage-reduction: 2.0
-  unbreakable: true
-  tier: ETHERNAL
-  set: ETHERNAL
-  knockback-resistance: 0.2
-  max-health: 40.0
-  armor: 70.0
-  armor-toughness: 3.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 3.0
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ETHERNAL_ESSENCE
-      amount: 1
-ANCIENT_HELMET:
-  material: LEATHER_HELMET
-  dye-color: 255 230 100
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&6Ancient Helmet'
-  hide-enchants: true
-  enchants:
-    depth_strider: 2
-  lore:
-  - '&6The part of the Ancient Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.0
-  critical-strike-power: 1.0
-  block-power: 4.0
-  block-rating: 4.0
-  block-cooldown-reduction: 4.0
-  dodge-rating: 1.0
-  dodge-cooldown-reduction: 1.0
-  parry-rating: 4.0
-  parry-cooldown-reduction: 5.0
-  physical-damage-reduction: 3.0
-  unbreakable: true
-  tier: ANCIENT
-  set: ANCIENT
-  knockback-resistance: 0.1
-  max-health: 80.0
-  armor: 80.0
-  armor-toughness: 4.0
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - GREEN
-  regeneration: 3.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '0':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-ANCIENT_CHESTPLATE:
-  material: leather_chestplate
-  dye-color: 255 230 100
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&6Ancient Tunic'
-  hide-enchants: true
-  enchants:
-    depth_strider: 2
-  lore:
-  - '&6The part of the Ancient Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.0
-  critical-strike-power: 1.0
-  block-power: 5.0
-  block-rating: 5.0
-  block-cooldown-reduction: 5.0
-  dodge-rating: 1.0
-  dodge-cooldown-reduction: 1.0
-  parry-rating: 5.0
-  parry-cooldown-reduction: 5.0
-  physical-damage-reduction: 5.0
-  unbreakable: true
-  tier: ANCIENT
-  set: ANCIENT
-  knockback-resistance: 0.2
-  max-health: 220.0
-  armor: 90.0
-  armor-toughness: 4
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - GREEN
-  regeneration: 5.0
-  advanced-craft:
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '7':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '4':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-ANCIENT_LEGGINGS:
-  material: leather_leggings
-  dye-color: 255 230 100
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&6Ancient Pants'
-  hide-enchants: true
-  enchants:
-    depth_strider: 2
-  lore:
-  - '&6The part of the Ancient Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.0
-  critical-strike-power: 1.0
-  block-power: 3.0
-  block-rating: 4.0
-  block-cooldown-reduction: 4.0
-  dodge-rating: 1.0
-  dodge-cooldown-reduction: 1.0
-  parry-rating: 4.0
-  parry-cooldown-reduction: 4.0
-  physical-damage-reduction: 4.0
-  unbreakable: true
-  tier: ANCIENT
-  set: ANCIENT
-  knockback-resistance: 0.2
-  max-health: 160.0
-  armor: 84.0
-  armor-toughness: 4
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - GREEN
-  regeneration: 4.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-ANCIENT_BOOTS:
-  material: leather_boots
-  dye-color: 255 230 100
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&6Ancient Greaves'
-  hide-enchants: true
-  enchants:
-    depth_strider: 2
-  lore:
-  - '&6The part of the Ancient Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.0
-  critical-strike-power: 1.0
-  block-power: 3.0
-  block-rating: 3.0
-  block-cooldown-reduction: 3.0
-  dodge-rating: 2.0
-  dodge-cooldown-reduction: 1.0
-  parry-rating: 5.0
-  parry-cooldown-reduction: 5.0
-  physical-damage-reduction: 2.0
-  unbreakable: true
-  tier: ANCIENT
-  set: ANCIENT
-  knockback-resistance: 0.2
-  max-health: 40.0
-  armor: 74.0
-  armor-toughness: 3.0
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - GREEN
-  regeneration: 3.0
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: ANCIENT_ESSENCE
-      amount: 1
-CURSE_HELMET:
-  material: LEATHER_HELMET
-  dye-color: 0 0 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&5Cursed Helmet'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&5The part of the Cursed Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 5.0
-  critical-strike-power: 5.0
-  block-power: 2.0
-  block-rating: 2.0
-  block-cooldown-reduction: 3.0
-  dodge-rating: 5.0
-  dodge-cooldown-reduction: 5.0
-  parry-rating: 4.0
-  parry-cooldown-reduction: 4.0
-  unbreakable: true
-  tier: CURSED
-  set: CURSE
-  knockback-resistance: 0.1
-  max-health: 45.0
-  armor: 72.0
-  armor-toughness: 3.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 3.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '0':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-CURSE_CHESTPLATE:
-  material: leather_chestplate
-  dye-color: 0 0 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&5Cursed Tunic'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&5The part of the Cursed Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 7.0
-  critical-strike-power: 7.0
-  block-power: 3.0
-  block-rating: 3.0
-  block-cooldown-reduction: 3.0
-  dodge-rating: 6.0
-  dodge-cooldown-reduction: 6.0
-  parry-rating: 4.0
-  parry-cooldown-reduction: 4.0
-  unbreakable: true
-  tier: CURSED
-  set: CURSE
-  knockback-resistance: 0.2
-  max-health: 60.0
-  armor: 74.0
-  armor-toughness: 3.5
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 5.0
-  advanced-craft:
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '7':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '4':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-CURSE_LEGGINGS:
-  material: leather_leggings
-  dye-color: 0 0 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&5Cursed Pants'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&5The part of the Cursed Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 6.0
-  critical-strike-power: 6.0
-  block-power: 3.0
-  block-rating: 3.0
-  block-cooldown-reduction: 3.0
-  dodge-rating: 8.0
-  dodge-cooldown-reduction: 8.0
-  parry-rating: 5.0
-  parry-cooldown-reduction: 5.0
-  unbreakable: true
-  tier: CURSED
-  set: CURSE
-  knockback-resistance: 0.2
-  max-health: 45.0
-  armor: 73.0
-  armor-toughness: 3
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 4.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-CURSE_BOOTS:
-  material: leather_boots
-  dye-color: 0 0 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&5Cursed Greaves'
-  hide-enchants: true
-  enchants:
-    THORNS: 3
-  lore:
-  - '&5The part of the Cursed Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 5.0
-  critical-strike-power: 5.0
-  block-power: 1.0
-  block-rating: 1.0
-  block-cooldown-reduction: 1.0
-  dodge-rating: 7.0
-  dodge-cooldown-reduction: 7.0
-  parry-rating: 4.0
-  parry-cooldown-reduction: 3.0
-  unbreakable: true
-  tier: CURSED
-  set: CURSE
-  knockback-resistance: 0.2
-  max-health: 15.0
-  armor: 66.0
-  armor-toughness: 2.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  regeneration: 1.0
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-OCEANIC_HELMET:
-  material: LEATHER_HELMET
-  dye-color: 85 236 232
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&bOceanic Helmet'
-  hide-enchants: true
-  enchants:
-    AQUA_AFFINITY: 2
-  lore:
-  - '&bThe part of the Oceanic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.5
-  critical-strike-power: 1.5
-  block-power: 3.5
-  block-rating: 3.5
-  block-cooldown-reduction: 4.0
-  dodge-rating: 1.0
-  dodge-cooldown-reduction: 1.0
-  parry-rating: 3.0
-  parry-cooldown-reduction: 4.0
-  physical-damage-reduction: 1.0
-  unbreakable: true
-  tier: OCEANIC
-  set: OCEANIC
-  knockback-resistance: 0.1
-  max-health: 95.0
-  armor: 76.0
-  armor-toughness: 3.0
-  element:
-    water:
-      defense: 15.0
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - BLUE
-  regeneration: 3.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '0':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-OCEANIC_CHESTPLATE:
-  material: leather_chestplate
-  dye-color: 85 236 232
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&bOceanic Tunic'
-  hide-enchants: true
-  enchants:
-    RESPIRATION: 6
-  lore:
-  - '&bThe part of the Oceanic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.5
-  critical-strike-power: 1.5
-  block-power: 4.0
-  block-rating: 4.0
-  block-cooldown-reduction: 4.0
-  dodge-rating: 2.5
-  dodge-cooldown-reduction: 2.0
-  parry-rating: 3.0
-  parry-cooldown-reduction: 3.0
-  physical-damage-reduction: 2.0
-  unbreakable: true
-  tier: OCEANIC
-  set: OCEANIC
-  knockback-resistance: 0.2
-  max-health: 260.0
-  armor: 80.0
-  armor-toughness: 3.5
-  element:
-    water:
-      defense: 20.0
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - BLUE
-  regeneration: 5.0
-  advanced-craft:
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '7':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '4':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-OCEANIC_LEGGINGS:
-  material: leather_leggings
-  dye-color: 85 236 232
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&bOceanic Pants'
-  hide-enchants: true
-  enchants:
-    RESPIRATION: 6
-  lore:
-  - '&bThe part of the Oceanic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.5
-  critical-strike-power: 1.5
-  block-power: 2.0
-  block-rating: 3.0
-  block-cooldown-reduction: 3.0
-  dodge-rating: 2.0
-  dodge-cooldown-reduction: 2.0
-  parry-rating: 3.5
-  parry-cooldown-reduction: 3.0
-  physical-damage-reduction: 2.0
-  unbreakable: true
-  tier: OCEANIC
-  set: OCEANIC
-  knockback-resistance: 0.2
-  max-health: 180.0
-  armor: 78.0
-  armor-toughness: 3.0
-  element:
-    water:
-      defense: 15.0
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - BLUE
-  regeneration: 5.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-OCEANIC_BOOTS:
-  material: leather_boots
-  dye-color: 85 236 232
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&bOceanic Greaves'
-  hide-enchants: true
-  enchants:
-    DEPTH_STRIDER: 2
-  lore:
-  - '&bThe part of the Oceanic Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 1.5
-  critical-strike-power: 1.5
-  block-power: 2.0
-  block-rating: 2.0
-  block-cooldown-reduction: 2.0
-  dodge-rating: 3.0
-  dodge-cooldown-reduction: 3.0
-  parry-rating: 2.5
-  parry-cooldown-reduction: 2.0
-  physical-damage-reduction: 2.0
-  unbreakable: true
-  tier: OCEANIC
-  set: OCEANIC
-  knockback-resistance: 0.1
-  max-health: 60.0
-  armor: 70.0
-  armor-toughness: 2.0
-  element:
-    water:
-      defense: 10.0
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - BLUE
-  regeneration: 3.5
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: OCEANIC_ESSENCE
-      amount: 1
-DIVINE_HELMET:
-  material: LEATHER_HELMET
-  dye-color: 255 255 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&eDivine Helmet'
-  hide-enchants: true
-  enchants:
-    SMITE: 3
-  lore:
-  - '&eThe part of the Divine Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 2.5
-  critical-strike-power: 2.5
-  block-power: 1.5
-  block-rating: 1.5
-  block-cooldown-reduction: 3.0
-  dodge-rating: 2.0
-  dodge-cooldown-reduction: 2.0
-  parry-rating: 4.0
-  parry-cooldown-reduction: 4.0
-  physical-damage-reduction: 2.0
-  unbreakable: true
-  tier: DIVINE
-  set: DIVINE
-  knockback-resistance: 0.1
-  max-health: 55.0
-  armor: 74.0
-  armor-toughness: 2.5
-  element:
-    fire:
-      defense: 5.0
-  gem-sockets:
-  - GREEN
-  - BLUE
-  - BLUE
-  regeneration: 2.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '0':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-DIVINE_CHESTPLATE:
-  material: leather_chestplate
-  dye-color: 255 255 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&eDivine Tunic'
-  hide-enchants: true
-  enchants:
-    FIRE_ASPECT: 2
-  lore:
-  - '&eThe part of the Divine Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 3.5
-  critical-strike-power: 4.0
-  block-power: 1.5
-  block-rating: 1.0
-  block-cooldown-reduction: 1.5
-  dodge-rating: 2.0
-  dodge-cooldown-reduction: 1.0
-  parry-rating: 6.0
-  parry-cooldown-reduction: 6.0
-  physical-damage-reduction: 2.5
-  unbreakable: true
-  tier: DIVINE
-  set: DIVINE
-  knockback-resistance: 0.2
-  max-health: 160.0
-  armor: 77.0
-  armor-toughness: 3.5
-  element:
-    fire:
-      defense: 10.0
-  gem-sockets:
-  - GREEN
-  - GREEN
-  - BLUE
-  regeneration: 4.0
-  advanced-craft:
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '7':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '4':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-DIVINE_LEGGINGS:
-  material: leather_leggings
-  dye-color: 255 255 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&bOceanic Pants'
-  hide-enchants: true
-  enchants:
-    FIRE_ASPECT: 2
-  lore:
-  - '&eThe part of the Divine Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 2.5
-  critical-strike-power: 2.5
-  block-power: 1.5
-  block-rating: 1.0
-  block-cooldown-reduction: 1.0
-  dodge-rating: 2.0
-  dodge-cooldown-reduction: 2.0
-  parry-rating: 4.5
-  parry-cooldown-reduction: 4.0
-  physical-damage-reduction: 1.5
-  unbreakable: true
-  tier: DIVINE
-  set: DIVINE
-  knockback-resistance: 0.1
-  max-health: 125.0
-  armor: 75.0
-  armor-toughness: 3.0
-  element:
-    fire:
-      defense: 10.0
-  gem-sockets:
-  - GREEN
-  - BLUE
-  - BLUE
-  regeneration: 4.0
-  advanced-craft:
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '0':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '6':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '2':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-DIVINE_BOOTS:
-  material: leather_boots
-  dye-color: 255 255 0
-  upgrade:
-    template: armor-default
-    destroy: true
-    max: 12
-  max-durability: 75000.0
-  name: '&eDivine Greaves'
-  hide-enchants: true
-  enchants:
-    FIRE_ASPECT: 2
-  lore:
-  - '&eThe part of the Divine Set.'
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 120.0
-  critical-strike-chance: 2.0
-  critical-strike-power: 2.0
-  block-power: 1.5
-  block-rating: 1.5
-  block-cooldown-reduction: 1.5
-  dodge-rating: 3.0
-  dodge-cooldown-reduction: 2.5
-  parry-rating: 3.5
-  parry-cooldown-reduction: 4.0
-  physical-damage-reduction: 1.0
-  unbreakable: true
-  tier: DIVINE
-  set: DIVINE
-  knockback-resistance: 0.1
-  max-health: 38.0
-  armor: 66.0
-  armor-toughness: 2.0
-  element:
-    fire:
-      defense: 5.0
-  gem-sockets:
-  - GREEN
-  - BLUE
-  - BLUE
-  regeneration: 3.0
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '3':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '8':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: DIVINE_ESSENCE
-      amount: 1

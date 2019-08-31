@@ -71,11 +71,6 @@ LVL_9_DAGGER:
       name: ''
   max-durability: 120.0=185.0
   will-break: false
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 102.0
 LVL_25_DAGGER:
   material: iron_Sword
   name: '&fIron Dagger'
@@ -141,19 +136,15 @@ LVL_25_DAGGER:
       name: ''
   max-durability: 270.0=315.0
   will-break: false
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 103.0
 LVL_34_DAGGER:
-  material: golden_Sword
+  material: gold_Sword
   name: '&fGolden Dagger'
   tier: UNCOMMON
   lore:
   - '&8Golden Dagger.'
   unbreakable: true
   two-handed: false
+  gem-sockets: 1.0
   required-level: 34.0
   attack-damage: 19
   attack-speed: 2.0
@@ -210,13 +201,6 @@ LVL_34_DAGGER:
       name: ''
   max-durability: 300.0=380.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 104.0
 LVL_48_DAGGER:
   material: diamond_Sword
   name: '&6Diamond Dagger'
@@ -225,6 +209,7 @@ LVL_48_DAGGER:
   - '&6Diamond Dagger.'
   unbreakable: true
   two-handed: false
+  gem-sockets: 2.0
   required-level: 55.0
   attack-damage: 23
   attack-speed: 2.2
@@ -281,14 +266,6 @@ LVL_48_DAGGER:
       name: ''
   max-durability: 800.0=1200.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  - BLUE
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 105.0
 UP_LVL_48_DAGGER:
   material: diamond_Sword
   name: '&eUpgraded Diamond Dagger'
@@ -297,6 +274,7 @@ UP_LVL_48_DAGGER:
   - '&eUpgraded Diamond Dagger.'
   unbreakable: true
   two-handed: false
+  gem-sockets: 3.0
   required-level: 48.0
   attack-damage: 28
   attack-speed: 2.35
@@ -348,15 +326,6 @@ UP_LVL_48_DAGGER:
       name: ''
   max-durability: 1000.0=1500.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 105.0
 MOONSHIVER:
   material: iron_Sword
   name: '&eMoonshiver'
@@ -367,12 +336,13 @@ MOONSHIVER:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    sweeping: 1
+    durability: 3
   element:
     damage:
-      Ice: 8.0
+      Ice: 10.0
   unbreakable: true
   two-handed: false
+  gem-sockets: 3.0
   required-level: 50.0
   attack-damage: 30
   attack-speed: 2.6
@@ -428,24 +398,6 @@ MOONSHIVER:
       name: ''
   max-durability: 75000.0
   will-break: false
-  ability:
-    ability1:
-      type: BOUNCY_FIREBALL
-      mode: SHIFT_RIGHT_CLICK
-      damage: 15.0
-      cooldown: 14.5
-      radius: 4.25
-      speed: 1.0
-      ignite: 12.0
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 106.0
 ULT_MOONSHIVER:
   material: iron_Sword
   name: '&cUltimate Moonshiver'
@@ -457,27 +409,26 @@ ULT_MOONSHIVER:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    sweeping: 2
+    durability: 6
   element:
     damage:
-      Ice: 20.0
+      Ice: 40.0
   ability:
     right-click:
       type: ICE_CRYSTAL
-      damage: 28.0
+      damage: 65.0
       duration: 6
       amplifier: 5
       cooldown: 13
-      mode: ON_HIT
     on-hit:
       type: FREEZING_CURSE
       cooldown: 8.3
       duration: 4
       amplifier: 3
       length: 4
-      mode: WHEN_HIT
   unbreakable: true
   two-handed: false
+  gem-sockets: 6.0
   required-level: 58.0
   attack-damage: 42
   attack-speed: 2.65
@@ -529,15 +480,6 @@ ULT_MOONSHIVER:
       name: ''
   max-durability: 75000.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 106.0
 VALERIANDAGGER:
   material: iron_Sword
   name: '&cValerian Dagger'
@@ -549,22 +491,17 @@ VALERIANDAGGER:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    smite: 5
+    durability: 11
   ability:
     on-hit:
       type: DEATH_MARK
-      cooldown: 6.5
-      damage: 7.8
+      cooldown: 8
+      damage: 25.7
       duration: 3.8
       slow-amplifier: 3
-      mode: ON_HIT
-      amplifier: 2.0
-    ability1:
-      type: CONFUSE
-      cooldown: 6.45
-      mode: ON_HIT
   unbreakable: true
   two-handed: false
+  gem-sockets: 6.0
   required-level: 62.0
   attack-damage: 45
   attack-speed: 2.77
@@ -618,97 +555,3 @@ VALERIANDAGGER:
       name: ''
   max-durability: 75000.0
   will-break: false
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  upgrade:
-    destroy: true
-    template: sword-default
-    max: 12
-  custom-model-data: 107.0
-CURSE_DAGGER:
-  material: STONE_SWORD
-  max-durability: 75000.0
-  name: '&5Cursed Dagger'
-  enchants:
-    thorns: 1
-  hide-enchants: true
-  disable-crafting: true
-  disable-smelting: true
-  disable-enchanting: true
-  disable-repairing: true
-  required-level: 136.0
-  attack-damage: 253.0
-  attack-speed: 1.67
-  critical-strike-chance: 53.0
-  critical-strike-power: 183.0
-  dodge-rating: 20.0
-  dodge-cooldown-reduction: 15.0
-  unbreakable: true
-  tier: CURSED
-  set: CURSE
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      material: AIR
-      amount: 1
-      name: ''
-    '5':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '1':
-      type: MATERIAL
-      id: CURSED_ESSENCE
-      amount: 1
-    '7':
-      material: STICK
-      amount: 1
-      name: ''
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  - BLUE
-  ability:
-    ability1:
-      type: BLIND
-      duration: 0.35
-      cooldown: 1.0
-      mode: ON_HIT
-    ability2:
-      type: WITHER
-      amplifier: 5.0
-      cooldown: 10.0
-      duration: 2.75
-      mode: ON_HIT
-    ability3:
-      type: VAMPIRISM
-      drain: 55.0
-      cooldown: 0.35
-      mode: ON_HIT
-  upgrade:
-    template: sword-default
-    max: 12
-    destroy: true
-  custom-model-data: 107.0

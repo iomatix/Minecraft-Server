@@ -1,60 +1,30 @@
-NO_ITEM:
-  name: '&c- No Item -'
-  lore: []
-NO_TYPE:
-  name: '&c- No Type -'
-  lore: []
+UNIDENTIFIED_ITEM:
+  name: '&kUnidentified'
+  lore:
+  - '&e&oThis item is &c&o&nunidentified&e&o.'
+  - '&e&oI''ll have to find a way to identify this.'
 TYPE_DISPLAY:
-  name: '&a#type# &8(Click to browse)'
+  name: '#type# &8(Click to browse)'
   lore:
   - '&7There are &6#recipes#&7 available recipes.'
-PREVIOUS_PAGE:
-  name: '&aPrevious Page'
-  lore: []
-NEXT_PAGE:
-  name: '&aNext Page'
-  lore: []
-PREVIOUS_IN_QUEUE:
-  name: '&aPrevious'
-  lore: []
-NEXT_IN_QUEUE:
-  name: '&aNext'
+RECIPE_LIST:
+  name: Advanced Recipes
   lore: []
 BACK:
-  name: '&aBack'
+  name: Back
   lore: []
-RECIPE_LIST:
-  name: '&aAdvanced Recipes'
+NEXT_PAGE:
+  name: Next Page
   lore: []
-CRAFTING_RECIPE_DISPLAY:
-  name: '&a&lCraft&f #name#'
-  lore:
-  - '{conditions}'
-  - '#condition_level#'
-  - '{crafting_time}'
-  - '{crafting_time}&7Crafting Time: &c#crafting-time#&7s'
-  - ''
-  - '&8Ingredients:'
-  - '#ingredients#'
-  - ''
-  - '&eClick to craft!'
-UPGRADING_RECIPE_DISPLAY:
-  name: '&e&lUpgrade&f #name#'
-  lore:
-  - '{conditions}'
-  - '#condition_level#'
-  - ''
-  - '&8Ingredients:'
-  - '#ingredients#'
-  - ''
-  - '&eClick to craft!'
-QUEUE_ITEM_DISPLAY:
-  name: '&6&lQueue&f #name#'
-  lore:
-  - '{ready}&7&oThis item was successfully crafted.'
-  - '{queue}&7&oThis item is in the crafting queue.'
-  - '{queue}'
-  - '{queue}&7Time Left: &c#left#'
-  - ''
-  - '{ready}&eClick to claim!'
-  - '{queue}&eClick to cancel.'
+PREVIOUS_PAGE:
+  name: Previous Page
+  lore: []
+NO_ITEM:
+  name: '- No Item -'
+  lore: []
+NO_TYPE:
+  name: '- No Type -'
+  lore: []
+NO_GEM_STONE:
+  name: '- Empty Gem Socket -'
+  lore: []
