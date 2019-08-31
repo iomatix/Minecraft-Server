@@ -29,33 +29,35 @@
 vitality: 
   display: 'Vitality'
   max: '200'
-  icon: 'ink sack'
+  icon: 'RED_DYE'
   icon-data: '1'
   icon-lore: 
   - '&6Vitality &7(&2{amount}&7)'
   - ''
-  - '&2Grants 10 health,'
+  - '&2Grants 15 health,'
   - '&20.2% physical defense,'
   - '&20.1% magic defense,'
   - '&220% hunger lasts longer,'
-  - '&20.2% more effective heals'
+  - '&20.15% more effective heals,'
+  - '&20.3% armor and'
   - '&223% health regeneration'
   - '&2per point invested.'
   global: 
     condition:  {}
     mechanic:
-      Heal-value: 'a*0+1*v:icon-key=Constant|a*0.002+1*v:type=Health'
+      Heal-value: 'a*0+1*v:icon-key=Constant|a*0.0015+1*v:type=Health'
     target:  {}
   stats: 
-    health: '(a*0.1+1*v)+(a*10+v)'
+    health: '(a*0.1+1*v)+(a*15+v)'
     hunger-heal: 'a*1.35+1*v'
-    hunger: 'a*0.2+1*v'
+    hunger: 'a*0.3+1*v'
     skill-defense: '-a*0.001+1*v'
     physical-defense: '-a*0.002+1*v'
+    armor: 'a*0.002+1*v'
 spirit: 
   display: 'Spirit'
   max: '200'
-  icon: 'ink sack'
+  icon: 'CYAN_DYE'
   icon-data: '6'
   icon-lore: 
   - '&6Spirit &7(&2{amount}&7)'
@@ -77,7 +79,7 @@ spirit:
 intelligence: 
   display: 'Intelligence'
   max: '200'
-  icon: 'ink sack'
+  icon: 'BLUE_DYE'
   icon-data: '4'
   icon-lore: 
   - '&6Intelligence &7(&2{amount}&7)'
@@ -105,7 +107,7 @@ intelligence:
 dexterity: 
   display: 'Dexterity'
   max: '200'
-  icon: 'ink sack'
+  icon: 'ORANGE_DYE'
   icon-data: '11'
   icon-lore: 
   - '&6Dexterity &7(&2{amount}&7)'
@@ -135,7 +137,7 @@ dexterity:
 strength: 
   display: 'Strength'
   max: '200'
-  icon: 'ink sack'
+  icon: 'LIME_DYE'
   icon-data: '2'
   icon-lore: 
   - '&6Strength &7(&2{amount}&7)'
@@ -143,7 +145,7 @@ strength:
   - '&2Grants 3.5% increased physical damage,'
   - '&22.5% reflected damage,'
   - '&20.23% knockback resist,'
-  - '&20.3% armor and'
+  - '&21% armor and'
   - '&20.2% armor toughness'
   - '&2per point invested.'
   global: 
@@ -156,11 +158,11 @@ strength:
     physical-damage: 'a*0.03+1*v'
     knockback-resist: 'a*0.0023+1*v'
     armor-toughness: 'a*0.002+1*v'
-    armor: 'a*0.003+1*v'
+    armor: 'a*0.01+1*v'
 eternity: 
   display: 'Eternity'
   max: '10'
-  icon: 'ink sack'
+  icon: 'BONE_MEAL'
   icon-data: '15'
   icon-lore: 
   - '&5Eternity &7(&2{amount}&7)'
@@ -179,7 +181,7 @@ eternity:
 holiness: 
   display: 'Holiness'
   max: '10'
-  icon: 'ink sack'
+  icon: 'YELLOW_DYE'
   icon-data: '14'
   icon-lore: 
   - '&eHoliness &7(&2{amount}&7)'
@@ -198,7 +200,7 @@ holiness:
 arcan: 
   display: 'Arcan'
   max: '10'
-  icon: 'ink sack'
+  icon: 'LAPIS_LAZULI'
   icon-data: '12'
   icon-lore: 
   - '&3Arcan &7(&2{amount}&7)'
@@ -217,7 +219,7 @@ arcan:
 nobleness: 
   display: 'Nobleness'
   max: '10'
-  icon: 'ink sack'
+  icon: 'GREEN_DYE'
   icon-data: '10'
   icon-lore: 
   - '&2Nobleness &7(&2{amount}&7)'

@@ -221,7 +221,7 @@ GUI:
   food-bar: 'none'
 
   # Whether or not to use the action bar
-  use-action-bar: 'true'
+  use-action-bar: 'false'
 
   # The text to display on the action bar.
   # Available filters:
@@ -245,7 +245,7 @@ GUI:
   title-enabled: 'false'
 
   # Duration for title messages in seconds
-  title-duration: '3'
+  title-duration: '1.5'
 
   # Fade in time for title messages in seconds
   title-fade-in: '0.5'
@@ -263,7 +263,6 @@ GUI:
   title-messages: 
   - 'level_up'
   - 'exp_lost'
-  - 'exp_gained'
 
   # Whether or not to display class information on a scoreboard
   scoreboard-enabled: 'false'
@@ -482,7 +481,7 @@ Experience:
   # Note: any dropped exp will not count towards class exp,
   # only enabled sources will count. By default, this is only
   # mob deaths.
-  use-exp-orbs: 'true'
+  use-exp-orbs: 'false'
 
   # Whether or not to prevent gaining experience from mobs
   # spawned via a mob spawner block
@@ -527,38 +526,70 @@ Experience:
   # The experience yields from each mob type
   # When exp orbs are enabled, these values are ignored
   yields: 
-    blaze: '21'
-    cavespider: '11'
+    bat: '2'
+    blaze: '20'
+    cavespider: '12'
+    chicken: '2'
+    cow: '5'
     creeper: '13'
-    elderguardian: '25'
-    enderdragon: '500'
-    enderman: '17'
-    endermite: '8'
-    evoker: '16'
-    ghast: '50'
-    giant: '30'
-    guardian: '16'
-    husk: '12'
-    irongolem: '16'
-    magmacube: '11'
-    pigzombie: '14'
-    player: '5'
-    shulker: '15'
-    silverfish: '3'
-    skeleton: '12'
+    donkey: '4'
+    elderguardian: '32'
+    enderdragon: '200'
+    enderman: '20'
+    endermite: '7'
+    evoker: '19'
+    ghast: '22'
+    giant: '20'
+    guardian: '27'
+    horse: '6'
+    husk: '14'
+    irongolem: '26'
+    magmacube: '14'
+    llama: '7'
+    mule: '4'
+    mushroomcow: '8'
+    ocelot: '12'
+    pig: '5'
+    pigzombie: '17'
+    polarbear: '16'
+    rabbit: '4'
+    sheep: '5'
+    shulker: '16'
+    silverfish: '2'
+    skeleton: '13'
+    skeletonhorse: '7'
     slime: '7'
-    spider: '10'
-    stray: '11'
-    vex: '13'
-    vindicator: '14'
-    witch: '15'
-    wither: '250'
-    witherskeleton: '15'
+    snowman: '12'
+    spider: '13'
+    squid: '7'
+    stray: '15'
+    vex: '9'
+    villager: '6'
+    vindicator: '18'
+    witch: '16'
+    wither: '200'
+    witherskeleton: '19'
+    wolf: '12'
     zombie: '11'
-    wolf: '10'
-    ocelot: '10'
-    pig: '10'
-    sheep: '10'
+    zombiehorse: '7'
+    zombievillager: '7'
+    parrot: '3'
+    dolphin: '12'
+    drowned: '13'
+    phantom: '23'
+    cod: '4'
+    salmon: '4'
+    pufferfish: '5'
+    tropicalfish: '5'
+    turtle: '4'
+    cat: '3'
+    fox: '7'
+    panda: '14'
+    pillager: '15'
+    ravager: '30'
+    traderlama: '7'
+    wanderingtrader: '8'
+    player: '5'
 
 # How much logging to do when loading SkillAPI
 # When testing setting up skills/classes, increase this to 1-5

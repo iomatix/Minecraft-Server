@@ -2605,8 +2605,8 @@ Area Heal:
     level-scale: '12'
     cost-base: '3'
     cost-scale: '3'
-    cooldown-base: '14'
-    cooldown-scale: '4'
+    cooldown-base: '16'
+    cooldown-scale: '5'
     mana-base: '33'
     mana-scale: '9'
     points-spent-req-base: '3'
@@ -14837,7 +14837,7 @@ Heal:
     level-scale: '8'
     cost-base: '2'
     cost-scale: '2'
-    cooldown-base: '6'
+    cooldown-base: '11'
     cooldown-scale: '3'
     mana-base: '16'
     mana-scale: '3'
@@ -24862,70 +24862,90 @@ Pression:
         type: 'Arrow'
         indicator: '2D'
       children: 
-        Crouch-v: 
+        Flag-v: 
           type: 'condition'
           indicator: '3D'
           data: 
             icon-key: ''
-            crouch: 'True'
+            type: 'Not Set'
+            key: 'pressionCD'
             indicator: '2D'
           children: 
-            Item Remove-w: 
-              type: 'mechanic'
+            Crouch-w: 
+              type: 'condition'
               indicator: '3D'
               data: 
                 icon-key: ''
-                counts: 'True'
-                amount-base: '1'
-                amount-scale: '0'
-                check-mat: 'True'
-                material: 'Arrow'
-                check-data: 'False'
-                check-lore: 'False'
-                check-name: 'False'
-                regex: 'False'
-                indicator: '2D'
-              children:  {}
-            Projectile-x: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: 'Pro'
-                counts: 'True'
-                projectile: 'Arrow'
-                flaming: 'False'
-                cost: 'One'
-                group: 'Enemy'
-                spread: 'Cone'
-                amount-base: '2'
-                amount-scale: '2'
-                velocity-base: 'api-velocity'
-                velocity-scale: '0'
-                angle-base: '22'
-                angle-scale: '-3'
-                position: '0'
-                forward-base: '0'
-                forward-scale: '0'
-                upward-base: '0.4'
-                upward-scale: '0'
-                right-base: '0'
-                right-scale: '0'
-                use-effect: 'False'
+                crouch: 'True'
                 indicator: '2D'
               children: 
-                Damage-y: 
+                Flag-x: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: 'ArrDMG'
+                    icon-key: 'pressionCD'
                     counts: 'True'
-                    type: 'Damage'
-                    value-base: '8.3'
-                    value-scale: '4.5'
-                    true: 'False'
-                    classifier: 'Physical'
+                    key: 'pressionCD'
+                    seconds-base: '0.25'
+                    seconds-scale: '0'
                     indicator: '2D'
                   children:  {}
+                Item Remove-y: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    amount-base: '1'
+                    amount-scale: '0'
+                    check-mat: 'True'
+                    material: 'Arrow'
+                    check-data: 'False'
+                    check-lore: 'False'
+                    check-name: 'False'
+                    regex: 'False'
+                    indicator: '2D'
+                  children:  {}
+                Projectile-z: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Pro'
+                    counts: 'True'
+                    projectile: 'Arrow'
+                    flaming: 'False'
+                    cost: 'One'
+                    group: 'Enemy'
+                    spread: 'Cone'
+                    amount-base: '2'
+                    amount-scale: '2'
+                    velocity-base: 'api-velocity'
+                    velocity-scale: '0'
+                    angle-base: '22'
+                    angle-scale: '-3'
+                    position: '0'
+                    forward-base: '0'
+                    forward-scale: '0'
+                    upward-base: '0.4'
+                    upward-scale: '0'
+                    right-base: '0'
+                    right-scale: '0'
+                    use-effect: 'False'
+                    indicator: '2D'
+                  children: 
+                    Damage-ab: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: 'ArrDMG'
+                        counts: 'True'
+                        type: 'Damage'
+                        value-base: '8.3'
+                        value-scale: '4.5'
+                        true: 'False'
+                        classifier: 'Physical'
+                        indicator: '2D'
+                      children:  {}
     Initialize: 
       type: 'trigger'
       indicator: '3D'
@@ -24933,7 +24953,7 @@ Pression:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-ab: 
+        Value Set-cb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -39022,7 +39042,7 @@ Void:
   - '&cSecond attack on the marked target spreads a &6void element.'
   - '&cThird attack on the marked target &6detonates the element &cand deals &6{attr:TrueDamage.value}&c,'
   - '&6{attr:MissHP.value}&6% &6missing health &cand &6{attr:TotalHP.value}&6% &6total health &cof the &6true damage.'
-  - '&6Marks  &6{attr:AreaMAX2.max} &6targets nearest to caster.'
+  - '&6Marks &6{attr:AreaMAX2.max} &6targets nearest to caster.'
   - '&cOnly &6one target &ccan be marked at the same time.'
   - '&cEvery attack stacks additional &6{attr:DamageVoid.value} &6void damage.'
   - '&cThe stack is detonated after &6{attr:Delay.delay}&6s.'
@@ -39849,7 +39869,7 @@ Void:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Delay'
                     counts: 'True'
                     delay-base: '3.25'
                     delay-scale: '0.15'
@@ -39973,7 +39993,7 @@ Void:
                       type: 'target'
                       indicator: '3D'
                       data: 
-                        icon-key: ''
+                        icon-key: 'AreaMAX2'
                         radius-base: '4'
                         radius-scale: '2'
                         group: 'Enemy'
@@ -41492,7 +41512,7 @@ Void:
                     counts: 'True'
                     status: 'Stun'
                     duration-base: '0.5'
-                    duration-scale: '0.15'
+                    duration-scale: '0.33'
                     indicator: '2D'
                   children:  {}
                 Status-rg: 

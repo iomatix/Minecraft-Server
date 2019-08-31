@@ -96,6 +96,7 @@ level:
     received-level: '&2You have received &6{level} levels &2from &6{player}'
     not-player: '&cThat is not a valid player name'
     not-positive: '&cYou must give a positive amount of levels'
+    gave-level: '&2You have given &6{player} {level} levels'
 list: 
   name: 'list'
   description: 'Displays accounts'
