@@ -14,7 +14,7 @@ ANCIENT_GAXE:
   attack-speed: 0.89
   two-handed: true
   critical-strike-chance: 60.0
-  critical-strike-power: 190.0
+  critical-strike-power: 90.0
   unbreakable: true
   tier: ANCIENT
   set: ANCIENT
@@ -101,7 +101,7 @@ OCEANIC_GAXE:
   attack-damage: 240.0
   attack-speed: 0.94
   critical-strike-chance: 45.0
-  critical-strike-power: 172.0
+  critical-strike-power: 73.0
   block-power: 5.0
   block-rating: 5.0
   parry-rating: 5.0

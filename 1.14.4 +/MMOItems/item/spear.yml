@@ -47,7 +47,7 @@ LVL_12_SPEAR:
   attack-damage: 11.0=13.0
   attack-speed: 1.15
   critical-strike-chance: 10.0=12.0
-  critical-strike-power: 115.0=117.0
+  critical-strike-power: 15.0=17.0
   dodge-rating: 3.0=3.5
   tier: COMMON
   parry-rating: 4.5=5.5
@@ -75,7 +75,7 @@ LVL_18_SPEAR:
   attack-damage: 16.0=22.0
   attack-speed: 1.17
   critical-strike-chance: 14.0=17.0
-  critical-strike-power: 120.0=124.0
+  critical-strike-power: 20.0=24.0
   dodge-rating: 4.0=5.0
   parry-rating: 6.0=7.0
   advanced-craft:
@@ -173,7 +173,7 @@ LVL_26_SPEAR:
       name: ''
   unbreakable: true
   critical-strike-chance: 25.0
-  critical-strike-power: 125.0
+  critical-strike-power: 25.0
   gem-sockets:
   - BLUE
 LVL_34_SPEAR:
@@ -231,7 +231,7 @@ LVL_34_SPEAR:
   attack-damage: 44.0
   attack-speed: 1.29
   critical-strike-chance: 28.0
-  critical-strike-power: 130.0
+  critical-strike-power: 30.0
   dodge-rating: 10.0
   parry-rating: 12.0
   gem-sockets:
@@ -294,7 +294,7 @@ LVL_48_SPEAR:
   attack-damage: 52.5
   attack-speed: 1.35
   critical-strike-chance: 33.0
-  critical-strike-power: 133.0
+  critical-strike-power: 33.0
   dodge-rating: 11.0
   parry-rating: 13.0
   required-level: 48.0
@@ -357,7 +357,7 @@ UP_LVL_48_SPEAR:
   attack-damage: 58.5
   attack-speed: 1.49
   critical-strike-chance: 40.0
-  critical-strike-power: 145.0
+  critical-strike-power: 45.0
   dodge-rating: 13.0
   parry-rating: 16.0
   required-level: 48.0
@@ -387,7 +387,7 @@ DEMONIC_SPEAR:
   attack-damage: 255.0
   attack-speed: 1.5
   critical-strike-chance: 50.0
-  critical-strike-power: 185.0
+  critical-strike-power: 85.0
   dodge-rating: 10.0
   dodge-cooldown-reduction: 10.0
   tier: DEMONIC
@@ -471,7 +471,7 @@ OCEANIC_TRIDENT:
   attack-damage: 255.0
   attack-speed: 1.34
   critical-strike-chance: 51.0
-  critical-strike-power: 185.0
+  critical-strike-power: 85.0
   dodge-rating: 15.0
   dodge-cooldown-reduction: 15.0
   regeneration: 20.0

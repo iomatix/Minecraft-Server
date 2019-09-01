@@ -17,7 +17,7 @@ DEMONIC_TSWORD:
   attack-damage: 242.0
   attack-speed: 1.39
   critical-strike-chance: 55.0
-  critical-strike-power: 180.0
+  critical-strike-power: 80.0
   parry-rating: 10.0
   parry-cooldown-reduction: 10.0
   unbreakable: true

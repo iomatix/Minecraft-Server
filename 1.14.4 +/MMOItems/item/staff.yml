@@ -13,7 +13,7 @@ LVL_22_STAFF:
   disable-smelting: true
   disable-crafting: true
   critical-strike-chance: 35.0
-  critical-strike-power: 140.0
+  critical-strike-power: 40.0
   range: 24.0
   magic-damage: 25.0
   regeneration: 10.0
@@ -86,7 +86,7 @@ LVL_38_STAFF:
   disable-smelting: true
   disable-crafting: true
   critical-strike-chance: 40.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   range: 30.0
   magic-damage: 27.0
   tier: RARE
@@ -162,7 +162,7 @@ LVL_48_STAFF:
   disable-smelting: true
   disable-crafting: true
   critical-strike-chance: 45.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   range: 32.0
   magic-damage: 27.0
   tier: RARE
@@ -242,7 +242,7 @@ ETHERNAL_STAFF:
   attack-damage: 242.0
   attack-speed: 0.93
   critical-strike-chance: 45.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   blunt-power: 1.7
   blunt-rating: 45.0
   magic-damage: 35.0
@@ -340,7 +340,7 @@ ETHERNAL_STAFF2:
   attack-damage: 242.0
   attack-speed: 0.93
   critical-strike-chance: 45.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   blunt-power: 1.7
   blunt-rating: 45.0
   magic-damage: 35.0
@@ -439,7 +439,7 @@ DIVINE_STAFF:
   attack-damage: 240.0
   attack-speed: 1.01
   critical-strike-chance: 40.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   blunt-power: 1.5
   blunt-rating: 35.0
   magic-damage: 25.0
@@ -535,7 +535,7 @@ DIVINE_STAFF2:
   attack-damage: 240.0
   attack-speed: 1.01
   critical-strike-chance: 40.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   blunt-power: 1.5
   blunt-rating: 35.0
   magic-damage: 25.0
@@ -633,7 +633,7 @@ OCEANIC_STAFF:
   attack-damage: 236.0
   attack-speed: 1.11
   critical-strike-chance: 50.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   blunt-power: 1.6
   blunt-rating: 32.0
   magic-damage: 28.0
@@ -733,7 +733,7 @@ OCEANIC_STAFF2:
   attack-damage: 236.0
   attack-speed: 1.11
   critical-strike-chance: 50.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   blunt-power: 1.6
   blunt-rating: 32.0
   magic-damage: 28.0
@@ -833,7 +833,7 @@ DEMONIC_STAFF:
   attack-damage: 258.0
   attack-speed: 1.09
   critical-strike-chance: 45.0
-  critical-strike-power: 167.0
+  critical-strike-power: 67.0
   blunt-power: 1.6
   blunt-rating: 35.0
   magic-damage: 30.0
@@ -929,7 +929,7 @@ DEMONIC_STAFF2:
   attack-damage: 258.0
   attack-speed: 1.09
   critical-strike-chance: 45.0
-  critical-strike-power: 167.0
+  critical-strike-power: 67.0
   blunt-power: 1.6
   blunt-rating: 35.0
   magic-damage: 30.0
@@ -1026,7 +1026,7 @@ ANCIENT_STAFF:
   attack-damage: 243.0
   attack-speed: 0.98
   critical-strike-chance: 45.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   blunt-power: 1.5
   blunt-rating: 35.0
   magic-damage: 25.0
@@ -1122,7 +1122,7 @@ ANCIENT_STAFF2:
   attack-damage: 243.0
   attack-speed: 0.98
   critical-strike-chance: 45.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   blunt-power: 1.5
   blunt-rating: 35.0
   magic-damage: 25.0
@@ -1218,7 +1218,7 @@ CURSED_STAFF:
   attack-damage: 260.0
   attack-speed: 1.02
   critical-strike-chance: 50.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   blunt-power: 1.5
   blunt-rating: 25.0
   magic-damage: 25.0
@@ -1315,7 +1315,7 @@ CURSED_STAFF2:
   attack-damage: 260.0
   attack-speed: 1.02
   critical-strike-chance: 50.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   blunt-power: 1.5
   blunt-rating: 25.0
   magic-damage: 25.0

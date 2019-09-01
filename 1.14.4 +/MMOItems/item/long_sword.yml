@@ -15,7 +15,7 @@ CURSE_LSWORD:
   attack-damage: 256.0
   attack-speed: 1.39
   critical-strike-chance: 50.0
-  critical-strike-power: 185.0
+  critical-strike-power: 85.0
   parry-rating: 30.0
   block-power: 15.0
   block-rating: 25.0
@@ -101,7 +101,7 @@ DIVINE_LSWORD:
   attack-damage: 242.0
   attack-speed: 1.27
   critical-strike-chance: 52.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   dodge-rating: 5.0
   parry-rating: 20.0
   parry-cooldown-reduction: 20.0

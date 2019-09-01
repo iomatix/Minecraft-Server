@@ -20,7 +20,7 @@ LVL_12_BOW:
   required-level: 12.0
   attack-damage: 29.0
   critical-strike-chance: 10.0
-  critical-strike-power: 125.0
+  critical-strike-power: 25.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -86,7 +86,7 @@ LVL_24_BOW:
   required-level: 24.0
   attack-damage: 51.0
   critical-strike-chance: 15.0
-  critical-strike-power: 135.0
+  critical-strike-power: 35.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -154,7 +154,7 @@ LVL_36_BOW:
   required-level: 36.0
   attack-damage: 77.0
   critical-strike-chance: 20.0
-  critical-strike-power: 145.0
+  critical-strike-power: 45.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -222,7 +222,7 @@ LVL_48_BOW:
   required-level: 48.0
   attack-damage: 87.0
   critical-strike-chance: 30.0
-  critical-strike-power: 155.0
+  critical-strike-power: 55.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -291,7 +291,7 @@ UP_LVL_48_BOW:
   required-level: 48.0
   attack-damage: 96.0
   critical-strike-chance: 35.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -366,7 +366,7 @@ REDWOOD_BOW:
   required-level: 50.0
   attack-damage: 112.0
   critical-strike-chance: 38.0
-  critical-strike-power: 168.0
+  critical-strike-power: 68.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -454,7 +454,7 @@ WINDBLOW:
   required-level: 52.0
   attack-damage: 123.0
   critical-strike-chance: 41.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -560,7 +560,7 @@ DARKBLESS:
   required-level: 54.0
   attack-damage: 136.5
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -657,7 +657,7 @@ DRAGONFIRE:
   required-level: 56.0
   attack-damage: 146.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -754,7 +754,7 @@ DEATHWING:
   required-level: 58.0
   attack-damage: 160.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -851,7 +851,7 @@ ULT_DEATHWING:
   required-level: 58.0
   attack-damage: 178.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -947,7 +947,7 @@ ULT_DRAGONFIRE:
   required-level: 58.0
   attack-damage: 177.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -1042,7 +1042,7 @@ ULT_DARKBLESS:
   required-level: 58.0
   attack-damage: 177.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -1138,7 +1138,7 @@ ULT_WINDBLOW:
   required-level: 58.0
   attack-damage: 177.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -1236,7 +1236,7 @@ ULT_REDWOOD_BOW:
   required-level: 58.0
   attack-damage: 177.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -1336,7 +1336,7 @@ VOID_BOW:
   required-level: 62.0
   attack-damage: 195.5
   critical-strike-chance: 50.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   movement-speed: 0.006
   advanced-craft-enabled: true
   advanced-craft:

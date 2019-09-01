@@ -21,7 +21,7 @@ LVL_9_DAGGER:
   blunt-power: 0.2
   blunt-rating: 1
   critical-strike-chance: 30.0
-  critical-strike-power: 130.0
+  critical-strike-power: 30.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -91,7 +91,7 @@ LVL_25_DAGGER:
   blunt-power: 0.45
   blunt-rating: 2
   critical-strike-chance: 35.0
-  critical-strike-power: 145.0
+  critical-strike-power: 45.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -160,7 +160,7 @@ LVL_34_DAGGER:
   blunt-power: 0.55
   blunt-rating: 5
   critical-strike-chance: 38.0
-  critical-strike-power: 155.0
+  critical-strike-power: 55.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -231,7 +231,7 @@ LVL_48_DAGGER:
   blunt-power: 0.65
   blunt-rating: 12
   critical-strike-chance: 40.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -303,7 +303,7 @@ UP_LVL_48_DAGGER:
   blunt-power: 0.7
   blunt-rating: 15
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -379,7 +379,7 @@ MOONSHIVER:
   blunt-power: 0.7
   blunt-rating: 20
   critical-strike-chance: 53.0
-  critical-strike-power: 183.0
+  critical-strike-power: 83.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -484,7 +484,7 @@ ULT_MOONSHIVER:
   blunt-power: 0.7
   blunt-rating: 25
   critical-strike-chance: 65.0
-  critical-strike-power: 190.0
+  critical-strike-power: 90.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -571,7 +571,7 @@ VALERIANDAGGER:
   blunt-power: 0.7
   blunt-rating: 25
   critical-strike-chance: 65
-  critical-strike-power: 190
+  critical-strike-power: 90
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -642,7 +642,7 @@ CURSE_DAGGER:
   attack-damage: 253.0
   attack-speed: 1.67
   critical-strike-chance: 53.0
-  critical-strike-power: 183.0
+  critical-strike-power: 83.0
   dodge-rating: 20.0
   dodge-cooldown-reduction: 15.0
   unbreakable: true

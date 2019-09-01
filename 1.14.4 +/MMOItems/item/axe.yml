@@ -18,7 +18,7 @@ LVL_7_AXE:
   blunt-power: 1.3
   blunt-rating: 30
   critical-strike-chance: 5.0
-  critical-strike-power: 115.0
+  critical-strike-power: 15.0
   movement-speed: -0.005
   advanced-craft-enabled: true
   advanced-craft:
@@ -86,7 +86,7 @@ LVL_16_AXE:
   blunt-power: 1.5
   blunt-rating: 45
   critical-strike-chance: 7.0
-  critical-strike-power: 125.0
+  critical-strike-power: 25.0
   movement-speed: -0.01
   advanced-craft-enabled: true
   advanced-craft:
@@ -155,7 +155,7 @@ LVL_25_AXE:
   blunt-power: 1.7
   blunt-rating: 55
   critical-strike-chance: 8.0
-  critical-strike-power: 130.0
+  critical-strike-power: 30.0
   movement-speed: -0.015
   advanced-craft-enabled: true
   advanced-craft:
@@ -226,7 +226,7 @@ LVL_34_AXE:
   blunt-power: 1.8
   blunt-rating: 60
   critical-strike-chance: 8.5
-  critical-strike-power: 135.0
+  critical-strike-power: 35.0
   movement-speed: -0.02
   advanced-craft-enabled: true
   advanced-craft:
@@ -297,7 +297,7 @@ LVL_48_AXE:
   blunt-power: 1.9
   blunt-rating: 70
   critical-strike-chance: 10.0
-  critical-strike-power: 145.0
+  critical-strike-power: 45.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -369,7 +369,7 @@ UP_LVL_48_AXE:
   blunt-power: 2
   blunt-rating: 75
   critical-strike-chance: 13.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -445,7 +445,7 @@ SKULLCRUSHER:
   blunt-power: 2
   blunt-rating: 76
   critical-strike-chance: 14.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -524,7 +524,7 @@ RAVAGER:
   blunt-power: 2
   blunt-rating: 78
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -616,7 +616,7 @@ THUNDER_AXE:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -712,7 +712,7 @@ DARKREVENGE:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -803,7 +803,7 @@ DECAPITATOR:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -899,7 +899,7 @@ ULT_DARKREVENGE:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -990,7 +990,7 @@ ULT_THUNDER_AXE:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -1081,7 +1081,7 @@ ULT_SKULLCRUSHER:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -1172,7 +1172,7 @@ ULT_RAVAGER:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:
@@ -1262,7 +1262,7 @@ VALERIANAXE:
   blunt-power: 2
   blunt-rating: 80
   critical-strike-chance: 15.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   movement-speed: -0.025
   advanced-craft-enabled: true
   advanced-craft:

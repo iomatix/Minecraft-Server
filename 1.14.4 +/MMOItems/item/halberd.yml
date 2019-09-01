@@ -15,7 +15,7 @@ ETHERNAL_SCYTHE:
   attack-damage: 248.0
   attack-speed: 1.31
   critical-strike-chance: 53.0
-  critical-strike-power: 190.0
+  critical-strike-power: 90.0
   magic-damage: 45.0
   unbreakable: true
   two-handed: true
@@ -112,7 +112,7 @@ CURSE_SCYTHE:
   attack-damage: 239.0
   attack-speed: 1.15
   critical-strike-chance: 55.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   dodge-rating: 12.0
   parry-rating: 12.0
   unbreakable: true

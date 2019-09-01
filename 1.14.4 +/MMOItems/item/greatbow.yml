@@ -18,7 +18,7 @@ DEMONIC_GBOW:
   required-level: 120.0
   attack-damage: 245.0
   critical-strike-chance: 50.0
-  critical-strike-power: 176.0
+  critical-strike-power: 76.0
   unbreakable: true
   tier: DEMONIC
   set: DEMONIC
@@ -117,7 +117,7 @@ ETHERNAL_GBOW:
   required-level: 136.0
   attack-damage: 265.0
   critical-strike-chance: 53.0
-  critical-strike-power: 188.0
+  critical-strike-power: 88.0
   dodge-rating: 10.0
   dodge-cooldown-reduction: 10.0
   perm-effects:

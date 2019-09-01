@@ -15,7 +15,7 @@ DIVINE_LANCE:
   attack-damage: 256.0
   attack-speed: 1.45
   critical-strike-chance: 60.0
-  critical-strike-power: 185.0
+  critical-strike-power: 85.0
   dodge-rating: 10.0
   parry-rating: 15.0
   parry-cooldown-reduction: 15.0
@@ -116,7 +116,7 @@ ANCIENT_LANCE:
   attack-damage: 235.0
   attack-speed: 1.45
   critical-strike-chance: 45.0
-  critical-strike-power: 160.0
+  critical-strike-power: 60.0
   parry-rating: 5.0
   parry-cooldown-reduction: 5.0
   unbreakable: true

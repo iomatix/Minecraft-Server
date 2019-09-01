@@ -12,7 +12,7 @@ CURSE_CATALYST:
   name: '&5Cursed Catalyst'
   max-durability: 75000.0
   critical-strike-chance: 15.0
-  critical-strike-power: 15.0
+  critical-strike-power: 13.0
   dodge-rating: 15.0
   parry-rating: 15.0
   weapon-damage: 20.0

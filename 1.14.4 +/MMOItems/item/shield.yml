@@ -126,6 +126,8 @@ LVL_16_SHIELD:
     template: armor-default
     max: 12
   disable-crafting: true
+  shield-pattern:
+    color: RED
 LVL_25_SHIELD:
   material: SHIELD
   name: '&fIron Shield'
@@ -191,6 +193,8 @@ LVL_25_SHIELD:
     destroy: true
     template: armor-default
     max: 12
+  shield-pattern:
+    color: LIGHT_GRAY
 LVL_34_SHIELD:
   material: SHIELD
   name: '&fTough Iron Shield'
@@ -255,6 +259,8 @@ LVL_34_SHIELD:
     destroy: true
     template: armor-default
     max: 12
+  shield-pattern:
+    color: GRAY
 LVL_48_SHIELD:
   material: SHIELD
   name: '&6Diamond Shield'
@@ -320,6 +326,8 @@ LVL_48_SHIELD:
     destroy: true
     template: armor-default
     max: 12
+  shield-pattern:
+    color: LIGHT_BLUE
 UP_LVL_48_SHIELD:
   material: SHIELD
   name: '&eUpgraded Diamond Shield'
@@ -384,6 +392,8 @@ UP_LVL_48_SHIELD:
     destroy: true
     template: armor-default
     max: 12
+  shield-pattern:
+    color: LIGHT_BLUE
 ANCIENT_GREATSHIELD:
   material: SHIELD
   movement-speed: -0.02

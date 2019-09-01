@@ -8,7 +8,7 @@ LVL_16_CROSSBOW:
   required-level: 16.0
   attack-damage: 40.0
   critical-strike-chance: 10.0
-  critical-strike-power: 125.0
+  critical-strike-power: 25.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -74,7 +74,7 @@ LVL_24_CROSSBOW:
   required-level: 24.0
   attack-damage: 60.0
   critical-strike-chance: 15.0
-  critical-strike-power: 135.0
+  critical-strike-power: 35.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -142,7 +142,7 @@ LVL_36_CROSSBOW:
   required-level: 36.0
   attack-damage: 85.0
   critical-strike-chance: 20.0
-  critical-strike-power: 145.0
+  critical-strike-power: 45.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -210,7 +210,7 @@ LVL_48_CROSSBOW:
   required-level: 48.0
   attack-damage: 100.0
   critical-strike-chance: 30.0
-  critical-strike-power: 155.0
+  critical-strike-power: 55.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -279,7 +279,7 @@ UP_LVL_48_CROSSBOW:
   required-level: 48.0
   attack-damage: 115.0
   critical-strike-chance: 35.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   two-handed: true
   advanced-craft-enabled: true
   advanced-craft:
@@ -367,7 +367,7 @@ DRAGONFIRE_CROSSBOW:
   required-level: 56.0
   attack-damage: 152.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -457,7 +457,7 @@ ULT_DRAGONFIRE_CROSSBOW:
   required-level: 58.0
   attack-damage: 180.0
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -536,7 +536,7 @@ DWARF_CROSSBOW:
   required-level: 62.0
   attack-damage: 210.5
   critical-strike-chance: 50.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -617,7 +617,7 @@ ANCIENT_CROSSBOW:
   required-level: 120.0
   attack-damage: 240.0
   critical-strike-chance: 50.0
-  critical-strike-power: 175.0
+  critical-strike-power: 75.0
   movement-speed: -0.025
   two-handed: true
   advanced-craft:
@@ -710,7 +710,7 @@ OCEANIC_CROSSBOW:
   required-level: 120.0
   attack-damage: 247.0
   critical-strike-chance: 55.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   unbreakable: true
   tier: OCEANIC
   set: OCEANIC
@@ -835,7 +835,7 @@ DIVINE_CROSSBOW:
   attack-damage: 263.0
   required-level: 136.0
   critical-strike-chance: 55.0
-  critical-strike-power: 172.0
+  critical-strike-power: 72.0
   undead-damage: 30.0
   tier: DIVINE
   set: DIVINE

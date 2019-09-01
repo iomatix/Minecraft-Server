@@ -20,7 +20,7 @@ LVL_7_SWORD:
   blunt-power: 1.2
   blunt-rating: 5
   critical-strike-chance: 10.0
-  critical-strike-power: 120.0
+  critical-strike-power: 20.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -89,7 +89,7 @@ LVL_16_SWORD:
   blunt-power: 1.3
   blunt-rating: 8
   critical-strike-chance: 13.0
-  critical-strike-power: 130.0
+  critical-strike-power: 30.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -157,7 +157,7 @@ LVL_25_SWORD:
   blunt-power: 1.45
   blunt-rating: 12
   critical-strike-chance: 15.0
-  critical-strike-power: 135.0
+  critical-strike-power: 35.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -227,7 +227,7 @@ LVL_34_SWORD:
   blunt-power: 1.55
   blunt-rating: 15
   critical-strike-chance: 22.0
-  critical-strike-power: 140.0
+  critical-strike-power: 40.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -297,7 +297,7 @@ LVL_48_SWORD:
   blunt-power: 1.65
   blunt-rating: 22
   critical-strike-chance: 25.0
-  critical-strike-power: 150.0
+  critical-strike-power: 50.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -368,7 +368,7 @@ UP_LVL_48_SWORD:
   blunt-power: 1.7
   blunt-rating: 25
   critical-strike-chance: 30.0
-  critical-strike-power: 160.0
+  critical-strike-power: 60.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -444,7 +444,7 @@ MOONBLADE:
   blunt-power: 1.7
   blunt-rating: 28
   critical-strike-chance: 33.0
-  critical-strike-power: 163.0
+  critical-strike-power: 63.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -524,7 +524,7 @@ FLAMETONGUE:
   blunt-power: 1.7
   blunt-rating: 30
   critical-strike-chance: 35.0
-  critical-strike-power: 165.0
+  critical-strike-power: 65.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -612,7 +612,7 @@ SEETHE:
   blunt-power: 1.7
   blunt-rating: 32
   critical-strike-chance: 36.5
-  critical-strike-power: 166.5
+  critical-strike-power: 66.5
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -703,7 +703,7 @@ OATHBREAKER:
   blunt-power: 1.7
   blunt-rating: 33
   critical-strike-chance: 38
-  critical-strike-power: 168
+  critical-strike-power: 68
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -799,7 +799,7 @@ DIVINEDIVIDER:
   blunt-power: 1.7
   blunt-rating: 35
   critical-strike-chance: 45
-  critical-strike-power: 170
+  critical-strike-power: 70
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -889,7 +889,7 @@ ULT_OATHBREAKER:
   blunt-power: 1.7
   blunt-rating: 35
   critical-strike-chance: 45
-  critical-strike-power: 170
+  critical-strike-power: 70
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -982,7 +982,7 @@ ULT_SEETHE:
   blunt-power: 1.7
   blunt-rating: 35
   critical-strike-chance: 45
-  critical-strike-power: 170
+  critical-strike-power: 70
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -1076,7 +1076,7 @@ ULT_MOONBLADE:
   blunt-power: 1.7
   blunt-rating: 35
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -1166,7 +1166,7 @@ ULT_FLAMETONGUE:
   blunt-power: 1.7
   blunt-rating: 35
   critical-strike-chance: 45.0
-  critical-strike-power: 170.0
+  critical-strike-power: 70.0
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -1255,7 +1255,7 @@ VALERIANSWORD:
   blunt-power: 1.7
   blunt-rating: 35
   critical-strike-chance: 45
-  critical-strike-power: 170
+  critical-strike-power: 70
   advanced-craft-enabled: true
   advanced-craft:
     '0':
