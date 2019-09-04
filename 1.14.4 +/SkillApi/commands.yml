@@ -166,6 +166,7 @@ profess:
   messages: 
     professed: '&2You are now a &6{class}'
     not-available: "&cThere's no profession available at this time"
+    invalid-class: '&cThat is not a valid class'
 reload: 
   name: 'reload'
   description: 'Reloads the plugin'

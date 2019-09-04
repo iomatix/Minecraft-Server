@@ -298,7 +298,7 @@ Casting:
   # - Left/Right clicking on item cycles through skills
   # - Preview when hovering the item
   # - No limit on skills (though makes cycling hard to find skills)
-  bars: 'true'
+  bars: 'false'
 
   # Whether or not to use the combat bar implementation. Details:
   # - Specified slot becomes a toggle item

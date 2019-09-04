@@ -34,7 +34,7 @@ vitality:
   icon-lore: 
   - '&6Vitality &7(&2{amount}&7)'
   - ''
-  - '&2Grants 15 health,'
+  - '&2Grants 12 health,'
   - '&20.2% physical defense,'
   - '&20.1% magic defense,'
   - '&220% hunger lasts longer,'
@@ -48,7 +48,7 @@ vitality:
       Heal-value: 'a*0+1*v:icon-key=Constant|a*0.0015+1*v:type=Health'
     target:  {}
   stats: 
-    health: '(a*0.1+1*v)+(a*15+v)'
+    health: '(a*0.1+1*v)+(a*12+v)'
     hunger-heal: 'a*1.35+1*v'
     hunger: 'a*0.3+1*v'
     skill-defense: '-a*0.001+1*v'
@@ -225,13 +225,13 @@ nobleness:
   - '&2Nobleness &7(&2{amount}&7)'
   - ''
   - '&6Grants 1.5% increased all defense and'
-  - '&62.5% health'
+  - '&62.2% health'
   - '&6per point invested.'
   global: 
     condition:  {}
     mechanic:  {}
     target:  {}
   stats: 
-    health: 'a*0.025+1*v'
+    health: 'a*0.022+1*v'
     skill-defense: '-a*0.015+1*v'
     physical-defense: '-a*0.015+1*v'

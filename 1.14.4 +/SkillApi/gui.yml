@@ -65,6 +65,7 @@ stAdventurer:
       push: 13
       meteor strike: 36
       fly: 15
+      eruption: 22
       iceile: 39
       splash: 30
       magic weapon: 43
