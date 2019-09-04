@@ -27,6 +27,7 @@ Adventurer:
   tree: 'REQUIREMENT'
   blacklist:  []
   skills: 
+  - 'Eruption'
   - 'Titan'
   - 'Mysterium'
   - 'Permeability'
