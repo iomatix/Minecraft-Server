@@ -34,23 +34,22 @@ vitality:
   icon-lore: 
   - '&6Vitality &7(&2{amount}&7)'
   - ''
-  - '&2Grants 12 health,'
-  - '&225% hunger lasts longer,'
-  - '&225% hunger lasts longer,'
+  - '&2Grants 11 health,'
+  - '&220% hunger lasts longer,'
   - '&20.09% physical defense,'
   - '&20.04% magic defense,'
-  - '&20.75% more effective heals and'
-  - '&22% more health regeneration'
+  - '&20.63% more effective heals and'
+  - '&21.75% more health regeneration'
   - '&2per point invested.'
   global: 
     condition:  {}
     mechanic:
-      Heal-value: 'a*0+1*v:icon-key=Constant|(a*0.0075+1*v)+(a*1.5+v):type=Health'
+      Heal-value: 'a*0+1*v:icon-key=Constant|(a*0.0063+1*v)+(a*1.4+v):type=Health'
     target:  {}
   stats: 
-    health: '(a*0.05+1*v)+(a*12+v)'
-    hunger-heal: '(a*0.02+1*v)+(a*1.5+v)'
-    hunger: 'a*0.25+v'
+    health: '(a*0.04+1*v)+(a*11+v)'
+    hunger-heal: '(a*0.018+1*v)+(a*1.4+v)'
+    hunger: 'a*0.175+v'
     skill-defense: '(-a*0.0004)+1*v'
     physical-defense: '(-a*0.0009)+1*v'
 spirit: 
@@ -95,8 +94,8 @@ intelligence:
       Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.025+1*v:classifier=default|a*0.025+1*v:classifier=Fire|a*0.025+1*v:classifier=Ice|a*0.025+1*v:classifier=Earth|a*0.025+1*v:classifier=Water|a*0.025+1*v:classifier=Wind|a*0.025+1*v:classifier=Arcane|a*0.025+1*v:classifier=Dark|a*0.025+1*v:classifier=Void'
       Wolf-damage: 'a*0.02+1*v'
       Wolf-health: 'a*0.025+1*v'
-      Heal-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Health'
-      Mana-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Mana'
+      Heal-value: 'a*0+1*v:icon-key=Constant|a*0.02+1*v:type=Health'
+      Mana-value: 'a*0+1*v:icon-key=Constant|a*0.02+1*v:type=Mana'
       #NONPREMIUM:Damage-value: 'a*0+1*v:icon-key=Constant|a*0.025+1*v:type=Damage
     target:  {}
   stats: 
@@ -112,16 +111,16 @@ dexterity:
   - '&6Dexterity &7(&2{amount}&7)'
   - ''
   - '&2Grants 0.25% increased range,'
-  - '&20.5 ranged damage,'
-  - '&20.3 physical damage,'
-  - '&20.5% true damage,'
+  - '&20.75 ranged damage,'
+  - '&20.55 physical damage,'
+  - '&20.6% true damage,'
   - '&20.09% movement speed and'
   - '&20.13% attack speed'
   - '&2per point invested.'
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.03+1*v:classifier=Physical|a*0.005+1*v:classifier=True'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.03+1*v:classifier=Physical|a*0.006+1*v:classifier=True'
     target: 
       Cone-range: 'a*0.0025+1*v'
       Linear-range: 'a*0.0025+1*v'
@@ -129,8 +128,8 @@ dexterity:
       Nearest-radius: 'a*0.0025+1*v'
       Single-range: 'a*0.0025+1*v'
   stats:
-    projectile-damage: '(a*0.003+1*v)+(a*0.5+v)'
-    physical-damage: '(a*0.002+1*v)+(a*0.3+v)'
+    projectile-damage: '(a*0.002+1*v)+(a*0.75+v)'
+    physical-damage: '(a*0.002+1*v)+(a*0.55+v)'
     move-speed: 'a*0.0009+1*v'
     attack-speed: 'a*0.0013+1*v'
 strength: 
@@ -141,7 +140,7 @@ strength:
   icon-lore: 
   - '&6Strength &7(&2{amount}&7)'
   - ''
-  - '&2Grants 1.0 increased physical damage,'
+  - '&2Grants 1.45 increased physical damage,'
   - '&22.5% reflected damage,'
   - '&20.2% knockback resist,'
   - '&21% armor and'
@@ -154,7 +153,7 @@ strength:
     target:  {}
   stats: 
     #projectile-damage: 'a*0.03+1*v'
-    physical-damage: '(a*0.001+1*v)+(a*1+v)'
+    physical-damage: '(a*0.0015+1*v)+(a*1.45+v)'
     knockback-resist: 'a*0.002+1*v'
     armor-toughness: 'a*0.002+1*v'
     armor: 'a*0.01+1*v'
@@ -224,13 +223,13 @@ nobleness:
   - '&2Nobleness &7(&2{amount}&7)'
   - ''
   - '&6Grants 0.7% increased total defense and'
-  - '&62.5% health'
+  - '&61.5% health'
   - '&6per point invested.'
   global: 
     condition:  {}
     mechanic:  {}
     target:  {}
   stats: 
-    health: 'a*0.025+1*v'
+    health: 'a*0.015+1*v'
     skill-defense: '-a*0.007+1*v'
     physical-defense: '-a*0.007+1*v'
