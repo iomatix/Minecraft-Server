@@ -2,7 +2,6 @@ Thornmail:
   name: 'Thornmail'
   type: 'Passive'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -75,84 +74,46 @@ Thornmail:
             classifier: 'Reflected'
             indicator: '2D'
           children:  {}
-        Chance-d: 
-          type: 'condition'
-          indicator: '3D'
-          data: 
-            icon-key: 'Chance'
-            chance-base: '6'
-            chance-scale: '3'
-            indicator: '2D'
-          children: 
-            Status-e: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: 'DurationS'
-                counts: 'True'
-                status: 'Stun'
-                duration-base: '1.2'
-                duration-scale: '0.25'
-                indicator: '2D'
-              children:  {}
-    Skill Damage-f: 
-      type: 'trigger'
-      indicator: '3D'
-      data: 
-        icon-key: ''
-        mana: 'False'
-        cooldown: 'False'
-        target: 'False'
-        dmg-min: '1'
-        dmg-max: '999999'
-        category: 
-        - 'Physical'
-        indicator: '2D'
-      children: 
-        Value Multiply-g: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            counts: 'True'
-            key: 'api-taken'
-            multiplier-base: '0.09'
-            multiplier-scale: '0.09'
-            indicator: '2D'
-          children:  {}
-        Damage-h: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            counts: 'True'
-            type: 'Damage'
-            value-base: 'api-taken'
-            value-scale: '0'
-            true: 'False'
-            classifier: 'Reflected'
-            indicator: '2D'
-          children:  {}
-        Chance-i: 
+        Flag-d: 
           type: 'condition'
           indicator: '3D'
           data: 
             icon-key: ''
-            chance-base: '6'
-            chance-scale: '3'
+            type: 'Not Set'
+            key: 'ThornmailCD'
             indicator: '2D'
           children: 
-            Status-j: 
-              type: 'mechanic'
+            Chance-e: 
+              type: 'condition'
               indicator: '3D'
               data: 
-                icon-key: ''
-                counts: 'True'
-                status: 'Stun'
-                duration-base: '1.2'
-                duration-scale: '0.25'
+                icon-key: 'Chance'
+                chance-base: '5'
+                chance-scale: '2.5'
                 indicator: '2D'
-              children:  {}
+              children: 
+                Flag-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'ThornmailCD'
+                    seconds-base: '0.5'
+                    seconds-scale: '0.25'
+                    indicator: '2D'
+                  children:  {}
+                Status-g: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'DurationS'
+                    counts: 'True'
+                    status: 'Stun'
+                    duration-base: '0.3'
+                    duration-scale: '0.2'
+                    indicator: '2D'
+                  children:  {}
     Initialize: 
       type: 'trigger'
       indicator: '3D'
@@ -160,7 +121,7 @@ Thornmail:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-l: 
+        Value Set-i: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -171,7 +132,7 @@ Thornmail:
             value-scale: '4'
             indicator: '2D'
           children:  {}
-        Value Set-m: 
+        Value Set-j: 
           type: 'mechanic'
           indicator: '3D'
           data: 

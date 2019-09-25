@@ -2,7 +2,6 @@ Summon Aery:
   name: 'Summon Aery'
   type: 'Sorcery'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -38,7 +37,7 @@ Summon Aery:
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
   - ''
-  - '&3Every &6{attr:SAcd.value}&6 &3collects an aerie  up to &6{attr:MaxAeries.value} &6Aeries &3which deal '
+  - '&3Every &6{attr:SAcd.value}&6 &3collects an aerie up to &6{attr:MaxAeries.value} &6Aeries &3which deal '
   - '&6{attr:Damage.value} &6arcane damage &3each and provides '
   - '&62 seconds incrased resists &3to the summoner.'
   - '&3Aeries are able to jump between targets.'

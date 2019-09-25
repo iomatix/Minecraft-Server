@@ -2,6 +2,7 @@ Pression:
   name: 'Pression'
   type: 'Passive'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -199,8 +200,8 @@ Pression:
               indicator: '3D'
               data: 
                 icon-key: 'StunChance'
-                chance-base: '25'
-                chance-scale: '5'
+                chance-base: '26'
+                chance-scale: '6'
                 indicator: '2D'
               children: 
                 Status-m: 

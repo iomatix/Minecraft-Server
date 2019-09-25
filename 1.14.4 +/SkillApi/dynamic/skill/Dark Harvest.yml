@@ -2,7 +2,6 @@ Dark Harvest:
   name: 'Dark Harvest'
   type: 'Domination'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -42,7 +41,7 @@ Dark Harvest:
   - '&cAfter reaching &6{attr:ESScount.min-value} &6essences'
   - '&cattacks deal additional &6{attr:Damage.value} &6true damage'
   - '&cconsuming &6{attr:LOREConsumeAmount.value} &6essences &cwith &6{attr:DHCooldown.seconds}&6s &ccooldawn.'
-  - '&cEach essence grants &6{attr:DamageADD.value}&6% &6 skill damage'
+  - '&cEach essence grants &6{attr:DamageADD.value}&6% &6skill damage'
   - '&cof current &6Health &cof the target if'
   - '&cit is below &6{attr:HPperc.max-value}&6% HP&c.'
   - ''
@@ -350,20 +349,7 @@ Dark Harvest:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Damage-x: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    type: 'Percent Left'
-                    value-base: 'DHmultiplier'
-                    value-scale: '0'
-                    true: 'False'
-                    classifier: 'default'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-y: 
+                Particle Animation-x: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -399,7 +385,7 @@ Dark Harvest:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Value Set-z: 
+                Value Set-y: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -410,7 +396,7 @@ Dark Harvest:
                     value-scale: '0.55'
                     indicator: '2D'
                   children:  {}
-                Value Random-ab: 
+                Value Random-z: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -424,7 +410,7 @@ Dark Harvest:
                     max-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-bb: 
+                Sound-ab: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -435,6 +421,19 @@ Dark Harvest:
                     volume-scale: '0'
                     pitch-base: 'DHrandom'
                     pitch-scale: '-0.03'
+                    indicator: '2D'
+                  children:  {}
+                Damage-bb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Constant'
+                    counts: 'True'
+                    type: 'Percent Left'
+                    value-base: 'DHmultiplier'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'Arcane'
                     indicator: '2D'
                   children:  {}
     Death-cb: 
@@ -730,20 +729,7 @@ Dark Harvest:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Damage-yb: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    type: 'Percent Left'
-                    value-base: 'DHmultiplier'
-                    value-scale: '0'
-                    true: 'False'
-                    classifier: 'default'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-zb: 
+                Particle Animation-yb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -779,7 +765,7 @@ Dark Harvest:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Value Set-ac: 
+                Value Set-zb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -790,7 +776,7 @@ Dark Harvest:
                     value-scale: '0.55'
                     indicator: '2D'
                   children:  {}
-                Value Random-bc: 
+                Value Random-ac: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -804,7 +790,7 @@ Dark Harvest:
                     max-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-cc: 
+                Sound-bc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -815,6 +801,19 @@ Dark Harvest:
                     volume-scale: '0'
                     pitch-base: 'DHrandom'
                     pitch-scale: '-0.03'
+                    indicator: '2D'
+                  children:  {}
+                Damage-cc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Constant'
+                    counts: 'True'
+                    type: 'Percent Left'
+                    value-base: 'DHmultiplier'
+                    value-scale: '0'
+                    true: 'False'
+                    classifier: 'Arcane'
                     indicator: '2D'
                   children:  {}
     Initialize: 

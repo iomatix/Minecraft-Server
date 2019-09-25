@@ -2,7 +2,6 @@ Implacability:
   name: 'Implacability'
   type: 'Precision'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -49,31 +48,51 @@ Implacability:
         dmg-max: '999999'
         indicator: '2D'
       children: 
-        Value Multiply-b: 
-          type: 'mechanic'
+        Flag-b: 
+          type: 'condition'
           indicator: '3D'
           data: 
             icon-key: ''
-            counts: 'True'
-            key: 'api-dealt'
-            multiplier-base: '0.05'
-            multiplier-scale: '0.05'
+            type: 'Not Set'
+            key: 'ImplacabilityCD'
             indicator: '2D'
-          children:  {}
-        Damage-c: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            counts: 'True'
-            type: 'Damage'
-            value-base: 'api-dealt'
-            value-scale: '0'
-            true: 'False'
-            classifier: 'Physical'
-            indicator: '2D'
-          children:  {}
-    Skill Damage-d: 
+          children: 
+            Flag-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'ImplacabilityCD'
+                seconds-base: '0.2'
+                seconds-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Value Multiply-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'api-dealt'
+                multiplier-base: '0.05'
+                multiplier-scale: '0.05'
+                indicator: '2D'
+              children:  {}
+            Damage-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: 'api-dealt'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'Physical'
+                indicator: '2D'
+              children:  {}
+    Skill Damage-f: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -87,30 +106,50 @@ Implacability:
         - 'Physical'
         indicator: '2D'
       children: 
-        Value Multiply-e: 
-          type: 'mechanic'
+        Flag-g: 
+          type: 'condition'
           indicator: '3D'
           data: 
             icon-key: ''
-            counts: 'True'
-            key: 'api-dealt'
-            multiplier-base: '0.05'
-            multiplier-scale: '0.05'
+            type: 'Not Set'
+            key: 'ImplacabilityCD'
             indicator: '2D'
-          children:  {}
-        Damage-f: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            counts: 'True'
-            type: 'Damage'
-            value-base: 'api-dealt'
-            value-scale: '0'
-            true: 'False'
-            classifier: 'Physical'
-            indicator: '2D'
-          children:  {}
+          children: 
+            Flag-h: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'ImplacabilityCD'
+                seconds-base: '0.2'
+                seconds-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Value Multiply-i: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'api-dealt'
+                multiplier-base: '0.05'
+                multiplier-scale: '0.05'
+                indicator: '2D'
+              children:  {}
+            Damage-j: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: 'api-dealt'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'Physical'
+                indicator: '2D'
+              children:  {}
     Initialize: 
       type: 'trigger'
       indicator: '3D'
@@ -118,7 +157,7 @@ Implacability:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-h: 
+        Value Set-l: 
           type: 'mechanic'
           indicator: '3D'
           data: 

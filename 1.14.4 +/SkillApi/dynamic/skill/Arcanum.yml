@@ -2,6 +2,7 @@ Arcanum:
   name: 'Arcanum'
   type: 'Passive'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -21,7 +22,7 @@ Arcanum:
     - 'Rigidity'
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'LAPIS_LAZULI'
-  icon-durability: 0
+  icon-durability: 4
   icon-data: 4
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -49,30 +50,50 @@ Arcanum:
         - ''
         indicator: '2D'
       children: 
-        Value Multiply-b: 
-          type: 'mechanic'
+        Flag-b: 
+          type: 'condition'
           indicator: '3D'
           data: 
             icon-key: ''
-            counts: 'True'
-            key: 'api-dealt'
-            multiplier-base: '0.05'
-            multiplier-scale: '0.04'
+            type: 'Not Set'
+            key: 'ArcanumCD'
             indicator: '2D'
-          children:  {}
-        Damage-c: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            counts: 'True'
-            type: 'Damage'
-            value-base: 'api-dealt'
-            value-scale: '0'
-            true: 'False'
-            classifier: 'Arcane'
-            indicator: '2D'
-          children:  {}
+          children: 
+            Flag-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'ArcanumCD'
+                seconds-base: '0.2'
+                seconds-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Value Multiply-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'api-dealt'
+                multiplier-base: '0.05'
+                multiplier-scale: '0.04'
+                indicator: '2D'
+              children:  {}
+            Damage-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                type: 'Damage'
+                value-base: 'api-dealt'
+                value-scale: '0'
+                true: 'False'
+                classifier: 'Arcane'
+                indicator: '2D'
+              children:  {}
     Initialize: 
       type: 'trigger'
       indicator: '3D'
@@ -80,7 +101,7 @@ Arcanum:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-e: 
+        Value Set-g: 
           type: 'mechanic'
           indicator: '3D'
           data: 

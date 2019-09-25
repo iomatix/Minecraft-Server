@@ -90,8 +90,8 @@ Permeability:
               indicator: '3D'
               data: 
                 icon-key: 'StunChance'
-                chance-base: '3'
-                chance-scale: '3'
+                chance-base: '3.5'
+                chance-scale: '3.5'
                 indicator: '2D'
               children: 
                 Status-f: 
@@ -191,8 +191,8 @@ Permeability:
           indicator: '3D'
           data: 
             icon-key: 'SilenceChance'
-            chance-base: '20'
-            chance-scale: '5'
+            chance-base: '21'
+            chance-scale: '5.5'
             indicator: '2D'
           children: 
             Status-k: 
@@ -202,8 +202,8 @@ Permeability:
                 icon-key: 'SilenceDuration'
                 counts: 'True'
                 status: 'Silence'
-                duration-base: '2'
-                duration-scale: '0.35'
+                duration-base: '2.25'
+                duration-scale: '0.45'
                 indicator: '2D'
               children:  {}
             Particle Animation-l: 
@@ -286,8 +286,8 @@ Permeability:
                 icon-key: ''
                 counts: 'True'
                 key: 'api-dealt'
-                multiplier-base: '0.1'
-                multiplier-scale: '0.08'
+                multiplier-base: '0.12'
+                multiplier-scale: '0.09'
                 indicator: '2D'
               children:  {}
             Heal-q: 
@@ -549,8 +549,8 @@ Permeability:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.1'
-            multiplier-scale: '0.08'
+            multiplier-base: '0.12'
+            multiplier-scale: '0.09'
             indicator: '2D'
           children:  {}
         Heal-gb: 
@@ -578,7 +578,7 @@ Permeability:
             icon-key: 'LorVampirPercent'
             counts: 'True'
             key: 'LorePermeability'
-            value-base: '10'
-            value-scale: '8'
+            value-base: '12'
+            value-scale: '9'
             indicator: '2D'
           children:  {}
