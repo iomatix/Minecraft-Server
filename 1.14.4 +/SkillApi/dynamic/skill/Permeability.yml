@@ -21,8 +21,10 @@ Permeability:
   - '&cAttacks on silenced target have &6{attr:StunChance.chance}&6%&c chance to &6stun'
   - '&cthe target for &6{attr:StunDuration.duration}&6s.'
   - '&cAdds &6{attr:LorVampirPercent.value}&6% life steal.'
-  - '&cOnce per &6{attr:JumpCDSec.seconds}&6s&c on attack jumps behind &ctarget on attack &cwhen &6crouching'
-  - '&cand deals &6{attr:PermJumpDamage.value} &6void damage.'
+  - '&cOnce per &6{attr:JumpCDSec.seconds}&6s &cjumps behind &ctarget on attack &cwhen &6crouching.'
+  - '&cDeals &6{attr:PermJumpDamage.value} &6void damage &cand &6blinds &cthe target.'
+  - "&6Buffs &ccaster's &6total damage &cby &6{attr:CombatBuff.value}&6%"
+  - '&cfor &6{attr:CombatBuff.seconds}&6s &cand &6speed &cfor {attr:SpeedBuff.duration}&6s.'
   - ''
   - '&cDomination tree passive.'
   attributes:
@@ -282,7 +284,7 @@ Permeability:
                         icon-key: 'JumpCDSec'
                         counts: 'True'
                         key: 'JumpCD'
-                        seconds-base: 5
+                        seconds-base: 6
                         seconds-scale: -0.5
                     Particle Animation-v:
                       type: 'mechanic'
@@ -377,7 +379,44 @@ Permeability:
                         icon-key: ''
                         key: 'TehTarget'
                       children:
-                        Offset-ab:
+                        Damage-ab:
+                          type: 'mechanic'
+                          data:
+                            icon-key: 'PermJumpDamage'
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: 9.5
+                            value-scale: 10.75
+                            true: 'False'
+                            classifier: 'Void'
+                        Potion-bb:
+                          type: 'mechanic'
+                          data:
+                            icon-key: 'BlindSeconds'
+                            counts: 'True'
+                            potion: 'Blindness'
+                            ambient: 'False'
+                            tier-base: 1
+                            tier-scale: 0
+                            seconds-base: 2.1
+                            seconds-scale: 0.25
+                        Status-cb:
+                          type: 'mechanic'
+                          data:
+                            icon-key: ''
+                            counts: 'True'
+                            status: 'Stun'
+                            duration-base: 0.3
+                            duration-scale: 0
+                        Status-db:
+                          type: 'mechanic'
+                          data:
+                            icon-key: ''
+                            counts: 'True'
+                            status: 'Disarm'
+                            duration-base: 0.5
+                            duration-scale: 0.1
+                        Offset-eb:
                           type: 'target'
                           data:
                             icon-key: ''
@@ -388,13 +427,13 @@ Permeability:
                             right-base: 0
                             right-scale: 0
                           children:
-                            Warp Target-bb:
+                            Warp Target-fb:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Caster to Target'
-                            Particle Animation-cb:
+                            Particle Animation-gb:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
@@ -427,7 +466,7 @@ Permeability:
                                 forward: 0
                                 upward: 0
                                 right: 0
-                            Sound-db:
+                            Sound-hb:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
@@ -437,17 +476,28 @@ Permeability:
                                 volume-scale: 0
                                 pitch-base: SoundRand
                                 pitch-scale: 0
-                        Damage-eb:
-                          type: 'mechanic'
-                          data:
-                            icon-key: 'PermJumpDamage'
-                            counts: 'True'
-                            type: 'Damage'
-                            value-base: 9.5
-                            value-scale: 10.75
-                            true: 'False'
-                            classifier: 'Void'
-    Skill Damage-fb:
+                    Buff-ib:
+                      type: 'mechanic'
+                      data:
+                        icon-key: 'CombatBuff'
+                        counts: 'True'
+                        immediate: 'False'
+                        type: 'DAMAGE'
+                        modifier: 'Multiplier'
+                        value-base: 3
+                        value-scale: 1.5
+                        seconds-base: 0.5
+                        seconds-scale: 0.5
+                    Speed-jb:
+                      type: 'mechanic'
+                      data:
+                        icon-key: 'SpeedBuff'
+                        counts: 'True'
+                        multiplier-base: 1.2
+                        multiplier-scale: 0.1
+                        duration-base: 0.85
+                        duration-scale: 0.35
+    Skill Damage-kb:
       type: 'trigger'
       data:
         icon-key: ''
@@ -459,7 +509,7 @@ Permeability:
         category:
         - ''
       children:
-        Value Multiply-gb:
+        Value Multiply-lb:
           type: 'mechanic'
           data:
             icon-key: ''
@@ -467,7 +517,7 @@ Permeability:
             key: 'api-dealt'
             multiplier-base: 0.12
             multiplier-scale: 0.09
-        Heal-hb:
+        Heal-mb:
           type: 'mechanic'
           data:
             icon-key: 'Constant'
@@ -475,12 +525,12 @@ Permeability:
             type: 'Health'
             value-base: api-dealt
             value-scale: 0
-    Initialize-ib:
+    Initialize-nb:
       type: 'trigger'
       data:
         icon-key: ''
       children:
-        Value Set-jb:
+        Value Set-ob:
           type: 'mechanic'
           data:
             icon-key: 'LorVampirPercent'

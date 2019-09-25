@@ -2008,8 +2008,8 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     potion: 'Poison'
-                    ambient: 'True'
-                    tier-base: 1
+                    ambient: 'False'
+                    tier-base: 3
                     tier-scale: 0
                     seconds-base: 3
                     seconds-scale: 1
@@ -2033,12 +2033,23 @@ Void:
                     volume-scale: 0
                     pitch-base: 0.6
                     pitch-scale: 0.03
-                Self-wg:
+                Potion-wg:
+                  type: 'mechanic'
+                  data:
+                    icon-key: ''
+                    counts: 'True'
+                    potion: 'Hunger'
+                    ambient: 'False'
+                    tier-base: 3
+                    tier-scale: 0
+                    seconds-base: 3
+                    seconds-scale: 1.25
+                Self-xg:
                   type: 'target'
                   data:
                     icon-key: ''
                   children:
-                    Potion-xg:
+                    Potion-yg:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2049,7 +2060,7 @@ Void:
                         tier-scale: 0
                         seconds-base: 6
                         seconds-scale: 1.5
-                    Potion-yg:
+                    Potion-zg:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2060,7 +2071,7 @@ Void:
                         tier-scale: 1
                         seconds-base: 6
                         seconds-scale: 1.5
-                    Potion-zg:
+                    Potion-ah:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2071,7 +2082,7 @@ Void:
                         tier-scale: 1
                         seconds-base: 6
                         seconds-scale: 1.5
-                    Immunity-ah:
+                    Immunity-bh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2081,7 +2092,7 @@ Void:
                         seconds-scale: 1.5
                         multiplier-base: 0
                         multiplier-scale: 0
-                    Immunity-bh:
+                    Immunity-ch:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2091,7 +2102,7 @@ Void:
                         seconds-scale: 1.5
                         multiplier-base: 0
                         multiplier-scale: 0
-                    Immunity-ch:
+                    Immunity-dh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2101,7 +2112,7 @@ Void:
                         seconds-scale: 1.5
                         multiplier-base: 0
                         multiplier-scale: 0
-                    Immunity-dh:
+                    Immunity-eh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2111,7 +2122,7 @@ Void:
                         seconds-scale: 1.5
                         multiplier-base: 0
                         multiplier-scale: 0
-                    Sound-eh:
+                    Sound-fh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2121,7 +2132,7 @@ Void:
                         volume-scale: 0
                         pitch-base: 0.5
                         pitch-scale: 0.02
-                    Particle Animation-fh:
+                    Particle Animation-gh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2153,7 +2164,7 @@ Void:
                         forward: 0
                         upward: 0
                         right: 0
-                    Particle Animation-gh:
+                    Particle Animation-hh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2185,7 +2196,7 @@ Void:
                         forward: -0.35
                         upward: 3
                         right: 0
-                    Flag-hh:
+                    Flag-ih:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2193,7 +2204,7 @@ Void:
                         key: 'ShadowForm'
                         seconds-base: 6
                         seconds-scale: 1.5
-                    Sound-ih:
+                    Sound-jh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2203,7 +2214,7 @@ Void:
                         volume-scale: 0
                         pitch-base: 0.7
                         pitch-scale: 0.03
-                    Offset-jh:
+                    Offset-kh:
                       type: 'target'
                       data:
                         icon-key: ''
@@ -2214,7 +2225,7 @@ Void:
                         right-base: 0
                         right-scale: 0
                       children:
-                        Particle Animation-kh:
+                        Particle Animation-lh:
                           type: 'mechanic'
                           data:
                             icon-key: ''
@@ -2246,13 +2257,13 @@ Void:
                             forward: -0.35
                             upward: 3
                             right: 0
-                        Remember Targets-lh:
+                        Remember Targets-mh:
                           type: 'mechanic'
                           data:
                             icon-key: ''
                             counts: 'True'
                             key: 'theOffset'
-                        Delay-mh:
+                        Delay-nh:
                           type: 'mechanic'
                           data:
                             icon-key: ''
@@ -2260,7 +2271,7 @@ Void:
                             delay-base: 6
                             delay-scale: 1.5
                           children:
-                            Sound-nh:
+                            Sound-oh:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
@@ -2270,30 +2281,30 @@ Void:
                                 volume-scale: 0
                                 pitch-base: 0.7
                                 pitch-scale: 0.03
-                            Self-oh:
+                            Self-ph:
                               type: 'target'
                               data:
                                 icon-key: ''
                               children:
-                                Crouch-ph:
+                                Crouch-qh:
                                   type: 'condition'
                                   data:
                                     icon-key: ''
                                     crouch: 'True'
                                   children:
-                                    Remember-qh:
+                                    Remember-rh:
                                       type: 'target'
                                       data:
                                         icon-key: ''
                                         key: 'theOffset'
                                       children:
-                                        Warp Target-rh:
+                                        Warp Target-sh:
                                           type: 'mechanic'
                                           data:
                                             icon-key: ''
                                             counts: 'True'
                                             type: 'Caster to Target'
-                Offset-sh:
+                Offset-th:
                   type: 'target'
                   data:
                     icon-key: ''
@@ -2304,13 +2315,13 @@ Void:
                     right-base: 0
                     right-scale: 0
                   children:
-                    Warp Target-th:
+                    Warp Target-uh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
                         counts: 'True'
                         type: 'Caster to Target'
-                    Sound-uh:
+                    Sound-vh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2320,7 +2331,7 @@ Void:
                         volume-scale: 0
                         pitch-base: 0.7
                         pitch-scale: 0.03
-                    Particle Animation-vh:
+                    Particle Animation-wh:
                       type: 'mechanic'
                       data:
                         icon-key: ''
@@ -2353,12 +2364,12 @@ Void:
                         forward: 0
                         upward: 3
                         right: 0
-    Initialize-wh:
+    Initialize-xh:
       type: 'trigger'
       data:
         icon-key: ''
       children:
-        Value Set-xh:
+        Value Set-yh:
           type: 'mechanic'
           data:
             icon-key: 'TotalHP'
@@ -2366,7 +2377,7 @@ Void:
             key: 'VoidLore'
             value-base: 2
             value-scale: 1.5
-        Value Set-yh:
+        Value Set-zh:
           type: 'mechanic'
           data:
             icon-key: 'MissHP'
@@ -2374,7 +2385,7 @@ Void:
             key: 'VoidLore'
             value-base: 3
             value-scale: 3
-        Passive-zh:
+        Passive-ai:
           type: 'mechanic'
           data:
             icon-key: 'NV'
@@ -2382,7 +2393,7 @@ Void:
             seconds-base: 180
             seconds-scale: 0
           children:
-            Potion-ai:
+            Potion-bi:
               type: 'mechanic'
               data:
                 icon-key: ''
