@@ -35,7 +35,7 @@ vitality:
   - '&6Vitality &7(&2{amount}&7)'
   - ''
   - '&2Grants 11 health,'
-  - '&220% hunger lasts longer,'
+  - '&217.5% hunger lasts longer,'
   - '&20.09% physical defense,'
   - '&20.04% magic defense,'
   - '&20.63% more effective heals and'
@@ -166,13 +166,13 @@ eternity:
   - '&5Eternity &7(&2{amount}&7)'
   - ''
   - '&6Grants 2.5% increased true damage,'
-  - '&63% void damage and'
+  - '&65% void damage and'
   - '&62% mana regeneration'
   - '&6per point invested.'
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.03+1*v:classifier=Void|a*0.025+1*v:classifier=True'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0.05+1*v:classifier=Void|a*0.025+1*v:classifier=True'
     target:  {}
   stats:
     mana-regen: 'a*0.02+1*v'
@@ -184,7 +184,8 @@ holiness:
   icon-lore: 
   - '&eHoliness &7(&2{amount}&7)'
   - ''
-  - '&6Grants 5% increased healing and'
+  - '&6Grants 5% increased healing,
+  - '&62.5 projectile damage and'
   - '&61% physical damage'
   - '&6per point invested.'
   global: 
@@ -195,6 +196,7 @@ holiness:
     target:  {}
   stats: 
     physical-damage: 'a*0.01+1*v'
+    projectile-damage: 'a*2.5+v'
 arcan: 
   display: 'Arcan'
   max: '10'
@@ -204,13 +206,13 @@ arcan:
   - '&3Arcan &7(&2{amount}&7)'
   - ''
   - '&6Grants 5% increased arcane damage,'
-  - '&62.5% offensive spell power and'
+  - '&63% offensive spell power and'
   - '&61% exp gain'
   - '&6per point invested.'
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.05+1*v:classifier=Arcane|a*0.025+1*v:classifier=Fire|a*0.025+1*v:classifier=Ice|a*0.025+1*v:classifier=Earth|a*0.025+1*v:classifier=Water|a*0.025+1*v:classifier=Wind|a*0.025+1*v:classifier=Dark|a*0.025+1*v:classifier=Void'    
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|a*0.05+1*v:classifier=Arcane|a*0.03+1*v:classifier=Fire|a*0.03+1*v:classifier=Ice|a*0.03+1*v:classifier=Earth|a*0.03+1*v:classifier=Water|a*0.03+1*v:classifier=Wind|a*0.03+1*v:classifier=Dark|a*0.03+1*v:classifier=Void'    
     target:  {}
   stats: 
     exp: 'a*0.01+1*v'
