@@ -72,11 +72,9 @@ LEATHER:
             dodge-rating: 20
         '4':
             dodge-cooldown-reduction: 5
-            speed: 2
     lore-tag:
     - '&2&nLeather Set Bonus:'
     - '  &7[3] +20% Dodge Rating'
-    - '  &7[4] Speed II'
 IRON:
     name: '&2Iron Set'
     bonuses:
@@ -143,7 +141,6 @@ DEMONIC:
     name: '&4Demonic Set'
     bonuses:
         '4':
-            speed: 1
             block-rating: 10
             block-power: 10
             parry-rating: 20
@@ -159,7 +156,6 @@ DEMONIC:
             
     lore-tag:
     - '&4&nDemonic Set Bonus:'
-    - '  &7[4] Speed I'
     - '  &7[4] +10% Block Rating'
     - '  &7[4] +10% Block Power'
     - '  &7[4] +20% Parry Rating'
@@ -173,7 +169,6 @@ ETHERNAL:
     name: '&1Ethernal Set'
     bonuses:
         '4':
-            speed: 0.003
             block-rating: 5
             block-power: 5
             parry-rating: 5
@@ -189,7 +184,6 @@ ETHERNAL:
             
     lore-tag:
     - '&1&nEthernal Set Bonus:'
-    - '  &7[4] +3% Speed'
     - '  &7[4] +5% Block Rating'
     - '  &7[4] +5% Block Power'
     - '  &7[4] +5% Parry Rating'
@@ -233,7 +227,6 @@ CURSE:
         '1':
             damage-reduction: -10
         '4':
-            speed: 3
             block-rating: 25
             block-power: 20
             parry-rating: 25
@@ -247,7 +240,6 @@ CURSE:
     - '&5&nCursed Set Penalty:'
     - '  &7[1] +10% Damage Taken'
     - '&5&nCursed Set Bonus:'
-    - '  &7[4] Speed III'
     - '  &7[4] +25% Block Rating'
     - '  &7[4] +20% Block Power'
     - '  &7[4] +25% Parry Rating'
@@ -286,7 +278,6 @@ DIVINE:
     name: '&eDivine Set'
     bonuses:
         '4':
-            speed: 2
             block-rating: 13
             block-power: 13
             parry-rating: 30
@@ -302,7 +293,6 @@ DIVINE:
             
     lore-tag:
     - '&e&nDivine Set Bonus:'
-    - '  &7[4] Speed II'
     - '  &7[4] +13% Block Rating'
     - '  &7[4] +13% Block Power'
     - '  &7[4] +30% Parry Rating'

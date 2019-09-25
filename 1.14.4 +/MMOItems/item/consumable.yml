@@ -951,7 +951,7 @@ LEGENDARY_UPGRADE_ESSENCE:
   material: GOLD_INGOT
   name: '&6Legendary Upgrading Essence'
   lore:
-  - '&6Drag and drop on item to upgrade it with 75% chance.'
+  - '&6Drag and drop on item to upgrade it with 72% chance.'
   - '&cIf upgrade fails item will be destroyed.'
   disable-crafting: true
   disable-interaction: true
@@ -962,7 +962,7 @@ LEGENDARY_UPGRADE_ESSENCE:
     fire_protection: 1
   hide-enchants: true
   upgrade:
-    success: 75.0
+    success: 72.0
   repair: 30000.0
   advanced-craft:
     '4':
@@ -1007,7 +1007,7 @@ MYTHIC_UPGRADE_ESSENCE:
   material: FIRE_CHARGE
   name: '&6Mythic Upgrading Essence'
   lore:
-  - '&6Drag and drop on item to upgrade it with 85% chance.'
+  - '&6Drag and drop on item to upgrade it with 80% chance.'
   - '&cIf upgrade fails item will be destroyed.'
   disable-crafting: true
   disable-interaction: true
@@ -1018,7 +1018,7 @@ MYTHIC_UPGRADE_ESSENCE:
     fire_protection: 1
   hide-enchants: true
   upgrade:
-    success: 85.0
+    success: 80.0
   repair: 30000.0
   advanced-craft:
     '4':
@@ -1063,7 +1063,7 @@ UNIQUE_UPGRADE_ESSENCE:
   material: end_crystal
   name: '&6Unique Upgrading Essence'
   lore:
-  - '&6Drag and drop on item to upgrade it with 90% chance.'
+  - '&6Drag and drop on item to upgrade it with 85% chance.'
   - '&cIf upgrade fails item will be destroyed.'
   disable-crafting: true
   disable-interaction: true
@@ -1074,7 +1074,7 @@ UNIQUE_UPGRADE_ESSENCE:
     fire_protection: 1
   hide-enchants: true
   upgrade:
-    success: 90.0
+    success: 85.0
   repair: 30000.0
   advanced-craft:
     '4':
@@ -1119,7 +1119,7 @@ BEST_UPGRADE_ESSENCE:
   material: QUARTZ
   name: '&6Mysterious Upgrading Essence'
   lore:
-  - '&6Drag and drop on item to upgrade it with 97% chance.'
+  - '&6Drag and drop on item to upgrade it with 95% chance.'
   - '&cIf upgrade fails item will be destroyed.'
   disable-crafting: true
   disable-interaction: true
@@ -1130,7 +1130,7 @@ BEST_UPGRADE_ESSENCE:
     fire_protection: 1
   hide-enchants: true
   upgrade:
-    success: 97
+    success: 95.0
   repair: 30000.0
   advanced-craft:
     '4':
@@ -1283,3 +1283,8 @@ SOULBREAKER:
       amount: 1
   upgrade: {}
   soulbound-break-chance: 45.0
+MANA_POTION:
+  material: POTION
+  restore-mana: 75.0
+  potion-color: 0 200 255
+  name: '&bMana Potion'

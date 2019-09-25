@@ -11,7 +11,7 @@ DEMONIC_GSWORD:
   disable-enchanting: true
   disable-repairing: true
   required-level: 136.0
-  attack-damage: 262.0
+  attack-damage: 264.0
   attack-speed: 0.93
   critical-strike-chance: 55.0
   critical-strike-power: 88.0

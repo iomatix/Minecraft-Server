@@ -476,6 +476,8 @@ ANCIENT_GREATSHIELD:
       amount: 1
       name: ''
   displayed-type: Greatshield
+  shield-pattern:
+    color: ORANGE
 OCEANIC_GREATSHIELD:
   material: SHIELD
   max-durability: 75000.0
@@ -559,6 +561,8 @@ OCEANIC_GREATSHIELD:
       mode: WHEN_HIT
       heal: 45.0
       cooldown: 5.5
+  shield-pattern:
+    color: BLUE
 DIVINE_GSHIELD:
   material: SHIELD
   max-durability: 75000.0
@@ -644,3 +648,5 @@ DIVINE_GSHIELD:
       damage: 38.0
       cooldown: 15.0
       knockback: 3.35
+  shield-pattern:
+    color: YELLOW

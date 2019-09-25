@@ -10,7 +10,7 @@ LVL_7_AXE:
   tier: COMMON
   lore:
   - '&7Two handed stone axe.'
-  two-handed: true
+  two-handed: false
   gem-sockets: 0.0
   required-level: 7.0
   attack-damage: 11
@@ -58,11 +58,11 @@ LVL_7_AXE:
       amount: 1
       name: ''
     '7':
-      material: OAK_LOG
+      material: STICK
       amount: 1
       name: ''
     '4':
-      material: OAK_LOG
+      material: STICK
       amount: 1
       name: ''
   max-durability: 95.0=180.0
@@ -78,7 +78,7 @@ LVL_16_AXE:
   tier: COMMON
   lore:
   - '&7Common two handed iron axe.'
-  two-handed: true
+  two-handed: false
   gem-sockets: 0.0
   required-level: 16.0
   attack-damage: 20
@@ -148,7 +148,7 @@ LVL_25_AXE:
   tier: COMMON
   lore:
   - '&7Common two handed iron axe.'
-  two-handed: true
+  two-handed: false
   required-level: 25.0
   attack-damage: 37
   attack-speed: 0.77
@@ -219,7 +219,7 @@ LVL_34_AXE:
   tier: UNCOMMON
   lore:
   - '&8Golden Axe.'
-  two-handed: true
+  two-handed: false
   required-level: 34.0
   attack-damage: 50
   attack-speed: 0.75
@@ -290,7 +290,7 @@ LVL_48_AXE:
   tier: RARE
   lore:
   - '&6Diamond Axe.'
-  two-handed: true
+  two-handed: false
   required-level: 48.0
   attack-damage: 60
   attack-speed: 0.73
@@ -362,7 +362,7 @@ UP_LVL_48_AXE:
   tier: VERY_RARE
   lore:
   - '&eUpgraded Diamond Axe.'
-  two-handed: true
+  two-handed: false
   required-level: 48.0
   attack-damage: 65
   attack-speed: 0.73

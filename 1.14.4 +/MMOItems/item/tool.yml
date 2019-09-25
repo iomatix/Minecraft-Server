@@ -1,0 +1,196 @@
+SADDLE:
+  material: SADDLE
+  lore: []
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '0':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '3':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '4':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '5':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '2':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '1':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+HORSE_ARMOR_LEATHER:
+  material: LEATHER_HORSE_ARMOR
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '1':
+      type: TOOL
+      id: SADDLE
+      amount: 1
+    '0':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '3':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '4':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '5':
+      material: LEATHER
+      amount: 1
+      name: ''
+    '2':
+      material: LEATHER
+      amount: 1
+      name: ''
+HORSE_ARMOR_IRON:
+  material: IRON_HORSE_ARMOR
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '1':
+      type: TOOL
+      id: SADDLE
+      amount: 1
+    '4':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '5':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '2':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+    '0':
+      material: IRON_INGOT
+      amount: 1
+      name: ''
+HORSE_ARMOR_GOLD:
+  material: GOLDEN_HORSE_ARMOR
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '0':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+    '3':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+    '4':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+    '5':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+    '2':
+      material: GOLD_INGOT
+      amount: 1
+      name: ''
+    '1':
+      type: TOOL
+      id: SADDLE
+      amount: 1
+HORSE_ARMOR_DIAMOND:
+  material: DIAMOND_HORSE_ARMOR
+  advanced-craft:
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '0':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '3':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '4':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '5':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '2':
+      material: DIAMOND
+      amount: 1
+      name: ''
+    '1':
+      type: TOOL
+      id: SADDLE
+      amount: 1

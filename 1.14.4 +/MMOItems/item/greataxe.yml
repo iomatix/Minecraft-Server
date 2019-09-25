@@ -10,7 +10,7 @@ ANCIENT_GAXE:
   disable-enchanting: true
   disable-repairing: true
   required-level: 136.0
-  attack-damage: 265.0
+  attack-damage: 269.0
   attack-speed: 0.89
   two-handed: true
   critical-strike-chance: 60.0
@@ -98,7 +98,7 @@ OCEANIC_GAXE:
   disable-enchanting: true
   disable-repairing: true
   required-level: 120.0
-  attack-damage: 240.0
+  attack-damage: 245.0
   attack-speed: 0.94
   critical-strike-chance: 45.0
   critical-strike-power: 73.0
