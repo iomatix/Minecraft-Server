@@ -23314,7 +23314,6 @@ Permeability:
   name: 'Permeability'
   type: 'Passive'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -23347,7 +23346,8 @@ Permeability:
   - '&cAttacks on silenced target have &6{attr:StunChance.chance}&6%&c chance to &6stun'
   - '&cthe target for &6{attr:StunDuration.duration}&6s.'
   - '&cAdds &6{attr:LorVampirPercent.value}&6% life steal.'
-  - '&cOnce per &6{attr:JumpCDSec.seconds}&6s&c on attack jumps behind &ctarget on attack &cwhen &6crouching.'
+  - '&cOnce per &6{attr:JumpCDSec.seconds}&6s&c on attack jumps behind &ctarget on attack &cwhen &6crouching'
+  - '&cand deals &6{attr:PermJumpDamage.value} &6void damage.'
   - ''
   - '&cDomination tree passive.'
   desc:  []
@@ -23840,7 +23840,20 @@ Permeability:
                                 pitch-scale: '0'
                                 indicator: '2D'
                               children:  {}
-    Skill Damage-eb: 
+                        Damage-eb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'PermJumpDamage'
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: '9.5'
+                            value-scale: '10.75'
+                            true: 'False'
+                            classifier: 'Void'
+                            indicator: '2D'
+                          children:  {}
+    Skill Damage-fb: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -23854,7 +23867,7 @@ Permeability:
         - ''
         indicator: '2D'
       children: 
-        Value Multiply-fb: 
+        Value Multiply-gb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -23865,7 +23878,7 @@ Permeability:
             multiplier-scale: '0.09'
             indicator: '2D'
           children:  {}
-        Heal-gb: 
+        Heal-hb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -23883,7 +23896,7 @@ Permeability:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-ib: 
+        Value Set-jb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -39167,7 +39180,7 @@ Void:
     - 'Rubin'
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'PURPLE_GLAZED_TERRACOTTA'
-  icon-durability: 0
+  icon-durability: 2
   icon-data: 2
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -39194,7 +39207,7 @@ Void:
   - '&cConnects to the &6Void Dimension &cand turns into the &6Shadow Form &cfor &6{attr:ShadowForm.seconds}&6s.'
   - '&6Shadow Form marks every target &cand &6doubles void essences gain.'
   - '&cGains immunity to &6projectiles, starvation, drowning &cand &6falling.'
-  - '&cJump to the target dealing &6{attr:DamageJump.value}&6 void damage.'
+  - '&cJumps to the target dealing &6{attr:DamageJump.value}&6 void damage.'
   - '&6Stuns &cfor {attr:Stunz.duration}&6s, Disarms&c for &6{attr:Disarmz.duration}&6s &cand silences for &6{attr:Silencez.duration}&6s&c the target.'
   - ''
   - '&2Mana: {attr:mana}'
@@ -39426,8 +39439,8 @@ Void:
                             icon-key: 'DamageVoid'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '28'
-                            value-scale: '15.2'
+                            value-base: '32'
+                            value-scale: '15.5'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -39486,8 +39499,8 @@ Void:
                     icon-key: 'TrueDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '8.5'
-                    value-scale: '6.9'
+                    value-base: '11.5'
+                    value-scale: '10.5'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -40497,8 +40510,8 @@ Void:
                             icon-key: ''
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '28'
-                            value-scale: '15.2'
+                            value-base: '32'
+                            value-scale: '15.5'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -40557,8 +40570,8 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '8.5'
-                    value-scale: '6.9'
+                    value-base: '10.5'
+                    value-scale: '11.5'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -41652,8 +41665,8 @@ Void:
                     icon-key: 'Stunz'
                     counts: 'True'
                     status: 'Stun'
-                    duration-base: '0.5'
-                    duration-scale: '0.33'
+                    duration-base: '1.0'
+                    duration-scale: '0.45'
                     indicator: '2D'
                   children:  {}
                 Status-rg: 
@@ -41663,8 +41676,8 @@ Void:
                     icon-key: 'Silencez'
                     counts: 'True'
                     status: 'Silence'
-                    duration-base: '3.5'
-                    duration-scale: '0.5'
+                    duration-base: '4.0'
+                    duration-scale: '0.65'
                     indicator: '2D'
                   children:  {}
                 Status-sg: 
@@ -41674,8 +41687,8 @@ Void:
                     icon-key: 'Disarmz'
                     counts: 'True'
                     status: 'Disarm'
-                    duration-base: '1.5'
-                    duration-scale: '0.5'
+                    duration-base: '2.0'
+                    duration-scale: '0.6'
                     indicator: '2D'
                   children:  {}
                 Potion-tg: 
@@ -41699,8 +41712,8 @@ Void:
                     icon-key: 'DamageJump'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '42'
-                    value-scale: '18'
+                    value-base: '48'
+                    value-scale: '25'
                     true: 'False'
                     classifier: 'Void'
                     indicator: '2D'
