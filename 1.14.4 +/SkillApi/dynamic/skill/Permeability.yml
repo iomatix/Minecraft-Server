@@ -30,14 +30,15 @@ Permeability:
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
   - ''
-  - '&6{attr:SilenceChance.chance}&6%&c chance to &6silence &cand &6blind &cfor &6{attr:SilenceDuration.duration}&6s.'
+  - '&6{attr:SilenceChance.chance}&6%&c chance to &6silence&c, &6curse &cand &6blind &cfor &6{attr:SilenceDuration.duration}&6s.'
   - '&cAttacks on silenced target have &6{attr:StunChance.chance}&6%&c chance to &6stun'
   - '&cthe target for &6{attr:StunDuration.duration}&6s.'
-  - '&cAdds &6{attr:LorVampirPercent.value}&6% life steal.'
+  - '&cGains &6{attr:LorVampirPercent.value}&6% life steal.'
   - '&cOnce per &6{attr:JumpCDSec.seconds}&6s &cjumps behind &ctarget on attack &cwhen &6crouching.'
-  - '&cDeals &6{attr:PermJumpDamage.value} &6void damage &cand &6blinds &cthe target.'
-  - "&6Buffs &ccaster's &6total damage &cby &6{attr:CombatBuff.value}&6%"
-  - '&cfor &6{attr:CombatBuff.seconds}&6s &cand &6speed &cfor {attr:SpeedBuff.duration}&6s.'
+  - '&cDeals &6{attr:PermJumpDamage.value} &6void damage&c, &6blinds &cand &6curses &cthe target'
+  - '&cfor &6{attr:WitherSeconds.seconds}&6s.'
+  - "&cDebuffs target's &6armor &cfor &6{attr:DefenseDebuff.seconds}&6s "
+  - "&cand buffs caster's &6speed &cfor {attr:SpeedBuff.duration}&6s."
   - ''
   - '&cDomination tree passive.'
   desc:  []
@@ -271,7 +272,21 @@ Permeability:
                 seconds-scale: '0.35'
                 indicator: '2D'
               children:  {}
-        Self-o: 
+            Potion-o: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                potion: 'Wither'
+                ambient: 'False'
+                tier-base: '1'
+                tier-scale: '0'
+                seconds-base: '2'
+                seconds-scale: '0.35'
+                indicator: '2D'
+              children:  {}
+        Self-p: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -281,7 +296,7 @@ Permeability:
             wall: 'false'
             caster: 'false'
           children: 
-            Value Multiply-p: 
+            Value Multiply-q: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -292,7 +307,7 @@ Permeability:
                 multiplier-scale: '0.09'
                 indicator: '2D'
               children:  {}
-            Heal-q: 
+            Heal-r: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -303,7 +318,7 @@ Permeability:
                 value-scale: '0'
                 indicator: '2D'
               children:  {}
-            Sound-r: 
+            Sound-s: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -316,7 +331,7 @@ Permeability:
                 pitch-scale: '0'
                 indicator: '2D'
               children:  {}
-            Crouch-s: 
+            Crouch-t: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -324,7 +339,7 @@ Permeability:
                 crouch: 'True'
                 indicator: '2D'
               children: 
-                Flag-t: 
+                Flag-u: 
                   type: 'condition'
                   indicator: '3D'
                   data: 
@@ -333,7 +348,7 @@ Permeability:
                     key: 'JumpCD'
                     indicator: '2D'
                   children: 
-                    Flag-u: 
+                    Flag-v: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -344,7 +359,7 @@ Permeability:
                         seconds-scale: '-1.1'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-v: 
+                    Particle Animation-w: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -380,7 +395,7 @@ Permeability:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Offset-w: 
+                    Offset-x: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -396,7 +411,7 @@ Permeability:
                         wall: 'false'
                         caster: 'false'
                       children: 
-                        Particle Animation-x: 
+                        Particle Animation-y: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -432,7 +447,7 @@ Permeability:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Sound-y: 
+                        Sound-z: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -445,7 +460,7 @@ Permeability:
                             pitch-scale: '0'
                             indicator: '2D'
                           children:  {}
-                    Remember-z: 
+                    Remember-ab: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -456,7 +471,7 @@ Permeability:
                         wall: 'false'
                         caster: 'false'
                       children: 
-                        Damage-ab: 
+                        Damage-bb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -469,7 +484,7 @@ Permeability:
                             classifier: 'Void'
                             indicator: '2D'
                           children:  {}
-                        Potion-bb: 
+                        Potion-cb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -483,7 +498,7 @@ Permeability:
                             seconds-scale: '0.25'
                             indicator: '2D'
                           children:  {}
-                        Status-cb: 
+                        Status-db: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -494,7 +509,7 @@ Permeability:
                             duration-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Status-db: 
+                        Status-eb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -502,10 +517,10 @@ Permeability:
                             counts: 'True'
                             status: 'Disarm'
                             duration-base: '0.5'
-                            duration-scale: '0.1'
+                            duration-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Status-eb: 
+                        Status-fb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -516,7 +531,49 @@ Permeability:
                             duration-scale: '0.15'
                             indicator: '2D'
                           children:  {}
-                        Offset-fb: 
+                        Defense Buff-gb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'DefenseDebuff'
+                            counts: 'True'
+                            type: 'Multiplier'
+                            skill: 'False'
+                            value-base: '1.03'
+                            value-scale: '0.3'
+                            seconds-base: '1.5'
+                            seconds-scale: '0.35'
+                            indicator: '2D'
+                          children:  {}
+                        Defense Buff-hb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            type: 'Multiplier'
+                            skill: 'True'
+                            value-base: '1.03'
+                            value-scale: '0.3'
+                            seconds-base: '1.5'
+                            seconds-scale: '0.35'
+                            indicator: '2D'
+                          children:  {}
+                        Potion-ib: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'WitherSeconds'
+                            counts: 'True'
+                            potion: 'Wither'
+                            ambient: 'False'
+                            tier-base: '1'
+                            tier-scale: '0'
+                            seconds-base: '2.0'
+                            seconds-scale: '0.25'
+                            indicator: '2D'
+                          children:  {}
+                        Offset-jb: 
                           type: 'target'
                           indicator: '3D'
                           data: 
@@ -532,7 +589,7 @@ Permeability:
                             wall: 'false'
                             caster: 'false'
                           children: 
-                            Warp Target-gb: 
+                            Warp Target-kb: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -541,7 +598,7 @@ Permeability:
                                 type: 'Caster to Target'
                                 indicator: '2D'
                               children:  {}
-                            Particle Animation-hb: 
+                            Particle Animation-lb: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -577,7 +634,7 @@ Permeability:
                                 right: '0'
                                 indicator: '2D'
                               children:  {}
-                            Sound-ib: 
+                            Sound-mb: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -590,22 +647,7 @@ Permeability:
                                 pitch-scale: '0'
                                 indicator: '2D'
                               children:  {}
-                    Buff-jb: 
-                      type: 'mechanic'
-                      indicator: '3D'
-                      data: 
-                        icon-key: 'CombatBuff'
-                        counts: 'True'
-                        immediate: 'False'
-                        type: 'DAMAGE'
-                        modifier: 'Multiplier'
-                        value-base: '3'
-                        value-scale: '1.5'
-                        seconds-base: '0.5'
-                        seconds-scale: '0.5'
-                        indicator: '2D'
-                      children:  {}
-                    Speed-kb: 
+                    Speed-nb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -617,7 +659,7 @@ Permeability:
                         duration-scale: '0.35'
                         indicator: '2D'
                       children:  {}
-    Skill Damage-lb: 
+    Skill Damage-ob: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -631,7 +673,7 @@ Permeability:
         - ''
         indicator: '2D'
       children: 
-        Value Multiply-mb: 
+        Value Multiply-pb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -642,7 +684,7 @@ Permeability:
             multiplier-scale: '0.09'
             indicator: '2D'
           children:  {}
-        Heal-nb: 
+        Heal-qb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -660,7 +702,7 @@ Permeability:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-pb: 
+        Value Set-sb: 
           type: 'mechanic'
           indicator: '3D'
           data: 
