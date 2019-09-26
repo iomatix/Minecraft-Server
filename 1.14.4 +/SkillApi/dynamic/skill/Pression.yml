@@ -1,29 +1,16 @@
-Pression: 
+Pression:
   name: 'Pression'
   type: 'Passive'
   max-level: 3
+  skill-req: ''
   skill-req-lvl: 1
   needs-permission: 'false'
-  attributes: 
-    level-base: '22'
-    level-scale: '13'
-    cost-base: '2'
-    cost-scale: '1'
-    cooldown-base: '0'
-    cooldown-scale: '0'
-    mana-base: '0'
-    mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
-    incompatible: 
-    - 'Permability'
-    - 'Titan'
-    - 'Mysterium'
   msg: '&6{player} &2has cast &6{skill}'
+  combo: ''
+  indicator: '2D'
   icon: 'GOLDEN_SWORD'
-  icon-durability: 0
   icon-data: 0
-  icon-lore: 
+  icon-lore:
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
   - ''
@@ -40,485 +27,404 @@ Pression:
   - '&elaunch &6{attr:Pro.amount} &6explosive arrows &ewhich'
   - '&edeal &6{attr:ArrDMG.value} &6physical damage &eand &6burns &etargets.'
   - '&ePrecision tree passive.'
-  desc:  []
-  components: 
-    Physical Damage-a: 
+  attributes:
+    level-base: 22
+    level-scale: 13
+    cost-base: 2
+    cost-scale: 1
+    cooldown-base: 0
+    cooldown-scale: 0
+    mana-base: 0
+    mana-scale: 0
+    points-spent-req-base: 3
+    points-spent-req-scale: 2
+    incompatible:
+    - 'Permability'
+    - 'Titan'
+    - 'Mysterium'
+  components:
+    Physical Damage-a:
       type: 'trigger'
-      indicator: '3D'
-      data: 
+      data:
         icon-key: ''
         mana: 'False'
         cooldown: 'False'
         target: 'False'
         type: 'Projectile'
-        dmg-min: '1'
-        dmg-max: '999999'
-        indicator: '2D'
-      children: 
-        Value Set-b: 
+        dmg-min: 1
+        dmg-max: 999999
+      children:
+        Value Set-b:
           type: 'mechanic'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
             counts: 'True'
             key: 'TheDamage'
-            value-base: 'api-dealt'
-            value-scale: '0'
-            indicator: '2D'
-          children:  {}
-        Self-c: 
+            value-base: api-dealt
+            value-scale: 0
+        Self-c:
           type: 'target'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
-            indicator: '2D'
-            group: 'enemy'
-            wall: 'false'
-            caster: 'false'
-          children: 
-            Flag-d: 
+          children:
+            Flag-d:
               type: 'condition'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 type: 'Not Set'
                 key: 'PressionHealCD'
-                indicator: '2D'
-              children: 
-                Flag-e: 
+              children:
+                Flag-e:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'PressionHealCD'
                     counts: 'True'
                     key: 'PressionHealCD'
-                    seconds-base: '0.15'
-                    seconds-scale: '0'
-                    indicator: '2D'
-                  children:  {}
-                Value Multiply-f: 
+                    seconds-base: 0.15
+                    seconds-scale: 0
+                Value Multiply-f:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     key: 'TheDamage'
-                    multiplier-base: '0.05'
-                    multiplier-scale: '0.04'
-                    indicator: '2D'
-                  children:  {}
-                Heal-g: 
+                    multiplier-base: 0.05
+                    multiplier-scale: 0.04
+                Heal-g:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'Constant'
                     counts: 'True'
                     type: 'Health'
-                    value-base: 'TheDamage'
-                    value-scale: '0'
-                    indicator: '2D'
-                  children:  {}
-                Heal-h: 
+                    value-base: TheDamage
+                    value-scale: 0
+                Heal-h:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'RestoreHealthValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '5.55'
-                    value-scale: '3.85'
-                    indicator: '2D'
-                  children:  {}
-                Sound-i: 
+                    value-base: 5.55
+                    value-scale: 3.85
+                Sound-i:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     sound: 'Entity Evoker Cast Spell'
-                    volume-base: '15'
-                    volume-scale: '0'
-                    pitch-base: '1.1'
-                    pitch-scale: '0.07'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-j: 
+                    volume-base: 15
+                    volume-scale: 0
+                    pitch-base: 1.1
+                    pitch-scale: 0.07
+                Particle Animation-j:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '0'
-                    start: '0'
-                    duration-base: '0.25'
-                    duration-scale: '0'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '2.3'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 0
+                    start: 0
+                    duration-base: 0.25
+                    duration-scale: 0
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 2.3
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'End Rod'
                     arrangement: 'Circle'
-                    radius-base: '1.25'
-                    radius-scale: '0'
-                    particles-base: '1'
-                    particles-scale: '0'
+                    radius-base: 1.25
+                    radius-scale: 0
+                    particles-base: 1
+                    particles-scale: 0
                     direction: 'XZ'
-                    visible-radius: '80'
-                    dx: '0'
-                    dy: '0'
-                    dz: '0'
-                    speed: '0.02'
-                    amount: '1'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-        Flag-k: 
+                    visible-radius: 80
+                    dx: 0
+                    dy: 0
+                    dz: 0
+                    speed: 0.02
+                    amount: 1
+                    forward: 0
+                    upward: 0
+                    right: 0
+        Flag-k:
           type: 'condition'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
             type: 'Not Set'
             key: 'Bleeding'
-            indicator: '2D'
-          children: 
-            Flag-l: 
+          children:
+            Flag-l:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: 'Bleeding'
                 counts: 'True'
                 key: 'Bleeding'
-                seconds-base: '2.42'
-                seconds-scale: '0.8'
-                indicator: '2D'
-              children:  {}
-            Value Multiply-m: 
+                seconds-base: 2.42
+                seconds-scale: 0.8
+            Value Multiply-m:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
                 key: 'api-dealt'
-                multiplier-base: '0.04'
-                multiplier-scale: '0.03'
-                indicator: '2D'
-              children:  {}
-            Repeat-n: 
+                multiplier-base: 0.04
+                multiplier-scale: 0.03
+            Repeat-n:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: 'BleedingRepeat'
                 counts: 'True'
-                repetitions-base: '2'
-                repetitions-scale: '1'
-                period: '0.8'
-                delay: '0.8'
+                repetitions-base: 2
+                repetitions-scale: 1
+                period: 0.8
+                delay: 0.8
                 stop-on-fail: 'True'
-                indicator: '2D'
-              children: 
-                Value Random-o: 
+              children:
+                Value Random-o:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     key: 'VoiceRandom'
                     type: 'Normal'
-                    min-base: '0.6'
-                    min-scale: '0'
-                    max-base: '1.4'
-                    max-scale: '0'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-p: 
+                    min-base: 0.6
+                    min-scale: 0
+                    max-base: 1.4
+                    max-scale: 0
+                Particle Animation-p:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '0'
-                    start: '0'
-                    duration-base: '0.45'
-                    duration-scale: '0'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '-1.5'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 0
+                    start: 0
+                    duration-base: 0.45
+                    duration-scale: 0
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: -1.5
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Block Crack'
                     material: 'Redstone Block'
-                    type: '0'
+                    type: 0
                     arrangement: 'Circle'
-                    radius-base: '0.3'
-                    radius-scale: '0'
-                    particles-base: '2'
-                    particles-scale: '0'
+                    radius-base: 0.3
+                    radius-scale: 0
+                    particles-base: 2
+                    particles-scale: 0
                     direction: 'XZ'
-                    forward: '0'
-                    upward: '1.5'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Sound-q: 
+                    forward: 0
+                    upward: 1.5
+                    right: 0
+                Sound-q:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     sound: 'Entity Generic Hurt'
-                    volume-base: '75'
-                    volume-scale: '0'
-                    pitch-base: 'VoiceRandom'
-                    pitch-scale: '0'
-                    indicator: '2D'
-                  children:  {}
-                Damage-r: 
+                    volume-base: 75
+                    volume-scale: 0
+                    pitch-base: VoiceRandom
+                    pitch-scale: 0
+                Damage-r:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'Constant'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: 'api-dealt'
-                    value-scale: '0'
+                    value-base: api-dealt
+                    value-scale: 0
                     true: 'False'
                     classifier: 'Physical'
-                    indicator: '2D'
-                  children:  {}
-        Value Random-s: 
+        Value Random-s:
           type: 'mechanic'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
             counts: 'True'
             key: 'SoundRand'
             type: 'Normal'
-            min-base: '0.6'
-            min-scale: '0'
-            max-base: '1.4'
-            max-scale: '0'
-            indicator: '2D'
-          children:  {}
-        Status-t: 
+            min-base: 0.6
+            min-scale: 0
+            max-base: 1.4
+            max-scale: 0
+        Status-t:
           type: 'condition'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
             type: 'Active'
             status: 'Disarm'
-            indicator: '2D'
-          children: 
-            Chance-u: 
+          children:
+            Chance-u:
               type: 'condition'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: 'StunChance'
-                chance-base: '26'
-                chance-scale: '6'
-                indicator: '2D'
-              children: 
-                Status-v: 
+                chance-base: 26
+                chance-scale: 6
+              children:
+                Status-v:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'StunDuration'
                     counts: 'True'
                     status: 'Stun'
-                    duration-base: '1.5'
-                    duration-scale: '0.15'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-w: 
+                    duration-base: 1.5
+                    duration-scale: 0.15
+                Particle Animation-w:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '0'
-                    start: '0'
-                    duration-base: '1.4'
-                    duration-scale: '0.15'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '3'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 0
+                    start: 0
+                    duration-base: 1.4
+                    duration-scale: 0.15
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 3
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Block Crack'
                     material: 'Yellow Glazed Terracotta'
-                    type: '0'
+                    type: 0
                     arrangement: 'Circle'
-                    radius-base: '0.2'
-                    radius-scale: '0.03'
-                    particles-base: '2'
-                    particles-scale: '0'
+                    radius-base: 0.2
+                    radius-scale: 0.03
+                    particles-base: 2
+                    particles-scale: 0
                     direction: 'XZ'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Sound-x: 
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Sound-x:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'SoundRand'
                     counts: 'True'
                     sound: 'Entity Ender Dragon Flap'
-                    volume-base: '65'
-                    volume-scale: '0'
-                    pitch-base: 'SoundRand'
-                    pitch-scale: '0'
-                    indicator: '2D'
-                  children:  {}
-        Potion-y: 
+                    volume-base: 65
+                    volume-scale: 0
+                    pitch-base: SoundRand
+                    pitch-scale: 0
+        Potion-y:
           type: 'mechanic'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: 'SlowSeconds'
             counts: 'True'
             potion: 'Slow'
             ambient: 'False'
-            tier-base: '3'
-            tier-scale: '0'
-            seconds-base: '0.95'
-            seconds-scale: '0.35'
-            indicator: '2D'
-          children:  {}
-        Chance-z: 
+            tier-base: 3
+            tier-scale: 0
+            seconds-base: 0.95
+            seconds-scale: 0.35
+        Chance-z:
           type: 'condition'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: 'DisarmChance'
-            chance-base: '5'
-            chance-scale: '3'
-            indicator: '2D'
-          children: 
-            Status-ab: 
+            chance-base: 5
+            chance-scale: 3
+          children:
+            Status-ab:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: 'DisarmDuration'
                 counts: 'True'
                 status: 'Disarm'
-                duration-base: '1.85'
-                duration-scale: '0.3'
-                indicator: '2D'
-              children:  {}
-            Particle Animation-bb: 
+                duration-base: 1.85
+                duration-scale: 0.3
+            Particle Animation-bb:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
-                steps: '1'
-                frequency: '0.05'
-                angle: '0'
-                start: '0'
-                duration-base: '1.75'
-                duration-scale: '0.15'
-                h-translation-base: '0'
-                h-translation-scale: '0'
-                v-translation-base: '2'
-                v-translation-scale: '0'
-                h-cycles: '1'
-                v-cycles: '9'
+                steps: 1
+                frequency: 0.05
+                angle: 0
+                start: 0
+                duration-base: 1.75
+                duration-scale: 0.15
+                h-translation-base: 0
+                h-translation-scale: 0
+                v-translation-base: 2
+                v-translation-scale: 0
+                h-cycles: 1
+                v-cycles: 9
                 particle: 'Block Crack'
                 material: 'Stone'
-                type: '0'
+                type: 0
                 arrangement: 'Circle'
-                radius-base: '0.3'
-                radius-scale: '0.05'
-                particles-base: '2'
-                particles-scale: '0'
+                radius-base: 0.3
+                radius-scale: 0.05
+                particles-base: 2
+                particles-scale: 0
                 direction: 'XZ'
-                forward: '0'
-                upward: '0'
-                right: '0'
-                indicator: '2D'
-              children:  {}
-            Sound-cb: 
+                forward: 0
+                upward: 0
+                right: 0
+            Sound-cb:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
                 sound: 'Entity Iron Golem Step'
-                volume-base: '100'
-                volume-scale: '0'
-                pitch-base: 'SoundRand'
-                pitch-scale: '0'
-                indicator: '2D'
-              children:  {}
-    Launch-db: 
+                volume-base: 100
+                volume-scale: 0
+                pitch-base: SoundRand
+                pitch-scale: 0
+    Launch-db:
       type: 'trigger'
-      indicator: '3D'
-      data: 
+      data:
         icon-key: ''
         mana: 'False'
         cooldown: 'False'
         type: 'Arrow'
-        indicator: '2D'
-      children: 
-        Flag-eb: 
+      children:
+        Flag-eb:
           type: 'condition'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
             type: 'Not Set'
             key: 'pressionCD'
-            indicator: '2D'
-          children: 
-            Crouch-fb: 
+          children:
+            Crouch-fb:
               type: 'condition'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 crouch: 'True'
-                indicator: '2D'
-              children: 
-                Flag-gb: 
+              children:
+                Flag-gb:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'pressionCD'
                     counts: 'True'
                     key: 'pressionCD'
-                    seconds-base: '6.25'
-                    seconds-scale: '-0.65'
-                    indicator: '2D'
-                  children:  {}
-                Item Remove-hb: 
+                    seconds-base: 6.25
+                    seconds-scale: -0.65
+                Item Remove-hb:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    amount-base: '1'
-                    amount-scale: '0'
+                    amount-base: 1
+                    amount-scale: 0
                     check-mat: 'True'
                     material: 'Arrow'
                     check-data: 'False'
                     check-lore: 'False'
                     check-name: 'False'
                     regex: 'False'
-                    indicator: '2D'
-                  children:  {}
-                Projectile-ib: 
+                Projectile-ib:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'Pro'
                     counts: 'True'
                     projectile: 'Arrow'
@@ -526,98 +432,78 @@ Pression:
                     cost: 'One'
                     group: 'Enemy'
                     spread: 'Cone'
-                    amount-base: '2'
-                    amount-scale: '2'
-                    velocity-base: 'api-velocity'
-                    velocity-scale: '0'
-                    angle-base: '22'
-                    angle-scale: '-3'
-                    position: '0'
-                    forward-base: '0'
-                    forward-scale: '0'
-                    upward-base: '0.4'
-                    upward-scale: '0'
-                    right-base: '0'
-                    right-scale: '0'
+                    amount-base: 2
+                    amount-scale: 2
+                    velocity-base: api-velocity
+                    velocity-scale: 0
+                    angle-base: 22
+                    angle-scale: -3
+                    position: 0
+                    forward-base: 0
+                    forward-scale: 0
+                    upward-base: 0.4
+                    upward-scale: 0
+                    right-base: 0
+                    right-scale: 0
                     use-effect: 'False'
-                    indicator: '2D'
-                  children: 
-                    Explosion-jb: 
+                  children:
+                    Explosion-jb:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         counts: 'True'
-                        power-base: '0.25'
-                        power-scale: '0'
+                        power-base: 0.25
+                        power-scale: 0
                         damage: 'False'
                         fire: 'False'
-                        indicator: '2D'
-                      children:  {}
-                    Area-kb: 
+                    Area-kb:
                       type: 'target'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
-                        radius-base: '0.25'
-                        radius-scale: '0'
+                        radius-base: 0.25
+                        radius-scale: 0
                         group: 'Enemy'
                         wall: 'False'
                         caster: 'False'
-                        max-base: '12'
-                        max-scale: '12'
+                        max-base: 12
+                        max-scale: 12
                         random: 'False'
-                        indicator: '2D'
-                      children: 
-                        Fire-lb: 
+                      children:
+                        Fire-lb:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
-                            seconds-base: '3.5'
-                            seconds-scale: '0.5'
-                            indicator: '2D'
-                          children:  {}
-                        Damage-mb: 
+                            seconds-base: 3.5
+                            seconds-scale: 0.5
+                        Damage-mb:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: 'ArrDMG'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '8.75'
-                            value-scale: '3.55'
+                            value-base: 8.75
+                            value-scale: 1.75
                             true: 'False'
                             classifier: 'Physical'
-                            indicator: '2D'
-                          children:  {}
-    Initialize: 
+    Initialize-nb:
       type: 'trigger'
-      indicator: '3D'
-      data: 
+      data:
         icon-key: ''
-        indicator: '2D'
-      children: 
-        Value Set-ob: 
+      children:
+        Value Set-ob:
           type: 'mechanic'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: 'LorDamagePercent'
             counts: 'True'
             key: 'LorePression'
-            value-base: '4'
-            value-scale: '3'
-            indicator: '2D'
-          children:  {}
-        Value Set-pb: 
+            value-base: 4
+            value-scale: 3
+        Value Set-pb:
           type: 'mechanic'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: 'LorLifeSteal'
             counts: 'True'
             key: 'LorePression'
-            value-base: '5'
-            value-scale: '4'
-            indicator: '2D'
-          children:  {}
+            value-base: 5
+            value-scale: 4
