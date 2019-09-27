@@ -1,0 +1,756 @@
+Ambush: 
+  name: 'Ambush'
+  type: 'Domination'
+  max-level: 3
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '7'
+    level-scale: '13'
+    cost-base: '1'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - 'Lethal Tempo'
+    - 'Conqueror'
+    - 'Unexpected Strike'
+    - 'Fleetwork'
+    - 'Predator'
+    - 'Dark Harvest'
+    - 'Summon Aery'
+    - 'Arcane Comet'
+    - 'Aftershock'
+    - 'Grasp of the Undying'
+  msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
+  icon: 'STONE_HOE'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&cOnce per &6{attr:FlagAMBcd.seconds}&6s &cbasic attacks and abilities '
+  - '&cgenerate stacks on enemy. '
+  - '&cAppyling 3 stacks to the taget within &6{attr:FlagAMB1.seconds} &6second period '
+  - '&ccauses additional &6{attr:Damage.value}&6 true damage&c.'
+  - '&cSilences target for &6{attr:SilenceAMB.duration}&6s&c.'
+  - ''
+  - '&cDomination tree passive.'
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        type: 'Both'
+        dmg-min: '1'
+        dmg-max: '999999'
+        indicator: '2D'
+      children: 
+        Remember Targets-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'AmbushTarget'
+            indicator: '2D'
+          children:  {}
+        Flag-c: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'FlagAMB1'
+            indicator: '2D'
+          children: 
+            Flag-d: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Set'
+                key: 'FlagAMB2'
+                indicator: '2D'
+              children: 
+                Damage-e: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Damage'
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '25'
+                    value-scale: '16'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.75'
+                    duration-scale: '0'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '1'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'Large Smoke'
+                    arrangement: 'Hemisphere'
+                    radius-base: '1'
+                    radius-scale: '0'
+                    particles-base: '3'
+                    particles-scale: '0'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0.85'
+                    dz: '0'
+                    speed: '1'
+                    amount: '0'
+                    forward: '0'
+                    upward: '0.15'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Sound-g: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Shoot'
+                    volume-base: '97'
+                    volume-scale: '0'
+                    pitch-base: '0.9'
+                    pitch-scale: '-0.02'
+                    indicator: '2D'
+                  children:  {}
+                Flag Clear-h: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagAMB1'
+                    indicator: '2D'
+                  children:  {}
+                Flag Clear-i: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagAMB2'
+                    indicator: '2D'
+                  children:  {}
+                Status-j: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'SilenceAMB'
+                    counts: 'True'
+                    status: 'Silence'
+                    duration-base: '1.5'
+                    duration-scale: '1'
+                    indicator: '2D'
+                  children:  {}
+                Self-k: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-l: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: 'FlagAMBcd'
+                        counts: 'True'
+                        key: 'FlagAMBcd'
+                        seconds-base: '50'
+                        seconds-scale: '-15'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-m: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '1.5'
+                        duration-scale: '0'
+                        h-translation-base: '5'
+                        h-translation-scale: '0'
+                        v-translation-base: '-0.8'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '1'
+                        particle: 'Smoke'
+                        arrangement: 'Sphere'
+                        radius-base: '2'
+                        radius-scale: '0'
+                        particles-base: '1'
+                        particles-scale: '0'
+                        data: '0'
+                        forward: '0'
+                        upward: '1'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+        Flag-n: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'FlagAMB1'
+            indicator: '2D'
+          children: 
+            Flag-o: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'FlagAMB2'
+                indicator: '2D'
+              children: 
+                Flag-p: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagAMB2'
+                    seconds-base: '5'
+                    seconds-scale: '0.5'
+                    indicator: '2D'
+                  children:  {}
+                Sound-q: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Hurt'
+                    volume-base: '90'
+                    volume-scale: '0'
+                    pitch-base: '1.2'
+                    pitch-scale: '-0.02'
+                    indicator: '2D'
+                  children:  {}
+        Self-r: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Flag-s: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'FlagAMBcd'
+                indicator: '2D'
+              children: 
+                Remember-t: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    key: 'AmbushTarget'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-u: 
+                      type: 'condition'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        type: 'Not Set'
+                        key: 'FlagAMB1'
+                        indicator: '2D'
+                      children: 
+                        Sound-v: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            sound: 'Entity Wither Hurt'
+                            volume-base: '80'
+                            volume-scale: '0'
+                            pitch-base: '1.4'
+                            pitch-scale: '-0.02'
+                            indicator: '2D'
+                          children:  {}
+                        Flag Clear-w: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'FlagAMB2'
+                            indicator: '2D'
+                          children:  {}
+                        Flag-x: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'FlagAMB1'
+                            counts: 'True'
+                            key: 'FlagAMB1'
+                            seconds-base: '5'
+                            seconds-scale: '0.5'
+                            indicator: '2D'
+                          children:  {}
+                        Self-y: 
+                          type: 'target'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            indicator: '2D'
+                            group: 'enemy'
+                            wall: 'false'
+                            caster: 'false'
+                          children: 
+                            Particle Animation-z: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                steps: '1'
+                                frequency: '0.05'
+                                angle: '0'
+                                start: '0'
+                                duration-base: '5'
+                                duration-scale: '0'
+                                h-translation-base: '0'
+                                h-translation-scale: '0'
+                                v-translation-base: '-3'
+                                v-translation-scale: '0'
+                                h-cycles: '1'
+                                v-cycles: '1'
+                                particle: 'Large Smoke'
+                                arrangement: 'Sphere'
+                                radius-base: '1.5'
+                                radius-scale: '0'
+                                particles-base: '1'
+                                particles-scale: '0'
+                                visible-radius: '80'
+                                dx: '0'
+                                dy: '0'
+                                dz: '0'
+                                speed: '1'
+                                amount: '0'
+                                forward: '0'
+                                upward: '3'
+                                right: '0'
+                                indicator: '2D'
+                              children:  {}
+                            Sound-ab: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                sound: 'Entity Wither Spawn'
+                                volume-base: '50'
+                                volume-scale: '0'
+                                pitch-base: '0.8'
+                                pitch-scale: '-0.02'
+                                indicator: '2D'
+                              children:  {}
+    Skill Damage-bb: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - ''
+        indicator: '2D'
+      children: 
+        Remember Targets-cb: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'AmbushTarget'
+            indicator: '2D'
+          children:  {}
+        Flag-db: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'FlagAMB1'
+            indicator: '2D'
+          children: 
+            Flag-eb: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Set'
+                key: 'FlagAMB2'
+                indicator: '2D'
+              children: 
+                Damage-fb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '25'
+                    value-scale: '16'
+                    true: 'True'
+                    classifier: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-gb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.75'
+                    duration-scale: '0'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '1'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'Large Smoke'
+                    arrangement: 'Hemisphere'
+                    radius-base: '1'
+                    radius-scale: '0'
+                    particles-base: '3'
+                    particles-scale: '0'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0.85'
+                    dz: '0'
+                    speed: '1'
+                    amount: '0'
+                    forward: '0'
+                    upward: '0.15'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Sound-hb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Shoot'
+                    volume-base: '97'
+                    volume-scale: '0'
+                    pitch-base: '0.9'
+                    pitch-scale: '-0.02'
+                    indicator: '2D'
+                  children:  {}
+                Flag Clear-ib: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagAMB1'
+                    indicator: '2D'
+                  children:  {}
+                Flag Clear-jb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagAMB2'
+                    indicator: '2D'
+                  children:  {}
+                Status-kb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    status: 'Silence'
+                    duration-base: '1.5'
+                    duration-scale: '1'
+                    indicator: '2D'
+                  children:  {}
+                Self-lb: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-mb: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'FlagAMBcd'
+                        seconds-base: '50'
+                        seconds-scale: '-15'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-nb: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '1.5'
+                        duration-scale: '0'
+                        h-translation-base: '5'
+                        h-translation-scale: '0'
+                        v-translation-base: '-0.8'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '1'
+                        particle: 'Smoke'
+                        arrangement: 'Sphere'
+                        radius-base: '2'
+                        radius-scale: '0'
+                        particles-base: '1'
+                        particles-scale: '0'
+                        data: '0'
+                        forward: '0'
+                        upward: '1'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+        Flag-ob: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Set'
+            key: 'FlagAMB1'
+            indicator: '2D'
+          children: 
+            Flag-pb: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'FlagAMB2'
+                indicator: '2D'
+              children: 
+                Flag-qb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'FlagAMB2'
+                    seconds-base: '5'
+                    seconds-scale: '0.5'
+                    indicator: '2D'
+                  children:  {}
+                Sound-rb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Hurt'
+                    volume-base: '90'
+                    volume-scale: '0'
+                    pitch-base: '1.2'
+                    pitch-scale: '-0.02'
+                    indicator: '2D'
+                  children:  {}
+        Self-sb: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Flag-tb: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                type: 'Not Set'
+                key: 'FlagAMBcd'
+                indicator: '2D'
+              children: 
+                Remember-ub: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    key: 'AmbushTarget'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Flag-vb: 
+                      type: 'condition'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        type: 'Not Set'
+                        key: 'FlagAMB1'
+                        indicator: '2D'
+                      children: 
+                        Sound-wb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            sound: 'Entity Wither Hurt'
+                            volume-base: '80'
+                            volume-scale: '0'
+                            pitch-base: '1.4'
+                            pitch-scale: '-0.02'
+                            indicator: '2D'
+                          children:  {}
+                        Flag Clear-xb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'FlagAMB2'
+                            indicator: '2D'
+                          children:  {}
+                        Flag-yb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            key: 'FlagAMB1'
+                            seconds-base: '5'
+                            seconds-scale: '0.5'
+                            indicator: '2D'
+                          children:  {}
+                        Self-zb: 
+                          type: 'target'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            indicator: '2D'
+                            group: 'enemy'
+                            wall: 'false'
+                            caster: 'false'
+                          children: 
+                            Particle Animation-ac: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                steps: '1'
+                                frequency: '0.05'
+                                angle: '0'
+                                start: '0'
+                                duration-base: '5'
+                                duration-scale: '0'
+                                h-translation-base: '0'
+                                h-translation-scale: '0'
+                                v-translation-base: '-3'
+                                v-translation-scale: '0'
+                                h-cycles: '1'
+                                v-cycles: '1'
+                                particle: 'Large Smoke'
+                                arrangement: 'Sphere'
+                                radius-base: '1.5'
+                                radius-scale: '0'
+                                particles-base: '1'
+                                particles-scale: '0'
+                                visible-radius: '80'
+                                dx: '0'
+                                dy: '0'
+                                dz: '0'
+                                speed: '1'
+                                amount: '0'
+                                forward: '0'
+                                upward: '3'
+                                right: '0'
+                                indicator: '2D'
+                              children:  {}
+                            Sound-bc: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                sound: 'Entity Wither Spawn'
+                                volume-base: '50'
+                                volume-scale: '0'
+                                pitch-base: '0.8'
+                                pitch-scale: '-0.02'
+                                indicator: '2D'
+                              children:  {}

@@ -1,0 +1,285 @@
+Lethal Tempo: 
+  name: 'Lethal Tempo'
+  type: 'Precision'
+  max-level: 3
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '7'
+    level-scale: '13'
+    cost-base: '1'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
+    incompatible: 
+    - 'Unexpected Strike'
+    - 'Conqueror'
+    - 'Fleetwork'
+    - 'Ambush'
+    - 'Predator'
+    - 'Dark Harvest'
+    - 'Summon Aery'
+    - 'Arcane Comet'
+    - 'Aftershock'
+    - 'Grasp of the Undying'
+  msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
+  icon: 'ARROW'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&61.5s &eupon damaging an enemy gains'
+  - '&eadditional speed and &6{attr:Dex.amount} &6dexterity'
+  - '&efor &6{attr:Speed.duration}&6s&e.'
+  - '&eStacking max &6{attr:stacks.max-value} &6times&e.'
+  - ''
+  - '&ePrecision tree passive.'
+  desc:  []
+  components: 
+    Physical Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'True'
+        type: 'Both'
+        dmg-min: '1'
+        dmg-max: '999999'
+        indicator: '2D'
+      children: 
+        Value-b: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: 'stacks'
+            key: 'valueLT'
+            min-value-base: '1'
+            min-value-scale: '0'
+            max-value-base: '4'
+            max-value-scale: '1'
+            indicator: '2D'
+          children: 
+            Value Add-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                key: 'valueLT'
+                amount-base: '1'
+                amount-scale: '0'
+                indicator: '2D'
+              children:  {}
+            Delay-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                delay-base: '1.5'
+                delay-scale: '0'
+                indicator: '2D'
+              children: 
+                Sound-e: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Ender Dragon Hurt'
+                    volume-base: '30'
+                    volume-scale: '0'
+                    pitch-base: 'randomLT'
+                    pitch-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Value Random-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    key: 'randomLT'
+                    type: 'Normal'
+                    min-base: '0.7'
+                    min-scale: '0'
+                    max-base: '1.4'
+                    max-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+                Potion-g: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    potion: 'Jump'
+                    ambient: 'True'
+                    tier-base: '1'
+                    tier-scale: '1'
+                    seconds-base: '3'
+                    seconds-scale: '1'
+                    indicator: '2D'
+                  children:  {}
+                Attribute-h: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Dex'
+                    counts: 'True'
+                    key: 'dexterity'
+                    amount-base: '8'
+                    amount-scale: '2'
+                    seconds-base: '3.1'
+                    seconds-scale: '1'
+                    stackable: 'True'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-i: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '3'
+                    duration-scale: '1'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '0.8'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '8'
+                    particle: 'Crit'
+                    arrangement: 'Circle'
+                    radius-base: '1.2'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '45'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '1'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Speed-j: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'Speed'
+                    counts: 'True'
+                    multiplier-base: '1.1'
+                    multiplier-scale: '0.05'
+                    duration-base: '3.1'
+                    duration-scale: '1'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-k: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.3'
+                    duration-scale: '0.1'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '0.8'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'End Rod'
+                    arrangement: 'Circle'
+                    radius-base: '0.25'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    direction: 'XZ'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.01'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Delay-l: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    delay-base: '3'
+                    delay-scale: '1'
+                    indicator: '2D'
+                  children: 
+                    Sound-m: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Block Fire Extinguish'
+                        volume-base: '18'
+                        volume-scale: '0'
+                        pitch-base: 'randomLT'
+                        pitch-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+                    Value Add-n: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        key: 'valueLT'
+                        amount-base: '-1'
+                        amount-scale: '0'
+                        indicator: '2D'
+                      children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-p: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'valueLT'
+            value-base: '1'
+            value-scale: '0'
+            indicator: '2D'
+          children:  {}

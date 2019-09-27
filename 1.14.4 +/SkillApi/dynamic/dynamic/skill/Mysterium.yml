@@ -1,0 +1,444 @@
+Mysterium: 
+  name: 'Mysterium'
+  type: 'Passive'
+  max-level: 3
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '22'
+    level-scale: '13'
+    cost-base: '2'
+    cost-scale: '1'
+    cooldown-base: '0'
+    cooldown-scale: '0'
+    mana-base: '0'
+    mana-scale: '0'
+    points-spent-req-base: '3'
+    points-spent-req-scale: '2'
+    incompatible: 
+    - 'Pression'
+    - 'Permeability'
+    - 'Titan'
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'DIAMOND_HOE'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&3Magic damage &6burns &3targets '
+  - '&3dealing &6{attr:BurnDamage.value}&6 x&6{attr:ABurnRepetitions.repetitions} &6arcane damage in &6{attr:ArcaneBurnSeconds.seconds}&6s.'
+  - "&3The burn destroys &6{attr:ManaBurn.value}&6 target's mana."
+  - '&6{attr:RootChance.chance}&6% chance &3to &6root &3targets for &6{attr:RootDuration.duration}&6s.'
+  - '&6Silence &3and &6disarm target &3for &6{attr:SilDisDuration.duration}&6s &3during &6crouching.'
+  - '&3Gains &6movement speed &3and &6agility &3for &6{attr:AgilitySec.seconds}&6s &3on &6magic damage.'
+  - ''
+  - '&3Sorcery tree passive.'
+  desc:  []
+  components: 
+    Skill Damage-a: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        mana: 'False'
+        cooldown: 'False'
+        target: 'False'
+        dmg-min: '1'
+        dmg-max: '999999'
+        category: 
+        - ''
+        indicator: '2D'
+      children: 
+        Remember Targets-b: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            counts: 'True'
+            key: 'TheTarget'
+            indicator: '2D'
+          children:  {}
+        Flag-c: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            type: 'Not Set'
+            key: 'ArcaneBurn'
+            indicator: '2D'
+          children: 
+            Flag-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'ArcaneBurnSeconds'
+                counts: 'True'
+                key: 'ArcaneBurn'
+                seconds-base: '5.25'
+                seconds-scale: '0.85'
+                indicator: '2D'
+              children:  {}
+            Repeat-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'ABurnRepetitions'
+                counts: 'True'
+                repetitions-base: '3'
+                repetitions-scale: '1'
+                period: '1.1'
+                delay: '0.6'
+                stop-on-fail: 'False'
+                indicator: '2D'
+              children: 
+                Damage-f: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'BurnDamage'
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '21.5'
+                    value-scale: '10.7'
+                    true: 'False'
+                    classifier: 'Arcane'
+                    indicator: '2D'
+                  children:  {}
+                Mana-g: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Mana'
+                    value-base: '-55'
+                    value-scale: '-95'
+                    indicator: '2D'
+                  children:  {}
+                Sound-h: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    sound: 'Entity Wither Hurt'
+                    volume-base: '55'
+                    volume-scale: '0'
+                    pitch-base: '0.65'
+                    pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Particle Animation-i: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    steps: '1'
+                    frequency: '0.05'
+                    angle: '0'
+                    start: '0'
+                    duration-base: '0.32'
+                    duration-scale: '0'
+                    h-translation-base: '0'
+                    h-translation-scale: '0'
+                    v-translation-base: '2.6'
+                    v-translation-scale: '0'
+                    h-cycles: '1'
+                    v-cycles: '1'
+                    particle: 'Lava'
+                    arrangement: 'Sphere'
+                    radius-base: '0.25'
+                    radius-scale: '0'
+                    particles-base: '2'
+                    particles-scale: '0'
+                    visible-radius: '80'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    speed: '0.02'
+                    amount: '1'
+                    forward: '0'
+                    upward: '0.5'
+                    right: '0'
+                    indicator: '2D'
+                  children:  {}
+                Defense Buff-j: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Multiplier'
+                    skill: 'False'
+                    value-base: '1.02'
+                    value-scale: '0.01'
+                    seconds-base: '0.45'
+                    seconds-scale: '0'
+                    indicator: '2D'
+                  children:  {}
+            Particle Animation-k: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '3'
+                duration-scale: '0.8'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '1.5'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '4'
+                particle: 'Red Dust'
+                arrangement: 'Sphere'
+                radius-base: '0.4'
+                radius-scale: '0'
+                particles-base: '2'
+                particles-scale: '0'
+                visible-radius: '80'
+                dx: '0.6'
+                dy: '0.15'
+                dz: '0.8'
+                speed: '1'
+                amount: '0'
+                forward: '0'
+                upward: '0.5'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+        Chance-l: 
+          type: 'condition'
+          indicator: '3D'
+          data: 
+            icon-key: 'RootChance'
+            chance-base: '9'
+            chance-scale: '6'
+            indicator: '2D'
+          children: 
+            Status-m: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'RootDuration'
+                counts: 'True'
+                status: 'Root'
+                duration-base: '1.5'
+                duration-scale: '0.5'
+                indicator: '2D'
+              children:  {}
+            Sound-n: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                sound: 'Entity Illusioner Mirror Move'
+                volume-base: '35'
+                volume-scale: '0'
+                pitch-base: '0.8'
+                pitch-scale: '0.05'
+                indicator: '2D'
+              children:  {}
+            Particle Animation-o: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '1.5'
+                duration-scale: '0.5'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '1.7'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '5'
+                particle: 'Large Smoke'
+                arrangement: 'Sphere'
+                radius-base: '0.35'
+                radius-scale: '0'
+                particles-base: '2'
+                particles-scale: '0'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '0.02'
+                amount: '1'
+                forward: '0'
+                upward: '0.9'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+        Self-p: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Potion-q: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: 'AgilitySec'
+                counts: 'True'
+                potion: 'Speed'
+                ambient: 'True'
+                tier-base: '2'
+                tier-scale: '0'
+                seconds-base: '1.5'
+                seconds-scale: '0.25'
+                indicator: '2D'
+              children:  {}
+            Potion-r: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                potion: 'Jump'
+                ambient: 'True'
+                tier-base: '2'
+                tier-scale: '0'
+                seconds-base: '1.5'
+                seconds-scale: '0.25'
+                indicator: '2D'
+              children:  {}
+            Crouch-s: 
+              type: 'condition'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                crouch: 'True'
+                indicator: '2D'
+              children: 
+                Remember-t: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    key: 'TheTarget'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Status-u: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        status: 'Root'
+                        duration-base: '0.75'
+                        duration-scale: '0.25'
+                        indicator: '2D'
+                      children:  {}
+                    Status-v: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: 'SilDisDuration'
+                        counts: 'True'
+                        status: 'Disarm'
+                        duration-base: '1.45'
+                        duration-scale: '0.5'
+                        indicator: '2D'
+                      children:  {}
+                    Status-w: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        status: 'Silence'
+                        duration-base: '1.45'
+                        duration-scale: '0.5'
+                        indicator: '2D'
+                      children:  {}
+                    Sound-x: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        sound: 'Entity Illusioner Mirror Move'
+                        volume-base: '35'
+                        volume-scale: '0'
+                        pitch-base: '0.8'
+                        pitch-scale: '0.05'
+                        indicator: '2D'
+                      children:  {}
+                    Particle Animation-y: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        steps: '1'
+                        frequency: '0.05'
+                        angle: '0'
+                        start: '0'
+                        duration-base: '1.45'
+                        duration-scale: '0.5'
+                        h-translation-base: '0'
+                        h-translation-scale: '0'
+                        v-translation-base: '1.7'
+                        v-translation-scale: '0'
+                        h-cycles: '1'
+                        v-cycles: '5'
+                        particle: 'Large Smoke'
+                        arrangement: 'Sphere'
+                        radius-base: '0.35'
+                        radius-scale: '0'
+                        particles-base: '2'
+                        particles-scale: '0'
+                        visible-radius: '80'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0.02'
+                        amount: '1'
+                        forward: '0'
+                        upward: '0.9'
+                        right: '0'
+                        indicator: '2D'
+                      children:  {}
+    Initialize: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Value Set-ab: 
+          type: 'mechanic'
+          indicator: '3D'
+          data: 
+            icon-key: 'ManaBurn'
+            counts: 'True'
+            key: 'LoreMysterium'
+            value-base: '110'
+            value-scale: '130'
+            indicator: '2D'
+          children:  {}

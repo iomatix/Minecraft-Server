@@ -1,0 +1,211 @@
+Summon Wolf: 
+  name: 'Summon Wolf'
+  type: 'Active'
+  max-level: 6
+  skill-req: 'None'
+  skill-req-lvl: 1
+  needs-permission: 'false'
+  attributes: 
+    level-base: '11'
+    level-scale: '15'
+    cost-base: '3'
+    cost-scale: '4'
+    cooldown-base: '60'
+    cooldown-scale: '48'
+    mana-base: '45'
+    mana-scale: '31'
+    points-spent-req-base: '3'
+    points-spent-req-scale: '4'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2has cast &6{skill}'
+  icon: 'LEATHER'
+  icon-durability: 0
+  icon-data: 0
+  icon-lore: 
+  - '&d{name} &7({level}/{max})'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
+  - ''
+  - '&3Caster uses magic power to'
+  - '&3summon spirit wolves.'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  - ''
+  - '&cDuration: &6{attr:Wolf.seconds} &6seconds.'
+  - '&cAmount: &6{attr:Wolf.amount}'
+  - '&cHealth: &6{attr:Wolf.health}'
+  - '&cDamage:  &6{attr:Wolf.damage}'
+  desc:  []
+  components: 
+    Cast: 
+      type: 'trigger'
+      indicator: '3D'
+      data: 
+        icon-key: ''
+        indicator: '2D'
+      children: 
+        Offset-b: 
+          type: 'target'
+          indicator: '3D'
+          data: 
+            icon-key: ''
+            forward-base: '0'
+            forward-scale: '0'
+            upward-base: '0'
+            upward-scale: '0'
+            right-base: '0'
+            right-scale: '0'
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+          children: 
+            Particle Animation-c: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'False'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                duration-base: '12'
+                duration-scale: '0'
+                h-translation-base: '0'
+                h-translation-scale: '0'
+                v-translation-base: '-4'
+                v-translation-scale: '0'
+                h-cycles: '1'
+                v-cycles: '1'
+                particle: 'Enchantment Table'
+                arrangement: 'Circle'
+                radius-base: '2'
+                radius-scale: '0'
+                particles-base: '5'
+                particles-scale: '2'
+                direction: 'XZ'
+                visible-radius: '80'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '1'
+                amount: '1'
+                forward: '0'
+                upward: '5'
+                right: '0'
+                indicator: '2D'
+              children:  {}
+            Sound-d: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'False'
+                sound: 'Entity Evoker Prepare Wololo'
+                volume-base: '78'
+                volume-scale: '0'
+                pitch-base: '1.4'
+                pitch-scale: '-0.11'
+                indicator: '2D'
+              children:  {}
+            Channel-e: 
+              type: 'mechanic'
+              indicator: '3D'
+              data: 
+                icon-key: ''
+                counts: 'True'
+                still: 'False'
+                time-base: '9'
+                time-scale: '1.5'
+                indicator: '2D'
+              children: 
+                Offset-f: 
+                  type: 'target'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    forward-base: '-1.5'
+                    forward-scale: '0'
+                    upward-base: '1'
+                    upward-scale: '0'
+                    right-base: '0'
+                    right-scale: '0'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                  children: 
+                    Delay-g: 
+                      type: 'mechanic'
+                      indicator: '3D'
+                      data: 
+                        icon-key: ''
+                        counts: 'True'
+                        delay-base: '0.5'
+                        delay-scale: '0'
+                        indicator: '2D'
+                      children: 
+                        Wolf-h: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'Wolf'
+                            counts: 'True'
+                            color: 'BLACK'
+                            name: '{player}s spirit wolf'
+                            health-base: '80'
+                            health-scale: '80'
+                            damage-base: '16'
+                            damage-scale: '4'
+                            sitting: 'False'
+                            seconds-base: '60'
+                            seconds-scale: '49'
+                            amount-base: '1'
+                            amount-scale: '1'
+                            skills: 
+                            - 'WOLFPARTICLE'
+                            - ''
+                            indicator: '2D'
+                          children: 
+                            Particle-i: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                particle: 'Enchantment Table'
+                                arrangement: 'Hemisphere'
+                                radius-base: '1'
+                                radius-scale: '1'
+                                particles-base: '4'
+                                particles-scale: '0'
+                                visible-radius: '60'
+                                dx: '0'
+                                dy: '0'
+                                dz: '0'
+                                speed: '0.5'
+                                amount: '1'
+                                forward: '-0.3'
+                                upward: '0.1'
+                                right: '0'
+                                indicator: '2D'
+                              children:  {}
+                        Sound-j: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            sound: 'Entity Evoker Cast Spell'
+                            volume-base: '90'
+                            volume-scale: '0'
+                            pitch-base: '1'
+                            pitch-scale: '-0.1'
+                            indicator: '2D'
+                          children:  {}
