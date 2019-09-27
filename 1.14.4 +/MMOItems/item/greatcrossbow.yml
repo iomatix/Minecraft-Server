@@ -6,7 +6,7 @@ LVL_16_CROSSBOW:
   - '&fShort Crossbow.'
   gem-sockets: 0.0
   required-level: 16.0
-  attack-damage: 40.0
+  attack-damage: 49.0
   critical-strike-chance: 10.0
   critical-strike-power: 25.0
   two-handed: true
@@ -72,7 +72,7 @@ LVL_24_CROSSBOW:
   lore:
   - '&7Common Crossbow.'
   required-level: 24.0
-  attack-damage: 60.0
+  attack-damage: 72.0
   critical-strike-chance: 15.0
   critical-strike-power: 35.0
   two-handed: true
@@ -140,7 +140,7 @@ LVL_36_CROSSBOW:
   lore:
   - '&8Golden Crossbow.'
   required-level: 36.0
-  attack-damage: 85.0
+  attack-damage: 89.0
   critical-strike-chance: 20.0
   critical-strike-power: 45.0
   two-handed: true
@@ -208,7 +208,7 @@ LVL_48_CROSSBOW:
   lore:
   - '&6Composite Crossbow.'
   required-level: 48.0
-  attack-damage: 100.0
+  attack-damage: 105.0
   critical-strike-chance: 30.0
   critical-strike-power: 55.0
   two-handed: true
@@ -277,7 +277,7 @@ UP_LVL_48_CROSSBOW:
   lore:
   - '&eUpgraded Composite Crossbow.'
   required-level: 48.0
-  attack-damage: 115.0
+  attack-damage: 132.0
   critical-strike-chance: 35.0
   critical-strike-power: 65.0
   two-handed: true
@@ -365,7 +365,7 @@ DRAGONFIRE_CROSSBOW:
       cooldown: 6.0
   two-handed: true
   required-level: 56.0
-  attack-damage: 152.0
+  attack-damage: 163.0
   critical-strike-chance: 45.0
   critical-strike-power: 70.0
   advanced-craft-enabled: true
@@ -455,7 +455,7 @@ ULT_DRAGONFIRE_CROSSBOW:
       mode: ON_HIT
   two-handed: true
   required-level: 58.0
-  attack-damage: 180.0
+  attack-damage: 185.0
   critical-strike-chance: 45.0
   critical-strike-power: 70.0
   advanced-craft-enabled: true

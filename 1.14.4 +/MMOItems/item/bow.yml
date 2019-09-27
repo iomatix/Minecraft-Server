@@ -18,7 +18,7 @@ LVL_12_BOW:
   - '&fShort Bow.'
   gem-sockets: 0.0
   required-level: 12.0
-  attack-damage: 29.0
+  attack-damage: 38.0
   critical-strike-chance: 10.0
   critical-strike-power: 25.0
   two-handed: true
@@ -84,7 +84,7 @@ LVL_24_BOW:
   lore:
   - '&7Common Bow.'
   required-level: 24.0
-  attack-damage: 51.0
+  attack-damage: 63.0
   critical-strike-chance: 15.0
   critical-strike-power: 35.0
   two-handed: true
@@ -152,7 +152,7 @@ LVL_36_BOW:
   lore:
   - '&8Long Bow.'
   required-level: 36.0
-  attack-damage: 77.0
+  attack-damage: 82.0
   critical-strike-chance: 20.0
   critical-strike-power: 45.0
   two-handed: true
@@ -220,7 +220,7 @@ LVL_48_BOW:
   lore:
   - '&6Composite Bow.'
   required-level: 48.0
-  attack-damage: 87.0
+  attack-damage: 97.0
   critical-strike-chance: 30.0
   critical-strike-power: 55.0
   two-handed: true
@@ -289,7 +289,7 @@ UP_LVL_48_BOW:
   lore:
   - '&eUpgraded Composite Bow.'
   required-level: 48.0
-  attack-damage: 96.0
+  attack-damage: 110.0
   critical-strike-chance: 35.0
   critical-strike-power: 65.0
   two-handed: true
@@ -364,7 +364,7 @@ REDWOOD_BOW:
       damage: 15.0
   two-handed: false
   required-level: 50.0
-  attack-damage: 112.0
+  attack-damage: 120.0
   critical-strike-chance: 38.0
   critical-strike-power: 68.0
   movement-speed: 0.005
@@ -452,7 +452,7 @@ WINDBLOW:
       damage: 10.0
   two-handed: false
   required-level: 52.0
-  attack-damage: 123.0
+  attack-damage: 130.0
   critical-strike-chance: 41.0
   critical-strike-power: 70.0
   movement-speed: 0.005
@@ -558,7 +558,7 @@ DARKBLESS:
       mode: ON_HIT
   two-handed: false
   required-level: 54.0
-  attack-damage: 136.5
+  attack-damage: 140.0
   critical-strike-chance: 45.0
   critical-strike-power: 70.0
   movement-speed: 0.005
@@ -655,7 +655,7 @@ DRAGONFIRE:
       mode: ON_HIT
   two-handed: false
   required-level: 56.0
-  attack-damage: 146.0
+  attack-damage: 150.0
   critical-strike-chance: 45.0
   critical-strike-power: 70.0
   movement-speed: 0.005

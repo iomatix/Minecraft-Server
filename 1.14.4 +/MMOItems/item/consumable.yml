@@ -1288,3 +1288,4 @@ MANA_POTION:
   restore-mana: 75.0
   potion-color: 0 200 255
   name: '&bMana Potion'
+  vanilla-eating: true
