@@ -5,7 +5,7 @@
 sword-default:
     # Every time the item is upgraded, its attack damage
     # is increased by 7.5% (relative to the current value)
-    attack-damage: 15.5%   
+    attack-damage: 15%   
     # Every time it is upgraded, it gets +2.5% aboslute 
     # critical strike chance (independant of current val.)
     critical-strike-chance: 2.5%
@@ -22,7 +22,7 @@ sword-default:
     parry-cooldown-reduction: 2.5%
     #pve-damage: 2.5%
 halberd-default:
-    attack-damage: 15.5%
+    attack-damage: 15%
     critical-strike-chance: 3%
     critical-strike-power: 3%
     attack-speed: 2%
@@ -37,7 +37,7 @@ halberd-default:
     parry-cooldown-reduction: 3%
     #pve-damage: 2.5%
 bow-default:
-    attack-damage: 15%
+    attack-damage: 18.5%
     critical-strike-chance: 3%
     critical-strike-power: 3%
     dodge-rating: 2.5%
@@ -55,7 +55,7 @@ axe-default:
     block-cooldown-reduction: 1.5%
     parry-cooldown-reduction: 1.5%
 staff-whip-default:
-    attack-damage: 16.5%
+    attack-damage: 17%
     critical-strike-chance: 1%
     critical-strike-power: 2.5%
     range: 1.5%

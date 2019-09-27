@@ -660,6 +660,30 @@ monsters:
                     LEGENDARY_WEAPON_ESSENCE: 28,1-3,0
                     VERY_RARE_WEAPON_ESSENCE: 35,1-4,0
                     RARE_WEAPON_ESSENCE: 55,1-7,0
+    iron_golem:
+        IG_drop:
+            coef: 1
+            items:
+                MISCELLANEOUS:
+                    GOLD_COIN: 25,1-10,0
+                    MAGIC_TEAR: 34,1-12,0
+                    SILVER_COIN: 70,4-12,0 
+                    CURSED_ELEMENT: 1,1-1,100
+                    DEMONIC_ELEMENT: 3,1-1,100
+                    SOUL_ELEMENT: 6,1-2,100
+                    ANCIENT_ELEMENT: 8,1-3,100
+                    OCEANIC_ELEMENT: 0.1,1-1,100
+                    DIVINE_ELEMENT: 8,1-2,100
+                MATERIAL:
+                    WEAPON_POWDER: 90,6-24,0
+                    UNCOMMON_WEAPON_ESSENCE: 70,1-10,0
+                    MAGICAL_WEAPON_ESSENCE: 60,1-6,0
+                    UNIQUE_WEAPON_ESSENCE: 1,1-1,0
+                    EPIC_WEAPON_ESSENCE: 2,1-1,0
+                    MYTHICAL_WEAPON_ESSENCE: 5,1-2,0
+                    LEGENDARY_WEAPON_ESSENCE: 18,1-3,0
+                    VERY_RARE_WEAPON_ESSENCE: 35,1-5,0
+                    RARE_WEAPON_ESSENCE: 50,1-8,0
     shulker:
         sh_drop:
             coef: 1
