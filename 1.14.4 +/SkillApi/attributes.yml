@@ -128,8 +128,8 @@ dexterity:
       Nearest-radius: 'a*0.0025+1*v'
       Single-range: 'a*0.0025+1*v'
   stats:
-    projectile-damage: '(a*0.002+1*v)+(a*0.75+v)'
-    physical-damage: '(a*0.002+1*v)+(a*0.55+v)'
+    projectile-damage: '(a*0.001+1*v)+(a*0.75+v)'
+    physical-damage: '(a*0.0025+1*v)+(a*0.55+v)'
     move-speed: 'a*0.0009+1*v'
     attack-speed: 'a*0.0013+1*v'
 strength: 
