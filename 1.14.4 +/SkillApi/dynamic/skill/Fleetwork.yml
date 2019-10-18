@@ -309,8 +309,8 @@ Fleetwork:
                     icon-key: 'Heal'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '25'
-                    value-scale: '20'
+                    value-base: '15'
+                    value-scale: '10'
                     indicator: '2D'
                   children:  {}
                 Particle Animation-s: 

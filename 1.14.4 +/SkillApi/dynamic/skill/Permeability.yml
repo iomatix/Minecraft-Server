@@ -2,6 +2,7 @@ Permeability:
   name: 'Permeability'
   type: 'Passive'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -303,8 +304,8 @@ Permeability:
                 icon-key: ''
                 counts: 'True'
                 key: 'api-dealt'
-                multiplier-base: '0.12'
-                multiplier-scale: '0.09'
+                multiplier-base: '0.08'
+                multiplier-scale: '0.05'
                 indicator: '2D'
               children:  {}
             Heal-r: 
@@ -478,8 +479,8 @@ Permeability:
                             icon-key: 'PermJumpDamage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '9.5'
-                            value-scale: '10.75'
+                            value-base: '10.5'
+                            value-scale: '11.75'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -680,8 +681,8 @@ Permeability:
             icon-key: ''
             counts: 'True'
             key: 'api-dealt'
-            multiplier-base: '0.12'
-            multiplier-scale: '0.09'
+            multiplier-base: '0.08'
+            multiplier-scale: '0.05'
             indicator: '2D'
           children:  {}
         Heal-qb: 
@@ -709,7 +710,7 @@ Permeability:
             icon-key: 'LorVampirPercent'
             counts: 'True'
             key: 'LorePermeability'
-            value-base: '12'
-            value-scale: '9'
+            value-base: '8'
+            value-scale: '5'
             indicator: '2D'
           children:  {}

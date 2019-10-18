@@ -2,6 +2,7 @@ Implacability:
   name: 'Implacability'
   type: 'Precision'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -83,7 +84,7 @@ Implacability:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'
@@ -141,7 +142,7 @@ Implacability:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'
