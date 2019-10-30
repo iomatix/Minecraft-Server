@@ -1,0 +1,530 @@
+quests:
+  custom1:
+    name: §2The Adventure Begins
+    ask-message: §2Welcome to the magical world called Avalon.
+    finish-message: §2Your Adventure has just begun.
+    requirements:
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '1'
+      fail-requirement-message: §cYou are not ready for this quest Adventurer!
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - OAK_LOG
+          - BIRCH_LOG
+          - STONE
+          break-block-amounts:
+          - 3
+          - 1
+          - 10
+          break-block-durability:
+          - 0
+          - 0
+          - 0
+          finish-event: SKILLAPIExperience75
+          start-message: Take your time and collect these resources. You'll need them.
+          complete-message: Fine!
+        '2':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: STONE_SWORD
+          finish-event: SKILLAPIExperience75
+          start-message: Make a stone sword...
+        '3':
+          mobs-to-kill:
+          - Cow
+          - Sheep
+          - Chicken
+          - Wolf
+          mob-amounts:
+          - 2
+          - 2
+          - 1
+          - 1
+          start-event: Bow
+          finish-event: SKILLAPIExperience75
+          start-message: It's time to prepare your weapons and go hunting.
+          complete-message: Good job!
+        '4':
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: FURNACE
+          items-to-smelt:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: COOKED_BEEF
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: COOKED_CHICKEN
+          finish-event: Bread
+          start-message: Prepare food...
+        '5':
+          locations-to-reach:
+          - Avalon 0.0 90.0 0.0
+          reach-location-radii:
+          - 100
+          reach-location-names:
+          - Avalon The Beginning Area
+          start-event: Compass
+          finish-event: SKILLAPIExperience75
+          start-message: Reach Avalon The Beginning Area.
+          complete-message: §2Use /help command to learn the game interface.
+        '6':
+          mobs-to-kill:
+          - Zombie
+          - Skeleton
+          - Spider
+          mob-amounts:
+          - 2
+          - 1
+          - 1
+          locations-to-kill:
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          kill-location-radii:
+          - 655
+          - 655
+          - 655
+          kill-location-names:
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          start-message: Wait till dask then kill monsters at Avalon The Beginning
+            Area.
+          complete-message: The Area became safer.
+    rewards:
+      money: 150
+      quest-points: 2
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '2000'
+    planner:
+      cooldown: 43200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom3:
+    name: §aDaily Hunting
+    ask-message: §aWe need your aid at The Beginning Area.
+    finish-message: §aThe Hunting completed.
+    requirements:
+      quests:
+      - §2The Adventure Begins
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '1'
+      fail-requirement-message: §cYou are not ready for this quest Adventurer!
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - Avalon 0.0 90.0 0.0
+          reach-location-radii:
+          - 35
+          reach-location-names:
+          - Avalon The Beginning Area
+          start-event: Compass
+          finish-event: SKILLAPIExperience75
+          start-message: Reach Avalon The Beginning Area.
+        '2':
+          mobs-to-kill:
+          - Cow
+          - Wolf
+          - Sheep
+          - Pig
+          mob-amounts:
+          - 5
+          - 4
+          - 4
+          - 3
+          locations-to-kill:
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          kill-location-radii:
+          - 655
+          - 655
+          - 655
+          - 655
+          kill-location-names:
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          start-message: Gather resources from animals at Avalon The Beginning Area.
+          complete-message: The Area became safer.
+    rewards:
+      money: 100
+      quest-points: 1
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '1250'
+    planner:
+      cooldown: 43200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom4:
+    name: §aDaily Watch
+    ask-message: §aWe need your aid at The Beginning Area.
+    finish-message: §aThe Watch completed.
+    requirements:
+      quests:
+      - §2The Adventure Begins
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '1'
+      fail-requirement-message: §cYou are not ready for this quest Adventurer!
+    stages:
+      ordered:
+        '1':
+          locations-to-reach:
+          - Avalon 0.0 90.0 0.0
+          reach-location-radii:
+          - 35
+          reach-location-names:
+          - Avalon The Beginning Area
+          start-event: Compass
+          finish-event: SKILLAPIExperience75
+          start-message: Reach Avalon The Beginning Area.
+        '2':
+          mobs-to-kill:
+          - Zombie
+          - Skeleton
+          - Spider
+          - Creeper
+          mob-amounts:
+          - 9
+          - 5
+          - 5
+          - 5
+          locations-to-kill:
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          - Avalon 0.0 75.0 0.0
+          kill-location-radii:
+          - 655
+          - 655
+          - 655
+          - 655
+          kill-location-names:
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          - Avalon The Beginning Area
+          start-message: Kill hostile monsters at Avalon The Beginning Area.
+          complete-message: The Area became safer.
+    rewards:
+      money: 200
+      quest-points: 1
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '3550'
+    planner:
+      cooldown: 43200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom2:
+    name: §aDaily Fishing
+    ask-message: §aWe need your help at Avalon.
+    finish-message: §aThe Fishing completed.
+    requirements:
+      quests:
+      - §2The Adventure Begins
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '1'
+      fail-requirement-message: §cYou are not ready for this quest Adventurer!
+    stages:
+      ordered:
+        '1':
+          fish-to-catch: 30
+          start-message: Catch fishes at Avalon.
+          complete-message: Good catch!
+    rewards:
+      money: 120
+      quest-points: 1
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '1700'
+    planner:
+      cooldown: 43200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom5:
+    name: §aDaily Mining
+    ask-message: §aWe need your help at Avalon.
+    finish-message: §aThe Mining completed.
+    requirements:
+      quests:
+      - §2The Adventure Begins
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '1'
+      fail-requirement-message: §cYou are not ready for this quest Adventurer!
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - STONE
+          - COAL_ORE
+          - IRON_ORE
+          break-block-amounts:
+          - 128
+          - 16
+          - 8
+          break-block-durability:
+          - 0
+          - 0
+          - 0
+          start-message: Mine ores at Avalon.
+          complete-message: The work is done!
+    rewards:
+      money: 150
+      quest-points: 1
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '1750'
+    planner:
+      cooldown: 43200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom7:
+    name: §aDaily Foresting
+    ask-message: §aWe need your help at Avalon.
+    finish-message: §aThe Foresting completed.
+    requirements:
+      quests:
+      - §2The Adventure Begins
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '1'
+      fail-requirement-message: §cYou are not ready for this quest Adventurer!
+    stages:
+      ordered:
+        '1':
+          place-block-names:
+          - OAK_SAPLING
+          - BIRCH_SAPLING
+          - ACACIA_SAPLING
+          place-block-amounts:
+          - 1
+          - 1
+          - 1
+          place-block-durability:
+          - 0
+          - 0
+          - 0
+          mobs-to-kill:
+          - Spider
+          - Fox
+          - Creeper
+          - Rabbit
+          mob-amounts:
+          - 6
+          - 3
+          - 3
+          - 2
+          mobs-to-tame:
+          - Wolf
+          mob-tame-amounts:
+          - 3
+          start-message: Keep forests safe at Avalon.
+          complete-message: The forests are safe!
+    rewards:
+      money: 150
+      quest-points: 1
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '1750'
+    planner:
+      cooldown: 43200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true
+  custom6:
+    name: §aDaily Farming
+    ask-message: §aWe need your help at Avalon.
+    finish-message: §aThe Farming completed.
+    requirements:
+      quests:
+      - §2The Adventure Begins
+      custom-requirements:
+        req1:
+          name: Class Level Requirement
+          data:
+            Group: class
+            Level: '1'
+      fail-requirement-message: §cYou are not ready for this quest Adventurer!
+    stages:
+      ordered:
+        '1':
+          break-block-names:
+          - Wheat
+          - Potatoes
+          - Carrots
+          - Beetroots
+          - Melon
+          - Pumpkin
+          break-block-amounts:
+          - 14
+          - 10
+          - 6
+          - 4
+          - 1
+          - 1
+          break-block-durability:
+          - 7
+          - 7
+          - 7
+          - 7
+          - 7
+          - 7
+          place-block-names:
+          - Wheat
+          - Potatoes
+          - Carrots
+          - Beetroots
+          - Melon_Stem
+          - Pumpkin_Stem
+          place-block-amounts:
+          - 14
+          - 10
+          - 6
+          - 4
+          - 1
+          - 1
+          place-block-durability:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          items-to-craft:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: BREAD
+            amount: 4
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: HAY_BLOCK
+          items-to-smelt:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: COOKED_BEEF
+            amount: 3
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: COOKED_CHICKEN
+            amount: 2
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: COOKED_MUTTON
+            amount: 2
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: COOKED_PORKCHOP
+            amount: 2
+          - ==: org.bukkit.inventory.ItemStack
+            v: 1976
+            type: COOKED_RABBIT
+          mobs-to-tame:
+          - Horse
+          - Donkey
+          - Llama
+          - Cat
+          mob-tame-amounts:
+          - 1
+          - 1
+          - 1
+          - 1
+          sheep-to-shear:
+          - White
+          - Black
+          sheep-amounts:
+          - 8
+          - 2
+          start-message: Make some farm related work at Avalon.
+          complete-message: You have done good and hard!
+    rewards:
+      money: 160
+      quest-points: 1
+      custom-rewards:
+        req1:
+          name: Class Experience Reward
+          data:
+            Experience: '2000'
+    planner:
+      cooldown: 43200
+    options:
+      allow-commands: true
+      allow-quitting: true
+      use-dungeonsxl-plugin: false
+      use-parties-plugin: true
+      share-progress-level: 1
+      require-same-quest: true

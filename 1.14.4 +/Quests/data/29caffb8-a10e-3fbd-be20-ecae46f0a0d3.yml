@@ -1,0 +1,80 @@
+currentQuests:
+- §aDaily Farming
+currentStages:
+- 0
+quest-points: 7
+questData:
+  §aDaily Farming:
+    blocks-placed-names:
+    - WHEAT
+    - POTATOES
+    - CARROTS
+    - BEETROOTS
+    - MELON_STEM
+    - PUMPKIN_STEM
+    blocks-placed-amounts:
+    - 9
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    blocks-placed-durability:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    item-craft-amounts:
+    - 0
+    - 0
+    item-smelt-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    mobs-to-tame:
+    - Donkey
+    - Horse
+    - Llama
+    - Cat
+    mob-tame-amounts:
+    - 0
+    - 0
+    - 0
+    - 0
+    sheep-to-shear:
+    - White
+    - Black
+    sheep-sheared:
+    - 0
+    - 0
+completed-Quests:
+- §2The Adventure Begins
+- §aDaily Hunting
+- §aDaily Watch
+- §aDaily Farming
+completedRedoableQuests:
+- §aDaily Hunting
+- §2The Adventure Begins
+- §aDaily Watch
+- §aDaily Farming
+completedQuestTimes:
+- 1571918543779
+- 1571916744677
+- 1571918650430
+- 1571921607862
+amountsCompletedQuests:
+- §aDaily Hunting
+- §2The Adventure Begins
+- §aDaily Watch
+- §aDaily Farming
+amountsCompleted:
+- 1
+- 2
+- 1
+- 1
+hasJournal: true
+lastKnownName: iomatix

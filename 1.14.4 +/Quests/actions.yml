@@ -1,0 +1,65 @@
+events:
+  Compass:
+    message: You'll need a compass for this quest.
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: COMPASS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Objective Compass
+  Bow:
+    message: You'll need this!
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Hunting Bow
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: ARROW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Hunting Arrow
+  Bread:
+    message: Take this bread. It was created with mana.
+    items:
+    - ==: org.bukkit.inventory.ItemStack
+      v: 1976
+      type: BREAD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Magic Bread
+  SKILLAPIExperience75:
+    commands:
+    - class exp <player> 75
+  SKILLAPIExperience150:
+    commands:
+    - class exp <player> 150
+  SKILLAPIExperience250:
+    commands:
+    - class exp <player> 250
+  SKILLAPIExperience500:
+    commands:
+    - class exp <player> 500
+  SKILLAPIExperience1000:
+    commands:
+    - class exp <player> 1000
+  SKILLAPIExperience1500:
+    commands:
+    - class exp <player> 1500
+  SKILLAPIExperience2500:
+    commands:
+    - class exp <player> 2500
+  SKILLAPIExperience5000:
+    commands:
+    - class exp <player> 5000
+  SKILLAPIExperience7500:
+    commands:
+    - class exp <player> 7500

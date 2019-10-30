@@ -1,0 +1,20 @@
+currentQuests: none
+currentStages: none
+quest-points: 3
+completed-Quests:
+- §2The Adventure Begins
+- §aDaily Mining
+completedRedoableQuests:
+- §2The Adventure Begins
+- §aDaily Mining
+completedQuestTimes:
+- 1572466922466
+- 1572467772629
+amountsCompletedQuests:
+- §2The Adventure Begins
+- §aDaily Mining
+amountsCompleted:
+- 1
+- 1
+hasJournal: true
+lastKnownName: Andeddoshi

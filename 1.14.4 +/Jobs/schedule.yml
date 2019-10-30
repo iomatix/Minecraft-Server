@@ -1,0 +1,67 @@
+# Enabled - with this false this schedule will be ignored
+# From and Until is in 24 hours format with : signs to separate minutes and seconds
+# Exp and Money determines how big is boost, to reset it. keep it at 1.0. so if you use 2.0 that means all money/exp is doubled
+# Days variables: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, All
+# Jobs can be any of your settup job or use All to give for all jobs at once
+# BroadcastOnStart or BroadcastOnStop - set it false to disable message when boost starts/stops
+# MessageOnStart or MessageOnStop - optional messages, if not given, then message from locale file will be shown
+# BroadcastInterval - how often in minutes to broadcast message about money/exp boost for jobs
+# BroadcastMessage - message to show every x minutes
+
+Boost:
+  NightBoost:
+    Enabled: true
+    From: '23:00:00'
+    Until: '07:00:00'
+    Exp: 1.2
+    Money: 1.2
+    Days:
+    - All
+    Jobs:
+    - All
+    BroadcastOnStart: true
+    MessageOnStart:
+    - '&e***********************************************'
+    - '&e* All jobs got +20% rate for Exp and Money!'
+    - '&e* For limited time only!'    
+    - '&e***********************************************'
+    BroadcastOnStop: true
+    MessageOnStop:
+    - '&e***********************************************'
+    - '&e* Boost time for jobs have beed stoped'
+    - '&e* All rates reseted to original ones'
+    - '&e***********************************************'
+    BroadcastInterval: 30
+    BroadcastMessage:
+    - '&e******************************************************'
+    - '&e* +20% boost time for all jobs is activated until [until]  *'
+    - '&e******************************************************'
+  ShortMoneyBoost:
+    Enabled: true
+    From: '08:00:00'
+    Until: '14:30:00'
+    Exp: 1.75
+    Money: 1.75
+    Days:
+    - Sunday
+    - Saturday
+    Jobs:
+    - All
+    BroadcastOnStart: true
+    MessageOnStart:
+    - '&e***********************************************'
+    - '&e* All jobs got +75% rate for Exp and Money!'
+    - '&e* Until 14:30!'    
+    - '&e***********************************************'
+    BroadcastOnStop: true
+    MessageOnStop:
+    - '&e***********************************************'
+    - '&e* Boost time for all jobs have beed stoped'
+    - '&e* Money and Exp rates reseted to original ones'
+    - '&e***********************************************'
+    BroadcastInterval: 30
+    BroadcastMessage:
+    - '&e******************************************************'
+    - '&e* +75% Exp and Money boost time for all jobs'
+    - '&e* Is activated until [until]'
+    - '&e******************************************************'
