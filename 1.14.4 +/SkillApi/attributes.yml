@@ -114,6 +114,7 @@ dexterity:
   - '&20.75 ranged damage,'
   - '&20.55 physical damage,'
   - '&20.6% true damage,'
+  - '&20.17% fall defense,'
   - '&20.09% movement speed and'
   - '&20.13% attack speed'
   - '&2per point invested.'
@@ -128,6 +129,7 @@ dexterity:
       Nearest-radius: 'a*0.0025+1*v'
       Single-range: 'a*0.0025+1*v'
   stats:
+    defense-fall: '(-a*0.0017)+1*v'
     projectile-damage: '(a*0.001+1*v)+(a*0.75+v)'
     physical-damage: '(a*0.0025+1*v)+(a*0.55+v)'
     move-speed: 'a*0.0009+1*v'

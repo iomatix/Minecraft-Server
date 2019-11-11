@@ -41,7 +41,7 @@ break:
       MONSTER_EGG: '2.5'
       STONE: '1.5'
       GRANITE: '2.5'
-      DIORIT: '2.5'
+      DIORITE: '2.5'
       ANDESITE: '2.5'
       GRASS_BLOCK: '.5'
       DIRT: '.3'

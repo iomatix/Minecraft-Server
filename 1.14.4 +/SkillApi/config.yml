@@ -63,7 +63,7 @@ Targeting:
   player-ally: 'false'
 
   # Whether or not to check for player allies via Parties
-  parties-ally: 'false'
+  parties-ally: 'true'
 
   # Whether or not for skills to affect NPCs
   affect-npcs: 'false'
@@ -148,8 +148,12 @@ Skills:
   - 'ender chest'
   - 'trapped chest'
   - 'redstone*'
-  - 'wall sign'
-  - 'sign post'
+  - 'oak wall sign'
+  - 'dark oak wall sign'
+  - 'acacia wall sign'
+  - 'jungle wall sign'
+  - 'birch wall sign'
+  - 'spruce wall sign'
 
 Items: 
 
