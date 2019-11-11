@@ -7,7 +7,7 @@ Magic Weapon:
   needs-permission: 'false'
   attributes: 
     level-base: '22'
-    level-scale: '12'
+    level-scale: '16'
     cost-base: '3'
     cost-scale: '3'
     cooldown-base: '120'
@@ -19,7 +19,7 @@ Magic Weapon:
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'BOW'
+  icon: 'GOLD_INGOT'
   icon-durability: 0
   icon-data: 0
   icon-lore: 
@@ -240,8 +240,8 @@ Magic Weapon:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '16.5'
-                        value-scale: '10'
+                        value-base: '16.75'
+                        value-scale: '11.45'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -265,7 +265,7 @@ Magic Weapon:
               data: 
                 icon-key: ''
                 check-mat: 'True'
-                material: 'Gold Sword'
+                material: 'Golden Sword'
                 check-data: 'False'
                 check-lore: 'False'
                 check-name: 'True'
@@ -839,7 +839,7 @@ Magic Weapon:
                   data: 
                     icon-key: ''
                     counts: 'True'
-                    material: 'Gold Sword'
+                    material: 'Golden Sword'
                     amount: '1'
                     data: '450'
                     byte: '0'

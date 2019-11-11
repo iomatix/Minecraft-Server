@@ -1,7 +1,7 @@
 Magic Shield: 
   name: 'Magic Shield'
   type: 'Active'
-  max-level: 2
+  max-level: 3
   skill-req: 'Magic Missile'
   skill-req-lvl: 2
   needs-permission: 'false'
@@ -109,7 +109,7 @@ Magic Shield:
                     counts: 'True'
                     repetitions-base: '2'
                     repetitions-scale: '2'
-                    period: '0.15'
+                    period: '0.03'
                     delay: '0'
                     stop-on-fail: 'True'
                     indicator: '2D'
@@ -160,9 +160,9 @@ Magic Shield:
                             counts: 'True'
                             shape: 'Cuboid'
                             type: 'Any'
-                            block: 'Stained Glass'
+                            block: 'Purple Stained Glass'
                             data: '14'
-                            seconds-base: '3'
+                            seconds-base: '3.5'
                             seconds-scale: '4'
                             forward-base: '0'
                             forward-scale: '0'
@@ -171,11 +171,11 @@ Magic Shield:
                             right-base: '0'
                             right-scale: '0'
                             width-base: '3'
-                            width-scale: '0'
+                            width-scale: '0.5'
                             height-base: '2'
-                            height-scale: '0'
+                            height-scale: '0.5'
                             depth-base: '3'
-                            depth-scale: '0'
+                            depth-scale: '0.5'
                             indicator: '2D'
                           children:  {}
                         Particle Animation-k: 
