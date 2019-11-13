@@ -10,13 +10,13 @@ Adventurer:
   needs-permission: 'false'
   attributes: 
     health-base: '50'
-    health-scale: '2'
+    health-scale: '12'
     mana-base: '25'
-    mana-scale: '0.4'
+    mana-scale: '3.35'
     vitality-base: '3'
-    vitality-scale: '0.35'
+    vitality-scale: '0.3'
     spirit-base: '3'
-    spirit-scale: '0.35'
+    spirit-scale: '0.3'
     intelligence-base: '2'
     intelligence-scale: '0.3'
     dexterity-base: '2'
@@ -96,7 +96,7 @@ Adventurer:
   - 'Ray'
   icon: 'END_CRYSTAL'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_END_CRYSTAL(0)'
   icon-lore: 
   - '&6Adventurer'
   exp-source: 511
