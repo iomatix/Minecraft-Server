@@ -94,11 +94,11 @@ intelligence:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.005+1*v)+(a*0.07+v):classifier=True|(a*0.025+1*v)+(a*1.35+v):classifier=default|(a*0.025+1*v)+(a*1.35+v):classifier=Fire|(a*0.025+1*v)+(a*1.35+v):classifier=Ice|(a*0.025+1*v)+(a*1.35+v):classifier=Earth|a*0.025+1*v:classifier=Water|(a*0.025+1*v)+(a*1.35+v):classifier=Wind|(a*0.025+1*v)+(a*1.35+v):classifier=Arcane|(a*0.025+1*v)+(a*1.35+v):classifier=Dark|(a*0.025+1*v)+(a*1.35+v):classifier=Void'
-      Wolf-damage: 'a*0.025+1*v'
-      Wolf-health: 'a*0.025+1*v'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.005+1*v)+(a*0.07+v):classifier=True|(a*0.025+1*v)+(a*1.35+v):classifier=default|(a*0.025+1*v)+(a*1.35+v):classifier=Fire|(a*0.025+1*v)+(a*1.35+v):classifier=Ice|(a*0.025+1*v)+(a*1.35+v):classifier=Earth|a*0.025+1*v:classifier=Water|(a*0.025+1*v)+(a*1.35+v):classifier=Wind|(a*0.025+1*v)+(a*1.35+v):classifier=Arcane|(a*0.025+1*v)+(a*1.35+v):classifier=Dark|(a*0.015+1*v)+(a*1.35+v):classifier=Void'
+      Wolf-damage: '(a*0.025+1*v)+(a*1.35+v)'
+      Wolf-health: '(a*0.025+1*v)+(a*1.35+v)'
       Heal-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(a*0.025+1*v)+(a*1.35+v):type=Health'
-      Mana-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(a*0.025+1*v)+(a*0.65+v):type=Mana'
+      Mana-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(-a*0.025+1*v)+(-a*0.65+v):icon-key=Subtract|(a*0.025+1*v)+(a*0.65+v):type=Mana'
       #NONPREMIUM:Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|(a*0.025+1*v)+(a*1.35+v):type=Damage
     target:  {}
   stats: 
