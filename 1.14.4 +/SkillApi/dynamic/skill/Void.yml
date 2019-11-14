@@ -130,7 +130,7 @@ Void:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'TotalHP'
                     counts: 'True'
                     type: 'Multiplier'
                     value-base: '2'
@@ -143,7 +143,7 @@ Void:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'MissHP'
                     counts: 'True'
                     type: 'Percent Missing'
                     value-base: '3'
@@ -159,8 +159,8 @@ Void:
                     icon-key: 'TrueDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '12.5'
-                    value-scale: '11.7'
+                    value-base: '6'
+                    value-scale: '4'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -373,8 +373,8 @@ Void:
                             icon-key: 'DamageVoid'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '10'
-                            value-scale: '7.7'
+                            value-base: '5'
+                            value-scale: '3.7'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -887,8 +887,8 @@ Void:
                         icon-key: ''
                         counts: 'True'
                         key: 'VoidStacks'
-                        multiplier-base: '10'
-                        multiplier-scale: '7.7'
+                        multiplier-base: '6'
+                        multiplier-scale: '4'
                         indicator: '2D'
                       children:  {}
                     Damage-jc: 
@@ -1300,8 +1300,8 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '12.5'
-                    value-scale: '11.7'
+                    value-base: '6'
+                    value-scale: '4'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -1514,8 +1514,8 @@ Void:
                             icon-key: ''
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '10'
-                            value-scale: '7.7'
+                            value-base: '5'
+                            value-scale: '3.7'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -2028,8 +2028,8 @@ Void:
                         icon-key: ''
                         counts: 'True'
                         key: 'VoidStacks'
-                        multiplier-base: '10'
-                        multiplier-scale: '7.7'
+                        multiplier-base: '6'
+                        multiplier-scale: '4'
                         indicator: '2D'
                       children:  {}
                     Damage-jf: 
@@ -2638,8 +2638,8 @@ Void:
                     icon-key: 'DamageJump'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '48'
-                    value-scale: '25'
+                    value-base: '24'
+                    value-scale: '13'
                     true: 'False'
                     classifier: 'Void'
                     indicator: '2D'
@@ -3084,29 +3084,7 @@ Void:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-bi: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: 'TotalHP'
-            counts: 'True'
-            key: 'VoidLore'
-            value-base: '2'
-            value-scale: '1.5'
-            indicator: '2D'
-          children:  {}
-        Value Set-ci: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: 'MissHP'
-            counts: 'True'
-            key: 'VoidLore'
-            value-base: '3'
-            value-scale: '3'
-            indicator: '2D'
-          children:  {}
-        Passive-di: 
+        Passive-bi: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -3116,7 +3094,7 @@ Void:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-ei: 
+            Potion-ci: 
               type: 'mechanic'
               indicator: '3D'
               data: 

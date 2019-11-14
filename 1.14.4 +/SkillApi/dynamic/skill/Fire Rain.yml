@@ -311,7 +311,7 @@ Fire Rain:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Area-m: 
+                    Area-l: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -326,20 +326,20 @@ Fire Rain:
                         random: 'False'
                         indicator: '2D'
                       children: 
-                        Damage-n: 
+                        Damage-m: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '66'
-                            value-scale: '18'
+                            value-base: '33'
+                            value-scale: '9'
                             true: 'False'
                             classifier: 'Fire'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-o: 
+                        Particle Animation-n: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -375,7 +375,7 @@ Fire Rain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Fire-p: 
+                        Fire-o: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -385,7 +385,7 @@ Fire Rain:
                             seconds-scale: '2'
                             indicator: '2D'
                           children:  {}
-                        Launch-q: 
+                        Launch-p: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -400,7 +400,7 @@ Fire Rain:
                             right-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Interrupt-r: 
+                        Interrupt-q: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -408,7 +408,7 @@ Fire Rain:
                             counts: 'True'
                             indicator: '2D'
                           children:  {}
-                    Delay-s: 
+                    Delay-r: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -418,7 +418,7 @@ Fire Rain:
                         delay-scale: '0'
                         indicator: '2D'
                       children: 
-                        Explosion-t: 
+                        Explosion-s: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -430,7 +430,7 @@ Fire Rain:
                             fire: 'False'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-u: 
+                        Particle Animation-t: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -465,7 +465,7 @@ Fire Rain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Delay-v: 
+                        Delay-u: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -475,7 +475,7 @@ Fire Rain:
                             delay-scale: '0.05'
                             indicator: '2D'
                           children: 
-                            Particle Animation-w: 
+                            Particle Animation-v: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -510,7 +510,7 @@ Fire Rain:
                                 right: '0'
                                 indicator: '2D'
                               children:  {}
-                            Sound-x: 
+                            Sound-w: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 

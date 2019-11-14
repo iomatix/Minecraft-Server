@@ -84,7 +84,7 @@ Perforation:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'
@@ -142,7 +142,7 @@ Perforation:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'

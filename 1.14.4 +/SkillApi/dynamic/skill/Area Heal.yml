@@ -241,8 +241,8 @@ Area Heal:
                     icon-key: 'HP'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '46'
-                    value-scale: '79'
+                    value-base: '23'
+                    value-scale: '38'
                     indicator: '2D'
                   children:  {}
                 Particle Animation-k: 

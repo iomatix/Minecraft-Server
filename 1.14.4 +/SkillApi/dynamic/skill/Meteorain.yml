@@ -407,7 +407,7 @@ Meteorain:
                                                 pitch-scale: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Fire-w: 
+                                            Fire-v: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -417,7 +417,7 @@ Meteorain:
                                                 seconds-scale: '2'
                                                 indicator: '2D'
                                               children:  {}
-                                            Explosion-x: 
+                                            Explosion-w: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -429,7 +429,7 @@ Meteorain:
                                                 fire: 'False'
                                                 indicator: '2D'
                                               children:  {}
-                                            Particle Animation-y: 
+                                            Particle Animation-x: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -464,7 +464,7 @@ Meteorain:
                                                 right: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Particle Animation-z: 
+                                            Particle Animation-y: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -499,7 +499,7 @@ Meteorain:
                                                 right: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Area-ab: 
+                                            Area-z: 
                                               type: 'target'
                                               indicator: '3D'
                                               data: 
@@ -514,20 +514,20 @@ Meteorain:
                                                 random: 'False'
                                                 indicator: '2D'
                                               children: 
-                                                Damage-bb: 
+                                                Damage-ab: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
                                                     icon-key: 'Damage'
                                                     counts: 'True'
                                                     type: 'Damage'
-                                                    value-base: '81'
-                                                    value-scale: '28'
+                                                    value-base: '40'
+                                                    value-scale: '14'
                                                     true: 'False'
                                                     classifier: 'Earth'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Launch-cb: 
+                                                Launch-bb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -542,7 +542,7 @@ Meteorain:
                                                     right-scale: '0.05'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Interrupt-db: 
+                                                Interrupt-cb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -550,7 +550,7 @@ Meteorain:
                                                     counts: 'True'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Particle Animation-eb: 
+                                                Particle Animation-db: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -586,7 +586,7 @@ Meteorain:
                                                     right: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                                            Block-fb: 
+                                            Block-eb: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -608,7 +608,7 @@ Meteorain:
                                                 radius-scale: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Delay-gb: 
+                                            Delay-fb: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -618,7 +618,7 @@ Meteorain:
                                                 delay-scale: '1'
                                                 indicator: '2D'
                                               children: 
-                                                Particle Animation-hb: 
+                                                Particle Animation-gb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -654,7 +654,7 @@ Meteorain:
                                                     right: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Sound-ib: 
+                                                Sound-hb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -667,7 +667,7 @@ Meteorain:
                                                     pitch-scale: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Sound-jb: 
+                                                Sound-ib: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -680,7 +680,7 @@ Meteorain:
                                                     pitch-scale: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                    Self-kb: 
+                    Self-jb: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -690,7 +690,7 @@ Meteorain:
                         wall: 'false'
                         caster: 'false'
                       children: 
-                        Sound-lb: 
+                        Sound-kb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -703,7 +703,7 @@ Meteorain:
                             pitch-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-mb: 
+                        Particle Animation-lb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -739,7 +739,7 @@ Meteorain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-nb: 
+                        Particle Animation-mb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -775,7 +775,7 @@ Meteorain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Sound-ob: 
+                        Sound-nb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -788,7 +788,7 @@ Meteorain:
                             pitch-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-pb: 
+                        Particle Animation-ob: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -819,7 +819,7 @@ Meteorain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-            Self-qb: 
+            Self-pb: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -829,7 +829,7 @@ Meteorain:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Particle Animation-rb: 
+                Particle Animation-qb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -865,7 +865,7 @@ Meteorain:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-sb: 
+                Particle Animation-rb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -901,7 +901,7 @@ Meteorain:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-tb: 
+                Particle Animation-sb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -937,7 +937,7 @@ Meteorain:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-ub: 
+                Sound-tb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 

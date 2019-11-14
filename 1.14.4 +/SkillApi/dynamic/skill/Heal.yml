@@ -20,7 +20,7 @@ Heal:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'YELLOW_DYE'
-  icon-durability: 11
+  icon-durability: 0
   icon-data: 'LEGACY_INK_SACK(11)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -336,8 +336,8 @@ Heal:
                         icon-key: 'HP'
                         counts: 'True'
                         type: 'Health'
-                        value-base: '60'
-                        value-scale: '83'
+                        value-base: '30'
+                        value-scale: '40'
                         indicator: '2D'
                       children:  {}
                     Sound-n: 
@@ -539,8 +539,8 @@ Heal:
                         icon-key: ''
                         counts: 'True'
                         type: 'Health'
-                        value-base: '60'
-                        value-scale: '83'
+                        value-base: '30'
+                        value-scale: '40'
                         indicator: '2D'
                       children:  {}
                     Sound-x: 

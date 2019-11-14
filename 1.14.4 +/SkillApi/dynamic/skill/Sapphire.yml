@@ -235,8 +235,8 @@ Sapphire:
                         icon-key: 'DamageArea'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '26.5'
-                        value-scale: '13.0'
+                        value-base: '13'
+                        value-scale: '7'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -476,7 +476,7 @@ Sapphire:
                 pitch-scale: '0.02'
                 indicator: '2D'
               children:  {}
-    Took Physical Damage-fd: 
+    Took Physical Damage-z: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -489,7 +489,7 @@ Sapphire:
         dmg-max: '999999'
         indicator: '2D'
       children: 
-        Self-gd: 
+        Self-ab: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -499,7 +499,7 @@ Sapphire:
             wall: 'false'
             caster: 'false'
           children: 
-            Value Multiply-hd: 
+            Value Multiply-bb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -510,7 +510,7 @@ Sapphire:
                 multiplier-scale: '0.03'
                 indicator: '2D'
               children:  {}
-            Mana-id: 
+            Mana-cb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -521,7 +521,7 @@ Sapphire:
                 value-scale: '0'
                 indicator: '2D'
               children:  {}
-            Particle Animation-jd: 
+            Particle Animation-db: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -557,7 +557,7 @@ Sapphire:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-kd: 
+            Sound-eb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -577,7 +577,7 @@ Sapphire:
         icon-key: ''
         indicator: '2D'
       children: 
-        Crouch-ab: 
+        Crouch-gb: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -585,7 +585,7 @@ Sapphire:
             crouch: 'False'
             indicator: '2D'
           children: 
-            Single-bb: 
+            Single-hb: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -599,7 +599,7 @@ Sapphire:
                 indicator: '2D'
                 caster: 'false'
               children: 
-                Value Mana-cb: 
+                Value Mana-ib: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -609,7 +609,7 @@ Sapphire:
                     type: 'Current'
                     indicator: '2D'
                   children:  {}
-                Value Multiply-db: 
+                Value Multiply-jb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -620,18 +620,18 @@ Sapphire:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Mana-eb: 
+                Mana-kb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Subtract'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '-130'
-                    value-scale: '-180'
+                    value-base: '-15'
+                    value-scale: '-20'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-fb: 
+                Particle Animation-lb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -667,7 +667,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-gb: 
+                Sound-mb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -680,20 +680,20 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Damage-hb: 
+                Damage-nb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '38'
-                    value-scale: '17'
+                    value-base: '19'
+                    value-scale: '9'
                     true: 'False'
                     classifier: 'Arcane'
                     indicator: '2D'
                   children:  {}
-                Status-ib: 
+                Status-ob: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -704,7 +704,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Status-jb: 
+                Status-pb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -715,7 +715,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-kb: 
+                Defense Buff-qb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -729,7 +729,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-lb: 
+                Defense Buff-rb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -743,7 +743,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-mb: 
+                Particle Animation-sb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -779,7 +779,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-nb: 
+                Particle Animation-tb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -815,7 +815,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ob: 
+                Particle Animation-ub: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -851,7 +851,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-pb: 
+                Particle Animation-vb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -887,7 +887,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-qb: 
+                Sound-wb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -900,7 +900,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Sound-rb: 
+                Sound-xb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -913,7 +913,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Self-sb: 
+                Self-yb: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -923,18 +923,18 @@ Sapphire:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Mana-tb: 
+                    Mana-zb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
                         icon-key: ''
                         counts: 'True'
                         type: 'Mana'
-                        value-base: '130'
-                        value-scale: '180'
+                        value-base: '15'
+                        value-scale: '20'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-ub: 
+                    Particle Animation-ac: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -970,7 +970,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-vb: 
+                    Sound-bc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -983,7 +983,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-wb: 
+                    Particle Animation-cc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1019,7 +1019,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-xb: 
+                    Sound-dc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1032,7 +1032,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-        Crouch-yb: 
+        Crouch-ec: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -1040,7 +1040,7 @@ Sapphire:
             crouch: 'True'
             indicator: '2D'
           children: 
-            Single-zb: 
+            Single-fc: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -1054,7 +1054,7 @@ Sapphire:
                 indicator: '2D'
                 caster: 'false'
               children: 
-                Value Mana-ac: 
+                Value Mana-gc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1064,7 +1064,7 @@ Sapphire:
                     type: 'Current'
                     indicator: '2D'
                   children:  {}
-                Value Multiply-bc: 
+                Value Multiply-hc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1075,18 +1075,18 @@ Sapphire:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Mana-cc: 
+                Mana-ic: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Subtract'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '-130'
-                    value-scale: '-180'
+                    value-base: '-15'
+                    value-scale: '-20'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-dc: 
+                Particle Animation-jc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1122,7 +1122,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-ec: 
+                Sound-kc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1135,7 +1135,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-fc: 
+                Particle Animation-lc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1171,7 +1171,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-gc: 
+                Particle Animation-mc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1207,7 +1207,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-hc: 
+                Particle Animation-nc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1243,7 +1243,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ic: 
+                Particle Animation-oc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1279,7 +1279,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Area-jc: 
+                Area-pc: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -1294,7 +1294,7 @@ Sapphire:
                     random: 'False'
                     indicator: '2D'
                   children: 
-                    Particle Animation-kc: 
+                    Particle Animation-qc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1330,7 +1330,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-lc: 
+                    Sound-rc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1343,7 +1343,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-                    Damage-mc: 
+                    Damage-sc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1356,7 +1356,7 @@ Sapphire:
                         classifier: 'Arcane'
                         indicator: '2D'
                       children:  {}
-                    Status-nc: 
+                    Status-tc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1367,7 +1367,7 @@ Sapphire:
                         duration-scale: '0.7'
                         indicator: '2D'
                       children:  {}
-                    Status-oc: 
+                    Status-uc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1378,7 +1378,7 @@ Sapphire:
                         duration-scale: '0.7'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-pc: 
+                    Particle Animation-vc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1414,7 +1414,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-qc: 
+                    Particle Animation-wc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1450,7 +1450,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Value Multiply-rc: 
+                    Value Multiply-xc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1461,7 +1461,7 @@ Sapphire:
                         multiplier-scale: '0'
                         indicator: '2D'
                       children:  {}
-                    Damage-sc: 
+                    Damage-yc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -1474,7 +1474,7 @@ Sapphire:
                         classifier: 'Arcane'
                         indicator: '2D'
                       children:  {}
-                Defense Buff-tc: 
+                Defense Buff-zc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1488,7 +1488,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-uc: 
+                Defense Buff-ad: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -1509,7 +1509,7 @@ Sapphire:
         icon-key: ''
         indicator: '2D'
       children: 
-        Passive-wc: 
+        Passive-cd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1519,7 +1519,7 @@ Sapphire:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-xc: 
+            Potion-dd: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -1533,7 +1533,7 @@ Sapphire:
                 seconds-scale: '1'
                 indicator: '2D'
               children:  {}
-        Value Set-yc: 
+        Value Set-ed: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1544,7 +1544,7 @@ Sapphire:
             value-scale: '4'
             indicator: '2D'
           children:  {}
-        Value Set-zc: 
+        Value Set-fd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1555,7 +1555,7 @@ Sapphire:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-ad: 
+        Value Set-gd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1566,7 +1566,7 @@ Sapphire:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-bd: 
+        Value Set-hd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1577,7 +1577,7 @@ Sapphire:
             value-scale: '8'
             indicator: '2D'
           children:  {}
-        Value Set-cd: 
+        Value Set-id: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1588,23 +1588,3 @@ Sapphire:
             value-scale: '5'
             indicator: '2D'
           children:  {}
-        Class Level-dd: 
-          type: 'condition'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            min-level: '0'
-            max-level: '0'
-            indicator: '2D'
-          children: 
-            Mana-ed: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: 'ValMana'
-                counts: 'True'
-                type: 'Mana'
-                value-base: '130'
-                value-scale: '180'
-                indicator: '2D'
-              children:  {}

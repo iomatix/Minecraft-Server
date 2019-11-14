@@ -403,8 +403,8 @@ Aftershock:
                                 icon-key: 'Damage'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '43'
-                                value-scale: '13'
+                                value-base: '21.5'
+                                value-scale: '6.5'
                                 true: 'False'
                                 classifier: 'Arcane'
                                 indicator: '2D'
@@ -554,8 +554,8 @@ Ambush:
                     icon-key: 'Damage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '15'
-                    value-scale: '5'
+                    value-base: '7.5'
+                    value-scale: '2.75'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -908,8 +908,8 @@ Ambush:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '15'
-                    value-scale: '5'
+                    value-base: '7.5'
+                    value-scale: '2.75'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -1650,8 +1650,8 @@ Arcane Comet:
                                         icon-key: 'Damage'
                                         counts: 'True'
                                         type: 'Damage'
-                                        value-base: '34'
-                                        value-scale: '14'
+                                        value-base: '17'
+                                        value-scale: '7.25'
                                         true: 'False'
                                         classifier: 'Arcane'
                                         indicator: '2D'
@@ -2393,8 +2393,8 @@ Arcane Rain:
                                             icon-key: 'Damage'
                                             counts: 'True'
                                             type: 'Damage'
-                                            value-base: '88'
-                                            value-scale: '35'
+                                            value-base: '42'
+                                            value-scale: '16'
                                             true: 'False'
                                             classifier: 'Arcane'
                                             indicator: '2D'
@@ -2524,7 +2524,7 @@ Arcanum:
     - 'Rigidity'
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'LAPIS_LAZULI'
-  icon-durability: 4
+  icon-durability: 0
   icon-data: 'LEGACY_INK_SACK(4)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -2587,7 +2587,7 @@ Arcanum:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'
@@ -2857,8 +2857,8 @@ Area Heal:
                     icon-key: 'HP'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '46'
-                    value-scale: '79'
+                    value-base: '23'
+                    value-scale: '38'
                     indicator: '2D'
                   children:  {}
                 Particle Animation-k: 
@@ -3557,7 +3557,7 @@ Blizzard:
   - '&cArea: &6{attr:Radius.radius}'
   - '&cTargets: &6{attr:Radius.max}'
   - '&cStun: &6{attr:Stun.duration}&6s'
-  - '&cChill: &6{attr:Status.seconds}&6s'
+  - '&cChill: &6{attr:StatusP.seconds}&6s'
   desc:  []
   components: 
     Cast: 
@@ -4101,8 +4101,8 @@ Blizzard:
                                                     icon-key: 'Damage'
                                                     counts: 'True'
                                                     type: 'Damage'
-                                                    value-base: '82'
-                                                    value-scale: '27'
+                                                    value-base: '41'
+                                                    value-scale: '13.5'
                                                     true: 'False'
                                                     classifier: 'Ice'
                                                     indicator: '2D'
@@ -4122,7 +4122,7 @@ Blizzard:
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
-                                                    icon-key: ''
+                                                    icon-key: 'StatusP'
                                                     counts: 'True'
                                                     potion: 'Slow'
                                                     ambient: 'False'
@@ -4797,7 +4797,7 @@ Burnout:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Area-m: 
+                    Area-l: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -4812,20 +4812,20 @@ Burnout:
                         random: 'False'
                         indicator: '2D'
                       children: 
-                        Damage-n: 
+                        Damage-m: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '82'
-                            value-scale: '29'
+                            value-base: '41'
+                            value-scale: '14.35'
                             true: 'False'
                             classifier: 'Fire'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-o: 
+                        Particle Animation-n: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -4861,7 +4861,7 @@ Burnout:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Fire-p: 
+                        Fire-o: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -4871,7 +4871,7 @@ Burnout:
                             seconds-scale: '3'
                             indicator: '2D'
                           children:  {}
-                Self-q: 
+                Self-p: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -4881,7 +4881,7 @@ Burnout:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Particle Animation-r: 
+                    Particle Animation-q: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -4916,7 +4916,7 @@ Burnout:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-s: 
+                    Particle Animation-r: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -4951,7 +4951,7 @@ Burnout:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-t: 
+                    Sound-s: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -4964,7 +4964,7 @@ Burnout:
                         pitch-scale: '-0.07'
                         indicator: '2D'
                       children:  {}
-            Self-u: 
+            Self-t: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -4974,7 +4974,7 @@ Burnout:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Particle Animation-v: 
+                Particle Animation-u: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -5010,7 +5010,7 @@ Burnout:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-w: 
+                Particle Animation-v: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -5046,7 +5046,7 @@ Burnout:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-x: 
+                Sound-w: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -5264,8 +5264,8 @@ Conqueror:
                 icon-key: 'Damage'
                 counts: 'True'
                 type: 'Damage'
-                value-base: '9.65'
-                value-scale: '5.17'
+                value-base: '4.85'
+                value-scale: '3'
                 true: 'True'
                 classifier: 'True'
                 indicator: '2D'
@@ -5757,8 +5757,8 @@ Dark Harvest:
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '14'
-                            value-scale: '7.35'
+                            value-base: '7'
+                            value-scale: '3.5'
                             true: 'True'
                             classifier: 'True'
                             indicator: '2D'
@@ -6137,8 +6137,8 @@ Dark Harvest:
                             icon-key: ''
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '14'
-                            value-scale: '7.35'
+                            value-base: '7'
+                            value-scale: '3.5'
                             true: 'True'
                             classifier: 'True'
                             indicator: '2D'
@@ -6677,8 +6677,8 @@ Dark Vortex:
                                 icon-key: 'Damage'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '95'
-                                value-scale: '33'
+                                value-base: '47'
+                                value-scale: '16.5'
                                 true: 'False'
                                 classifier: 'Dark'
                                 indicator: '2D'
@@ -6914,8 +6914,8 @@ Dark Vortex:
                                         icon-key: ''
                                         counts: 'True'
                                         type: 'Damage'
-                                        value-base: '15'
-                                        value-scale: '7'
+                                        value-base: '7.5'
+                                        value-scale: '3.5'
                                         true: 'False'
                                         classifier: 'Dark'
                                         indicator: '2D'
@@ -7016,8 +7016,8 @@ Dark Vortex:
                                             icon-key: ''
                                             counts: 'True'
                                             type: 'Damage'
-                                            value-base: '65'
-                                            value-scale: '27'
+                                            value-base: '32.5'
+                                            value-scale: '13.5'
                                             true: 'False'
                                             classifier: 'Dark'
                                             indicator: '2D'
@@ -7882,8 +7882,8 @@ Earthquake:
                                     icon-key: 'Damage'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '48'
-                                    value-scale: '23'
+                                    value-base: '24'
+                                    value-scale: '11'
                                     true: 'False'
                                     classifier: 'Earth'
                                     indicator: '2D'
@@ -8498,8 +8498,8 @@ Earthquake:
                                     icon-key: ''
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '48'
-                                    value-scale: '23'
+                                    value-base: '24'
+                                    value-scale: '11'
                                     true: 'False'
                                     classifier: 'Earth'
                                     indicator: '2D'
@@ -9114,8 +9114,8 @@ Earthquake:
                                     icon-key: ''
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '48'
-                                    value-scale: '23'
+                                    value-base: '24'
+                                    value-scale: '11'
                                     true: 'False'
                                     classifier: 'Earth'
                                     indicator: '2D'
@@ -9730,8 +9730,8 @@ Earthquake:
                                     icon-key: ''
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '48'
-                                    value-scale: '23'
+                                    value-base: '24'
+                                    value-scale: '11'
                                     true: 'False'
                                     classifier: 'Earth'
                                     indicator: '2D'
@@ -10148,8 +10148,8 @@ Earthshock:
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '32'
-                            value-scale: '5.7'
+                            value-base: '16'
+                            value-scale: '2.7'
                             true: 'False'
                             classifier: 'Earth'
                             indicator: '2D'
@@ -10472,8 +10472,8 @@ Earthshock:
                             icon-key: 'Additional_Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '18'
-                            value-scale: '4'
+                            value-base: '9'
+                            value-scale: '2'
                             true: 'False'
                             classifier: 'Earth'
                             indicator: '2D'
@@ -10646,7 +10646,7 @@ Earthsledge:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'MOSSY_COBBLESTONE'
-  icon-durability: 4
+  icon-durability: 0
   icon-data: 'LEGACY_MOSSY_COBBLESTONE(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -11344,8 +11344,8 @@ Earthsledge:
                                         icon-key: 'Damage'
                                         counts: 'True'
                                         type: 'Damage'
-                                        value-base: '55'
-                                        value-scale: '27'
+                                        value-base: '27'
+                                        value-scale: '13.5'
                                         true: 'False'
                                         classifier: 'Earth'
                                         indicator: '2D'
@@ -11543,7 +11543,7 @@ Eruption:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'CHARCOAL'
-  icon-durability: 1
+  icon-durability: 0
   icon-data: 'LEGACY_COAL(1)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -12047,8 +12047,8 @@ Eruption:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '38.9'
-                        value-scale: '9.8'
+                        value-base: '19.4'
+                        value-scale: '4.9'
                         true: 'False'
                         classifier: 'Fire'
                         indicator: '2D'
@@ -12434,7 +12434,7 @@ Fire Rain:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Area-m: 
+                    Area-l: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -12449,20 +12449,20 @@ Fire Rain:
                         random: 'False'
                         indicator: '2D'
                       children: 
-                        Damage-n: 
+                        Damage-m: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '66'
-                            value-scale: '18'
+                            value-base: '33'
+                            value-scale: '9'
                             true: 'False'
                             classifier: 'Fire'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-o: 
+                        Particle Animation-n: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -12498,7 +12498,7 @@ Fire Rain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Fire-p: 
+                        Fire-o: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -12508,7 +12508,7 @@ Fire Rain:
                             seconds-scale: '2'
                             indicator: '2D'
                           children:  {}
-                        Launch-q: 
+                        Launch-p: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -12523,7 +12523,7 @@ Fire Rain:
                             right-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Interrupt-r: 
+                        Interrupt-q: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -12531,7 +12531,7 @@ Fire Rain:
                             counts: 'True'
                             indicator: '2D'
                           children:  {}
-                    Delay-s: 
+                    Delay-r: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -12541,7 +12541,7 @@ Fire Rain:
                         delay-scale: '0'
                         indicator: '2D'
                       children: 
-                        Explosion-t: 
+                        Explosion-s: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -12553,7 +12553,7 @@ Fire Rain:
                             fire: 'False'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-u: 
+                        Particle Animation-t: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -12588,7 +12588,7 @@ Fire Rain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Delay-v: 
+                        Delay-u: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -12598,7 +12598,7 @@ Fire Rain:
                             delay-scale: '0.05'
                             indicator: '2D'
                           children: 
-                            Particle Animation-w: 
+                            Particle Animation-v: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -12633,7 +12633,7 @@ Fire Rain:
                                 right: '0'
                                 indicator: '2D'
                               children:  {}
-                            Sound-x: 
+                            Sound-w: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -13150,8 +13150,8 @@ Fireball:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '32.5'
-                        value-scale: '7.5'
+                        value-base: '16.7'
+                        value-scale: '3.75'
                         true: 'False'
                         classifier: 'Fire'
                         indicator: '2D'
@@ -13597,8 +13597,8 @@ Fleetwork:
                     icon-key: 'Damage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '15'
-                    value-scale: '6.7'
+                    value-base: '7.5'
+                    value-scale: '3.4'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -15597,26 +15597,26 @@ Haste:
                 frequency: '0.05'
                 angle: '0'
                 start: '0'
-                duration-base: '0.25'
-                duration-scale: '0'
+                duration-base: '6'
+                duration-scale: '2'
                 h-translation-base: '0'
                 h-translation-scale: '0'
-                v-translation-base: '2'
-                v-translation-scale: '0.15'
+                v-translation-base: '0.45'
+                v-translation-scale: '0'
                 h-cycles: '1'
-                v-cycles: '1'
-                particle: 'Crit'
+                v-cycles: '12'
+                particle: 'Cloud'
                 arrangement: 'Circle'
-                radius-base: '1.2'
+                radius-base: '0.55'
                 radius-scale: '0.1'
-                particles-base: '4'
+                particles-base: '1'
                 particles-scale: '0'
                 direction: 'XZ'
                 visible-radius: '80'
                 dx: '0'
                 dy: '0'
                 dz: '0'
-                speed: '1'
+                speed: '0.02'
                 amount: '1'
                 forward: '0'
                 upward: '0'
@@ -15677,7 +15677,7 @@ Heal:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'YELLOW_DYE'
-  icon-durability: 11
+  icon-durability: 0
   icon-data: 'LEGACY_INK_SACK(11)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -15993,8 +15993,8 @@ Heal:
                         icon-key: 'HP'
                         counts: 'True'
                         type: 'Health'
-                        value-base: '60'
-                        value-scale: '83'
+                        value-base: '30'
+                        value-scale: '40'
                         indicator: '2D'
                       children:  {}
                     Sound-n: 
@@ -16196,8 +16196,8 @@ Heal:
                         icon-key: ''
                         counts: 'True'
                         type: 'Health'
-                        value-base: '60'
-                        value-scale: '83'
+                        value-base: '30'
+                        value-scale: '40'
                         indicator: '2D'
                       children:  {}
                     Sound-x: 
@@ -16914,8 +16914,8 @@ Iceile:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '48'
-                        value-scale: '24.7'
+                        value-base: '24'
+                        value-scale: '12.35'
                         true: 'False'
                         classifier: 'Ice'
                         indicator: '2D'
@@ -17399,22 +17399,22 @@ Lethal Tempo:
                     duration-scale: '1'
                     h-translation-base: '0'
                     h-translation-scale: '0'
-                    v-translation-base: '0.8'
+                    v-translation-base: '0.45'
                     v-translation-scale: '0'
                     h-cycles: '1'
                     v-cycles: '8'
-                    particle: 'Crit'
+                    particle: 'Cloud'
                     arrangement: 'Circle'
-                    radius-base: '1.2'
+                    radius-base: '0.45'
                     radius-scale: '0'
                     particles-base: '2'
                     particles-scale: '0'
                     direction: 'XZ'
-                    visible-radius: '45'
+                    visible-radius: '60'
                     dx: '0'
                     dy: '0'
                     dz: '0'
-                    speed: '1'
+                    speed: '0.02'
                     amount: '1'
                     forward: '0'
                     upward: '0'
@@ -17827,8 +17827,8 @@ Lightning:
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '62'
-                            value-scale: '28'
+                            value-base: '31'
+                            value-scale: '14'
                             true: 'False'
                             classifier: 'Fire'
                             indicator: '2D'
@@ -17854,14 +17854,22 @@ Lightning:
                             duration-scale: '0.3'
                             indicator: '2D'
                           children:  {}
-                Else-q: 
+                        Interrupt-q: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            indicator: '2D'
+                          children:  {}
+                Else-r: 
                   type: 'condition'
                   indicator: '3D'
                   data: 
                     icon-key: ''
                     indicator: '2D'
                   children: 
-                    Value Random-r: 
+                    Value Random-s: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -17875,7 +17883,7 @@ Lightning:
                         max-scale: '-0.1'
                         indicator: '2D'
                       children:  {}
-                    Value Random-s: 
+                    Value Random-t: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -17889,7 +17897,7 @@ Lightning:
                         max-scale: '-0.1'
                         indicator: '2D'
                       children:  {}
-                    Offset-t: 
+                    Offset-u: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -17905,7 +17913,7 @@ Lightning:
                         wall: 'false'
                         caster: 'false'
                       children: 
-                        Particle Animation-u: 
+                        Particle Animation-v: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -17941,7 +17949,7 @@ Lightning:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-v: 
+                        Particle Animation-w: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -17977,7 +17985,7 @@ Lightning:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-w: 
+                        Particle Animation-x: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -18009,7 +18017,7 @@ Lightning:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Sound-x: 
+                        Sound-y: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -18022,7 +18030,7 @@ Lightning:
                             pitch-scale: '-0.15'
                             indicator: '2D'
                           children:  {}
-                        Lightning-y: 
+                        Lightning-z: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -18035,7 +18043,7 @@ Lightning:
                             right-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-z: 
+                        Particle Animation-ab: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -18071,7 +18079,7 @@ Lightning:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Area-ab: 
+                        Area-bb: 
                           type: 'target'
                           indicator: '3D'
                           data: 
@@ -18086,20 +18094,20 @@ Lightning:
                             random: 'False'
                             indicator: '2D'
                           children: 
-                            Damage-bb: 
+                            Damage-cb: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '62'
-                                value-scale: '27'
+                                value-base: '31'
+                                value-scale: '14'
                                 true: 'False'
                                 classifier: 'Fire'
                                 indicator: '2D'
                               children:  {}
-                            Fire-cb: 
+                            Fire-db: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -18109,7 +18117,7 @@ Lightning:
                                 seconds-scale: '2'
                                 indicator: '2D'
                               children:  {}
-                            Status-db: 
+                            Status-eb: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -18120,7 +18128,7 @@ Lightning:
                                 duration-scale: '0.3'
                                 indicator: '2D'
                               children:  {}
-                            Interrupt-eb: 
+                            Interrupt-fb: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -18128,7 +18136,7 @@ Lightning:
                                 counts: 'True'
                                 indicator: '2D'
                               children:  {}
-            Self-fb: 
+            Self-gb: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -18138,7 +18146,7 @@ Lightning:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Sound-gb: 
+                Sound-hb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -18151,7 +18159,7 @@ Lightning:
                     pitch-scale: '0.1'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-hb: 
+                Particle Animation-ib: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -18187,7 +18195,7 @@ Lightning:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ib: 
+                Particle Animation-jb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -18223,7 +18231,7 @@ Lightning:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-jb: 
+                Sound-kb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -18236,7 +18244,7 @@ Lightning:
                     pitch-scale: '-0.15'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-kb: 
+                Particle Animation-lb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -20608,8 +20616,8 @@ Magic Weapon:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '16.75'
-                        value-scale: '11.45'
+                        value-base: '15'
+                        value-scale: '12'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -20695,8 +20703,8 @@ Magic Weapon:
                         icon-key: ''
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '16.5'
-                        value-scale: '10'
+                        value-base: '15'
+                        value-scale: '12'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -20782,8 +20790,8 @@ Magic Weapon:
                         icon-key: ''
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '16.5'
-                        value-scale: '10'
+                        value-base: '15'
+                        value-scale: '12'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -20869,8 +20877,8 @@ Magic Weapon:
                         icon-key: ''
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '16.5'
-                        value-scale: '10'
+                        value-base: '15'
+                        value-scale: '12'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -20956,8 +20964,8 @@ Magic Weapon:
                         icon-key: ''
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '16.5'
-                        value-scale: '10'
+                        value-base: '15'
+                        value-scale: '12'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -21552,7 +21560,7 @@ Meteor Strike:
                                 pitch-scale: '0'
                                 indicator: '2D'
                               children:  {}
-                            Block-m: 
+                            Block-l: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -21574,7 +21582,7 @@ Meteor Strike:
                                 radius-scale: '1'
                                 indicator: '2D'
                               children:  {}
-                            Fire-n: 
+                            Fire-m: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -21584,7 +21592,7 @@ Meteor Strike:
                                 seconds-scale: '2'
                                 indicator: '2D'
                               children:  {}
-                            Explosion-o: 
+                            Explosion-n: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -21596,7 +21604,7 @@ Meteor Strike:
                                 fire: 'False'
                                 indicator: '2D'
                               children:  {}
-                            Particle Animation-p: 
+                            Particle Animation-o: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -21631,7 +21639,7 @@ Meteor Strike:
                                 right: '0'
                                 indicator: '2D'
                               children:  {}
-                            Particle Animation-q: 
+                            Particle Animation-p: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -21666,7 +21674,7 @@ Meteor Strike:
                                 right: '0'
                                 indicator: '2D'
                               children:  {}
-                            Area-r: 
+                            Area-q: 
                               type: 'target'
                               indicator: '3D'
                               data: 
@@ -21681,20 +21689,20 @@ Meteor Strike:
                                 random: 'False'
                                 indicator: '2D'
                               children: 
-                                Damage-s: 
+                                Damage-r: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
                                     icon-key: 'Damage'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '56'
-                                    value-scale: '26.6'
+                                    value-base: '28'
+                                    value-scale: '13.3'
                                     true: 'False'
                                     classifier: 'Earth'
                                     indicator: '2D'
                                   children:  {}
-                                Launch-t: 
+                                Launch-s: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
@@ -21709,7 +21717,7 @@ Meteor Strike:
                                     right-scale: '0.1'
                                     indicator: '2D'
                                   children:  {}
-                                Interrupt-u: 
+                                Interrupt-t: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
@@ -21717,7 +21725,7 @@ Meteor Strike:
                                     counts: 'True'
                                     indicator: '2D'
                                   children:  {}
-                                Particle Animation-v: 
+                                Particle Animation-u: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
@@ -21753,7 +21761,7 @@ Meteor Strike:
                                     right: '0'
                                     indicator: '2D'
                                   children:  {}
-                            Delay-w: 
+                            Delay-v: 
                               type: 'mechanic'
                               indicator: '3D'
                               data: 
@@ -21763,7 +21771,7 @@ Meteor Strike:
                                 delay-scale: '1'
                                 indicator: '2D'
                               children: 
-                                Particle Animation-x: 
+                                Particle Animation-w: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
@@ -21799,7 +21807,7 @@ Meteor Strike:
                                     right: '0'
                                     indicator: '2D'
                                   children:  {}
-                                Sound-y: 
+                                Sound-x: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
@@ -21812,7 +21820,7 @@ Meteor Strike:
                                     pitch-scale: '0'
                                     indicator: '2D'
                                   children:  {}
-                                Sound-z: 
+                                Sound-y: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
@@ -21825,7 +21833,7 @@ Meteor Strike:
                                     pitch-scale: '0'
                                     indicator: '2D'
                                   children:  {}
-                        Sound-ab: 
+                        Sound-z: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -21838,7 +21846,7 @@ Meteor Strike:
                             pitch-scale: '0'
                             indicator: '2D'
                           children:  {}
-                    Sound-bb: 
+                    Sound-ab: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -21851,7 +21859,7 @@ Meteor Strike:
                         pitch-scale: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-cb: 
+                    Particle Animation-bb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -21887,7 +21895,7 @@ Meteor Strike:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                Self-db: 
+                Self-cb: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -21897,7 +21905,7 @@ Meteor Strike:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Sound-eb: 
+                    Sound-db: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -21910,7 +21918,7 @@ Meteor Strike:
                         pitch-scale: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-fb: 
+                    Particle Animation-eb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -21946,7 +21954,7 @@ Meteor Strike:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-gb: 
+                    Particle Animation-fb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -21982,7 +21990,7 @@ Meteor Strike:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-            Self-hb: 
+            Self-gb: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -21992,7 +22000,7 @@ Meteor Strike:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Particle Animation-ib: 
+                Particle Animation-hb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -22028,7 +22036,7 @@ Meteor Strike:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-jb: 
+                Particle Animation-ib: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -22064,7 +22072,7 @@ Meteor Strike:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-kb: 
+                Sound-jb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -22077,7 +22085,7 @@ Meteor Strike:
                     pitch-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-lb: 
+                Particle Animation-kb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -22517,7 +22525,7 @@ Meteorain:
                                                 pitch-scale: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Fire-w: 
+                                            Fire-v: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -22527,7 +22535,7 @@ Meteorain:
                                                 seconds-scale: '2'
                                                 indicator: '2D'
                                               children:  {}
-                                            Explosion-x: 
+                                            Explosion-w: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -22539,7 +22547,7 @@ Meteorain:
                                                 fire: 'False'
                                                 indicator: '2D'
                                               children:  {}
-                                            Particle Animation-y: 
+                                            Particle Animation-x: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -22574,7 +22582,7 @@ Meteorain:
                                                 right: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Particle Animation-z: 
+                                            Particle Animation-y: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -22609,7 +22617,7 @@ Meteorain:
                                                 right: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Area-ab: 
+                                            Area-z: 
                                               type: 'target'
                                               indicator: '3D'
                                               data: 
@@ -22624,20 +22632,20 @@ Meteorain:
                                                 random: 'False'
                                                 indicator: '2D'
                                               children: 
-                                                Damage-bb: 
+                                                Damage-ab: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
                                                     icon-key: 'Damage'
                                                     counts: 'True'
                                                     type: 'Damage'
-                                                    value-base: '81'
-                                                    value-scale: '28'
+                                                    value-base: '40'
+                                                    value-scale: '14'
                                                     true: 'False'
                                                     classifier: 'Earth'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Launch-cb: 
+                                                Launch-bb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -22652,7 +22660,7 @@ Meteorain:
                                                     right-scale: '0.05'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Interrupt-db: 
+                                                Interrupt-cb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -22660,7 +22668,7 @@ Meteorain:
                                                     counts: 'True'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Particle Animation-eb: 
+                                                Particle Animation-db: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -22696,7 +22704,7 @@ Meteorain:
                                                     right: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                                            Block-fb: 
+                                            Block-eb: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -22718,7 +22726,7 @@ Meteorain:
                                                 radius-scale: '0'
                                                 indicator: '2D'
                                               children:  {}
-                                            Delay-gb: 
+                                            Delay-fb: 
                                               type: 'mechanic'
                                               indicator: '3D'
                                               data: 
@@ -22728,7 +22736,7 @@ Meteorain:
                                                 delay-scale: '1'
                                                 indicator: '2D'
                                               children: 
-                                                Particle Animation-hb: 
+                                                Particle Animation-gb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -22764,7 +22772,7 @@ Meteorain:
                                                     right: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Sound-ib: 
+                                                Sound-hb: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -22777,7 +22785,7 @@ Meteorain:
                                                     pitch-scale: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                                                Sound-jb: 
+                                                Sound-ib: 
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
@@ -22790,7 +22798,7 @@ Meteorain:
                                                     pitch-scale: '0'
                                                     indicator: '2D'
                                                   children:  {}
-                    Self-kb: 
+                    Self-jb: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -22800,7 +22808,7 @@ Meteorain:
                         wall: 'false'
                         caster: 'false'
                       children: 
-                        Sound-lb: 
+                        Sound-kb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -22813,7 +22821,7 @@ Meteorain:
                             pitch-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-mb: 
+                        Particle Animation-lb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -22849,7 +22857,7 @@ Meteorain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-nb: 
+                        Particle Animation-mb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -22885,7 +22893,7 @@ Meteorain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Sound-ob: 
+                        Sound-nb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -22898,7 +22906,7 @@ Meteorain:
                             pitch-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-pb: 
+                        Particle Animation-ob: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -22929,7 +22937,7 @@ Meteorain:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-            Self-qb: 
+            Self-pb: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -22939,7 +22947,7 @@ Meteorain:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Particle Animation-rb: 
+                Particle Animation-qb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -22975,7 +22983,7 @@ Meteorain:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-sb: 
+                Particle Animation-rb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -23011,7 +23019,7 @@ Meteorain:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-tb: 
+                Particle Animation-sb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -23047,7 +23055,7 @@ Meteorain:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-ub: 
+                Sound-tb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -23166,8 +23174,8 @@ Mysterium:
                     icon-key: 'BurnDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '8.75'
-                    value-scale: '6.45'
+                    value-base: '4.35'
+                    value-scale: '3.25'
                     true: 'False'
                     classifier: 'Arcane'
                     indicator: '2D'
@@ -23176,11 +23184,11 @@ Mysterium:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Subtract'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '-55'
-                    value-scale: '-95'
+                    value-base: '-15'
+                    value-scale: '-20'
                     indicator: '2D'
                   children:  {}
                 Sound-h: 
@@ -23983,8 +23991,8 @@ Overload:
                     icon-key: 'MP'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '35'
-                    value-scale: '66'
+                    value-base: '15'
+                    value-scale: '22.5'
                     indicator: '2D'
                   children:  {}
                 Particle Animation-j: 
@@ -24190,7 +24198,7 @@ Perforation:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'
@@ -24248,7 +24256,7 @@ Perforation:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'
@@ -24589,7 +24597,7 @@ Permeability:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Health'
                 value-base: 'api-dealt'
@@ -24756,8 +24764,8 @@ Permeability:
                             icon-key: 'PermJumpDamage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '10.5'
-                            value-scale: '11.75'
+                            value-base: '5.25'
+                            value-scale: '5.75'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -25015,7 +25023,7 @@ Powerness:
     - 'Thornmail'
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'CYAN_DYE'
-  icon-durability: 6
+  icon-durability: 0
   icon-data: 'LEGACY_INK_SACK(6)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -25135,7 +25143,7 @@ Powerness:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'
@@ -25423,8 +25431,8 @@ Predator:
                                 icon-key: 'Adddmg'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '12'
-                                value-scale: '8.7'
+                                value-base: '6'
+                                value-scale: '4.4'
                                 true: 'False'
                                 classifier: 'Physical'
                                 indicator: '2D'
@@ -25693,8 +25701,8 @@ Predator:
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '12'
-                                value-scale: '8.7'
+                                value-base: '6'
+                                value-scale: '4.4'
                                 true: 'False'
                                 classifier: 'Physical'
                                 indicator: '2D'
@@ -25877,7 +25885,7 @@ Pression:
                     icon-key: 'RestoreHealthValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '4.35'
+                    value-base: '3.45'
                     value-scale: '2.85'
                     indicator: '2D'
                   children:  {}
@@ -26336,8 +26344,8 @@ Pression:
                                 icon-key: 'ArrDMG'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '7.75'
-                                value-scale: '1.98'
+                                value-base: '3.85'
+                                value-scale: '2'
                                 true: 'False'
                                 classifier: 'Physical'
                                 indicator: '2D'
@@ -26588,8 +26596,8 @@ Pression:
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '7.75'
-                                value-scale: '1.98'
+                                value-base: '3.85'
+                                value-scale: '2'
                                 true: 'False'
                                 classifier: 'Physical'
                                 indicator: '2D'
@@ -26616,8 +26624,8 @@ Pression:
                                     icon-key: 'ArrDMGExplo'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '1.75'
-                                    value-scale: '1.65'
+                                    value-base: '1.55'
+                                    value-scale: '1.25'
                                     true: 'False'
                                     classifier: 'Physical'
                                     indicator: '2D'
@@ -28146,8 +28154,8 @@ Ray:
                     icon-key: 'DamageFire'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '7.75'
-                    value-scale: '3.75'
+                    value-base: '4'
+                    value-scale: '2.5'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -28177,8 +28185,8 @@ Ray:
                     icon-key: 'Damage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '28'
-                    value-scale: '19'
+                    value-base: '14'
+                    value-scale: '10'
                     true: 'False'
                     classifier: 'Physical'
                     indicator: '2D'
@@ -28988,8 +28996,8 @@ Ray:
                         icon-key: 'Damage1'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '30'
-                        value-scale: '18'
+                        value-base: '15'
+                        value-scale: '9'
                         true: 'False'
                         classifier: 'Physical'
                         indicator: '2D'
@@ -29266,8 +29274,8 @@ Ray:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '30'
-                    value-scale: '18'
+                    value-base: '15'
+                    value-scale: '9'
                     true: 'False'
                     classifier: 'Physical'
                     indicator: '2D'
@@ -30742,7 +30750,7 @@ Roots:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'JUNGLE_SAPLING'
-  icon-durability: 3
+  icon-durability: 0
   icon-data: 'LEGACY_SAPLING(3)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -30904,8 +30912,8 @@ Roots:
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '23'
-                            value-scale: '7.7'
+                            value-base: '12'
+                            value-scale: '4'
                             true: 'False'
                             classifier: 'Earth'
                             indicator: '2D'
@@ -31555,8 +31563,8 @@ Rubin:
                             icon-key: 'LightningDMG'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '30'
-                            value-scale: '19'
+                            value-base: '7.5'
+                            value-scale: '3.5'
                             true: 'True'
                             classifier: 'True'
                             indicator: '2D'
@@ -31851,8 +31859,8 @@ Rubin:
                             icon-key: ''
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '30'
-                            value-scale: '19'
+                            value-base: '7.5'
+                            value-scale: '3.5'
                             true: 'True'
                             classifier: 'True'
                             indicator: '2D'
@@ -32379,8 +32387,8 @@ Sapphire:
                         icon-key: 'DamageArea'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '26.5'
-                        value-scale: '13.0'
+                        value-base: '13'
+                        value-scale: '7'
                         true: 'False'
                         classifier: 'Arcane'
                         indicator: '2D'
@@ -32620,7 +32628,7 @@ Sapphire:
                 pitch-scale: '0.02'
                 indicator: '2D'
               children:  {}
-    Took Physical Damage-fd: 
+    Took Physical Damage-z: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -32633,7 +32641,7 @@ Sapphire:
         dmg-max: '999999'
         indicator: '2D'
       children: 
-        Self-gd: 
+        Self-ab: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -32643,7 +32651,7 @@ Sapphire:
             wall: 'false'
             caster: 'false'
           children: 
-            Value Multiply-hd: 
+            Value Multiply-bb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32654,7 +32662,7 @@ Sapphire:
                 multiplier-scale: '0.03'
                 indicator: '2D'
               children:  {}
-            Mana-id: 
+            Mana-cb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32665,7 +32673,7 @@ Sapphire:
                 value-scale: '0'
                 indicator: '2D'
               children:  {}
-            Particle Animation-jd: 
+            Particle Animation-db: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32701,7 +32709,7 @@ Sapphire:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-kd: 
+            Sound-eb: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32721,7 +32729,7 @@ Sapphire:
         icon-key: ''
         indicator: '2D'
       children: 
-        Crouch-ab: 
+        Crouch-gb: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -32729,7 +32737,7 @@ Sapphire:
             crouch: 'False'
             indicator: '2D'
           children: 
-            Single-bb: 
+            Single-hb: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -32743,7 +32751,7 @@ Sapphire:
                 indicator: '2D'
                 caster: 'false'
               children: 
-                Value Mana-cb: 
+                Value Mana-ib: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32753,7 +32761,7 @@ Sapphire:
                     type: 'Current'
                     indicator: '2D'
                   children:  {}
-                Value Multiply-db: 
+                Value Multiply-jb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32764,18 +32772,18 @@ Sapphire:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Mana-eb: 
+                Mana-kb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Subtract'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '-130'
-                    value-scale: '-180'
+                    value-base: '-15'
+                    value-scale: '-20'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-fb: 
+                Particle Animation-lb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32811,7 +32819,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-gb: 
+                Sound-mb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32824,20 +32832,20 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Damage-hb: 
+                Damage-nb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '38'
-                    value-scale: '17'
+                    value-base: '19'
+                    value-scale: '9'
                     true: 'False'
                     classifier: 'Arcane'
                     indicator: '2D'
                   children:  {}
-                Status-ib: 
+                Status-ob: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32848,7 +32856,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Status-jb: 
+                Status-pb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32859,7 +32867,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-kb: 
+                Defense Buff-qb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32873,7 +32881,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-lb: 
+                Defense Buff-rb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32887,7 +32895,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-mb: 
+                Particle Animation-sb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32923,7 +32931,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-nb: 
+                Particle Animation-tb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32959,7 +32967,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ob: 
+                Particle Animation-ub: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32995,7 +33003,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-pb: 
+                Particle Animation-vb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33031,7 +33039,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-qb: 
+                Sound-wb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33044,7 +33052,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Sound-rb: 
+                Sound-xb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33057,7 +33065,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Self-sb: 
+                Self-yb: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -33067,18 +33075,18 @@ Sapphire:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Mana-tb: 
+                    Mana-zb: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
                         icon-key: ''
                         counts: 'True'
                         type: 'Mana'
-                        value-base: '130'
-                        value-scale: '180'
+                        value-base: '15'
+                        value-scale: '20'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-ub: 
+                    Particle Animation-ac: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33114,7 +33122,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-vb: 
+                    Sound-bc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33127,7 +33135,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-wb: 
+                    Particle Animation-cc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33163,7 +33171,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-xb: 
+                    Sound-dc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33176,7 +33184,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-        Crouch-yb: 
+        Crouch-ec: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -33184,7 +33192,7 @@ Sapphire:
             crouch: 'True'
             indicator: '2D'
           children: 
-            Single-zb: 
+            Single-fc: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -33198,7 +33206,7 @@ Sapphire:
                 indicator: '2D'
                 caster: 'false'
               children: 
-                Value Mana-ac: 
+                Value Mana-gc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33208,7 +33216,7 @@ Sapphire:
                     type: 'Current'
                     indicator: '2D'
                   children:  {}
-                Value Multiply-bc: 
+                Value Multiply-hc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33219,18 +33227,18 @@ Sapphire:
                     multiplier-scale: '0'
                     indicator: '2D'
                   children:  {}
-                Mana-cc: 
+                Mana-ic: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Subtract'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '-130'
-                    value-scale: '-180'
+                    value-base: '-15'
+                    value-scale: '-20'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-dc: 
+                Particle Animation-jc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33266,7 +33274,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-ec: 
+                Sound-kc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33279,7 +33287,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-fc: 
+                Particle Animation-lc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33315,7 +33323,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-gc: 
+                Particle Animation-mc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33351,7 +33359,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-hc: 
+                Particle Animation-nc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33387,7 +33395,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ic: 
+                Particle Animation-oc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33423,7 +33431,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Area-jc: 
+                Area-pc: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -33438,7 +33446,7 @@ Sapphire:
                     random: 'False'
                     indicator: '2D'
                   children: 
-                    Particle Animation-kc: 
+                    Particle Animation-qc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33474,7 +33482,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-lc: 
+                    Sound-rc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33487,7 +33495,7 @@ Sapphire:
                         pitch-scale: '0.02'
                         indicator: '2D'
                       children:  {}
-                    Damage-mc: 
+                    Damage-sc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33500,7 +33508,7 @@ Sapphire:
                         classifier: 'Arcane'
                         indicator: '2D'
                       children:  {}
-                    Status-nc: 
+                    Status-tc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33511,7 +33519,7 @@ Sapphire:
                         duration-scale: '0.7'
                         indicator: '2D'
                       children:  {}
-                    Status-oc: 
+                    Status-uc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33522,7 +33530,7 @@ Sapphire:
                         duration-scale: '0.7'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-pc: 
+                    Particle Animation-vc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33558,7 +33566,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-qc: 
+                    Particle Animation-wc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33594,7 +33602,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Value Multiply-rc: 
+                    Value Multiply-xc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33605,7 +33613,7 @@ Sapphire:
                         multiplier-scale: '0'
                         indicator: '2D'
                       children:  {}
-                    Damage-sc: 
+                    Damage-yc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33618,7 +33626,7 @@ Sapphire:
                         classifier: 'Arcane'
                         indicator: '2D'
                       children:  {}
-                Defense Buff-tc: 
+                Defense Buff-zc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33632,7 +33640,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-uc: 
+                Defense Buff-ad: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33653,7 +33661,7 @@ Sapphire:
         icon-key: ''
         indicator: '2D'
       children: 
-        Passive-wc: 
+        Passive-cd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33663,7 +33671,7 @@ Sapphire:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-xc: 
+            Potion-dd: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -33677,7 +33685,7 @@ Sapphire:
                 seconds-scale: '1'
                 indicator: '2D'
               children:  {}
-        Value Set-yc: 
+        Value Set-ed: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33688,7 +33696,7 @@ Sapphire:
             value-scale: '4'
             indicator: '2D'
           children:  {}
-        Value Set-zc: 
+        Value Set-fd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33699,7 +33707,7 @@ Sapphire:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-ad: 
+        Value Set-gd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33710,7 +33718,7 @@ Sapphire:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-bd: 
+        Value Set-hd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33721,7 +33729,7 @@ Sapphire:
             value-scale: '8'
             indicator: '2D'
           children:  {}
-        Value Set-cd: 
+        Value Set-id: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33732,26 +33740,6 @@ Sapphire:
             value-scale: '5'
             indicator: '2D'
           children:  {}
-        Class Level-dd: 
-          type: 'condition'
-          indicator: '3D'
-          data: 
-            icon-key: ''
-            min-level: '0'
-            max-level: '0'
-            indicator: '2D'
-          children: 
-            Mana-ed: 
-              type: 'mechanic'
-              indicator: '3D'
-              data: 
-                icon-key: 'ValMana'
-                counts: 'True'
-                type: 'Mana'
-                value-base: '130'
-                value-scale: '180'
-                indicator: '2D'
-              children:  {}
 Shadow: 
   name: 'Shadow'
   type: 'Active'
@@ -33970,8 +33958,8 @@ Shadow:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '22'
-                        value-scale: '6.2'
+                        value-base: '11'
+                        value-scale: '4'
                         true: 'False'
                         classifier: 'Dark'
                         indicator: '2D'
@@ -35070,8 +35058,8 @@ Splash:
                                     icon-key: 'Damage'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '54'
-                                    value-scale: '25'
+                                    value-base: '25'
+                                    value-scale: '12.5'
                                     true: 'False'
                                     classifier: 'Water'
                                     indicator: '2D'
@@ -35198,6 +35186,7 @@ Summon Aery:
   name: 'Summon Aery'
   type: 'Sorcery'
   max-level: 3
+  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -35447,8 +35436,8 @@ Summon Aery:
                                     icon-key: 'Damage'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '20'
-                                    value-scale: '3.7'
+                                    value-base: '10'
+                                    value-scale: '2.8'
                                     true: 'False'
                                     classifier: 'Arcane'
                                     indicator: '2D'
@@ -35842,8 +35831,8 @@ Summon Aery:
                                             icon-key: ''
                                             counts: 'True'
                                             type: 'Damage'
-                                            value-base: '16.7'
-                                            value-scale: '3.2'
+                                            value-base: '8.2'
+                                            value-scale: '1.6'
                                             true: 'False'
                                             classifier: 'Arcane'
                                             indicator: '2D'
@@ -36140,8 +36129,8 @@ Summon Aery:
                                     icon-key: ''
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '18'
-                                    value-scale: '3.7'
+                                    value-base: '10'
+                                    value-scale: '2.8'
                                     true: 'False'
                                     classifier: 'Arcane'
                                     indicator: '2D'
@@ -36535,8 +36524,8 @@ Summon Aery:
                                             icon-key: ''
                                             counts: 'True'
                                             type: 'Damage'
-                                            value-base: '16.7'
-                                            value-scale: '3.2'
+                                            value-base: '8.2'
+                                            value-scale: '1.6'
                                             true: 'False'
                                             classifier: 'Arcane'
                                             indicator: '2D'
@@ -37028,9 +37017,9 @@ Summon Wolf:
                             counts: 'True'
                             color: 'BLACK'
                             name: '{player}s spirit wolf'
-                            health-base: '80'
-                            health-scale: '80'
-                            damage-base: '16'
+                            health-base: '40'
+                            health-scale: '40'
+                            damage-base: '10'
                             damage-scale: '4'
                             sitting: 'False'
                             seconds-base: '60'
@@ -37776,8 +37765,8 @@ Thunder:
                                     icon-key: 'Damage'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '85'
-                                    value-scale: '27.3'
+                                    value-base: '42'
+                                    value-scale: '13.65'
                                     true: 'False'
                                     classifier: 'Fire'
                                     indicator: '2D'
@@ -38288,8 +38277,8 @@ Titan:
                     icon-key: 'HealValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '35'
-                    value-scale: '25'
+                    value-base: '15'
+                    value-scale: '22'
                     indicator: '2D'
                   children:  {}
                 Sound-g: 
@@ -39197,8 +39186,8 @@ Tsunami:
                                     icon-key: 'Damage'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '70'
-                                    value-scale: '34'
+                                    value-base: '35'
+                                    value-scale: '17'
                                     true: 'False'
                                     classifier: 'Water'
                                     indicator: '2D'
@@ -39550,8 +39539,8 @@ Tsunami:
                                     icon-key: ''
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '70'
-                                    value-scale: '36'
+                                    value-base: '35'
+                                    value-scale: '17'
                                     true: 'False'
                                     classifier: 'Water'
                                     indicator: '2D'
@@ -39895,8 +39884,8 @@ Tsunami:
                                     icon-key: ''
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '70'
-                                    value-scale: '36'
+                                    value-base: '35'
+                                    value-scale: '17'
                                     true: 'False'
                                     classifier: 'Water'
                                     indicator: '2D'
@@ -40240,8 +40229,8 @@ Tsunami:
                                     icon-key: ''
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '70'
-                                    value-scale: '36'
+                                    value-base: '35'
+                                    value-scale: '17'
                                     true: 'False'
                                     classifier: 'Water'
                                     indicator: '2D'
@@ -40481,8 +40470,8 @@ Unexpected Strike:
                 icon-key: 'Damage'
                 counts: 'True'
                 type: 'Damage'
-                value-base: '9.45'
-                value-scale: '5.55'
+                value-base: '5'
+                value-scale: '3'
                 true: 'True'
                 classifier: 'True'
                 indicator: '2D'
@@ -40982,7 +40971,7 @@ Void:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'TotalHP'
                     counts: 'True'
                     type: 'Multiplier'
                     value-base: '2'
@@ -40995,7 +40984,7 @@ Void:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'MissHP'
                     counts: 'True'
                     type: 'Percent Missing'
                     value-base: '3'
@@ -41011,8 +41000,8 @@ Void:
                     icon-key: 'TrueDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '12.5'
-                    value-scale: '11.7'
+                    value-base: '6'
+                    value-scale: '4'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -41225,8 +41214,8 @@ Void:
                             icon-key: 'DamageVoid'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '10'
-                            value-scale: '7.7'
+                            value-base: '5'
+                            value-scale: '3.7'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -41739,8 +41728,8 @@ Void:
                         icon-key: ''
                         counts: 'True'
                         key: 'VoidStacks'
-                        multiplier-base: '10'
-                        multiplier-scale: '7.7'
+                        multiplier-base: '6'
+                        multiplier-scale: '4'
                         indicator: '2D'
                       children:  {}
                     Damage-jc: 
@@ -42152,8 +42141,8 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '12.5'
-                    value-scale: '11.7'
+                    value-base: '6'
+                    value-scale: '4'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -42366,8 +42355,8 @@ Void:
                             icon-key: ''
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '10'
-                            value-scale: '7.7'
+                            value-base: '5'
+                            value-scale: '3.7'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'
@@ -42880,8 +42869,8 @@ Void:
                         icon-key: ''
                         counts: 'True'
                         key: 'VoidStacks'
-                        multiplier-base: '10'
-                        multiplier-scale: '7.7'
+                        multiplier-base: '6'
+                        multiplier-scale: '4'
                         indicator: '2D'
                       children:  {}
                     Damage-jf: 
@@ -43490,8 +43479,8 @@ Void:
                     icon-key: 'DamageJump'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '48'
-                    value-scale: '25'
+                    value-base: '24'
+                    value-scale: '13'
                     true: 'False'
                     classifier: 'Void'
                     indicator: '2D'
@@ -43936,29 +43925,7 @@ Void:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-bi: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: 'TotalHP'
-            counts: 'True'
-            key: 'VoidLore'
-            value-base: '2'
-            value-scale: '1.5'
-            indicator: '2D'
-          children:  {}
-        Value Set-ci: 
-          type: 'mechanic'
-          indicator: '3D'
-          data: 
-            icon-key: 'MissHP'
-            counts: 'True'
-            key: 'VoidLore'
-            value-base: '3'
-            value-scale: '3'
-            indicator: '2D'
-          children:  {}
-        Passive-di: 
+        Passive-bi: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -43968,7 +43935,7 @@ Void:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-ei: 
+            Potion-ci: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -44258,8 +44225,8 @@ Windblast:
                                 icon-key: 'Damage'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '19'
-                                value-scale: '7.9'
+                                value-base: '9.5'
+                                value-scale: '3.9'
                                 true: 'False'
                                 classifier: 'Wind'
                                 indicator: '2D'

@@ -20,7 +20,7 @@ Eruption:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'CHARCOAL'
-  icon-durability: 1
+  icon-durability: 0
   icon-data: 'LEGACY_COAL(1)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -524,8 +524,8 @@ Eruption:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '38.9'
-                        value-scale: '9.8'
+                        value-base: '19.4'
+                        value-scale: '4.9'
                         true: 'False'
                         classifier: 'Fire'
                         indicator: '2D'

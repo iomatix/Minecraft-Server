@@ -22,7 +22,7 @@ Powerness:
     - 'Thornmail'
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'CYAN_DYE'
-  icon-durability: 6
+  icon-durability: 0
   icon-data: 'LEGACY_INK_SACK(6)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -142,7 +142,7 @@ Powerness:
               type: 'mechanic'
               indicator: '3D'
               data: 
-                icon-key: ''
+                icon-key: 'Constant'
                 counts: 'True'
                 type: 'Damage'
                 value-base: 'api-dealt'

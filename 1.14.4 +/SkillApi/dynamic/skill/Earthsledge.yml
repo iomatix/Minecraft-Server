@@ -20,7 +20,7 @@ Earthsledge:
     - ''
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'MOSSY_COBBLESTONE'
-  icon-durability: 4
+  icon-durability: 0
   icon-data: 'LEGACY_MOSSY_COBBLESTONE(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
@@ -718,8 +718,8 @@ Earthsledge:
                                         icon-key: 'Damage'
                                         counts: 'True'
                                         type: 'Damage'
-                                        value-base: '55'
-                                        value-scale: '27'
+                                        value-base: '27'
+                                        value-scale: '13.5'
                                         true: 'False'
                                         classifier: 'Earth'
                                         indicator: '2D'

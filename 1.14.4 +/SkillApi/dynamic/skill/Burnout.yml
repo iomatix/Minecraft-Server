@@ -286,7 +286,7 @@ Burnout:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Area-m: 
+                    Area-l: 
                       type: 'target'
                       indicator: '3D'
                       data: 
@@ -301,20 +301,20 @@ Burnout:
                         random: 'False'
                         indicator: '2D'
                       children: 
-                        Damage-n: 
+                        Damage-m: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '82'
-                            value-scale: '29'
+                            value-base: '41'
+                            value-scale: '14.35'
                             true: 'False'
                             classifier: 'Fire'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-o: 
+                        Particle Animation-n: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -350,7 +350,7 @@ Burnout:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Fire-p: 
+                        Fire-o: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -360,7 +360,7 @@ Burnout:
                             seconds-scale: '3'
                             indicator: '2D'
                           children:  {}
-                Self-q: 
+                Self-p: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -370,7 +370,7 @@ Burnout:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Particle Animation-r: 
+                    Particle Animation-q: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -405,7 +405,7 @@ Burnout:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Particle Animation-s: 
+                    Particle Animation-r: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -440,7 +440,7 @@ Burnout:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-t: 
+                    Sound-s: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -453,7 +453,7 @@ Burnout:
                         pitch-scale: '-0.07'
                         indicator: '2D'
                       children:  {}
-            Self-u: 
+            Self-t: 
               type: 'target'
               indicator: '3D'
               data: 
@@ -463,7 +463,7 @@ Burnout:
                 wall: 'false'
                 caster: 'false'
               children: 
-                Particle Animation-v: 
+                Particle Animation-u: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -499,7 +499,7 @@ Burnout:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-w: 
+                Particle Animation-v: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -535,7 +535,7 @@ Burnout:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-x: 
+                Sound-w: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 

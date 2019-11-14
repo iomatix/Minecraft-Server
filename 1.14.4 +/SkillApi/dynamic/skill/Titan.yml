@@ -109,8 +109,8 @@ Titan:
                     icon-key: 'HealValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '35'
-                    value-scale: '25'
+                    value-base: '15'
+                    value-scale: '22'
                     indicator: '2D'
                   children:  {}
                 Sound-g: 

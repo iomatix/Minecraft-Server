@@ -44,7 +44,7 @@ Blizzard:
   - '&cArea: &6{attr:Radius.radius}'
   - '&cTargets: &6{attr:Radius.max}'
   - '&cStun: &6{attr:Stun.duration}&6s'
-  - '&cChill: &6{attr:Status.seconds}&6s'
+  - '&cChill: &6{attr:StatusP.seconds}&6s'
   desc:  []
   components: 
     Cast: 
@@ -588,8 +588,8 @@ Blizzard:
                                                     icon-key: 'Damage'
                                                     counts: 'True'
                                                     type: 'Damage'
-                                                    value-base: '82'
-                                                    value-scale: '27'
+                                                    value-base: '41'
+                                                    value-scale: '13.5'
                                                     true: 'False'
                                                     classifier: 'Ice'
                                                     indicator: '2D'
@@ -609,7 +609,7 @@ Blizzard:
                                                   type: 'mechanic'
                                                   indicator: '3D'
                                                   data: 
-                                                    icon-key: ''
+                                                    icon-key: 'StatusP'
                                                     counts: 'True'
                                                     potion: 'Slow'
                                                     ambient: 'False'

@@ -201,8 +201,8 @@ Overload:
                     icon-key: 'MP'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '35'
-                    value-scale: '66'
+                    value-base: '15'
+                    value-scale: '22.5'
                     indicator: '2D'
                   children:  {}
                 Particle Animation-j: 

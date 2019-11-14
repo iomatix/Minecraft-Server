@@ -104,8 +104,8 @@ Mysterium:
                     icon-key: 'BurnDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '8.75'
-                    value-scale: '6.45'
+                    value-base: '4.35'
+                    value-scale: '3.25'
                     true: 'False'
                     classifier: 'Arcane'
                     indicator: '2D'
@@ -114,11 +114,11 @@ Mysterium:
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
-                    icon-key: ''
+                    icon-key: 'Subtract'
                     counts: 'True'
                     type: 'Mana'
-                    value-base: '-55'
-                    value-scale: '-95'
+                    value-base: '-15'
+                    value-scale: '-20'
                     indicator: '2D'
                   children:  {}
                 Sound-h: 
