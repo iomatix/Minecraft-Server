@@ -23,7 +23,7 @@ Sapphire:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'DIAMOND_BLOCK'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_DIAMOND_BLOCK(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'

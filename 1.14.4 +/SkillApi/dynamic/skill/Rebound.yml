@@ -20,7 +20,7 @@ Rebound:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'BLACK_STAINED_GLASS_PANE'
   icon-durability: 0
-  icon-data: 15
+  icon-data: 'LEGACY_STAINED_GLASS_PANE(15)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'

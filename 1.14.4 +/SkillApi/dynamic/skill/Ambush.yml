@@ -30,7 +30,7 @@ Ambush:
   msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
   icon: 'STONE_HOE'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_STONE_HOE(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -94,8 +94,8 @@ Ambush:
                     icon-key: 'Damage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '25'
-                    value-scale: '16'
+                    value-base: '15'
+                    value-scale: '5'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'
@@ -448,8 +448,8 @@ Ambush:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '25'
-                    value-scale: '16'
+                    value-base: '15'
+                    value-scale: '5'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'

@@ -21,7 +21,7 @@ Tsunami:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'BLUE_GLAZED_TERRACOTTA'
   icon-durability: 0
-  icon-data: 2
+  icon-data: 'LEGACY_BLUE_GLAZED_TERRACOTTA(2)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'

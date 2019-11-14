@@ -23,7 +23,7 @@ Permeability:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'IRON_NUGGET'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_IRON_NUGGET(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -356,8 +356,8 @@ Permeability:
                         icon-key: 'JumpCDSec'
                         counts: 'True'
                         key: 'JumpCD'
-                        seconds-base: '7.2'
-                        seconds-scale: '-1.1'
+                        seconds-base: '8.8'
+                        seconds-scale: '-0.95'
                         indicator: '2D'
                       children:  {}
                     Particle Animation-w: 

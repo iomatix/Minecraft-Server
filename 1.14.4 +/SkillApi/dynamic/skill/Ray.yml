@@ -23,7 +23,7 @@ Ray:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'BLAZE_ROD'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_BLAZE_ROD(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -99,8 +99,8 @@ Ray:
                     icon-key: 'DamageFire'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '11'
-                    value-scale: '6.5'
+                    value-base: '7.75'
+                    value-scale: '3.75'
                     true: 'True'
                     classifier: 'True'
                     indicator: '2D'

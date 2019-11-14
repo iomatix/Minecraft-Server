@@ -30,7 +30,7 @@ Lethal Tempo:
   msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
   icon: 'ARROW'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_ARROW(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'

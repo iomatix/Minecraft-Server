@@ -22,7 +22,7 @@ Pression:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'GOLDEN_SWORD'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_GOLD_SWORD(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -39,7 +39,7 @@ Pression:
   - '&eOnce per &6{attr:pressionCD.seconds}&6s &ewhen &6crouching &elaunch &6{attr:Pro.amount} &6arrows &ewhich'
   - '&edeal &6{attr:ArrDMG.value} &6physical damage.'
   - '&eonce per &6{attr:PressionExploCD.seconds}&6s &earrows become &6explosive'
-  - '&edealing &6{attr:ArrDMGExplo.value} &6physical damage.'
+  - '&edealing additional &6{attr:ArrDMGExplo.value} &6physical damage &eand &6stuns for &6{attr:StunDuration.duration}&6s.'
   - ''
   - '&ePrecision tree passive.'
   desc:  []
@@ -127,8 +127,8 @@ Pression:
                     icon-key: 'RestoreHealthValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '5.55'
-                    value-scale: '3.85'
+                    value-base: '4.35'
+                    value-scale: '2.85'
                     indicator: '2D'
                   children:  {}
                 Sound-i: 
@@ -657,8 +657,8 @@ Pression:
                             icon-key: 'PressionExploCD'
                             counts: 'True'
                             key: 'PressionExploCD'
-                            seconds-base: '8.5'
-                            seconds-scale: '-0.5'
+                            seconds-base: '9.35'
+                            seconds-scale: '-0.85'
                             indicator: '2D'
                           children:  {}
                         Particle Animation-rb: 
@@ -744,7 +744,7 @@ Pression:
                                 icon-key: ''
                                 counts: 'True'
                                 power-base: '0.12'
-                                power-scale: '0.01'
+                                power-scale: '0.02'
                                 damage: 'False'
                                 fire: 'False'
                                 indicator: '2D'
@@ -831,13 +831,26 @@ Pression:
                                 right: '0'
                                 indicator: '2D'
                               children:  {}
-                            Area-yb: 
+                            Damage-yb: 
+                              type: 'mechanic'
+                              indicator: '3D'
+                              data: 
+                                icon-key: ''
+                                counts: 'True'
+                                type: 'Damage'
+                                value-base: '7.75'
+                                value-scale: '1.98'
+                                true: 'False'
+                                classifier: 'Physical'
+                                indicator: '2D'
+                              children:  {}
+                            Area-zb: 
                               type: 'target'
                               indicator: '3D'
                               data: 
                                 icon-key: ''
-                                radius-base: '0.15'
-                                radius-scale: '0.05'
+                                radius-base: '0.16'
+                                radius-scale: '0.035'
                                 group: 'Enemy'
                                 wall: 'False'
                                 caster: 'False'
@@ -846,17 +859,28 @@ Pression:
                                 random: 'False'
                                 indicator: '2D'
                               children: 
-                                Damage-zb: 
+                                Damage-ac: 
                                   type: 'mechanic'
                                   indicator: '3D'
                                   data: 
                                     icon-key: 'ArrDMGExplo'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '13.75'
-                                    value-scale: '3.65'
+                                    value-base: '1.75'
+                                    value-scale: '1.65'
                                     true: 'False'
                                     classifier: 'Physical'
+                                    indicator: '2D'
+                                  children:  {}
+                                Status-bc: 
+                                  type: 'mechanic'
+                                  indicator: '3D'
+                                  data: 
+                                    icon-key: 'StunDuration'
+                                    counts: 'True'
+                                    status: 'Stun'
+                                    duration-base: '0.25'
+                                    duration-scale: '0.15'
                                     indicator: '2D'
                                   children:  {}
     Initialize: 
@@ -866,7 +890,7 @@ Pression:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-bc: 
+        Value Set-dc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -877,7 +901,7 @@ Pression:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-cc: 
+        Value Set-ec: 
           type: 'mechanic'
           indicator: '3D'
           data: 

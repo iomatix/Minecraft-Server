@@ -2,7 +2,6 @@ Conqueror:
   name: 'Conqueror'
   type: 'Precision'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -30,7 +29,7 @@ Conqueror:
   msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
   icon: 'ARROW'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_ARROW(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -204,8 +203,8 @@ Conqueror:
                 icon-key: 'Damage'
                 counts: 'True'
                 type: 'Damage'
-                value-base: '15'
-                value-scale: '9.8'
+                value-base: '9.65'
+                value-scale: '5.17'
                 true: 'True'
                 classifier: 'True'
                 indicator: '2D'

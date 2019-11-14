@@ -2,7 +2,6 @@ Predator:
   name: 'Predator'
   type: 'Domination'
   max-level: 3
-  skill-req: 'None'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
@@ -30,7 +29,7 @@ Predator:
   msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
   icon: 'STONE_HOE'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_STONE_HOE(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -41,7 +40,7 @@ Predator:
   - '&cOnce per &6{attr:flagPRDcd.seconds}&6s '
   - "&ctakes &6{attr:Damage.value}&6% &cof target's missing health"
   - '&c+ &6{attr:Adddmg.value} &6additional damage&c.'
-  - '&cHeals &6{attr:Heal.value}&6%'
+  - '&cHeals &6{attr:Heal.value}&6% &cof the total health.'
   - ''
   - '&cDomination tree passive.'
   desc:  []
@@ -94,8 +93,8 @@ Predator:
                     icon-key: 'flagPRDcd'
                     counts: 'True'
                     key: 'flagPRDcd'
-                    seconds-base: '50'
-                    seconds-scale: '-12'
+                    seconds-base: '60'
+                    seconds-scale: '-15'
                     indicator: '2D'
                   children:  {}
                 Delay-f: 
@@ -115,8 +114,8 @@ Predator:
                         icon-key: 'Heal'
                         counts: 'True'
                         type: 'Percent'
-                        value-base: '3'
-                        value-scale: '1.5'
+                        value-base: '5'
+                        value-scale: '5.5'
                         indicator: '2D'
                       children:  {}
                     Particle Animation-h: 
@@ -198,8 +197,8 @@ Predator:
                                 icon-key: 'Damage'
                                 counts: 'True'
                                 type: 'Percent Missing'
-                                value-base: '22'
-                                value-scale: '10'
+                                value-base: '25'
+                                value-scale: '15'
                                 true: 'True'
                                 classifier: 'True'
                                 indicator: '2D'
@@ -260,8 +259,8 @@ Predator:
                                 icon-key: 'Adddmg'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '8'
-                                value-scale: '5.7'
+                                value-base: '12'
+                                value-scale: '8.7'
                                 true: 'False'
                                 classifier: 'Physical'
                                 indicator: '2D'
@@ -364,8 +363,8 @@ Predator:
                     icon-key: ''
                     counts: 'True'
                     key: 'flagPRDcd'
-                    seconds-base: '50'
-                    seconds-scale: '-12'
+                    seconds-base: '60'
+                    seconds-scale: '-15'
                     indicator: '2D'
                   children:  {}
                 Delay-w: 
@@ -385,8 +384,8 @@ Predator:
                         icon-key: ''
                         counts: 'True'
                         type: 'Percent'
-                        value-base: '3'
-                        value-scale: '1.5'
+                        value-base: '5'
+                        value-scale: '5.5'
                         indicator: '2D'
                       children:  {}
                     Particle Animation-y: 
@@ -468,8 +467,8 @@ Predator:
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Percent Missing'
-                                value-base: '22'
-                                value-scale: '10'
+                                value-base: '25'
+                                value-scale: '15'
                                 true: 'True'
                                 classifier: 'True'
                                 indicator: '2D'
@@ -530,8 +529,8 @@ Predator:
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '8'
-                                value-scale: '5.7'
+                                value-base: '12'
+                                value-scale: '8.7'
                                 true: 'False'
                                 classifier: 'Physical'
                                 indicator: '2D'

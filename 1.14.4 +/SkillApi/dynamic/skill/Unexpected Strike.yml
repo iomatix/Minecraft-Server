@@ -30,7 +30,7 @@ Unexpected Strike:
   msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
   icon: 'ARROW'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_ARROW(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -75,8 +75,8 @@ Unexpected Strike:
                 icon-key: 'Damage'
                 counts: 'True'
                 type: 'Damage'
-                value-base: '17'
-                value-scale: '10.5'
+                value-base: '9.45'
+                value-scale: '5.55'
                 true: 'True'
                 classifier: 'True'
                 indicator: '2D'

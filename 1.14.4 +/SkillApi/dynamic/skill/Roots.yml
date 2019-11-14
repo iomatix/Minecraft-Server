@@ -21,7 +21,7 @@ Roots:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'JUNGLE_SAPLING'
   icon-durability: 3
-  icon-data: 3
+  icon-data: 'LEGACY_SAPLING(3)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'

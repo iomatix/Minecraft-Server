@@ -23,7 +23,7 @@ Mysterium:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'DIAMOND_HOE'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_DIAMOND_HOE(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -104,8 +104,8 @@ Mysterium:
                     icon-key: 'BurnDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: '21.5'
-                    value-scale: '10.7'
+                    value-base: '8.75'
+                    value-scale: '6.45'
                     true: 'False'
                     classifier: 'Arcane'
                     indicator: '2D'

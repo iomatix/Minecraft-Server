@@ -21,7 +21,7 @@ Eruption:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'CHARCOAL'
   icon-durability: 1
-  icon-data: 1
+  icon-data: 'LEGACY_COAL(1)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'

@@ -21,7 +21,7 @@ Heal:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'YELLOW_DYE'
   icon-durability: 11
-  icon-data: 11
+  icon-data: 'LEGACY_INK_SACK(11)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'

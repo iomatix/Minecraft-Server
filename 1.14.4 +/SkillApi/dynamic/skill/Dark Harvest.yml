@@ -29,7 +29,7 @@ Dark Harvest:
   msg: '&6&l{player}&r &2has cast &6&l{skill}&r'
   icon: 'STONE_HOE'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_STONE_HOE(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -135,7 +135,7 @@ Dark Harvest:
               data: 
                 icon-key: ''
                 counts: 'True'
-                message: '&cSoul of your enemy converted to essence.'
+                message: '&cSoul of your enemy is converted to the Essence.'
                 indicator: '2D'
               children:  {}
             Message-g: 
@@ -144,7 +144,7 @@ Dark Harvest:
               data: 
                 icon-key: ''
                 counts: 'True'
-                message: '&6{ESScount}&c/&610.0 essences. '
+                message: '&cSoul Essences: &6{ESScount}&c/&610.0. '
                 indicator: '2D'
               children:  {}
     Physical Damage-h: 
@@ -308,8 +308,8 @@ Dark Harvest:
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '21'
-                            value-scale: '9.3'
+                            value-base: '14'
+                            value-scale: '7.35'
                             true: 'True'
                             classifier: 'True'
                             indicator: '2D'
@@ -392,8 +392,8 @@ Dark Harvest:
                     icon-key: ''
                     counts: 'True'
                     key: 'DHmultiplier'
-                    value-base: '0.5'
-                    value-scale: '0.55'
+                    value-base: '2.5'
+                    value-scale: '1.85'
                     indicator: '2D'
                   children:  {}
                 Value Random-z: 
@@ -523,7 +523,7 @@ Dark Harvest:
               data: 
                 icon-key: ''
                 counts: 'True'
-                message: '"&cYouve lost &6all &cDark Harvest essences."'
+                message: '&cYou have lost &6all &cDark Harvest essences.'
                 indicator: '2D'
               children:  {}
     Skill Damage-ib: 
@@ -688,8 +688,8 @@ Dark Harvest:
                             icon-key: ''
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '21'
-                            value-scale: '9.3'
+                            value-base: '14'
+                            value-scale: '7.35'
                             true: 'True'
                             classifier: 'True'
                             indicator: '2D'
@@ -772,8 +772,8 @@ Dark Harvest:
                     icon-key: ''
                     counts: 'True'
                     key: 'DHmultiplier'
-                    value-base: '0.5'
-                    value-scale: '0.55'
+                    value-base: '2.5'
+                    value-scale: '1.85'
                     indicator: '2D'
                   children:  {}
                 Value Random-ac: 
@@ -841,8 +841,8 @@ Dark Harvest:
             icon-key: 'DamageADD'
             counts: 'True'
             key: 'DHmultiplier'
-            value-base: '0.5'
-            value-scale: '0.35'
+            value-base: '2.5'
+            value-scale: '1.85'
             indicator: '2D'
           children:  {}
         Value Set-gc: 

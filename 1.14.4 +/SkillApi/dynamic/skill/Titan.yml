@@ -23,7 +23,7 @@ Titan:
   msg: '&6{player} &2has cast &6{skill}'
   icon: 'IRON_CHESTPLATE'
   icon-durability: 0
-  icon-data: 0
+  icon-data: 'LEGACY_IRON_CHESTPLATE(0)'
   icon-lore: 
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
@@ -109,8 +109,8 @@ Titan:
                     icon-key: 'HealValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '78'
-                    value-scale: '45'
+                    value-base: '35'
+                    value-scale: '25'
                     indicator: '2D'
                   children:  {}
                 Sound-g: 
@@ -470,8 +470,8 @@ Titan:
                         icon-key: 'StunCDLore'
                         counts: 'True'
                         key: 'StunCD'
-                        seconds-base: '11.1'
-                        seconds-scale: '-1.5'
+                        seconds-base: '11.25'
+                        seconds-scale: '-0.85'
                         indicator: '2D'
                       children:  {}
                     Particle Animation-ab: 
