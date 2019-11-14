@@ -46,6 +46,8 @@ clearbind:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
+  messages: 
+    skills-unbound: '&2All skill bindings have been cleared'
 customize: 
   name: 'customize'
   description: 'Opens GUI editor'
@@ -120,6 +122,8 @@ lore:
   sender: 'PLAYER_ONLY'
   enabled: 'true'
   cooldown: 0
+  messages: 
+    lore-added: '&2The lore has been added to your item'
 mana: 
   name: 'mana'
   description: 'Gives player mana'

@@ -17,13 +17,13 @@ CLASS_DETAILS:
   pages: 1
   slots: 
     1: 
-      class: 0
+      class: 13
 CLASS_SELECTION: 
   rows: 3
   pages: 1
   slots: 
     1: 
-      adventurer: 0
+      adventurer: 13
 stAdventurer: 
   rows: 6
   pages: 5
