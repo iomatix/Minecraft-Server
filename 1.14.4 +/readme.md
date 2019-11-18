@@ -23,4 +23,7 @@
 - Unique crafting recipes, all of the items are craftable.
 - Connected with SkillApi. Provides items related for SkillApi, for example: attributes reset scroll.
 
+**[Jobs Reborn](https://www.spigotmc.org/resources/jobs-reborn.4216/)**
+- Unique RPG jobs with daily quests to improve server's economy.
+
 **All new extern features designed by iomatix (C) 2019.**
