@@ -22,8 +22,8 @@ Adventurer:
     dexterity-scale: '0.3'
     strength-base: '1'
     strength-scale: '0.3'
-  mana-regen: 2.3
-  tree: 'REQUIREMENT'
+  mana-regen: 2.1
+  tree: 'FLOOD'
   blacklist:  []
   skills: 
   - 'Eruption'

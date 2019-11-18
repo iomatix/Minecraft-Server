@@ -8,7 +8,7 @@ Dark Harvest:
     level-base: '7'
     level-scale: '13'
     cost-base: '1'
-    cost-scale: '0'
+    cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'

@@ -9,7 +9,7 @@ WOLFPARTICLE:
     level-base: '0'
     level-scale: '0'
     cost-base: '9999'
-    cost-scale: '0'
+    cost-scale: '1'
     cooldown-base: '3'
     cooldown-scale: '0'
     mana-base: '0'

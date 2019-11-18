@@ -1,7 +1,7 @@
 Windblast: 
   name: 'Windblast'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
@@ -9,13 +9,13 @@ Windblast:
     level-base: '7'
     level-scale: '8'
     cost-base: '1'
-    cost-scale: '2'
+    cost-scale: '1'
     cooldown-base: '8'
     cooldown-scale: '1'
     mana-base: '13'
     mana-scale: '8'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -275,7 +275,7 @@ Windblast:
                                 counts: 'True'
                                 type: 'Damage'
                                 value-base: '9.5'
-                                value-scale: '3.9'
+                                value-scale: '5.9'
                                 true: 'False'
                                 classifier: 'Wind'
                                 indicator: '2D'

@@ -1773,14 +1773,14 @@ Arcane Rain:
   attributes: 
     level-base: '42'
     level-scale: '15'
-    cost-base: '25'
-    cost-scale: '5'
+    cost-base: '3'
+    cost-scale: '1'
     cooldown-base: '35'
     cooldown-scale: '33'
     mana-base: '70'
     mana-scale: '50'
-    points-spent-req-base: '25'
-    points-spent-req-scale: '5'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -1795,7 +1795,6 @@ Arcane Rain:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons arcane rain which explodes randomly'
   - '&3in target area.'
@@ -2624,14 +2623,14 @@ Area Heal:
   attributes: 
     level-base: '15'
     level-scale: '12'
-    cost-base: '3'
-    cost-scale: '3'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '16'
     cooldown-scale: '5'
     mana-base: '33'
     mana-scale: '9'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '3'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -2646,7 +2645,6 @@ Area Heal:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Caster creates the area full of mana to heal allies.'
   - ''
@@ -3210,13 +3208,13 @@ Blink:
   attributes: 
     level-base: '6'
     level-scale: '12'
-    cost-base: '2'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '6'
     cooldown-scale: '2'
     mana-base: '15'
     mana-scale: '11'
-    points-spent-req-base: '2'
+    points-spent-req-base: '0'
     points-spent-req-scale: '0'
     incompatible: 
     - ''
@@ -3253,8 +3251,8 @@ Blink:
           indicator: '3D'
           data: 
             icon-key: 'Range'
-            range-base: '15'
-            range-scale: '25'
+            range-base: '17.5'
+            range-scale: '10.5'
             ground: 'True'
             indicator: '2D'
             group: 'enemy'
@@ -3521,14 +3519,14 @@ Blizzard:
   attributes: 
     level-base: '52'
     level-scale: '17'
-    cost-base: '20'
-    cost-scale: '10'
+    cost-base: '3'
+    cost-scale: '1'
     cooldown-base: '47'
     cooldown-scale: '29'
     mana-base: '98'
     mana-scale: '49'
-    points-spent-req-base: '20'
-    points-spent-req-scale: '10'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -3543,7 +3541,6 @@ Blizzard:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons blizzard above target area'
   - '&3which freezes and chills enemies.'
@@ -4519,14 +4516,14 @@ Burnout:
   attributes: 
     level-base: '42'
     level-scale: '16'
-    cost-base: '20'
-    cost-scale: '10'
+    cost-base: '3'
+    cost-scale: '1'
     cooldown-base: '40'
     cooldown-scale: '25'
     mana-base: '82'
     mana-scale: '42'
-    points-spent-req-base: '20'
-    points-spent-req-scale: '10'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -4541,7 +4538,6 @@ Burnout:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Set enemies in target area on fire'
   - ''
@@ -5457,7 +5453,7 @@ Dark Harvest:
     level-base: '7'
     level-scale: '13'
     cost-base: '1'
-    cost-scale: '0'
+    cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
@@ -6315,14 +6311,14 @@ Dark Vortex:
   attributes: 
     level-base: '38'
     level-scale: '16'
-    cost-base: '20'
-    cost-scale: '5'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '7'
     mana-base: '65'
     mana-scale: '47'
-    points-spent-req-base: '20'
-    points-spent-req-scale: '5'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -6337,7 +6333,6 @@ Dark Vortex:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons Dark Vortex which targets nearest enemies'
   - '&3and explodes the targeted area.'
@@ -6677,8 +6672,8 @@ Dark Vortex:
                                 icon-key: 'Damage'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '47'
-                                value-scale: '16.5'
+                                value-base: '32.5'
+                                value-scale: '13.5'
                                 true: 'False'
                                 classifier: 'Dark'
                                 indicator: '2D'
@@ -7257,14 +7252,14 @@ Earthquake:
   attributes: 
     level-base: '42'
     level-scale: '14'
-    cost-base: '20'
-    cost-scale: '10'
+    cost-base: '3'
+    cost-scale: '1'
     cooldown-base: '44'
     cooldown-scale: '24'
     mana-base: '95'
     mana-scale: '48'
-    points-spent-req-base: '20'
-    points-spent-req-scale: '10'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -7279,7 +7274,6 @@ Earthquake:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Using mana to move'
   - '&3a ground around the caster'
@@ -9960,7 +9954,7 @@ Earthquake:
 Earthshock: 
   name: 'Earthshock'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
@@ -9968,13 +9962,13 @@ Earthshock:
     level-base: '7'
     level-scale: '8'
     cost-base: '1'
-    cost-scale: '2'
+    cost-scale: '1'
     cooldown-base: '7'
     cooldown-scale: '1'
     mana-base: '15'
     mana-scale: '8'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -9989,7 +9983,6 @@ Earthshock:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Using mana to move'
   - '&3a ground and shock enemies. '
@@ -10149,7 +10142,7 @@ Earthshock:
                             counts: 'True'
                             type: 'Damage'
                             value-base: '16'
-                            value-scale: '2.7'
+                            value-scale: '4.7'
                             true: 'False'
                             classifier: 'Earth'
                             indicator: '2D'
@@ -10634,14 +10627,14 @@ Earthsledge:
   attributes: 
     level-base: '38'
     level-scale: '15'
-    cost-base: '10'
-    cost-scale: '5'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '28'
     cooldown-scale: '12'
     mana-base: '87'
     mana-scale: '44'
-    points-spent-req-base: '10'
-    points-spent-req-scale: '5'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -10656,7 +10649,6 @@ Earthsledge:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Using mana to move'
   - '&3a ground in front of the caster'
@@ -11532,13 +11524,13 @@ Eruption:
     level-base: '12'
     level-scale: '12'
     cost-base: '2'
-    cost-scale: '3'
+    cost-scale: '1'
     cooldown-base: '7.5'
     cooldown-scale: '1.25'
     mana-base: '25'
     mana-scale: '18'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '3'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -11553,7 +11545,6 @@ Eruption:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Cast powerful fire energy to destroy target area.'
   - ''
@@ -12047,8 +12038,8 @@ Eruption:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '19.4'
-                        value-scale: '4.9'
+                        value-base: '19.25'
+                        value-scale: '5.15'
                         true: 'False'
                         classifier: 'Fire'
                         indicator: '2D'
@@ -12131,14 +12122,14 @@ Fire Rain:
   attributes: 
     level-base: '11'
     level-scale: '8'
-    cost-base: '7'
-    cost-scale: '4'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '16'
     cooldown-scale: '8'
     mana-base: '56'
     mana-scale: '28'
-    points-spent-req-base: '7'
-    points-spent-req-scale: '5'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -12153,7 +12144,6 @@ Fire Rain:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons 3 fireballs which explode'
   - '&3in target area.'
@@ -12649,7 +12639,7 @@ Fire Rain:
 Fireball: 
   name: 'Fireball'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
@@ -12657,13 +12647,13 @@ Fireball:
     level-base: '7'
     level-scale: '8'
     cost-base: '1'
-    cost-scale: '2'
+    cost-scale: '1'
     cooldown-base: '5.5'
     cooldown-scale: '0.75'
     mana-base: '15'
     mana-scale: '9'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -12678,7 +12668,6 @@ Fireball:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons fireball which explodes'
   - '&3in target area.'
@@ -13151,7 +13140,7 @@ Fireball:
                         counts: 'True'
                         type: 'Damage'
                         value-base: '16.7'
-                        value-scale: '3.75'
+                        value-scale: '6.75'
                         true: 'False'
                         classifier: 'Fire'
                         indicator: '2D'
@@ -13871,14 +13860,14 @@ Fly:
   attributes: 
     level-base: '18'
     level-scale: '18'
-    cost-base: '1'
-    cost-scale: '15'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '2.3'
     cooldown-scale: '-1.3'
     mana-base: '18'
     mana-scale: '-7'
     points-spent-req-base: '0'
-    points-spent-req-scale: '15'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -15498,14 +15487,14 @@ Haste:
   attributes: 
     level-base: '13'
     level-scale: '13'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Shrewdness'
     - 'Powerness'
@@ -15665,14 +15654,14 @@ Heal:
   attributes: 
     level-base: '9'
     level-scale: '8'
-    cost-base: '2'
-    cost-scale: '2'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '11'
     cooldown-scale: '3'
     mana-base: '16'
     mana-scale: '3'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -15687,7 +15676,6 @@ Heal:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Caster invokes power of light to heal the wounds.'
   - ''
@@ -16369,14 +16357,14 @@ Iceile:
   attributes: 
     level-base: '28'
     level-scale: '11'
-    cost-base: '1'
-    cost-scale: '2'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '8.57'
     cooldown-scale: '3.76'
     mana-base: '48'
     mana-scale: '24'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -16391,7 +16379,6 @@ Iceile:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons iceile which chills'
   - '&3target area and enemies.'
@@ -16914,8 +16901,8 @@ Iceile:
                         icon-key: 'Damage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: '24'
-                        value-scale: '12.35'
+                        value-base: '25'
+                        value-scale: '14.35'
                         true: 'False'
                         classifier: 'Ice'
                         indicator: '2D'
@@ -17531,14 +17518,14 @@ Lightning:
   attributes: 
     level-base: '30'
     level-scale: '11'
-    cost-base: '15'
-    cost-scale: '5'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '20'
     cooldown-scale: '13'
     mana-base: '70'
     mana-scale: '35'
-    points-spent-req-base: '15'
-    points-spent-req-scale: '5'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -17553,7 +17540,6 @@ Lightning:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons lightnings which target'
   - '&3nearest entities. '
@@ -17827,8 +17813,8 @@ Lightning:
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '31'
-                            value-scale: '14'
+                            value-base: '32'
+                            value-scale: '15'
                             true: 'False'
                             classifier: 'Fire'
                             indicator: '2D'
@@ -18101,8 +18087,8 @@ Lightning:
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '31'
-                                value-scale: '14'
+                                value-base: '32'
+                                value-scale: '15'
                                 true: 'False'
                                 classifier: 'Fire'
                                 indicator: '2D'
@@ -18290,8 +18276,8 @@ lvlup:
   attributes: 
     level-base: '0'
     level-scale: '0'
-    cost-base: '0'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
@@ -18444,14 +18430,14 @@ Magic Absolution:
   attributes: 
     level-base: '16'
     level-scale: '12'
-    cost-base: '5'
-    cost-scale: '8'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '45'
     mana-base: '45'
     mana-scale: '55'
-    points-spent-req-base: '5'
-    points-spent-req-scale: '8'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -18660,14 +18646,14 @@ Magic Arrow:
   attributes: 
     level-base: '16'
     level-scale: '10'
-    cost-base: '2'
-    cost-scale: '2'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '110'
     cooldown-scale: '50'
     mana-base: '30'
     mana-scale: '45'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -18682,7 +18668,6 @@ Magic Arrow:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Uses mana to create magic arrows. '
   - ''
@@ -18982,14 +18967,14 @@ Magic Bread:
   attributes: 
     level-base: '11'
     level-scale: '9'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '80'
     cooldown-scale: '30'
     mana-base: '20'
     mana-scale: '20'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '1'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -19003,7 +18988,6 @@ Magic Bread:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Uses mana to create magical food. '
   - ''
@@ -19329,14 +19313,14 @@ Magic Missile:
   attributes: 
     level-base: '3'
     level-scale: '6'
-    cost-base: '1'
-    cost-scale: '1'
+    cost-base: '1.5'
+    cost-scale: '0.5'
     cooldown-base: '4'
     cooldown-scale: '0.5'
     mana-base: '12'
     mana-scale: '7'
     points-spent-req-base: '0'
-    points-spent-req-scale: '2'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -19680,14 +19664,14 @@ Magic Shield:
   attributes: 
     level-base: '8'
     level-scale: '14'
-    cost-base: '2'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '6'
     cooldown-scale: '1'
     mana-base: '16'
     mana-scale: '11'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '1'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -20015,13 +19999,13 @@ Magic Swap:
   attributes: 
     level-base: '12'
     level-scale: '12'
-    cost-base: '5'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '12'
     cooldown-scale: '7'
     mana-base: '28'
     mana-scale: '14'
-    points-spent-req-base: '5'
+    points-spent-req-base: '0'
     points-spent-req-scale: '0'
     incompatible: 
     - ''
@@ -20059,7 +20043,7 @@ Magic Swap:
           data: 
             icon-key: 'Range'
             range-base: '10'
-            range-scale: '12'
+            range-scale: '8'
             ground: 'True'
             indicator: '2D'
             group: 'enemy'
@@ -20384,14 +20368,14 @@ Magic Weapon:
   attributes: 
     level-base: '22'
     level-scale: '16'
-    cost-base: '3'
-    cost-scale: '3'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '120'
     cooldown-scale: '60'
     mana-base: '80'
     mana-scale: '80'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '3'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -20406,7 +20390,6 @@ Magic Weapon:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Uses mana to create magical armature.'
   - '&3Magic armature deals {attr:Damage.value}&3 additional arcane damage.'
@@ -21319,14 +21302,14 @@ Meteor Strike:
   attributes: 
     level-base: '28'
     level-scale: '12'
-    cost-base: '15'
-    cost-scale: '5'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '23.5'
     cooldown-scale: '10.5'
     mana-base: '78'
     mana-scale: '40'
-    points-spent-req-base: '15'
-    points-spent-req-scale: '5'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -21341,7 +21324,6 @@ Meteor Strike:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons meteor which explode'
   - '&3in target area.'
@@ -22126,14 +22108,14 @@ Meteorain:
   attributes: 
     level-base: '48'
     level-scale: '16'
-    cost-base: '20'
-    cost-scale: '10'
+    cost-base: '3'
+    cost-scale: '1'
     cooldown-base: '45'
     cooldown-scale: '28'
     mana-base: '94'
     mana-scale: '49'
-    points-spent-req-base: '20'
-    points-spent-req-scale: '10'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -22148,7 +22130,6 @@ Meteorain:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons meteors shower which explode'
   - '&3in target area.'
@@ -23084,8 +23065,8 @@ Mysterium:
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Pression'
     - 'Permeability'
@@ -23523,13 +23504,13 @@ Mystic Spirit:
     level-base: '12'
     level-scale: '25'
     cost-base: '1'
-    cost-scale: '4'
+    cost-scale: '1'
     cooldown-base: '15'
     cooldown-scale: '-3'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '4'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -23544,7 +23525,6 @@ Mystic Spirit:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Caster who uses blood magic'
   - '&3could change health in'
@@ -23798,14 +23778,14 @@ Overload:
   attributes: 
     level-base: '26'
     level-scale: '13'
-    cost-base: '2'
-    cost-scale: '2'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '10'
     cooldown-scale: '4'
     mana-base: '5'
     mana-scale: '3'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -23820,7 +23800,6 @@ Overload:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Caster collects the mana from the surrounding area.'
   - ''
@@ -24299,8 +24278,8 @@ Permeability:
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Pression'
     - 'Titan'
@@ -25009,14 +24988,14 @@ Powerness:
   attributes: 
     level-base: '13'
     level-scale: '13'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Haste'
     - 'Shrewdness'
@@ -25771,8 +25750,8 @@ Pression:
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Permeability'
     - 'Titan'
@@ -26680,14 +26659,14 @@ Purity:
   attributes: 
     level-base: '12'
     level-scale: '8'
-    cost-base: '3'
-    cost-scale: '2'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '22'
     cooldown-scale: '1'
     mana-base: '25'
     mana-scale: '3'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -26702,7 +26681,6 @@ Purity:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Caster invokes power to purify all negative effects from ally or'
   - '&3all positive effects from the enemy.'
@@ -27548,8 +27526,8 @@ Push:
   attributes: 
     level-base: '10'
     level-scale: '14'
-    cost-base: '2'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '12'
     cooldown-scale: '-2'
     mana-base: '9'
@@ -27597,9 +27575,9 @@ Push:
               type: 'target'
               indicator: '3D'
               data: 
-                icon-key: ''
-                range-base: '6'
-                range-scale: '5'
+                icon-key: 'Range'
+                range-base: '6.45'
+                range-scale: '4.75'
                 tolerance-base: '4'
                 tolerance-scale: '1'
                 group: 'Enemy'
@@ -28064,13 +28042,13 @@ Ray:
     level-base: '38'
     level-scale: '28'
     cost-base: '3'
-    cost-scale: '3'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '10'
     mana-base: '15'
     mana-scale: '15'
-    points-spent-req-base: '4'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Sapphire'
     - 'Rubin'
@@ -29573,8 +29551,8 @@ Rebound:
   attributes: 
     level-base: '10'
     level-scale: '14'
-    cost-base: '2'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '11'
     cooldown-scale: '-2'
     mana-base: '9'
@@ -29599,8 +29577,6 @@ Rebound:
   - ''
   - '&2Mana: {attr:mana}'
   - '&2Cooldown: {attr:cooldown}'
-  - ''
-  - '&cRange: &6{attr:Range.range}'
   desc:  []
   components: 
     Cast: 
@@ -30140,21 +30116,21 @@ Rebound:
 Regeneration: 
   name: 'Regeneration'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
     level-base: '7'
     level-scale: '8'
-    cost-base: '2'
-    cost-scale: '2'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '36'
     cooldown-scale: '8'
     mana-base: '15'
     mana-scale: '8'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -30169,7 +30145,6 @@ Regeneration:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Regenerates mana and health allies near'
   - '&3the caster. '
@@ -30539,7 +30514,7 @@ Rigidity:
     level-base: '9'
     level-scale: '13'
     cost-base: '1'
-    cost-scale: '0'
+    cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
@@ -30738,14 +30713,14 @@ Roots:
   attributes: 
     level-base: '16'
     level-scale: '12'
-    cost-base: '4'
-    cost-scale: '10'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '20'
     cooldown-scale: '10'
     mana-base: '38'
     mana-scale: '20'
-    points-spent-req-base: '4'
-    points-spent-req-scale: '10'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -30760,7 +30735,6 @@ Roots:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Using mana to ensnare enemies. '
   - ''
@@ -30912,8 +30886,8 @@ Roots:
                             icon-key: 'Damage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '12'
-                            value-scale: '4'
+                            value-base: '13'
+                            value-scale: '7.75'
                             true: 'False'
                             classifier: 'Earth'
                             indicator: '2D'
@@ -31107,13 +31081,13 @@ Rubin:
     level-base: '38'
     level-scale: '28'
     cost-base: '3'
-    cost-scale: '3'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '10'
     mana-base: '15'
     mana-scale: '15'
-    points-spent-req-base: '4'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Sapphire'
     - 'Ray'
@@ -31141,10 +31115,11 @@ Rubin:
   - '&2Caster becomes immune to &6all damage &2for &6{attr:Imm.seconds}&6s.'
   - '&2or sacrifices &610% &2of the actual health to gain   '
   - '&2blessing from the &6god of thunder &2for &6{attr:BGT.seconds}&6s.'
+  - '&2Each lightning deals &6true damage'
+  - "&2equal to &6{attr:LightningDMG.value} &2+ &6{attr:LightningDMGPercent.value}&6% &2target's &6missing health."
   - ''
   - '&2Mana: {attr:mana}'
   - '&2Cooldown: {attr:cooldown}'
-  - '&2Thunder: {attr:LightningDMG.value} &6true damage.'
   - ''
   - '&2Determination tree ultimate.'
   desc:  []
@@ -31556,20 +31531,7 @@ Rubin:
                             right-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Damage-cb: 
-                          type: 'mechanic'
-                          indicator: '3D'
-                          data: 
-                            icon-key: 'LightningDMG'
-                            counts: 'True'
-                            type: 'Damage'
-                            value-base: '7.5'
-                            value-scale: '3.5'
-                            true: 'True'
-                            classifier: 'True'
-                            indicator: '2D'
-                          children:  {}
-                        Particle Animation-db: 
+                        Particle Animation-cb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -31600,7 +31562,7 @@ Rubin:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-eb: 
+                        Particle Animation-db: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -31636,7 +31598,7 @@ Rubin:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Flag-fb: 
+                        Flag-eb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -31647,7 +31609,33 @@ Rubin:
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
-    Skill Damage-gb: 
+                        Damage-fb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'LightningDMGPercent'
+                            counts: 'True'
+                            type: 'Percent Missing'
+                            value-base: '2.5'
+                            value-scale: '1'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
+                        Damage-gb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'LightningDMG'
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: '7.75'
+                            value-scale: '3.75'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
+    Skill Damage-hb: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -31661,7 +31649,7 @@ Rubin:
         - ''
         indicator: '2D'
       children: 
-        Remember Targets-hb: 
+        Remember Targets-ib: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -31670,7 +31658,7 @@ Rubin:
             key: 'theTarget'
             indicator: '2D'
           children:  {}
-        Self-ib: 
+        Self-jb: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -31680,7 +31668,7 @@ Rubin:
             wall: 'false'
             caster: 'false'
           children: 
-            Flag-jb: 
+            Flag-kb: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -31689,7 +31677,7 @@ Rubin:
                 key: 'DefenseFlag'
                 indicator: '2D'
               children: 
-                Defense Buff-kb: 
+                Defense Buff-lb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -31703,7 +31691,7 @@ Rubin:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-lb: 
+                Defense Buff-mb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -31717,7 +31705,7 @@ Rubin:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Flag-mb: 
+                Flag-nb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -31728,7 +31716,7 @@ Rubin:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-nb: 
+                Particle Animation-ob: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -31764,7 +31752,7 @@ Rubin:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ob: 
+                Particle Animation-pb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -31800,7 +31788,7 @@ Rubin:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-        Self-pb: 
+        Self-qb: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -31810,7 +31798,7 @@ Rubin:
             wall: 'false'
             caster: 'false'
           children: 
-            Flag-qb: 
+            Flag-rb: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -31819,7 +31807,7 @@ Rubin:
                 key: 'BGT'
                 indicator: '2D'
               children: 
-                Remember-rb: 
+                Remember-sb: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -31830,7 +31818,7 @@ Rubin:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Flag-sb: 
+                    Flag-tb: 
                       type: 'condition'
                       indicator: '3D'
                       data: 
@@ -31839,7 +31827,7 @@ Rubin:
                         key: 'cd'
                         indicator: '2D'
                       children: 
-                        Lightning-tb: 
+                        Lightning-ub: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -31850,19 +31838,6 @@ Rubin:
                             forward-scale: '0'
                             right-base: '0'
                             right-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Damage-ub: 
-                          type: 'mechanic'
-                          indicator: '3D'
-                          data: 
-                            icon-key: ''
-                            counts: 'True'
-                            type: 'Damage'
-                            value-base: '7.5'
-                            value-scale: '3.5'
-                            true: 'True'
-                            classifier: 'True'
                             indicator: '2D'
                           children:  {}
                         Particle Animation-vb: 
@@ -31943,6 +31918,32 @@ Rubin:
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
+                        Damage-yb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: '2.5'
+                            value-scale: '1'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
+                        Damage-zb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: '7.5'
+                            value-scale: '3.5'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
     Cast: 
       type: 'trigger'
       indicator: '3D'
@@ -31950,7 +31951,7 @@ Rubin:
         icon-key: ''
         indicator: '2D'
       children: 
-        Crouch-zb: 
+        Crouch-bc: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -31958,18 +31959,18 @@ Rubin:
             crouch: 'False'
             indicator: '2D'
           children: 
-            Flag-ac: 
+            Flag-cc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
                 icon-key: 'Imm'
                 counts: 'True'
                 key: 'Imm'
-                seconds-base: '3.5'
+                seconds-base: '3'
                 seconds-scale: '2'
                 indicator: '2D'
               children:  {}
-            Particle Animation-bc: 
+            Particle Animation-dc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32005,7 +32006,7 @@ Rubin:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-cc: 
+            Sound-ec: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32018,7 +32019,7 @@ Rubin:
                 pitch-scale: '0.02'
                 indicator: '2D'
               children:  {}
-        Crouch-dc: 
+        Crouch-fc: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -32026,7 +32027,7 @@ Rubin:
             crouch: 'True'
             indicator: '2D'
           children: 
-            Flag-ec: 
+            Flag-gc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32037,7 +32038,7 @@ Rubin:
                 seconds-scale: '4'
                 indicator: '2D'
               children:  {}
-            Particle Animation-fc: 
+            Particle Animation-hc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32073,7 +32074,7 @@ Rubin:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-gc: 
+            Sound-ic: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32093,7 +32094,7 @@ Rubin:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-ic: 
+        Value Set-kc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -32104,7 +32105,7 @@ Rubin:
             value-scale: '2'
             indicator: '2D'
           children:  {}
-        Value Set-jc: 
+        Value Set-lc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -32115,7 +32116,7 @@ Rubin:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-kc: 
+        Value Set-mc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -32126,7 +32127,7 @@ Rubin:
             value-scale: '5'
             indicator: '2D'
           children:  {}
-        Passive-lc: 
+        Passive-nc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -32136,7 +32137,7 @@ Rubin:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-mc: 
+            Potion-oc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -32161,13 +32162,13 @@ Sapphire:
     level-base: '38'
     level-scale: '28'
     cost-base: '3'
-    cost-scale: '3'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '10'
     mana-base: '15'
     mana-scale: '15'
-    points-spent-req-base: '4'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Rubin'
     - 'Void'
@@ -32195,10 +32196,10 @@ Sapphire:
   - '&3Allows to breath underwater.'
   - ''
   - '&6Active:'
-  - '&3Steals &6{attr:ValMana.value} &6mana&3 from the target or '
-  - '&6detonates &3it &6dealing area arcane damage &3equal to '
-  - "&690% &3of the target's  &6current mana."
-  - '&3Deals &6{attr:DamageUse.value} &6arcane damage,'
+  - '&3Steals &6{attr:ManaLor.value} &6mana&3 from the target or '
+  - '&6detonates &3it.'
+  - '&3The detonation deals &6{attr:TrueManaDamage.value} &6area true damage.'
+  - '&3Each cast deals &6{attr:DamageUse.value} &6arcane damage,'
   - '&6disarms &3and &6immobilizes &3targets &3for &6{attr:disa.duration}&6s.'
   - "&6Lowers &3target's &6defense &3by &6{attr:PDdb.value}&6%&3 and"
   - '&6resistance &3by &6{attr:MDdb.value}&6% for &6{attr:DBSeconds.seconds}&6s.'
@@ -32832,20 +32833,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Damage-nb: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    type: 'Damage'
-                    value-base: '19'
-                    value-scale: '9'
-                    true: 'False'
-                    classifier: 'Arcane'
-                    indicator: '2D'
-                  children:  {}
-                Status-ob: 
+                Status-nb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32856,7 +32844,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Status-pb: 
+                Status-ob: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32867,7 +32855,7 @@ Sapphire:
                     duration-scale: '0.7'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-qb: 
+                Defense Buff-pb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32881,7 +32869,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-rb: 
+                Defense Buff-qb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32895,7 +32883,7 @@ Sapphire:
                     seconds-scale: '0.5'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-sb: 
+                Particle Animation-rb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32931,7 +32919,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-tb: 
+                Particle Animation-sb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -32967,7 +32955,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ub: 
+                Particle Animation-tb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33003,7 +32991,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-vb: 
+                Particle Animation-ub: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33039,7 +33027,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-wb: 
+                Sound-vb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33052,7 +33040,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Sound-xb: 
+                Sound-wb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33063,6 +33051,19 @@ Sapphire:
                     volume-scale: '0'
                     pitch-base: '0.6'
                     pitch-scale: '0.02'
+                    indicator: '2D'
+                  children:  {}
+                Damage-xb: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '19'
+                    value-scale: '9'
+                    true: 'False'
+                    classifier: 'Arcane'
                     indicator: '2D'
                   children:  {}
                 Self-yb: 
@@ -33079,7 +33080,7 @@ Sapphire:
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
-                        icon-key: ''
+                        icon-key: 'ManaLor'
                         counts: 'True'
                         type: 'Mana'
                         value-base: '15'
@@ -33206,28 +33207,7 @@ Sapphire:
                 indicator: '2D'
                 caster: 'false'
               children: 
-                Value Mana-gc: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    key: 'CMT'
-                    type: 'Current'
-                    indicator: '2D'
-                  children:  {}
-                Value Multiply-hc: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    key: 'CMT'
-                    multiplier-base: '0.9'
-                    multiplier-scale: '0'
-                    indicator: '2D'
-                  children:  {}
-                Mana-ic: 
+                Mana-gc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33238,7 +33218,7 @@ Sapphire:
                     value-scale: '-20'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-jc: 
+                Particle Animation-hc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33274,7 +33254,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Sound-kc: 
+                Sound-ic: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33287,7 +33267,7 @@ Sapphire:
                     pitch-scale: '0.02'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-lc: 
+                Particle Animation-jc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33323,7 +33303,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-mc: 
+                Particle Animation-kc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33359,7 +33339,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-nc: 
+                Particle Animation-lc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33395,7 +33375,7 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-oc: 
+                Particle Animation-mc: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -33431,7 +33411,48 @@ Sapphire:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Area-pc: 
+                Defense Buff-nc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Multiplier'
+                    skill: 'True'
+                    value-base: '1.05'
+                    value-scale: '0.05'
+                    seconds-base: '3.25'
+                    seconds-scale: '0.5'
+                    indicator: '2D'
+                  children:  {}
+                Defense Buff-oc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: ''
+                    counts: 'True'
+                    type: 'Multiplier'
+                    skill: 'False'
+                    value-base: '1.08'
+                    value-scale: '0.08'
+                    seconds-base: '3.25'
+                    seconds-scale: '0.5'
+                    indicator: '2D'
+                  children:  {}
+                Damage-pc: 
+                  type: 'mechanic'
+                  indicator: '3D'
+                  data: 
+                    icon-key: 'DamageUse'
+                    counts: 'True'
+                    type: 'Damage'
+                    value-base: '19'
+                    value-scale: '9'
+                    true: 'False'
+                    classifier: 'Arcane'
+                    indicator: '2D'
+                  children:  {}
+                Area-qc: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -33446,7 +33467,7 @@ Sapphire:
                     random: 'False'
                     indicator: '2D'
                   children: 
-                    Particle Animation-qc: 
+                    Particle Animation-rc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33482,7 +33503,7 @@ Sapphire:
                         right: '0'
                         indicator: '2D'
                       children:  {}
-                    Sound-rc: 
+                    Sound-sc: 
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
@@ -33493,19 +33514,6 @@ Sapphire:
                         volume-scale: '0'
                         pitch-base: '0.6'
                         pitch-scale: '0.02'
-                        indicator: '2D'
-                      children:  {}
-                    Damage-sc: 
-                      type: 'mechanic'
-                      indicator: '3D'
-                      data: 
-                        icon-key: 'DamageUse'
-                        counts: 'True'
-                        type: 'Damage'
-                        value-base: '38'
-                        value-scale: '17'
-                        true: 'False'
-                        classifier: 'Arcane'
                         indicator: '2D'
                       children:  {}
                     Status-tc: 
@@ -33617,43 +33625,15 @@ Sapphire:
                       type: 'mechanic'
                       indicator: '3D'
                       data: 
-                        icon-key: 'Constant'
+                        icon-key: 'TrueManaDamage'
                         counts: 'True'
                         type: 'Damage'
-                        value-base: 'CMT'
-                        value-scale: '0'
-                        true: 'False'
-                        classifier: 'Arcane'
+                        value-base: '15'
+                        value-scale: '20'
+                        true: 'True'
+                        classifier: 'True'
                         indicator: '2D'
                       children:  {}
-                Defense Buff-zc: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    type: 'Multiplier'
-                    skill: 'True'
-                    value-base: '1.05'
-                    value-scale: '0.05'
-                    seconds-base: '3.25'
-                    seconds-scale: '0.5'
-                    indicator: '2D'
-                  children:  {}
-                Defense Buff-ad: 
-                  type: 'mechanic'
-                  indicator: '3D'
-                  data: 
-                    icon-key: ''
-                    counts: 'True'
-                    type: 'Multiplier'
-                    skill: 'False'
-                    value-base: '1.08'
-                    value-scale: '0.08'
-                    seconds-base: '3.25'
-                    seconds-scale: '0.5'
-                    indicator: '2D'
-                  children:  {}
     Initialize: 
       type: 'trigger'
       indicator: '3D'
@@ -33661,7 +33641,7 @@ Sapphire:
         icon-key: ''
         indicator: '2D'
       children: 
-        Passive-cd: 
+        Passive-ad: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33671,7 +33651,7 @@ Sapphire:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-dd: 
+            Potion-bd: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -33685,7 +33665,7 @@ Sapphire:
                 seconds-scale: '1'
                 indicator: '2D'
               children:  {}
-        Value Set-ed: 
+        Value Set-cd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33696,7 +33676,7 @@ Sapphire:
             value-scale: '4'
             indicator: '2D'
           children:  {}
-        Value Set-fd: 
+        Value Set-dd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33707,7 +33687,7 @@ Sapphire:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-gd: 
+        Value Set-ed: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33718,7 +33698,7 @@ Sapphire:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-hd: 
+        Value Set-fd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33729,7 +33709,7 @@ Sapphire:
             value-scale: '8'
             indicator: '2D'
           children:  {}
-        Value Set-id: 
+        Value Set-gd: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -33750,7 +33730,7 @@ Shadow:
   attributes: 
     level-base: '12'
     level-scale: '12'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '12'
     cooldown-scale: '-1.5'
@@ -33794,8 +33774,8 @@ Shadow:
           indicator: '3D'
           data: 
             icon-key: 'Range'
-            range-base: '6'
-            range-scale: '2.5'
+            range-base: '9.85'
+            range-scale: '6.85'
             tolerance-base: '3'
             tolerance-scale: '1'
             group: 'Enemy'
@@ -34094,14 +34074,14 @@ Shrewdness:
   attributes: 
     level-base: '13'
     level-scale: '13'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Haste'
     - 'Powerness'
@@ -34266,13 +34246,13 @@ Silence:
     level-base: '12'
     level-scale: '12'
     cost-base: '1'
-    cost-scale: '2'
+    cost-scale: '1'
     cooldown-base: '15'
     cooldown-scale: '8'
     mana-base: '20'
     mana-scale: '11'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -34676,14 +34656,14 @@ Splash:
   attributes: 
     level-base: '28'
     level-scale: '12'
-    cost-base: '15'
-    cost-scale: '5'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '25'
     cooldown-scale: '15'
     mana-base: '76'
     mana-scale: '39'
-    points-spent-req-base: '15'
-    points-spent-req-scale: '5'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -34698,7 +34678,6 @@ Splash:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons powerful wave of water'
   - '&3which pushes enemies.'
@@ -35058,8 +35037,8 @@ Splash:
                                     icon-key: 'Damage'
                                     counts: 'True'
                                     type: 'Damage'
-                                    value-base: '25'
-                                    value-scale: '12.5'
+                                    value-base: '22.85'
+                                    value-scale: '12.75'
                                     true: 'False'
                                     classifier: 'Water'
                                     indicator: '2D'
@@ -36867,13 +36846,13 @@ Summon Wolf:
     level-base: '11'
     level-scale: '15'
     cost-base: '3'
-    cost-scale: '4'
+    cost-scale: '1'
     cooldown-base: '60'
     cooldown-scale: '48'
     mana-base: '45'
     mana-scale: '31'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '4'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -36886,7 +36865,6 @@ Summon Wolf:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Caster uses magic power to'
   - '&3summon spirit wolves.'
@@ -37077,13 +37055,13 @@ Teleportation:
   attributes: 
     level-base: '8'
     level-scale: '12'
-    cost-base: '3'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '9'
     cooldown-scale: '6'
     mana-base: '25'
     mana-scale: '13'
-    points-spent-req-base: '3'
+    points-spent-req-base: '0'
     points-spent-req-scale: '0'
     incompatible: 
     - ''
@@ -37121,8 +37099,8 @@ Teleportation:
           indicator: '3D'
           data: 
             icon-key: 'Range'
-            range-base: '15'
-            range-scale: '12'
+            range-base: '17'
+            range-scale: '9.75'
             ground: 'False'
             indicator: '2D'
             group: 'enemy'
@@ -37437,14 +37415,14 @@ Thornmail:
   attributes: 
     level-base: '13'
     level-scale: '13'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Haste'
     - 'Shrewdness'
@@ -37583,14 +37561,14 @@ Thunder:
   attributes: 
     level-base: '48'
     level-scale: '16'
-    cost-base: '20'
-    cost-scale: '10'
+    cost-base: '3'
+    cost-scale: '1'
     cooldown-base: '45'
     cooldown-scale: '28'
     mana-base: '95'
     mana-scale: '48'
-    points-spent-req-base: '20'
-    points-spent-req-scale: '10'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -37605,7 +37583,6 @@ Thunder:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons thunder on targeted area.'
   - ''
@@ -38182,8 +38159,8 @@ Titan:
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Pression'
     - 'Permeability'
@@ -38804,14 +38781,14 @@ Tsunami:
   attributes: 
     level-base: '40'
     level-scale: '14'
-    cost-base: '20'
-    cost-scale: '10'
+    cost-base: '3'
+    cost-scale: '1'
     cooldown-base: '42'
     cooldown-scale: '21'
     mana-base: '92'
     mana-scale: '48'
-    points-spent-req-base: '20'
-    points-spent-req-scale: '10'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -38826,7 +38803,6 @@ Tsunami:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons powerful waves of water'
   - '&3around caster which pushes enemies.'
@@ -40850,13 +40826,13 @@ Void:
     level-base: '38'
     level-scale: '28'
     cost-base: '3'
-    cost-scale: '3'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '10'
     mana-base: '15'
     mana-scale: '15'
-    points-spent-req-base: '4'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Sapphire'
     - 'Ray'
@@ -43952,7 +43928,7 @@ Void:
 Windblast: 
   name: 'Windblast'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
@@ -43960,13 +43936,13 @@ Windblast:
     level-base: '7'
     level-scale: '8'
     cost-base: '1'
-    cost-scale: '2'
+    cost-scale: '1'
     cooldown-base: '8'
     cooldown-scale: '1'
     mana-base: '13'
     mana-scale: '8'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -44226,7 +44202,7 @@ Windblast:
                                 counts: 'True'
                                 type: 'Damage'
                                 value-base: '9.5'
-                                value-scale: '3.9'
+                                value-scale: '5.9'
                                 true: 'False'
                                 classifier: 'Wind'
                                 indicator: '2D'
@@ -44418,7 +44394,7 @@ WOLFPARTICLE:
     level-base: '0'
     level-scale: '0'
     cost-base: '9999'
-    cost-scale: '0'
+    cost-scale: '1'
     cooldown-base: '3'
     cooldown-scale: '0'
     mana-base: '0'

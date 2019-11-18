@@ -1,7 +1,7 @@
 Earthshock: 
   name: 'Earthshock'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
@@ -9,13 +9,13 @@ Earthshock:
     level-base: '7'
     level-scale: '8'
     cost-base: '1'
-    cost-scale: '2'
+    cost-scale: '1'
     cooldown-base: '7'
     cooldown-scale: '1'
     mana-base: '15'
     mana-scale: '8'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -30,7 +30,6 @@ Earthshock:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Using mana to move'
   - '&3a ground and shock enemies. '
@@ -190,7 +189,7 @@ Earthshock:
                             counts: 'True'
                             type: 'Damage'
                             value-base: '16'
-                            value-scale: '2.7'
+                            value-scale: '4.7'
                             true: 'False'
                             classifier: 'Earth'
                             indicator: '2D'

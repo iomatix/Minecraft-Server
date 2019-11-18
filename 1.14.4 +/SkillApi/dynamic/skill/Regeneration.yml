@@ -1,21 +1,21 @@
 Regeneration: 
   name: 'Regeneration'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
   attributes: 
     level-base: '7'
     level-scale: '8'
-    cost-base: '2'
-    cost-scale: '2'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '36'
     cooldown-scale: '8'
     mana-base: '15'
     mana-scale: '8'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -30,7 +30,6 @@ Regeneration:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Regenerates mana and health allies near'
   - '&3the caster. '

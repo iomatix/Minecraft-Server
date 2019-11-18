@@ -8,13 +8,13 @@ Teleportation:
   attributes: 
     level-base: '8'
     level-scale: '12'
-    cost-base: '3'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '9'
     cooldown-scale: '6'
     mana-base: '25'
     mana-scale: '13'
-    points-spent-req-base: '3'
+    points-spent-req-base: '0'
     points-spent-req-scale: '0'
     incompatible: 
     - ''
@@ -52,8 +52,8 @@ Teleportation:
           indicator: '3D'
           data: 
             icon-key: 'Range'
-            range-base: '15'
-            range-scale: '12'
+            range-base: '17'
+            range-scale: '9.75'
             ground: 'False'
             indicator: '2D'
             group: 'enemy'

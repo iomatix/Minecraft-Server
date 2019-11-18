@@ -8,14 +8,14 @@ Magic Absolution:
   attributes: 
     level-base: '16'
     level-scale: '12'
-    cost-base: '5'
-    cost-scale: '8'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '45'
     mana-base: '45'
     mana-scale: '55'
-    points-spent-req-base: '5'
-    points-spent-req-scale: '8'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'

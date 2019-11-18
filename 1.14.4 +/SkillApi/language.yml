@@ -19,9 +19,9 @@ Errors:
   no-skills: '&4That class does not have any skills'
   cannot-use: '&4You cannot equip that item'
 GUI: 
-  attribute-title: 'Attributes ({points} points)'
+  attribute-title: '&0Attributes (&6{points} Attribute Points&0)'
   profess-title: 'Profess'
-  skill-tree: '{class}'
+  skill-tree: '&0{class} (&6{points} Skill Points&0)'
   skill-class-list: '{player}'
 Skill Tree: 
   title: '{name} ({level}/{max})'
@@ -46,10 +46,10 @@ Skill Tree:
   - '&2Details: &7{desc:1}'
   - '&7{desc:2-x}'
 Stats: 
-  health: '&2Health'
+  health: '&2HP'
   points: '&2SP'
-  level: '&2Level'
-  exp: '&2Exp'
+  level: '&2LVL'
+  exp: '&2EXP'
   attrib: '&2AP'
 Status: 
   silenced: '&4You are silenced for another &6{duration} &4seconds'

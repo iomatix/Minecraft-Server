@@ -8,8 +8,8 @@ lvlup:
   attributes: 
     level-base: '0'
     level-scale: '0'
-    cost-base: '0'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'

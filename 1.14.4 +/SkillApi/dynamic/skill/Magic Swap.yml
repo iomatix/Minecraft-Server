@@ -8,13 +8,13 @@ Magic Swap:
   attributes: 
     level-base: '12'
     level-scale: '12'
-    cost-base: '5'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '12'
     cooldown-scale: '7'
     mana-base: '28'
     mana-scale: '14'
-    points-spent-req-base: '5'
+    points-spent-req-base: '0'
     points-spent-req-scale: '0'
     incompatible: 
     - ''
@@ -52,7 +52,7 @@ Magic Swap:
           data: 
             icon-key: 'Range'
             range-base: '10'
-            range-scale: '12'
+            range-scale: '8'
             ground: 'True'
             indicator: '2D'
             group: 'enemy'

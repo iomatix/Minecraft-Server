@@ -8,14 +8,14 @@ Magic Missile:
   attributes: 
     level-base: '3'
     level-scale: '6'
-    cost-base: '1'
-    cost-scale: '1'
+    cost-base: '1.5'
+    cost-scale: '0.5'
     cooldown-base: '4'
     cooldown-scale: '0.5'
     mana-base: '12'
     mana-scale: '7'
     points-spent-req-base: '0'
-    points-spent-req-scale: '2'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'

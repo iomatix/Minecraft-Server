@@ -8,14 +8,14 @@ Powerness:
   attributes: 
     level-base: '13'
     level-scale: '13'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '0'
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Haste'
     - 'Shrewdness'

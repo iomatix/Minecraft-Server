@@ -14,8 +14,8 @@ Permeability:
     cooldown-scale: '0'
     mana-base: '0'
     mana-scale: '0'
-    points-spent-req-base: '3'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Pression'
     - 'Titan'

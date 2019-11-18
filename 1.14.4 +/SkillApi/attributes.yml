@@ -84,8 +84,8 @@ intelligence:
   icon-lore: 
   - '&6Intelligence &7(&2{amount}&7)'
   - ''
-  - '&2Grants 2.5% ability power,'
-  - '&20.5% true damage,'
+  - '&2Grants 3% ability power,'
+  - '&20.55% true damage,'
   - '&20.45 mana regeneration,'
   - '&20.15% cooldown reduction and'
   - '&20.16% exp gain'
@@ -94,11 +94,11 @@ intelligence:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.005+1*v)+(a*0.07+v):classifier=True|(a*0.025+1*v)+(a*1.35+v):classifier=default|(a*0.025+1*v)+(a*1.35+v):classifier=Fire|(a*0.025+1*v)+(a*1.35+v):classifier=Ice|(a*0.025+1*v)+(a*1.35+v):classifier=Earth|a*0.025+1*v:classifier=Water|(a*0.025+1*v)+(a*1.35+v):classifier=Wind|(a*0.025+1*v)+(a*1.35+v):classifier=Arcane|(a*0.025+1*v)+(a*1.35+v):classifier=Dark|(a*0.015+1*v)+(a*1.35+v):classifier=Void'
-      Wolf-damage: '(a*0.025+1*v)+(a*1.35+v)'
-      Wolf-health: '(a*0.025+1*v)+(a*1.35+v)'
-      Heal-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(a*0.025+1*v)+(a*1.35+v):type=Health'
-      Mana-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(-a*0.025+1*v)+(-a*0.65+v):icon-key=Subtract|(a*0.025+1*v)+(a*0.65+v):type=Mana'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0055+1*v)+(a*0.07+v):classifier=True|(a*0.03+1*v)+(a*1.35+v):classifier=default|(a*0.03+1*v)+(a*1.35+v):classifier=Fire|(a*0.03+1*v)+(a*1.35+v):classifier=Ice|(a*0.03+1*v)+(a*1.35+v):classifier=Earth|a*0.03+1*v:classifier=Water|(a*0.03+1*v)+(a*1.35+v):classifier=Wind|(a*0.03+1*v)+(a*1.35+v):classifier=Arcane|(a*0.03+1*v)+(a*1.35+v):classifier=Dark|(a*0.02+1*v)+(a*0.85+v):classifier=Void'
+      Wolf-damage: '(a*0.03+1*v)+(a*1.35+v)'
+      Wolf-health: '(a*0.03+1*v)+(a*1.35+v)'
+      Heal-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(a*0.03+1*v)+(a*1.35+v):type=Health'
+      Mana-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(-a*0.03+1*v)+(-a*0.65+v):icon-key=Subtract|(a*0.03+1*v)+(a*0.65+v):type=Mana'
       #NONPREMIUM:Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|(a*0.025+1*v)+(a*1.35+v):type=Damage
     target:  {}
   stats: 
@@ -117,7 +117,7 @@ dexterity:
   - '&21.15 ranged damage,'
   - '&20.55 melee damage,'
   - '&20.6% true damage,'
-  - '&20.15% fall defense,'
+  - '&20.2% fall defense,'
   - '&20.09% movement speed and'
   - '&20.13% attack speed'
   - '&2per point invested.'
@@ -125,7 +125,7 @@ dexterity:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.0025+1*v)+(a*1.15+v):classifier=Physical|(a*0.006+1*v)+(a*0.15+v):classifier=True'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.003+1*v)+(a*1.15+v):classifier=Physical|(a*0.006+1*v)+(a*0.15+v):classifier=True'
     target: 
       Cone-range: 'a*0.0025+1*v'
       Linear-range: 'a*0.0025+1*v'
@@ -133,7 +133,7 @@ dexterity:
       Nearest-radius: 'a*0.0025+1*v'
       Single-range: 'a*0.0025+1*v'
   stats:
-    defense-fall: '(-a*0.0015)+1*v'
+    defense-fall: '(-a*0.002)+1*v'
     projectile-damage: '(a*0.001+1*v)+(a*1.15+v)'
     melee-damage: '(a*0.0025+1*v)+(a*0.55+v)'
     move-speed: 'a*0.0009+1*v'
@@ -148,23 +148,23 @@ strength:
   - ''
   - '&2Grants 1.45 increased melee damage,'
   - '&20.25 increased projectile damage,'
-  - '&22.5% reflected damage,'
+  - '&23.5% reflected damage,'
   - '&20.2% knockback resist,'
-  - '&21% armor and'
-  - '&20.2% armor toughness'
+  - '&21.5% armor and'
+  - '&20.1% armor toughness'
   - '&2per point invested.'
   - '&2Grants physical damage bonuses.'
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.015+1*v)+(a*1.45+v):classifier=Physical|a*0.035+1*v:classifier=Reflected'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.02+1*v)+(a*1.45+v):classifier=Physical|(a*0.035+1*v)+(a*0.375+v):classifier=Reflected'
     target:  {}
   stats: 
     projectile-damage: '(a*0.0004+1*v)+(a*0.25+v)'
     melee-damage: '(a*0.0015+1*v)+(a*1.45+v)'
     knockback-resist: 'a*0.002+1*v'
-    armor-toughness: 'a*0.002+1*v'
-    armor: 'a*0.01+1*v'
+    armor-toughness: 'a*0.001+1*v'
+    armor: 'a*0.015+1*v'
 eternity: 
   display: 'Eternity'
   max: '10'
@@ -173,15 +173,16 @@ eternity:
   icon-lore: 
   - '&5Eternity &7(&2{amount}&7)'
   - ''
-  - '&6Grants 2.5% increased true damage,'
+  - '&6Grants 3% increased true damage,'
   - '&65% void damage and'
+  - '&60.75% true damage'
   - '&62% mana regeneration'
   - '&6per point invested.'
   - '&6Grants void and true damage bonuses.'
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.05+1*v)+(a*1.1+v):classifier=Void|(a*0.0025+1*v)+(a*0.55+v):classifier=True'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.05+1*v)+(a*1.35+v):classifier=Void|(a*0.0075+1*v)+(a*0.65+v):classifier=True'
     target:  {}
   stats:
     mana-regen: 'a*0.02+1*v'
@@ -196,13 +197,14 @@ holiness:
   - '&6Grants 5% increased healing,
   - '&62.75 projectile damage and'
   - '&61% physical damage'
+  - '&60.15% true damage'
   - '&6per point invested.'
   - '&6Grants physical damage and heal bonuses.'
   global: 
     condition:  {}
     mechanic:
       Heal-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(a*0.05+1*v)+(a*1.1+v):type=Health'
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.01+1*v)+(a*1.75+v):classifier=Physical|(a*0.001+1*v)+(a*0.35+v):classifier=True'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|(a*0.01+1*v)+(a*1.75+v):classifier=Physical|(a*0.0015+1*v)+(a*0.35+v):classifier=True'
     target:  {}
   stats: 
     physical-damage: '(a*0.01+1*v)+(a*1.75+v)'
@@ -216,14 +218,15 @@ arcan:
   - '&3Arcan &7(&2{amount}&7)'
   - ''
   - '&6Grants 5% increased arcane damage,'
-  - '&63% offensive spell power and'
+  - '&64% offensive spell power and'
+  - '&60.15% true damage'
   - '&61% exp gain'
   - '&6per point invested.'
   - '&6Grants ability damage bonuses.'
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|a*0.005+1*v:classifier=True|(a*0.05+1*v)+(a*1.1+v):classifier=Arcane|(a*0.03+1*v)+(a*1.0+v):classifier=Fire|(a*0.03+1*v)+(a*1.0+v):classifier=Ice|(a*0.03+1*v)+(a*1.0+v):classifier=Earth|(a*0.03+1*v)+(a*1.0+v):classifier=Water|(a*0.03+1*v)+(a*1.0+v):classifier=Wind|(a*0.03+1*v)+(a*1.0+v):classifier=Dark|(a*0.03+1*v)+(a*1.0+v):classifier=Void'    
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0015+1*v)+(a*0.18+v):classifier=True|(a*0.05+1*v)+(a*1.1+v):classifier=Arcane|(a*0.04+1*v)+(a*1.0+v):classifier=Fire|(a*0.04+1*v)+(a*1.0+v):classifier=Ice|(a*0.04+1*v)+(a*1.0+v):classifier=Earth|(a*0.04+1*v)+(a*1.0+v):classifier=Water|(a*0.04+1*v)+(a*1.0+v):classifier=Wind|(a*0.04+1*v)+(a*1.0+v):classifier=Dark|(a*0.03+1*v)+(a*1.0+v):classifier=Void'    
     target:  {}
   stats: 
     exp: 'a*0.01+1*v'

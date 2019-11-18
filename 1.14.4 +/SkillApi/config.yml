@@ -282,7 +282,7 @@ GUI:
   class-level-text: 'lvl'
 
   # Whether or not to append text to skill icons to show what type of item the skill is bound to
-  show-binds: 'false'
+  show-binds: 'true'
 
   # Text to show for bound materials
   show-bind-text: 'Bound to {material}'

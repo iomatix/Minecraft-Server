@@ -8,14 +8,14 @@ Magic Shield:
   attributes: 
     level-base: '8'
     level-scale: '14'
-    cost-base: '2'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '6'
     cooldown-scale: '1'
     mana-base: '16'
     mana-scale: '11'
-    points-spent-req-base: '2'
-    points-spent-req-scale: '1'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'

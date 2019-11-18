@@ -8,7 +8,7 @@ Shadow:
   attributes: 
     level-base: '12'
     level-scale: '12'
-    cost-base: '2'
+    cost-base: '1'
     cost-scale: '1'
     cooldown-base: '12'
     cooldown-scale: '-1.5'
@@ -52,8 +52,8 @@ Shadow:
           indicator: '3D'
           data: 
             icon-key: 'Range'
-            range-base: '6'
-            range-scale: '2.5'
+            range-base: '9.85'
+            range-scale: '6.85'
             tolerance-base: '3'
             tolerance-scale: '1'
             group: 'Enemy'

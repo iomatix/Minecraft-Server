@@ -9,13 +9,13 @@ Rubin:
     level-base: '38'
     level-scale: '28'
     cost-base: '3'
-    cost-scale: '3'
+    cost-scale: '1'
     cooldown-base: '30'
     cooldown-scale: '10'
     mana-base: '15'
     mana-scale: '15'
-    points-spent-req-base: '4'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - 'Sapphire'
     - 'Ray'
@@ -43,10 +43,11 @@ Rubin:
   - '&2Caster becomes immune to &6all damage &2for &6{attr:Imm.seconds}&6s.'
   - '&2or sacrifices &610% &2of the actual health to gain   '
   - '&2blessing from the &6god of thunder &2for &6{attr:BGT.seconds}&6s.'
+  - '&2Each lightning deals &6true damage'
+  - "&2equal to &6{attr:LightningDMG.value} &2+ &6{attr:LightningDMGPercent.value}&6% &2target's &6missing health."
   - ''
   - '&2Mana: {attr:mana}'
   - '&2Cooldown: {attr:cooldown}'
-  - '&2Thunder: {attr:LightningDMG.value} &6true damage.'
   - ''
   - '&2Determination tree ultimate.'
   desc:  []
@@ -458,20 +459,7 @@ Rubin:
                             right-scale: '0'
                             indicator: '2D'
                           children:  {}
-                        Damage-cb: 
-                          type: 'mechanic'
-                          indicator: '3D'
-                          data: 
-                            icon-key: 'LightningDMG'
-                            counts: 'True'
-                            type: 'Damage'
-                            value-base: '7.5'
-                            value-scale: '3.5'
-                            true: 'True'
-                            classifier: 'True'
-                            indicator: '2D'
-                          children:  {}
-                        Particle Animation-db: 
+                        Particle Animation-cb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -502,7 +490,7 @@ Rubin:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Particle Animation-eb: 
+                        Particle Animation-db: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -538,7 +526,7 @@ Rubin:
                             right: '0'
                             indicator: '2D'
                           children:  {}
-                        Flag-fb: 
+                        Flag-eb: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -549,7 +537,33 @@ Rubin:
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
-    Skill Damage-gb: 
+                        Damage-fb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'LightningDMGPercent'
+                            counts: 'True'
+                            type: 'Percent Missing'
+                            value-base: '2.5'
+                            value-scale: '1'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
+                        Damage-gb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: 'LightningDMG'
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: '7.75'
+                            value-scale: '3.75'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
+    Skill Damage-hb: 
       type: 'trigger'
       indicator: '3D'
       data: 
@@ -563,7 +577,7 @@ Rubin:
         - ''
         indicator: '2D'
       children: 
-        Remember Targets-hb: 
+        Remember Targets-ib: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -572,7 +586,7 @@ Rubin:
             key: 'theTarget'
             indicator: '2D'
           children:  {}
-        Self-ib: 
+        Self-jb: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -582,7 +596,7 @@ Rubin:
             wall: 'false'
             caster: 'false'
           children: 
-            Flag-jb: 
+            Flag-kb: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -591,7 +605,7 @@ Rubin:
                 key: 'DefenseFlag'
                 indicator: '2D'
               children: 
-                Defense Buff-kb: 
+                Defense Buff-lb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -605,7 +619,7 @@ Rubin:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Defense Buff-lb: 
+                Defense Buff-mb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -619,7 +633,7 @@ Rubin:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Flag-mb: 
+                Flag-nb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -630,7 +644,7 @@ Rubin:
                     seconds-scale: '2'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-nb: 
+                Particle Animation-ob: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -666,7 +680,7 @@ Rubin:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-                Particle Animation-ob: 
+                Particle Animation-pb: 
                   type: 'mechanic'
                   indicator: '3D'
                   data: 
@@ -702,7 +716,7 @@ Rubin:
                     right: '0'
                     indicator: '2D'
                   children:  {}
-        Self-pb: 
+        Self-qb: 
           type: 'target'
           indicator: '3D'
           data: 
@@ -712,7 +726,7 @@ Rubin:
             wall: 'false'
             caster: 'false'
           children: 
-            Flag-qb: 
+            Flag-rb: 
               type: 'condition'
               indicator: '3D'
               data: 
@@ -721,7 +735,7 @@ Rubin:
                 key: 'BGT'
                 indicator: '2D'
               children: 
-                Remember-rb: 
+                Remember-sb: 
                   type: 'target'
                   indicator: '3D'
                   data: 
@@ -732,7 +746,7 @@ Rubin:
                     wall: 'false'
                     caster: 'false'
                   children: 
-                    Flag-sb: 
+                    Flag-tb: 
                       type: 'condition'
                       indicator: '3D'
                       data: 
@@ -741,7 +755,7 @@ Rubin:
                         key: 'cd'
                         indicator: '2D'
                       children: 
-                        Lightning-tb: 
+                        Lightning-ub: 
                           type: 'mechanic'
                           indicator: '3D'
                           data: 
@@ -752,19 +766,6 @@ Rubin:
                             forward-scale: '0'
                             right-base: '0'
                             right-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Damage-ub: 
-                          type: 'mechanic'
-                          indicator: '3D'
-                          data: 
-                            icon-key: ''
-                            counts: 'True'
-                            type: 'Damage'
-                            value-base: '7.5'
-                            value-scale: '3.5'
-                            true: 'True'
-                            classifier: 'True'
                             indicator: '2D'
                           children:  {}
                         Particle Animation-vb: 
@@ -845,6 +846,32 @@ Rubin:
                             seconds-scale: '0'
                             indicator: '2D'
                           children:  {}
+                        Damage-yb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: '2.5'
+                            value-scale: '1'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
+                        Damage-zb: 
+                          type: 'mechanic'
+                          indicator: '3D'
+                          data: 
+                            icon-key: ''
+                            counts: 'True'
+                            type: 'Damage'
+                            value-base: '7.5'
+                            value-scale: '3.5'
+                            true: 'True'
+                            classifier: 'True'
+                            indicator: '2D'
+                          children:  {}
     Cast: 
       type: 'trigger'
       indicator: '3D'
@@ -852,7 +879,7 @@ Rubin:
         icon-key: ''
         indicator: '2D'
       children: 
-        Crouch-zb: 
+        Crouch-bc: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -860,18 +887,18 @@ Rubin:
             crouch: 'False'
             indicator: '2D'
           children: 
-            Flag-ac: 
+            Flag-cc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
                 icon-key: 'Imm'
                 counts: 'True'
                 key: 'Imm'
-                seconds-base: '3.5'
+                seconds-base: '3'
                 seconds-scale: '2'
                 indicator: '2D'
               children:  {}
-            Particle Animation-bc: 
+            Particle Animation-dc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -907,7 +934,7 @@ Rubin:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-cc: 
+            Sound-ec: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -920,7 +947,7 @@ Rubin:
                 pitch-scale: '0.02'
                 indicator: '2D'
               children:  {}
-        Crouch-dc: 
+        Crouch-fc: 
           type: 'condition'
           indicator: '3D'
           data: 
@@ -928,7 +955,7 @@ Rubin:
             crouch: 'True'
             indicator: '2D'
           children: 
-            Flag-ec: 
+            Flag-gc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -939,7 +966,7 @@ Rubin:
                 seconds-scale: '4'
                 indicator: '2D'
               children:  {}
-            Particle Animation-fc: 
+            Particle Animation-hc: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -975,7 +1002,7 @@ Rubin:
                 right: '0'
                 indicator: '2D'
               children:  {}
-            Sound-gc: 
+            Sound-ic: 
               type: 'mechanic'
               indicator: '3D'
               data: 
@@ -995,7 +1022,7 @@ Rubin:
         icon-key: ''
         indicator: '2D'
       children: 
-        Value Set-ic: 
+        Value Set-kc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1006,7 +1033,7 @@ Rubin:
             value-scale: '2'
             indicator: '2D'
           children:  {}
-        Value Set-jc: 
+        Value Set-lc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1017,7 +1044,7 @@ Rubin:
             value-scale: '3'
             indicator: '2D'
           children:  {}
-        Value Set-kc: 
+        Value Set-mc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1028,7 +1055,7 @@ Rubin:
             value-scale: '5'
             indicator: '2D'
           children:  {}
-        Passive-lc: 
+        Passive-nc: 
           type: 'mechanic'
           indicator: '3D'
           data: 
@@ -1038,7 +1065,7 @@ Rubin:
             seconds-scale: '0'
             indicator: '2D'
           children: 
-            Potion-mc: 
+            Potion-oc: 
               type: 'mechanic'
               indicator: '3D'
               data: 

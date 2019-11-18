@@ -7,8 +7,8 @@ Push:
   attributes: 
     level-base: '10'
     level-scale: '14'
-    cost-base: '2'
-    cost-scale: '0'
+    cost-base: '1'
+    cost-scale: '1'
     cooldown-base: '12'
     cooldown-scale: '-2'
     mana-base: '9'
@@ -56,9 +56,9 @@ Push:
               type: 'target'
               indicator: '3D'
               data: 
-                icon-key: ''
-                range-base: '6'
-                range-scale: '5'
+                icon-key: 'Range'
+                range-base: '6.45'
+                range-scale: '4.75'
                 tolerance-base: '4'
                 tolerance-scale: '1'
                 group: 'Enemy'

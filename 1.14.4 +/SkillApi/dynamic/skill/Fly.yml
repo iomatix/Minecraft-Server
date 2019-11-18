@@ -8,14 +8,14 @@ Fly:
   attributes: 
     level-base: '18'
     level-scale: '18'
-    cost-base: '1'
-    cost-scale: '15'
+    cost-base: '2'
+    cost-scale: '1'
     cooldown-base: '2.3'
     cooldown-scale: '-1.3'
     mana-base: '18'
     mana-scale: '-7'
     points-spent-req-base: '0'
-    points-spent-req-scale: '15'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'

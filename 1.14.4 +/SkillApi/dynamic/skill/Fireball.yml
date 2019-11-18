@@ -1,7 +1,7 @@
 Fireball: 
   name: 'Fireball'
   type: 'Active'
-  max-level: 7
+  max-level: 8
   skill-req: 'Magic Missile'
   skill-req-lvl: 1
   needs-permission: 'false'
@@ -9,13 +9,13 @@ Fireball:
     level-base: '7'
     level-scale: '8'
     cost-base: '1'
-    cost-scale: '2'
+    cost-scale: '1'
     cooldown-base: '5.5'
     cooldown-scale: '0.75'
     mana-base: '15'
     mana-scale: '9'
-    points-spent-req-base: '1'
-    points-spent-req-scale: '2'
+    points-spent-req-base: '0'
+    points-spent-req-scale: '0'
     incompatible: 
     - ''
   msg: '&6{player} &2has cast &6{skill}'
@@ -30,7 +30,6 @@ Fireball:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req} &6spend.'
   - ''
   - '&3Summons fireball which explodes'
   - '&3in target area.'
@@ -503,7 +502,7 @@ Fireball:
                         counts: 'True'
                         type: 'Damage'
                         value-base: '16.7'
-                        value-scale: '3.75'
+                        value-scale: '6.75'
                         true: 'False'
                         classifier: 'Fire'
                         indicator: '2D'
