@@ -888,7 +888,7 @@ BLUE_IIIH:
   material: DIAMOND
   name: '&bRare Blue Gem of Hasten'
   lore:
-  - '&7Tier II'
+  - '&7Tier III'
   displayed-type: Tier III
   enchants:
     fire_protection: 1
@@ -944,7 +944,7 @@ BLUE_IIIP:
   material: DIAMOND
   name: '&bRare Blue Gem of Precision'
   lore:
-  - '&7Tier II'
+  - '&7Tier III'
   displayed-type: Tier III
   enchants:
     fire_protection: 1
@@ -1000,7 +1000,7 @@ BLUE_IIID:
   material: DIAMOND
   name: '&bRare Blue Gem of Damage'
   lore:
-  - '&7Tier II'
+  - '&7Tier III'
   displayed-type: Tier III
   enchants:
     fire_protection: 1
