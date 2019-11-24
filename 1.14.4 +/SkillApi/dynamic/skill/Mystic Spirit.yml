@@ -129,16 +129,14 @@ Mystic Spirit:
                             forward: 0
                             upward: 2
                             right: 0
-                        Damage-j:
+                        Heal-j:
                           type: 'mechanic'
                           data:
-                            icon-key: 'Constant'
+                            icon-key: ''
                             counts: 'True'
-                            type: 'Multiplier'
-                            value-base: 14
-                            value-scale: 15
-                            true: 'False'
-                            classifier: 'MysticSpirit'
+                            type: 'Percent'
+                            value-base: -14
+                            value-scale: -15
             Crouch-k:
               type: 'condition'
               data:
