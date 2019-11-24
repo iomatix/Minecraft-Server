@@ -145,15 +145,33 @@ Skills:
   # End values in an * to do all materials containing the value
   block-filter: 
   - 'chest'
+  - 'hopper'
+  - 'dropper'
+  - 'dispenser'
+  - 'composter'
+  - 'lectern'
+  - 'observer'
+  - 'barrel'
+  - 'furnace'
+  - 'blast furnace'
+  - 'smoker'
   - 'ender chest'
   - 'trapped chest'
   - 'redstone*'
+  - 'grindstone'
+  - 'stonecutter'
   - 'oak wall sign'
   - 'dark oak wall sign'
   - 'acacia wall sign'
   - 'jungle wall sign'
   - 'birch wall sign'
   - 'spruce wall sign'
+  - 'oak sign'
+  - 'dark oak sign'
+  - 'acacia sign'
+  - 'jungle sign'
+  - 'birch sign'
+  - 'spruce sign'
 
 Items: 
 
