@@ -30,7 +30,6 @@ Windblast:
   - ''
   - '{req:level}Level: {attr:level}'
   - '{req:cost}Cost: {attr:cost}'
-  - '&cSkill points req: &6{attr:points-spent-req}'
   - ''
   - '&3Summons a wind blow which pushes enemies.'
   - ''
