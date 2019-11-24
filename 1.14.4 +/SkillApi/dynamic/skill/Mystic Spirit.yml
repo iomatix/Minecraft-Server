@@ -1,28 +1,16 @@
-Mystic Spirit: 
+Mystic Spirit:
   name: 'Mystic Spirit'
   type: 'Active'
   max-level: 3
   skill-req: 'Magic Missile'
   skill-req-lvl: 2
   needs-permission: 'false'
-  attributes: 
-    level-base: '12'
-    level-scale: '25'
-    cost-base: '1'
-    cost-scale: '1'
-    cooldown-base: '15'
-    cooldown-scale: '-3'
-    mana-base: '0'
-    mana-scale: '0'
-    points-spent-req-base: '0'
-    points-spent-req-scale: '0'
-    incompatible: 
-    - ''
   msg: '&6{player} &2has cast &6{skill}'
+  combo: ''
+  indicator: '2D'
   icon: 'PRISMARINE_CRYSTALS'
-  icon-durability: 0
-  icon-data: 'LEGACY_PRISMARINE_CRYSTALS(0)'
-  icon-lore: 
+  icon-data: LEGACY_PRISMARINE_CRYSTALS(0)
+  icon-lore:
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
   - ''
@@ -38,238 +26,203 @@ Mystic Spirit:
   - '&2Cooldown: {attr:cooldown}'
   - ''
   - '&cConverts: &6{attr:HowMany.value}&6% HP<->MP'
-  desc:  []
-  components: 
-    Cast: 
+  attributes:
+    level-base: 12
+    level-scale: 25
+    cost-base: 1
+    cost-scale: 1
+    cooldown-base: 15
+    cooldown-scale: -3
+    mana-base: 0
+    mana-scale: 0
+    points-spent-req-base: 0
+    points-spent-req-scale: 0
+    incompatible:
+    - ''
+  components:
+    Cast-a:
       type: 'trigger'
-      indicator: '3D'
-      data: 
+      data:
         icon-key: ''
-        indicator: '2D'
-      children: 
-        Self-b: 
+      children:
+        Self-b:
           type: 'target'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
-            indicator: '2D'
-            group: 'enemy'
-            wall: 'false'
-            caster: 'false'
-          children: 
-            Crouch-c: 
+          children:
+            Crouch-c:
               type: 'condition'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 crouch: 'True'
-                indicator: '2D'
-              children: 
-                Health-d: 
+              children:
+                Health-d:
                   type: 'condition'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'HP-minval'
                     type: 'Percent'
-                    min-value-base: '15'
-                    min-value-scale: '15'
-                    max-value-base: '100'
-                    max-value-scale: '0'
-                    indicator: '2D'
-                  children: 
-                    Mana-e: 
+                    min-value-base: 15
+                    min-value-scale: 15
+                    max-value-base: 100
+                    max-value-scale: 0
+                  children:
+                    Mana-e:
                       type: 'condition'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         type: 'Percent'
-                        min-value-base: '0'
-                        min-value-scale: '0'
-                        max-value-base: '87'
-                        max-value-scale: '-3'
-                        indicator: '2D'
-                      children: 
-                        Mana-f: 
+                        min-value-base: 0
+                        min-value-scale: 0
+                        max-value-base: 99
+                        max-value-scale: -1
+                      children:
+                        Mana-f:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: 'HowMany'
                             counts: 'True'
                             type: 'Percent'
-                            value-base: '13'
-                            value-scale: '15'
-                            indicator: '2D'
-                          children:  {}
-                        Heal-g: 
+                            value-base: 13
+                            value-scale: 15
+                        Message-g:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
-                            icon-key: ''
-                            counts: 'True'
-                            type: 'Percent'
-                            value-base: '-14'
-                            value-scale: '-15'
-                            indicator: '2D'
-                          children:  {}
-                        Message-h: 
-                          type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             message: '&cConverted &6health &cinto &6mana.'
-                            indicator: '2D'
-                          children:  {}
-                        Sound-i: 
+                        Sound-h:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             sound: 'Ambient Cave'
-                            volume-base: '80'
-                            volume-scale: '0'
-                            pitch-base: '0.7'
-                            pitch-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Particle Animation-j: 
+                            volume-base: 80
+                            volume-scale: 0
+                            pitch-base: 0.7
+                            pitch-scale: 0
+                        Particle Animation-i:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
-                            steps: '1'
-                            frequency: '0.05'
-                            angle: '0'
-                            start: '0'
-                            duration-base: '4'
-                            duration-scale: '1'
-                            h-translation-base: '0'
-                            h-translation-scale: '0'
-                            v-translation-base: '-2'
-                            v-translation-scale: '0'
-                            h-cycles: '1'
-                            v-cycles: '1'
+                            steps: 1
+                            frequency: 0.05
+                            angle: 0
+                            start: 0
+                            duration-base: 2
+                            duration-scale: 1
+                            h-translation-base: 0
+                            h-translation-scale: 0
+                            v-translation-base: -2
+                            v-translation-scale: 0
+                            h-cycles: 1
+                            v-cycles: 1
                             particle: 'Block Crack'
                             material: 'Lapis Block'
-                            type: '0'
+                            type: 0
                             arrangement: 'Circle'
-                            radius-base: '1'
-                            radius-scale: '0'
-                            particles-base: '15'
-                            particles-scale: '3'
+                            radius-base: 1
+                            radius-scale: 0
+                            particles-base: 3
+                            particles-scale: 0.3
                             direction: 'XZ'
-                            forward: '0'
-                            upward: '2'
-                            right: '0'
-                            indicator: '2D'
-                          children:  {}
-            Crouch-k: 
+                            forward: 0
+                            upward: 2
+                            right: 0
+                        Damage-j:
+                          type: 'mechanic'
+                          data:
+                            icon-key: 'Constant'
+                            counts: 'True'
+                            type: 'Multiplier'
+                            value-base: 14
+                            value-scale: 15
+                            true: 'False'
+                            classifier: 'MysticSpirit'
+            Crouch-k:
               type: 'condition'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 crouch: 'False'
-                indicator: '2D'
-              children: 
-                Mana-l: 
+              children:
+                Mana-l:
                   type: 'condition'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     type: 'Percent'
-                    min-value-base: '15'
-                    min-value-scale: '15'
-                    max-value-base: '100'
-                    max-value-scale: '0'
-                    indicator: '2D'
-                  children: 
-                    Health-m: 
+                    min-value-base: 15
+                    min-value-scale: 15
+                    max-value-base: 100
+                    max-value-scale: 0
+                  children:
+                    Health-m:
                       type: 'condition'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         type: 'Percent'
-                        min-value-base: '0'
-                        min-value-scale: '0'
-                        max-value-base: '87'
-                        max-value-scale: '-3'
-                        indicator: '2D'
-                      children: 
-                        Mana-n: 
+                        min-value-base: 0
+                        min-value-scale: 0
+                        max-value-base: 99
+                        max-value-scale: -1
+                      children:
+                        Mana-n:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             type: 'Percent'
-                            value-base: '-14'
-                            value-scale: '-15'
-                            indicator: '2D'
-                          children:  {}
-                        Heal-o: 
+                            value-base: -14
+                            value-scale: -15
+                        Heal-o:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             type: 'Percent'
-                            value-base: '12'
-                            value-scale: '13'
-                            indicator: '2D'
-                          children:  {}
-                        Message-p: 
+                            value-base: 12
+                            value-scale: 13
+                        Message-p:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             message: '&cConverted &6mana &cinto &6health.'
-                            indicator: '2D'
-                          children:  {}
-                        Sound-q: 
+                        Sound-q:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             sound: 'Ambient Cave'
-                            volume-base: '80'
-                            volume-scale: '0'
-                            pitch-base: '0.7'
-                            pitch-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Particle Animation-r: 
+                            volume-base: 80
+                            volume-scale: 0
+                            pitch-base: 0.7
+                            pitch-scale: 0
+                        Particle Animation-r:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
-                            steps: '1'
-                            frequency: '0.05'
-                            angle: '0'
-                            start: '0'
-                            duration-base: '4'
-                            duration-scale: '1'
-                            h-translation-base: '0'
-                            h-translation-scale: '0'
-                            v-translation-base: '-2'
-                            v-translation-scale: '0'
-                            h-cycles: '1'
-                            v-cycles: '1'
+                            steps: 1
+                            frequency: 0.05
+                            angle: 0
+                            start: 0
+                            duration-base: 2
+                            duration-scale: 0.3
+                            h-translation-base: 0
+                            h-translation-scale: 0
+                            v-translation-base: -2
+                            v-translation-scale: 0
+                            h-cycles: 1
+                            v-cycles: 1
                             particle: 'Block Crack'
                             material: 'Redstone Block'
-                            type: '0'
+                            type: 0
                             arrangement: 'Circle'
-                            radius-base: '1'
-                            radius-scale: '0'
-                            particles-base: '15'
-                            particles-scale: '3'
+                            radius-base: 1
+                            radius-scale: 0
+                            particles-base: 3
+                            particles-scale: 1
                             direction: 'XZ'
-                            forward: '0'
-                            upward: '2'
-                            right: '0'
-                            indicator: '2D'
-                          children:  {}
+                            forward: 0
+                            upward: 2
+                            right: 0
