@@ -3056,7 +3056,7 @@ DIVINE_LEGGINGS:
     destroy: true
     max: 12
   max-durability: 75000.0
-  name: '&bOceanic Pants'
+  name: '&eDivine Pants'
   hide-enchants: true
   enchants:
     FIRE_ASPECT: 2
