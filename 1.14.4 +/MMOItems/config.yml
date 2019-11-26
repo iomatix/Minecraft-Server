@@ -61,7 +61,7 @@ mitigation:
             max: 75.0
         rating-max: 80.0
         cooldown:
-            base: 5.0
+            base: 12.5
             max-reduction: 80.0
     dodge:
         knockback:
@@ -69,13 +69,13 @@ mitigation:
             force: 1
         rating-max: 80.0
         cooldown:
-            base: 5.0
+            base: 12.5
             max-reduction: 80.0
     parry:
         knockback-force: 1.0
         rating-max: 80.0
         cooldown:
-            base: 8.0
+            base: 16.5
             max-reduction: 80.0
         
 # Enable, disable and customize the weapon effects here.
