@@ -74,8 +74,8 @@ spirit:
   stats: 
     mana: '(a*0.0005+1*v)+(a*9+v)'
     mana-regen: 'a*0.13+v'
-    skill-defense: '-a*0.0007*v+1*v'
-    physical-defense: '-a*0.003*v+1*v'
+    skill-defense: '-a*0.0007+1*v'
+    physical-defense: '-a*0.003+1*v'
 intelligence: 
   display: 'Intelligence'
   max: '200'
@@ -133,7 +133,7 @@ dexterity:
       Nearest-radius: 'a*0.0025+1*v'
       Single-range: 'a*0.0025+1*v'
   stats:
-    defense-fall: '-a*0.002*v+1*v'
+    defense-fall: '-a*0.002+1*v'
     projectile-damage: '(a*0.001+1*v)+(a*2.15+v)'
     melee-damage: '(a*0.0025+1*v)+(a*1.55+v)'
     move-speed: 'a*0.0009+1*v'
@@ -250,5 +250,5 @@ nobleness:
     target:  {}
   stats: 
     health: '(a*0.05+1*v)'
-    skill-defense: '-a*0.007*v+1*v'
-    physical-defense: '-a*0.007*v+1*v'
+    skill-defense: '-a*0.007+1*v'
+    physical-defense: '-a*0.007+1*v'
