@@ -81,7 +81,7 @@ LVL_25_DAGGER:
   name: '&fIron Dagger'
   tier: COMMON
   lore:
-  - '&7Common iron Dagger.'
+  - '&7Common Iron Dagger.'
   unbreakable: true
   two-handed: false
   gem-sockets: 0.0

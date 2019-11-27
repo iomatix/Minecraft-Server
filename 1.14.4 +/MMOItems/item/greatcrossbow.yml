@@ -138,7 +138,7 @@ LVL_36_CROSSBOW:
   name: '&fLong Crossbow'
   tier: UNCOMMON
   lore:
-  - '&8Golden Crossbow.'
+  - '&8Long Golden Crossbow.'
   required-level: 36.0
   attack-damage: 89.0
   critical-strike-chance: 20.0

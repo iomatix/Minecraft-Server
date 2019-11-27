@@ -9,8 +9,8 @@ Adventurer:
   parent: ''
   needs-permission: 'false'
   attributes: 
-    health-base: '20'
-    health-scale: '12'
+    health-base: '25'
+    health-scale: '50'
     mana-base: '25'
     mana-scale: '3.35'
     vitality-base: '2'
