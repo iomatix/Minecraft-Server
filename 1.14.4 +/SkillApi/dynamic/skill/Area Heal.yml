@@ -1,28 +1,16 @@
-Area Heal: 
+Area Heal:
   name: 'Area Heal'
   type: 'Active'
   max-level: 6
   skill-req: 'Heal'
   skill-req-lvl: 1
   needs-permission: 'false'
-  attributes: 
-    level-base: '15'
-    level-scale: '12'
-    cost-base: '2'
-    cost-scale: '1'
-    cooldown-base: '16'
-    cooldown-scale: '5'
-    mana-base: '33'
-    mana-scale: '9'
-    points-spent-req-base: '0'
-    points-spent-req-scale: '0'
-    incompatible: 
-    - ''
   msg: '&6{player} &2has cast &6{skill}'
+  combo: ''
+  indicator: '2D'
   icon: 'SUNFLOWER'
-  icon-durability: 0
-  icon-data: 'LEGACY_DOUBLE_PLANT(0)'
-  icon-lore: 
+  icon-data: LEGACY_DOUBLE_PLANT(0)
+  icon-lore:
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
   - ''
@@ -39,547 +27,486 @@ Area Heal:
   - '&cHealth: &6{attr:HP.value}&6HP'
   - '&cRadius: &6{attr:Radius.radius}'
   - '&cTargets: &6{attr:Radius.max}'
-  desc:  []
-  components: 
-    Cast: 
+  attributes:
+    level-base: 15
+    level-scale: 12
+    cost-base: 2
+    cost-scale: 1
+    cooldown-base: 16
+    cooldown-scale: 5
+    mana-base: 33
+    mana-scale: 9
+    points-spent-req-base: 0
+    points-spent-req-scale: 0
+    incompatible:
+    - ''
+  components:
+    Cast-a:
       type: 'trigger'
-      indicator: '3D'
-      data: 
+      data:
         icon-key: ''
-        indicator: '2D'
-      children: 
-        Self-b: 
+      children:
+        Self-b:
           type: 'target'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
-            indicator: '2D'
-            group: 'enemy'
-            wall: 'false'
-            caster: 'false'
-          children: 
-            Particle Animation-c: 
+          children:
+            Particle Animation-c:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
-                steps: '1'
-                frequency: '0.05'
-                angle: '-360'
-                start: '0'
-                duration-base: '1.1'
-                duration-scale: '0.1'
-                h-translation-base: '0'
-                h-translation-scale: '0'
-                v-translation-base: '-9'
-                v-translation-scale: '0'
-                h-cycles: '1'
-                v-cycles: '1'
+                steps: 1
+                frequency: 0.05
+                angle: -360
+                start: 0
+                duration-base: 1.1
+                duration-scale: 0.1
+                h-translation-base: 0
+                h-translation-scale: 0
+                v-translation-base: -9
+                v-translation-scale: 0
+                h-cycles: 1
+                v-cycles: 1
                 particle: 'Block Crack'
                 material: 'Redstone Block'
-                type: '0'
+                type: 0
                 arrangement: 'Circle'
-                radius-base: '3'
-                radius-scale: '1.5'
-                particles-base: '2'
-                particles-scale: '1'
+                radius-base: 3
+                radius-scale: 1.5
+                particles-base: 2
+                particles-scale: 1
                 direction: 'XZ'
-                forward: '0'
-                upward: '8'
-                right: '0'
-                indicator: '2D'
-              children:  {}
-            Particle Animation-d: 
+                forward: 0
+                upward: 8
+                right: 0
+            Particle Animation-d:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
-                steps: '1'
-                frequency: '0.05'
-                angle: '720'
-                start: '0'
-                duration-base: '1.1'
-                duration-scale: '0.1'
-                h-translation-base: '0'
-                h-translation-scale: '0'
-                v-translation-base: '-9'
-                v-translation-scale: '0'
-                h-cycles: '1'
-                v-cycles: '1'
+                steps: 1
+                frequency: 0.05
+                angle: 720
+                start: 0
+                duration-base: 1.1
+                duration-scale: 0.1
+                h-translation-base: 0
+                h-translation-scale: 0
+                v-translation-base: -9
+                v-translation-scale: 0
+                h-cycles: 1
+                v-cycles: 1
                 particle: 'Enchantment Table'
                 arrangement: 'Circle'
-                radius-base: '3'
-                radius-scale: '1.5'
-                particles-base: '12'
-                particles-scale: '2'
+                radius-base: 3
+                radius-scale: 1.5
+                particles-base: 12
+                particles-scale: 2
                 direction: 'XZ'
-                visible-radius: '80'
-                dx: '0'
-                dy: '0'
-                dz: '0'
-                speed: '1'
-                amount: '1'
-                forward: '0'
-                upward: '8'
-                right: '0'
-                indicator: '2D'
-              children:  {}
-            Sound-e: 
+                visible-radius: 80
+                dx: 0
+                dy: 0
+                dz: 0
+                speed: 1
+                amount: 1
+                forward: 0
+                upward: 8
+                right: 0
+            Sound-e:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
                 sound: 'Entity Illusioner Prepare Blindness'
-                volume-base: '65'
-                volume-scale: '0'
-                pitch-base: '0.9'
-                pitch-scale: '0.02'
-                indicator: '2D'
-              children:  {}
-            Particle Animation-f: 
+                volume-base: 65
+                volume-scale: 0
+                pitch-base: 0.9
+                pitch-scale: 0.02
+            Particle Animation-f:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
-                steps: '1'
-                frequency: '0.05'
-                angle: '720'
-                start: '0'
-                duration-base: '1.1'
-                duration-scale: '0.1'
-                h-translation-base: '0'
-                h-translation-scale: '0'
-                v-translation-base: '-9'
-                v-translation-scale: '0'
-                h-cycles: '1'
-                v-cycles: '1'
+                steps: 1
+                frequency: 0.05
+                angle: 720
+                start: 0
+                duration-base: 1.1
+                duration-scale: 0.1
+                h-translation-base: 0
+                h-translation-scale: 0
+                v-translation-base: -9
+                v-translation-scale: 0
+                h-cycles: 1
+                v-cycles: 1
                 particle: 'Icon Crack'
                 material: 'Apple'
-                type: '0'
+                type: 0
                 arrangement: 'Circle'
-                radius-base: '3'
-                radius-scale: '1.5'
-                particles-base: '12'
-                particles-scale: '1'
+                radius-base: 3
+                radius-scale: 1.5
+                particles-base: 12
+                particles-scale: 1
                 direction: 'XZ'
-                forward: '0'
-                upward: '8'
-                right: '0'
-                indicator: '2D'
-              children:  {}
-            Particle Animation-g: 
+                forward: 0
+                upward: 8
+                right: 0
+            Particle Animation-g:
               type: 'mechanic'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
                 counts: 'True'
-                steps: '1'
-                frequency: '0.05'
-                angle: '720'
-                start: '0'
-                duration-base: '1.1'
-                duration-scale: '0.1'
-                h-translation-base: '0'
-                h-translation-scale: '0'
-                v-translation-base: '-12'
-                v-translation-scale: '0'
-                h-cycles: '1'
-                v-cycles: '1'
+                steps: 1
+                frequency: 0.05
+                angle: 720
+                start: 0
+                duration-base: 1.1
+                duration-scale: 0.1
+                h-translation-base: 0
+                h-translation-scale: 0
+                v-translation-base: -12
+                v-translation-scale: 0
+                h-cycles: 1
+                v-cycles: 1
                 particle: 'End Rod'
                 arrangement: 'Circle'
-                radius-base: '2'
-                radius-scale: '1.2'
-                particles-base: '3'
-                particles-scale: '1'
+                radius-base: 2
+                radius-scale: 1.2
+                particles-base: 3
+                particles-scale: 1
                 direction: 'XZ'
-                visible-radius: '80'
-                dx: '0'
-                dy: '0'
-                dz: '0'
-                speed: '0.3'
-                amount: '1'
-                forward: '0'
-                upward: '12'
-                right: '0'
-                indicator: '2D'
-              children:  {}
-        Channel-h: 
+                visible-radius: 80
+                dx: 0
+                dy: 0
+                dz: 0
+                speed: 0.3
+                amount: 1
+                forward: 0
+                upward: 12
+                right: 0
+        Channel-h:
           type: 'mechanic'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
             counts: 'True'
             still: 'False'
-            time-base: '1.1'
-            time-scale: '0.1'
-            indicator: '2D'
-          children: 
-            Area-i: 
+            time-base: 1.1
+            time-scale: 0.1
+          children:
+            Area-i:
               type: 'target'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: 'Radius'
-                radius-base: '2'
-                radius-scale: '1.5'
+                radius-base: 2
+                radius-scale: 1.5
                 group: 'Ally'
                 wall: 'True'
                 caster: 'False'
-                max-base: '3'
-                max-scale: '2'
+                max-base: 3
+                max-scale: 2
                 random: 'False'
-                indicator: '2D'
-              children: 
-                Heal-j: 
+              children:
+                Heal-j:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: 'HP'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '23'
-                    value-scale: '38'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-k: 
+                    value-base: 45
+                    value-scale: 40
+                Particle Animation-k:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '78'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 78
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Icon Crack'
                     material: 'Apple'
-                    type: '0'
+                    type: 0
                     arrangement: 'Circle'
-                    radius-base: '0.6'
-                    radius-scale: '0.1'
-                    particles-base: '12'
-                    particles-scale: '3'
+                    radius-base: 0.6
+                    radius-scale: 0.1
+                    particles-base: 12
+                    particles-scale: 3
                     direction: 'XZ'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-l: 
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Particle Animation-l:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '90'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 90
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Instant Spell'
                     arrangement: 'Circle'
-                    radius-base: '1'
-                    radius-scale: '0.1'
-                    particles-base: '3'
-                    particles-scale: '1'
+                    radius-base: 1
+                    radius-scale: 0.1
+                    particles-base: 3
+                    particles-scale: 1
                     direction: 'XZ'
-                    visible-radius: '80'
-                    dx: '0'
-                    dy: '0'
-                    dz: '0'
-                    speed: '1'
-                    amount: '1'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Sound-m: 
+                    visible-radius: 80
+                    dx: 0
+                    dy: 0
+                    dz: 0
+                    speed: 1
+                    amount: 1
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Sound-m:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     sound: 'Entity Illusioner Cast Spell'
-                    volume-base: '45'
-                    volume-scale: '0'
-                    pitch-base: '0.6'
-                    pitch-scale: '0.07'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-n: 
+                    volume-base: 45
+                    volume-scale: 0
+                    pitch-base: 0.6
+                    pitch-scale: 0.07
+                Particle Animation-n:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '-255'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: -255
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Block Crack'
                     material: 'Redstone Block'
-                    type: '0'
+                    type: 0
                     arrangement: 'Circle'
-                    radius-base: '0.45'
-                    radius-scale: '0.1'
-                    particles-base: '3'
-                    particles-scale: '1'
+                    radius-base: 0.45
+                    radius-scale: 0.1
+                    particles-base: 3
+                    particles-scale: 1
                     direction: 'XZ'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-o: 
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Particle Animation-o:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '-255'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: -255
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'End Rod'
                     arrangement: 'Circle'
-                    radius-base: '1'
-                    radius-scale: '0.1'
-                    particles-base: '4'
-                    particles-scale: '2'
+                    radius-base: 1
+                    radius-scale: 0.1
+                    particles-base: 4
+                    particles-scale: 2
                     direction: 'XZ'
-                    visible-radius: '80'
-                    dx: '0'
-                    dy: '0'
-                    dz: '0'
-                    speed: '0.2'
-                    amount: '1'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Cleanse-p: 
+                    visible-radius: 80
+                    dx: 0
+                    dy: 0
+                    dz: 0
+                    speed: 0.2
+                    amount: 1
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Cleanse-p:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     potion: 'All'
                     status: 'Curse'
-                    indicator: '2D'
-                  children:  {}
-            Self-q: 
+            Self-q:
               type: 'target'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
-                indicator: '2D'
-                group: 'enemy'
-                wall: 'false'
-                caster: 'false'
-              children: 
-                Heal-r: 
+              children:
+                Heal-r:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     type: 'Health'
-                    value-base: '46'
-                    value-scale: '79'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-s: 
+                    value-base: 40
+                    value-scale: 35
+                Particle Animation-s:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '78'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 78
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Icon Crack'
                     material: 'Apple'
-                    type: '0'
+                    type: 0
                     arrangement: 'Circle'
-                    radius-base: '0.7'
-                    radius-scale: '0.1'
-                    particles-base: '12'
-                    particles-scale: '3'
+                    radius-base: 0.7
+                    radius-scale: 0.1
+                    particles-base: 12
+                    particles-scale: 3
                     direction: 'XZ'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-t: 
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Particle Animation-t:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '90'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 90
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Instant Spell'
                     arrangement: 'Circle'
-                    radius-base: '1.5'
-                    radius-scale: '0.1'
-                    particles-base: '3'
-                    particles-scale: '1'
+                    radius-base: 1.5
+                    radius-scale: 0.1
+                    particles-base: 3
+                    particles-scale: 1
                     direction: 'XZ'
-                    visible-radius: '80'
-                    dx: '0'
-                    dy: '0'
-                    dz: '0'
-                    speed: '1'
-                    amount: '1'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Sound-u: 
+                    visible-radius: 80
+                    dx: 0
+                    dy: 0
+                    dz: 0
+                    speed: 1
+                    amount: 1
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Sound-u:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     sound: 'Entity Illusioner Cast Spell'
-                    volume-base: '45'
-                    volume-scale: '0'
-                    pitch-base: '0.6'
-                    pitch-scale: '0.07'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-v: 
+                    volume-base: 45
+                    volume-scale: 0
+                    pitch-base: 0.6
+                    pitch-scale: 0.07
+                Particle Animation-v:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '-255'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: -255
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Block Crack'
                     material: 'Redstone Block'
-                    type: '0'
+                    type: 0
                     arrangement: 'Circle'
-                    radius-base: '0.5'
-                    radius-scale: '0.1'
-                    particles-base: '3'
-                    particles-scale: '1'
+                    radius-base: 0.5
+                    radius-scale: 0.1
+                    particles-base: 3
+                    particles-scale: 1
                     direction: 'XZ'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-w: 
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Particle Animation-w:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '-255'
-                    start: '0'
-                    duration-base: '0.3'
-                    duration-scale: '0.2'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '8'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: -255
+                    start: 0
+                    duration-base: 0.3
+                    duration-scale: 0.2
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 8
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'End Rod'
                     arrangement: 'Circle'
-                    radius-base: '1'
-                    radius-scale: '0.1'
-                    particles-base: '4'
-                    particles-scale: '2'
+                    radius-base: 1
+                    radius-scale: 0.1
+                    particles-base: 4
+                    particles-scale: 2
                     direction: 'XZ'
-                    visible-radius: '80'
-                    dx: '0'
-                    dy: '0'
-                    dz: '0'
-                    speed: '0.2'
-                    amount: '1'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Cleanse-x: 
+                    visible-radius: 80
+                    dx: 0
+                    dy: 0
+                    dz: 0
+                    speed: 0.2
+                    amount: 1
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Cleanse-x:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     potion: 'All'
                     status: 'Curse'
-                    indicator: '2D'
-                  children:  {}
