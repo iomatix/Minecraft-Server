@@ -140,7 +140,7 @@ lvlup:
               data: 
                 icon-key: ''
                 counts: 'True'
-                message: '"&cDont hesitate to spend points using &7/class &6skills &cand &7/class &6attr &ccommands."'
+                message: '"&cDont hesitate to spend points using &7/class &6skill &cand &7/class &6attr &ccommands."'
                 indicator: '2D'
               children:  {}
             Message-i: 
