@@ -534,7 +534,7 @@ REPAIR_KIT:
   - '&6Drag and drop on item to repair it.'
   tier: '&8Uncommon'
   consume-cooldown: 2
-  repair: 120.0
+  repair: 335.0
   disable-repairing: true
   disable-enchanting: true
   disable-smelting: true
