@@ -134,8 +134,8 @@ Void:
                     icon-key: 'TrueDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: 6
-                    value-scale: 4.25
+                    value-base: 8.5
+                    value-scale: 6.45
                     true: 'True'
                     classifier: 'True'
                 Particle Animation-k:
@@ -1040,8 +1040,8 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: 6
-                    value-scale: 4.25
+                    value-base: 8
+                    value-scale: 6.45
                     true: 'True'
                     classifier: 'True'
                 Particle Animation-kd:
