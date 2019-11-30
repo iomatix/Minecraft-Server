@@ -8,21 +8,21 @@ Adventurer:
   parent: ''
   needs-permission: 'false'
   attributes: 
-    health-base: '25'
-    health-scale: '50'
-    mana-base: '25'
-    mana-scale: '3.35'
-    vitality-base: '2'
+    health-base: '30'
+    health-scale: '55'
+    mana-base: '20'
+    mana-scale: '2.65'
+    vitality-base: '5'
     vitality-scale: '0.3'
-    spirit-base: '2'
+    spirit-base: '5'
     spirit-scale: '0.3'
-    intelligence-base: '1'
+    intelligence-base: '4'
     intelligence-scale: '0.3'
-    dexterity-base: '1'
+    dexterity-base: '4'
     dexterity-scale: '0.3'
-    strength-base: '1'
+    strength-base: '4'
     strength-scale: '0.3'
-  mana-regen: 2.1
+  mana-regen: 1.75
   tree: 'FLOOD'
   blacklist:  []
   skills: 

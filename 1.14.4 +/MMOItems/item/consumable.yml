@@ -2,7 +2,7 @@ POTION_TINY:
   material: POTION
   name: '&cTiny Health Potion'
   restore:
-    health: 75
+    health: 225
     saturation: 5
   lore:
   - '&cTiny health potion'
@@ -61,7 +61,7 @@ POTION_SMALL:
   material: POTION
   name: '&cSmall Health Potion'
   restore:
-    health: 250
+    health: 575
     food: 5
     saturation: 10
   lore:
@@ -121,7 +121,7 @@ POTION_COMMON:
   material: POTION
   name: '&cCommon Potion'
   restore:
-    health: 650
+    health: 1350
     food: 5
     saturation: 10
   lore:
@@ -181,7 +181,7 @@ POTION:
   material: POTION
   name: '&cHealth Potion'
   restore:
-    health: 1275
+    health: 2550
     food: 5
     saturation: 12
   lore:
@@ -240,7 +240,7 @@ POTION_MEDIUM:
   material: POTION
   name: '&cMedium Health Potion'
   restore:
-    health: 2750
+    health: 5000
     food: 5
     saturation: 15
   lore:
@@ -300,7 +300,7 @@ POTION_LARGE:
   material: POTION
   name: '&cLarge Health Potion'
   restore:
-    health: 3580
+    health: 8650
     food: 5
     saturation: 20
   lore:
@@ -360,7 +360,7 @@ POTION_EPIC:
   material: POTION
   name: '&cEpic Health Potion'
   restore:
-    health: 7500
+    health: 15000
     food: 15
     saturation: 25
   lore:
@@ -398,6 +398,64 @@ POTION_EPIC:
       amount: 1
       durability: 0
       name: ''
+    '6':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+  vanilla-eating: true
+  consume-sound: ENTITY_GENERIC_DRINK
+  potion-color: 255 0 0
+POTION_MYTHIC:
+  material: POTION
+  name: '&cMythic Health Potion'
+  restore:
+    health: 100000
+    food: 20
+    saturation: 30
+  lore:
+  - '&cEpic health potion'
+  consume-cooldown: 60
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: sugar_cane
+      amount: 1
+      durability: 0
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
     '6':
       material: Air
       amount: 1
