@@ -17,6 +17,7 @@ LVL_12_BOW:
   lore:
   - '&fShort Bow.'
   gem-sockets: 0.0
+  disable-enchanting: true
   required-level: 12.0
   attack-damage: 38.0
   critical-strike-chance: 10.0
@@ -88,6 +89,7 @@ LVL_24_BOW:
   critical-strike-chance: 15.0
   critical-strike-power: 35.0
   two-handed: true
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -156,6 +158,7 @@ LVL_36_BOW:
   critical-strike-chance: 20.0
   critical-strike-power: 45.0
   two-handed: true
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -224,6 +227,7 @@ LVL_48_BOW:
   critical-strike-chance: 30.0
   critical-strike-power: 55.0
   two-handed: true
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -293,6 +297,7 @@ UP_LVL_48_BOW:
   critical-strike-chance: 35.0
   critical-strike-power: 65.0
   two-handed: true
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':

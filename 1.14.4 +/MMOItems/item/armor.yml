@@ -11,6 +11,7 @@ LVL_7_LEATHER_HELMET:
   tier: COMMON
   knockback-resistance: 0.01=0.02
   gem-sockets: 0.0
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '4':
@@ -82,6 +83,7 @@ LVL_7_LEATHER_CHESTPLATE:
   tier: COMMON
   knockback-resistance: 0.01=0.02
   gem-sockets: 0.0
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '1':
@@ -153,6 +155,7 @@ LVL_7_LEATHER_BOOTS:
   tier: COMMON
   knockback-resistance: 0.01=0.03
   gem-sockets: 0.0
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -225,6 +228,7 @@ LVL_7_LEATHER_LEGGINGS:
   tier: COMMON
   knockback-resistance: 0.01=0.02
   gem-sockets: 0.0
+  disable-enchanting: true
   max-health: 10.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -296,6 +300,7 @@ LVL_16_IRON_HELMET:
   tier: COMMON
   knockback-resistance: 0.01=0.03
   gem-sockets: 0.0
+  disable-enchanting: true
   max-health: 16.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -360,6 +365,7 @@ LVL_16_IRON_CHESTPLATE:
   tier: COMMON
   knockback-resistance: 0.02=0.04
   gem-sockets: 0.0
+  disable-enchanting: true
   max-health: 16.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -421,6 +427,7 @@ LVL_16_IRON_LEGGINGS:
   tier: COMMON
   knockback-resistance: 0.02=0.04
   gem-sockets: 0.0
+  disable-enchanting: true
   max-health: 16.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -484,6 +491,7 @@ LVL_16_IRON_BOOTS:
   tier: COMMON
   knockback-resistance: 0.01=0.03
   gem-sockets: 0.0
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -542,6 +550,7 @@ LVL_25_IRON_HELMET:
   block-rating: 2
   max-health: 24.0
   required-level: 25.0
+  disable-enchanting: true
   armor: 19
   armor-toughness: 1=2
   lore:
@@ -606,6 +615,7 @@ LVL_25_IRON_CHESTPLATE:
   block-power: 3
   block-rating: 3
   required-level: 25.0
+  disable-enchanting: true
   armor: 22
   max-health: 24.0
   armor-toughness: 2
@@ -668,6 +678,7 @@ LVL_25_IRON_LEGGINGS:
   block-power: 2.5
   block-rating: 2.5
   required-level: 25.0
+  disable-enchanting: true
   armor: 21
   max-health: 24.0
   armor-toughness: 1=2
@@ -731,6 +742,7 @@ LVL_25_IRON_BOOTS:
   block-power: 2
   block-rating: 2
   required-level: 25.0
+  disable-enchanting: true
   armor: 18
   max-health: 24.0
   armor-toughness: 1
@@ -796,6 +808,7 @@ LVL_34_GOLD_HELMET:
   block-power: 3
   block-rating: 3
   required-level: 34.0
+  disable-enchanting: true
   armor: 23
   max-health: 33.0
   armor-toughness: 2
@@ -861,6 +874,7 @@ LVL_34_GOLD_CHESTPLATE:
   block-power: 4
   block-rating: 4
   required-level: 34.0
+  disable-enchanting: true
   armor: 29
   armor-toughness: 2.2
   max-health: 33.0
@@ -923,6 +937,7 @@ LVL_34_GOLD_LEGGINGS:
   block-power: 3
   block-rating: 3
   required-level: 34.0
+  disable-enchanting: true
   armor: 27
   armor-toughness: 2
   max-health: 33.0
@@ -986,6 +1001,7 @@ LVL_34_GOLD_BOOTS:
   block-power: 3
   block-rating: 3
   required-level: 34.0
+  disable-enchanting: true
   armor: 24
   armor-toughness: 2
   max-health: 33.0
@@ -1053,6 +1069,7 @@ LVL_48_DIAMOND_HELMET:
   block-power: 5
   block-rating: 5
   required-level: 48.0
+  disable-enchanting: true
   armor: 33
   armor-toughness: 2.5
   max-health: 42.0
@@ -1119,6 +1136,7 @@ LVL_48_DIAMOND_CHESTPLATE:
   block-power: 7.5
   block-rating: 7.5
   required-level: 48.0
+  disable-enchanting: true
   armor: 36
   armor-toughness: 4
   max-health: 45.0
@@ -1182,6 +1200,7 @@ LVL_48_DIAMOND_LEGGINGS:
   block-power: 7
   block-rating: 7
   required-level: 48.0
+  disable-enchanting: true
   armor: 35
   armor-toughness: 3
   max-health: 44.0
@@ -1246,6 +1265,7 @@ LVL_48_DIAMOND_BOOTS:
   block-power: 5
   block-rating: 5
   required-level: 48.0
+  disable-enchanting: true
   armor: 31
   armor-toughness: 2
   max-health: 40.0

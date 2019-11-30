@@ -13,6 +13,7 @@ LVL_7_SWORD:
   lore:
   - '&7Stone Sword.'
   two-handed: false
+  disable-enchanting: true
   gem-sockets: 0.0
   required-level: 7.0
   attack-damage: 9
@@ -82,6 +83,7 @@ LVL_16_SWORD:
   lore:
   - '&7Common iron Sword.'
   two-handed: false
+  disable-enchanting: true
   gem-sockets: 0.0
   required-level: 16.0
   attack-damage: 18
@@ -151,6 +153,7 @@ LVL_25_SWORD:
   lore:
   - '&7Common heavy iron Sword.'
   two-handed: false
+  disable-enchanting: true
   required-level: 25.0
   attack-damage: 34
   attack-speed: 0.82
@@ -221,6 +224,7 @@ LVL_34_SWORD:
   lore:
   - '&8Golden Sword.'
   two-handed: false
+  disable-enchanting: true
   required-level: 34.0
   attack-damage: 46
   attack-speed: 1.1
@@ -291,6 +295,7 @@ LVL_48_SWORD:
   lore:
   - '&6Diamond Sword.'
   two-handed: false
+  disable-enchanting: true
   required-level: 48.0
   attack-damage: 56
   attack-speed: 1.2
@@ -362,6 +367,7 @@ UP_LVL_48_SWORD:
   lore:
   - '&eUpgraded Diamond Sword.'
   two-handed: false
+  disable-enchanting: true
   required-level: 48.0
   attack-damage: 61
   attack-speed: 1.35

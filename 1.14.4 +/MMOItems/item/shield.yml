@@ -9,6 +9,7 @@ LVL_7_SHIELD:
   block-power: 10.0
   block-rating: 10.0
   gem-sockets: 0.0
+  disable-enchanting: true
   required-level: 7.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -73,6 +74,7 @@ LVL_16_SHIELD:
   block-power: 10.0
   block-rating: 15.0
   gem-sockets: 0.0
+  disable-enchanting: true
   required-level: 16.0
   advanced-craft-enabled: true
   advanced-craft:
@@ -140,6 +142,7 @@ LVL_25_SHIELD:
   block-rating: 35.0
   required-level: 25.0
   advanced-craft-enabled: true
+  disable-enchanting: true
   advanced-craft:
     '0':
       material: IRON_INGOT
@@ -206,6 +209,7 @@ LVL_34_SHIELD:
   block-power: 27.5
   block-rating: 45.0
   required-level: 34.0
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -272,6 +276,7 @@ LVL_48_SHIELD:
   block-power: 35.0
   block-rating: 55.0
   required-level: 48.0
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -339,6 +344,7 @@ UP_LVL_48_SHIELD:
   block-power: 39.0
   block-rating: 59.0
   required-level: 48.0
+  disable-enchanting: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':

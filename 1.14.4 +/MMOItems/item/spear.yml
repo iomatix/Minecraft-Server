@@ -3,6 +3,7 @@ LVL_12_SPEAR:
   custom-model-data: 8.0
   max-durability: 130.0=170.0
   unbreakable: true
+  disable-enchanting: true
   upgrade:
     max: 12
     template: halberd-default
@@ -60,6 +61,7 @@ LVL_18_SPEAR:
   material: TRIDENT
   custom-model-data: 9.0
   unbreakable: true
+  disable-enchanting: true
   upgrade:
     max: 12
     template: halberd-default
@@ -69,7 +71,7 @@ LVL_18_SPEAR:
   tier: COMMON
   disable-crafting: true
   disable-smelting: true
-  disable-enchanting: false
+  disable-enchanting: true
   disable-repairing: true
   required-level: 18.0
   attack-damage: 16.0=22.0
@@ -120,6 +122,7 @@ LVL_26_SPEAR:
   custom-model-data: 10.0
   name: Iron Spear
   tier: COMMON
+  disable-enchanting: true
   upgrade:
     max: 12
     template: halberd-default
@@ -127,7 +130,6 @@ LVL_26_SPEAR:
   required-level: 26.0
   disable-crafting: true
   disable-repairing: true
-  disable-enchanting: false
   disable-smelting: true
   max-durability: 290.0=320.0
   attack-damage: 32.0=34.0
@@ -181,6 +183,7 @@ LVL_34_SPEAR:
   custom-model-data: 11.0
   name: '&6Golden Spear'
   tier: RARE
+  disable-enchanting: true
   upgrade:
     max: 12
     template: halberd-default
@@ -242,6 +245,7 @@ LVL_48_SPEAR:
   max-durability: 800.0=2000.0
   name: '&6Diamond Spear'
   tier: RARE
+  disable-enchanting: true
   upgrade:
     max: 12
     template: halberd-default
@@ -304,6 +308,7 @@ UP_LVL_48_SPEAR:
   max-durability: 1000.0=2500.0
   name: '&eUpgraded Diamond Spear'
   tier: VERY_RARE
+  disable-enchanting: true
   upgrade:
     max: 12
     template: halberd-default

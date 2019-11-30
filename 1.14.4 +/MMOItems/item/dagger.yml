@@ -14,6 +14,7 @@ LVL_9_DAGGER:
   - '&7Stone Dagger.'
   unbreakable: true
   two-handed: false
+  disable-enchanting: true
   gem-sockets: 0.0
   required-level: 9.0
   attack-damage: 7
@@ -84,6 +85,7 @@ LVL_25_DAGGER:
   - '&7Common Iron Dagger.'
   unbreakable: true
   two-handed: false
+  disable-enchanting: true
   gem-sockets: 0.0
   required-level: 25.0
   attack-damage: 11
@@ -154,6 +156,7 @@ LVL_34_DAGGER:
   - '&8Golden Dagger.'
   unbreakable: true
   two-handed: false
+  disable-enchanting: true
   required-level: 34.0
   attack-damage: 19
   attack-speed: 2.0
@@ -225,6 +228,7 @@ LVL_48_DAGGER:
   - '&6Diamond Dagger.'
   unbreakable: true
   two-handed: false
+  disable-enchanting: true
   required-level: 55.0
   attack-damage: 23
   attack-speed: 2.2
@@ -297,6 +301,7 @@ UP_LVL_48_DAGGER:
   - '&eUpgraded Diamond Dagger.'
   unbreakable: true
   two-handed: false
+  disable-enchanting: true
   required-level: 48.0
   attack-damage: 28
   attack-speed: 2.35

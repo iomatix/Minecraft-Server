@@ -11,6 +11,7 @@ LVL_7_AXE:
   lore:
   - '&7One handed stone axe.'
   two-handed: false
+  disable-enchanting: true
   gem-sockets: 0.0
   required-level: 7.0
   attack-damage: 11
@@ -79,6 +80,7 @@ LVL_16_AXE:
   lore:
   - '&7Common one handed iron axe.'
   two-handed: false
+  disable-enchanting: true
   gem-sockets: 0.0
   required-level: 16.0
   attack-damage: 20
@@ -149,6 +151,7 @@ LVL_25_AXE:
   lore:
   - '&7Two handed iron axe.'
   two-handed: true
+  disable-enchanting: true
   required-level: 25.0
   attack-damage: 38.5
   attack-speed: 0.67
@@ -220,6 +223,7 @@ LVL_34_AXE:
   lore:
   - '&8Golden Axe.'
   two-handed: false
+  disable-enchanting: true
   required-level: 34.0
   attack-damage: 50
   attack-speed: 0.75
@@ -291,6 +295,7 @@ LVL_48_AXE:
   lore:
   - '&6Diamond Axe.'
   two-handed: false
+  disable-enchanting: true
   required-level: 48.0
   attack-damage: 60
   attack-speed: 0.73
@@ -363,6 +368,7 @@ UP_LVL_48_AXE:
   lore:
   - '&eTwo handed Diamond Axe.'
   two-handed: true
+  disable-enchanting: true
   required-level: 48.0
   attack-damage: 69
   attack-speed: 0.73

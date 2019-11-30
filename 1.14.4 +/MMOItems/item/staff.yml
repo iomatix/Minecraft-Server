@@ -15,7 +15,7 @@ LVL_22_STAFF:
   critical-strike-chance: 35.0
   critical-strike-power: 40.0
   range: 24.0
-  magic-damage: 25.0
+  magic-damage: 45.0
   regeneration: 10.0
   tier: UNCOMMON
   max-mana: 75.0
@@ -88,7 +88,7 @@ LVL_38_STAFF:
   critical-strike-chance: 40.0
   critical-strike-power: 50.0
   range: 30.0
-  magic-damage: 27.0
+  magic-damage: 62.0
   tier: RARE
   max-mana: 95.0
   two-handed: true
@@ -164,7 +164,7 @@ LVL_48_STAFF:
   critical-strike-chance: 45.0
   critical-strike-power: 50.0
   range: 32.0
-  magic-damage: 27.0
+  magic-damage: 75.0
   tier: RARE
   max-mana: 95.0
   two-handed: true
@@ -245,7 +245,7 @@ ETHERNAL_STAFF:
   critical-strike-power: 65.0
   blunt-power: 1.7
   blunt-rating: 45.0
-  magic-damage: 35.0
+  magic-damage: 242.0
   unbreakable: true
   tier: ETHERNAL
   set: ETHERNAL
@@ -343,7 +343,7 @@ ETHERNAL_STAFF2:
   critical-strike-power: 65.0
   blunt-power: 1.7
   blunt-rating: 45.0
-  magic-damage: 35.0
+  magic-damage: 242.0
   unbreakable: true
   tier: ETHERNAL
   set: ETHERNAL
@@ -442,7 +442,7 @@ DIVINE_STAFF:
   critical-strike-power: 70.0
   blunt-power: 1.5
   blunt-rating: 35.0
-  magic-damage: 25.0
+  magic-damage: 240.0
   unbreakable: true
   tier: DIVINE
   set: DIVINE
@@ -538,7 +538,7 @@ DIVINE_STAFF2:
   critical-strike-power: 70.0
   blunt-power: 1.5
   blunt-rating: 35.0
-  magic-damage: 25.0
+  magic-damage: 240.0
   unbreakable: true
   tier: DIVINE
   set: DIVINE
@@ -636,7 +636,7 @@ OCEANIC_STAFF:
   critical-strike-power: 65.0
   blunt-power: 1.6
   blunt-rating: 32.0
-  magic-damage: 28.0
+  magic-damage: 236.0
   unbreakable: true
   tier: OCEANIC
   set: OCEANIC
@@ -736,7 +736,7 @@ OCEANIC_STAFF2:
   critical-strike-power: 65.0
   blunt-power: 1.6
   blunt-rating: 32.0
-  magic-damage: 28.0
+  magic-damage: 236.0
   unbreakable: true
   tier: OCEANIC
   set: OCEANIC
@@ -836,7 +836,7 @@ DEMONIC_STAFF:
   critical-strike-power: 67.0
   blunt-power: 1.6
   blunt-rating: 35.0
-  magic-damage: 30.0
+  magic-damage: 258.0
   unbreakable: true
   tier: DEMONIC
   set: DEMONIC
@@ -932,7 +932,7 @@ DEMONIC_STAFF2:
   critical-strike-power: 67.0
   blunt-power: 1.6
   blunt-rating: 35.0
-  magic-damage: 30.0
+  magic-damage: 258.0
   unbreakable: true
   tier: DEMONIC
   set: DEMONIC
@@ -1029,7 +1029,7 @@ ANCIENT_STAFF:
   critical-strike-power: 65.0
   blunt-power: 1.5
   blunt-rating: 35.0
-  magic-damage: 25.0
+  magic-damage: 243.0
   unbreakable: true
   tier: ANCIENT
   set: ANCIENT
@@ -1125,7 +1125,7 @@ ANCIENT_STAFF2:
   critical-strike-power: 65.0
   blunt-power: 1.5
   blunt-rating: 35.0
-  magic-damage: 25.0
+  magic-damage: 243.0
   unbreakable: true
   tier: ANCIENT
   set: ANCIENT
