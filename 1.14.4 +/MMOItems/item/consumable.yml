@@ -482,11 +482,11 @@ ROCK:
   - '&7or &ndamage&7 your enemies.'
   tier: TRASH
   consume-cooldown: 3
-  repair: 5.0
+  repair: 15.0
   ability:
     right-click:
       type: ITEM_THROW
-      damage: 2.0
+      damage: 3.5
       cooldown: 3
 RECALL_POTION:
   material: POTION
@@ -597,6 +597,8 @@ REPAIR_KIT:
   disable-enchanting: true
   disable-smelting: true
   disable-crafting: true
+  disable-interaction: true
+  disable-right-click-consume: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -656,6 +658,8 @@ REPAIR_KIT_LEGENDARY:
   disable-enchanting: true
   disable-smelting: true
   disable-crafting: true
+  disable-interaction: true
+  disable-right-click-consume: true
   advanced-craft-enabled: true
   advanced-craft:
     '0':
@@ -769,12 +773,12 @@ ITEM_BREAKER:
     fire_protection: 1
   hide-enchants: true
 IDENT_SCROLL:
-  material: MOJANG_BANNER_PATTERN
-  name: '&6Scroll of Identification'
+  material: PAPER
+  name: '&6Scroll of Identification I'
   tier: '&8Uncommon'
   can-identify: true
   craft-enabled: true
-  required-level: 7.0
+  required-level: 9.0
   craft:
   - AIR AIR AIR
   - PAPER DIAMOND PAPER
@@ -829,9 +833,143 @@ IDENT_SCROLL:
       amount: 1
       name: ''
     '4':
+      material: DIAMOND
+      amount: 1
+      name: ''
+  disable-right-click-consume: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+IDENT_SCROLL_ALT:
+  material: PAPER
+  name: '&6Scroll of Identification II'
+  tier: '&8Uncommon'
+  can-identify: true
+  craft-enabled: true
+  required-level: 24.0
+  craft:
+  - AIR AIR AIR
+  - PAPER EMERALD PAPER
+  - AIR AIR AIR
+  can-deconstruct: false
+  lore:
+  - '&6Drag and drop on item to ident it.'
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
       material: EMERALD
       amount: 1
       name: ''
+  disable-right-click-consume: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+IDENT_SCROLL_ALT_2:
+  material: PAPER
+  name: '&6Scroll of Identification III'
+  tier: '&8Uncommon'
+  can-identify: true
+  craft-enabled: true
+  required-level: 64.0
+  can-deconstruct: false
+  lore:
+  - '&6Drag and drop on item to ident it.'
+  disable-repairing: true
+  disable-enchanting: true
+  disable-smelting: true
+  disable-crafting: true
+  advanced-craft-enabled: true
+  advanced-craft:
+    '0':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '1':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '2':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '3':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '5':
+      material: PAPER
+      amount: 1
+      durability: 0
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      durability: 0
+      name: ''
+    '7':
+      material: Air
+      amount: 1
+      durability: 0
+      name: ''
+    '8':
+      material: Air
+      durability: 0
+      amount: 1
+      name: ''
+    '4':
+      type: MISCELLANEOUS
+      id: GOLD_COIN
+      amount: 2
   disable-right-click-consume: true
   disable-interaction: true
   enchants:
