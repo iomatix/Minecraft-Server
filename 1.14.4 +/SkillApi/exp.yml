@@ -70,7 +70,7 @@ break:
       BROWN_MUSHROOM: '0.3'
       obsidian: '50'
       COAL: '1'
-      QUARTZ_ORE: '2'
+      NETHER_QUARTZ_ORE: '2'
       REDSTONE_ORE: '25'
       lit_redstone_ore: '25'
       DIAMOND_ORE: '50'

@@ -1485,3 +1485,53 @@ MANA_POTION:
   potion-color: 0 200 255
   name: '&bMana Potion'
   vanilla-eating: true
+SPECIAL_POTION_ATTR:
+  material: POTION
+  name: '&6Unstable Yellow Potion'
+  lore:
+  - '&6Receive +2 Attribute Points'
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  item-cooldown: 3.0
+  vanilla-eating: true
+  sounds:
+    on-consume:
+      sound: entity.generic.drink
+      volume: 1.0
+      pitch: 1.35
+  potion-color: 255 255 0
+  commands:
+    cmd0:
+      format: class ap %player% 2
+      delay: 0.0
+      console: true
+  hide-enchants: true
+  enchants:
+    mending: 1
+SPECIAL_POTION_POINTS:
+  material: POTION
+  name: '&6Unstable Green Potion'
+  lore:
+  - '&6Receive +1 Skill Point'
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  item-cooldown: 3.0
+  vanilla-eating: true
+  sounds:
+    on-consume:
+      sound: entity.generic.drink
+      volume: 1.0
+      pitch: 1.35
+  potion-color: 0 255 75
+  commands:
+    cmd0:
+      format: class points %player% 1
+      delay: 0.0
+      console: true
+  hide-enchants: true
+  enchants:
+    mending: 1
