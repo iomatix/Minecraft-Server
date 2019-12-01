@@ -1062,7 +1062,7 @@ monsters:
                     BETTER_UPGRADE_ESSENCE: 100,5-25,0
                     LEGENDARY_UPGRADE_ESSENCE: 100,3-20,0
                     MYTHIC_UPGRADE_ESSENCE: 75,1-15,0
-                    UNIQUE_UPGRADE_ESSENCE: 65,1-10,0
+                    UNIQUE_UPGRADE_ESSENCE: 65,1-15,0
                     BEST_UPGRADE_ESSENCE: 55,1-1,0
     wither:
         MC_drop:
@@ -1097,8 +1097,8 @@ monsters:
                     BETTER_UPGRADE_ESSENCE: 100,5-25,0
                     LEGENDARY_UPGRADE_ESSENCE: 95,3-20,0
                     MYTHIC_UPGRADE_ESSENCE: 55,1-15,0
-                    UNIQUE_UPGRADE_ESSENCE: 45,1-10,0
-                    BEST_UPGRADE_ESSENCE: 5,1-1,100
+                    UNIQUE_UPGRADE_ESSENCE: 45,1-15,0
+                    BEST_UPGRADE_ESSENCE: 25,1-1,100
     pillager:
         Pi_drop:
             coef: 1
