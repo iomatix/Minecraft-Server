@@ -130,3 +130,33 @@ DIVINE_ELEMENT:
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true
+DRAGON_SCALE:
+  material: BLACK_DYE
+  name: '&6Dragon Scale'
+  lore:
+  - '&6The scale emits baleful energy.'
+  - '&6It seems to be alive.'
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  custom-model-data: 1.0
+  disable-interaction: true
+  disable-enchanting: true
+  disable-repairing: true
+WITHER_HEARTH:
+  material: BLACK_DYE
+  name: '&6Wither Hearth'
+  lore:
+  - '&6The crystallized wither energy.'
+  - '&6It seems to be alive.'
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-crafting: true
+  disable-smelting: true
+  custom-model-data: 2.0
+  disable-interaction: true
+  disable-enchanting: true
+  disable-repairing: true

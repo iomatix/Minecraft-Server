@@ -1,0 +1,42 @@
+{
+	"parent": "item/piercer",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 180, -90, 0 ],
+			"translation":  [ 0, -14, 1 ],
+			"scale":  [ 2.4, 2.4, 2.4 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 180, 90, 0 ],
+			"translation":  [ 0, -14, 1 ],
+			"scale":  [ 2.4, 2.4, 2.4 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ -45, -90, 0 ],
+			"translation":  [ 2.6, 5, -0.008 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ -45, 90, 0 ],
+			"translation":  [ 2.6, 5, -0.008 ],
+			"scale":  [ 1.6, 1.6, 1.6 ]
+		},
+		"gui": {
+			"rotation":  [ 0, 0, -45 ],
+			"scale":  [ 1.4, 1.4, 1.4 ]
+		},
+		"head": {
+			"translation":  [ 0, 27, 0 ],
+			"scale":  [ 2, 2, 2 ]
+		},
+		"ground": {
+			"rotation":  [ 0, 0, -45 ],
+			"translation":  [ 0, 3.3956, 0 ],
+			"scale":  [ 1.7, 1.7, 1.7 ]
+		},
+		"fixed": {
+			"rotation":  [ -180, 0, 135 ],
+			"scale":  [ 1.7, 1.7, 1.7 ]
+		}
+	}
+}

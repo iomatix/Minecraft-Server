@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/stone_hoe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/ripper"},
+		{"predicate": {"custom_model_data":2}, "model": "item/scythe0"},
+		{"predicate": {"custom_model_data":3}, "model": "item/scythe1"}
+	]
+}

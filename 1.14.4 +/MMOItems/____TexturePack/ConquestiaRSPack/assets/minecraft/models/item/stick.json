@@ -1,0 +1,22 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/stick"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/staff_basic_wooden_staff"},
+		{"predicate": {"custom_model_data":2}, "model": "item/staff_lich_staff"},
+		{"predicate": {"custom_model_data":3}, "model": "item/staff_bermundes_hermit_staff"},
+		{"predicate": {"custom_model_data":4}, "model": "item/staff_black_snake_staff"},
+		{"predicate": {"custom_model_data":5}, "model": "item/staff_divine_staff"},
+		{"predicate": {"custom_model_data":6}, "model": "item/staff_goblin_witch_staff"},
+		{"predicate": {"custom_model_data":7}, "model": "item/staff_golden_crook"},
+		{"predicate": {"custom_model_data":8}, "model": "item/staff_holy_celtic_staff"},
+		{"predicate": {"custom_model_data":9}, "model": "item/staff_night"},
+		{"predicate": {"custom_model_data":10}, "model": "item/staff_northgate_guardian_staff"},
+		{"predicate": {"custom_model_data":11}, "model": "item/staff_olwen_staff"},
+		{"predicate": {"custom_model_data":12}, "model": "item/staff_sagrada_winged_staff"},
+		{"predicate": {"custom_model_data":13}, "model": "item/staff_unholy_wisdom"}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/trident_inventory"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/redspear"},
+		{"predicate": {"custom_model_data":2}, "model": "item/divinelance"},
+		{"predicate": {"custom_model_data":6}, "model": "item/piercer"},
+		{"predicate": {"custom_model_data":7}, "model": "item/runic"},
+		{"predicate": {"custom_model_data":8}, "model": "item/spear_wood"},
+		{"predicate": {"custom_model_data":9}, "model": "item/spear_stone"},
+		{"predicate": {"custom_model_data":10}, "model": "item/spear_iron"},
+		{"predicate": {"custom_model_data":11}, "model": "item/spear_gold"},
+		{"predicate": {"custom_model_data":12}, "model": "item/spear_diamond"}
+	],
+		"display": {
+	    "gui": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 1, 1, 1]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2, 0],
+            "scale":[ 0.5, 0.5, 0.5]
+        }
+    }
+}

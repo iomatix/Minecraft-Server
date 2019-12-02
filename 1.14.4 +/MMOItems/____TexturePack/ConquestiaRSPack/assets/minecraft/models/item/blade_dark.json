@@ -1,0 +1,6 @@
+{
+	"parent": "item/blade_handheld",
+	"textures": {
+		"layer0": "weapon/daggers/blade_dark"
+	}
+}

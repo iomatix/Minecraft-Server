@@ -1,0 +1,30 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_sword"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/claymore"},
+		{"predicate": {"custom_model_data":2}, "model": "item/crimsoncleaver"},
+		{"predicate": {"custom_model_data":3}, "model": "item/demonic"},
+		{"predicate": {"custom_model_data":4}, "model": "item/dragon"},
+		{"predicate": {"custom_model_data":5}, "model": "item/nature"},
+		{"predicate": {"custom_model_data":6}, "model": "item/piercer"},
+		{"predicate": {"custom_model_data":7}, "model": "item/runic"},
+		{"predicate": {"custom_model_data":8}, "model": "item/spider"},
+		{"predicate": {"custom_model_data":9}, "model": "item/darksword"},
+		{"predicate": {"custom_model_data":10}, "model": "item/endsword"},
+		{"predicate": {"custom_model_data":11}, "model": "item/elucidator"},
+		{"predicate": {"custom_model_data":12}, "model": "item/sabre"},
+		{"predicate": {"custom_model_data":13}, "model": "item/sabredark"},
+		{"predicate": {"custom_model_data":14}, "model": "item/darksister"},
+		
+		{"predicate": {"custom_model_data":101}, "model": "item/blade_wood"},
+		{"predicate": {"custom_model_data":102}, "model": "item/blade_stone"},
+		{"predicate": {"custom_model_data":103}, "model": "item/blade_iron"},
+		{"predicate": {"custom_model_data":104}, "model": "item/blade_gold"},
+		{"predicate": {"custom_model_data":105}, "model": "item/blade_diamond"},
+		{"predicate": {"custom_model_data":106}, "model": "item/blade_end"},
+		{"predicate": {"custom_model_data":107}, "model": "item/blade_dark"}
+	]
+}

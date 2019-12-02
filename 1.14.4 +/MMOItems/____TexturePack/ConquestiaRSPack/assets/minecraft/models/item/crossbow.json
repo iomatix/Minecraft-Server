@@ -1,0 +1,117 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/crossbow_standby"
+	},
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -90, 0, -60 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90, 0, 30 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -90, 0, -55 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -90, 0, 35 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
+	"overrides": [
+	{
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "item/crossbow_pulling_0"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.65
+      },
+      "model": "item/crossbow_pulling_1"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.9
+      },
+      "model": "item/crossbow_pulling_2"
+    },	
+	{ "predicate": {"charged":1}, "model": "item/crossbow_arrow"},	
+	{ "predicate": {"charged":1,"firework":1}, "model": "item/crossbow_firework"},	
+		{"predicate": {"custom_model_data":1}, "model": "item/crossbowbronze"},
+		{"predicate": {"custom_model_data":1, "pulling":1}, "model": "item/crossbowbronze_pulling_0"},
+		{"predicate": {"custom_model_data":1, "pulling":1, "pull":0.65}, "model": "item/crossbowbronze_pulling_1"},
+		{"predicate": {"custom_model_data":1, "pulling":1, "pull":0.9}, "model": "item/crossbowbronze_pulling_2"},
+		{"predicate": {"custom_model_data":1, "charged":1}, "model": "item/crossbowbronze_pulling_2"},
+		{"predicate": {"custom_model_data":2}, "model": "item/crossbowiron"},
+		{"predicate": {"custom_model_data":2, "pulling":1}, "model": "item/crossbowiron_pulling_0"},
+		{"predicate": {"custom_model_data":2, "pulling":1, "pull":0.65}, "model": "item/crossbowiron_pulling_1"},
+		{"predicate": {"custom_model_data":2, "pulling":1, "pull":0.9}, "model": "item/crossbowiron_pulling_2"},
+		{"predicate": {"custom_model_data":2, "charged":1}, "model": "item/crossbowiron_pulling_2"},
+		{"predicate": {"custom_model_data":3}, "model": "item/crossbowsteel"},
+		{"predicate": {"custom_model_data":3, "pulling":1}, "model": "item/crossbowsteel_pulling_0"},
+		{"predicate": {"custom_model_data":3, "pulling":1, "pull":0.65}, "model": "item/crossbowsteel_pulling_1"},
+		{"predicate": {"custom_model_data":3, "pulling":1, "pull":0.9}, "model": "item/crossbowsteel_pulling_2"},
+		{"predicate": {"custom_model_data":3, "charged":1}, "model": "item/crossbowsteel_pulling_2"},
+		{"predicate": {"custom_model_data":4}, "model": "item/bettercrossbow"},
+		{"predicate": {"custom_model_data":4, "pulling":1}, "model": "item/bettercrossbow_pulling_0"},
+		{"predicate": {"custom_model_data":4, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow_pulling_1"},
+		{"predicate": {"custom_model_data":4, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow_pulling_2"},
+		{"predicate": {"custom_model_data":4, "charged":1}, "model": "item/bettercrossbow_arrow"},
+		{"predicate": {"custom_model_data":5}, "model": "item/bettercrossbow2"},
+		{"predicate": {"custom_model_data":5, "pulling":1}, "model": "item/bettercrossbow2_pulling_0"},
+		{"predicate": {"custom_model_data":5, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow2_pulling_1"},
+		{"predicate": {"custom_model_data":5, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow2_pulling_2"},
+		{"predicate": {"custom_model_data":5, "charged":1}, "model": "item/bettercrossbow2_arrow"},
+		{"predicate": {"custom_model_data":6}, "model": "item/bettercrossbow3"},
+		{"predicate": {"custom_model_data":6, "pulling":1}, "model": "item/bettercrossbow3_pulling_0"},
+		{"predicate": {"custom_model_data":6, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow3_pulling_1"},
+		{"predicate": {"custom_model_data":6, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow3_pulling_2"},
+		{"predicate": {"custom_model_data":6, "charged":1}, "model": "item/bettercrossbow3_arrow"},
+		{"predicate": {"custom_model_data":7}, "model": "item/bettercrossbow4"},
+		{"predicate": {"custom_model_data":7, "pulling":1}, "model": "item/bettercrossbow4_pulling_0"},
+		{"predicate": {"custom_model_data":7, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow4_pulling_1"},
+		{"predicate": {"custom_model_data":7, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow4_pulling_2"},
+		{"predicate": {"custom_model_data":7, "charged":1}, "model": "item/bettercrossbow4_arrow"},
+		{"predicate": {"custom_model_data":8}, "model": "item/bettercrossbow5"},
+		{"predicate": {"custom_model_data":8, "pulling":1}, "model": "item/bettercrossbow5_pulling_0"},
+		{"predicate": {"custom_model_data":8, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow5_pulling_1"},
+		{"predicate": {"custom_model_data":8, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow5_pulling_2"},
+		{"predicate": {"custom_model_data":8, "charged":1}, "model": "item/bettercrossbow5_arrow"},
+		{"predicate": {"custom_model_data":9}, "model": "item/bettercrossbow6"},
+		{"predicate": {"custom_model_data":9, "pulling":1}, "model": "item/bettercrossbow6_pulling_0"},
+		{"predicate": {"custom_model_data":9, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow6_pulling_1"},
+		{"predicate": {"custom_model_data":9, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow6_pulling_2"},
+		{"predicate": {"custom_model_data":9, "charged":1}, "model": "item/bettercrossbow6_arrow"},
+		{"predicate": {"custom_model_data":10}, "model": "item/bettercrossbow7"},
+		{"predicate": {"custom_model_data":10, "pulling":1}, "model": "item/bettercrossbow7_pulling_0"},
+		{"predicate": {"custom_model_data":10, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow7_pulling_1"},
+		{"predicate": {"custom_model_data":10, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow7_pulling_2"},
+		{"predicate": {"custom_model_data":10, "charged":1}, "model": "item/bettercrossbow7_arrow"},
+		{"predicate": {"custom_model_data":11}, "model": "item/bettercrossbow8"},
+		{"predicate": {"custom_model_data":11, "pulling":1}, "model": "item/bettercrossbow8_pulling_0"},
+		{"predicate": {"custom_model_data":11, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow8_pulling_1"},
+		{"predicate": {"custom_model_data":11, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow8_pulling_2"},
+		{"predicate": {"custom_model_data":11, "charged":1}, "model": "item/bettercrossbow8_arrow"},
+		{"predicate": {"custom_model_data":12}, "model": "item/bettercrossbow9"},
+		{"predicate": {"custom_model_data":12, "pulling":1}, "model": "item/bettercrossbow9_pulling_0"},
+		{"predicate": {"custom_model_data":12, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow9_pulling_1"},
+		{"predicate": {"custom_model_data":12, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow9_pulling_2"},
+		{"predicate": {"custom_model_data":12, "charged":1}, "model": "item/bettercrossbow9_arrow"},
+		{"predicate": {"custom_model_data":13}, "model": "item/bettercrossbow10"},
+		{"predicate": {"custom_model_data":13, "pulling":1}, "model": "item/bettercrossbow10_pulling_0"},
+		{"predicate": {"custom_model_data":13, "pulling":1, "pull":0.65}, "model": "item/bettercrossbow10_pulling_1"},
+		{"predicate": {"custom_model_data":13, "pulling":1, "pull":0.9}, "model": "item/bettercrossbow10_pulling_2"},
+		{"predicate": {"custom_model_data":13, "charged":1}, "model": "item/bettercrossbow10_arrow"}
+	]
+}

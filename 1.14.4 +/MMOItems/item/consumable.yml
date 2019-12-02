@@ -1510,6 +1510,43 @@ SPECIAL_POTION_ATTR:
   hide-enchants: true
   enchants:
     mending: 1
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      type: MISCELLANEOUS
+      id: DRAGON_SCALE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: WITHER_HEARTH
+      amount: 1
+    '4':
+      material: POTION
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: MAGICAL_WEAPON_ESSENCE
+      amount: 1
 SPECIAL_POTION_POINTS:
   material: POTION
   name: '&6Unstable Green Potion'
@@ -1535,3 +1572,40 @@ SPECIAL_POTION_POINTS:
   hide-enchants: true
   enchants:
     mending: 1
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      type: MISCELLANEOUS
+      id: DRAGON_SCALE
+      amount: 1
+    '5':
+      type: MISCELLANEOUS
+      id: WITHER_HEARTH
+      amount: 1
+    '4':
+      material: POTION
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: RARE_WEAPON_ESSENCE
+      amount: 1

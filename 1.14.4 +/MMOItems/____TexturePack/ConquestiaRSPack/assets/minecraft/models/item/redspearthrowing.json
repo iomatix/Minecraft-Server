@@ -1,0 +1,36 @@
+{
+	"parent": "item/redspear",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 45, 75, 135 ],
+			"translation":  [ 0, -4.1739, 2.1739 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 45, 75, 135 ],
+			"translation":  [ 0, -4.1739, 2.1739 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ -30, 90, 0 ],
+			"translation":  [ 3, 0, -2]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ -30, -90, 0 ],
+			"translation":  [ 4, 0, -2]
+		},
+		"gui": {
+			"rotation":  [ 0, 0, 45 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"head": {
+			"rotation":  [ 0, 0, 31 ],
+			"translation":  [ 0, -20.16, 4.5 ]
+		},
+		"ground": {
+			"rotation":  [ 90, 0, 0 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 0, -45 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		}
+	}
+}

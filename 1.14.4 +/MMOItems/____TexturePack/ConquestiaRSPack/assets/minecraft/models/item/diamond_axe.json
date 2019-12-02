@@ -1,0 +1,17 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_axe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/waraxe"},
+		{"predicate": {"custom_model_data":2}, "model": "item/skeletonaxe"},
+		{"predicate": {"custom_model_data":3}, "model": "item/cyan_axe1"},
+		{"predicate": {"custom_model_data":4}, "model": "item/dark_axe1"},
+		{"predicate": {"custom_model_data":5}, "model": "item/dark_axe2"},
+		{"predicate": {"custom_model_data":6}, "model": "item/gold_axe1"},
+		{"predicate": {"custom_model_data":7}, "model": "item/gray_axe1"},
+		{"predicate": {"custom_model_data":8}, "model": "item/gray_axe2"}
+		
+	]
+}

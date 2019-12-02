@@ -1,0 +1,64 @@
+{
+	"parent": "builtin/generated",
+	"textures": {
+		"layer0": "item/trident"
+	},
+	    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 45 ],
+            "translation": [ 0, -3, 1 ],
+            "scale": [ 1.75, 1.75, 1 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 90, 270, 45 ],
+            "translation": [ 0, -3, 1 ],
+            "scale": [ 1.75, 1.75, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 90, 90, -75 ],
+            "translation": [ 0, 0, 6 ],
+            "scale": [ 1, 1, 0.5 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 30, 270, 15 ],
+            "translation": [ 0, 0, 6],
+            "scale": [ 1, 1, 0.5 ]
+        },
+        "gui": {
+            "rotation": [ 15, -25, -5 ],
+            "translation": [ 2, 3, 0 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ -2, 4, -5],
+            "scale":[ 0.5, 0.5, 0.5]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 4, 4, 2],
+            "scale":[ 0.25, 0.25, 0.25]
+        }
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data":0, "throwing":1},"model": "item/trident_throwing"},
+		{"predicate": {"custom_model_data":1}, "model": "item/redspear"},
+		{"predicate": {"custom_model_data":1, "throwing": 1},"model": "item/redspearthrowing"},
+		{"predicate": {"custom_model_data":2}, "model": "item/divinelance"},
+		{"predicate": {"custom_model_data":2, "throwing": 1},"model": "item/divinelancethrowing"},
+		{"predicate": {"custom_model_data":6}, "model": "item/piercer"},
+		{"predicate": {"custom_model_data":6, "throwing": 1},"model": "item/piercerthrowing"},
+		{"predicate": {"custom_model_data":7}, "model": "item/runic"},
+		{"predicate": {"custom_model_data":7, "throwing": 1},"model": "item/runicthrowing"},
+		{"predicate": {"custom_model_data":8}, "model": "item/spear_wood_in_hand"},
+		{"predicate": {"custom_model_data":8, "throwing": 1},"model": "item/spear_wood_throwing"},
+		{"predicate": {"custom_model_data":9}, "model": "item/spear_stone_in_hand"},
+		{"predicate": {"custom_model_data":9, "throwing": 1},"model": "item/spear_stone_throwing"},
+		{"predicate": {"custom_model_data":10}, "model": "item/spear_iron_in_hand"},
+		{"predicate": {"custom_model_data":10, "throwing": 1},"model": "item/spear_iron_throwing"},
+		{"predicate": {"custom_model_data":11}, "model": "item/spear_gold_in_hand"},
+		{"predicate": {"custom_model_data":11, "throwing": 1},"model": "item/spear_gold_throwing"},
+		{"predicate": {"custom_model_data":12}, "model": "item/spear_diamond_in_hand"},
+		{"predicate": {"custom_model_data":12, "throwing": 1},"model": "item/spear_diamond_throwing"}
+    ]
+}
