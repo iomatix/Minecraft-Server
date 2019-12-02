@@ -519,7 +519,7 @@ monsters:
                     ANCIENT_ELEMENT: 1,1-1,100
                     OCEANIC_ELEMENT: 0.1,1-1,100
                     DIVINE_ELEMENT: 1,1-1,100
-                    WITHER_HEARTH: 0.5, 1-1,100
+                    WITHER_HEARTH: 0.5,1-1,100
                 MATERIAL:
                     WEAPON_POWDER: 85,3-18,0
                     UNCOMMON_WEAPON_ESSENCE: 85,1-10,0
@@ -1045,7 +1045,7 @@ monsters:
                     ANCIENT_ELEMENT: 25,4-30,0
                     OCEANIC_ELEMENT: 25,4-30,0
                     DIVINE_ELEMENT: 25,4-30,0
-                    DRAGON_SCALE: 100, 1-1,0
+                    DRAGON_SCALE: 100,1-1,0
                 MATERIAL:
                     WEAPON_POWDER: 100,20-80,0
                     UNCOMMON_WEAPON_ESSENCE: 100,10-60,0
@@ -1081,7 +1081,7 @@ monsters:
                     ANCIENT_ELEMENT: 33,6-40,0
                     OCEANIC_ELEMENT: 5,2-10,0
                     DIVINE_ELEMENT: 3,1-5,0
-                    WITHER_HEARTH: 100, 1-1,0
+                    WITHER_HEARTH: 100,1-1,0
                 MATERIAL:
                     WEAPON_POWDER: 100,15-70,0
                     UNCOMMON_WEAPON_ESSENCE: 100,8-55,0
