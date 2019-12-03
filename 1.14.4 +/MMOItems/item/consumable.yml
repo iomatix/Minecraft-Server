@@ -1384,11 +1384,11 @@ BEST_UPGRADE_ESSENCE_ALT:
       id: UNIQUE_WEAPON_ESSENCE
       amount: 1
     '3':
-      type: MATERIAL
+      type: MISCELLANEOUS
       id: DRAGON_SCALE
       amount: 1
     '5':
-      type: MATERIAL
+      type: MISCELLANEOUS
       id: WITHER_HEARTH
       amount: 1
     '1':
