@@ -491,7 +491,7 @@ RECALL_POTION:
   potion-color: 100 100 255
   commands:
     '1':
-      command: spawn
+      command: home
       cooldown: 36000.0
   consume-cooldown: 36000.0
 FIREBALL_SCROLL:
@@ -504,6 +504,7 @@ FIREBALL_SCROLL:
       damage: 5.0
       cooldown: 0.0
       ignite: 3.0
+      mode: RIGHT_CLICK
   name: '&cFireball Scroll I'
 FIREBALL_SCROLL_II:
   material: PAPER
@@ -515,6 +516,7 @@ FIREBALL_SCROLL_II:
       damage: 10.0
       cooldown: 0.0
       ignite: 5.0
+      mode: RIGHT_CLICK
   name: '&cFireball Scroll II'
 FIREBALL_SCROLL_III:
   material: PAPER
@@ -1753,6 +1755,130 @@ MANA_POTION:
   potion-color: 0 200 255
   name: '&bMana Potion'
   vanilla-eating: true
+RESET_POTION_ATTR:
+  material: POTION
+  name: '&6Attributes Restoration Potion'
+  lore:
+  - '&6Receive all invested Attribute Points back.'
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  item-cooldown: 3.0
+  vanilla-eating: true
+  sounds:
+    on-consume:
+      sound: entity.generic.drink
+      volume: 1.0
+      pitch: 0.65
+  potion-color: 255 255 255
+  commands:
+    cmd0:
+      format: class refund %player% attr
+      delay: 0.0
+      console: true
+  hide-enchants: true
+  enchants:
+    mending: 1
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: BONE_MEAL
+      amount: 1
+      name: ''
+    '5':
+      material: SPIDER_EYE
+      amount: 1
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+RESET_POTION_POINTS:
+  material: POTION
+  name: '&6Skill Restoration Potion'
+  lore:
+  - '&6Receive all invested Skill Points back.'
+  disable-crafting: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  item-cooldown: 3.0
+  vanilla-eating: true
+  sounds:
+    on-consume:
+      sound: entity.generic.drink
+      volume: 1.0
+      pitch: 0.65
+  potion-color: 85 85 85
+  commands:
+    cmd0:
+      format: class refund %player% points
+      delay: 0.0
+      console: true
+  hide-enchants: true
+  enchants:
+    mending: 1
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      material: COAL
+      amount: 1
+      name: ''
+    '5':
+      material: ENDER_EYE
+      amount: 1
+      name: ''
+    '4':
+      material: POTION
+      amount: 1
+      name: ''
+    '1':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: VERY_RARE_WEAPON_ESSENCE
+      amount: 1
 SPECIAL_POTION_ATTR:
   material: POTION
   name: '&6Unstable Yellow Potion'

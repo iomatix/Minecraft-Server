@@ -2,7 +2,7 @@ class:
   name: 'class'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
 bind: 
   name: 'bind'
   description: 'Binds a skill'
@@ -10,7 +10,7 @@ bind:
   args: '<skill>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     skill-bound: '&6{skill} &2has been bound to &6{item}'
     not-skill: '&4You do not have that skill'
@@ -23,7 +23,7 @@ cast:
   args: '<skill>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     not-skill: '&cThat is not a valid skill name'
     not-unlocked: '&cYou must level up the skill first'
@@ -35,7 +35,7 @@ changeclass:
   args: '<player> <group> <class>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     invalid-group: '{player} does not have a {group}'
 clearbind: 
@@ -45,7 +45,7 @@ clearbind:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     skills-unbound: '&2All skill bindings have been cleared'
 customize: 
@@ -55,7 +55,7 @@ customize:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
 exp: 
   name: 'exp'
   description: 'Gives players exp'
@@ -63,7 +63,7 @@ exp:
   args: '[player] <amount> [group]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     received-exp: '&2You have received &6{exp} experience &2from &6{player}'
     gave-exp: '&2You have given &6{player} {exp} experience'
@@ -76,7 +76,7 @@ info:
   args: '[player]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     title: '&8--&6 {player} &8-----------'
     separator: '&8----------------------------'
@@ -94,7 +94,7 @@ level:
   args: '[player] <amount> [group]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     no-classes: "&cYou aren't professed as a class that receives experience from commands"
     received-level: '&2You have received &6{level} levels &2from &6{player}'
@@ -108,7 +108,7 @@ list:
   args: '[player]'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     title: '&8--&2 {player} &8-----------'
     line: '&7[&6{id}&7] &2Lv&6{level} {class}'
@@ -121,7 +121,7 @@ lore:
   args: '<lore>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     lore-added: '&2The lore has been added to your item'
 mana: 
@@ -131,7 +131,7 @@ mana:
   args: '[player] <amount>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     received-mana: '&2You have received &6{mana} mana &2from &6{player}'
     not-positive: '&cYou must give a positive amount of mana'
@@ -143,7 +143,7 @@ options:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     title: '&8--&2 Profess Options &8-----------'
     category: '&6{category}&7: '
@@ -158,9 +158,11 @@ points:
   args: '[player] <amount>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
-    received-points: '&2You have received &6{points} skill points &2from &6{player}'
+    received-points: '&2You have received &6{points} skill points.'
+    gave-points: '&2You have given &6{player} {points} skill points'
+    not-number: '&cThat is not a valid skill point amount'
 profess: 
   name: 'profess'
   description: 'Professes classes'
@@ -168,7 +170,7 @@ profess:
   args: '<class>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     professed: '&2You are now a &6{class}'
     not-available: "&cThere's no profession available at this time"
@@ -180,7 +182,7 @@ reload:
   args: ''
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     done: '&2The plugin has been reloaded'
 reset: 
@@ -190,7 +192,7 @@ reset:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     confirm: "&4This will delete your active account's data entirely"
     instructions: '&7Type &6/class reset confirm&7 to continue'
@@ -202,7 +204,7 @@ skill:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     no-skills: '&cYou have no skills to view'
 unbind: 
@@ -212,7 +214,7 @@ unbind:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     skill-unbound: '&6{skill} &2has been unbound from &6{item}'
     not-bound: '&4There are no skills bound to the held item'
@@ -223,7 +225,7 @@ world:
   args: '<world>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
 forceaccount: 
   name: 'forceaccount'
   description: "Changes player's account"
@@ -231,7 +233,7 @@ forceaccount:
   args: '<player> <accountId>'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
 forceattr: 
   name: 'forceattr'
   description: 'Refunds/gives attributes'
@@ -239,7 +241,7 @@ forceattr:
   args: '<player> [attr] [amount]'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
 forcecast: 
   name: 'forcecast'
   description: 'Player casts the skill'
@@ -247,7 +249,7 @@ forcecast:
   args: '<player> <skill> [level]'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     invalid-skill: '&cThat is not a valid skill'
     not-player: '&cThat is not a valid player name'
@@ -258,7 +260,7 @@ forceprofess:
   args: '<player> <class>'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
 forcereset: 
   name: 'forcereset'
   description: 'Resets player data'
@@ -266,7 +268,7 @@ forcereset:
   args: '<player> [account]'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     account-reset: "&6{player}'s&2 active account has been reset"
     target-notice: '&2Your class data has been reset'
@@ -277,7 +279,7 @@ forceskill:
   args: '<player> <up|down|reset> <skill>'
   sender: 'CONSOLE_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
 acc: 
   name: 'acc'
   description: 'Changes account'
@@ -285,7 +287,7 @@ acc:
   args: '<accountId>'
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
     account-changed: '&2Your account has been changed'
     not-account: '&cThat is not a valid account ID'
@@ -296,9 +298,10 @@ ap:
   args: '[player] <amount>'
   sender: 'ANYONE'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
   messages: 
-    received-points: '&2You have received &6{points} attribute points &2from &6{player}'
+    received-points: '&2You have received &6{points} attribute points.'
+    gave-points: '&2You have given &6{player} {points} attribute points'
 attr: 
   name: 'attr'
   description: 'Opens attribute menu'
@@ -306,4 +309,34 @@ attr:
   args: ''
   sender: 'PLAYER_ONLY'
   enabled: 'true'
-  cooldown: 0
+  cooldown: '0'
+backup: 
+  name: 'backup'
+  description: 'Backs up SQL data'
+  permission: 'skillapi.backup'
+  args: ''
+  sender: 'ANYONE'
+  enabled: 'true'
+  cooldown: '0'
+bar: 
+  name: 'bar'
+  description: 'Toggles skill bar'
+  permission: 'skillapi.basic'
+  args: ''
+  sender: 'PLAYER_ONLY'
+  enabled: 'true'
+  cooldown: '0'
+refund: 
+  name: 'refund'
+  description: 'Refunds skillpoints'
+  permission: 'skillapi.refund'
+  args: '[player] |attr|points|'
+  sender: 'ANYONE'
+  enabled: 'true'
+  cooldown: '0'
+  messages: 
+    refunded: '&2Your skill points have been refunded'
+    no-permission: '&cYou are not allowed to run this command.'
+    refunded-all: '&2Your skill points and attribute points have been refunded.'
+    refunded-ap: '&2Your attribute points have been refunded.'
+    refunded-sp: '&2Your skill points have been refunded.'
