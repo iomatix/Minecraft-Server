@@ -110,7 +110,7 @@ Classes:
   attributes-enabled: 'true'
 
   # Whether or not attributes can be refunded
-  attributes-downgrade: 'true'
+  attributes-downgrade: 'false'
 
   # This casts the dynamic skill for the player when they level up,
   # allowing you to use dynamic mechanics for level up effects. If
@@ -129,10 +129,10 @@ Mana:
 Skills: 
 
   # Whether or not players are allowed to downgrade skills
-  allow-downgrade: 'true'
+  allow-downgrade: 'false'
 
   # Whether or not messages should be shown on casting a skill
-  show-messages: 'true'
+  show-messages: 'false'
 
   # The radius in which to show cast messages to nearby players
   message-radius: '20'
