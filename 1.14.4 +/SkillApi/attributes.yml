@@ -195,7 +195,7 @@ holiness:
   icon-lore: 
   - '&eHoliness &7(&2{amount}&7)'
   - ''
-  - '&6Grants 5% increased healing,
+  - '&6Grants 5% increased healing,'
   - '&63.75 projectile damage'
   - '&61.85 melee damage'
   - '&61% physical damage'

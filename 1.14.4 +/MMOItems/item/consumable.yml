@@ -479,15 +479,9 @@ ROCK:
   name: '&fRock'
   lore:
   - '&7Use it to sharpen your weapons,'
-  - '&7or &ndamage&7 your enemies.'
   tier: TRASH
   consume-cooldown: 3
   repair: 15.0
-  ability:
-    right-click:
-      type: ITEM_THROW
-      damage: 3.5
-      cooldown: 3
 RECALL_POTION:
   material: POTION
   hide-potion-effects: true
@@ -1367,9 +1361,9 @@ BEST_UPGRADE_ESSENCE:
       amount: 1
   inedible: true
   disable-right-click-consume: true
-SOULCONNECTOR:
+SOULCONNECTOR_1:
   material: WITHER_ROSE
-  name: '&6Souls Connector'
+  name: '&6Souls Connector I'
   lore:
   - '&6Drag and drop on item to bind it to your soul.'
   soulbound-level: 1.0
@@ -1405,7 +1399,7 @@ SOULCONNECTOR:
     '4':
       type: MISCELLANEOUS
       id: GOLD_COIN
-      amount: 1
+      amount: 2
     '3':
       material: PAPER
       amount: 1
@@ -1422,10 +1416,9 @@ SOULCONNECTOR:
       material: PAPER
       amount: 1
       name: ''
-  upgrade: {}
-SOULBREAKER:
+SOULBREAKER_1:
   material: LANTERN
-  name: '&6Souls Breaker'
+  name: '&6Souls Breaker I'
   lore:
   - '&6Drag and drop on item to unbind it from the soul.'
   soulbound-level: 1.0
@@ -1477,8 +1470,227 @@ SOULBREAKER:
       type: CONSUMABLE
       id: SOULCONNECTOR
       amount: 1
-  upgrade: {}
   soulbound-break-chance: 45.0
+SOULCONNECTOR_2:
+  material: WITHER_ROSE
+  name: '&6Souls Connector III'
+  lore:
+  - '&6Drag and drop on item to bind it to your soul.'
+  soulbound-level: 3.0
+  soulbinding-chance: 85.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 38.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      type: CONSUMABLE
+      id: SOULCONNECTOR_1
+      amount: 1
+    '3':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+SOULBREAKER_2:
+  material: LANTERN
+  name: '&6Souls Breaker III'
+  lore:
+  - '&6Drag and drop on item to unbind it from the soul.'
+  soulbound-level: 3.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 38.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: LEGENDARY_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: CONSUMABLE
+      id: SOULBREAKER_1
+      amount: 1
+  soulbound-break-chance: 35.0
+SOULCONNECTOR_3:
+  material: WITHER_ROSE
+  name: '&6Souls Connector V'
+  lore:
+  - '&6Drag and drop on item to bind it to your soul.'
+  soulbound-level: 5.0
+  soulbinding-chance: 95.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 64.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '4':
+      type: CONSUMABLE
+      id: SOULCONNECTOR_2
+      amount: 1
+    '3':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+SOULBREAKER_3:
+  material: LANTERN
+  name: '&6Souls Breaker V'
+  lore:
+  - '&6Drag and drop on item to unbind it from the soul.'
+  soulbound-level: 5.0
+  disable-crafting: true
+  disable-interaction: true
+  enchants:
+    fire_protection: 1
+  hide-enchants: true
+  disable-smelting: true
+  disable-enchanting: true
+  disable-repairing: true
+  required-level: 64.0
+  inedible: true
+  disable-right-click-consume: true
+  advanced-craft:
+    '0':
+      material: AIR
+      amount: 1
+      name: ''
+    '2':
+      material: AIR
+      amount: 1
+      name: ''
+    '6':
+      material: AIR
+      amount: 1
+      name: ''
+    '8':
+      material: AIR
+      amount: 1
+      name: ''
+    '3':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '5':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '1':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '7':
+      type: MATERIAL
+      id: MYTHICAL_WEAPON_ESSENCE
+      amount: 1
+    '4':
+      type: CONSUMABLE
+      id: SOULBREAKER_2
+      amount: 1
+  soulbound-break-chance: 30.0
 MANA_POTION:
   material: POTION
   restore-mana: 75.0
