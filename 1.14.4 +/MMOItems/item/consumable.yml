@@ -963,7 +963,7 @@ IDENT_SCROLL_ALT_2:
     '4':
       type: MISCELLANEOUS
       id: GOLD_COIN
-      amount: 2
+      amount: 1
   disable-right-click-consume: true
   disable-interaction: true
   enchants:
