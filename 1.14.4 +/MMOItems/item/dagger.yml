@@ -229,7 +229,7 @@ LVL_48_DAGGER:
   unbreakable: true
   two-handed: false
   disable-enchanting: true
-  required-level: 55.0
+  required-level: 48.0
   attack-damage: 23
   attack-speed: 2.2
   blunt-power: 0.65
