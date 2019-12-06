@@ -88,8 +88,8 @@ Thornmail:
               indicator: '3D'
               data: 
                 icon-key: 'Chance'
-                chance-base: '5'
-                chance-scale: '2.5'
+                chance-base: '2.5'
+                chance-scale: '1.5'
                 indicator: '2D'
               children: 
                 Flag-f: 

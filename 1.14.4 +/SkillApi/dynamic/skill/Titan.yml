@@ -74,8 +74,8 @@ Titan:
           indicator: '3D'
           data: 
             icon-key: 'HealChance'
-            chance-base: '12'
-            chance-scale: '4'
+            chance-base: '8'
+            chance-scale: '5'
             indicator: '2D'
           children: 
             Self-d: 
@@ -109,8 +109,8 @@ Titan:
                     icon-key: 'HealValue'
                     counts: 'True'
                     type: 'Health'
-                    value-base: '15'
-                    value-scale: '22'
+                    value-base: '25'
+                    value-scale: '30'
                     indicator: '2D'
                   children:  {}
                 Sound-g: 
@@ -235,8 +235,8 @@ Titan:
           indicator: '3D'
           data: 
             icon-key: 'DisarmChance'
-            chance-base: '10'
-            chance-scale: '5'
+            chance-base: '2.5'
+            chance-scale: '2'
             indicator: '2D'
           children: 
             Status-n: 
@@ -336,8 +336,8 @@ Titan:
           indicator: '3D'
           data: 
             icon-key: 'StunChance'
-            chance-base: '7'
-            chance-scale: '4'
+            chance-base: '2'
+            chance-scale: '1.5'
             indicator: '2D'
           children: 
             Status-s: 

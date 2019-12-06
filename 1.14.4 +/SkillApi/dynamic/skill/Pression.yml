@@ -259,8 +259,8 @@ Pression:
               type: 'condition'
               data:
                 icon-key: 'StunChance'
-                chance-base: 26
-                chance-scale: 6
+                chance-base: 3
+                chance-scale: 3
               children:
                 Status-u:
                   type: 'mechanic'
@@ -324,8 +324,8 @@ Pression:
           type: 'condition'
           data:
             icon-key: 'DisarmChance'
-            chance-base: 5
-            chance-scale: 3
+            chance-base: 2.5
+            chance-scale: 2.5
           children:
             Status-z:
               type: 'mechanic'

@@ -38,7 +38,7 @@ Permeability:
   - '&cOnce per &6{attr:JumpCDSec.seconds}&6s &cjumps behind &ctarget on attack &cwhen &6crouching.'
   - '&cDeals &6{attr:PermJumpDamage.value} &6void damage&c, &6blinds &cand &6curses &cthe target'
   - '&cfor &6{attr:WitherSeconds.seconds}&6s.'
-  - "&cDebuffs target's &6armor &cfor &6{attr:DefenseDebuff.seconds}&6s "
+  - "&cDebuffs target's &6armor &cfor &6{attr:DefenseDebuff.seconds}&6s"
   - "&cand buffs caster's &6speed &cfor {attr:SpeedBuff.duration}&6s."
   - ''
   - '&cDomination tree passive.'
@@ -94,8 +94,8 @@ Permeability:
               indicator: '3D'
               data: 
                 icon-key: 'StunChance'
-                chance-base: '3.5'
-                chance-scale: '3.5'
+                chance-base: '3'
+                chance-scale: '3'
                 indicator: '2D'
               children: 
                 Status-f: 
@@ -195,8 +195,8 @@ Permeability:
           indicator: '3D'
           data: 
             icon-key: 'SilenceChance'
-            chance-base: '21'
-            chance-scale: '5.5'
+            chance-base: '2.5'
+            chance-scale: '2.5'
             indicator: '2D'
           children: 
             Status-k: 
@@ -479,8 +479,8 @@ Permeability:
                             icon-key: 'PermJumpDamage'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: '5.25'
-                            value-scale: '5.75'
+                            value-base: '6.25'
+                            value-scale: '5.9'
                             true: 'False'
                             classifier: 'Void'
                             indicator: '2D'

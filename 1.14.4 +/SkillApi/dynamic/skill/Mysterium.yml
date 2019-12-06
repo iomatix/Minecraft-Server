@@ -223,8 +223,8 @@ Mysterium:
           indicator: '3D'
           data: 
             icon-key: 'RootChance'
-            chance-base: '9'
-            chance-scale: '6'
+            chance-base: '2'
+            chance-scale: '2'
             indicator: '2D'
           children: 
             Status-m: 
