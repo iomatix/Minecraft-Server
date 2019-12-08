@@ -1,6 +1,8 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "misc/WitcherHearth"
-	}
+		"layer0": "miscitems/witcherhearth"
+	},		"overrides": [
+		{"predicate": {"custom_model_data":2}, "model": "item/witcher_hearth"}
+	]
 }

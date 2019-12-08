@@ -518,7 +518,7 @@ Experience:
   block-creative: 'false'
 
   # Whether or not to display a message when gaining experience
-  exp-message-enabled: 'true'
+  exp-message-enabled: 'false'
 
   # Whether or not to display a message when gaining a level
   level-message-enabled: 'true'

@@ -62,8 +62,8 @@ Fly:
                 icon-key: 'Immune'
                 counts: 'True'
                 type: 'Fall'
-                seconds-base: 3.5
-                seconds-scale: 1
+                seconds-base: 2.75
+                seconds-scale: 0.75
                 multiplier-base: 0
                 multiplier-scale: 0
             Particle Animation-d:

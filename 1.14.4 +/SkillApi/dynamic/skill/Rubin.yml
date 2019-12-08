@@ -1073,7 +1073,7 @@ Rubin:
                 counts: 'True'
                 potion: 'Fast Digging'
                 ambient: 'False'
-                tier-base: '3'
+                tier-base: '2'
                 tier-scale: '0'
                 seconds-base: '181'
                 seconds-scale: '0'

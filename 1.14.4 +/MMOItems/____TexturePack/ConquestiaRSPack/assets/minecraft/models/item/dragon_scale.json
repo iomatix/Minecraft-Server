@@ -1,6 +1,8 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "misc/DragonScale"
-	}
+		"layer0": "miscitems/dragonscale"
+	}, "overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/dragon_scale"}
+	]
 }
