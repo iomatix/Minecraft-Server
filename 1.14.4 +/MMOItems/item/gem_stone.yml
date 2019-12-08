@@ -87,7 +87,7 @@ GREEN_IH:
       name: ''
     '4':
       type: MATERIAL
-      id: RARE_WEAPON_ESSENCE
+      id: LEGENDARY_WEAPON_ESSENCE
       amount: 4
     '7':
       material: NETHER_WART
@@ -142,7 +142,7 @@ GREEN_IA:
       name: ''
     '4':
       type: MATERIAL
-      id: RARE_WEAPON_ESSENCE
+      id: LEGENDARY_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -199,7 +199,7 @@ GREEN_IR:
       name: ''
     '4':
       type: MATERIAL
-      id: RARE_WEAPON_ESSENCE
+      id: LEGENDARY_WEAPON_ESSENCE
       amount: 1
     '7':
       material: NETHER_WART
@@ -254,7 +254,7 @@ BLUE_IH:
       name: ''
     '4':
       type: MATERIAL
-      id: RARE_WEAPON_ESSENCE
+      id: LEGENDARY_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -310,7 +310,7 @@ BLUE_IP:
       name: ''
     '4':
       type: MATERIAL
-      id: RARE_WEAPON_ESSENCE
+      id: LEGENDARY_WEAPON_ESSENCE
       amount: 1
     '7':
       material: IRON_NUGGET
@@ -365,7 +365,7 @@ BLUE_ID:
       name: ''
     '4':
       type: MATERIAL
-      id: RARE_WEAPON_ESSENCE
+      id: LEGENDARY_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -420,7 +420,7 @@ GREEN_IIH:
       name: ''
     '4':
       type: MATERIAL
-      id: VERY_RARE_WEAPON_ESSENCE
+      id: MYTHIC_WEAPON_ESSENCE
       amount: 4
     '7':
       material: NETHER_WART
@@ -475,7 +475,7 @@ GREEN_IIA:
       name: ''
     '4':
       type: MATERIAL
-      id: VERY_RARE_WEAPON_ESSENCE
+      id: MYTHIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -532,7 +532,7 @@ GREEN_IIR:
       name: ''
     '4':
       type: MATERIAL
-      id: VERY_RARE_WEAPON_ESSENCE
+      id: MYTHIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: NETHER_WART
@@ -588,7 +588,7 @@ BLUE_IIH:
       name: ''
     '4':
       type: MATERIAL
-      id: VERY_RARE_WEAPON_ESSENCE
+      id: MYTHIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -644,7 +644,7 @@ BLUE_IIP:
       name: ''
     '4':
       type: MATERIAL
-      id: VERY_RARE_WEAPON_ESSENCE
+      id: MYTHIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: IRON_NUGGET
@@ -699,7 +699,7 @@ BLUE_IID:
       name: ''
     '4':
       type: MATERIAL
-      id: VERY_RARE_WEAPON_ESSENCE
+      id: MYTHIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -754,7 +754,7 @@ GREEN_IIIH:
       name: ''
     '4':
       type: MATERIAL
-      id: LEGENDARY_WEAPON_ESSENCE
+      id: EPIC_WEAPON_ESSENCE
       amount: 4
     '7':
       material: NETHER_WART
@@ -809,7 +809,7 @@ GREEN_IIIA:
       name: ''
     '4':
       type: MATERIAL
-      id: LEGENDARY_WEAPON_ESSENCE
+      id: EPIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -866,7 +866,7 @@ GREEN_IIIR:
       name: ''
     '4':
       type: MATERIAL
-      id: LEGENDARY_WEAPON_ESSENCE
+      id: EPIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: NETHER_WART
@@ -922,7 +922,7 @@ BLUE_IIIH:
       name: ''
     '4':
       type: MATERIAL
-      id: LEGENDARY_WEAPON_ESSENCE
+      id: EPIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
@@ -978,7 +978,7 @@ BLUE_IIIP:
       name: ''
     '4':
       type: MATERIAL
-      id: LEGENDARY_WEAPON_ESSENCE
+      id: EPIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: IRON_NUGGET
@@ -1033,7 +1033,7 @@ BLUE_IIID:
       name: ''
     '4':
       type: MATERIAL
-      id: LEGENDARY_WEAPON_ESSENCE
+      id: EPIC_WEAPON_ESSENCE
       amount: 1
     '7':
       material: GOLD_NUGGET
