@@ -57,7 +57,8 @@ monsters:
                     UPGRADE_ESSENCE: 4,1-1,25
                     BETTER_UPGRADE_ESSENCE: 3,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     Zombie_villager:
         Zv_drop:
@@ -87,7 +88,8 @@ monsters:
                     UPGRADE_ESSENCE: 4,1-1,25
                     BETTER_UPGRADE_ESSENCE: 3,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     villager:
         Zv_drop:
@@ -121,7 +123,8 @@ monsters:
                     UPGRADE_ESSENCE: 4,1-1,25
                     BETTER_UPGRADE_ESSENCE: 3,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     WANDERING_TRADER:
         Zv_drop:
@@ -155,7 +158,8 @@ monsters:
                     UPGRADE_ESSENCE: 5,1-1,25
                     BETTER_UPGRADE_ESSENCE: 5,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     TRADER_LLAMA:
         Zv_drop:
@@ -189,7 +193,8 @@ monsters:
                     UPGRADE_ESSENCE: 4,1-1,25
                     BETTER_UPGRADE_ESSENCE: 3,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     CREEPER:
         C_drop:
@@ -220,7 +225,8 @@ monsters:
                     UPGRADE_ESSENCE: 5,1-1,25
                     BETTER_UPGRADE_ESSENCE: 5,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 3,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 2,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     SKELETON:
         S_drop:
@@ -252,7 +258,8 @@ monsters:
                     UPGRADE_ESSENCE: 5,1-1,25
                     BETTER_UPGRADE_ESSENCE: 4,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 3,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     HUSK:
         H_drop:
@@ -288,7 +295,8 @@ monsters:
                     UPGRADE_ESSENCE: 5,1-1,25
                     BETTER_UPGRADE_ESSENCE: 4,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2.5,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     DROWNED:
         H_drop:
@@ -324,7 +332,8 @@ monsters:
                     UPGRADE_ESSENCE: 5,1-1,25
                     BETTER_UPGRADE_ESSENCE: 4,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2.5,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     SLIME:
         Sl_drop:
@@ -356,7 +365,8 @@ monsters:
                     UPGRADE_ESSENCE: 3,1-1,25
                     BETTER_UPGRADE_ESSENCE: 2,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 1,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 0.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 0.85,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 0.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     endermite:
         endm_drop:
@@ -407,7 +417,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 5,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 3,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 3.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 2.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 1,1-1,95
     PHANTOM:
         G_drop:
@@ -439,7 +450,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 2,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.5,1-1,95
     elder_guardian:
         EG_drop:
@@ -471,7 +483,8 @@ monsters:
                     UPGRADE_ESSENCE: 23,1-1,25
                     BETTER_UPGRADE_ESSENCE: 18,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 6,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 4,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 3,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 1.5,1-1,95
     guardian:
         G_drop:
@@ -503,7 +516,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 2,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 3,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 2,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.5,1-1,95
     wither_skeleton:
         WS_drop:
@@ -538,7 +552,8 @@ monsters:
                     UPGRADE_ESSENCE: 18,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 2,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.3,1-1,95
     Vex:
         VX_drop:
@@ -569,7 +584,8 @@ monsters:
                     UPGRADE_ESSENCE: 4,1-1,25
                     BETTER_UPGRADE_ESSENCE: 3,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 2,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.1,1-1,95
     STRAY:
         G_drop:
@@ -603,7 +619,8 @@ monsters:
                     UPGRADE_ESSENCE: 15,1-1,25
                     BETTER_UPGRADE_ESSENCE: 13,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 3,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     evoker:
         Ei_drop:
@@ -640,7 +657,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     vindicator:
         VI_drop:
@@ -677,7 +695,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     illusioner:
         II_drop:
@@ -714,7 +733,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     witch:
         II_drop:
@@ -751,7 +771,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     SPIDER:
         Sp_drop:
@@ -783,7 +804,8 @@ monsters:
                     UPGRADE_ESSENCE: 8,1-1,25
                     BETTER_UPGRADE_ESSENCE: 5,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 3,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 2,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     CAVE_SPIDER:
         Sp_drop:
@@ -815,7 +837,8 @@ monsters:
                     UPGRADE_ESSENCE: 9,1-1,25
                     BETTER_UPGRADE_ESSENCE: 7,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.75,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.75,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.25,1-1,95
     pig_zombie:
         z_p_drop:
@@ -852,7 +875,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     ENDERMAN:
         E_drop:
@@ -890,7 +914,8 @@ monsters:
                     UPGRADE_ESSENCE: 25,1-1,25
                     BETTER_UPGRADE_ESSENCE: 23,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 5,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 3,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 3.75,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 2.75,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.75,1-1,95
     blaze:
         Bl_drop:
@@ -927,7 +952,8 @@ monsters:
                     UPGRADE_ESSENCE: 25,1-1,25
                     BETTER_UPGRADE_ESSENCE: 20,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 8,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 4,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 3,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 1,1-1,95
     iron_golem:
         IG_drop:
@@ -960,7 +986,8 @@ monsters:
                     UPGRADE_ESSENCE: 15,1-1,25
                     BETTER_UPGRADE_ESSENCE: 12,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 3,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.3,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 0.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     shulker:
         sh_drop:
@@ -998,6 +1025,7 @@ monsters:
                     BETTER_UPGRADE_ESSENCE: 25,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 12,1-1,55
                     MYTHIC_UPGRADE_ESSENCE: 10,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 1,1-1,95
     magma_cube:
         MC_drop:
@@ -1029,7 +1057,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.05,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.3,1-1,95
     ender_dragon:
         MC_drop:
@@ -1064,9 +1093,11 @@ monsters:
                     UPGRADE_ESSENCE: 100,5-25,0
                     BETTER_UPGRADE_ESSENCE: 100,5-25,0
                     LEGENDARY_UPGRADE_ESSENCE: 100,3-20,0
-                    MYTHIC_UPGRADE_ESSENCE: 75,1-15,0
+                    MYTHIC_UPGRADE_ESSENCE: 85,1-15,0
+                    EPIC_UPGRADE_ESSENCE: 75,1-15,0
                     UNIQUE_UPGRADE_ESSENCE: 65,1-15,0
-                    BEST_UPGRADE_ESSENCE: 55,1-1,0
+                    BEST_UPGRADE_ESSENCE: 55,1-3,0
+                    BEST_UPGRADE_ESSENCE_ALT: 55,1-3,0
     wither:
         MC_drop:
             coef: 1
@@ -1099,10 +1130,12 @@ monsters:
                     SMALL_UPGRADE_ESSENCE: 100,5-25,0
                     UPGRADE_ESSENCE: 100,5-25,0
                     BETTER_UPGRADE_ESSENCE: 100,5-25,0
-                    LEGENDARY_UPGRADE_ESSENCE: 95,3-20,0
-                    MYTHIC_UPGRADE_ESSENCE: 55,1-15,0
-                    UNIQUE_UPGRADE_ESSENCE: 45,1-15,0
-                    BEST_UPGRADE_ESSENCE: 25,1-1,100
+                    LEGENDARY_UPGRADE_ESSENCE: 100,3-20,0
+                    MYTHIC_UPGRADE_ESSENCE: 80,1-13,0
+                    EPIC_UPGRADE_ESSENCE: 70,1-13,0
+                    UNIQUE_UPGRADE_ESSENCE: 60,1-13,0
+                    BEST_UPGRADE_ESSENCE: 45,1-2,0
+                    BEST_UPGRADE_ESSENCE_ALT: 45,1-2,0
     pillager:
         Pi_drop:
             coef: 1
@@ -1138,7 +1171,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     ravager:
         Rv_drop:
@@ -1170,7 +1204,8 @@ monsters:
                     UPGRADE_ESSENCE: 20,1-1,25
                     BETTER_UPGRADE_ESSENCE: 15,1-1,35
                     LEGENDARY_UPGRADE_ESSENCE: 4,1-1,55
-                    MYTHIC_UPGRADE_ESSENCE: 1.5,1-1,75
+                    MYTHIC_UPGRADE_ESSENCE: 2.5,1-1,75
+                    EPIC_UPGRADE_ESSENCE: 1.5,1-1,75
                     UNIQUE_UPGRADE_ESSENCE: 0.2,1-1,95
     cod:
         cod_drop:

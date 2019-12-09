@@ -52,8 +52,8 @@ Teleportation:
           indicator: '3D'
           data: 
             icon-key: 'Range'
-            range-base: '17'
-            range-scale: '9.75'
+            range-base: '9.85'
+            range-scale: '6.85'
             ground: 'False'
             indicator: '2D'
             group: 'enemy'

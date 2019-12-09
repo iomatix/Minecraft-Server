@@ -51,8 +51,8 @@ Magic Swap:
           indicator: '3D'
           data: 
             icon-key: 'Range'
-            range-base: '10'
-            range-scale: '8'
+            range-base: '9.85'
+            range-scale: '6.85'
             ground: 'True'
             indicator: '2D'
             group: 'enemy'
