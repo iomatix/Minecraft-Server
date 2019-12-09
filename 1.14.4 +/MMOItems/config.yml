@@ -19,19 +19,38 @@ update-notify: true
 # to get some spare memory.
 use-item-caching: true
 
-# Default: 2.5 ; critical strikes deal 2.5x damage.
-# Can be increased by 'Critical Strike Power'
-crit-coefficient: 1.2
+# Enable/disable the plugin iterating over the whole player inventory
+# instead of just the players armor and held items.
+# This option is required for the Ornamnet item type, however
+# it CAN cause lag and/or take a lot of memory.
+iterate-whole-inventory: false
+
+# Enable/Disable abilities in the players offhand, stops
+# players using abilities when interacting with chests, mining etc.
+# Very useful if your have a lot of items that your players use in their
+# off-hand like tomes!
+disable-abilities-in-offhand: false
 
 # By default, all player inventories will be updated every
 # 10 ticks which corresponds to 2 inventory updates a second.
 inventory-update-delay: 10
 
+# Default: 1.0 ; critical strikes deal 1.0x EXTRA damage.
+#
+# Example:
+# If a sword has 10 attack damage and 50% critical power and the
+# weapon hits the critical chance it'll deal 15 attack damage (50% Extra).
+# If the below value was 2.0 for example it'll deal 
+# 10 (Base damage) + 10 critical damage! (100% Extra)
+#
+# Can be increased by 'Critical Strike Power'
+crit-coefficient: 0.25
+
 # Changes the default value for some stats.
 default:
-    attack-speed: 0.67
-    range: 16
-    blunt-rating: 33
+    attack-speed: 0.57
+    range: 15
+    blunt-rating: 30
     recoil: 0.1
 
 # Enable/disable the item glow feature. Make sure you
@@ -48,7 +67,7 @@ soulbound:
     # Edit soulbound damage when players try to use
     # items which are not bound to themselves.
     damage:
-        base: 2
+        base: 3
         per-lvl: 2
 
 # Default and max. values of armor stats. These systems
@@ -75,7 +94,7 @@ mitigation:
         knockback-force: 1.0
         rating-max: 80.0
         cooldown:
-            base: 16.5
+            base: 15.5
             max-reduction: 80.0
         
 # Enable, disable and customize the weapon effects here.
@@ -110,6 +129,18 @@ gem-sockets:
     # item gem sockets if you want to create an
     # uncolored gem socket i.e a socket for any type of gem.
     uncolored: 'Uncolored'
+
+custom-blocks:
+    # Whether or not custom blocks should
+    # generate in the world according to
+    # their generation template.
+    enable-world-gen: false
+    # Whether or not to remove mushroom block drops
+    # from the droplist when mining a mushroom block
+    # with silk-touch.
+    # HIGHLY Recommended for servers that use
+    # custom blocks, as the mushroom blocks can BREAK everything.
+    replace-mushroom-drops: false
 
 advanced-workbench:
     # Define on what actions the adv workbench will open.
@@ -147,12 +178,13 @@ ability-player-damage: true
 # Might interfere with other action bar plugins.
 action-bar-display:
     ability-cooldown: true
+    item-cooldown: true
     not-enough-mana: true
     not-enough-stamina: true
     two-handed: true
     cant-use-item: true
     mitigation: true
-    item-break: false
+    item-break: true
 
 # Displays in-game damage indicators.
 # Requires HolographicDisplays/Holograms to work.
