@@ -1,0 +1,722 @@
+name: 'Blacksmith (#page#/#max#)'
+items:
+    fill:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: BLACK_DYE
+        name: '&a'
+    no-queue-item:
+        material: WHITE_STAINED_GLASS_PANE
+        name: '&a'
+recipes:
+    repair-kit-1:
+        output:
+            type: CONSUMABLE
+            id: REPAIR_KIT
+            amount: 5
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'vanilla IRON_INGOT . 5 Iron_Ingot'
+        - 'vanilla PAPER . 10 Paper'
+    repair-kit-2:
+        output:
+            type: CONSUMABLE
+            id: REPAIR_KIT
+            amount: 8
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 5 Gold_Ingot'
+        - 'vanilla PAPER . 10 Paper'
+    repair-kit-broken-powder:
+        output:
+            type: CONSUMABLE
+            id: REPAIR_KIT
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 8'
+        ingredients:
+        - 'mmoitem MATERIAL WEAPON_POWDER 4 Broken_Powder'
+        - 'vanilla PAPER . 5 Paper'
+    repair-kit-3:
+        output:
+            type: CONSUMABLE
+            id: REPAIR_KIT_LEGENDARY
+            amount: 5
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 5 Legendary_Weapon_Essence'
+        - 'vanilla PAPER . 10 Paper'
+    repair-kit-4:
+        output:
+            type: CONSUMABLE
+            id: REPAIR_KIT_LEGENDARY
+            amount: 6
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 30'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 3 Mythical_Weapon_Essence'
+        - 'vanilla PAPER . 10 Paper'
+    item-breaker-1:
+        output:
+            type: CONSUMABLE
+            id: ITEM_BREAKER
+            amount: 6
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'vanilla COBBLESTONE . 6 Cobblestone'
+        - 'vanilla PAPER . 10 Paper'
+    item-breaker-2:
+        output:
+            type: CONSUMABLE
+            id: ITEM_BREAKER
+            amount: 6
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla IRON_INGOT . 1 Iron_Ingot'
+        - 'vanilla PAPER . 10 Paper'
+######## Swords
+    stone-sword:
+        output:
+            type: SWORD
+            id: LVL_7_SWORD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla COBBLESTONE . 2 Cobblestone'
+        - 'vanilla STICK . 1 Stick'
+    iron-sword:
+        output:
+            type: SWORD
+            id: LVL_16_SWORD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 2 Iron_Ingot'
+        - 'vanilla STICK . 1 Stick'
+    up-iron-sword:
+        output:
+            type: SWORD
+            id: LVL_25_SWORD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 10 Iron_Ingot'
+        - 'vanilla STICK . 1 Stick'
+    gold-sword:
+        output:
+            type: SWORD
+            id: LVL_34_SWORD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 2 Gold_Ingot'
+        - 'vanilla STICK . 1 Stick'
+    diamond-sword:
+        output:
+            type: SWORD
+            id: LVL_48_SWORD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 2 Diamond'
+        - 'vanilla STICK . 1 Stick'
+    up-diamond-sword:
+        output:
+            type: SWORD
+            id: UP_LVL_48_SWORD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 2 Diamond'
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+### Special
+    sword-special-moonblade:
+        output:
+            type: SWORD
+            id: MOONBLADE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 2 Very_Rare_Weapon_Essence'
+    sword-special-flametongue:
+        output:
+            type: SWORD
+            id: FLAMETONGUE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 52'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 2 Legendary_Weapon_Essence'
+    sword-special-seethe:
+        output:
+            type: SWORD
+            id: SEETHE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 54'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 2 Mythical_Weapon_Essence'
+    sword-special-oathbreaker:
+        output:
+            type: SWORD
+            id: OATHBREAKER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 2 Epic_Weapon_Essence'
+    sword-special-divinedivider:
+        output:
+            type: SWORD
+            id: DIVINEDIVIDER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    sword-special-ult-oathbreaker:
+        output:
+            type: SWORD
+            id: ULT_OATHBREAKER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem SWORD OATHBREAKER 1 Oathbreaker'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    sword-special-ult-seethe:
+        output:
+            type: SWORD
+            id: ULT_SEETHE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem SWORD SEETHE 1 Seethe'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    sword-special-ult-moonblade:
+        output:
+            type: SWORD
+            id: ULT_MOONBLADE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem SWORD MOONBLADE 1 Moonblade'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    sword-special-ult-flametongue:
+        output:
+            type: SWORD
+            id: ULT_FLAMETONGUE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem SWORD FLAMETONGUE 1 Flametongue'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    sword-special-valerian:
+        output:
+            type: SWORD
+            id: VALERIANSWORD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 6 Magical_Weapon_Essence'
+### Ultimate
+    sword-ultimate-demonic-thrusting:
+        output:
+            type: THRUSTING_SWORD
+            id: DEMONIC_TSWORD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 4 Demon_Essence'
+    sword-ultimate-divine-long:
+        output:
+            type: LONG_SWORD
+            id: DIVINE_LSWORD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 4 Divine_Essence'
+    sword-ultimate-curse-long:
+        output:
+            type: LONG_SWORD
+            id: CURSE_LSWORD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 5 Cursed_Essence'
+    sword-ultimate-demonic-great:
+        output:
+            type: GREATSWORD
+            id: DEMONIC_GSWORD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 5 Demon_Essence'
+######## Daggers
+    stone-dagger:
+        output:
+            type: DAGGER
+            id: LVL_9_DAGGER
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 9'
+        ingredients:
+        - 'vanilla COBBLESTONE . 1 Cobblestone'
+        - 'vanilla STICK . 1 Stick'
+    iron-dagger:
+        output:
+            type: DAGGER
+            id: LVL_25_DAGGER
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 1 Iron_Ingot'
+        - 'vanilla STICK . 1 Stick'
+    gold-dagger:
+        output:
+            type: DAGGER
+            id: LVL_34_DAGGER
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 1 Gold_Ingot'
+        - 'vanilla STICK . 1 Stick'
+    diamond-dagger:
+        output:
+            type: DAGGER
+            id: LVL_48_DAGGER
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla STICK . 1 Stick'
+    up-diamond-dagger:
+        output:
+            type: DAGGER
+            id: UP_LVL_48_DAGGER
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+### Special
+    dagger-special-moonshiver:
+        output:
+            type: DAGGER
+            id: MOONSHIVER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 1 Very_Rare_Weapon_Essence'
+    dagger-special-ult-moonshiver:
+        output:
+            type: DAGGER
+            id: ULT_MOONSHIVER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem DAGGER MOONSHIVER 1 Moonshiver'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 2 Unique_Weapon_Essence'
+    dagger-special-valerian:
+        output:
+            type: DAGGER
+            id: VALERIANDAGGER
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'vanilla STICK . 1 Stick'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 2 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 3 Magical_Weapon_Essence'
+### Ultimate
+    dagger-ultimate-curse:
+        output:
+            type: DAGGER
+            id: CURSE_DAGGER
+            amount: 1
+        crafting-time: 136
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 4 Cursed_Essence'
+######## Axes
+    stone-axe:
+        output:
+            type: AXE
+            id: LVL_7_AXE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla COBBLESTONE . 5 Cobblestone'
+        - 'vanilla STICK . 2 Stick'
+    iron-axe:
+        output:
+            type: AXE
+            id: LVL_16_AXE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 5 Iron_Ingot'
+        - 'vanilla STICK . 2 Stick'
+    up-iron-axe:
+        output:
+            type: AXE
+            id: LVL_25_AXE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 13 Iron_Ingot'
+        - 'vanilla STICK . 2 Stick'
+    gold-axe:
+        output:
+            type: AXE
+            id: LVL_34_AXE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 5 Gold_Ingot'
+        - 'vanilla STICK . 2 Stick'
+    diamond-axe:
+        output:
+            type: AXE
+            id: LVL_48_AXE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 5 Diamond'
+        - 'vanilla STICK . 2 Stick'
+    up-diamond-axe:
+        output:
+            type: AXE
+            id: UP_LVL_48_AXE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 5 Diamond'
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+### Special
+    axe-special-skullcrusher:
+        output:
+            type: AXE
+            id: SKULLCRUSHER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 3 Very_Rare_Weapon_Essence'
+    axe-special-ravager:
+        output:
+            type: AXE
+            id: RAVAGER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 52'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 3 Legendary_Weapon_Essence'
+    axe-special-thunder:
+        output:
+            type: AXE
+            id: THUNDER_AXE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 54'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 3 Mythical_Weapon_Essence'
+    axe-special-darkrevenge:
+        output:
+            type: AXE
+            id: DARKREVENGE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 3 Epic_Weapon_Essence'
+    axe-special-decapitator:
+        output:
+            type: AXE
+            id: DECAPITATOR
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 6 Unique_Weapon_Essence'
+    axe-special-ult-darkrevenge:
+        output:
+            type: AXE
+            id: ULT_DARKREVENGE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem AXE DARKREVENGE 1 Darkrevenge'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 6 Unique_Weapon_Essence'
+    axe-special-ult-thunder:
+        output:
+            type: AXE
+            id: ULT_THUNDER_AXE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem AXE THUNDER_AXE 1 Thunderlord'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 6 Unique_Weapon_Essence'
+    axe-special-ult-skullcrusher:
+        output:
+            type: AXE
+            id: ULT_SKULLCRUSHER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem AXE SKULLCRUSHER 1 Skullcrusher'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 6 Unique_Weapon_Essence'
+    axe-special-ult-ravager:
+        output:
+            type: AXE
+            id: ULT_RAVAGER
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem AXE RAVAGER 1 Ravager'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 6 Unique_Weapon_Essence'
+    axe-special-valerian:
+        output:
+            type: AXE
+            id: VALERIANAXE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 6 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 6 Magical_Weapon_Essence'
+### Ultimate
+    axe-ultimate-oceanic-great:
+        output:
+            type: GREATAXE
+            id: OCEANIC_GAXE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 5 Oceanic_Essence'
+    axe-ultimate-ancient-great:
+        output:
+            type: GREATAXE
+            id: ANCIENT_GAXE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 6 Ancient_Essence'

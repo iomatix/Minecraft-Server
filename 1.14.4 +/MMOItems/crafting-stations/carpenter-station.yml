@@ -1,0 +1,673 @@
+name: 'Carpenter (#page#/#max#)'
+items:
+    fill:
+        material: BROWN_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: BROWN_DYE
+        name: '&a'
+    no-queue-item:
+        material: WHITE_STAINED_GLASS_PANE
+        name: '&a'
+recipes:
+######## Bows
+    short-bow:
+        output:
+            type: BOW
+            id: LVL_12_BOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 12'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'vanilla STICK . 3 Stick'
+    common-bow:
+        output:
+            type: BOW
+            id: LVL_24_BOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 24'
+        ingredients:
+        - 'vanilla IRON_INGOT . 1 Iron_Ingot'
+        - 'vanilla STRING . 3 String'
+        - 'vanilla STICK . 3 Stick'
+    long-bow:
+        output:
+            type: BOW
+            id: LVL_36_BOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 36'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 1 Gold_Ingot'
+        - 'vanilla STRING . 3 String'
+        - 'vanilla STICK . 3 Stick'
+    composite-bow:
+        output:
+            type: BOW
+            id: LVL_48_BOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla STRING . 3 String'
+        - 'vanilla STICK . 3 Stick'
+    up-composite-bow:
+        output:
+            type: BOW
+            id: UP_LVL_48_BOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla STRING . 3 String'
+        - 'vanilla STICK . 3 Stick'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+### Special
+    bow-special-redwood:
+        output:
+            type: BOW
+            id: REDWOOD_BOW
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 3 Very_Rare_Weapon_Essence'
+    bow-special-windblow:
+        output:
+            type: BOW
+            id: WINDBLOW
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 52'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 3 Legendary_Weapon_Essence'
+    bow-special-darkbless:
+        output:
+            type: BOW
+            id: DARKBLESS
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 54'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 3 Mythical_Weapon_Essence'
+    bow-special-dragonfire:
+        output:
+            type: BOW
+            id: DRAGONFIRE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 4 Epic_Weapon_Essence'
+    bow-special-deathwing:
+        output:
+            type: BOW
+            id: DEATHWING
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    bow-special-ult-dragonfire:
+        output:
+            type: BOW
+            id: ULT_DRAGONFIRE
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem BOW DRAGONFIRE 1 Dragonfire'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    bow-special-ult-darkbless:
+        output:
+            type: BOW
+            id: ULT_DARKBLESS
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem BOW DARKBLESS 1 Darkbless'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    bow-special-ult-windblow:
+        output:
+            type: BOW
+            id: ULT_WINDBLOW
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem BOW WINDBLOW 1 Windblow'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    bow-special-ult-redwood:
+        output:
+            type: BOW
+            id: ULT_REDWOOD_BOW
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem BOW REDWOOD_BOW 1 Redwood_Bow'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    bow-special-valerian:
+        output:
+            type: BOW
+            id: VOID_BOW
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 6 Magical_Weapon_Essence'
+### Ultimate
+    bow-ultimate-demonic-great:
+        output:
+            type: GREATBOW
+            id: DEMONIC_GBOW
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 4 Demon_Essence'
+    bow-ultimate-ethernal-great:
+        output:
+            type: GREATBOW
+            id: ETHERNAL_GBOW
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 5 Ethernal_Essence'
+######## Crossbows
+    short-cbow:
+        output:
+            type: GREATCROSSBOW
+            id: LVL_16_CROSSBOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla COBBLESTONE . 1 Cobblestone'
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+    common-cbow:
+        output:
+            type: GREATCROSSBOW
+            id: LVL_24_CROSSBOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 24'
+        ingredients:
+        - 'vanilla IRON_INGOT . 1 Iron_Ingot'
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+    long-cbow:
+        output:
+            type: GREATCROSSBOW
+            id: LVL_36_CROSSBOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 36'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 1 Gold_Ingot'
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+    composite-cbow:
+        output:
+            type: GREATCROSSBOW
+            id: LVL_48_CROSSBOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+    up-composite-cbow:
+        output:
+            type: GREATCROSSBOW
+            id: UP_LVL_48_CROSSBOW
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+### Special
+    cbow-special-dragonfire:
+        output:
+            type: GREATCROSSBOW
+            id: DRAGONFIRE_CROSSBOW
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 4 Epic_Weapon_Essence'
+    cbow-special-ult-dragonfire:
+        output:
+            type: GREATCROSSBOW
+            id: ULT_DRAGONFIRE_CROSSBOW
+            amount: 1
+        crafting-time: 100
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem GREATCROSSBOW DRAGONFIRE_CROSSBOW 1 Dragonfire'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+    cbow-special-valerian:
+        output:
+            type: GREATCROSSBOW
+            id: DWARF_CROSSBOW
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 6 Magical_Weapon_Essence'
+### Ultimate
+    cbow-ultimate-ancient-great:
+        output:
+            type: GREATCROSSBOW
+            id: ANCIENT_CROSSBOW
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 4 Ancient_Essence'
+    cbow-ultimate-oceanic-great:
+        output:
+            type: GREATCROSSBOW
+            id: OCEANIC_CROSSBOW
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 4 Oceanic_Essence'
+    cbow-ultimate-divine-great:
+        output:
+            type: GREATCROSSBOW
+            id: DIVINE_CROSSBOW
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 5 Divine_Essence'
+######## Spears
+    wood-spear:
+        output:
+            type: SPEAR
+            id: LVL_12_SPEAR
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 12'
+        ingredients:
+        - 'vanilla STICK . 3 Stick'
+    stone-spear:
+        output:
+            type: SPEAR
+            id: LVL_18_SPEAR
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 18'
+        ingredients:
+        - 'vanilla COBBLESTONE . 3 Cobblestone'
+    iron-spear:
+        output:
+            type: SPEAR
+            id: LVL_26_SPEAR
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 26'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'vanilla IRON_INGOT . 4 Iron_Ingot'
+    gold-spear:
+        output:
+            type: SPEAR
+            id: LVL_34_SPEAR
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'vanilla GOLD_INGOT . 4 Gold_Ingot'
+    diamond-spear:
+        output:
+            type: SPEAR
+            id: LVL_48_SPEAR
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'vanilla DIAMOND . 4 Diamond'
+    up-diamond-spear:
+        output:
+            type: SPEAR
+            id: UP_LVL_48_SPEAR
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'vanilla DIAMOND . 4 Diamond'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+### Special
+### Ultimate
+    spear-ultimate-demonic:
+        output:
+            type: SPEAR
+            id: DEMONIC_SPEAR
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 6 Demon_Essence'
+    spear-ultimate-oceanic:
+        output:
+            type: SPEAR
+            id: OCEANIC_TRIDENT
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 6 Oceanic_Essence'
+######### Lance 
+### Ultimate
+    lance-ultimate-ancient:
+        output:
+            type: LANCE
+            id: ANCIENT_LANCE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 5 Ancient_Essence'
+    lance-ultimate-divine:
+        output:
+            type: LANCE
+            id: DIVINE_LANCE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 6 Divine_Essence'
+######### Halberd 
+### Ultimate
+    halberd-ultimate-curse:
+        output:
+            type: HALBERD
+            id: CURSE_SCYTHE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 5 Cursed_Essence'
+    halberd-ultimate-ethernal:
+        output:
+            type: HALBERD
+            id: ETHERNAL_SCYTHE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 6 Ethernal_Essence'
+######### Shield
+    shield-common-sm:
+        output:
+            type: SHIELD
+            id: LVL_7_SHIELD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla STICK . 16 Stick'
+    shield-common:
+        output:
+            type: SHIELD
+            id: LVL_16_SHIELD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla STICK . 24 Stick'
+    shield-iron:
+        output:
+            type: SHIELD
+            id: LVL_25_SHIELD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 4 Iron_Ingot'
+        - 'vanilla STICK . 16 Stick'
+    shield-up-iron:
+        output:
+            type: SHIELD
+            id: LVL_34_SHIELD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla IRON_INGOT . 8 Iron_Ingot'
+        - 'vanilla STICK . 16 Stick'
+    shield-diamond:
+        output:
+            type: SHIELD
+            id: LVL_48_SHIELD
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 6 Diamond'
+        - 'vanilla STICK . 24 Stick'
+    shield-up-diamond:
+        output:
+            type: SHIELD
+            id: UP_LVL_48_SHIELD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 6 Diamond'
+        - 'vanilla STICK . 24 Stick'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+### Ultimate
+    shield-ultimate-divine:
+        output:
+            type: SHIELD
+            id: DIVINE_GSHIELD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'vanilla IRON_INGOT . 6 Iron_Ingot'
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 5 Divine_Essence'
+    shield-ultimate-ancient:
+        output:
+            type: SHIELD
+            id: ANCIENT_GREATSHIELD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'vanilla IRON_INGOT . 6 Iron_Ingot'
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 6 Ancient_Essence'
+    shield-ultimate-oceanic:
+        output:
+            type: SHIELD
+            id: OCEANIC_GREATSHIELD
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'vanilla IRON_INGOT . 6 Iron_Ingot'
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 6 Oceanic_Essence'

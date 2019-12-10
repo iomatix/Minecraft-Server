@@ -254,7 +254,7 @@ POTION_MEDIUM:
       durability: 0
       name: ''
     '1':
-      material: Air
+      material: sugar
       amount: 1
       durability: 0
       name: ''
@@ -264,7 +264,7 @@ POTION_MEDIUM:
       durability: 0
       name: ''
     '3':
-      material: sugar_cane
+      material: apple
       amount: 1
       durability: 0
       name: ''
@@ -274,7 +274,7 @@ POTION_MEDIUM:
       durability: 0
       name: ''
     '5':
-      material: sugar_cane
+      material: apple
       amount: 1
       durability: 0
       name: ''
@@ -324,7 +324,7 @@ POTION_LARGE:
       durability: 0
       name: ''
     '3':
-      material: sugar_cane
+      material: sugar
       amount: 1
       durability: 0
       name: ''
@@ -334,7 +334,7 @@ POTION_LARGE:
       durability: 0
       name: ''
     '5':
-      material: MELON
+      material: MELON_SLICE
       amount: 1
       durability: 0
       name: ''
@@ -384,7 +384,7 @@ POTION_EPIC:
       durability: 0
       name: ''
     '3':
-      material: sugar_cane
+      material: sugar
       amount: 1
       durability: 0
       name: ''
@@ -443,7 +443,7 @@ POTION_MYTHIC:
       durability: 0
       name: ''
     '3':
-      material: sugar_cane
+      material: sugar
       amount: 1
       durability: 0
       name: ''

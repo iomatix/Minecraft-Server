@@ -142,6 +142,78 @@ LVL_7_LEATHER_CHESTPLATE:
     destroy: true
     template: armor-default
     max: 12
+LVL_7_LEATHER_LEGGINGS:
+  name: '&fLeather Leggings'
+  material: Leather_LEGGINGS
+  block-power: 1.0=1.6
+  block-rating: 1.0=1.6
+  required-level: 7.0
+  armor: 9=13
+  armor-toughness: 1
+  lore:
+  - '&7Common Leather leggings.'
+  tier: COMMON
+  knockback-resistance: 0.01=0.02
+  gem-sockets: 0.0
+  disable-enchanting: true
+  max-health: 10.0
+  advanced-craft-enabled: true
+  advanced-craft:
+    '4':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '7':
+      material: AIR
+      durability: 0
+      amount: 1
+      name: ''
+    '8':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '6':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '3':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '0':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '1':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '2':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+    '5':
+      material: LEATHER
+      durability: 0
+      amount: 1
+      name: ''
+  dye-color: 80 60 50
+  set: LEATHER
+  max-durability: 110.0=180.0
+  dodge-cooldown-reduction: 1.0
+  dodge-rating: 0.03
+  unbreakable: true
+  upgrade:
+    destroy: true
+    template: armor-default
+    max: 12
 LVL_7_LEATHER_BOOTS:
   name: '&fLeather Boots'
   material: Leather_BOOTS
@@ -211,78 +283,6 @@ LVL_7_LEATHER_BOOTS:
   will-break: false
   unbreakable: true
   max-health: 10.0
-  upgrade:
-    destroy: true
-    template: armor-default
-    max: 12
-LVL_7_LEATHER_LEGGINGS:
-  name: '&fLeather Leggings'
-  material: Leather_LEGGINGS
-  block-power: 1.0=1.6
-  block-rating: 1.0=1.6
-  required-level: 7.0
-  armor: 9=13
-  armor-toughness: 1
-  lore:
-  - '&7Common Leather leggings.'
-  tier: COMMON
-  knockback-resistance: 0.01=0.02
-  gem-sockets: 0.0
-  disable-enchanting: true
-  max-health: 10.0
-  advanced-craft-enabled: true
-  advanced-craft:
-    '4':
-      material: AIR
-      durability: 0
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      durability: 0
-      amount: 1
-      name: ''
-    '8':
-      material: LEATHER
-      durability: 0
-      amount: 1
-      name: ''
-    '6':
-      material: LEATHER
-      durability: 0
-      amount: 1
-      name: ''
-    '3':
-      material: LEATHER
-      durability: 0
-      amount: 1
-      name: ''
-    '0':
-      material: LEATHER
-      durability: 0
-      amount: 1
-      name: ''
-    '1':
-      material: LEATHER
-      durability: 0
-      amount: 1
-      name: ''
-    '2':
-      material: LEATHER
-      durability: 0
-      amount: 1
-      name: ''
-    '5':
-      material: LEATHER
-      durability: 0
-      amount: 1
-      name: ''
-  dye-color: 80 60 50
-  set: LEATHER
-  max-durability: 110.0=180.0
-  dodge-cooldown-reduction: 1.0
-  dodge-rating: 0.03
-  unbreakable: true
   upgrade:
     destroy: true
     template: armor-default

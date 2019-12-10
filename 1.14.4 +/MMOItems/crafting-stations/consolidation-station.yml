@@ -1,0 +1,191 @@
+name: 'Consolidation (#page#/#max#)'
+items:
+    fill:
+        material: YELLOW_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: LIME_DYE
+        name: '&a'
+    no-queue-item:
+        material: WHITE_STAINED_GLASS_PANE
+        name: '&a'
+recipes:
+    uncommon-weapon-essence:
+        output:
+            type: MATERIAL
+            id: UNCOMMON_WEAPON_ESSENCE
+            amount: 4
+        crafting-time: 10
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL WEAPON_POWDER 20 Broken_Powder'
+    magical-weapon-essence:
+        output:
+            type: MATERIAL
+            id: MAGICAL_WEAPON_ESSENCE
+            amount: 1
+        crafting-time: 10
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+        - 'mmoitem MISCELLANEOUS MAGIC_TEAR 6 Magic_Tear'
+    rare-weapon-essence:
+        output:
+            type: MATERIAL
+            id: RARE_WEAPON_ESSENCE
+            amount: 1
+        crafting-time: 10
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+        - 'mmoitem MISCELLANEOUS GOLD_COIN 6 Gold_Coin'
+    very-rare-weapon-essence:
+        output:
+            type: MATERIAL
+            id: VERY_RARE_WEAPON_ESSENCE
+            amount: 1
+        crafting-time: 10
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    legendary-weapon-essence:
+        output:
+            type: MATERIAL
+            id: LEGENDARY_WEAPON_ESSENCE
+            amount: 1
+        crafting-time: 10
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+        - 'mmoitem MISCELLANEOUS GOLD_COIN 20 Gold_Coin'
+    mythical-weapon-essence:
+        output:
+            type: MATERIAL
+            id: MYTHICAL_WEAPON_ESSENCE
+            amount: 1
+        crafting-time: 10
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+    epic-weapon-essence:
+        output:
+            type: MATERIAL
+            id: EPIC_WEAPON_ESSENCE
+            amount: 1
+        crafting-time: 10
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 4 Mythical_Weapon_Essence'
+    unique-weapon-essence:
+        output:
+            type: MATERIAL
+            id: UNIQUE_WEAPON_ESSENCE
+            amount: 1
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 1 Epic_Weapon_Essence'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 6 Mythical_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    demon-essence:
+        output:
+            type: MATERIAL
+            id: DEMON_ESSENCE
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS DEMONIC_ELEMENT 8 Demonic_Element'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'
+    ethernal-essence:
+        output:
+            type: MATERIAL
+            id: ETHERNAL_ESSENCE
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS SOUL_ELEMENT 8 Soul_Element'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'
+    ancient-essence:
+        output:
+            type: MATERIAL
+            id: ANCIENT_ESSENCE
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS ANCIENT_ELEMENT 8 Ancient_Element'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'
+    cursed-essence:
+        output:
+            type: MATERIAL
+            id: CURSED_ESSENCE
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS CURSED_ELEMENT 8 Cursed_Element'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'
+    oceanic-essence:
+        output:
+            type: MATERIAL
+            id: OCEANIC_ESSENCE
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS OCEANIC_ELEMENT 8 Oceanic_Element'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'
+    divine-essence:
+        output:
+            type: MATERIAL
+            id: DIVINE_ESSENCE
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS DIVINE_ELEMENT 8 Divine_Element'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'

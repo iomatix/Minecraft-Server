@@ -741,23 +741,23 @@ DEATHWING:
     damage:
       Fire: 40.0
     fire:
-      damage: 20.0
+      damage: 25.0
   ability:
     right-click:
       type: arcane_hail
-      damage: 13.8
+      damage: 16.8
       duration: 6
-      cooldown: 14.7
-      radius: 5.3
+      cooldown: 13.7
+      radius: 5.5
       mode: SHIFT_LEFT_CLICK
     on-hit:
       type: STUN
-      duration: 0.75
-      cooldown: 7.0
+      duration: 0.85
+      cooldown: 6.75
       mode: ON_HIT
   two-handed: false
   required-level: 58.0
-  attack-damage: 160.0
+  attack-damage: 178.0
   critical-strike-chance: 45.0
   critical-strike-power: 70.0
   movement-speed: 0.005
@@ -802,101 +802,6 @@ DEATHWING:
       amount: 1
     '8':
       material: String
-      durability: 0
-      amount: 1
-      name: ''
-  max-durability: 75000.0
-  will-break: false
-  unbreakable: true
-  arrow-particles:
-    particle: DRAGON_BREATH
-    amount: 2
-    speed: 0.07
-    offset: -0.25
-  gem-sockets:
-  - BLUE
-  - BLUE
-  - BLUE
-  upgrade:
-    destroy: true
-    template: bow-default
-    max: 12
-  custom-model-data: 12.0
-ULT_DEATHWING:
-  material: BOW
-  name: '&cUltimate Deathwing'
-  tier: UNIQUE
-  lore:
-  - '&eNo one knows origin of this bow.'
-  - '&eIt was used to slay one of the ancient gods.'
-  - '&eUltimate weapon.'
-  hide-enchants: true
-  disable-enchanting: true
-  enchants:
-    power: 3
-  element:
-    damage:
-      Fire: 40.0
-    fire:
-      damage: 25.0
-  ability:
-    right-click:
-      type: arcane_hail
-      damage: 16.8
-      duration: 6
-      cooldown: 13.7
-      radius: 5.5
-      mode: SHIFT_LEFT_CLICK
-    on-hit:
-      type: STUN
-      duration: 0.85
-      cooldown: 6.75
-      mode: ON_HIT
-  two-handed: false
-  required-level: 58.0
-  attack-damage: 178.0
-  critical-strike-chance: 45.0
-  critical-strike-power: 70.0
-  movement-speed: 0.005
-  advanced-craft-enabled: true
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      durability: 0
-      name: ''
-    '1':
-      type: MATERIAL
-      id: UNIQUE_WEAPON_ESSENCE
-      amount: 1
-    '2':
-      material: AIR
-      amount: 1
-      durability: 0
-      name: ''
-    '3':
-      type: MATERIAL
-      id: UNIQUE_WEAPON_ESSENCE
-      amount: 1
-    '4':
-      type: BOW
-      id: DEATHWING
-      amount: 1
-    '5':
-      type: MATERIAL
-      id: UNIQUE_WEAPON_ESSENCE
-      amount: 1
-    '6':
-      material: AIR
-      amount: 1
-      durability: 0
-      name: ''
-    '7':
-      type: MATERIAL
-      id: UNIQUE_WEAPON_ESSENCE
-      amount: 1
-    '8':
-      material: AIR
       durability: 0
       amount: 1
       name: ''
@@ -1339,7 +1244,7 @@ VOID_BOW:
       mode: ON_HIT
   two-handed: false
   required-level: 62.0
-  attack-damage: 195.5
+  attack-damage: 196.2
   critical-strike-chance: 50.0
   critical-strike-power: 70.0
   movement-speed: 0.006

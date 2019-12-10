@@ -1,0 +1,469 @@
+name: 'Alchemy (#page#/#max#)'
+items:
+    fill:
+        material: RED_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: RED_DYE
+        name: '&a'
+    no-queue-item:
+        material: WHITE_STAINED_GLASS_PANE
+        name: '&a'
+recipes:
+    gold-coin:
+        output:
+            type: MISCELLANEOUS
+            id: GOLD_COIN
+            amount: 3
+        crafting-time: 7
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS SILVER_COIN 27 Silver_Coin'
+    potion-tiny:
+        output:
+            type: CONSUMABLE
+            id: POTION_TINY
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'vanilla APPLE . 1 Apple'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+    potion-small:
+        output:
+            type: CONSUMABLE
+            id: POTION_SMALL
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 2'
+        ingredients:
+        - 'vanilla WHEAT . 2 Wheat'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+    potion-common:
+        output:
+            type: CONSUMABLE
+            id: POTION_COMMON
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 3'
+        ingredients:
+        - 'vanilla WHEAT . 1 Wheat'
+        - 'vanilla APPLE . 1 Apple'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+    potion-health:
+        output:
+            type: CONSUMABLE
+            id: POTION
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 5'
+        ingredients:
+        - 'vanilla WHEAT . 1 Wheat'
+        - 'vanilla APPLE . 2 Apple'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+    potion-medium:
+        output:
+            type: CONSUMABLE
+            id: POTION_MEDIUM
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla WHEAT . 1 Sugar'
+        - 'vanilla APPLE . 2 Apple'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+    potion-large:
+        output:
+            type: CONSUMABLE
+            id: POTION_LARGE
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla MELON_SLICE . 1 Melon_Slice'
+        - 'vanilla SUGAR . 2 Sugar'
+        - 'vanilla MAGMA_CREAM . 1 Magma_Cream'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+    potion-epic:
+        output:
+            type: CONSUMABLE
+            id: POTION_EPIC
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 38'
+        ingredients:
+        - 'vanilla GLISTERING_MELON_SLICE . 1 Glistering_Melon_Slice'
+        - 'vanilla SUGAR . 3 Sugar'
+        - 'vanilla MAGMA_CREAM . 1 Magma_Cream'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+    potion-mythic:
+        output:
+            type: CONSUMABLE
+            id: POTION_MYTHIC
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'vanilla APPLE . 1 Apple'
+        - 'vanilla WHEAT . 3 Wheat'
+        - 'vanilla MELON_SLICE . 1 Melon_Slice'
+        - 'vanilla SUGAR . 4 Sugar'
+        - 'vanilla MAGMA_CREAM . 1 Magma_Cream'
+        - 'vanilla GLASS_BOTTLE . 1 Glass_Bottle'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 1 Legendary_Weapon_Essence'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 1 Mythical_Weapon_Essence'
+    potion-reset-attr:
+        output:
+            type: CONSUMABLE
+            id: RESET_POTION_ATTR
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla BONE_MEAL . 1 Bone_Meal'
+        - 'vanilla FERMENTED_SPIDER_EYE . 1 Fermented_Spider_Eye'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 2 Very_Rare_Weapon_Essence'
+    potion-reset-points:
+        output:
+            type: CONSUMABLE
+            id: RESET_POTION_POINTS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla COAL . 1 Coal'
+        - 'vanilla ENDER_EYE . 1 Ender_Eye'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 2 Very_Rare_Weapon_Essence'
+    potion-special-attr:
+        output:
+            type: CONSUMABLE
+            id: SPECIAL_POTION_ATTR
+            amount: 1
+        crafting-time: 180
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 60'
+        ingredients:
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 1 Magic_Weapon_Essence'
+        - 'mmoitem MISCELLANEOUS WITHER_HEARTH 1 Wither_Hearth'
+        - 'mmoitem MISCELLANEOUS DRAGON_SCALE 1 Dragon_Scale'
+    potion-special-points:
+        output:
+            type: CONSUMABLE
+            id: SPECIAL_POTION_POINTS
+            amount: 1
+        crafting-time: 180
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 60'
+        ingredients:
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 1 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 1 Rare_Weapon_Essence'
+        - 'mmoitem MISCELLANEOUS WITHER_HEARTH 1 Wither_Hearth'
+        - 'mmoitem MISCELLANEOUS DRAGON_SCALE 1 Dragon_Scale'
+    gem-green-IH:
+        output:
+            type: GEM_STONE
+            id: GREEN_IH
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 1 Legendary_Weapon_Essence'
+        - 'vanilla EMERALD . 1 Emerald'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-green-IA:
+        output:
+            type: GEM_STONE
+            id: GREEN_IA
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 1 Legendary_Weapon_Essence'
+        - 'vanilla EMERALD . 1 Emerald'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-green-IR:
+        output:
+            type: GEM_STONE
+            id: GREEN_IR
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 1 Legendary_Weapon_Essence'
+        - 'vanilla EMERALD . 1 Emerald'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-blue-IH:
+        output:
+            type: GEM_STONE
+            id: BLUE_IH
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 1 Legendary_Weapon_Essence'
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla FEATHER . 2 Feather'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-blue-IP:
+        output:
+            type: GEM_STONE
+            id: BLUE_IP
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 1 Legendary_Weapon_Essence'
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-blue-ID:
+        output:
+            type: GEM_STONE
+            id: BLUE_ID
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 1 Legendary_Weapon_Essence'
+        - 'vanilla DIAMOND . 1 Diamond'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-green-IIH:
+        output:
+            type: GEM_STONE
+            id: GREEN_IIH
+            amount: 1
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 1 Mythical_Weapon_Essence'
+        - 'vanilla EMERALD . 2 Emerald'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-green-IIA:
+        output:
+            type: GEM_STONE
+            id: GREEN_IIA
+            amount: 1
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 1 Mythical_Weapon_Essence'
+        - 'vanilla EMERALD . 2 Emerald'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-green-IIR:
+        output:
+            type: GEM_STONE
+            id: GREEN_IIR
+            amount: 1
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 1 Mythical_Weapon_Essence'
+        - 'vanilla EMERALD . 2 Emerald'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-blue-IIH:
+        output:
+            type: GEM_STONE
+            id: BLUE_IIH
+            amount: 1
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 1 Mythical_Weapon_Essence'
+        - 'vanilla DIAMOND . 2 Diamond'
+        - 'vanilla FEATHER . 2 Feather'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-blue-IIP:
+        output:
+            type: GEM_STONE
+            id: BLUE_IIP
+            amount: 1
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 1 Mythical_Weapon_Essence'
+        - 'vanilla DIAMOND . 2 Diamond'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-blue-IID:
+        output:
+            type: GEM_STONE
+            id: BLUE_IID
+            amount: 1
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 1 Mythical_Weapon_Essence'
+        - 'vanilla DIAMOND . 2 Diamond'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-green-IIIH:
+        output:
+            type: GEM_STONE
+            id: GREEN_IIIH
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 1 Epic_Weapon_Essence'
+        - 'vanilla EMERALD . 3 Emerald'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-green-IIIA:
+        output:
+            type: GEM_STONE
+            id: GREEN_IIIA
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 1 Epic_Weapon_Essence'
+        - 'vanilla EMERALD . 3 Emerald'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-green-IIIR:
+        output:
+            type: GEM_STONE
+            id: GREEN_IIIR
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 1 Epic_Weapon_Essence'
+        - 'vanilla EMERALD . 3 Emerald'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-blue-IIIH:
+        output:
+            type: GEM_STONE
+            id: BLUE_IIIH
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 1 Epic_Weapon_Essence'
+        - 'vanilla DIAMOND . 3 Diamond'
+        - 'vanilla FEATHER . 2 Feather'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+    gem-blue-IIIP:
+        output:
+            type: GEM_STONE
+            id: BLUE_IIIP
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 1 Epic_Weapon_Essence'
+        - 'vanilla DIAMOND . 3 Diamond'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'
+        - 'vanilla IRON_NUGGET . 2 Iron_Nugget'
+    gem-blue-IIID:
+        output:
+            type: GEM_STONE
+            id: BLUE_IIID
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 1 Epic_Weapon_Essence'
+        - 'vanilla DIAMOND . 3 Diamond'
+        - 'vanilla NETHER_WART . 2 Nether_Wart'
+        - 'vanilla GOLD_NUGGET . 2 Gold_Nugget'

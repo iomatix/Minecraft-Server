@@ -1,0 +1,362 @@
+name: 'Arcanum (#page#/#max#)'
+items:
+    fill:
+        material: CYAN_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: CYAN_DYE
+        name: '&a'
+    no-queue-item:
+        material: WHITE_STAINED_GLASS_PANE
+        name: '&a'
+recipes:
+    ident-scroll-1:
+        output:
+            type: CONSUMABLE
+            id: IDENT_SCROLL
+            amount: 5
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 9'
+        ingredients:
+        - 'vanilla DIAMOND . 5 Diamond'
+        - 'vanilla PAPER . 10 Paper'
+    ident-scroll-2:
+        output:
+            type: CONSUMABLE
+            id: IDENT_SCROLL_ALT
+            amount: 5
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 24'
+        ingredients:
+        - 'vanilla EMERALD . 5 Emerald'
+        - 'vanilla PAPER . 10 Paper'
+    ident-scroll-3:
+        output:
+            type: CONSUMABLE
+            id: IDENT_SCROLL_ALT_2
+            amount: 5
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 64'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS GOLD_COIN 5 Gold_Coin'
+        - 'vanilla PAPER . 10 Paper'
+    soulconnector-1:
+        output:
+            type: CONSUMABLE
+            id: SOULCONNECTOR_1
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 28'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS GOLD_COIN 6 Gold_Coin'
+        - 'vanilla PAPER . 12 Paper'
+    soulconnector-2:
+        output:
+            type: CONSUMABLE
+            id: SOULCONNECTOR_2
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 38'
+        ingredients:
+        - 'mmoitem CONSUMABLE SOULCONNECTOR_1 1 Soul_Connector_I'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+    soulconnector-3:
+        output:
+            type: CONSUMABLE
+            id: SOULCONNECTOR_3
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 64'
+        ingredients:
+        - 'mmoitem CONSUMABLE SOULCONNECTOR_2 1 Soul_Connector_III'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 4 Mythical_Weapon_Essence'
+    soulbreaker-1:
+        output:
+            type: CONSUMABLE
+            id: SOULBREAKER_1
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 28'
+        ingredients:
+        - 'mmoitem MISCELLANEOUS GOLD_COIN 6 Gold_Coin'
+        - 'vanilla PAPER . 12 Paper'
+    soulbreaker-2:
+        output:
+            type: CONSUMABLE
+            id: SOULBREAKER_2
+            amount: 1
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 38'
+        ingredients:
+        - 'mmoitem CONSUMABLE SOULBREAKER_1 1 Soul_Breaker_I'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+    soulbreaker-3:
+        output:
+            type: CONSUMABLE
+            id: SOULBREAKER_3
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 64'
+        ingredients:
+        - 'mmoitem CONSUMABLE SOULBREAKER_2 1 Soul_Breaker_III'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 4 Mythical_Weapon_Essence'
+########## Staves
+    staff-magical:
+        output:
+            type: STAFF
+            id: LVL_22_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 22'
+        ingredients:
+        - 'vanilla STICK . 2 Stick'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-earth:
+        output:
+            type: STAFF
+            id: LVL_38_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 38'
+        ingredients:
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 2 Rare_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-fire:
+        output:
+            type: STAFF
+            id: LVL_48_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+### Ultimate
+# Ethernal
+    staff-ethernal-1:
+        output:
+            type: STAFF
+            id: ETHERNAL_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 4 Ethernal_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-ethernal-2:
+        output:
+            type: STAFF
+            id: ETHERNAL_STAFF2
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 4 Ethernal_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+# Divine
+    staff-divine-1:
+        output:
+            type: STAFF
+            id: DIVINE_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 4 Divine_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-divine-2:
+        output:
+            type: STAFF
+            id: DIVINE_STAFF2
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 4 Divine_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+# Oceanic
+    staff-oceanic-1:
+        output:
+            type: STAFF
+            id: OCEANIC_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 4 Oceanic_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-oceanic-2:
+        output:
+            type: STAFF
+            id: OCEANIC_STAFF2
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 4 Oceanic_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+# Demonic
+    staff-demonic-1:
+        output:
+            type: STAFF
+            id: DEMONIC_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 4 Demon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-demonic-2:
+        output:
+            type: STAFF
+            id: DEMONIC_STAFF2
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 4 Demon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+# Ancient
+    staff-ancient-1:
+        output:
+            type: STAFF
+            id: ANCIENT_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 4 Ancient_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-ancient-2:
+        output:
+            type: STAFF
+            id: ANCIENT_STAFF2
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 4 Ancient_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+# Cursed
+    staff-cursed-1:
+        output:
+            type: STAFF
+            id: CURSED_STAFF
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 4 Cursed_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+    staff-cursed-2:
+        output:
+            type: STAFF
+            id: CURSED_STAFF2
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 4 Cursed_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+########## Tomes
+    tome-ethernal:
+        output:
+            type: TOME
+            id: ETHERNAL_TOME
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'vanilla BOOK . 1 Book'
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 4 Ethernal_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+########## Catalysts
+    catalyst-cursed:
+        output:
+            type: OFF_CATALYST
+            id: CURSE_CATALYST
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'vanilla IRON_INGOT . 1 Iron_Ingot'
+        - 'mmoitem MATERIAL CURSED_ESSENCE 4 Cursed_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'

@@ -462,7 +462,7 @@ ULT_DRAGONFIRE_CROSSBOW:
   advanced-craft-enabled: true
   advanced-craft:
     '0':
-      material: STICK
+      material: AIR
       amount: 1
       durability: 0
       name: ''
@@ -471,25 +471,22 @@ ULT_DRAGONFIRE_CROSSBOW:
       id: UNIQUE_WEAPON_ESSENCE
       amount: 1
     '2':
-      material: STICK
+      material: AIR
       amount: 1
       durability: 0
       name: ''
     '3':
-      material: STRING
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
       amount: 1
-      durability: 0
-      name: ''
     '4':
-      material: TRIPWIRE_HOOK
+      type: GREATCROSSBOW
+      id: DRAGONFIRE_CROSSBOW
       amount: 1
-      durability: 0
-      name: ''
     '5':
-      material: STRING
+      type: MATERIAL
+      id: UNIQUE_WEAPON_ESSENCE
       amount: 1
-      durability: 0
-      name: ''
     '6':
       material: AIR
       amount: 1
@@ -535,7 +532,7 @@ DWARF_CROSSBOW:
     quick_charge: 2
   two-handed: true
   required-level: 62.0
-  attack-damage: 210.5
+  attack-damage: 211.1
   critical-strike-chance: 50.0
   critical-strike-power: 70.0
   advanced-craft-enabled: true

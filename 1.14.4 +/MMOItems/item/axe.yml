@@ -596,7 +596,7 @@ RAVAGER:
   custom-model-data: 5.0
 THUNDER_AXE:
   material: diamond_axe
-  name: '&5Thunder Axe'
+  name: '&5Thunderlord'
   tier: MYTHICAL
   lore:
   - '&5That axe belonged to'
@@ -963,7 +963,7 @@ ULT_DARKREVENGE:
   custom-model-data: 7.0
 ULT_THUNDER_AXE:
   material: diamond_axe
-  name: '&cUltimate Thunder Axe'
+  name: '&cUltimate Thunderlord'
   tier: UNIQUE
   lore:
   - '&cThat axe belonged to'

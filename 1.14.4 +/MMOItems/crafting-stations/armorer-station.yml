@@ -1,0 +1,616 @@
+name: 'Armorer (#page#/#max#)'
+items:
+    fill:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: GRAY_DYE
+        name: '&a'
+    no-queue-item:
+        material: WHITE_STAINED_GLASS_PANE
+        name: '&a'
+recipes:
+    saddle:
+        output:
+            type: TOOL
+            id: SADDLE
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla IRON_INGOT . 1 Iron_Ingot'
+        - 'vanilla LEATHER . 5 Leather'
+    horse-armor-leather:
+        output:
+            type: TOOL
+            id: HORSE_ARMOR_LEATHER
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 9'
+        ingredients:
+        - 'mmoitem TOOL SADDLE 1 Saddle'
+        - 'vanilla LEATHER . 5 Leather'
+    horse-armor-iron:
+        output:
+            type: TOOL
+            id: HORSE_ARMOR_IRON
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 14'
+        ingredients:
+        - 'mmoitem TOOL SADDLE 1 Saddle'
+        - 'vanilla IRON_INGOT . 5 Iron_Ingot'
+    horse-armor-gold:
+        output:
+            type: TOOL
+            id: HORSE_ARMOR_GOLD
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 26'
+        ingredients:
+        - 'mmoitem TOOL SADDLE 1 Saddle'
+        - 'vanilla GOLD_INGOT . 5 Gold_Ingot'
+    horse-armor-diamond:
+        output:
+            type: TOOL
+            id: HORSE_ARMOR_DIAMOND
+            amount: 1
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 38'
+        ingredients:
+        - 'mmoitem TOOL SADDLE 1 Saddle'
+        - 'vanilla DIAMOND . 5 Diamond'
+######### Armors
+    leather-armor-helmet:
+        output:
+            type: ARMOR
+            id: LVL_7_LEATHER_HELMET
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 5 Leather'
+    leather-armor-chestplate:
+        output:
+            type: ARMOR
+            id: LVL_7_LEATHER_CHESTPLATE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 8 Leather'
+    leather-armor-leggings:
+        output:
+            type: ARMOR
+            id: LVL_7_LEATHER_LEGGINGS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 7 Leather'
+    leather-armor-boots:
+        output:
+            type: ARMOR
+            id: LVL_7_LEATHER_BOOTS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 4 Leather'
+######### 16
+    iron-armor-helmet:
+        output:
+            type: ARMOR
+            id: LVL_16_IRON_HELMET
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 5 Iron_Ingot'
+    iron-armor-chestplate:
+        output:
+            type: ARMOR
+            id: LVL_16_IRON_CHESTPLATE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 8 Iron_Ingot'
+    iron-armor-leggings:
+        output:
+            type: ARMOR
+            id: LVL_16_IRON_LEGGINGS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 7 Iron_Ingot'
+    iron-armor-boots:
+        output:
+            type: ARMOR
+            id: LVL_16_IRON_BOOTS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 4 Iron_Ingot'
+######### 25
+    up-iron-armor-helmet:
+        output:
+            type: ARMOR
+            id: LVL_25_IRON_HELMET
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 13 Iron_Ingot'
+    up-iron-armor-chestplate:
+        output:
+            type: ARMOR
+            id: LVL_25_IRON_CHESTPLATE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 16 Iron_Ingot'
+    up-iron-armor-leggings:
+        output:
+            type: ARMOR
+            id: LVL_25_IRON_LEGGINGS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 15 Iron_Ingot'
+    up-iron-armor-boots:
+        output:
+            type: ARMOR
+            id: LVL_25_IRON_BOOTS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 12 Iron_Ingot'
+######### 34
+    gold-armor-helmet:
+        output:
+            type: ARMOR
+            id: LVL_34_GOLD_HELMET
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 5 Gold_Ingot'
+    gold-armor-chestplate:
+        output:
+            type: ARMOR
+            id: LVL_34_GOLD_CHESTPLATE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 8 Gold_Ingot'
+    gold-armor-leggings:
+        output:
+            type: ARMOR
+            id: LVL_34_GOLD_LEGGINGS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 7 Gold_Ingot'
+    gold-armor-boots:
+        output:
+            type: ARMOR
+            id: LVL_34_GOLD_BOOTS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 4 Gold_Ingot'
+######### 48
+    diax-armor-helmet:
+        output:
+            type: ARMOR
+            id: LVL_48_DIAMOND_HELMET
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 5 Diamond'
+    diax-armor-chestplate:
+        output:
+            type: ARMOR
+            id: LVL_48_DIAMOND_CHESTPLATE
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 8 Diamond'
+    diax-armor-leggings:
+        output:
+            type: ARMOR
+            id: LVL_48_DIAMOND_LEGGINGS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 7 Diamond'
+    diax-armor-boots:
+        output:
+            type: ARMOR
+            id: LVL_48_DIAMOND_BOOTS
+            amount: 1
+        crafting-time: 90
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 4 Diamond'
+######### Demonic Set
+    demon-armor-helmet:
+        output:
+            type: ARMOR
+            id: DEMONIC_HELMET
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 5 Demon_Essence'
+    demon-armor-chestplate:
+        output:
+            type: ARMOR
+            id: DEMONIC_CHESTPLATE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 8 Demon_Essence'
+    demon-armor-leggings:
+        output:
+            type: ARMOR
+            id: DEMONIC_LEGGINGS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 7 Demon_Essence'
+    demon-armor-boots:
+        output:
+            type: ARMOR
+            id: DEMONIC_BOOTS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 4 Demon_Essence'
+######### Ethernal Set
+    ethernal-armor-helmet:
+        output:
+            type: ARMOR
+            id: ETHERNAL_HELMET
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 5 Ethernal_Essence'
+    ethernal-armor-chestplate:
+        output:
+            type: ARMOR
+            id: ETHERNAL_CHESTPLATE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 8 Ethernal_Essence'
+    ethernal-armor-leggings:
+        output:
+            type: ARMOR
+            id: ETHERNAL_LEGGINGS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 7 Ethernal_Essence'
+    ethernal-armor-boots:
+        output:
+            type: ARMOR
+            id: ETHERNAL_BOOTS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 4 Ethernal_Essence'
+######### Ancient Set
+    ancient-armor-helmet:
+        output:
+            type: ARMOR
+            id: ANCIENT_HELMET
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 5 Ancient_Essence'
+    ancient-armor-chestplate:
+        output:
+            type: ARMOR
+            id: ANCIENT_CHESTPLATE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 8 Ancient_Essence'
+    ancient-armor-leggings:
+        output:
+            type: ARMOR
+            id: ANCIENT_LEGGINGS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 7 Ancient_Essence'
+    ancient-armor-boots:
+        output:
+            type: ARMOR
+            id: ANCIENT_BOOTS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 4 Ancient_Essence'
+######### Curse Set
+    curse-armor-helmet:
+        output:
+            type: ARMOR
+            id: CURSE_HELMET
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 5 Curse_Essence'
+    curse-armor-chestplate:
+        output:
+            type: ARMOR
+            id: CURSE_CHESTPLATE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 8 Curse_Essence'
+    curse-armor-leggings:
+        output:
+            type: ARMOR
+            id: CURSE_LEGGINGS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 7 Curse_Essence'
+    curse-armor-boots:
+        output:
+            type: ARMOR
+            id: CURSE_BOOTS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 4 Curse_Essence'
+######### Oceanic Set
+    oceanic-armor-helmet:
+        output:
+            type: ARMOR
+            id: OCEANIC_HELMET
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 5 Oceanic_Essence'
+    oceanic-armor-chestplate:
+        output:
+            type: ARMOR
+            id: OCEANIC_CHESTPLATE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 8 Oceanic_Essence'
+    oceanic-armor-leggings:
+        output:
+            type: ARMOR
+            id: OCEANIC_LEGGINGS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 7 Oceanic_Essence'
+    oceanic-armor-boots:
+        output:
+            type: ARMOR
+            id: OCEANIC_BOOTS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 4 Oceanic_Essence'
+######### Divine Set
+    divine-armor-helmet:
+        output:
+            type: ARMOR
+            id: DIVINE_HELMET
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 5 Divine_Essence'
+    divine-armor-chestplate:
+        output:
+            type: ARMOR
+            id: DIVINE_CHESTPLATE
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 8 Divine_Essence'
+    divine-armor-leggings:
+        output:
+            type: ARMOR
+            id: DIVINE_LEGGINGS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 7 Divine_Essence'
+    divine-armor-boots:
+        output:
+            type: ARMOR
+            id: DIVINE_BOOTS
+            amount: 1
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 4 Divine_Essence'

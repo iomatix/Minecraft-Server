@@ -1,0 +1,1908 @@
+name: 'Upgrading (#page#/#max#)'
+items:
+    fill:
+        material: LIME_STAINED_GLASS_PANE
+        name: '&a'
+    no-recipe:
+        material: YELLOW_DYE
+        name: '&a'
+    no-queue-item:
+        material: WHITE_STAINED_GLASS_PANE
+        name: '&a'
+recipes:
+    small-upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: SMALL_UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 3 Uncommon_Weapon_Essence'
+        - 'vanilla IRON_NUGGET . 24 Iron_Nugget'
+    upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 3 Rare_Weapon_Essence'
+        - 'vanilla IRON_NUGGET . 24 Iron_Nugget'
+    better-upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: BETTER_UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 3 Very_Rare_Weapon_Essence'
+        - 'vanilla IRON_NUGGET . 24 Iron_Nugget'
+    legendary-upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: LEGENDARY_UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 3 Legendary_Weapon_Essence'
+        - 'vanilla GOLD_NUGGET . 24 Gold_Nugget'
+    mythic-upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: MYTHIC_UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 30
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 3 Mythical_Weapon_Essence'
+        - 'vanilla GOLD_NUGGET . 24 Gold_Nugget'
+    epic-upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: EPIC_UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 45
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 3 Epic_Weapon_Essence'
+        - 'vanilla GOLD_NUGGET . 24 Gold_Nugget'
+    unique-upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: UNIQUE_UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 60
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 3 Unique_Weapon_Essence'
+        - 'vanilla DIAMOND . 24 Diamond'
+    best-upgrade-essence:
+        output:
+            type: CONSUMABLE
+            id: BEST_UPGRADE_ESSENCE
+            amount: 3
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 1'
+        ingredients:
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 9 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 3 Ancient_Essence'
+        - 'mmoitem MATERIAL CURSED_ESSENCE 3 Cursed_Essence'
+        - 'mmoitem MATERIAL DEMON_ESSENCE 3 Demon_Essence'
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 3 Divine_Essence'
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 3 Ethernal_Essence'
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 3 Oceanic_Essence'
+    best-upgrade-essence-alt:
+        output:
+            type: CONSUMABLE
+            id: BEST_UPGRADE_ESSENCE_ALT
+            amount: 2
+        crafting-time: 120
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 6 Unique_Weapon_Essence'
+        - 'mmoitem MISCELLANEOUS DRAGON_SCALE 1 Dragon_Scale'
+        - 'mmoitem MISCELLANEOUS WITHER_HEARTH 1 Wither_Scale'
+############## UPGRADING:
+######## Swords
+    stone-sword:
+        item:
+            type: SWORD
+            id: LVL_7_SWORD
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla COBBLESTONE . 24 Cobblestone'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    iron-sword:
+        item:
+            type: SWORD
+            id: LVL_16_SWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 24 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    up-iron-sword:
+        item:
+            type: SWORD
+            id: LVL_25_SWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 48 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    gold-sword:
+        item:
+            type: SWORD
+            id: LVL_34_SWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 24 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    diamond-sword:
+        item:
+            type: SWORD
+            id: LVL_48_SWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 24 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    up-diamond-sword:
+        item:
+            type: SWORD
+            id: UP_LVL_48_SWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 24 Diamond'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+### Special
+    sword-special-moonblade:
+        item:
+            type: SWORD
+            id: MOONBLADE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+    sword-special-flametongue:
+        item:
+            type: SWORD
+            id: FLAMETONGUE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 52'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 4 Mythical_Weapon_Essence'
+    sword-special-seethe:
+        item:
+            type: SWORD
+            id: SEETHE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 54'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 4 Epic_Weapon_Essence'
+    sword-special-oathbreaker:
+        item:
+            type: SWORD
+            id: OATHBREAKER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 24 Epic_Weapon_Essence'
+    sword-special-divinedivider:
+        item:
+            type: SWORD
+            id: DIVINEDIVIDER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    sword-special-ult-oathbreaker:
+        item:
+            type: SWORD
+            id: ULT_OATHBREAKER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    sword-special-ult-seethe:
+        item:
+            type: SWORD
+            id: ULT_SEETHE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    sword-special-ult-moonblade:
+        item:
+            type: SWORD
+            id: ULT_MOONBLADE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    sword-special-ult-flametongue:
+        item:
+            type: SWORD
+            id: ULT_FLAMETONGUE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    sword-special-valerian:
+        item:
+            type: SWORD
+            id: VALERIANSWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 28 Unique_Weapon_Essence'
+### Ultimate
+    sword-ultimate-demonic-thrusting:
+        item:
+            type: THRUSTING_SWORD
+            id: DEMONIC_TSWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 24 Demon_Essence'
+    sword-ultimate-divine-long:
+        item:
+            type: LONG_SWORD
+            id: DIVINE_LSWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 24 Divine_Essence'
+    sword-ultimate-curse-long:
+        item:
+            type: LONG_SWORD
+            id: CURSE_LSWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 26 Cursed_Essence'
+    sword-ultimate-demonic-great:
+        item:
+            type: GREATSWORD
+            id: DEMONIC_GSWORD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 26 Demon_Essence'
+######## Daggers
+    stone-dagger:
+        item:
+            type: DAGGER
+            id: LVL_9_DAGGER 
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 9'
+        ingredients:
+        - 'vanilla COBBLESTONE . 20 Cobblestone'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    iron-dagger:
+        item:
+            type: DAGGER
+            id: LVL_25_DAGGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 20 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    gold-dagger:
+        item:
+            type: DAGGER
+            id: LVL_34_DAGGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 20 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    diamond-dagger:
+        item:
+            type: DAGGER
+            id: LVL_48_DAGGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 20 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    up-diamond-dagger:
+        item:
+            type: DAGGER
+            id: UP_LVL_48_DAGGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 20 Diamond'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+### Special
+    dagger-special-moonshiver:
+        item:
+            type: DAGGER
+            id: MOONSHIVER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 20 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+    dagger-special-ult-moonshiver:
+        item:
+            type: DAGGER
+            id: ULT_MOONSHIVER  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    dagger-special-valerian:
+        item:
+            type: DAGGER
+            id: VALERIANDAGGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 28 Unique_Weapon_Essence'
+### Ultimate
+    dagger-ultimate-curse:
+        item:
+            type: DAGGER
+            id: CURSE_DAGGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 24 Cursed_Essence'
+######## Axes
+    stone-axe:
+        item:
+            type: AXE
+            id: LVL_7_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla COBBLESTONE . 28 Cobblestone'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    iron-axe:
+        item:
+            type: AXE
+            id: LVL_16_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 28 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    up-iron-axe:
+        item:
+            type: AXE
+            id: LVL_25_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 52 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    gold-axe:
+        item:
+            type: AXE
+            id: LVL_34_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 26 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    diamond-axe:
+        item:
+            type: AXE
+            id: LVL_48_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 26 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    up-diamond-axe:
+        item:
+            type: AXE
+            id: UP_LVL_48_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 26 Diamond'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+### Special
+    axe-special-skullcrusher:
+        item:
+            type: AXE
+            id: SKULLCRUSHER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+    axe-special-ravager:
+        item:
+            type: AXE
+            id: RAVAGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 52'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 4 Mythical_Weapon_Essence'
+    axe-special-thunder:
+        item:
+            type: AXE
+            id: THUNDER_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 54'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 4 Epic_Weapon_Essence'
+    axe-special-darkrevenge:
+        item:
+            type: AXE
+            id: DARKREVENGE  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 24 Epic_Weapon_Essence'
+    axe-special-decapitator:
+        item:
+            type: AXE
+            id: DECAPITATOR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    axe-special-ult-darkrevenge:
+        item:
+            type: AXE
+            id: ULT_DARKREVENGE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    axe-special-ult-thunder:
+        item:
+            type: AXE
+            id: ULT_THUNDER_AXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    axe-special-ult-skullcrusher:
+        item:
+            type: AXE
+            id: ULT_SKULLCRUSHER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    axe-special-ult-ravager:
+        item:
+            type: AXE
+            id: ULT_RAVAGER
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    axe-special-valerian:
+        item:
+            type: AXE
+            id: VALERIANAXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 28 Unique_Weapon_Essence'
+### Ultimate
+    axe-ultimate-oceanic-great:
+        item:
+            type: GREATAXE
+            id: OCEANIC_GAXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 24 Oceanic_Essence'
+    axe-ultimate-ancient-great:
+        item:
+            type: GREATAXE
+            id: ANCIENT_GAXE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 26 Ancient_Essence'
+######## Bows
+    short-bow:
+        item:
+            type: BOW
+            id: LVL_12_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 12'
+        ingredients:
+        - 'vanilla STICK . 28 Stick'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    common-bow:
+        item:
+            type: BOW
+            id: LVL_24_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 24'
+        ingredients:
+        - 'vanilla IRON_INGOT . 20 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    long-bow:
+        item:
+            type: BOW
+            id: LVL_36_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 36'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 20 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    composite-bow:
+        item:
+            type: BOW
+            id: LVL_48_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 20 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    up-composite-bow:
+        item:
+            type: BOW
+            id: UP_LVL_48_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 20 Diamond'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+### Special
+    bow-special-redwood:
+        item:
+            type: BOW
+            id: REDWOOD_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 50'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+    bow-special-windblow:
+        item:
+            type: BOW
+            id: WINDBLOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 52'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL MYTHICAL_WEAPON_ESSENCE 4 Mythical_Weapon_Essence'
+    bow-special-darkbless:
+        item:
+            type: BOW
+            id: DARKBLESS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 54'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 4 Epic_Weapon_Essence'
+    bow-special-dragonfire:
+        item:
+            type: BOW
+            id: DRAGONFIRE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 24 Epic_Weapon_Essence'
+    bow-special-deathwing:
+        item:
+            type: BOW
+            id: DEATHWING
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    bow-special-ult-dragonfire:
+        item:
+            type: BOW
+            id: ULT_DRAGONFIRE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    bow-special-ult-darkbless:
+        item:
+            type: BOW
+            id: ULT_DARKBLESS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    bow-special-ult-windblow:
+        item:
+            type: BOW
+            id: ULT_WINDBLOW   
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    bow-special-ult-redwood:
+        item:
+            type: BOW
+            id: ULT_REDWOOD_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    bow-special-valerian:
+        item:
+            type: BOW
+            id: VOID_BOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'vanilla STRING . 3 String'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+### Ultimate
+    bow-ultimate-demonic-great:
+        item:
+            type: GREATBOW
+            id: DEMONIC_GBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 24 Demon_Essence'
+    bow-ultimate-ethernal-great:
+        item:
+            type: GREATBOW
+            id: ETHERNAL_GBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 26 Ethernal_Essence'
+######## Crossbows
+    short-cbow:
+        item:
+            type: GREATCROSSBOW
+            id: LVL_16_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla COBBLESTONE . 14 Cobblestone'
+        - 'vanilla STICK . 14 Stick'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    common-cbow:
+        item:
+            type: GREATCROSSBOW
+            id: LVL_24_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 24'
+        ingredients:
+        - 'vanilla IRON_INGOT . 22 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    long-cbow:
+        item:
+            type: GREATCROSSBOW
+            id: LVL_36_CROSSBOW  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 36'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 22 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    composite-cbow:
+        item:
+            type: GREATCROSSBOW
+            id: LVL_48_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 22 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    up-composite-cbow:
+        item:
+            type: GREATCROSSBOW
+            id: UP_LVL_48_CROSSBOW 
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 22 Diamond'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+### Special
+    cbow-special-dragonfire:
+        item:
+            type: GREATCROSSBOW
+            id: DRAGONFIRE_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 56'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL EPIC_WEAPON_ESSENCE 24 Epic_Weapon_Essence'
+    cbow-special-ult-dragonfire:
+        item:
+            type: GREATCROSSBOW
+            id: ULT_DRAGONFIRE_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 58'
+        ingredients:
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 4 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 24 Unique_Weapon_Essence'
+    cbow-special-valerian:
+        item:
+            type: GREATCROSSBOW
+            id: DWARF_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 62'
+        ingredients:
+        - 'vanilla TRIPWIRE_HOOK . 1 Tripwire_Hook'
+        - 'vanilla STRING . 2 String'
+        - 'vanilla STICK . 3 Stick'
+        - 'mmoitem MATERIAL UNIQUE_WEAPON_ESSENCE 4 Unique_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 6 Magical_Weapon_Essence'
+### Ultimate
+    cbow-ultimate-ancient-great:
+        item:
+            type: GREATCROSSBOW
+            id: ANCIENT_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 24 Ancient_Essence'
+    cbow-ultimate-oceanic-great:
+        item:
+            type: GREATCROSSBOW
+            id: OCEANIC_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 24 Oceanic_Essence'
+    cbow-ultimate-divine-great:
+        item:
+            type: GREATCROSSBOW
+            id: DIVINE_CROSSBOW
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 26 Divine_Essence'
+######## Spears
+    wood-spear:
+        item:
+            type: SPEAR
+            id: LVL_12_SPEAR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 12'
+        ingredients:
+        - 'vanilla STICK . 24 Stick'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    stone-spear:
+        item:
+            type: SPEAR
+            id: LVL_18_SPEAR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 18'
+        ingredients:
+        - 'vanilla COBBLESTONE . 24 Cobblestone'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    iron-spear:
+        item:
+            type: SPEAR
+            id: LVL_26_SPEAR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 26'
+        ingredients:
+        - 'vanilla IRON_INGOT . 24 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    gold-spear:
+        item:
+            type: SPEAR
+            id: LVL_34_SPEAR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 24 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    diamond-spear:
+        item:
+            type: SPEAR
+            id: LVL_48_SPEAR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 24 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    up-diamond-spear:
+        item:
+            type: SPEAR
+            id: UP_LVL_48_SPEAR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 24 Diamond'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+### Special
+### Ultimate
+    spear-ultimate-demonic:
+        item:
+            type: SPEAR
+            id: DEMONIC_SPEAR
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 26 Demon_Essence'
+    spear-ultimate-oceanic:
+        item:
+            type: SPEAR
+            id: OCEANIC_TRIDENT
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 26 Oceanic_Essence'
+######### Lance 
+### Ultimate
+    lance-ultimate-ancient:
+        item:
+            type: LANCE
+            id: ANCIENT_LANCE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 24 Ancient_Essence'
+    lance-ultimate-divine:
+        item:
+            type: LANCE
+            id: DIVINE_LANCE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 24 Divine_Essence'
+######### Halberd 
+### Ultimate
+    halberd-ultimate-curse:
+        item:
+            type: HALBERD
+            id: CURSE_SCYTHE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 24 Cursed_Essence'
+    halberd-ultimate-ethernal:
+        item:
+            type: HALBERD
+            id: ETHERNAL_SCYTHE    
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 26 Ethernal_Essence'
+######### Shield
+    shield-common-sm:
+        item:
+            type: SHIELD
+            id: LVL_7_SHIELD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla STICK . 48 Stick'
+        - 'vanilla IRON_INGOT . 2 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    shield-common:
+        item:
+            type: SHIELD
+            id: LVL_16_SHIELD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla STICK . 48 Stick'
+        - 'vanilla IRON_INGOT . 4 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    shield-iron:
+        item:
+            type: SHIELD
+            id: LVL_25_SHIELD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 24 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    shield-up-iron:
+        item:
+            type: SHIELD
+            id: LVL_34_SHIELD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla IRON_INGOT . 48 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    shield-diamond:
+        item:
+            type: SHIELD
+            id: LVL_48_SHIELD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 24 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    shield-up-diamond:
+        item:
+            type: SHIELD
+            id: UP_LVL_48_SHIELD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 24 Diamond'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 2 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL LEGENDARY_WEAPON_ESSENCE 4 Legendary_Weapon_Essence'
+### Ultimate
+    shield-ultimate-divine:
+        item:
+            type: SHIELD
+            id: DIVINE_GSHIELD
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 24 Divine_Essence'
+    shield-ultimate-ancient:
+        item:
+            type: SHIELD
+            id: ANCIENT_GREATSHIELD  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 26 Ancient_Essence'
+    shield-ultimate-oceanic:
+        item:
+            type: SHIELD
+            id: OCEANIC_GREATSHIELD 
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 136'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 26 Oceanic_Essence'
+########## Staves
+    staff-magical:
+        item:
+            type: STAFF
+            id: LVL_22_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 22'
+        ingredients:
+        - 'vanilla STICK . 12 Stick'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+    staff-earth:
+        item:
+            type: STAFF
+            id: LVL_38_STAFF   
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 38'
+        ingredients:
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 12 Rare_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+    staff-fire:
+        item:
+            type: STAFF
+            id: LVL_48_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 12 Rare_Weapon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 24 Magical_Weapon_Essence'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+### Ultimate
+# Ethernal
+    staff-ethernal-1:
+        item:
+            type: STAFF
+            id: ETHERNAL_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 20 Ethernal_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+    staff-ethernal-2:
+        item:
+            type: STAFF
+            id: ETHERNAL_STAFF2
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 20 Ethernal_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+# Divine
+    staff-divine-1:
+        item:
+            type: STAFF
+            id: DIVINE_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 20 Divine_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+    staff-divine-2:
+        item:
+            type: STAFF
+            id: DIVINE_STAFF2
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 20 Divine_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+# Oceanic
+    staff-oceanic-1:
+        item:
+            type: STAFF
+            id: OCEANIC_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 20 Oceanic_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+    staff-oceanic-2:
+        item:
+            type: STAFF
+            id: OCEANIC_STAFF2
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 20 Oceanic_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+# Demonic
+    staff-demonic-1:
+        item:
+            type: STAFF
+            id: DEMONIC_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 20 Demon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+    staff-demonic-2:
+        item:
+            type: STAFF
+            id: DEMONIC_STAFF2
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 20 Demon_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+# Ancient
+    staff-ancient-1:
+        item:
+            type: STAFF
+            id: ANCIENT_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 20 Ancient_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+    staff-ancient-2:
+        item:
+            type: STAFF
+            id: ANCIENT_STAFF2
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 20 Ancient_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+# Cursed
+    staff-cursed-1:
+        item:
+            type: STAFF
+            id: CURSED_STAFF
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 20 Cursed_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+    staff-cursed-2:
+        item:
+            type: STAFF
+            id: CURSED_STAFF2
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 20 Cursed_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+########## Tomes
+    tome-ethernal:
+        item:
+            type: TOME
+            id: ETHERNAL_TOME
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 20 Ethernal_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+########## Catalysts
+    catalyst-cursed:
+        item:
+            type: OFF_CATALYST
+            id: CURSE_CATALYST  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 20 Cursed_Essence'
+        - 'mmoitem MATERIAL MAGICAL_WEAPON_ESSENCE 12 Magical_Weapon_Essence'
+######### Armors
+    leather-armor-helmet:
+        item:
+            type: ARMOR
+            id: LVL_7_LEATHER_HELMET 
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 22 Leather'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    leather-armor-chestplate:
+        item:
+            type: ARMOR
+            id: LVL_7_LEATHER_CHESTPLATE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 28 Leather'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    leather-armor-leggings:
+        item:
+            type: ARMOR
+            id: LVL_7_LEATHER_LEGGINGS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 24 Leather'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    leather-armor-boots:
+        item:
+            type: ARMOR
+            id: LVL_7_LEATHER_BOOTS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 7'
+        ingredients:
+        - 'vanilla LEATHER . 20 Leather'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+######### 16
+    iron-armor-helmet:
+        item:
+            type: ARMOR
+            id: LVL_16_IRON_HELMET
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 22 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    iron-armor-chestplate:
+        item:
+            type: ARMOR
+            id: LVL_16_IRON_CHESTPLATE  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 28 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    iron-armor-leggings:
+        item:
+            type: ARMOR
+            id: LVL_16_IRON_LEGGINGS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 24 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    iron-armor-boots:
+        item:
+            type: ARMOR
+            id: LVL_16_IRON_BOOTS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 16'
+        ingredients:
+        - 'vanilla IRON_INGOT . 20 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+######### 25
+    up-iron-armor-helmet:
+        item:
+            type: ARMOR
+            id: LVL_25_IRON_HELMET
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 50 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    up-iron-armor-chestplate:
+        item:
+            type: ARMOR
+            id: LVL_25_IRON_CHESTPLATE 
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 58 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    up-iron-armor-leggings:
+        item:
+            type: ARMOR
+            id: LVL_25_IRON_LEGGINGS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 53 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+    up-iron-armor-boots:
+        item:
+            type: ARMOR
+            id: LVL_25_IRON_BOOTS 
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 25'
+        ingredients:
+        - 'vanilla IRON_INGOT . 48 Iron_Ingot'
+        - 'mmoitem MATERIAL UNCOMMON_WEAPON_ESSENCE 4 Uncommon_Weapon_Essence'
+######### 34
+    gold-armor-helmet:
+        item:
+            type: ARMOR
+            id: LVL_34_GOLD_HELMET
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 22 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    gold-armor-chestplate:
+        item:
+            type: ARMOR
+            id: LVL_34_GOLD_CHESTPLATE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 28 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    gold-armor-leggings:
+        item:
+            type: ARMOR
+            id: LVL_34_GOLD_LEGGINGS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 24 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+    gold-armor-boots:
+        item:
+            type: ARMOR
+            id: LVL_34_GOLD_BOOTS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 34'
+        ingredients:
+        - 'vanilla GOLD_INGOT . 20 Gold_Ingot'
+        - 'mmoitem MATERIAL RARE_WEAPON_ESSENCE 4 Rare_Weapon_Essence'
+######### 48
+    diax-armor-helmet:
+        item:
+            type: ARMOR
+            id: LVL_48_DIAMOND_HELMET
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 22 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    diax-armor-chestplate:
+        item:
+            type: ARMOR
+            id: LVL_48_DIAMOND_CHESTPLATE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 28 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    diax-armor-leggings:
+        item:
+            type: ARMOR
+            id: LVL_48_DIAMOND_LEGGINGS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 24 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+    diax-armor-boots:
+        item:
+            type: ARMOR
+            id: LVL_48_DIAMOND_BOOTS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 48'
+        ingredients:
+        - 'vanilla DIAMOND . 22 Diamond'
+        - 'mmoitem MATERIAL VERY_RARE_WEAPON_ESSENCE 4 Very_Rare_Weapon_Essence'
+######### Demonic Set
+    demon-armor-helmet:
+        item:
+            type: ARMOR
+            id: DEMONIC_HELMET   
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 22 Demon_Essence'
+    demon-armor-chestplate:
+        item:
+            type: ARMOR
+            id: DEMONIC_CHESTPLATE  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 26 Demon_Essence'
+    demon-armor-leggings:
+        item:
+            type: ARMOR
+            id: DEMONIC_LEGGINGS   
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 24 Demon_Essence'
+    demon-armor-boots:
+        item:
+            type: ARMOR
+            id: DEMONIC_BOOTS  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DEMON_ESSENCE 20 Demon_Essence'
+######### Ethernal Set
+    ethernal-armor-helmet:
+        item:
+            type: ARMOR
+            id: ETHERNAL_HELMET
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 22 Ethernal_Essence'
+    ethernal-armor-chestplate:
+        item:
+            type: ARMOR
+            id: ETHERNAL_CHESTPLATE
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 26 Ethernal_Essence'
+    ethernal-armor-leggings:
+        item:
+            type: ARMOR
+            id: ETHERNAL_LEGGINGS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 24 Ethernal_Essence'
+    ethernal-armor-boots:
+        item:
+            type: ARMOR
+            id: ETHERNAL_BOOTS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ETHERNAL_ESSENCE 20 Ethernal_Essence'
+######### Ancient Set
+    ancient-armor-helmet:
+        item:
+            type: ARMOR
+            id: ANCIENT_HELMET
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 22 Ancient_Essence'
+    ancient-armor-chestplate:
+        item:
+            type: ARMOR
+            id: ANCIENT_CHESTPLATE
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 26 Ancient_Essence'
+    ancient-armor-leggings:
+        item:
+            type: ARMOR
+            id: ANCIENT_LEGGINGS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 24 Ancient_Essence'
+    ancient-armor-boots:
+        item:
+            type: ARMOR
+            id: ANCIENT_BOOTS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL ANCIENT_ESSENCE 20 Ancient_Essence'
+######### Curse Set
+    curse-armor-helmet:
+        item:
+            type: ARMOR
+            id: CURSE_HELMET
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 22 Curse_Essence'
+    curse-armor-chestplate:
+        item:
+            type: ARMOR
+            id: CURSE_CHESTPLATE
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 26 Curse_Essence'
+    curse-armor-leggings:
+        item:
+            type: ARMOR
+            id: CURSE_LEGGINGS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 24 Curse_Essence'
+    curse-armor-boots:
+        item:
+            type: ARMOR
+            id: CURSE_BOOTS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL CURSED_ESSENCE 20 Curse_Essence'
+######### Oceanic Set
+    oceanic-armor-helmet:
+        item:
+            type: ARMOR
+            id: OCEANIC_HELMET  
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 22 Oceanic_Essence'
+    oceanic-armor-chestplate:
+        item:
+            type: ARMOR
+            id: OCEANIC_CHESTPLATE
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 26 Oceanic_Essence'
+    oceanic-armor-leggings:
+        item:
+            type: ARMOR
+            id: OCEANIC_LEGGINGS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 24 Oceanic_Essence'
+    oceanic-armor-boots:
+        item:
+            type: ARMOR
+            id: OCEANIC_BOOTS
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL OCEANIC_ESSENCE 20 Oceanic_Essence'
+######### Divine Set
+    divine-armor-helmet:
+        item:
+            type: ARMOR
+            id: DIVINE_HELMET
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 22 Divine_Essence'
+    divine-armor-chestplate:
+        item:
+            type: ARMOR
+            id: DIVINE_CHESTPLATE
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 26 Divine_Essence'
+    divine-armor-leggings:
+        item:
+            type: ARMOR
+            id: DIVINE_LEGGINGS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 24 Divine_Essence'
+    divine-armor-boots:
+        item:
+            type: ARMOR
+            id: DIVINE_BOOTS
+            
+        
+        options:
+            hide-when-locked: false
+        conditions:
+        - 'level 120'
+        ingredients:
+        - 'mmoitem MATERIAL DIVINE_ESSENCE 20 Divine_Essence'

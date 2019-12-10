@@ -96,9 +96,6 @@ DIVINE_LANCE:
       cooldown: 7.5
       mode: ON_HIT
   custom-model-data: 2.0
-
-
-
 ANCIENT_LANCE:
   material: TRIDENT
   enchants:
