@@ -595,23 +595,14 @@ Pression:
                             right-scale: 0
                             use-effect: 'False'
                           children:
-                            Explosion-sb:
-                              type: 'mechanic'
-                              data:
-                                icon-key: ''
-                                counts: 'True'
-                                power-base: 0.12
-                                power-scale: 0.02
-                                damage: 'False'
-                                fire: 'False'
-                            Fire-tb:
+                            Fire-sb:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
                                 counts: 'True'
                                 seconds-base: 3.5
                                 seconds-scale: 0.3
-                            Particle Animation-ub:
+                            Particle Animation-tb:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
@@ -644,7 +635,7 @@ Pression:
                                 forward: 0
                                 upward: 0
                                 right: 0
-                            Particle Animation-vb:
+                            Particle Animation-ub:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
@@ -677,22 +668,65 @@ Pression:
                                 forward: 0
                                 upward: 1.5
                                 right: 0
-                            Damage-wb:
+                            Damage-vb:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
                                 counts: 'True'
                                 type: 'Damage'
                                 value-base: 3.85
-                                value-scale: 2
+                                value-scale: 2.5
                                 true: 'False'
                                 classifier: 'Physical'
-                            Area-xb:
+                            Particle Animation-wb:
+                              type: 'mechanic'
+                              data:
+                                icon-key: ''
+                                counts: 'True'
+                                steps: 1
+                                frequency: 0.05
+                                angle: 0
+                                start: 0
+                                duration-base: 0.3
+                                duration-scale: 0
+                                h-translation-base: 0
+                                h-translation-scale: 0
+                                v-translation-base: 2
+                                v-translation-scale: 0
+                                h-cycles: 1
+                                v-cycles: 1
+                                particle: 'Lava'
+                                arrangement: 'Circle'
+                                radius-base: 0.65
+                                radius-scale: 0
+                                particles-base: 2
+                                particles-scale: 0
+                                direction: 'XZ'
+                                visible-radius: 90
+                                dx: 0
+                                dy: 0
+                                dz: 0
+                                speed: 0.7
+                                amount: 1
+                                forward: 0
+                                upward: 0.45
+                                right: 0
+                            Sound-xb:
+                              type: 'mechanic'
+                              data:
+                                icon-key: ''
+                                counts: 'True'
+                                sound: 'Entity Generic Explode'
+                                volume-base: 75
+                                volume-scale: 0
+                                pitch-base: 1
+                                pitch-scale: -0.05
+                            Area-yb:
                               type: 'target'
                               data:
                                 icon-key: ''
-                                radius-base: 0.16
-                                radius-scale: 0.035
+                                radius-base: 0.45
+                                radius-scale: 0.0
                                 group: 'Enemy'
                                 wall: 'False'
                                 caster: 'False'
@@ -700,7 +734,7 @@ Pression:
                                 max-scale: 12
                                 random: 'False'
                               children:
-                                Damage-yb:
+                                Damage-zb:
                                   type: 'mechanic'
                                   data:
                                     icon-key: 'ArrDMGExplo'
@@ -710,7 +744,7 @@ Pression:
                                     value-scale: 1.25
                                     true: 'False'
                                     classifier: 'Physical'
-                                Status-zb:
+                                Status-ac:
                                   type: 'mechanic'
                                   data:
                                     icon-key: 'StunDuration'
@@ -718,12 +752,29 @@ Pression:
                                     status: 'Stun'
                                     duration-base: 0.25
                                     duration-scale: 0.15
-    Initialize-ac:
+                                Launch-bc:
+                                  type: 'mechanic'
+                                  data:
+                                    icon-key: ''
+                                    counts: 'True'
+                                    relative: 'Target'
+                                    forward-base: 0.05
+                                    forward-scale: 0.01
+                                    upward-base: 0.45
+                                    upward-scale: 0.01
+                                    right-base: 0.05
+                                    right-scale: 0.01
+                                Interrupt-cc:
+                                  type: 'mechanic'
+                                  data:
+                                    icon-key: ''
+                                    counts: 'True'
+    Initialize-dc:
       type: 'trigger'
       data:
         icon-key: ''
       children:
-        Value Set-bc:
+        Value Set-ec:
           type: 'mechanic'
           data:
             icon-key: 'LoreLifeSteal'

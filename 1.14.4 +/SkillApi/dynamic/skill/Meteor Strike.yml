@@ -242,16 +242,7 @@ Meteor Strike:
                                 counts: 'True'
                                 seconds-base: 9
                                 seconds-scale: 2
-                            Explosion-n:
-                              type: 'mechanic'
-                              data:
-                                icon-key: ''
-                                counts: 'True'
-                                power-base: 1
-                                power-scale: 0.5
-                                damage: 'False'
-                                fire: 'False'
-                            Particle Animation-o:
+                            Particle Animation-n:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
@@ -283,7 +274,7 @@ Meteor Strike:
                                 forward: 0
                                 upward: 0
                                 right: 0
-                            Particle Animation-p:
+                            Particle Animation-o:
                               type: 'mechanic'
                               data:
                                 icon-key: ''
@@ -315,6 +306,16 @@ Meteor Strike:
                                 forward: 0
                                 upward: 0
                                 right: 0
+                            Sound-p:
+                              type: 'mechanic'
+                              data:
+                                icon-key: ''
+                                counts: 'True'
+                                sound: 'Entity Generic Explode'
+                                volume-base: 95
+                                volume-scale: 0
+                                pitch-base: 0.85
+                                pitch-scale: 0
                             Area-q:
                               type: 'target'
                               data:
@@ -345,11 +346,11 @@ Meteor Strike:
                                     counts: 'True'
                                     relative: 'Caster'
                                     forward-base: 0.2
-                                    forward-scale: 0.2
-                                    upward-base: 0.3
-                                    upward-scale: 0.2
+                                    forward-scale: 0.1
+                                    upward-base: 0.4
+                                    upward-scale: 0.07
                                     right-base: 0.05
-                                    right-scale: 0.1
+                                    right-scale: 0.05
                                 Interrupt-t:
                                   type: 'mechanic'
                                   data:

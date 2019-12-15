@@ -734,16 +734,82 @@ Blizzard:
                                                 forward: 0
                                                 upward: 0
                                                 right: 0
-                                            Explosion-rb:
+                                            Sound-rb:
                                               type: 'mechanic'
                                               data:
                                                 icon-key: ''
                                                 counts: 'True'
-                                                power-base: 0.3
-                                                power-scale: 0.2
-                                                damage: 'False'
-                                                fire: 'False'
-        Particle Animation-sb:
+                                                sound: 'Entity Generic Explode'
+                                                volume-base: 90
+                                                volume-scale: 0
+                                                pitch-base: 0.9
+                                                pitch-scale: 0
+                                            Particle Animation-sb:
+                                              type: 'mechanic'
+                                              data:
+                                                icon-key: ''
+                                                counts: 'True'
+                                                steps: 1
+                                                frequency: 0.05
+                                                angle: 0
+                                                start: 0
+                                                duration-base: 1
+                                                duration-scale: 0
+                                                h-translation-base: 0
+                                                h-translation-scale: 0
+                                                v-translation-base: 4
+                                                v-translation-scale: 1.25
+                                                h-cycles: 1
+                                                v-cycles: 1
+                                                particle: 'Cloud'
+                                                arrangement: 'Circle'
+                                                radius-base: 2
+                                                radius-scale: 1.25
+                                                particles-base: 2
+                                                particles-scale: 0
+                                                direction: 'XZ'
+                                                visible-radius: 80
+                                                dx: 0
+                                                dy: 0
+                                                dz: 0
+                                                speed: 0.02
+                                                amount: 1
+                                                forward: 0
+                                                upward: 0.35
+                                                right: 0
+                                            Particle Animation-tb:
+                                              type: 'mechanic'
+                                              data:
+                                                icon-key: ''
+                                                counts: 'True'
+                                                steps: 1
+                                                frequency: 0.05
+                                                angle: 0
+                                                start: 0
+                                                duration-base: 1
+                                                duration-scale: 0
+                                                h-translation-base: 0
+                                                h-translation-scale: 0
+                                                v-translation-base: 0
+                                                v-translation-scale: 0
+                                                h-cycles: 1
+                                                v-cycles: 1
+                                                particle: 'Explode'
+                                                arrangement: 'Sphere'
+                                                radius-base: 2
+                                                radius-scale: 1
+                                                particles-base: 1
+                                                particles-scale: 0
+                                                visible-radius: 120
+                                                dx: 0
+                                                dy: 0
+                                                dz: 0
+                                                speed: 1
+                                                amount: 1
+                                                forward: 0
+                                                upward: 0.35
+                                                right: 0
+        Particle Animation-ub:
           type: 'mechanic'
           data:
             icon-key: ''
@@ -776,7 +842,7 @@ Blizzard:
             forward: 0
             upward: 0
             right: 0
-        Particle Animation-tb:
+        Particle Animation-vb:
           type: 'mechanic'
           data:
             icon-key: ''
@@ -809,7 +875,7 @@ Blizzard:
             forward: 0
             upward: 0
             right: 0
-        Particle Animation-ub:
+        Particle Animation-wb:
           type: 'mechanic'
           data:
             icon-key: ''
@@ -842,7 +908,7 @@ Blizzard:
             forward: 0
             upward: 0
             right: 0
-        Sound-vb:
+        Sound-xb:
           type: 'mechanic'
           data:
             icon-key: ''
