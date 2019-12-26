@@ -3,7 +3,7 @@ ETHERNAL_TOME:
   max-durability: 75000.0
   name: '&1Ethernal Tome'
   enchants:
-    fire_protection: 1
+    thorns: 1
   hide-enchants: true
   disable-interaction: true
   disable-crafting: true

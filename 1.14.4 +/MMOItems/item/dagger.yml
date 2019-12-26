@@ -637,7 +637,7 @@ CURSE_DAGGER:
   max-durability: 75000.0
   name: '&5Cursed Dagger'
   enchants:
-    fire_protection: 1
+    thorns: 1
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true

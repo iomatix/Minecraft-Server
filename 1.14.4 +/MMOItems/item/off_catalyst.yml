@@ -7,7 +7,7 @@ CURSE_CATALYST:
   disable-repairing: true
   required-level: 120.0
   enchants:
-    fire_protection: 1
+    thorns: 1
   hide-enchants: true
   name: '&5Cursed Catalyst'
   max-durability: 75000.0

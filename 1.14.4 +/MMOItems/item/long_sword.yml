@@ -1,7 +1,7 @@
 CURSE_LSWORD:
   material: IRON_SWORD
   enchants:
-    fire_protection: 1
+    thorns: 1
   hide-enchants: true
   will-break: false
   max-durability: 75000.0
