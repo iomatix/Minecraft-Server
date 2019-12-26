@@ -233,7 +233,7 @@ ETHERNAL_STAFF:
   name: '&1Ethernal Staff'
   required-level: 120.0
   enchants:
-    thorns: 1
+    fire_protection: 1
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true
@@ -331,7 +331,7 @@ ETHERNAL_STAFF2:
   name: '&1Ethernal Staff'
   required-level: 120.0
   enchants:
-    thorns: 1
+    fire_protection: 1
   hide-enchants: true
   disable-crafting: true
   disable-smelting: true

@@ -94,7 +94,7 @@ DEMONIC_GBOW:
 ETHERNAL_GBOW:
   material: BOW
   enchants:
-    thorns: 1
+    fire_protection: 1
   hide-enchants: true
   lore: []
   name: '&1Ethernal Longbow'

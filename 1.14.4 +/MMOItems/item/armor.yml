@@ -1661,7 +1661,7 @@ ETHERNAL_HELMET:
   name: '&1Ethernal Helmet'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&1The part of the Ethernal Set.'
   disable-crafting: true
@@ -1739,7 +1739,7 @@ ETHERNAL_CHESTPLATE:
   name: '&1Ethernal Tunic'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&1The part of the Ethernal Set.'
   disable-crafting: true
@@ -1817,7 +1817,7 @@ ETHERNAL_LEGGINGS:
   name: '&1Ethernal Pants'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&1The part of the Ethernal Set.'
   disable-crafting: true
@@ -1895,7 +1895,7 @@ ETHERNAL_BOOTS:
   name: '&1Ethernal Greaves'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&1The part of the Ethernal Set.'
   disable-crafting: true
@@ -2285,7 +2285,7 @@ CURSE_HELMET:
   name: '&5Cursed Helmet'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&5The part of the Cursed Set.'
   disable-crafting: true
@@ -2362,7 +2362,7 @@ CURSE_CHESTPLATE:
   name: '&5Cursed Tunic'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&5The part of the Cursed Set.'
   disable-crafting: true
@@ -2439,7 +2439,7 @@ CURSE_LEGGINGS:
   name: '&5Cursed Pants'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&5The part of the Cursed Set.'
   disable-crafting: true
@@ -2516,7 +2516,7 @@ CURSE_BOOTS:
   name: '&5Cursed Greaves'
   hide-enchants: true
   enchants:
-    THORNS: 3
+    fire_protection: 3
   lore:
   - '&5The part of the Cursed Set.'
   disable-crafting: true
@@ -2917,7 +2917,7 @@ DIVINE_HELMET:
   name: '&eDivine Helmet'
   hide-enchants: true
   enchants:
-    SMITE: 3
+    SMITE: 2
   lore:
   - '&eThe part of the Divine Set.'
   disable-crafting: true

@@ -7,7 +7,7 @@ ETHERNAL_SCYTHE:
   disable-enchanting: true
   disable-repairing: true
   enchants:
-    thorns: 1
+    fire_protection: 1
   hide-enchants: true
   lore: []
   name: '&5Ethernal Scythe'
@@ -101,7 +101,7 @@ CURSE_SCYTHE:
   max-durability: 75000.0
   name: '&5Cursed Scythe'
   enchants:
-    thorns: 1
+    fire_protection: 1
   hide-enchants: true
   disable-crafting: true
   disable-interaction: true
