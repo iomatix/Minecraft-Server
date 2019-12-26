@@ -440,7 +440,7 @@ SKULLCRUSHER:
   disable-enchanting: true
   enchants:
     knockback: 2
-    fire_protection: 1
+    sharpness: 1
   element:
     damage:
       Earth: 12.0
@@ -519,7 +519,7 @@ RAVAGER:
   disable-enchanting: true
   enchants:
     knockback: 2
-    fire_protection: 1
+    sharpness: 1
   element:
     damage:
       Earth: 17.0
@@ -605,7 +605,7 @@ THUNDER_AXE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    fire_protection: 2
+    sharpness: 2
   element:
     damage:
       Thunder: 23.0
@@ -692,7 +692,7 @@ DARKREVENGE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    fire_protection: 2
+    sharpness: 2
   element:
     damage:
       Darkness: 30.0
@@ -879,7 +879,7 @@ ULT_DARKREVENGE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    fire_protection: 1
+    sharpness: 1
   element:
     damage:
       Darkness: 38.0
@@ -973,7 +973,7 @@ ULT_THUNDER_AXE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    fire_protection: 1
+    Sharpness: 1
   element:
     damage:
       Thunder: 35.0
@@ -1063,7 +1063,7 @@ ULT_SKULLCRUSHER:
   disable-enchanting: true
   enchants:
     knockback: 2
-    fire_protection: 1
+    sharpness: 1
   element:
     damage:
       Earth: 40.0
@@ -1154,7 +1154,7 @@ ULT_RAVAGER:
   disable-enchanting: true
   enchants:
     knockback: 2
-    fire_protection: 1
+    sharpness: 1
   element:
     damage:
       Earth: 40.0
@@ -1246,7 +1246,7 @@ VALERIANAXE:
   disable-enchanting: true
   enchants:
     knockback: 2
-    fire_protection: 1
+    sharpness: 1
   ability:
     on-hit:
       type: DEATH_MARK
