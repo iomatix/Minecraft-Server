@@ -361,7 +361,7 @@ REDWOOD_BOW:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    power: 1
+    fire_protection: 1
   element:
     damage:
       Light: 13.0
@@ -540,7 +540,7 @@ DARKBLESS:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    power: 2
+    fire_protection: 2
   element:
     damage:
       Darkness: 24.0
@@ -736,7 +736,7 @@ DEATHWING:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    power: 3
+    fire_protection: 3
   element:
     damage:
       Fire: 40.0
@@ -1005,7 +1005,7 @@ ULT_DARKBLESS:
     speed: 0.07
     offset: -0.25
   enchants:
-    power: 3
+    fire_protection: 3
   gem-sockets:
   - BLUE
   - BLUE
@@ -1199,7 +1199,7 @@ ULT_REDWOOD_BOW:
     speed: 0.07
     offset: -0.25
   enchants:
-    power: 3
+    fire_protection: 3
   gem-sockets:
   - BLUE
   - BLUE
@@ -1219,7 +1219,7 @@ VOID_BOW:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    power: 3
+    fire_protection: 3
   element:
     damage:
       Darkness: 40.0

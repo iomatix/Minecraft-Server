@@ -439,7 +439,7 @@ MOONBLADE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 1
+    fire_protection: 1
   element:
     damage:
       Ice: 13.0
@@ -519,7 +519,7 @@ FLAMETONGUE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 1
+    fire_protection: 1
   element:
     damage:
       Fire: 16.0
@@ -599,7 +599,7 @@ SEETHE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 1
+    fire_protection: 1
   element:
     damage:
       Darkness: 19.0
@@ -687,7 +687,7 @@ OATHBREAKER:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 1
+    fire_protection: 1
   element:
     damage:
       Darkness: 26.0
@@ -779,7 +779,7 @@ DIVINEDIVIDER:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 1
+    fire_protection: 1
   element:
     damage:
       Fire: 40.0
@@ -873,7 +873,7 @@ ULT_OATHBREAKER:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 2
+    fire_protection: 2
   element:
     damage:
       Darkness: 40.0
@@ -962,7 +962,7 @@ ULT_SEETHE:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 2
+    fire_protection: 2
   element:
     damage:
       Darkness: 40.0
@@ -1055,7 +1055,7 @@ ULT_MOONBLADE:
   disable-enchanting: true
   enchants:
     knockback: 2
-    sharpness: 2
+    fire_protection: 2
   element:
     damage:
       Ice: 40.0
@@ -1149,7 +1149,7 @@ ULT_FLAMETONGUE:
   disable-enchanting: true
   enchants:
     knockback: 2
-    sharpness: 2
+    fire_protection: 2
   element:
     damage:
       Fire: 40.0
@@ -1239,7 +1239,7 @@ VALERIANSWORD:
   disable-enchanting: true
   enchants:
     knockback: 1
-    sharpness: 2
+    fire_protection: 2
   ability:
     on-hit:
       type: DEATH_MARK

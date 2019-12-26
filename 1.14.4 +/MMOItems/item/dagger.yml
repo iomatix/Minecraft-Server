@@ -372,7 +372,7 @@ MOONSHIVER:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    sweeping: 1
+    fire_protection: 1
   element:
     damage:
       Ice: 8.0
@@ -462,7 +462,7 @@ ULT_MOONSHIVER:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    sweeping: 2
+    fire_protection: 2
   element:
     damage:
       Ice: 20.0
@@ -554,7 +554,7 @@ VALERIANDAGGER:
   hide-enchants: true
   disable-enchanting: true
   enchants:
-    smite: 5
+    fire_protection: 5
   ability:
     on-hit:
       type: DEATH_MARK
