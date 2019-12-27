@@ -1,28 +1,16 @@
-Dark Vortex: 
+Dark Vortex:
   name: 'Dark Vortex'
   type: 'Active'
   max-level: 3
   skill-req: 'Magic Missile'
   skill-req-lvl: 6
-  needs-permission: 'false'
-  attributes: 
-    level-base: '38'
-    level-scale: '16'
-    cost-base: '2'
-    cost-scale: '1'
-    cooldown-base: '30'
-    cooldown-scale: '7'
-    mana-base: '65'
-    mana-scale: '47'
-    points-spent-req-base: '0'
-    points-spent-req-scale: '0'
-    incompatible: 
-    - ''
+  needs-permission: 'False'
   msg: '&6{player} &2has cast &6{skill}'
-  icon: 'END_CRYSTAL'
-  icon-durability: 0
-  icon-data: 'LEGACY_END_CRYSTAL(0)'
-  icon-lore: 
+  combo: ''
+  indicator: '2D'
+  icon: 'End Crystal'
+  icon-data: NaN
+  icon-lore:
   - '&d{name} &7({level}/{max})'
   - '&2Type: &6{type}'
   - ''
@@ -37,905 +25,791 @@ Dark Vortex:
   - '&2Mana: {attr:mana}'
   - '&2Cooldown: {attr:cooldown}'
   - ''
-  - '&cDamage: &6{attr:Damage.value} &6x&6{attr:Amout-Repetitions.repetitions}'
+  - '&cDamage: &6{attr:Damage.value} &6x3 &cin &6{attr:Amout-Repetitions.repetitions} &ccycles.'
   - '&cArea: &6{attr:Radius.radius}'
   - '&cRange: &6{attr:Near.radius}'
-  desc:  []
-  components: 
-    Cast: 
+  attributes:
+    level-base: 38
+    level-scale: 16
+    cost-base: 2
+    cost-scale: 1
+    cooldown-base: 30
+    cooldown-scale: 7
+    mana-base: 65
+    mana-scale: 47
+    points-spent-req-base: 0
+    points-spent-req-scale: 0
+    incompatible:
+    - ''
+  components:
+    Cast-a:
       type: 'trigger'
-      indicator: '3D'
-      data: 
+      data:
         icon-key: ''
-        indicator: '2D'
-      children: 
-        Location-b: 
+      children:
+        Location-b:
           type: 'target'
-          indicator: '3D'
-          data: 
+          data:
             icon-key: ''
-            range-base: '8'
-            range-scale: '5'
+            range-base: 8
+            range-scale: 5
             ground: 'True'
-            indicator: '2D'
-            group: 'enemy'
-            wall: 'false'
-            caster: 'false'
-          children: 
-            Offset-c: 
+          children:
+            Offset-c:
               type: 'target'
-              indicator: '3D'
-              data: 
+              data:
                 icon-key: ''
-                forward-base: '0'
-                forward-scale: '0'
-                upward-base: '1.5'
-                upward-scale: '0.1'
-                right-base: '0'
-                right-scale: '0'
-                indicator: '2D'
-                group: 'enemy'
-                wall: 'false'
-                caster: 'false'
-              children: 
-                Remember Targets-d: 
+                forward-base: 0
+                forward-scale: 0
+                upward-base: 1.5
+                upward-scale: 0.1
+                right-base: 0
+                right-scale: 0
+              children:
+                Remember Targets-d:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     key: 'DVinstance'
-                    indicator: '2D'
-                  children:  {}
-                Particle Animation-e: 
+                Particle Animation-e:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
-                    steps: '1'
-                    frequency: '0.05'
-                    angle: '0'
-                    start: '0'
-                    duration-base: '2.3'
-                    duration-scale: '0.3'
-                    h-translation-base: '0'
-                    h-translation-scale: '0'
-                    v-translation-base: '3'
-                    v-translation-scale: '0'
-                    h-cycles: '1'
-                    v-cycles: '1'
+                    steps: 1
+                    frequency: 0.05
+                    angle: 0
+                    start: 0
+                    duration-base: 2.3
+                    duration-scale: 0.3
+                    h-translation-base: 0
+                    h-translation-scale: 0
+                    v-translation-base: 3
+                    v-translation-scale: 0
+                    h-cycles: 1
+                    v-cycles: 1
                     particle: 'Large Smoke'
                     arrangement: 'Circle'
-                    radius-base: '2'
-                    radius-scale: '0'
-                    particles-base: '1'
-                    particles-scale: '0'
+                    radius-base: 2
+                    radius-scale: 0
+                    particles-base: 1
+                    particles-scale: 0
                     direction: 'XZ'
-                    visible-radius: '65'
-                    dx: '0'
-                    dy: '0'
-                    dz: '0'
-                    speed: '1'
-                    amount: '0'
-                    forward: '0'
-                    upward: '0'
-                    right: '0'
-                    indicator: '2D'
-                  children:  {}
-                Channel-f: 
+                    visible-radius: 65
+                    dx: 0
+                    dy: 0
+                    dz: 0
+                    speed: 1
+                    amount: 0
+                    forward: 0
+                    upward: 0
+                    right: 0
+                Channel-f:
                   type: 'mechanic'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
                     counts: 'True'
                     still: 'False'
-                    time-base: '2.3'
-                    time-scale: '0.3'
-                    indicator: '2D'
-                  children: 
-                    Particle Animation-g: 
+                    time-base: 2.3
+                    time-scale: 0.3
+                  children:
+                    Particle Animation-g:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         counts: 'True'
-                        steps: '1'
-                        frequency: '0.05'
-                        angle: '0'
-                        start: '0'
-                        duration-base: '9'
-                        duration-scale: '6'
-                        h-translation-base: '0'
-                        h-translation-scale: '0'
-                        v-translation-base: '3'
-                        v-translation-scale: '0'
-                        h-cycles: '1'
-                        v-cycles: '5'
+                        steps: 1
+                        frequency: 0.05
+                        angle: 0
+                        start: 0
+                        duration-base: 9
+                        duration-scale: 6
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: 3
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 5
                         particle: 'Witch Magic'
                         arrangement: 'Sphere'
-                        radius-base: '1.15'
-                        radius-scale: '0'
-                        particles-base: '4'
-                        particles-scale: '0'
-                        visible-radius: '80'
-                        dx: '0'
-                        dy: '0'
-                        dz: '0'
-                        speed: '1'
-                        amount: '1'
-                        forward: '0'
-                        upward: '2'
-                        right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Particle Animation-h: 
+                        radius-base: 1.15
+                        radius-scale: 0
+                        particles-base: 4
+                        particles-scale: 0
+                        visible-radius: 80
+                        dx: 0
+                        dy: 0
+                        dz: 0
+                        speed: 1
+                        amount: 1
+                        forward: 0
+                        upward: 2
+                        right: 0
+                    Particle Animation-h:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         counts: 'True'
-                        steps: '1'
-                        frequency: '0.05'
-                        angle: '0'
-                        start: '0'
-                        duration-base: '9'
-                        duration-scale: '6'
-                        h-translation-base: '0'
-                        h-translation-scale: '0'
-                        v-translation-base: '3'
-                        v-translation-scale: '0'
-                        h-cycles: '1'
-                        v-cycles: '5'
+                        steps: 1
+                        frequency: 0.05
+                        angle: 0
+                        start: 0
+                        duration-base: 9
+                        duration-scale: 6
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: 3
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 5
                         particle: 'Large Smoke'
                         arrangement: 'Sphere'
-                        radius-base: '1.3'
-                        radius-scale: '0'
-                        particles-base: '2'
-                        particles-scale: '0'
-                        visible-radius: '80'
-                        dx: '0'
-                        dy: '0'
-                        dz: '0'
-                        speed: '1'
-                        amount: '0'
-                        forward: '0'
-                        upward: '2'
-                        right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Repeat-i: 
+                        radius-base: 1.3
+                        radius-scale: 0
+                        particles-base: 2
+                        particles-scale: 0
+                        visible-radius: 80
+                        dx: 0
+                        dy: 0
+                        dz: 0
+                        speed: 1
+                        amount: 0
+                        forward: 0
+                        upward: 2
+                        right: 0
+                    Repeat-i:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: 'Amout-Repetitions'
                         counts: 'True'
-                        repetitions-base: '3'
-                        repetitions-scale: '2'
-                        period: '3'
-                        delay: '0'
+                        repetitions-base: 3
+                        repetitions-scale: 2
+                        period: 3
+                        delay: 0
                         stop-on-fail: 'True'
-                        indicator: '2D'
-                      children: 
-                        Particle Animation-j: 
+                      children:
+                        Particle Animation-j:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
-                            steps: '1'
-                            frequency: '0.05'
-                            angle: '0'
-                            start: '0'
-                            duration-base: '1.5'
-                            duration-scale: '0'
-                            h-translation-base: '0'
-                            h-translation-scale: '0'
-                            v-translation-base: '5'
-                            v-translation-scale: '0'
-                            h-cycles: '1'
-                            v-cycles: '1'
+                            steps: 1
+                            frequency: 0.05
+                            angle: 0
+                            start: 0
+                            duration-base: 1.5
+                            duration-scale: 0
+                            h-translation-base: 0
+                            h-translation-scale: 0
+                            v-translation-base: 5
+                            v-translation-scale: 0
+                            h-cycles: 1
+                            v-cycles: 1
                             particle: 'Witch Magic'
                             arrangement: 'Circle'
-                            radius-base: '4'
-                            radius-scale: '1'
-                            particles-base: '2'
-                            particles-scale: '0'
+                            radius-base: 4
+                            radius-scale: 1
+                            particles-base: 2
+                            particles-scale: 0
                             direction: 'XZ'
-                            visible-radius: '80'
-                            dx: '0'
-                            dy: '0'
-                            dz: '0'
-                            speed: '1'
-                            amount: '0'
-                            forward: '0'
-                            upward: '0'
-                            right: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Particle Animation-k: 
+                            visible-radius: 80
+                            dx: 0
+                            dy: 0
+                            dz: 0
+                            speed: 1
+                            amount: 0
+                            forward: 0
+                            upward: 0
+                            right: 0
+                        Particle Animation-k:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
-                            steps: '1'
-                            frequency: '0.05'
-                            angle: '0'
-                            start: '0'
-                            duration-base: '1.5'
-                            duration-scale: '0'
-                            h-translation-base: '0'
-                            h-translation-scale: '0'
-                            v-translation-base: '5'
-                            v-translation-scale: '0'
-                            h-cycles: '1'
-                            v-cycles: '1'
+                            steps: 1
+                            frequency: 0.05
+                            angle: 0
+                            start: 0
+                            duration-base: 1.5
+                            duration-scale: 0
+                            h-translation-base: 0
+                            h-translation-scale: 0
+                            v-translation-base: 5
+                            v-translation-scale: 0
+                            h-cycles: 1
+                            v-cycles: 1
                             particle: 'Large Smoke'
                             arrangement: 'Circle'
-                            radius-base: '4'
-                            radius-scale: '1'
-                            particles-base: '2'
-                            particles-scale: '0'
+                            radius-base: 4
+                            radius-scale: 1
+                            particles-base: 2
+                            particles-scale: 0
                             direction: 'XZ'
-                            visible-radius: '80'
-                            dx: '0'
-                            dy: '0'
-                            dz: '0'
-                            speed: '1'
-                            amount: '0'
-                            forward: '0'
-                            upward: '0'
-                            right: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Value Random-l: 
+                            visible-radius: 80
+                            dx: 0
+                            dy: 0
+                            dz: 0
+                            speed: 1
+                            amount: 0
+                            forward: 0
+                            upward: 0
+                            right: 0
+                        Value Random-l:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             key: 'rand'
                             type: 'Normal'
-                            min-base: '0.7'
-                            min-scale: '0'
-                            max-base: '1.38'
-                            max-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Sound-m: 
+                            min-base: 0.7
+                            min-scale: 0
+                            max-base: 1.38
+                            max-scale: 0
+                        Sound-m:
                           type: 'mechanic'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: ''
                             counts: 'True'
                             sound: 'Entity Illusioner Cast Spell'
-                            volume-base: '100'
-                            volume-scale: '0'
-                            pitch-base: 'rand'
-                            pitch-scale: '0'
-                            indicator: '2D'
-                          children:  {}
-                        Area-n: 
+                            volume-base: 100
+                            volume-scale: 0
+                            pitch-base: rand
+                            pitch-scale: 0
+                        Area-n:
                           type: 'target'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: 'Radius'
-                            radius-base: '4'
-                            radius-scale: '1'
+                            radius-base: 4
+                            radius-scale: 1
                             group: 'Enemy'
                             wall: 'False'
                             caster: 'False'
-                            max-base: '99'
-                            max-scale: '25'
+                            max-base: 99
+                            max-scale: 25
                             random: 'False'
-                            indicator: '2D'
-                          children: 
-                            Particle Animation-o: 
+                          children:
+                            Particle Animation-o:
                               type: 'mechanic'
-                              indicator: '3D'
-                              data: 
+                              data:
                                 icon-key: ''
                                 counts: 'True'
-                                steps: '1'
-                                frequency: '0.05'
-                                angle: '0'
-                                start: '0'
-                                duration-base: '0.3'
-                                duration-scale: '0'
-                                h-translation-base: '0'
-                                h-translation-scale: '0'
-                                v-translation-base: '5'
-                                v-translation-scale: '0'
-                                h-cycles: '1'
-                                v-cycles: '1'
+                                steps: 1
+                                frequency: 0.05
+                                angle: 0
+                                start: 0
+                                duration-base: 0.3
+                                duration-scale: 0
+                                h-translation-base: 0
+                                h-translation-scale: 0
+                                v-translation-base: 5
+                                v-translation-scale: 0
+                                h-cycles: 1
+                                v-cycles: 1
                                 particle: 'Smoke'
                                 arrangement: 'Circle'
-                                radius-base: '0.9'
-                                radius-scale: '0.05'
-                                particles-base: '2'
-                                particles-scale: '0'
+                                radius-base: 0.9
+                                radius-scale: 0.05
+                                particles-base: 2
+                                particles-scale: 0
                                 direction: 'XZ'
-                                data: '0'
-                                forward: '0'
-                                upward: '0'
-                                right: '0'
-                                indicator: '2D'
-                              children:  {}
-                            Damage-p: 
+                                data: 0
+                                forward: 0
+                                upward: 0
+                                right: 0
+                            Damage-p:
                               type: 'mechanic'
-                              indicator: '3D'
-                              data: 
+                              data:
                                 icon-key: 'Damage'
                                 counts: 'True'
                                 type: 'Damage'
-                                value-base: '32.5'
-                                value-scale: '13.5'
+                                value-base: 20.5
+                                value-scale: 11.5
                                 true: 'False'
                                 classifier: 'Dark'
-                                indicator: '2D'
-                              children:  {}
-                        Nearest-q: 
+                        Nearest-q:
                           type: 'target'
-                          indicator: '3D'
-                          data: 
+                          data:
                             icon-key: 'Near'
-                            radius-base: '9'
-                            radius-scale: '3'
+                            radius-base: 9
+                            radius-scale: 3
                             group: 'Enemy'
                             wall: 'False'
                             caster: 'False'
-                            max-base: '1'
-                            max-scale: '0'
-                            indicator: '2D'
-                          children: 
-                            Area-r: 
+                            max-base: 1
+                            max-scale: 0
+                          children:
+                            Area-r:
                               type: 'target'
-                              indicator: '3D'
-                              data: 
+                              data:
                                 icon-key: ''
-                                radius-base: '4'
-                                radius-scale: '0'
+                                radius-base: 4
+                                radius-scale: 0
                                 group: 'Enemy'
                                 wall: 'False'
                                 caster: 'False'
-                                max-base: '1'
-                                max-scale: '0'
+                                max-base: 1
+                                max-scale: 0
                                 random: 'False'
-                                indicator: '2D'
-                              children: 
-                                Particle Animation-s: 
+                              children:
+                                Particle Animation-s:
                                   type: 'mechanic'
-                                  indicator: '3D'
-                                  data: 
+                                  data:
                                     icon-key: ''
                                     counts: 'True'
-                                    steps: '1'
-                                    frequency: '0.05'
-                                    angle: '0'
-                                    start: '0'
-                                    duration-base: '0.8'
-                                    duration-scale: '0'
-                                    h-translation-base: '0'
-                                    h-translation-scale: '0'
-                                    v-translation-base: '-3.3'
-                                    v-translation-scale: '0'
-                                    h-cycles: '1'
-                                    v-cycles: '1'
+                                    steps: 1
+                                    frequency: 0.05
+                                    angle: 0
+                                    start: 0
+                                    duration-base: 0.8
+                                    duration-scale: 0
+                                    h-translation-base: 0
+                                    h-translation-scale: 0
+                                    v-translation-base: -3.3
+                                    v-translation-scale: 0
+                                    h-cycles: 1
+                                    v-cycles: 1
                                     particle: 'Large Smoke'
                                     arrangement: 'Circle'
-                                    radius-base: '0.9'
-                                    radius-scale: '0.05'
-                                    particles-base: '2'
-                                    particles-scale: '0'
+                                    radius-base: 0.9
+                                    radius-scale: 0.05
+                                    particles-base: 2
+                                    particles-scale: 0
                                     direction: 'XZ'
-                                    visible-radius: '76'
-                                    dx: '0'
-                                    dy: '0'
-                                    dz: '0'
-                                    speed: '1'
-                                    amount: '0'
-                                    forward: '0'
-                                    upward: '3'
-                                    right: '0'
-                                    indicator: '2D'
-                                  children:  {}
-                                Delay-t: 
+                                    visible-radius: 76
+                                    dx: 0
+                                    dy: 0
+                                    dz: 0
+                                    speed: 1
+                                    amount: 0
+                                    forward: 0
+                                    upward: 3
+                                    right: 0
+                                Delay-t:
                                   type: 'mechanic'
-                                  indicator: '3D'
-                                  data: 
+                                  data:
                                     icon-key: ''
                                     counts: 'True'
-                                    delay-base: '0.8'
-                                    delay-scale: '0'
-                                    indicator: '2D'
-                                  children: 
-                                    Particle Animation-u: 
+                                    delay-base: 0.8
+                                    delay-scale: 0
+                                  children:
+                                    Particle Animation-u:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
-                                        steps: '1'
-                                        frequency: '0.05'
-                                        angle: '0'
-                                        start: '0'
-                                        duration-base: '1.0'
-                                        duration-scale: '0'
-                                        h-translation-base: '0'
-                                        h-translation-scale: '0'
-                                        v-translation-base: '3'
-                                        v-translation-scale: '0'
-                                        h-cycles: '1'
-                                        v-cycles: '1'
+                                        steps: 1
+                                        frequency: 0.05
+                                        angle: 0
+                                        start: 0
+                                        duration-base: 1.0
+                                        duration-scale: 0
+                                        h-translation-base: 0
+                                        h-translation-scale: 0
+                                        v-translation-base: 3
+                                        v-translation-scale: 0
+                                        h-cycles: 1
+                                        v-cycles: 1
                                         particle: 'Large Smoke'
                                         arrangement: 'Circle'
-                                        radius-base: '1'
-                                        radius-scale: '0'
-                                        particles-base: '2'
-                                        particles-scale: '0'
+                                        radius-base: 1
+                                        radius-scale: 0
+                                        particles-base: 2
+                                        particles-scale: 0
                                         direction: 'XZ'
-                                        visible-radius: '80'
-                                        dx: '0'
-                                        dy: '0'
-                                        dz: '0'
-                                        speed: '1'
-                                        amount: '0'
-                                        forward: '0'
-                                        upward: '0'
-                                        right: '0'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Particle Animation-v: 
+                                        visible-radius: 80
+                                        dx: 0
+                                        dy: 0
+                                        dz: 0
+                                        speed: 1
+                                        amount: 0
+                                        forward: 0
+                                        upward: 0
+                                        right: 0
+                                    Particle Animation-v:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
-                                        steps: '1'
-                                        frequency: '0.05'
-                                        angle: '0'
-                                        start: '0'
-                                        duration-base: '1.0'
-                                        duration-scale: '0'
-                                        h-translation-base: '0'
-                                        h-translation-scale: '0'
-                                        v-translation-base: '3'
-                                        v-translation-scale: '0'
-                                        h-cycles: '1'
-                                        v-cycles: '1'
+                                        steps: 1
+                                        frequency: 0.05
+                                        angle: 0
+                                        start: 0
+                                        duration-base: 1.0
+                                        duration-scale: 0
+                                        h-translation-base: 0
+                                        h-translation-scale: 0
+                                        v-translation-base: 3
+                                        v-translation-scale: 0
+                                        h-cycles: 1
+                                        v-cycles: 1
                                         particle: 'Witch Magic'
                                         arrangement: 'Circle'
-                                        radius-base: '1'
-                                        radius-scale: '0'
-                                        particles-base: '1'
-                                        particles-scale: '0'
+                                        radius-base: 1
+                                        radius-scale: 0
+                                        particles-base: 1
+                                        particles-scale: 0
                                         direction: 'XZ'
-                                        visible-radius: '80'
-                                        dx: '0'
-                                        dy: '0'
-                                        dz: '0'
-                                        speed: '1'
-                                        amount: '0'
-                                        forward: '0'
-                                        upward: '0'
-                                        right: '0'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Value Random-w: 
+                                        visible-radius: 80
+                                        dx: 0
+                                        dy: 0
+                                        dz: 0
+                                        speed: 1
+                                        amount: 0
+                                        forward: 0
+                                        upward: 0
+                                        right: 0
+                                    Value Random-w:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
                                         key: 'Leftrand'
                                         type: 'Normal'
-                                        min-base: '-1'
-                                        min-scale: '0'
-                                        max-base: '1'
-                                        max-scale: '0'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Value Random-x: 
+                                        min-base: -1
+                                        min-scale: 0
+                                        max-base: 1
+                                        max-scale: 0
+                                    Value Random-x:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
                                         key: 'Forrand'
                                         type: 'Normal'
-                                        min-base: '-1'
-                                        min-scale: '0'
-                                        max-base: '1'
-                                        max-scale: '0'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Particle Animation-y: 
+                                        min-base: -1
+                                        min-scale: 0
+                                        max-base: 1
+                                        max-scale: 0
+                                    Particle Animation-y:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
-                                        steps: '1'
-                                        frequency: '0.05'
-                                        angle: '0'
-                                        start: '0'
-                                        duration-base: '0.8'
-                                        duration-scale: '0'
-                                        h-translation-base: '0'
-                                        h-translation-scale: '0'
-                                        v-translation-base: '-11.3'
-                                        v-translation-scale: '0'
-                                        h-cycles: '1'
-                                        v-cycles: '1'
+                                        steps: 1
+                                        frequency: 0.05
+                                        angle: 0
+                                        start: 0
+                                        duration-base: 0.8
+                                        duration-scale: 0
+                                        h-translation-base: 0
+                                        h-translation-scale: 0
+                                        v-translation-base: -11.3
+                                        v-translation-scale: 0
+                                        h-cycles: 1
+                                        v-cycles: 1
                                         particle: 'Large Smoke'
                                         arrangement: 'Circle'
-                                        radius-base: '0.9'
-                                        radius-scale: '0.05'
-                                        particles-base: '2'
-                                        particles-scale: '0'
+                                        radius-base: 0.9
+                                        radius-scale: 0.05
+                                        particles-base: 2
+                                        particles-scale: 0
                                         direction: 'XZ'
-                                        visible-radius: '76'
-                                        dx: '0'
-                                        dy: '0'
-                                        dz: '0'
-                                        speed: '1'
-                                        amount: '0'
-                                        forward: '0'
-                                        upward: '8'
-                                        right: '0'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Sound-z: 
+                                        visible-radius: 76
+                                        dx: 0
+                                        dy: 0
+                                        dz: 0
+                                        speed: 1
+                                        amount: 0
+                                        forward: 0
+                                        upward: 8
+                                        right: 0
+                                    Sound-z:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
                                         sound: 'Entity Wither Shoot'
-                                        volume-base: '100'
-                                        volume-scale: '0'
-                                        pitch-base: 'rand'
-                                        pitch-scale: '0'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Damage-ab: 
+                                        volume-base: 100
+                                        volume-scale: 0
+                                        pitch-base: rand
+                                        pitch-scale: 0
+                                    Damage-ab:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
                                         type: 'Damage'
-                                        value-base: '7.5'
-                                        value-scale: '3.5'
+                                        value-base: 20.5
+                                        value-scale: 11.5
                                         true: 'False'
                                         classifier: 'Dark'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Launch-bb: 
+                                    Launch-bb:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
                                         relative: 'Target'
-                                        forward-base: 'Forrand'
-                                        forward-scale: '0'
-                                        upward-base: '1.5'
-                                        upward-scale: '0.2'
-                                        right-base: 'Leftrand'
-                                        right-scale: '0'
-                                        indicator: '2D'
-                                      children:  {}
-                                    Delay-cb: 
+                                        forward-base: Forrand
+                                        forward-scale: 0
+                                        upward-base: 1.5
+                                        upward-scale: 0.2
+                                        right-base: Leftrand
+                                        right-scale: 0
+                                    Delay-cb:
                                       type: 'mechanic'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
                                         counts: 'True'
-                                        delay-base: '0.7'
-                                        delay-scale: '0'
-                                        indicator: '2D'
-                                      children: 
-                                        Launch-db: 
+                                        delay-base: 0.7
+                                        delay-scale: 0
+                                      children:
+                                        Launch-db:
                                           type: 'mechanic'
-                                          indicator: '3D'
-                                          data: 
+                                          data:
                                             icon-key: ''
                                             counts: 'True'
                                             relative: 'Target'
-                                            forward-base: '-Forrand'
-                                            forward-scale: '0'
-                                            upward-base: '-1.5'
-                                            upward-scale: '-0.2'
-                                            right-base: '-Leftrand'
-                                            right-scale: '0'
-                                            indicator: '2D'
-                                          children:  {}
-                                        Particle Animation-eb: 
+                                            forward-base: -Forrand
+                                            forward-scale: 0
+                                            upward-base: -1.5
+                                            upward-scale: -0.2
+                                            right-base: -Leftrand
+                                            right-scale: 0
+                                        Particle Animation-eb:
                                           type: 'mechanic'
-                                          indicator: '3D'
-                                          data: 
+                                          data:
                                             icon-key: ''
                                             counts: 'True'
-                                            steps: '1'
-                                            frequency: '0.05'
-                                            angle: '0'
-                                            start: '0'
-                                            duration-base: '0.45'
-                                            duration-scale: '0'
-                                            h-translation-base: '0'
-                                            h-translation-scale: '0'
-                                            v-translation-base: '2'
-                                            v-translation-scale: '0'
-                                            h-cycles: '1'
-                                            v-cycles: '1'
+                                            steps: 1
+                                            frequency: 0.05
+                                            angle: 0
+                                            start: 0
+                                            duration-base: 0.45
+                                            duration-scale: 0
+                                            h-translation-base: 0
+                                            h-translation-scale: 0
+                                            v-translation-base: 2
+                                            v-translation-scale: 0
+                                            h-cycles: 1
+                                            v-cycles: 1
                                             particle: 'Large Smoke'
                                             arrangement: 'Circle'
-                                            radius-base: '0.9'
-                                            radius-scale: '0.05'
-                                            particles-base: '2'
-                                            particles-scale: '0'
+                                            radius-base: 0.9
+                                            radius-scale: 0.05
+                                            particles-base: 2
+                                            particles-scale: 0
                                             direction: 'XZ'
-                                            visible-radius: '76'
-                                            dx: '0'
-                                            dy: '0'
-                                            dz: '0'
-                                            speed: '1'
-                                            amount: '0'
-                                            forward: '0'
-                                            upward: '-1'
-                                            right: '0'
-                                            indicator: '2D'
-                                          children:  {}
-                                        Sound-fb: 
+                                            visible-radius: 76
+                                            dx: 0
+                                            dy: 0
+                                            dz: 0
+                                            speed: 1
+                                            amount: 0
+                                            forward: 0
+                                            upward: -1
+                                            right: 0
+                                        Sound-fb:
                                           type: 'mechanic'
-                                          indicator: '3D'
-                                          data: 
+                                          data:
                                             icon-key: ''
                                             counts: 'True'
                                             sound: 'Entity Wither Shoot'
-                                            volume-base: '100'
-                                            volume-scale: '0'
-                                            pitch-base: 'rand'
-                                            pitch-scale: '0'
-                                            indicator: '2D'
-                                          children:  {}
-                                        Damage-gb: 
+                                            volume-base: 100
+                                            volume-scale: 0
+                                            pitch-base: rand
+                                            pitch-scale: 0
+                                        Damage-gb:
                                           type: 'mechanic'
-                                          indicator: '3D'
-                                          data: 
+                                          data:
                                             icon-key: ''
                                             counts: 'True'
                                             type: 'Damage'
-                                            value-base: '32.5'
-                                            value-scale: '13.5'
+                                            value-base: 20.5
+                                            value-scale: 11.5
                                             true: 'False'
                                             classifier: 'Dark'
-                                            indicator: '2D'
-                                          children:  {}
-                                        Particle Animation-hb: 
+                                        Particle Animation-hb:
                                           type: 'mechanic'
-                                          indicator: '3D'
-                                          data: 
+                                          data:
                                             icon-key: ''
                                             counts: 'True'
-                                            steps: '1'
-                                            frequency: '0.05'
-                                            angle: '0'
-                                            start: '0'
-                                            duration-base: '0.45'
-                                            duration-scale: '0'
-                                            h-translation-base: '0'
-                                            h-translation-scale: '0'
-                                            v-translation-base: '2'
-                                            v-translation-scale: '0'
-                                            h-cycles: '1'
-                                            v-cycles: '1'
+                                            steps: 1
+                                            frequency: 0.05
+                                            angle: 0
+                                            start: 0
+                                            duration-base: 0.45
+                                            duration-scale: 0
+                                            h-translation-base: 0
+                                            h-translation-scale: 0
+                                            v-translation-base: 2
+                                            v-translation-scale: 0
+                                            h-cycles: 1
+                                            v-cycles: 1
                                             particle: 'Witch Magic'
                                             arrangement: 'Circle'
-                                            radius-base: '0.9'
-                                            radius-scale: '0.05'
-                                            particles-base: '2'
-                                            particles-scale: '0'
+                                            radius-base: 0.9
+                                            radius-scale: 0.05
+                                            particles-base: 2
+                                            particles-scale: 0
                                             direction: 'XZ'
-                                            visible-radius: '76'
-                                            dx: '0'
-                                            dy: '0'
-                                            dz: '0'
-                                            speed: '1'
-                                            amount: '0'
-                                            forward: '0'
-                                            upward: '-1'
-                                            right: '0'
-                                            indicator: '2D'
-                                          children:  {}
-                                    Self-ib: 
+                                            visible-radius: 76
+                                            dx: 0
+                                            dy: 0
+                                            dz: 0
+                                            speed: 1
+                                            amount: 0
+                                            forward: 0
+                                            upward: -1
+                                            right: 0
+                                    Self-ib:
                                       type: 'target'
-                                      indicator: '3D'
-                                      data: 
+                                      data:
                                         icon-key: ''
-                                        indicator: '2D'
-                                        group: 'enemy'
-                                        wall: 'false'
-                                        caster: 'false'
-                                      children: 
-                                        Sound-jb: 
+                                      children:
+                                        Sound-jb:
                                           type: 'mechanic'
-                                          indicator: '3D'
-                                          data: 
+                                          data:
                                             icon-key: ''
                                             counts: 'True'
                                             sound: 'Entity Wither Shoot'
-                                            volume-base: '66'
-                                            volume-scale: '0'
-                                            pitch-base: 'rand'
-                                            pitch-scale: '0'
-                                            indicator: '2D'
-                                          children:  {}
-                                        Particle Animation-kb: 
+                                            volume-base: 66
+                                            volume-scale: 0
+                                            pitch-base: rand
+                                            pitch-scale: 0
+                                        Particle Animation-kb:
                                           type: 'mechanic'
-                                          indicator: '3D'
-                                          data: 
+                                          data:
                                             icon-key: ''
                                             counts: 'True'
-                                            steps: '1'
-                                            frequency: '0.05'
-                                            angle: '0'
-                                            start: '0'
-                                            duration-base: '0.5'
-                                            duration-scale: '0'
-                                            h-translation-base: '0'
-                                            h-translation-scale: '0'
-                                            v-translation-base: '4'
-                                            v-translation-scale: '0'
-                                            h-cycles: '1'
-                                            v-cycles: '1'
+                                            steps: 1
+                                            frequency: 0.05
+                                            angle: 0
+                                            start: 0
+                                            duration-base: 0.5
+                                            duration-scale: 0
+                                            h-translation-base: 0
+                                            h-translation-scale: 0
+                                            v-translation-base: 4
+                                            v-translation-scale: 0
+                                            h-cycles: 1
+                                            v-cycles: 1
                                             particle: 'Large Smoke'
                                             arrangement: 'Circle'
-                                            radius-base: '0.9'
-                                            radius-scale: '0.05'
-                                            particles-base: '2'
-                                            particles-scale: '0'
+                                            radius-base: 0.9
+                                            radius-scale: 0.05
+                                            particles-base: 2
+                                            particles-scale: 0
                                             direction: 'XZ'
-                                            visible-radius: '76'
-                                            dx: '0'
-                                            dy: '0'
-                                            dz: '0'
-                                            speed: '1'
-                                            amount: '0'
-                                            forward: '0'
-                                            upward: '0'
-                                            right: '0'
-                                            indicator: '2D'
-                                          children:  {}
-                Self-lb: 
+                                            visible-radius: 76
+                                            dx: 0
+                                            dy: 0
+                                            dz: 0
+                                            speed: 1
+                                            amount: 0
+                                            forward: 0
+                                            upward: 0
+                                            right: 0
+                Self-lb:
                   type: 'target'
-                  indicator: '3D'
-                  data: 
+                  data:
                     icon-key: ''
-                    indicator: '2D'
-                    group: 'enemy'
-                    wall: 'false'
-                    caster: 'false'
-                  children: 
-                    Particle Animation-mb: 
+                  children:
+                    Particle Animation-mb:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         counts: 'True'
-                        steps: '1'
-                        frequency: '0.05'
-                        angle: '0'
-                        start: '0'
-                        duration-base: '2.3'
-                        duration-scale: '0.3'
-                        h-translation-base: '0'
-                        h-translation-scale: '0'
-                        v-translation-base: '-3'
-                        v-translation-scale: '0'
-                        h-cycles: '1'
-                        v-cycles: '1'
+                        steps: 1
+                        frequency: 0.05
+                        angle: 0
+                        start: 0
+                        duration-base: 2.3
+                        duration-scale: 0.3
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: -3
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 1
                         particle: 'Enchantment Table'
                         arrangement: 'Circle'
-                        radius-base: '2'
-                        radius-scale: '0'
-                        particles-base: '3'
-                        particles-scale: '0'
+                        radius-base: 2
+                        radius-scale: 0
+                        particles-base: 3
+                        particles-scale: 0
                         direction: 'XZ'
-                        visible-radius: '45'
-                        dx: '0'
-                        dy: '0'
-                        dz: '0'
-                        speed: '1'
-                        amount: '1'
-                        forward: '0'
-                        upward: '3'
-                        right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Particle Animation-nb: 
+                        visible-radius: 45
+                        dx: 0
+                        dy: 0
+                        dz: 0
+                        speed: 1
+                        amount: 1
+                        forward: 0
+                        upward: 3
+                        right: 0
+                    Particle Animation-nb:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         counts: 'True'
-                        steps: '1'
-                        frequency: '0.05'
-                        angle: '0'
-                        start: '0'
-                        duration-base: '2.3'
-                        duration-scale: '0.3'
-                        h-translation-base: '0'
-                        h-translation-scale: '0'
-                        v-translation-base: '-3.3'
-                        v-translation-scale: '0'
-                        h-cycles: '1'
-                        v-cycles: '1'
+                        steps: 1
+                        frequency: 0.05
+                        angle: 0
+                        start: 0
+                        duration-base: 2.3
+                        duration-scale: 0.3
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: -3.3
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 1
                         particle: 'Witch Magic'
                         arrangement: 'Sphere'
-                        radius-base: '1.5'
-                        radius-scale: '0.05'
-                        particles-base: '4'
-                        particles-scale: '0'
-                        visible-radius: '76'
-                        dx: '0'
-                        dy: '0'
-                        dz: '0'
-                        speed: '1'
-                        amount: '0'
-                        forward: '0'
-                        upward: '3'
-                        right: '0'
-                        indicator: '2D'
-                      children:  {}
-                    Sound-ob: 
+                        radius-base: 1.5
+                        radius-scale: 0.05
+                        particles-base: 4
+                        particles-scale: 0
+                        visible-radius: 76
+                        dx: 0
+                        dy: 0
+                        dz: 0
+                        speed: 1
+                        amount: 0
+                        forward: 0
+                        upward: 3
+                        right: 0
+                    Sound-ob:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         counts: 'True'
                         sound: 'Entity Illusioner Prepare Mirror'
-                        volume-base: '100'
-                        volume-scale: '0'
-                        pitch-base: '0.9'
-                        pitch-scale: '-0.05'
-                        indicator: '2D'
-                      children:  {}
-                    Particle Animation-pb: 
+                        volume-base: 100
+                        volume-scale: 0
+                        pitch-base: 0.9
+                        pitch-scale: -0.05
+                    Particle Animation-pb:
                       type: 'mechanic'
-                      indicator: '3D'
-                      data: 
+                      data:
                         icon-key: ''
                         counts: 'True'
-                        steps: '1'
-                        frequency: '0.05'
-                        angle: '0'
-                        start: '0'
-                        duration-base: '2.3'
-                        duration-scale: '0.3'
-                        h-translation-base: '0'
-                        h-translation-scale: '0'
-                        v-translation-base: '-3'
-                        v-translation-scale: '0'
-                        h-cycles: '1'
-                        v-cycles: '1'
+                        steps: 1
+                        frequency: 0.05
+                        angle: 0
+                        start: 0
+                        duration-base: 2.3
+                        duration-scale: 0.3
+                        h-translation-base: 0
+                        h-translation-scale: 0
+                        v-translation-base: -3
+                        v-translation-scale: 0
+                        h-cycles: 1
+                        v-cycles: 1
                         particle: 'Large Smoke'
                         arrangement: 'Circle'
-                        radius-base: '1.3'
-                        radius-scale: '0'
-                        particles-base: '1'
-                        particles-scale: '0'
+                        radius-base: 1.3
+                        radius-scale: 0
+                        particles-base: 1
+                        particles-scale: 0
                         direction: 'XZ'
-                        visible-radius: '45'
-                        dx: '0'
-                        dy: '0'
-                        dz: '0'
-                        speed: '1'
-                        amount: '0'
-                        forward: '0'
-                        upward: '3'
-                        right: '0'
-                        indicator: '2D'
-                      children:  {}
+                        visible-radius: 45
+                        dx: 0
+                        dy: 0
+                        dz: 0
+                        speed: 1
+                        amount: 0
+                        forward: 0
+                        upward: 3
+                        right: 0
