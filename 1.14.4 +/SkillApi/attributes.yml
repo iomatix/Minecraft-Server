@@ -220,7 +220,7 @@ arcan:
   icon-lore: 
   - '&3Arcan &7(&2{amount}&7)'
   - ''
-  - '&6Grants 8% increased arcane damage,'
+  - '&6Grants 10% increased arcane damage,'
   - '&66% offensive spell power'
   - '&60.15% true damage'
   - '&61% exp gain'
@@ -229,7 +229,7 @@ arcan:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0015+1*v)+(a*0.38+v):classifier=True|(a*0.08+1*v)+(a*3.25+v):classifier=Arcane|(a*0.06+1*v)+(a*3.0+v):classifier=Fire|(a*0.06+1*v)+(a*3.0+v):classifier=Ice|(a*0.06+1*v)+(a*3.0+v):classifier=Earth|(a*0.06+1*v)+(a*3.0+v):classifier=Water|(a*0.06+1*v)+(a*3.0+v):classifier=Wind|(a*0.06+1*v)+(a*3.0+v):classifier=Dark|(a*0.06+1*v)+(a*3.0+v):classifier=Void'    
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0015+1*v)+(a*0.38+v):classifier=True|(a*0.1+1*v)+(a*3.25+v):classifier=Arcane|(a*0.06+1*v)+(a*3.0+v):classifier=Fire|(a*0.06+1*v)+(a*3.0+v):classifier=Ice|(a*0.06+1*v)+(a*3.0+v):classifier=Earth|(a*0.06+1*v)+(a*3.0+v):classifier=Water|(a*0.06+1*v)+(a*3.0+v):classifier=Wind|(a*0.06+1*v)+(a*3.0+v):classifier=Dark|(a*0.06+1*v)+(a*3.0+v):classifier=Void'    
     target:  {}
   stats: 
     exp: 'a*0.01+1*v'
