@@ -1,5 +1,6 @@
 CURSE_CATALYST:
-  material: TOTEM_OF_UNDYING
+  material: BLACK_DYE
+  custom-model-data: 1.0
   disable-interaction: true
   disable-crafting: true
   disable-smelting: true

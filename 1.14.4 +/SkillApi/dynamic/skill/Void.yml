@@ -114,7 +114,7 @@ Void:
                     icon-key: 'TotalHP'
                     counts: 'True'
                     type: 'Multiplier'
-                    value-base: 1
+                    value-base: 0.5
                     value-scale: 0.5
                     true: 'True'
                     classifier: 'True'
@@ -124,8 +124,8 @@ Void:
                     icon-key: 'MissHP'
                     counts: 'True'
                     type: 'Percent Missing'
-                    value-base: 3
-                    value-scale: 2.5
+                    value-base: 1.5
+                    value-scale: 1
                     true: 'True'
                     classifier: 'True'
                 Damage-j:
@@ -134,8 +134,8 @@ Void:
                     icon-key: 'TrueDamage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: 8.5
-                    value-scale: 6.45
+                    value-base: 11.5
+                    value-scale: 9.45
                     true: 'True'
                     classifier: 'True'
                 Particle Animation-k:
@@ -311,8 +311,8 @@ Void:
                             icon-key: 'DamageVoid'
                             counts: 'True'
                             type: 'Damage'
-                            value-base: 5
-                            value-scale: 3.7
+                            value-base: 6
+                            value-scale: 4.7
                             true: 'False'
                             classifier: 'Void'
                         Self-w:
@@ -703,8 +703,8 @@ Void:
                         icon-key: ''
                         counts: 'True'
                         key: 'VoidStacks'
-                        multiplier-base: 6
-                        multiplier-scale: 4
+                        multiplier-base: 7
+                        multiplier-scale: 5
                     Damage-jc:
                       type: 'mechanic'
                       data:
@@ -1020,7 +1020,7 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     type: 'Multiplier'
-                    value-base: 1
+                    value-base: 0.5
                     value-scale: 0.5
                     true: 'True'
                     classifier: 'True'
@@ -1030,8 +1030,8 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     type: 'Percent Missing'
-                    value-base: 3
-                    value-scale: 2.5
+                    value-base: 1.5
+                    value-scale: 1
                     true: 'True'
                     classifier: 'True'
                 Damage-jd:
@@ -1040,8 +1040,8 @@ Void:
                     icon-key: ''
                     counts: 'True'
                     type: 'Damage'
-                    value-base: 8
-                    value-scale: 6.45
+                    value-base: 11.5
+                    value-scale: 9.45
                     true: 'True'
                     classifier: 'True'
                 Particle Animation-kd:
@@ -1217,8 +1217,8 @@ Void:
                             icon-key: ''
                             counts: 'True'
                             type: 'Damage'
-                            value-base: 5
-                            value-scale: 3.7
+                            value-base: 6
+                            value-scale: 4.7
                             true: 'False'
                             classifier: 'Void'
                         Self-wd:
@@ -1609,8 +1609,8 @@ Void:
                         icon-key: ''
                         counts: 'True'
                         key: 'VoidStacks'
-                        multiplier-base: 6
-                        multiplier-scale: 4
+                        multiplier-base: 7
+                        multiplier-scale: 5
                     Damage-jf:
                       type: 'mechanic'
                       data:
@@ -2060,7 +2060,7 @@ Void:
                     icon-key: 'Stunz'
                     counts: 'True'
                     status: 'Stun'
-                    duration-base: 1.0
+                    duration-base: 1
                     duration-scale: 0.55
                 Status-ug:
                   type: 'mechanic'
@@ -2068,7 +2068,7 @@ Void:
                     icon-key: 'Silencez'
                     counts: 'True'
                     status: 'Silence'
-                    duration-base: 4.0
+                    duration-base: 4
                     duration-scale: 0.85
                 Status-vg:
                   type: 'mechanic'
@@ -2095,8 +2095,8 @@ Void:
                     icon-key: 'DamageJump'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: 24
-                    value-scale: 13
+                    value-base: 25
+                    value-scale: 15
                     true: 'False'
                     classifier: 'Void'
                 Sound-yg:

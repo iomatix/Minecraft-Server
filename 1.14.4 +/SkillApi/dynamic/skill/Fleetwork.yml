@@ -317,8 +317,8 @@ Fleetwork:
                     icon-key: 'Damage'
                     counts: 'True'
                     type: 'Damage'
-                    value-base: 7.5
-                    value-scale: 3.4
+                    value-base: 8.5
+                    value-scale: 4.5
                     true: 'True'
                     classifier: 'True'
                 Particle Animation-w:
@@ -373,7 +373,7 @@ Fleetwork:
                 forward-base: 0.1
                 forward-scale: 0
                 upward-base: 0.88
-                upward-scale: 0.0
+                upward-scale: 0
                 right-base: 0
                 right-scale: 0
               children:
