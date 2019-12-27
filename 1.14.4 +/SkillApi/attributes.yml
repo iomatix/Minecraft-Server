@@ -84,7 +84,7 @@ intelligence:
   icon-lore: 
   - '&6Intelligence &7(&2{amount}&7)'
   - ''
-  - '&2Grants 3% ability power,'
+  - '&2Grants 5% ability power,'
   - '&20.55% true damage,'
   - '&20.45 mana regeneration,'
   - '&20.15% cooldown reduction and'
@@ -94,11 +94,11 @@ intelligence:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0055+1*v)+(a*0.27+v):classifier=True|(a*0.03+1*v)+(a*3.35+v):classifier=default|(a*0.03+1*v)+(a*3.35+v):classifier=Fire|(a*0.03+1*v)+(a*3.35+v):classifier=Ice|(a*0.03+1*v)+(a*3.35+v):classifier=Earth|(a*0.03+1*v)+(a*3.35+v):classifier=Water|(a*0.03+1*v)+(a*3.35+v):classifier=Wind|(a*0.03+1*v)+(a*3.35+v):classifier=Arcane|(a*0.03+1*v)+(a*3.35+v):classifier=Dark|(a*0.03+1*v)+(a*2.85+v):classifier=Void'
-      Wolf-damage: '(a*0.03+1*v)+(a*2.35+v)'
-      Wolf-health: '(a*0.03+1*v)+(a*2.35+v)'
-      Heal-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(a*0.03+1*v)+(a*2.35+v):type=Health'
-      Mana-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(-a*0.03+1*v)+(-a*0.95+v):icon-key=Subtract|(a*0.03+1*v)+(a*0.95+v):type=Mana'
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0055+1*v)+(a*0.27+v):classifier=True|(a*0.05+1*v)+(a*3.35+v):classifier=default|(a*0.05+1*v)+(a*3.35+v):classifier=Fire|(a*0.05+1*v)+(a*3.35+v):classifier=Ice|(a*0.05+1*v)+(a*3.35+v):classifier=Earth|(a*0.05+1*v)+(a*3.35+v):classifier=Water|(a*0.05+1*v)+(a*3.35+v):classifier=Wind|(a*0.05+1*v)+(a*3.35+v):classifier=Arcane|(a*0.05+1*v)+(a*3.35+v):classifier=Dark|(a*0.05+1*v)+(a*2.85+v):classifier=Void'
+      Wolf-damage: '(a*0.05+1*v)+(a*2.35+v)'
+      Wolf-health: '(a*0.05+1*v)+(a*2.35+v)'
+      Heal-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(a*0.05+1*v)+(a*2.35+v):type=Health'
+      Mana-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Percent|(-a*0.05+1*v)+(-a*0.95+v):icon-key=Subtract|(a*0.05+1*v)+(a*0.95+v):type=Mana'
       #NONPREMIUM:Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|(a*0.025+1*v)+(a*1.35+v):type=Damage
     target:  {}
   stats: 
@@ -220,8 +220,8 @@ arcan:
   icon-lore: 
   - '&3Arcan &7(&2{amount}&7)'
   - ''
-  - '&6Grants 5% increased arcane damage,'
-  - '&64% offensive spell power'
+  - '&6Grants 8% increased arcane damage,'
+  - '&66% offensive spell power'
   - '&60.15% true damage'
   - '&61% exp gain'
   - '&6per point invested.'
@@ -229,7 +229,7 @@ arcan:
   global: 
     condition:  {}
     mechanic:
-      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0015+1*v)+(a*0.38+v):classifier=True|(a*0.05+1*v)+(a*3.25+v):classifier=Arcane|(a*0.04+1*v)+(a*3.0+v):classifier=Fire|(a*0.04+1*v)+(a*3.0+v):classifier=Ice|(a*0.04+1*v)+(a*3.0+v):classifier=Earth|(a*0.04+1*v)+(a*3.0+v):classifier=Water|(a*0.04+1*v)+(a*3.0+v):classifier=Wind|(a*0.04+1*v)+(a*3.0+v):classifier=Dark|(a*0.03+1*v)+(a*3.0+v):classifier=Void'    
+      Damage-value: 'a*0+1*v:icon-key=Constant|a*0+1*v:type=Multiplier|a*0+1*v:type=Percent Left|a*0+1*v:type=Percent Missing|a*0+1*v:classifier=Physical|(a*0.0015+1*v)+(a*0.38+v):classifier=True|(a*0.08+1*v)+(a*3.25+v):classifier=Arcane|(a*0.06+1*v)+(a*3.0+v):classifier=Fire|(a*0.06+1*v)+(a*3.0+v):classifier=Ice|(a*0.06+1*v)+(a*3.0+v):classifier=Earth|(a*0.06+1*v)+(a*3.0+v):classifier=Water|(a*0.06+1*v)+(a*3.0+v):classifier=Wind|(a*0.06+1*v)+(a*3.0+v):classifier=Dark|(a*0.06+1*v)+(a*3.0+v):classifier=Void'    
     target:  {}
   stats: 
     exp: 'a*0.01+1*v'
@@ -243,6 +243,8 @@ nobleness:
   - ''
   - '&6Grants 0.7% increased total defense'
   - '&65% health'
+  - '&65% armor and'
+  - '&60.3% armor toughness'
   - '&6per point invested.'
   - '&6Grants health related bonuses.'
   global: 
@@ -253,3 +255,5 @@ nobleness:
     health: '(a*0.05+1*v)'
     skill-defense: '-a*0.007+1*v'
     physical-defense: '-a*0.007+1*v'
+    armor-toughness: 'a*0.003+1*v'
+    armor: 'a*0.05+1*v'
